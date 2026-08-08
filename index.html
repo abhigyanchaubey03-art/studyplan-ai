@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" onerror="window.__sbLoadFailed=true"></script>
 <title>StudyPlan AI</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#12181f">
@@ -360,7 +360,20 @@ tabs.forEach(b=>b.addEventListener('click', ()=>{
 /* ---------- Supabase (Groups) ---------- */
 const SUPABASE_URL = 'https://mchglusthfhhbqcozfxr.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_qX1-Bbk6MdxQWplnHD0Q9Q_TF-tFrg_';
-const sb = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY) : null;
+let sb = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY) : null;
+
+// Lazily (re)create the client if the library loaded late, with a short retry window.
+async function getClient(){
+  if(sb) return sb;
+  for(let i=0;i<20;i++){ // retry for up to ~4 seconds
+    if(window.supabase){
+      sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+      return sb;
+    }
+    await new Promise(r=>setTimeout(r,200));
+  }
+  throw new Error('Could not load the connection library (Supabase). This can happen if "Data Saver" / "Lite mode" is on in your browser, or a network filter is blocking cdn.jsdelivr.net. Try turning those off and reload the page.');
+}
 let myGroup = null; // {id, name, code}
 
 function genCode(){
@@ -370,11 +383,11 @@ function genCode(){
 }
 
 async function ensureAuth(){
-  if(!sb) return null;
-  const { data: { session } } = await sb.auth.getSession();
+  const client = await getClient();
+  const { data: { session } } = await client.auth.getSession();
   if(session) return session.user;
-  const { data, error } = await sb.auth.signInAnonymously();
-  if(error){ console.error(error); return null; }
+  const { data, error } = await client.auth.signInAnonymously();
+  if(error){ console.error(error); throw error; }
   return data.user;
 }
 
@@ -388,7 +401,9 @@ document.getElementById('createGroupBtn').addEventListener('click', async ()=>{
   const name = document.getElementById('groupName').value.trim();
   if(!name){ msg.textContent='Enter a group name first.'; return; }
   msg.textContent='Creating...';
-  const user = await ensureAuth();
+  let user;
+  try{ user = await ensureAuth(); }
+  catch(e){ msg.textContent='Sign-in failed: '+(e.message||e); return; }
   if(!user){ msg.textContent='Could not connect. Check your internet and try again.'; return; }
   const displayName = 'Student ' + user.id.slice(0,4);
   await ensureProfile(user, displayName);
@@ -406,7 +421,9 @@ document.getElementById('joinGroupBtn').addEventListener('click', async ()=>{
   const code = document.getElementById('joinCode').value.trim().toUpperCase();
   if(code.length!==6){ msg.textContent='Enter the 6-character code.'; return; }
   msg.textContent='Joining...';
-  const user = await ensureAuth();
+  let user;
+  try{ user = await ensureAuth(); }
+  catch(e){ msg.textContent='Sign-in failed: '+(e.message||e); return; }
   if(!user){ msg.textContent='Could not connect. Check your internet and try again.'; return; }
   const { data: group, error: gErr } = await sb.from('groups').select('*').eq('code', code).single();
   if(gErr || !group){ msg.textContent='No group found with that code.'; return; }
