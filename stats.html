@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Stats — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c1119; --surface:#141b26; --surface-2:#1c2531; --surface-3:#232e3c; --line:#28323f;
+    --text:#e9edf3; --text-dim:#8d99a8; --text-faint:#5d6a7a;
+    --bio:#5fb98c; --bio-dim:#5fb98c26;
+    --phy:#6b9fdb; --phy-dim:#6b9fdb26;
+    --chem:#d99a5c; --chem-dim:#d99a5c26;
+    --correct:#5fb98c; --incorrect:#e0716b;
+    --radius:14px; --radius-sm:9px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif; -webkit-font-smoothing:antialiased;}
+  body{min-height:100vh; padding-bottom:48px;}
+  a{color:inherit; text-decoration:none;}
+  button{font-family:inherit; cursor:pointer;}
+
+  header{
+    position:sticky; top:0; z-index:20; background:rgba(12,17,25,.92); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line); padding:14px 18px;
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .back-link{display:flex; align-items:center; gap:8px; color:var(--text-dim); font-size:14px; font-weight:500;}
+  .back-link svg{width:18px; height:18px;}
+  .brand{font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; letter-spacing:.2px;}
+  .brand em{font-style:normal; color:#6b9fdb;}
+
+  main{max-width:760px; margin:0 auto; padding:22px 16px 0;}
+
+  h2.section-title{font-family:'Source Serif 4',serif; font-size:15px; font-weight:600; color:var(--text-dim); letter-spacing:.3px; margin-bottom:14px;}
+
+  /* ---------- overall summary ---------- */
+  .overall{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:28px;}
+  .overall-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm); padding:15px;}
+  .overall-card .num{font-family:'Source Serif 4',serif; font-size:26px; font-weight:600;}
+  .overall-card .label{font-size:11.5px; color:var(--text-faint); margin-top:3px;}
+
+  /* ---------- subject comparison ---------- */
+  .subject-compare{display:flex; flex-direction:column; gap:12px; margin-bottom:30px;}
+  .subj-row{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:16px 17px;}
+  .subj-row-top{display:flex; align-items:center; justify-content:space-between; margin-bottom:10px;}
+  .subj-name{display:flex; align-items:center; gap:9px; font-size:14.5px; font-weight:600;}
+  .subj-name .dot{width:9px; height:9px; border-radius:50%;}
+  .subj-row[data-subject="Biology"] .dot{background:var(--bio);}
+  .subj-row[data-subject="Physics"] .dot{background:var(--phy);}
+  .subj-row[data-subject="Chemistry"] .dot{background:var(--chem);}
+  .subj-acc{font-family:'JetBrains Mono',monospace; font-size:15px; font-weight:600;}
+  .subj-meta{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-faint); margin-bottom:9px;}
+  .bar-track{height:8px; background:var(--surface-3); border-radius:5px; overflow:hidden;}
+  .bar-fill{height:100%; border-radius:5px; transition:width .4s ease;}
+  .subj-row[data-subject="Biology"] .bar-fill{background:var(--bio);}
+  .subj-row[data-subject="Physics"] .bar-fill{background:var(--phy);}
+  .subj-row[data-subject="Chemistry"] .bar-fill{background:var(--chem);}
+
+  /* ---------- weak chapters ---------- */
+  .weak-list{display:flex; flex-direction:column; gap:8px; margin-bottom:30px;}
+  .weak-item{
+    display:flex; align-items:center; justify-content:space-between; gap:10px;
+    background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm);
+    padding:12px 14px;
+  }
+  .weak-item .left{display:flex; align-items:center; gap:10px; min-width:0;}
+  .weak-item .dot{width:7px; height:7px; border-radius:50%; flex-shrink:0;}
+  .weak-item[data-subject="Biology"] .dot{background:var(--bio);}
+  .weak-item[data-subject="Physics"] .dot{background:var(--phy);}
+  .weak-item[data-subject="Chemistry"] .dot{background:var(--chem);}
+  .weak-item .name{font-size:13.5px; font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .weak-item .sub{font-size:11px; color:var(--text-faint); font-family:'JetBrains Mono',monospace;}
+  .weak-item .acc{font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:600; flex-shrink:0;}
+  .weak-item .go-btn{
+    flex-shrink:0; background:var(--surface-2); border:1px solid var(--line); color:var(--text-dim);
+    font-size:11.5px; font-weight:600; padding:7px 11px; border-radius:999px;
+  }
+
+  .empty-state{text-align:center; padding:60px 20px; color:var(--text-faint); font-size:13.5px; line-height:1.6;}
+  .empty-state .big{font-family:'Source Serif 4',serif; font-size:18px; color:var(--text-dim); margin-bottom:8px; display:block;}
+  .empty-state a{color:var(--phy); font-weight:600;}
+
+  .hidden{display:none !important;}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="practice.html" class="back-link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+    <span>Practice</span>
+  </a>
+  <div class="brand">Studyplan<em>AI</em> · Stats</div>
+  <div style="width:56px"></div>
+</header>
+
+<main id="mainContent">
+
+  <div class="overall" id="overallGrid"></div>
+
+  <h2 class="section-title">Subject vs subject</h2>
+  <div class="subject-compare" id="subjectCompare"></div>
+
+  <h2 class="section-title" id="weakHeading">Chapters that need work</h2>
+  <div class="weak-list" id="weakList"></div>
+
+</main>
+
+<div class="empty-state hidden" id="emptyState">
+  <span class="big">No practice data yet</span>
+  Answer a few questions in <a href="practice.html">Practice</a> and your stats will show up here.
+</div>
+
+<script>
+const LS_STATS_KEY = "studyplanai_stats_v1";
+const SUBJECT_COLOR = { Biology:"var(--bio)", Physics:"var(--phy)", Chemistry:"var(--chem)" };
+const CHAPTER_NAMES = {
+  Biology: {
+    "biomolecules":"Biomolecules","breathing-and-exchange-of-gases":"Breathing & Exchange of Gases",
+    "cell-biology":"Cell Biology","chemical-coordination-and-integration":"Chemical Coordination",
+    "digestion-and-absorption":"Digestion & Absorption","ecology":"Ecology","evolution":"Evolution",
+    "excretory-products-and-their-elimination":"Excretory Products","genetics":"Genetics",
+    "human-circulation":"Human Circulation","human-health-and-disease":"Human Health & Disease",
+    "human-reproduction":"Human Reproduction","neural-control-and-coordination":"Neural Control",
+    "plant-physiology":"Plant Physiology"
+  },
+  Physics: {
+    "current-electricity":"Current Electricity","electrostatics":"Electrostatics","gravitation":"Gravitation",
+    "magnetism":"Magnetism","mechanics":"Mechanics","optics":"Optics","thermodynamics":"Thermodynamics","waves":"Waves"
+  },
+  Chemistry: {
+    "chemical-bonding":"Chemical Bonding","chemical-kinetics":"Chemical Kinetics","coordination-compounds":"Coordination Compounds",
+    "electrochemistry":"Electrochemistry","equilibrium":"Equilibrium","organic-basics":"Organic Basics",
+    "periodic-table":"Periodic Table","redox-reactions":"Redox Reactions","solutions":"Solutions"
+  }
+};
+
+function loadStats(){ try{ return JSON.parse(localStorage.getItem(LS_STATS_KEY)) || {}; }catch(e){ return {}; } }
+
+function computeSubjectTotals(stats, subject){
+  const chapters = stats[subject] || {};
+  let attempted = 0, correct = 0;
+  Object.values(chapters).forEach(c => { attempted += c.attempted; correct += c.correct; });
+  return { attempted, correct, accuracy: attempted > 0 ? Math.round((correct/attempted)*100) : null };
+}
+
+function render(){
+  const stats = loadStats();
+  const subjects = ["Biology","Physics","Chemistry"];
+  const totals = {};
+  let grandAttempted = 0, grandCorrect = 0;
+  subjects.forEach(s => { totals[s] = computeSubjectTotals(stats, s); grandAttempted += totals[s].attempted; grandCorrect += totals[s].correct; });
+
+  if(grandAttempted === 0){
+    document.getElementById("mainContent").classList.add("hidden");
+    document.getElementById("emptyState").classList.remove("hidden");
+    return;
+  }
+
+  // overall cards
+  const overallGrid = document.getElementById("overallGrid");
+  const overallAcc = Math.round((grandCorrect/grandAttempted)*100);
+  overallGrid.innerHTML = `
+    <div class="overall-card"><div class="num">${grandAttempted}</div><div class="label">questions attempted</div></div>
+    <div class="overall-card"><div class="num">${overallAcc}%</div><div class="label">overall accuracy</div></div>
+  `;
+
+  // subject comparison, sorted by attempted desc so the most-practiced subject leads
+  const compareWrap = document.getElementById("subjectCompare");
+  compareWrap.innerHTML = "";
+  subjects.slice().sort((a,b) => totals[b].attempted - totals[a].attempted).forEach(subj => {
+    const t = totals[subj];
+    const row = document.createElement("div");
+    row.className = "subj-row";
+    row.dataset.subject = subj;
+    row.innerHTML = `
+      <div class="subj-row-top">
+        <div class="subj-name"><span class="dot"></span>${subj}</div>
+        <div class="subj-acc">${t.accuracy === null ? "—" : t.accuracy + "%"}</div>
+      </div>
+      <div class="subj-meta">${t.attempted} answered · ${t.correct} correct</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${t.accuracy || 0}%"></div></div>
+    `;
+    compareWrap.appendChild(row);
+  });
+
+  // weakest chapters (attempted >= 3, sorted by lowest accuracy)
+  const weakWrap = document.getElementById("weakList");
+  let allChapters = [];
+  subjects.forEach(subj => {
+    const chapters = stats[subj] || {};
+    Object.entries(chapters).forEach(([slug, c]) => {
+      if(c.attempted >= 3){
+        allChapters.push({
+          subject: subj, slug,
+          name: (CHAPTER_NAMES[subj] && CHAPTER_NAMES[subj][slug]) || slug,
+          attempted: c.attempted, correct: c.correct,
+          accuracy: Math.round((c.correct/c.attempted)*100)
+        });
+      }
+    });
+  });
+  allChapters.sort((a,b) => a.accuracy - b.accuracy);
+
+  if(allChapters.length === 0){
+    document.getElementById("weakHeading").textContent = "Keep going";
+    weakWrap.innerHTML = `<div class="empty-state" style="padding:24px 4px;">Answer at least 3 questions in a chapter to see it ranked here.</div>`;
+  }else{
+    weakWrap.innerHTML = "";
+    allChapters.slice(0, 6).forEach(c => {
+      const item = document.createElement("div");
+      item.className = "weak-item";
+      item.dataset.subject = c.subject;
+      item.innerHTML = `
+        <div class="left">
+          <span class="dot"></span>
+          <div>
+            <div class="name">${c.name}</div>
+            <div class="sub">${c.subject} · ${c.correct}/${c.attempted} correct</div>
+          </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px; flex-shrink:0;">
+          <div class="acc" style="color:${c.accuracy < 50 ? 'var(--incorrect)' : 'var(--text)'}">${c.accuracy}%</div>
+          <a class="go-btn" href="practice.html?subject=${encodeURIComponent(c.subject)}&chapter=${encodeURIComponent(c.slug)}">Practice</a>
+        </div>
+      `;
+      weakWrap.appendChild(item);
+    });
+  }
+}
+
+render();
+</script>
+</body>
+</html>

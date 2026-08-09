@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Practice — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c1119;
+    --surface:#141b26;
+    --surface-2:#1c2531;
+    --surface-3:#232e3c;
+    --line:#28323f;
+    --text:#e9edf3;
+    --text-dim:#8d99a8;
+    --text-faint:#5d6a7a;
+    --bio:#5fb98c;      --bio-dim:#5fb98c26;
+    --phy:#6b9fdb;      --phy-dim:#6b9fdb26;
+    --chem:#d99a5c;     --chem-dim:#d99a5c26;
+    --correct:#5fb98c;  --correct-bg:#5fb98c1a;
+    --incorrect:#e0716b;--incorrect-bg:#e0716b1a;
+    --accent: var(--phy);
+    --accent-dim: var(--phy-dim);
+    --radius:14px;
+    --radius-sm:9px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif; -webkit-font-smoothing:antialiased;}
+  body{min-height:100vh; padding-bottom:48px;}
+  a{color:inherit; text-decoration:none;}
+  button{font-family:inherit; cursor:pointer;}
+  input{font-family:inherit;}
+  ::selection{background:var(--accent-dim);}
+
+  header{
+    position:sticky; top:0; z-index:20;
+    background:rgba(12,17,25,.92); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+    padding:14px 18px;
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .back-link{display:flex; align-items:center; gap:8px; color:var(--text-dim); font-size:14px; font-weight:500;}
+  .back-link svg{width:18px; height:18px;}
+  .brand{font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; letter-spacing:.2px;}
+  .brand em{font-style:normal; color:var(--accent);}
+  .header-right{display:flex; align-items:center; gap:8px;}
+  .stats-link{
+    font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-dim);
+    background:var(--surface-2); border:1px solid var(--line);
+    padding:6px 11px; border-radius:999px; white-space:nowrap; display:flex; align-items:center; gap:5px;
+  }
+  .streak-pill{
+    font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--text-dim);
+    background:var(--surface-2); border:1px solid var(--line);
+    padding:6px 11px; border-radius:999px; white-space:nowrap;
+  }
+
+  main{max-width:760px; margin:0 auto; padding:20px 16px 0;}
+
+  /* ---------- resume card ---------- */
+  .resume-card{
+    display:none;
+    background:linear-gradient(135deg, var(--surface-2), var(--surface));
+    border:1px solid var(--accent); border-radius:var(--radius);
+    padding:16px 17px; margin-bottom:20px;
+    align-items:center; justify-content:space-between; gap:12px;
+  }
+  .resume-card.show{display:flex;}
+  .resume-card .info .eyebrow{font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.07em; color:var(--accent);}
+  .resume-card .info .title{font-size:14.5px; font-weight:600; margin-top:3px;}
+  .resume-card .info .sub{font-size:12px; color:var(--text-faint); margin-top:2px;}
+  .resume-btn{
+    flex-shrink:0; background:var(--accent); color:#0c1119; border:none;
+    font-size:13px; font-weight:700; padding:10px 16px; border-radius:999px;
+  }
+
+  .search-wrap{position:relative; margin-bottom:16px;}
+  .search-wrap input{
+    width:100%; background:var(--surface); border:1px solid var(--line); color:var(--text);
+    padding:11px 14px 11px 38px; border-radius:999px; font-size:13.5px;
+  }
+  .search-wrap input:focus{outline:none; border-color:var(--accent);}
+  .search-wrap svg{position:absolute; left:13px; top:50%; transform:translateY(-50%); width:16px; height:16px; color:var(--text-faint);}
+
+  /* ---------- subject tabs ---------- */
+  .subject-tabs{display:flex; gap:8px; margin-bottom:22px; overflow-x:auto; padding-bottom:2px;}
+  .subject-tab{
+    flex:1; min-width:0; background:var(--surface); border:1px solid var(--line);
+    border-radius:var(--radius-sm); padding:12px 10px;
+    display:flex; flex-direction:column; align-items:flex-start; gap:6px;
+    transition:border-color .15s, background .15s;
+  }
+  .subject-tab .dot{width:8px; height:8px; border-radius:50%;}
+  .subject-tab .label{font-size:13.5px; font-weight:600; color:var(--text);}
+  .subject-tab .count{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-faint);}
+  .subject-tab[data-subject="Biology"] .dot{background:var(--bio);}
+  .subject-tab[data-subject="Physics"] .dot{background:var(--phy);}
+  .subject-tab[data-subject="Chemistry"] .dot{background:var(--chem);}
+  .subject-tab.active{background:var(--surface-2); border-color:var(--accent);}
+
+  .section-head{display:flex; align-items:baseline; justify-content:space-between; margin-bottom:12px;}
+  .section-head h2{font-family:'Source Serif 4',serif; font-size:15px; font-weight:600; color:var(--text-dim); letter-spacing:.3px;}
+  .section-head .hint{font-size:11.5px; color:var(--text-faint);}
+
+  .chapter-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:28px;}
+  .chapter-card{
+    background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm);
+    padding:13px 14px; text-align:left; position:relative; overflow:hidden;
+    transition:transform .12s, border-color .12s;
+  }
+  .chapter-card:active{transform:scale(.98);}
+  .chapter-card::before{content:''; position:absolute; left:0; top:0; bottom:0; width:3px; background:var(--accent);}
+  .chapter-card .name{font-size:13.5px; font-weight:600; line-height:1.35; color:var(--text); padding-right:4px;}
+  .chapter-card .meta{margin-top:8px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--text-faint); display:flex; justify-content:space-between;}
+  .chapter-card .prog-bar{height:3px; background:var(--surface-3); border-radius:2px; margin-top:8px; overflow:hidden;}
+  .chapter-card .prog-fill{height:100%; background:var(--accent); width:0%;}
+  .chapter-card.no-match{display:none;}
+
+  .filter-bar{display:flex; gap:8px; overflow-x:auto; margin-bottom:16px; padding-bottom:2px;}
+  .filter-chip{
+    flex-shrink:0; background:var(--surface); border:1px solid var(--line); color:var(--text-dim);
+    font-size:12.5px; font-weight:500; padding:7px 13px; border-radius:999px; white-space:nowrap;
+  }
+  .filter-chip.active{background:var(--accent-dim); border-color:var(--accent); color:var(--text);}
+
+  .quiz-topbar{display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;}
+  .chapter-title-block .eyebrow{font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--accent); text-transform:uppercase; letter-spacing:.08em;}
+  .chapter-title-block h1{font-family:'Source Serif 4',serif; font-size:19px; font-weight:600; margin-top:2px;}
+  .exit-btn{background:var(--surface); border:1px solid var(--line); color:var(--text-dim); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center;}
+
+  .q-nav{display:flex; gap:6px; overflow-x:auto; padding:2px 2px 10px; margin-bottom:8px;}
+  .q-nav button{
+    flex-shrink:0; width:34px; height:34px; border-radius:50%;
+    background:var(--surface); border:1px solid var(--line); color:var(--text-dim);
+    font-size:12px; font-weight:600; font-family:'JetBrains Mono',monospace;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .q-nav button.current{border-color:var(--accent); color:var(--text); background:var(--accent-dim);}
+  .q-nav button.answered.correct-mark{background:var(--correct-bg); border-color:var(--correct); color:var(--correct);}
+  .q-nav button.answered.incorrect-mark{background:var(--incorrect-bg); border-color:var(--incorrect); color:var(--incorrect);}
+
+  .q-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:20px 18px 18px; margin-bottom:16px; position:relative;}
+  .q-tags{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;}
+  .q-tag{font-family:'JetBrains Mono',monospace; font-size:10px; padding:3px 8px; border-radius:5px; background:var(--surface-3); color:var(--text-faint); text-transform:uppercase; letter-spacing:.04em;}
+  .q-tag.diff-easy{color:var(--correct);}
+  .q-tag.diff-medium{color:var(--chem);}
+  .q-tag.diff-hard{color:var(--incorrect);}
+  .q-text{font-size:15.5px; line-height:1.55; font-weight:500; color:var(--text); margin-bottom:16px;}
+  .q-text .qnum{color:var(--accent); font-family:'JetBrains Mono',monospace; margin-right:6px;}
+
+  .options{display:flex; flex-direction:column; gap:9px;}
+  .option{
+    display:flex; align-items:center; gap:11px;
+    background:var(--surface-2); border:1px solid var(--line); border-radius:var(--radius-sm);
+    padding:12px 13px; text-align:left; font-size:14px; color:var(--text); line-height:1.4;
+    transition:border-color .12s, background .12s; width:100%;
+  }
+  .option:active{background:var(--surface-3);}
+  .option .letter{flex-shrink:0; width:24px; height:24px; border-radius:50%; background:var(--surface-3); display:flex; align-items:center; justify-content:center; font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:600; color:var(--text-dim);}
+  .option.reveal-correct{background:var(--correct-bg); border-color:var(--correct);}
+  .option.reveal-correct .letter{background:var(--correct); color:#0c1119;}
+  .option.reveal-incorrect{background:var(--incorrect-bg); border-color:var(--incorrect);}
+  .option.reveal-incorrect .letter{background:var(--incorrect); color:#0c1119;}
+  .option.disabled-option{pointer-events:none;}
+  .option.dim{opacity:.5;}
+
+  .solution{margin-top:16px; padding-top:16px; border-top:1px dashed var(--line); display:none;}
+  .solution.show{display:block;}
+  .sol-block{margin-bottom:12px;}
+  .sol-block:last-child{margin-bottom:0;}
+  .sol-label{font-family:'JetBrains Mono',monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-faint); margin-bottom:5px; display:flex; align-items:center; gap:6px;}
+  .sol-label.why{color:var(--correct);}
+  .sol-label.wrong{color:var(--incorrect);}
+  .sol-label.concept{color:var(--accent);}
+  .sol-text{font-size:13.5px; line-height:1.55; color:var(--text-dim);}
+  .ncert-ref{display:inline-flex; align-items:center; gap:5px; margin-top:14px; font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-faint); background:var(--surface-2); padding:5px 10px; border-radius:6px; border:1px solid var(--line);}
+
+  .q-footer-nav{display:flex; gap:10px; margin-bottom:32px;}
+  .nav-btn{flex:1; padding:13px; border-radius:var(--radius-sm); font-size:13.5px; font-weight:600; background:var(--surface); border:1px solid var(--line); color:var(--text); display:flex; align-items:center; justify-content:center; gap:6px;}
+  .nav-btn.primary{background:var(--accent); border-color:var(--accent); color:#0c1119;}
+  .nav-btn:disabled{opacity:.35;}
+
+  .state-msg{text-align:center; padding:50px 20px; color:var(--text-faint); font-size:13.5px; line-height:1.6;}
+  .state-msg .big{font-family:'Source Serif 4',serif; font-size:17px; color:var(--text-dim); margin-bottom:8px; display:block;}
+  .spinner{width:22px; height:22px; border-radius:50%; border:2px solid var(--line); border-top-color:var(--accent); margin:0 auto 14px; animation:spin .7s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  .hidden{display:none !important;}
+
+  @media (min-width:520px){ .chapter-grid{grid-template-columns:1fr 1fr 1fr;} }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+    <span>Plan</span>
+  </a>
+  <div class="brand">Studyplan<em>AI</em> · Practice</div>
+  <div class="header-right">
+    <a href="stats.html" class="stats-link">📊 Stats</a>
+    <div class="streak-pill" id="scorePill">0 / 0 today</div>
+  </div>
+</header>
+
+<main>
+
+  <section id="subjectView">
+
+    <div class="resume-card" id="resumeCard">
+      <div class="info">
+        <div class="eyebrow" id="resumeSubject">Biology</div>
+        <div class="title" id="resumeChapter">Genetics</div>
+        <div class="sub" id="resumeSub">Question 4 of 25</div>
+      </div>
+      <button class="resume-btn" id="resumeBtn">Continue</button>
+    </div>
+
+    <div class="subject-tabs" id="subjectTabs"></div>
+
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" id="chapterSearch" placeholder="Search chapters…">
+    </div>
+
+    <div class="section-head">
+      <h2 id="chapterHeading">Biology chapters</h2>
+      <span class="hint" id="chapterHint">tap a chapter to begin</span>
+    </div>
+    <div class="chapter-grid" id="chapterGrid"></div>
+  </section>
+
+  <section id="quizView" class="hidden">
+    <div class="quiz-topbar">
+      <div class="chapter-title-block">
+        <div class="eyebrow" id="quizSubjectLabel">Biology</div>
+        <h1 id="quizChapterLabel">Chapter</h1>
+      </div>
+      <button class="exit-btn" id="exitQuiz" aria-label="Exit">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-chip active" data-filter-type="all">All</button>
+      <button class="filter-chip" data-filter-type="PYQ">PYQ</button>
+      <button class="filter-chip" data-filter-type="easy">Easy</button>
+      <button class="filter-chip" data-filter-type="medium">Medium</button>
+      <button class="filter-chip" data-filter-type="hard">Hard</button>
+    </div>
+
+    <div class="q-nav" id="qNav"></div>
+    <div id="quizBody"></div>
+  </section>
+
+  <div id="loadingState" class="state-msg hidden">
+    <div class="spinner"></div>
+    Loading questions…
+  </div>
+
+  <div id="emptyState" class="state-msg hidden">
+    <span class="big">No questions found</span>
+    Check that the JSON file exists at the expected path and matches the folder casing in your repo.
+  </div>
+
+</main>
+
+<script>
+/* =========================================================
+   CONFIG — edit here if your repo's folder names differ.
+   Current: Question/Biology/<slug>.json, Question/Physics/..., Question/Chemistry/...
+   ========================================================= */
+const BASE_PATH = "Question";
+
+const SUBJECTS = {
+  Biology: { folder:"Biology", chapters:[
+    ["biomolecules","Biomolecules"],
+    ["breathing-and-exchange-of-gases","Breathing & Exchange of Gases"],
+    ["cell-biology","Cell Biology"],
+    ["chemical-coordination-and-integration","Chemical Coordination"],
+    ["digestion-and-absorption","Digestion & Absorption"],
+    ["ecology","Ecology"],
+    ["evolution","Evolution"],
+    ["excretory-products-and-their-elimination","Excretory Products"],
+    ["genetics","Genetics"],
+    ["human-circulation","Human Circulation"],
+    ["human-health-and-disease","Human Health & Disease"],
+    ["human-reproduction","Human Reproduction"],
+    ["neural-control-and-coordination","Neural Control"],
+    ["plant-physiology","Plant Physiology"]
+  ]},
+  Physics: { folder:"Physics", chapters:[
+    ["current-electricity","Current Electricity"],
+    ["electrostatics","Electrostatics"],
+    ["gravitation","Gravitation"],
+    ["magnetism","Magnetism"],
+    ["mechanics","Mechanics"],
+    ["optics","Optics"],
+    ["thermodynamics","Thermodynamics"],
+    ["waves","Waves"]
+  ]},
+  Chemistry: { folder:"Chemistry", chapters:[
+    ["chemical-bonding","Chemical Bonding"],
+    ["chemical-kinetics","Chemical Kinetics"],
+    ["coordination-compounds","Coordination Compounds"],
+    ["electrochemistry","Electrochemistry"],
+    ["equilibrium","Equilibrium"],
+    ["organic-basics","Organic Basics"],
+    ["periodic-table","Periodic Table"],
+    ["redox-reactions","Redox Reactions"],
+    ["solutions","Solutions"]
+  ]}
+};
+
+/* localStorage keys — shared with stats.html */
+const LS_STATS_KEY = "studyplanai_stats_v1";   // per-subject/chapter attempted+correct+total
+const LS_SCORE_KEY = "studyplanai_score_v1";   // daily correct/total for the header pill
+const LS_LAST_KEY  = "studyplanai_last_v1";    // resume position
+
+let state = {
+  subject:"Biology", chapterSlug:null, chapterName:null,
+  questions:[], filtered:[], filter:"all", currentIndex:0, answers:{}
+};
+
+function loadStats(){ try{ return JSON.parse(localStorage.getItem(LS_STATS_KEY)) || {}; }catch(e){ return {}; } }
+function saveStats(s){ localStorage.setItem(LS_STATS_KEY, JSON.stringify(s)); }
+function chapterStat(subject, slug){
+  const s = loadStats();
+  if(!s[subject]) s[subject] = {};
+  if(!s[subject][slug]) s[subject][slug] = {attempted:0, correct:0, total:0};
+  return s[subject][slug];
+}
+function updateChapterStat(subject, slug, patch){
+  const s = loadStats();
+  if(!s[subject]) s[subject] = {};
+  if(!s[subject][slug]) s[subject][slug] = {attempted:0, correct:0, total:0};
+  Object.assign(s[subject][slug], patch);
+  saveStats(s);
+}
+
+function todayKey(){ const d=new Date(); return `${d.getFullYear()}-${d.getMonth()+1}-${d.getDate()}`; }
+function bumpDailyScore(correct){
+  let s; try{ s = JSON.parse(localStorage.getItem(LS_SCORE_KEY)) || {}; }catch(e){ s = {}; }
+  const tk = todayKey();
+  if(!s[tk]) s[tk] = {correct:0, total:0};
+  s[tk].total++; if(correct) s[tk].correct++;
+  localStorage.setItem(LS_SCORE_KEY, JSON.stringify(s));
+  renderScorePill();
+}
+function renderScorePill(){
+  let s; try{ s = JSON.parse(localStorage.getItem(LS_SCORE_KEY)) || {}; }catch(e){ s = {}; }
+  const t = s[todayKey()] || {correct:0,total:0};
+  document.getElementById("scorePill").textContent = `${t.correct} / ${t.total} today`;
+}
+
+function saveLastPosition(){
+  localStorage.setItem(LS_LAST_KEY, JSON.stringify({
+    subject: state.subject, slug: state.chapterSlug, name: state.chapterName,
+    index: state.currentIndex, filter: state.filter,
+    answeredCount: Object.keys(state.answers).length, total: state.questions.length
+  }));
+}
+function renderResumeCard(){
+  let last; try{ last = JSON.parse(localStorage.getItem(LS_LAST_KEY)); }catch(e){ last = null; }
+  const card = document.getElementById("resumeCard");
+  if(!last || !last.slug){ card.classList.remove("show"); return; }
+  document.getElementById("resumeSubject").textContent = last.subject;
+  document.getElementById("resumeChapter").textContent = last.name;
+  document.getElementById("resumeSub").textContent = `Question ${Math.min(last.index+1, last.total)} of ${last.total} · ${last.answeredCount} answered`;
+  card.classList.add("show");
+  card.dataset.subject = last.subject;
+  card.dataset.slug = last.slug;
+  card.dataset.name = last.name;
+}
+document.getElementById("resumeBtn").addEventListener("click", () => {
+  const card = document.getElementById("resumeCard");
+  openChapter(card.dataset.subject, card.dataset.slug, card.dataset.name);
+});
+
+/* ---------------- subject tabs + chapter grid ---------------- */
+function accentVars(subject){
+  return {
+    accent: subject === "Biology" ? "var(--bio)" : subject === "Physics" ? "var(--phy)" : "var(--chem)",
+    dim:    subject === "Biology" ? "var(--bio-dim)" : subject === "Physics" ? "var(--phy-dim)" : "var(--chem-dim)"
+  };
+}
+
+function renderSubjectTabs(){
+  const wrap = document.getElementById("subjectTabs");
+  wrap.innerHTML = "";
+  Object.keys(SUBJECTS).forEach(subj => {
+    const btn = document.createElement("button");
+    btn.className = "subject-tab" + (subj === state.subject ? " active" : "");
+    btn.dataset.subject = subj;
+    btn.innerHTML = `<span class="dot"></span><span class="label">${subj}</span><span class="count">${SUBJECTS[subj].chapters.length} chapters</span>`;
+    btn.addEventListener("click", () => {
+      state.subject = subj;
+      renderSubjectTabs();
+      renderChapterGrid();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+function renderChapterGrid(){
+  document.getElementById("chapterHeading").textContent = `${state.subject} chapters`;
+  const grid = document.getElementById("chapterGrid");
+  grid.innerHTML = "";
+  const stats = loadStats();
+  const subjStats = stats[state.subject] || {};
+
+  SUBJECTS[state.subject].chapters.forEach(([slug, name]) => {
+    const card = document.createElement("button");
+    card.className = "chapter-card";
+    card.dataset.name = name.toLowerCase();
+    const st = subjStats[slug] || {attempted:0, total:0};
+    const pct = st.total > 0 ? Math.min(100, (st.attempted / st.total) * 100) : 0;
+
+    card.innerHTML = `
+      <div class="name">${name}</div>
+      <div class="meta"><span>${st.attempted > 0 ? st.attempted + " answered" : "not started"}</span></div>
+      <div class="prog-bar"><div class="prog-fill" style="width:${pct}%"></div></div>
+    `;
+    card.addEventListener("click", () => openChapter(state.subject, slug, name));
+    grid.appendChild(card);
+  });
+  applySearchFilter();
+}
+
+document.getElementById("chapterSearch").addEventListener("input", applySearchFilter);
+function applySearchFilter(){
+  const q = document.getElementById("chapterSearch").value.trim().toLowerCase();
+  document.querySelectorAll("#chapterGrid .chapter-card").forEach(card => {
+    card.classList.toggle("no-match", q && !card.dataset.name.includes(q));
+  });
+}
+
+/* ---------------- fetch + open a chapter ---------------- */
+async function openChapter(subject, slug, name){
+  document.getElementById("subjectView").classList.add("hidden");
+  document.getElementById("quizView").classList.add("hidden");
+  document.getElementById("emptyState").classList.add("hidden");
+  document.getElementById("loadingState").classList.remove("hidden");
+
+  const folder = SUBJECTS[subject].folder;
+  const path = `${BASE_PATH}/${folder}/${slug}.json`;
+
+  try{
+    const res = await fetch(path);
+    if(!res.ok) throw new Error("404");
+    const data = await res.json();
+
+    document.getElementById("loadingState").classList.add("hidden");
+
+    state.subject = subject; state.chapterSlug = slug; state.chapterName = name;
+    state.questions = data; state.filter = "all"; state.currentIndex = 0; state.answers = {};
+
+    const {accent, dim} = accentVars(subject);
+    document.documentElement.style.setProperty("--accent", accent);
+    document.documentElement.style.setProperty("--accent-dim", dim);
+
+    document.getElementById("quizSubjectLabel").textContent = subject;
+    document.getElementById("quizChapterLabel").textContent = name;
+
+    applyFilter("all");
+    document.getElementById("quizView").classList.remove("hidden");
+    document.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+    document.querySelector('[data-filter-type="all"]').classList.add("active");
+
+    updateChapterStat(subject, slug, {total: data.length});
+    saveLastPosition();
+
+    // reflect existing answers if this chapter has partial per-question history? (not persisted per-question by design; session-only)
+    history.replaceState(null, "", `?subject=${encodeURIComponent(subject)}&chapter=${encodeURIComponent(slug)}`);
+
+  }catch(err){
+    document.getElementById("loadingState").classList.add("hidden");
+    document.getElementById("emptyState").classList.remove("hidden");
+    console.error("Failed to load", path, err);
+  }
+}
+
+/* ---------------- filtering ---------------- */
+function applyFilter(type){
+  state.filter = type;
+  document.querySelectorAll(".filter-chip").forEach(c => c.classList.toggle("active", c.dataset.filterType === type));
+  if(type === "all") state.filtered = state.questions;
+  else if(type === "PYQ") state.filtered = state.questions.filter(q => q.type === "PYQ");
+  else state.filtered = state.questions.filter(q => (q.difficulty || "").toLowerCase() === type);
+  state.currentIndex = 0;
+  renderQNav(); renderQuestion();
+}
+document.getElementById("filterBar").addEventListener("click", e => {
+  const chip = e.target.closest(".filter-chip");
+  if(chip) applyFilter(chip.dataset.filterType);
+});
+
+/* ---------------- q navigator ---------------- */
+function renderQNav(){
+  const nav = document.getElementById("qNav");
+  nav.innerHTML = "";
+  state.filtered.forEach((q, i) => {
+    const b = document.createElement("button");
+    b.textContent = i + 1;
+    b.className = i === state.currentIndex ? "current" : "";
+    const ans = state.answers[q.id];
+    if(ans) b.classList.add("answered", ans === q.answer ? "correct-mark" : "incorrect-mark");
+    b.addEventListener("click", () => { state.currentIndex = i; renderQuestion(); saveLastPosition(); });
+    nav.appendChild(b);
+  });
+}
+
+/* ---------------- question rendering ---------------- */
+function renderQuestion(){
+  const body = document.getElementById("quizBody");
+  if(state.filtered.length === 0){
+    body.innerHTML = `<div class="state-msg"><span class="big">No questions match this filter</span>Try "All" instead.</div>`;
+    return;
+  }
+  const q = state.filtered[state.currentIndex];
+  const chosen = state.answers[q.id];
+  const letters = ["A","B","C","D"];
+
+  const tagsHtml = `<div class="q-tags">
+      ${q.type ? `<span class="q-tag">${q.type}</span>` : ""}
+      ${q.difficulty ? `<span class="q-tag diff-${q.difficulty.toLowerCase()}">${q.difficulty}</span>` : ""}
+      ${q.year ? `<span class="q-tag">${q.year}</span>` : ""}
+    </div>`;
+
+  const optionsHtml = q.options.map((opt, i) => {
+    const letter = letters[i];
+    let cls = "option";
+    if(chosen){
+      cls += " disabled-option";
+      if(letter === q.answer) cls += " reveal-correct";
+      else if(letter === chosen) cls += " reveal-incorrect";
+      else cls += " dim";
+    }
+    return `<button class="${cls}" data-letter="${letter}"><span class="letter">${letter}</span><span>${opt}</span></button>`;
+  }).join("");
+
+  const solutionHtml = q.solution ? `
+    <div class="solution ${chosen ? "show" : ""}">
+      <div class="sol-block"><div class="sol-label why">✓ Why correct</div><div class="sol-text">${q.solution.why_correct || ""}</div></div>
+      <div class="sol-block"><div class="sol-label wrong">✕ Why others are wrong</div><div class="sol-text">${q.solution.why_others_wrong || ""}</div></div>
+      <div class="sol-block"><div class="sol-label concept">◆ Concept recap</div><div class="sol-text">${q.solution.concept_recap || ""}</div></div>
+      ${q.ncertRef ? `<div class="ncert-ref">📖 ${q.ncertRef}</div>` : ""}
+    </div>` : "";
+
+  body.innerHTML = `
+    <div class="q-card">
+      ${tagsHtml}
+      <div class="q-text"><span class="qnum">Q${state.currentIndex + 1}.</span>${q.question}</div>
+      <div class="options">${optionsHtml}</div>
+      ${solutionHtml}
+    </div>
+    <div class="q-footer-nav">
+      <button class="nav-btn" id="prevBtn" ${state.currentIndex === 0 ? "disabled" : ""}>← Prev</button>
+      <button class="nav-btn primary" id="nextBtn" ${state.currentIndex === state.filtered.length - 1 ? "disabled" : ""}>Next →</button>
+    </div>
+  `;
+
+  body.querySelectorAll(".option").forEach(btn => btn.addEventListener("click", () => selectAnswer(q, btn.dataset.letter)));
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  if(prevBtn) prevBtn.addEventListener("click", () => { state.currentIndex--; renderQNav(); renderQuestion(); saveLastPosition(); });
+  if(nextBtn) nextBtn.addEventListener("click", () => { state.currentIndex++; renderQNav(); renderQuestion(); saveLastPosition(); });
+}
+
+function selectAnswer(q, letter){
+  if(state.answers[q.id]) return;
+  state.answers[q.id] = letter;
+  const correct = letter === q.answer;
+  bumpDailyScore(correct);
+
+  const st = chapterStat(state.subject, state.chapterSlug);
+  updateChapterStat(state.subject, state.chapterSlug, {
+    attempted: st.attempted + 1,
+    correct: st.correct + (correct ? 1 : 0)
+  });
+
+  saveLastPosition();
+  renderQNav(); renderQuestion();
+}
+
+/* ---------------- exit quiz ---------------- */
+document.getElementById("exitQuiz").addEventListener("click", () => {
+  document.getElementById("quizView").classList.add("hidden");
+  document.getElementById("subjectView").classList.remove("hidden");
+  history.replaceState(null, "", location.pathname);
+  renderChapterGrid();
+  renderResumeCard();
+});
+
+/* ---------------- init ---------------- */
+renderSubjectTabs();
+renderChapterGrid();
+renderResumeCard();
+renderScorePill();
+
+// deep-link support: practice.html?subject=Biology&chapter=genetics
+(function initFromQuery(){
+  const p = new URLSearchParams(location.search);
+  const subj = p.get("subject"), chap = p.get("chapter");
+  if(subj && chap && SUBJECTS[subj]){
+    const found = SUBJECTS[subj].chapters.find(c => c[0] === chap);
+    if(found) openChapter(subj, chap, found[1]);
+  }
+})();
+</script>
+</body>
+</html>
