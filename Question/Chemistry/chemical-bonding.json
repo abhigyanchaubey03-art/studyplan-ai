@@ -1,0 +1,137 @@
+[
+  {
+    "id": "chem-bond-001",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "Which of the following molecules has a linear shape according to VSEPR theory?",
+    "options": [
+      "H2O",
+      "NH3",
+      "CO2",
+      "SO2"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 4, Pg 118",
+    "solution": {
+      "why_correct": "CO2 has two double bonds and no lone pairs on the central carbon atom, giving a linear geometry (bond angle 180 degrees) per VSEPR theory.",
+      "why_others_wrong": "H2O and SO2 are bent due to lone pairs on the central atom repelling bonding pairs. NH3 is pyramidal due to one lone pair on nitrogen.",
+      "concept_recap": "VSEPR shape depends on total electron domains (bonding + lone pairs) around the central atom -- lone pairs cause bending/distortion from the 'ideal' shape."
+    },
+    "year": 2022
+  },
+  {
+    "id": "chem-bond-002",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "What type of bond is formed by the complete transfer of electrons from one atom to another?",
+    "options": [
+      "Covalent bond",
+      "Ionic bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 4, Pg 108",
+    "solution": {
+      "why_correct": "An ionic bond forms when one atom completely transfers electrons to another, creating oppositely charged ions held together by electrostatic attraction.",
+      "why_others_wrong": "Covalent bonds involve sharing (not transferring) electrons. Metallic bonds involve a 'sea' of delocalized electrons. Hydrogen bonds are weak intermolecular attractions, not true bonds.",
+      "concept_recap": "Ionic = electron transfer, electrostatic attraction. Covalent = electron sharing. Know the distinction, especially for electronegativity-difference-based questions."
+    }
+  },
+  {
+    "id": "chem-bond-003",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The bond angle in NH3 is less than the bond angle in CH4. Reason (R): Lone pair-bond pair repulsion is greater than bond pair-bond pair repulsion.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 4, Pg 122",
+    "solution": {
+      "why_correct": "NH3 (107 degrees) has a smaller bond angle than CH4 (109.5 degrees) because NH3's lone pair repels bonding pairs more strongly than bond pair-bond pair repulsion in CH4, correctly explaining the angle difference.",
+      "why_others_wrong": "B, C, D are wrong since both statements are factually correct and R is the standard, direct explanation for A in VSEPR theory.",
+      "concept_recap": "VSEPR repulsion order: lone pair-lone pair > lone pair-bond pair > bond pair-bond pair. This explains bond angle deviations from ideal tetrahedral (109.5 degrees)."
+    },
+    "year": 2023
+  },
+  {
+    "id": "chem-bond-004",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which of the following has a tetrahedral molecular geometry according to VSEPR theory?",
+    "options": [
+      "BF3",
+      "CH4",
+      "H2O",
+      "NH3"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 4, Pg 115",
+    "solution": {
+      "why_correct": "CH4 has 4 bonding pairs and no lone pairs on the central carbon atom, giving a perfect tetrahedral geometry with 109.5 degree bond angles.",
+      "why_others_wrong": "BF3 is trigonal planar (3 bonding pairs, no lone pairs). H2O is bent (2 bonding pairs, 2 lone pairs). NH3 is pyramidal (3 bonding pairs, 1 lone pair) -- each has a different electron domain arrangement than CH4.",
+      "concept_recap": "VSEPR shapes by electron domains: 3 domains, no lone pair = trigonal planar (BF3). 4 domains, no lone pair = tetrahedral (CH4). 4 domains, 1 lone pair = pyramidal (NH3). 4 domains, 2 lone pairs = bent (H2O)."
+    }
+  },
+  {
+    "id": "chem-bond-005",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "According to molecular orbital theory, the bond order of the O2 molecule is:",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "3"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 4, Pg 128",
+    "solution": {
+      "why_correct": "Using molecular orbital theory, O2 has a bond order of 2, calculated as (bonding electrons - antibonding electrons)/2 = (10-6)/2 = 2, consistent with its double bond character and paramagnetic nature (2 unpaired electrons in pi* orbitals).",
+      "why_others_wrong": "A, B, and D don't match the standard MOT electron-filling calculation for O2's 16 total electrons distributed across bonding and antibonding molecular orbitals.",
+      "concept_recap": "Bond order = (Nb - Na)/2, where Nb = bonding electrons, Na = antibonding electrons. O2 bond order = 2 (double bond), and MOT correctly predicts its paramagnetism, unlike simple Lewis structures which miss this."
+    }
+  },
+  {
+    "id": "chem-bond-006",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which type of bonding is primarily responsible for the high boiling point of water compared to other molecules of similar molecular weight?",
+    "options": [
+      "Covalent bonding within the molecule",
+      "Van der Waals forces",
+      "Hydrogen bonding between molecules",
+      "Ionic bonding"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 4, Pg 125",
+    "solution": {
+      "why_correct": "Water molecules form extensive hydrogen bonds between the partially positive hydrogen of one molecule and the partially negative oxygen of another, requiring significant extra energy to break during boiling, explaining water's unusually high boiling point.",
+      "why_others_wrong": "A (covalent bonds) hold atoms together WITHIN a water molecule but don't explain intermolecular attraction between separate molecules. B (van der Waals) are much weaker than hydrogen bonds. D doesn't apply since water is a covalent, not ionic, compound.",
+      "concept_recap": "Hydrogen bonding: strong intermolecular force between H (bonded to highly electronegative N, O, or F) and a lone pair on another electronegative atom. Explains water's high boiling point, surface tension, and other anomalous properties."
+    }
+  },
+  {
+    "id": "chem-bond-007",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which of the following best describes a polar covalent bond?",
+    "options": [
+      "Equal sharing of electrons between two identical atoms",
+      "Unequal sharing of electrons due to differing electronegativities",
+      "Complete transfer of electrons from one atom to another",
+      "No sharing of electrons at all"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 4, Pg 120",
+    "solution": {
+      "why_correct": "A polar covalent bond forms when two atoms with different electronegativities share electrons unequally, creating partial positive and negative charges on the respective atoms (e.g., in H-Cl or H2O).",
+      "why_others_wrong": "A describes a nonpolar covalent bond (equal sharing, same/similar electronegativity, like in H2 or Cl2). C describes an ionic bond (complete transfer, not sharing). D doesn't describe any real bond type.",
+      "concept_recap": "Bond polarity depends on electronegativity difference: 0 = nonpolar covalent, small-moderate difference = polar covalent, large difference (typically greater than 1.7) = ionic bond."
+    }
+  }
+]

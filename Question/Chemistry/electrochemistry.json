@@ -1,0 +1,59 @@
+[
+  {
+    "id": "chem-elec-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "In a galvanic cell, oxidation occurs at the:",
+    "options": [
+      "Cathode",
+      "Anode",
+      "Salt bridge",
+      "External circuit"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 2, Pg 55",
+    "solution": {
+      "why_correct": "By convention, oxidation (loss of electrons) always occurs at the anode, whether in a galvanic (voltaic) cell or an electrolytic cell.",
+      "why_others_wrong": "Cathode is where reduction occurs, not oxidation. The salt bridge maintains ionic balance/electrical neutrality but doesn't host any redox reaction itself. The external circuit merely carries electron flow between electrodes.",
+      "concept_recap": "Mnemonic: 'AN OX' (Anode = Oxidation) and 'RED CAT' (Reduction = Cathode) -- true for both galvanic and electrolytic cells, regardless of which electrode is positive/negative."
+    }
+  },
+  {
+    "id": "chem-elec-002",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: The standard electrode potential of the standard hydrogen electrode (SHE) is defined as zero. Statement II: SHE is used as a reference to measure the standard electrode potentials of other electrodes.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 2, Pg 60",
+    "solution": {
+      "why_correct": "By international convention, the standard hydrogen electrode is assigned an electrode potential of exactly 0.00 V, and it serves as the universal reference point against which all other standard electrode potentials are measured.",
+      "why_others_wrong": "The other options are wrong since both statements are correct, standard, and foundational facts underpinning the entire electrochemical series used in NEET chemistry.",
+      "concept_recap": "SHE: Pt electrode, H2 gas at 1 atm, 1M H+ solution, 298K, potential defined as exactly 0V -- the reference for the entire standard electrode potential (electrochemical) series."
+    }
+  },
+  {
+    "id": "chem-elec-003",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "According to the Nernst equation, as the concentration of the reactant ions in a galvanic cell decreases, the cell potential (EMF):",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Becomes zero immediately"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 2, Pg 58",
+    "solution": {
+      "why_correct": "The Nernst equation shows that cell potential depends on the reaction quotient Q; as reactant concentration decreases (Q increases for a typical cell reaction), the logarithmic term increases, causing the calculated EMF to decrease from its standard value.",
+      "why_others_wrong": "A is the opposite of the actual relationship. C ignores the fundamental concentration-dependence the Nernst equation describes. D is an overstatement -- EMF decreases gradually, reaching zero only at true equilibrium, not immediately upon any concentration decrease.",
+      "concept_recap": "Nernst equation: E = E(standard) - (RT/nF) ln(Q). As reactant concentration drops (Q rises), E decreases. At equilibrium, Q = K and E = 0 -- the cell can no longer do work."
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "chem-kin-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "For a first-order reaction, the half-life is:",
+    "options": [
+      "Dependent on initial concentration",
+      "Independent of initial concentration",
+      "Directly proportional to initial concentration",
+      "Inversely proportional to the square of initial concentration"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 3, Pg 78",
+    "solution": {
+      "why_correct": "For first-order reactions, half-life t(1/2) = 0.693/k, a constant depending only on the rate constant k, not on the starting concentration of reactant.",
+      "why_others_wrong": "A, C, and D incorrectly suggest a concentration dependence that only applies to zero-order (directly proportional) or second-order (inversely proportional) reactions, not first-order.",
+      "concept_recap": "Half-life formulas: zero-order t(1/2) proportional to [A0]. First-order t(1/2) = 0.693/k (constant). Second-order t(1/2) proportional to 1/[A0]."
+    }
+  },
+  {
+    "id": "chem-kin-002",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Increasing temperature increases the rate of a chemical reaction. Statement II: A rise in temperature increases the fraction of molecules possessing energy equal to or greater than activation energy.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 3, Pg 82",
+    "solution": {
+      "why_correct": "Both statements are correct: higher temperature increases reaction rate (well established), and per the Maxwell-Boltzmann distribution, more molecules gain sufficient energy to cross the activation energy barrier at higher temperatures, explaining the rate increase.",
+      "why_others_wrong": "The other options are wrong since both statements are factually true and represent the standard explanation (via Arrhenius equation and Maxwell-Boltzmann distribution) for temperature's effect on reaction rate.",
+      "concept_recap": "Arrhenius equation: k = A x e^(-Ea/RT). Higher T -> larger fraction of molecules with E >= Ea -> more effective collisions -> faster rate."
+    }
+  },
+  {
+    "id": "chem-kin-003",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: The rate of a chemical reaction is always equal to its rate constant k. Statement II: The rate constant k is independent of the concentration of reactants but depends on temperature.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 3, Pg 80",
+    "solution": {
+      "why_correct": "Rate = k[reactant]^order, so rate equals k only when all reactant concentrations equal 1 (a special case), making Statement I generally false. Statement II is correct: k itself is a constant for a given reaction at a given temperature, independent of concentration, but it does change with temperature (per the Arrhenius equation).",
+      "why_others_wrong": "A, C, D incorrectly accept Statement I as generally true, but rate and rate constant are only numerically equal under the specific condition of unit concentration -- they are conceptually different quantities.",
+      "concept_recap": "Rate = k[A]^m[B]^n (rate law). k (rate constant) is fixed for a reaction at a given temperature -- doesn't change with concentration, but increases with temperature (per Arrhenius equation, k = Ae^(-Ea/RT))."
+    }
+  },
+  {
+    "id": "chem-kin-004",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "The order of a chemical reaction is determined by:",
+    "options": [
+      "The stoichiometric coefficients in the balanced equation",
+      "The experimentally determined rate law",
+      "The number of moles of reactants",
+      "The physical state of the reactants"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 3, Pg 76",
+    "solution": {
+      "why_correct": "Reaction order must be determined experimentally by observing how the rate actually changes with reactant concentration -- it cannot be assumed from the balanced chemical equation alone, unlike molecularity.",
+      "why_others_wrong": "A is a common misconception; order is NOT simply read off the balanced equation's coefficients (that describes molecularity for elementary reactions only). C and D don't determine kinetic order at all.",
+      "concept_recap": "Reaction order (from experimental rate law) can differ from stoichiometric coefficients, especially for multi-step reactions. Molecularity (from the elementary step mechanism) does match coefficients, but order must be measured experimentally."
+    }
+  }
+]

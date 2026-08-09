@@ -1,0 +1,40 @@
+[
+  {
+    "id": "chem-sol-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Molarity of a solution is defined as:",
+    "options": [
+      "Moles of solute per kg of solvent",
+      "Moles of solute per liter of solution",
+      "Grams of solute per liter of solution",
+      "Moles of solute per mole of solvent"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 1, Pg 15",
+    "solution": {
+      "why_correct": "Molarity (M) is defined as the number of moles of solute dissolved per liter of the total solution, a concentration unit that is temperature-dependent since volume can change with temperature.",
+      "why_others_wrong": "A describes molality, a different (temperature-independent) concentration unit. C describes a mass-based concentration, not molarity specifically. D isn't a standard concentration unit used in solution chemistry.",
+      "concept_recap": "Concentration units: Molarity (mol/L solution, temperature-dependent), Molality (mol/kg solvent, temperature-independent), Mole fraction (ratio of moles of one component to total moles)."
+    }
+  },
+  {
+    "id": "chem-sol-002",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Raoult's law states that the partial vapor pressure of a component in an ideal solution is proportional to its mole fraction. Statement II: Solutions that obey Raoult's law over the entire concentration range are called ideal solutions.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 1, Pg 25",
+    "solution": {
+      "why_correct": "Raoult's law correctly states that partial vapor pressure equals the mole fraction times the pure component's vapor pressure (Statement I true), and solutions obeying this law across all concentrations are by definition classified as ideal solutions (Statement II true).",
+      "why_others_wrong": "The other options are wrong since both statements accurately define Raoult's law and the resulting classification of ideal solutions, both standard NCERT chemistry concepts.",
+      "concept_recap": "Raoult's Law: P_i = x_i * P_i(pure). Ideal solutions obey this across the full concentration range (e.g., benzene-toluene mixture) with no volume change or heat effect upon mixing."
+    }
+  }
+]

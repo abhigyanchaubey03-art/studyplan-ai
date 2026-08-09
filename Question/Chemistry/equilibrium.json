@@ -1,0 +1,135 @@
+[
+  {
+    "id": "chem-eq-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "According to Le Chatelier's principle, increasing pressure on a gaseous equilibrium system will shift the equilibrium towards the side with:",
+    "options": [
+      "More moles of gas",
+      "Fewer moles of gas",
+      "Equal moles of gas on both sides",
+      "No effect regardless of moles"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 7, Pg 165",
+    "solution": {
+      "why_correct": "Increasing pressure favors the side with fewer moles of gas, since that side occupies less volume, partially relieving the increased pressure -- consistent with Le Chatelier's principle.",
+      "why_others_wrong": "A is the opposite of what happens. C is only true if moles are equal on both sides, which isn't the general case being asked. D ignores Le Chatelier's principle entirely.",
+      "concept_recap": "Le Chatelier's principle: system opposes an imposed change. More pressure -> shift towards fewer gas moles. More volume/less pressure -> shift towards more gas moles."
+    }
+  },
+  {
+    "id": "chem-eq-002",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: A catalyst shifts the position of equilibrium. Statement II: A catalyst increases the rate of both forward and reverse reactions equally.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 7, Pg 170",
+    "solution": {
+      "why_correct": "A catalyst does NOT shift equilibrium position or change the equilibrium constant -- it only speeds up the rate at which equilibrium is reached, by equally increasing forward and reverse reaction rates.",
+      "why_others_wrong": "A and C incorrectly claim the catalyst shifts equilibrium position, which is a very common misconception -- catalysts affect rate/kinetics, not the thermodynamic equilibrium position.",
+      "concept_recap": "Catalyst: lowers activation energy, speeds up both forward and reverse reactions equally, helps reach equilibrium faster, but does NOT change Keq or shift equilibrium position."
+    }
+  },
+  {
+    "id": "chem-eq-003",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "For the reaction N2(g) + 3H2(g) <-> 2NH3(g), if the equilibrium constant is Kc, what is the equilibrium constant for the reverse reaction 2NH3(g) <-> N2(g) + 3H2(g)?",
+    "options": [
+      "Kc",
+      "1/Kc",
+      "Kc^2",
+      "Square root of Kc"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 7, Pg 168",
+    "solution": {
+      "why_correct": "When a reaction is reversed, its equilibrium constant becomes the reciprocal of the original -- so the reverse reaction's constant is 1/Kc.",
+      "why_others_wrong": "A is wrong since reversing the reaction does change the constant. C and D would apply if the equation were being multiplied or divided by a coefficient, not reversed.",
+      "concept_recap": "Reversing a reaction: K_reverse = 1/K_forward. Multiplying coefficients by n: K_new = K^n. These are standard equilibrium constant manipulation rules for NEET."
+    }
+  },
+  {
+    "id": "chem-eq-004",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "A solution with pH less than 7 is considered:",
+    "options": [
+      "Neutral",
+      "Basic",
+      "Acidic",
+      "Amphoteric"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 7, Pg 175",
+    "solution": {
+      "why_correct": "A pH value less than 7 indicates a higher concentration of H+ ions relative to OH- ions, characteristic of an acidic solution (pH 7 is neutral, pH greater than 7 is basic).",
+      "why_others_wrong": "A applies specifically to pH = 7 (pure water at 25C). B applies to pH greater than 7. D refers to substances that can act as both acid and base depending on context, unrelated to a specific pH value.",
+      "concept_recap": "pH scale (at 25C): pH less than 7 = acidic, pH = 7 = neutral, pH greater than 7 = basic. pH = -log[H+]. Lower pH means higher H+ concentration."
+    }
+  },
+  {
+    "id": "chem-eq-005",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The pH of a buffer solution does not change significantly on the addition of small amounts of acid or base. Reason (R): A buffer solution contains a weak acid/base and its conjugate salt, which can neutralize small additions of H+ or OH- ions.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 7, Pg 180",
+    "solution": {
+      "why_correct": "Buffer solutions resist pH change because they contain both a weak acid/base and its conjugate, which can absorb added H+ or OH- ions through equilibrium shifts, keeping pH nearly constant -- R accurately explains this buffering mechanism described in A.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and connected -- the weak acid/conjugate base (or weak base/conjugate acid) pair is exactly what gives a buffer its resistance to pH change.",
+      "concept_recap": "Buffer solution: mixture of weak acid + its conjugate base salt (e.g., CH3COOH + CH3COONa), resists pH change by neutralizing small amounts of added acid or base via Le Chatelier-driven equilibrium shifts."
+    }
+  },
+  {
+    "id": "chem-eq-006",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which of the following is an example of a strong electrolyte?",
+    "options": [
+      "Acetic acid (CH3COOH)",
+      "Ammonium hydroxide (NH4OH)",
+      "Sodium chloride (NaCl)",
+      "Carbonic acid (H2CO3)"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 7, Pg 172",
+    "solution": {
+      "why_correct": "NaCl is a strong electrolyte because it completely dissociates into Na+ and Cl- ions in aqueous solution, allowing it to conduct electricity efficiently.",
+      "why_others_wrong": "Acetic acid, ammonium hydroxide, and carbonic acid are all weak electrolytes -- they only partially dissociate in water, establishing an equilibrium between ionized and un-ionized forms rather than complete dissociation.",
+      "concept_recap": "Strong electrolytes: fully dissociate (strong acids/bases, most soluble ionic salts, e.g., NaCl, HCl, NaOH). Weak electrolytes: partially dissociate, exist in equilibrium (e.g., CH3COOH, NH4OH)."
+    }
+  },
+  {
+    "id": "chem-eq-007",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "For the equilibrium reaction A + B <-> C + D, if the equilibrium constant Kc is very large (Kc >> 1), this indicates:",
+    "options": [
+      "The reaction favors the reactants",
+      "The reaction favors the products",
+      "The reaction is at equilibrium with equal amounts of both sides",
+      "The reaction does not proceed at all"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 7, Pg 166",
+    "solution": {
+      "why_correct": "A large Kc value means the equilibrium concentration of products is much greater than reactants, indicating the reaction proceeds substantially towards product formation (favors products) before reaching equilibrium.",
+      "why_others_wrong": "A describes the opposite scenario (small Kc, favoring reactants). C would correspond to Kc approximately equal to 1. D is incorrect since a large Kc actually indicates strong forward progress, not a lack of reaction.",
+      "concept_recap": "Kc >> 1: equilibrium favors products (reaction goes essentially to completion). Kc << 1: equilibrium favors reactants (reaction barely proceeds forward). Kc approximately 1: significant amounts of both reactants and products present."
+    }
+  }
+]

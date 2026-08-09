@@ -1,0 +1,137 @@
+[
+  {
+    "id": "chem-org-001",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "Which functional group is present in an aldehyde?",
+    "options": [
+      "-OH",
+      "-COOH",
+      "-CHO",
+      "-COOR"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 12, Pg 285",
+    "solution": {
+      "why_correct": "The aldehyde functional group is -CHO, a carbonyl carbon bonded to a hydrogen atom, typically at the end of a carbon chain.",
+      "why_others_wrong": "-OH is an alcohol/hydroxyl group. -COOH is a carboxylic acid group. -COOR is an ester group. Each represents a distinct, well-defined functional group in organic chemistry.",
+      "concept_recap": "Common functional groups: -OH (alcohol), -CHO (aldehyde), -CO- (ketone), -COOH (carboxylic acid), -COOR (ester), -NH2 (amine). Learn to recognize each from its structure."
+    },
+    "year": 2021
+  },
+  {
+    "id": "chem-org-002",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: Alkanes are saturated hydrocarbons containing only single bonds. Statement II: Alkenes are more reactive than alkanes due to the presence of a pi bond.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 13, Pg 298",
+    "solution": {
+      "why_correct": "Alkanes indeed contain only C-C and C-H single bonds (saturated). Alkenes contain a C=C double bond whose pi bond is weaker and more easily broken, making alkenes more reactive in addition reactions.",
+      "why_others_wrong": "The other options are wrong because both statements independently hold true and are standard, well-established facts in organic chemistry.",
+      "concept_recap": "Saturation = only single bonds (alkanes). Unsaturation = double/triple bonds (alkenes/alkynes), which are more reactive due to accessible pi electrons."
+    }
+  },
+  {
+    "id": "chem-org-003",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which of the following represents the general formula for alkanes?",
+    "options": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnHn"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 13, Pg 292",
+    "solution": {
+      "why_correct": "Alkanes are saturated hydrocarbons with only single bonds, following the general formula CnH2n+2 (e.g., methane CH4 where n=1 gives 2(1)+2=4 hydrogens).",
+      "why_others_wrong": "A (CnH2n) is the formula for alkenes. C (CnH2n-2) is the formula for alkynes. D doesn't correspond to any standard hydrocarbon series.",
+      "concept_recap": "General formulas: Alkanes CnH2n+2 (saturated, single bonds). Alkenes CnH2n (one double bond). Alkynes CnH2n-2 (one triple bond). Each successive series has 2 fewer hydrogens due to increasing unsaturation."
+    }
+  },
+  {
+    "id": "chem-org-004",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: Isomers have the same molecular formula but different structural arrangements. Statement II: Butane and isobutane are examples of structural isomers.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 13, Pg 296",
+    "solution": {
+      "why_correct": "Isomers share an identical molecular formula (Statement I, correct general definition) but differ in atomic connectivity/arrangement, and butane (straight chain) vs isobutane (branched chain), both C4H10, are a classic textbook example of chain/structural isomerism (Statement II correct).",
+      "why_others_wrong": "The other options are wrong since both statements are accurate and standard, foundational organic chemistry facts taught with this exact example.",
+      "concept_recap": "Structural isomers: same molecular formula, different connectivity (e.g., chain isomerism: butane vs isobutane, both C4H10). Different from stereoisomers, which have the same connectivity but different spatial arrangement."
+    }
+  },
+  {
+    "id": "chem-org-005",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Which type of hybridization is present in the carbon atoms of a triple bond (e.g., in ethyne, HC≡CH)?",
+    "options": [
+      "sp3",
+      "sp2",
+      "sp",
+      "s only"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 12, Pg 280",
+    "solution": {
+      "why_correct": "Carbon atoms involved in a triple bond undergo sp hybridization, forming two sigma bonds (linear arrangement, 180 degree bond angle) plus two pi bonds from unhybridized p orbitals.",
+      "why_others_wrong": "A (sp3) applies to single-bonded carbons (tetrahedral, like methane). B (sp2) applies to double-bonded carbons (trigonal planar, like ethene). D isn't a valid hybridization state for carbon in organic compounds.",
+      "concept_recap": "Hybridization and bonding: sp3 = 4 sigma bonds, tetrahedral (single bonds). sp2 = 3 sigma + 1 pi, trigonal planar (double bond). sp = 2 sigma + 2 pi, linear (triple bond)."
+    }
+  },
+  {
+    "id": "chem-org-006",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of a nucleophile in organic reactions?",
+    "options": [
+      "H+",
+      "NH3",
+      "BF3",
+      "AlCl3"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 12, Pg 288",
+    "solution": {
+      "why_correct": "NH3 (ammonia) has a lone pair of electrons on nitrogen, making it electron-rich and able to donate electrons to an electrophilic center -- the defining characteristic of a nucleophile.",
+      "why_others_wrong": "H+, BF3, and AlCl3 are all electron-deficient species (electrophiles or Lewis acids) that ACCEPT electron pairs, the opposite behavior of a nucleophile.",
+      "concept_recap": "Nucleophile: electron-rich species, donates electron pair (e.g., NH3, OH-, CN-, H2O). Electrophile: electron-deficient species, accepts electron pair (e.g., H+, BF3, carbocations)."
+    }
+  },
+  {
+    "id": "chem-org-007",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "Markovnikov's rule is applied to predict the major product of which type of reaction?",
+    "options": [
+      "Addition of HX to an unsymmetrical alkene",
+      "Substitution reactions of alkanes",
+      "Elimination reactions of alcohols",
+      "Oxidation of aldehydes"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 13, Pg 300",
+    "solution": {
+      "why_correct": "Markovnikov's rule predicts that in the addition of HX (like HBr, HCl) to an unsymmetrical alkene, the hydrogen atom attaches to the carbon with more hydrogens already attached (or the halogen goes to the more substituted carbon, forming the more stable carbocation intermediate).",
+      "why_others_wrong": "B, C, and D describe entirely different reaction types (substitution, elimination, oxidation) where Markovnikov's rule, specific to electrophilic addition to alkenes, does not apply.",
+      "concept_recap": "Markovnikov's rule: in HX addition to unsymmetrical alkenes, H adds to the carbon with more H atoms already, X adds to the more substituted carbon (via the more stable carbocation intermediate pathway)."
+    },
+    "year": 2021
+  }
+]

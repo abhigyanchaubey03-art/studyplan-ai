@@ -1,0 +1,78 @@
+[
+  {
+    "id": "chem-peri-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which trend describes how atomic radius generally changes across a period (left to right)?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Increases then decreases randomly"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 3, Pg 68",
+    "solution": {
+      "why_correct": "Across a period, nuclear charge increases while electrons are added to the same shell, pulling electrons closer to the nucleus and causing atomic radius to decrease.",
+      "why_others_wrong": "A is the opposite trend (this happens down a group, not across a period). C and D don't reflect the well-established periodic trend caused by increasing effective nuclear charge.",
+      "concept_recap": "Across a period: atomic radius decreases (more nuclear charge, same shell). Down a group: atomic radius increases (new shells added, more shielding)."
+    }
+  },
+  {
+    "id": "chem-peri-002",
+    "type": "AR",
+    "difficulty": "medium",
+    "question": "Assertion (A): Ionization enthalpy generally increases across a period. Reason (R): Atomic size decreases across a period, so electrons are held more tightly by the nucleus.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 3, Pg 72",
+    "solution": {
+      "why_correct": "As atomic size decreases across a period, the outermost electrons are closer to the nucleus and experience stronger attraction, requiring more energy to remove -- directly explaining the increase in ionization enthalpy.",
+      "why_others_wrong": "B, C, D are wrong because both statements are true and the size-attraction relationship is the standard, direct explanation taught for this periodic trend.",
+      "concept_recap": "Ionization enthalpy trend: increases across a period (smaller atoms, stronger nuclear pull), decreases down a group (larger atoms, more shielding, easier to remove electrons)."
+    }
+  },
+  {
+    "id": "chem-peri-003",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Elements in the same group of the periodic table have similar chemical properties primarily because they have the same:",
+    "options": [
+      "Atomic mass",
+      "Number of protons",
+      "Number of valence electrons",
+      "Number of neutrons"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 3, Pg 65",
+    "solution": {
+      "why_correct": "Elements in the same group share the same number of valence electrons (electrons in the outermost shell), which primarily determines chemical bonding behavior and reactivity, leading to similar chemical properties.",
+      "why_others_wrong": "Atomic mass and number of protons (atomic number) both increase down a group and differ between elements -- they don't stay constant. Number of neutrons also varies by element/isotope and isn't the basis for group similarity.",
+      "concept_recap": "Periodic table groups (vertical columns): same number of valence electrons, similar chemical properties. Periods (horizontal rows): same number of electron shells, properties change gradually across."
+    }
+  },
+  {
+    "id": "chem-peri-004",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Electronegativity generally follows which trend across the periodic table?",
+    "options": [
+      "Increases across a period, decreases down a group",
+      "Decreases across a period, increases down a group",
+      "Remains constant throughout the periodic table",
+      "Increases both across a period and down a group"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 3, Pg 74",
+    "solution": {
+      "why_correct": "Electronegativity increases across a period (due to increasing nuclear charge pulling electrons more strongly) and decreases down a group (due to increasing atomic size/shielding, making the nucleus less able to attract electrons from other atoms).",
+      "why_others_wrong": "B reverses both correct trends. C ignores well-documented periodic variation. D incorrectly claims electronegativity increases down a group, when it actually decreases due to increasing distance between nucleus and bonding electrons.",
+      "concept_recap": "Electronegativity trend: increases left-to-right across a period, decreases top-to-bottom down a group. Fluorine is the most electronegative element overall (top-right of periodic table, excluding noble gases)."
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "chem-coord-001",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In the coordination compound [Cu(NH3)4]SO4, what is the coordination number of copper?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 9, Pg 210",
+    "solution": {
+      "why_correct": "The coordination number equals the number of donor atoms directly bonded to the central metal ion. Here, 4 NH3 (ammonia) ligands are bonded to Cu, giving a coordination number of 4.",
+      "why_others_wrong": "A, C, and D don't match the count of ligands directly attached to Cu in this specific complex -- only the 4 NH3 groups inside the coordination sphere (bracket) count, not the SO4 ion outside it.",
+      "concept_recap": "Coordination number = number of ligand donor atoms bonded to central metal (inside the coordination sphere/bracket). Counter ions outside the bracket, like SO4 here, don't count."
+    }
+  },
+  {
+    "id": "chem-coord-002",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): [Ni(CO)4] is diamagnetic while [NiCl4]^2- is paramagnetic. Reason (R): CO is a strong field ligand causing electron pairing, while Cl- is a weak field ligand that does not cause pairing.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 9, Pg 220",
+    "solution": {
+      "why_correct": "CO, being high in the spectrochemical series, causes strong crystal field splitting leading to complete electron pairing (diamagnetic) in Ni(CO)4, while Cl-, a weak field ligand, allows unpaired electrons to remain (paramagnetic) in NiCl4^2- -- R correctly explains A.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and the ligand field strength difference is precisely the standard explanation for the differing magnetic behavior of these two nickel complexes.",
+      "concept_recap": "Spectrochemical series (weak to strong field): I- < Br- < Cl- < F- < H2O < NH3 < CO. Strong field ligands cause pairing (often diamagnetic); weak field ligands allow unpaired electrons (often paramagnetic)."
+    }
+  },
+  {
+    "id": "chem-coord-003",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In Werner's theory of coordination compounds, the secondary valency of a metal ion determines:",
+    "options": [
+      "Its oxidation state only",
+      "The coordination number, i.e., the number of ligands directly bonded to it",
+      "The overall charge of the complex ion",
+      "The color of the complex"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 9, Pg 205",
+    "solution": {
+      "why_correct": "According to Werner's theory, secondary valency corresponds to the coordination number -- the fixed number of ligand donor atoms/groups directly bonded to the central metal ion, satisfying its spatial/geometric requirements.",
+      "why_others_wrong": "A describes primary valency (oxidation state) in Werner's theory, a separate concept. C (overall charge) depends on both the metal's oxidation state and ligand charges together, not secondary valency alone. D (color) arises from d-d electron transitions, unrelated to valency type.",
+      "concept_recap": "Werner's theory: primary valency = oxidation state (ionizable), secondary valency = coordination number (non-ionizable, fixed geometric arrangement of ligands around the metal)."
+    }
+  },
+  {
+    "id": "chem-coord-004",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Which of the following ligands is classified as a bidentate ligand?",
+    "options": [
+      "Cl-",
+      "NH3",
+      "Ethylenediamine (en)",
+      "H2O"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 9, Pg 208",
+    "solution": {
+      "why_correct": "Ethylenediamine (en) has two nitrogen atoms, each with a lone pair, allowing it to bind to the central metal ion at two points simultaneously -- the defining feature of a bidentate ligand.",
+      "why_others_wrong": "Cl-, NH3, and H2O each have only one donor atom capable of binding to the metal center, making them monodentate ligands (binding at just one point), not bidentate.",
+      "concept_recap": "Ligand denticity: monodentate (1 donor atom, e.g., Cl-, NH3, H2O), bidentate (2 donor atoms, e.g., ethylenediamine, oxalate), polydentate (multiple donor atoms, e.g., EDTA with 6 donor sites)."
+    }
+  }
+]

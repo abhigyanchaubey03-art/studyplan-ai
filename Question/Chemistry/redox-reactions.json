@@ -1,0 +1,40 @@
+[
+  {
+    "id": "chem-redox-001",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In the reaction Zn + Cu^2+ -> Zn^2+ + Cu, which species acts as the reducing agent?",
+    "options": [
+      "Cu^2+",
+      "Zn",
+      "Zn^2+",
+      "Cu"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 8, Pg 195",
+    "solution": {
+      "why_correct": "Zinc metal loses electrons (is oxidized, Zn to Zn2+) in this reaction, and since it donates electrons to reduce Cu2+ to Cu, zinc itself acts as the reducing agent.",
+      "why_others_wrong": "Cu2+ gains electrons (is reduced) and therefore acts as the oxidizing agent, not the reducing agent. Zn2+ and Cu are the products of the reaction, not agents causing oxidation or reduction themselves.",
+      "concept_recap": "Reducing agent: species that gets oxidized (loses electrons), causing another species to be reduced. Oxidizing agent: species that gets reduced (gains electrons), causing another species to be oxidized."
+    }
+  },
+  {
+    "id": "chem-redox-002",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "What is the oxidation state of manganese (Mn) in KMnO4?",
+    "options": [
+      "+2",
+      "+4",
+      "+6",
+      "+7"
+    ],
+    "answer": "D",
+    "ncertRef": "Class 11, Ch 8, Pg 200",
+    "solution": {
+      "why_correct": "In KMnO4, K is +1 and each O is -2 (total -8 for 4 oxygens). For the compound to be neutral overall: +1 + Mn + (-8) = 0, so Mn = +7.",
+      "why_others_wrong": "A, B, and C don't satisfy the neutrality equation for KMnO4 when correctly accounting for K's +1 and oxygen's standard -2 oxidation states across all four oxygen atoms in the formula.",
+      "concept_recap": "Oxidation state calculation: sum of oxidation states = overall charge of the compound/ion (0 for neutral compounds). Standard assigned values: Group 1 metals = +1, oxygen = -2 (usually), hydrogen = +1 (usually) -- solve algebraically for the unknown."
+    }
+  }
+]
