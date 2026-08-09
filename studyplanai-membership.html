@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6d5dfc" />
+  <title>StudyPlanAI — Membership</title>
+  <meta name="description" content="StudyPlanAI membership — personalized planning, smart practice, analytics and adaptive preparation." />
+
+  <style>
+    :root{
+      --bg:#f7f8fc;
+      --surface:#ffffff;
+      --surface-2:#f1f3f9;
+      --text:#171827;
+      --muted:#686b7d;
+      --primary:#6d5dfc;
+      --primary-dark:#5547dc;
+      --border:#e5e7ef;
+      --success:#159957;
+      --warning:#f59e0b;
+      --shadow:0 18px 55px rgba(25,28,55,.10);
+      --radius:22px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{text-decoration:none;color:inherit}
+    button{font:inherit}
+
+    .container{
+      width:min(1160px,calc(100% - 32px));
+      margin:auto;
+    }
+
+    /* NAV */
+    .nav{
+      position:sticky;
+      top:0;
+      z-index:50;
+      backdrop-filter:blur(16px);
+      background:rgba(247,248,252,.88);
+      border-bottom:1px solid rgba(229,231,239,.8);
+    }
+    .nav-inner{
+      min-height:70px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:20px;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-weight:850;
+      font-size:20px;
+      letter-spacing:-.5px;
+    }
+    .brand-mark{
+      width:36px;height:36px;border-radius:11px;
+      display:grid;place-items:center;
+      background:linear-gradient(135deg,#7b6cff,#4c3fe0);
+      color:#fff;
+      box-shadow:0 8px 20px rgba(109,93,252,.28);
+    }
+    .nav-links{
+      display:flex;align-items:center;gap:24px;
+      color:var(--muted);font-size:14px;font-weight:650;
+    }
+    .nav-links a:hover{color:var(--text)}
+    .nav-cta{
+      padding:10px 16px;border-radius:11px;
+      background:var(--text);color:#fff;font-weight:750;
+    }
+
+    /* HERO */
+    .hero{
+      padding:82px 0 58px;
+      text-align:center;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero:before,.hero:after{
+      content:"";
+      position:absolute;
+      border-radius:50%;
+      filter:blur(4px);
+      pointer-events:none;
+    }
+    .hero:before{
+      width:360px;height:360px;
+      background:rgba(109,93,252,.13);
+      top:-180px;left:-140px;
+    }
+    .hero:after{
+      width:330px;height:330px;
+      background:rgba(58,183,255,.10);
+      right:-120px;top:40px;
+    }
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:7px 12px;
+      border:1px solid #ddd9ff;
+      background:#f0eeff;
+      color:var(--primary-dark);
+      border-radius:999px;
+      font-size:13px;font-weight:800;
+      position:relative;
+    }
+    .dot{
+      width:7px;height:7px;border-radius:50%;
+      background:var(--primary);
+      box-shadow:0 0 0 5px rgba(109,93,252,.12);
+    }
+    h1{
+      max-width:850px;
+      margin:22px auto 14px;
+      font-size:clamp(40px,6vw,70px);
+      line-height:1.03;
+      letter-spacing:-3px;
+    }
+    .gradient{
+      background:linear-gradient(90deg,#6d5dfc,#3d8bff);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+    .hero p{
+      max-width:700px;
+      margin:0 auto;
+      color:var(--muted);
+      font-size:18px;
+    }
+
+    /* TOGGLE */
+    .billing-wrap{
+      display:flex;justify-content:center;align-items:center;
+      margin:34px 0 20px;
+    }
+    .billing{
+      display:inline-flex;
+      padding:5px;
+      background:var(--surface-2);
+      border:1px solid var(--border);
+      border-radius:14px;
+      gap:4px;
+    }
+    .billing button{
+      border:0;background:transparent;
+      padding:10px 18px;border-radius:10px;
+      cursor:pointer;color:var(--muted);
+      font-weight:800;
+    }
+    .billing button.active{
+      background:var(--surface);
+      color:var(--text);
+      box-shadow:0 4px 12px rgba(20,24,45,.08);
+    }
+    .save{
+      color:var(--success);
+      font-size:12px;
+      margin-left:6px;
+      font-weight:900;
+    }
+
+    /* PRICING */
+    .pricing{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+      align-items:stretch;
+      padding-bottom:80px;
+    }
+    .card{
+      position:relative;
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:30px;
+      box-shadow:0 8px 30px rgba(25,28,55,.05);
+      display:flex;flex-direction:column;
+    }
+    .card.popular{
+      border:2px solid var(--primary);
+      box-shadow:var(--shadow);
+      transform:translateY(-8px);
+    }
+    .popular-badge{
+      position:absolute;
+      top:-14px;left:50%;
+      transform:translateX(-50%);
+      padding:6px 13px;
+      border-radius:999px;
+      background:var(--primary);
+      color:white;
+      font-size:12px;
+      font-weight:900;
+      white-space:nowrap;
+    }
+    .plan-icon{
+      width:46px;height:46px;border-radius:14px;
+      background:var(--surface-2);
+      display:grid;place-items:center;
+      font-size:22px;margin-bottom:18px;
+    }
+    .popular .plan-icon{background:#eeeaff}
+    .card h2{margin:0;font-size:24px;letter-spacing:-.6px}
+    .subtitle{color:var(--muted);font-size:14px;margin:6px 0 20px}
+    .price-row{display:flex;align-items:end;gap:7px;margin-bottom:4px}
+    .price{font-size:42px;line-height:1;font-weight:900;letter-spacing:-2px}
+    .period{color:var(--muted);font-size:14px;margin-bottom:4px}
+    .year-note{min-height:23px;color:var(--success);font-size:12px;font-weight:800}
+    .card hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+    .features{
+      list-style:none;padding:0;margin:0 0 28px;
+      display:grid;gap:12px;
+      color:#3d4050;font-size:14px;
+      flex:1;
+    }
+    .features li{display:flex;gap:10px;align-items:flex-start}
+    .check{
+      flex:0 0 auto;
+      width:20px;height:20px;border-radius:50%;
+      display:grid;place-items:center;
+      background:#e9f8f0;color:var(--success);
+      font-size:12px;font-weight:900;
+      margin-top:1px;
+    }
+    .limit{
+      font-size:12px;color:var(--muted);
+      background:var(--surface-2);
+      padding:12px;border-radius:12px;
+      margin-bottom:20px;
+    }
+    .btn{
+      width:100%;
+      border:0;
+      border-radius:13px;
+      padding:13px 18px;
+      cursor:pointer;
+      font-weight:850;
+      transition:.2s ease;
+    }
+    .btn:hover{transform:translateY(-1px)}
+    .btn-outline{
+      background:#fff;border:1px solid #d8dbe6;color:var(--text);
+    }
+    .btn-primary{
+      background:var(--primary);color:#fff;
+      box-shadow:0 9px 22px rgba(109,93,252,.22);
+    }
+    .btn-dark{background:var(--text);color:#fff}
+
+    /* VALUE STRIP */
+    .section{padding:80px 0}
+    .section-header{text-align:center;max-width:700px;margin:0 auto 42px}
+    .section-header h2{
+      font-size:clamp(30px,4vw,44px);
+      letter-spacing:-1.7px;margin:0 0 10px;
+    }
+    .section-header p{color:var(--muted);margin:0}
+    .loop{
+      display:grid;
+      grid-template-columns:repeat(5,1fr);
+      gap:12px;
+    }
+    .loop-item{
+      background:#fff;border:1px solid var(--border);
+      border-radius:18px;padding:24px 16px;text-align:center;
+    }
+    .loop-item .emoji{font-size:27px}
+    .loop-item strong{display:block;margin-top:10px}
+    .loop-item span{font-size:12px;color:var(--muted)}
+
+    /* COMPARISON */
+    .table-wrap{
+      overflow:auto;
+      border:1px solid var(--border);
+      border-radius:20px;
+      background:#fff;
+      box-shadow:0 8px 30px rgba(25,28,55,.04);
+    }
+    table{width:100%;border-collapse:collapse;min-width:760px}
+    th,td{padding:17px 20px;border-bottom:1px solid var(--border);text-align:center;font-size:14px}
+    th:first-child,td:first-child{text-align:left}
+    th{background:#fafaff;font-size:13px}
+    tr:last-child td{border-bottom:0}
+    .yes{color:var(--success);font-weight:900}
+    .no{color:#a5a8b5}
+    .pro-head{color:var(--primary-dark)}
+
+    /* FAQ */
+    .faq{max-width:820px;margin:auto;display:grid;gap:10px}
+    details{
+      background:#fff;border:1px solid var(--border);
+      border-radius:15px;padding:18px 20px;
+    }
+    summary{cursor:pointer;font-weight:800}
+    details p{color:var(--muted);font-size:14px;margin:14px 0 0}
+
+    /* CTA */
+    .final-cta{
+      margin:30px 0 80px;
+      padding:54px 28px;
+      text-align:center;
+      color:#fff;
+      border-radius:28px;
+      background:linear-gradient(135deg,#171827,#4032a7);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    .final-cta h2{font-size:clamp(30px,4vw,46px);margin:0 0 10px;letter-spacing:-1.5px}
+    .final-cta p{color:#d8d8e7;max-width:600px;margin:0 auto 24px}
+    .final-cta .btn{width:auto;background:#fff;color:#171827;padding:13px 24px}
+
+    footer{
+      padding:30px 0 45px;
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+    }
+
+    /* MODAL */
+    .modal{
+      display:none;
+      position:fixed;inset:0;
+      z-index:100;
+      background:rgba(10,12,25,.58);
+      align-items:center;justify-content:center;
+      padding:20px;
+    }
+    .modal.show{display:flex}
+    .modal-box{
+      width:min(460px,100%);
+      background:#fff;border-radius:22px;
+      padding:28px;
+      box-shadow:0 30px 80px rgba(0,0,0,.25);
+    }
+    .modal-top{display:flex;justify-content:space-between;gap:20px}
+    .close{
+      width:36px;height:36px;border:0;border-radius:10px;
+      background:var(--surface-2);cursor:pointer;font-size:20px;
+    }
+    .modal-box h3{margin:0;font-size:25px}
+    .modal-box p{color:var(--muted);font-size:14px}
+    .selected-plan{
+      background:#f1efff;color:#5142d5;
+      border-radius:13px;padding:14px;
+      font-weight:850;margin:18px 0;
+    }
+    .modal-note{
+      font-size:12px;color:var(--muted);
+      margin-top:12px;text-align:center;
+    }
+
+    @media(max-width:900px){
+      .pricing{grid-template-columns:1fr}
+      .card.popular{transform:none}
+      .loop{grid-template-columns:repeat(2,1fr)}
+      .nav-links{display:none}
+    }
+    @media(max-width:600px){
+      .hero{padding:60px 0 42px}
+      h1{letter-spacing:-2px}
+      .hero p{font-size:16px}
+      .card{padding:24px}
+      .loop{grid-template-columns:1fr}
+      .billing button{padding:9px 11px}
+      .save{display:block;margin:3px 0 0}
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark">✦</span>
+        <span>StudyPlanAI</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#plans">Membership</a>
+        <a href="#features">How it works</a>
+        <a href="#compare">Compare</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#plans">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow"><span class="dot"></span> Built for smarter exam preparation</span>
+
+        <h1>
+          Your preparation.<br />
+          <span class="gradient">Planned. Practiced. Improved.</span>
+        </h1>
+
+        <p>
+          StudyPlanAI combines personalized planning, targeted practice,
+          progress analytics and adaptive revision into one preparation system.
+        </p>
+
+        <div class="billing-wrap">
+          <div class="billing" role="group" aria-label="Billing period">
+            <button id="monthlyBtn" class="active" type="button">Monthly</button>
+            <button id="yearlyBtn" type="button">Yearly <span class="save">Save ~33%</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="container pricing">
+
+      <!-- FREE -->
+      <article class="card">
+        <div class="plan-icon">🌱</div>
+        <h2>Start</h2>
+        <p class="subtitle">For students getting started</p>
+
+        <div class="price-row">
+          <span class="price">₹0</span>
+          <span class="period">forever</span>
+        </div>
+        <div class="year-note">&nbsp;</div>
+
+        <hr />
+
+        <ul class="features">
+          <li><span class="check">✓</span> Personalized basic study plan</li>
+          <li><span class="check">✓</span> Exam countdown</li>
+          <li><span class="check">✓</span> Daily study targets</li>
+          <li><span class="check">✓</span> Basic revision planner</li>
+          <li><span class="check">✓</span> Basic progress tracking</li>
+          <li><span class="check">✓</span> Limited practice questions</li>
+          <li><span class="check">✓</span> Basic statistics</li>
+          <li><span class="check">✓</span> Study streak</li>
+        </ul>
+
+        <div class="limit">Start free and upgrade whenever you need more.</div>
+        <button class="btn btn-outline choose-btn" data-plan="Start — Free">Start Free →</button>
+      </article>
+
+      <!-- PRO -->
+      <article class="card popular">
+        <div class="popular-badge">⭐ MOST POPULAR</div>
+        <div class="plan-icon">⚡</div>
+        <h2>Pro</h2>
+        <p class="subtitle">For serious aspirants</p>
+
+        <div class="price-row">
+          <span class="price" id="proPrice">₹99</span>
+          <span class="period" id="proPeriod">/month</span>
+        </div>
+        <div class="year-note" id="proNote">Switch to yearly and save ~33%</div>
+
+        <hr />
+
+        <ul class="features">
+          <li><span class="check">✓</span> Everything in Start</li>
+          <li><span class="check">✓</span> 6,000–8,000+ practice questions*</li>
+          <li><span class="check">✓</span> Topic & chapter practice</li>
+          <li><span class="check">✓</span> Adaptive study planner</li>
+          <li><span class="check">✓</span> Smart revision engine</li>
+          <li><span class="check">✓</span> Backlog recovery planning</li>
+          <li><span class="check">✓</span> Advanced performance analytics</li>
+          <li><span class="check">✓</span> Weekly progress reports</li>
+          <li><span class="check">✓</span> Target vs actual tracking</li>
+          <li><span class="check">✓</span> Smart practice recommendations</li>
+        </ul>
+
+        <div class="limit">Best balance of features and price for long-term preparation.</div>
+        <button class="btn btn-primary choose-btn" data-plan="Pro">Choose Pro →</button>
+      </article>
+
+      <!-- ELITE -->
+      <article class="card">
+        <div class="plan-icon">👑</div>
+        <h2>Elite</h2>
+        <p class="subtitle">For complete exam mode</p>
+
+        <div class="price-row">
+          <span class="price">₹1,499</span>
+          <span class="period">/year</span>
+        </div>
+        <div class="year-note">Annual plan</div>
+
+        <hr />
+
+        <ul class="features">
+          <li><span class="check">✓</span> Everything in Pro</li>
+          <li><span class="check">✓</span> AI Study Coach</li>
+          <li><span class="check">✓</span> Advanced backlog manager</li>
+          <li><span class="check">✓</span> Mock/test analysis</li>
+          <li><span class="check">✓</span> Topic-level performance insights</li>
+          <li><span class="check">✓</span> StudyPlanAI Preparation Score</li>
+          <li><span class="check">✓</span> Advanced adaptive planning</li>
+          <li><span class="check">✓</span> Exam Mode</li>
+          <li><span class="check">✓</span> Advanced reports & insights</li>
+          <li><span class="check">✓</span> Priority premium features</li>
+        </ul>
+
+        <div class="limit">For students who want the complete StudyPlanAI preparation system.</div>
+        <button class="btn btn-dark choose-btn" data-plan="Elite">Go Elite →</button>
+      </article>
+    </section>
+
+    <!-- PRODUCT LOOP -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>More than a timetable.</h2>
+          <p>
+            StudyPlanAI creates a continuous preparation loop so your progress
+            can influence what you do next.
+          </p>
+        </div>
+
+        <div class="loop">
+          <div class="loop-item">
+            <div class="emoji">🧠</div>
+            <strong>PLAN</strong>
+            <span>Build your personalized schedule.</span>
+          </div>
+          <div class="loop-item">
+            <div class="emoji">📝</div>
+            <strong>PRACTICE</strong>
+            <span>Practice by subject, chapter and topic.</span>
+          </div>
+          <div class="loop-item">
+            <div class="emoji">📊</div>
+            <strong>ANALYZE</strong>
+            <span>Understand accuracy and progress.</span>
+          </div>
+          <div class="loop-item">
+            <div class="emoji">🔎</div>
+            <strong>FIND WEAK AREAS</strong>
+            <span>See what needs more attention.</span>
+          </div>
+          <div class="loop-item">
+            <div class="emoji">🔄</div>
+            <strong>ADAPT</strong>
+            <span>Adjust the next study plan.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARISON -->
+    <section id="compare" class="section" style="padding-top:20px">
+      <div class="container">
+        <div class="section-header">
+          <h2>Choose the level that fits you.</h2>
+          <p>Start free. Upgrade when you need deeper preparation tools.</p>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Start</th>
+                <th class="pro-head">Pro</th>
+                <th>Elite</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Basic study planner</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>Daily targets</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>Practice questions</td><td>Limited</td><td class="yes">6,000–8,000+*</td><td class="yes">6,000–8,000+*</td></tr>
+              <tr><td>Advanced analytics</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>Adaptive schedule</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>Smart revision</td><td>Basic</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>Backlog recovery</td><td class="no">—</td><td class="yes">✓</td><td class="yes">Advanced</td></tr>
+              <tr><td>Weekly reports</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+              <tr><td>AI Study Coach</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+              <tr><td>Mock/test analysis</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+              <tr><td>Preparation Score</td><td class="no">—</td><td class="yes">✓</td><td class="yes">Advanced</td></tr>
+              <tr><td>Exam Mode</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p style="font-size:12px;color:var(--muted);margin:12px 4px">
+          *Target quantity shown for the planned question bank. Use only questions and explanations
+          that you own, created yourself, or are properly licensed to distribute.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently asked questions</h2>
+          <p>Keep this section updated as your membership grows.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Can I use StudyPlanAI for free?</summary>
+            <p>Yes. The Start plan is designed to let students experience the core planner before deciding whether they need premium features.</p>
+          </details>
+
+          <details>
+            <summary>What do I get with Pro?</summary>
+            <p>Pro adds deeper practice, adaptive planning, smart revision, backlog recovery, advanced analytics and weekly progress reporting.</p>
+          </details>
+
+          <details>
+            <summary>What is the difference between Pro and Elite?</summary>
+            <p>Elite is designed as the complete preparation experience, adding the AI Study Coach, advanced test analysis, advanced backlog management, Preparation Score and Exam Mode.</p>
+          </details>
+
+          <details>
+            <summary>Can I cancel a paid membership?</summary>
+            <p>Yes. Connect this page to your payment provider and account/subscription system so users can manage or cancel their subscription according to your published terms.</p>
+          </details>
+
+          <details>
+            <summary>Will StudyPlanAI predict my rank or selection?</summary>
+            <p>No. Any preparation score should be presented as a progress indicator, not a guarantee or prediction of exam rank, admission or selection.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="container">
+      <div class="final-cta">
+        <h2>Build your preparation system.</h2>
+        <p>
+          Start free today and upgrade when you want adaptive planning,
+          smarter practice and deeper performance insights.
+        </p>
+        <button class="btn choose-btn" data-plan="Start — Free">Start Studying Free →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> StudyPlanAI. Built for smarter preparation.
+    </div>
+  </footer>
+
+  <!-- CHECKOUT / ACTION MODAL -->
+  <div class="modal" id="planModal" aria-hidden="true">
+    <div class="modal-box">
+      <div class="modal-top">
+        <div>
+          <h3>Continue with StudyPlanAI</h3>
+          <p id="modalText">You selected a plan.</p>
+        </div>
+        <button class="close" id="closeModal" aria-label="Close">×</button>
+      </div>
+
+      <div class="selected-plan" id="selectedPlan">Plan</div>
+
+      <button class="btn btn-primary" id="continueBtn">Continue →</button>
+
+      <div class="modal-note">
+        Demo checkout button — connect this action to your payment/authentication system.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const monthlyBtn = document.getElementById("monthlyBtn");
+    const yearlyBtn = document.getElementById("yearlyBtn");
+    const proPrice = document.getElementById("proPrice");
+    const proPeriod = document.getElementById("proPeriod");
+    const proNote = document.getElementById("proNote");
+
+    let billing = "monthly";
+
+    function setBilling(mode) {
+      billing = mode;
+
+      if (mode === "monthly") {
+        monthlyBtn.classList.add("active");
+        yearlyBtn.classList.remove("active");
+
+        proPrice.textContent = "₹99";
+        proPeriod.textContent = "/month";
+        proNote.textContent = "Switch to yearly and save ~33%";
+      } else {
+        yearlyBtn.classList.add("active");
+        monthlyBtn.classList.remove("active");
+
+        proPrice.textContent = "₹799";
+        proPeriod.textContent = "/year";
+        proNote.textContent = "Best value for long-term preparation";
+      }
+    }
+
+    monthlyBtn.addEventListener("click", () => setBilling("monthly"));
+    yearlyBtn.addEventListener("click", () => setBilling("yearly"));
+
+    // Modal
+    const modal = document.getElementById("planModal");
+    const closeModal = document.getElementById("closeModal");
+    const selectedPlan = document.getElementById("selectedPlan");
+    const modalText = document.getElementById("modalText");
+    const continueBtn = document.getElementById("continueBtn");
+
+    document.querySelectorAll(".choose-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        const plan = button.dataset.plan;
+
+        let planLabel = plan;
+
+        if (plan === "Pro") {
+          planLabel = billing === "monthly"
+            ? "Pro — ₹99/month"
+            : "Pro — ₹799/year";
+        }
+
+        selectedPlan.textContent = planLabel;
+        modalText.textContent =
+          plan === "Start — Free"
+            ? "Create your free StudyPlanAI account to get started."
+            : "Your next step is to connect this button to your authentication and payment flow.";
+
+        modal.classList.add("show");
+        modal.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    function closePlanModal() {
+      modal.classList.remove("show");
+      modal.setAttribute("aria-hidden", "true");
+    }
+
+    closeModal.addEventListener("click", closePlanModal);
+
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) closePlanModal();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closePlanModal();
+    });
+
+    continueBtn.addEventListener("click", () => {
+      // IMPORTANT:
+      // Replace this with your real login/signup/payment URL.
+      // Example:
+      // window.location.href = "https://your-domain.com/signup?plan=pro";
+      alert("Connect this button to your StudyPlanAI signup/payment flow.");
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
