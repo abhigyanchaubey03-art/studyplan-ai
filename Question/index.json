@@ -1,0 +1,39 @@
+{
+  "biology": [
+    "genetics",
+    "human-circulation",
+    "ecology",
+    "human-reproduction",
+    "cell-biology",
+    "plant-physiology",
+    "evolution",
+    "human-health-and-disease",
+    "digestion-and-absorption",
+    "breathing-and-exchange-of-gases",
+    "excretory-products-and-their-elimination",
+    "neural-control-and-coordination",
+    "chemical-coordination-and-integration",
+    "biomolecules"
+  ],
+  "physics": [
+    "thermodynamics",
+    "optics",
+    "mechanics",
+    "electrostatics",
+    "current-electricity",
+    "magnetism",
+    "waves",
+    "gravitation"
+  ],
+  "chemistry": [
+    "chemical-bonding",
+    "organic-basics",
+    "equilibrium",
+    "periodic-table",
+    "chemical-kinetics",
+    "coordination-compounds",
+    "electrochemistry",
+    "solutions",
+    "redox-reactions"
+  ]
+}
