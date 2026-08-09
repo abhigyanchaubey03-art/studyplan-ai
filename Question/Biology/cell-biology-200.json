@@ -1,0 +1,3802 @@
+[
+  {
+    "id": "cb-e-001",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Who first observed and named cells while examining cork?",
+    "options": [
+      "Robert Hooke",
+      "Robert Brown",
+      "Matthias Schleiden",
+      "Theodor Schwann"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Robert Hooke observed box-like compartments in cork in 1665 and called them cells.",
+      "why_others_wrong": "Hooke made the observation; Brown discovered the nucleus, while Schleiden and Schwann contributed to cell theory.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-002",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Who proposed that all plants are composed of cells?",
+    "options": [
+      "Theodor Schwann",
+      "Matthias Schleiden",
+      "Rudolf Virchow",
+      "Robert Hooke"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Schleiden proposed in 1838 that plants are made of cells.",
+      "why_others_wrong": "Schwann extended the idea to animals and Virchow later emphasized formation from pre-existing cells.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-003",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Who proposed that all animals are composed of cells?",
+    "options": [
+      "Schleiden",
+      "Schwann",
+      "Virchow",
+      "Brown"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Theodor Schwann proposed the cellular basis of animal tissues in 1839.",
+      "why_others_wrong": "Schleiden dealt with plants; Virchow added the pre-existing-cell principle.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-004",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which statement is a core part of cell theory?",
+    "options": [
+      "All cells contain chlorophyll",
+      "The cell is the basic structural and functional unit of life",
+      "All cells have a cell wall",
+      "All cells are photosynthetic"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The cell is regarded as the basic structural and functional unit of life.",
+      "why_others_wrong": "Chlorophyll, cell walls and photosynthesis are not universal cellular features.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-005",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which scientist stated that new cells arise from pre-existing cells?",
+    "options": [
+      "Robert Hooke",
+      "Rudolf Virchow",
+      "Schleiden",
+      "Schwann"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Virchow emphasized that cells arise from pre-existing cells.",
+      "why_others_wrong": "This statement is commonly expressed as Omnis cellula e cellula.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-006",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which feature distinguishes a prokaryotic cell from a typical eukaryotic cell?",
+    "options": [
+      "Presence of ribosomes",
+      "Presence of DNA",
+      "Absence of a membrane-bound nucleus",
+      "Presence of plasma membrane"
+    ],
+    "answer": "C",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Prokaryotes lack a membrane-bound nucleus.",
+      "why_others_wrong": "Both prokaryotes and eukaryotes possess DNA, ribosomes and a plasma membrane.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-007",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The genetic material of a typical bacterium is located in the",
+    "options": [
+      "nucleolus",
+      "nucleoid",
+      "Golgi apparatus",
+      "lysosome"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The bacterial chromosome lies in a nucleoid region that is not surrounded by a nuclear membrane.",
+      "why_others_wrong": "The nucleoid is distinct from the membrane-bound nucleus of eukaryotes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-008",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "A bacterial plasmid is best described as",
+    "options": [
+      "A membrane-bound organelle",
+      "An extrachromosomal DNA molecule",
+      "A ribosomal subunit",
+      "A cell-wall protein"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Plasmids are small extrachromosomal DNA molecules that can replicate independently.",
+      "why_others_wrong": "They are distinct from the main bacterial chromosome.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-009",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The bacterial cell wall is mainly composed of",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Peptidoglycan",
+      "Pectin"
+    ],
+    "answer": "C",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Peptidoglycan is the characteristic structural polymer of bacterial cell walls.",
+      "why_others_wrong": "Cellulose is typical of plant cell walls and chitin of fungal walls.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-010",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which structure is absent in a typical prokaryotic cell?",
+    "options": [
+      "70S ribosome",
+      "Plasma membrane",
+      "Membrane-bound nucleus",
+      "DNA"
+    ],
+    "answer": "C",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "A prokaryotic cell has no membrane-bound nucleus.",
+      "why_others_wrong": "It still has DNA, plasma membrane and ribosomes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-011",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The plasma membrane is best described by the",
+    "options": [
+      "Unit membrane theory only",
+      "Fluid mosaic model",
+      "Lock-and-key model",
+      "Cell theory"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Singer and Nicolson proposed the fluid mosaic model in 1972.",
+      "why_others_wrong": "It describes a dynamic lipid bilayer with embedded and associated proteins.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-012",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The major lipid component of the plasma membrane is",
+    "options": [
+      "Phospholipid",
+      "Glycogen",
+      "Cellulose",
+      "DNA"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Phospholipids form the basic bilayer of biological membranes.",
+      "why_others_wrong": "Proteins and carbohydrates are also present, but phospholipids form the structural bilayer.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-013",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The hydrophilic part of a phospholipid is its",
+    "options": [
+      "Fatty acid tails",
+      "Phosphate-containing head",
+      "Steroid ring",
+      "Glycerol-free tail"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The polar phosphate-containing head interacts with water.",
+      "why_others_wrong": "Hydrophobic fatty-acid tails face away from the aqueous environment.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-014",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The hydrophobic region of the membrane is mainly formed by",
+    "options": [
+      "Phosphate heads",
+      "Fatty-acid tails",
+      "Carbohydrate chains",
+      "Nucleic acids"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Non-polar fatty-acid tails form the hydrophobic interior of the bilayer.",
+      "why_others_wrong": "This arrangement allows the membrane to act as a selective barrier.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-015",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which membrane component can act as a receptor for signalling molecules?",
+    "options": [
+      "Membrane protein",
+      "Cellulose",
+      "DNA",
+      "Starch"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Specific membrane proteins can function as receptors.",
+      "why_others_wrong": "Receptors recognize extracellular signalling molecules and initiate cellular responses.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-016",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Peripheral membrane proteins are generally",
+    "options": [
+      "Loosely associated with the membrane surface",
+      "Embedded through the entire bilayer",
+      "Made of cellulose",
+      "Located only inside the nucleus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Peripheral proteins are associated with the membrane surface and can often be removed relatively easily.",
+      "why_others_wrong": "Integral proteins are more deeply embedded in the lipid bilayer.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-017",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The cell wall of a plant cell is mainly composed of",
+    "options": [
+      "Cellulose",
+      "Peptidoglycan",
+      "Chitin",
+      "Phospholipid"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cellulose is the major structural component of the plant cell wall.",
+      "why_others_wrong": "Hemicellulose and pectin are also important wall components.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-018",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The middle lamella between adjacent plant cells is rich in",
+    "options": [
+      "Calcium pectate",
+      "Peptidoglycan",
+      "Cholesterol",
+      "Keratin"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The middle lamella is mainly made of calcium pectate.",
+      "why_others_wrong": "It helps cement adjacent plant cells together.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-019",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Plasmodesmata provide",
+    "options": [
+      "Cytoplasmic connections between plant cells",
+      "Connections between mitochondria",
+      "Channels inside ribosomes",
+      "Openings in bacterial DNA"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Plasmodesmata connect the cytoplasm of adjacent plant cells.",
+      "why_others_wrong": "They allow intercellular transport and communication.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-020",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which organelle is the major site of aerobic ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mitochondria generate most cellular ATP through aerobic respiration and oxidative phosphorylation.",
+      "why_others_wrong": "Other organelles have different primary roles.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-021",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The folds of the inner mitochondrial membrane are called",
+    "options": [
+      "Grana",
+      "Cristae",
+      "Cisternae",
+      "Thylakoids"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cristae are folds of the inner mitochondrial membrane.",
+      "why_others_wrong": "They increase membrane surface area for respiratory processes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-022",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The mitochondrial matrix contains",
+    "options": [
+      "Enzymes, mitochondrial DNA and ribosomes",
+      "Cellulose and chlorophyll",
+      "Golgi cisternae",
+      "Only lipids"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The matrix contains enzymes of the TCA cycle along with mitochondrial DNA and ribosomes.",
+      "why_others_wrong": "Mitochondria are semi-autonomous organelles.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-023",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which mitochondrial feature increases the surface area available for oxidative phosphorylation?",
+    "options": [
+      "Cristae",
+      "Nucleolus",
+      "Tonoplast",
+      "Middle lamella"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cristae greatly increase the inner-membrane surface area.",
+      "why_others_wrong": "The electron transport chain and ATP synthase are associated with the inner mitochondrial membrane.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-024",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Mitochondria and chloroplasts are called semi-autonomous because they",
+    "options": [
+      "Contain their own DNA and ribosomes",
+      "Lack membranes",
+      "Are found only in bacteria",
+      "Cannot synthesize any proteins"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "They contain their own genetic material and ribosomes and can synthesize some of their proteins.",
+      "why_others_wrong": "Most proteins of these organelles are still encoded by nuclear genes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-025",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which organelle is the primary site of protein synthesis?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Vacuole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Ribosomes translate messenger RNA into polypeptide chains.",
+      "why_others_wrong": "They may be free in cytosol or attached to rough ER.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-026",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The ribosome of prokaryotic cells is",
+    "options": [
+      "70S",
+      "80S",
+      "90S",
+      "60S"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Prokaryotic ribosomes are 70S.",
+      "why_others_wrong": "Eukaryotic cytoplasmic ribosomes are 80S.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-027",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The cytoplasmic ribosome of a typical eukaryotic cell is",
+    "options": [
+      "70S",
+      "80S",
+      "50S",
+      "30S"
+    ],
+    "answer": "B",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Typical eukaryotic cytoplasmic ribosomes are 80S.",
+      "why_others_wrong": "70S ribosomes occur in prokaryotes and also in mitochondria and chloroplasts.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-028",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The 70S ribosome consists of",
+    "options": [
+      "50S and 30S subunits",
+      "60S and 40S subunits",
+      "40S and 20S subunits",
+      "50S and 20S subunits"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "A 70S prokaryotic ribosome has 50S and 30S subunits.",
+      "why_others_wrong": "The S values are sedimentation coefficients and are not simply additive by mass.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-029",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The 80S eukaryotic cytoplasmic ribosome consists of",
+    "options": [
+      "60S and 40S subunits",
+      "50S and 30S subunits",
+      "70S and 10S subunits",
+      "40S and 20S subunits"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The 80S ribosome contains 60S and 40S subunits.",
+      "why_others_wrong": "Its structure differs from the 70S ribosome of prokaryotes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-030",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Ribosomes are composed primarily of",
+    "options": [
+      "rRNA and proteins",
+      "DNA and lipids",
+      "Cellulose and proteins",
+      "Starch and RNA"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Ribosomes contain ribosomal RNA and proteins.",
+      "why_others_wrong": "They are non-membranous ribonucleoprotein particles.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-031",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Rough endoplasmic reticulum is called rough because it",
+    "options": [
+      "Has ribosomes attached to its cytosolic surface",
+      "Contains cellulose",
+      "Has DNA attached to it",
+      "Contains chlorophyll"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Ribosomes attached to the cytosolic surface give rough ER its appearance.",
+      "why_others_wrong": "Rough ER is important in synthesis of secretory and membrane proteins.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-032",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Smooth endoplasmic reticulum is especially involved in",
+    "options": [
+      "Lipid synthesis and detoxification",
+      "Ribosome assembly",
+      "DNA packaging",
+      "Cell-wall synthesis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Smooth ER participates in lipid synthesis and detoxification, particularly in liver cells.",
+      "why_others_wrong": "It lacks surface-bound ribosomes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-033",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The endoplasmic reticulum is directly continuous with the",
+    "options": [
+      "Outer nuclear membrane",
+      "Cell wall",
+      "Lysosomal lumen",
+      "Mitochondrial matrix"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The ER membrane is continuous with the outer nuclear envelope.",
+      "why_others_wrong": "This creates a connected endomembrane system.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-034",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The Golgi apparatus is mainly involved in",
+    "options": [
+      "Modification, sorting and packaging of cell products",
+      "ATP generation",
+      "DNA replication",
+      "Translation"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Golgi cisternae modify, sort and package proteins and lipids.",
+      "why_others_wrong": "It also contributes to lysosome formation.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-035",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The flattened sacs of the Golgi apparatus are called",
+    "options": [
+      "Cisternae",
+      "Cristae",
+      "Grana",
+      "Nucleosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Golgi cisternae are flattened membrane-bound sacs.",
+      "why_others_wrong": "Cristae belong to mitochondria and grana to chloroplasts.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-036",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The receiving face of the Golgi apparatus is the",
+    "options": [
+      "Cis face",
+      "Trans face",
+      "Lateral face",
+      "Matrix face"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The cis face receives vesicles from the ER.",
+      "why_others_wrong": "The trans face is involved in dispatching processed products.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-037",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The trans face of the Golgi apparatus primarily",
+    "options": [
+      "Sorts and dispatches modified products",
+      "Synthesizes DNA",
+      "Produces ATP",
+      "Forms spindle fibres"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The trans-Golgi network sorts and dispatches products to their destinations.",
+      "why_others_wrong": "Golgi processing occurs across its cisternal stack.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-038",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Lysosomes contain mainly",
+    "options": [
+      "Hydrolytic digestive enzymes",
+      "Chlorophyll",
+      "DNA polymerase",
+      "Cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Lysosomes contain hydrolytic enzymes that digest macromolecules and cellular debris.",
+      "why_others_wrong": "Their acidic lumen supports enzyme activity.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-039",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Lysosomes are formed mainly from vesicles associated with the",
+    "options": [
+      "Golgi apparatus",
+      "Nucleolus",
+      "Centriole",
+      "Cell wall"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Golgi-derived vesicles contribute to lysosome formation.",
+      "why_others_wrong": "The endomembrane system coordinates lysosomal biogenesis.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-040",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The acidic pH inside lysosomes is maintained by",
+    "options": [
+      "Proton pumps in the lysosomal membrane",
+      "DNA polymerase",
+      "Ribosomes",
+      "Cellulose synthase"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Proton pumps move H+ into the lysosome, maintaining an acidic lumen.",
+      "why_others_wrong": "Many lysosomal hydrolases work optimally at acidic pH.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-041",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Peroxisomes are especially associated with",
+    "options": [
+      "Oxidative reactions and hydrogen peroxide metabolism",
+      "Protein translation",
+      "Ribosome assembly",
+      "Photosynthetic light reactions"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Peroxisomes contain oxidases and catalase and participate in oxidative metabolism.",
+      "why_others_wrong": "Catalase helps decompose hydrogen peroxide.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-042",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Catalase in peroxisomes converts hydrogen peroxide mainly into",
+    "options": [
+      "Water and oxygen",
+      "Glucose and oxygen",
+      "ATP and carbon dioxide",
+      "Urea and ammonia"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Catalase decomposes hydrogen peroxide into water and oxygen.",
+      "why_others_wrong": "This protects cells from oxidative damage.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-043",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The membrane surrounding the vacuole of a plant cell is the",
+    "options": [
+      "Tonoplast",
+      "Plasmalemma",
+      "Nuclear envelope",
+      "Middle lamella"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The tonoplast surrounds the plant vacuole.",
+      "why_others_wrong": "It regulates exchange between the vacuole and cytoplasm.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-044",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The large central vacuole of plant cells contributes importantly to",
+    "options": [
+      "Turgor pressure",
+      "DNA replication",
+      "Protein translation",
+      "Spindle formation"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Water stored in the central vacuole contributes to cell turgor.",
+      "why_others_wrong": "Turgor helps maintain the firmness of herbaceous plant tissues.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-045",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which organelle contains chlorophyll?",
+    "options": [
+      "Chloroplast",
+      "Leucoplast",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chlorophyll is located in the thylakoid membranes of chloroplasts.",
+      "why_others_wrong": "Chloroplasts are the principal photosynthetic organelles of green plants.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-046",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The fluid matrix of a chloroplast is called",
+    "options": [
+      "Stroma",
+      "Matrix",
+      "Cytosol",
+      "Nucleoplasm"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The chloroplast stroma surrounds the thylakoid system.",
+      "why_others_wrong": "It contains enzymes involved in carbon fixation and chloroplast DNA/ribosomes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-047",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "A stack of thylakoids is called a",
+    "options": [
+      "Granum",
+      "Crista",
+      "Cisterna",
+      "Nucleosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "A stack of thylakoids is a granum.",
+      "why_others_wrong": "Grana are interconnected by stroma lamellae.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-048",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The photosynthetic light reactions occur mainly on the",
+    "options": [
+      "Thylakoid membranes",
+      "Stroma fluid",
+      "Outer chloroplast membrane",
+      "Nuclear envelope"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Photosystems and electron carriers of the light reactions are embedded in thylakoid membranes.",
+      "why_others_wrong": "Carbon fixation occurs in the stroma.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-049",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The Calvin cycle occurs mainly in the",
+    "options": [
+      "Chloroplast stroma",
+      "Thylakoid lumen",
+      "Mitochondrial matrix",
+      "Golgi cisternae"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The Calvin cycle enzymes are located in the chloroplast stroma.",
+      "why_others_wrong": "It uses ATP and NADPH generated by light reactions.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-050",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which plastid is primarily associated with storage of starch, oils or proteins?",
+    "options": [
+      "Leucoplast",
+      "Chromoplast",
+      "Chloroplast",
+      "Mitochondrion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Leucoplasts are colourless plastids specialized for storage.",
+      "why_others_wrong": "Amyloplasts are starch-storing leucoplasts.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-051",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Chromoplasts are characterized by",
+    "options": [
+      "Non-green pigments such as carotenoids",
+      "High concentrations of ribosomes",
+      "Hydrolytic enzymes",
+      "Peptidoglycan"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chromoplasts contain coloured pigments, often carotenoids.",
+      "why_others_wrong": "They contribute to the colour of many flowers and fruits.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-052",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The nucleus is bounded by",
+    "options": [
+      "A double membrane called the nuclear envelope",
+      "A single cellulose membrane",
+      "No membrane",
+      "Three lipid bilayers"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The nuclear envelope consists of two membranes and contains nuclear pores.",
+      "why_others_wrong": "It separates nucleoplasm from cytoplasm.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-053",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Nuclear pores allow",
+    "options": [
+      "Regulated exchange between nucleus and cytoplasm",
+      "DNA to leave the nucleus freely",
+      "Cell wall formation",
+      "ATP synthesis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Nuclear pore complexes regulate transport of RNA, proteins and other molecules.",
+      "why_others_wrong": "Transport is selective rather than unrestricted.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-054",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The nucleolus is primarily a site for",
+    "options": [
+      "rRNA synthesis and ribosomal subunit assembly",
+      "ATP synthesis",
+      "Lipid digestion",
+      "Cellulose production"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The nucleolus is a non-membranous nuclear region involved in rRNA production and ribosome assembly.",
+      "why_others_wrong": "It is often prominent in metabolically active cells.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-055",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Chromatin is mainly composed of",
+    "options": [
+      "DNA and associated proteins",
+      "Cellulose and proteins",
+      "Lipids and RNA",
+      "Starch and DNA"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chromatin consists of DNA associated with histone and other proteins.",
+      "why_others_wrong": "It packages the genome within the nucleus.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-056",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "A nucleosome consists of DNA wrapped around",
+    "options": [
+      "A histone protein core",
+      "A ribosome",
+      "A centriole",
+      "A Golgi cisterna"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "DNA winds around a histone octamer to form a nucleosome.",
+      "why_others_wrong": "Nucleosomes are basic units of chromatin organization.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-057",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Which level of chromosome organization involves nucleosomes?",
+    "options": [
+      "Packaging of DNA with histone proteins",
+      "Translation of mRNA",
+      "ATP synthesis",
+      "Lipid digestion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Nucleosomes package DNA into chromatin.",
+      "why_others_wrong": "Further folding and condensation produces higher-order chromatin structures.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-058",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The nuclear matrix contains",
+    "options": [
+      "A proteinaceous network supporting nuclear organization",
+      "Only DNA",
+      "Only RNA",
+      "Cellulose fibres"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The nuclear matrix is described as a structural framework within the nucleus.",
+      "why_others_wrong": "It is distinct from chromatin and nucleoplasm.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-059",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The cytoskeleton is composed of",
+    "options": [
+      "Microtubules, microfilaments and intermediate filaments",
+      "DNA, RNA and lipids",
+      "Cellulose, pectin and lignin",
+      "Ribosomes and lysosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "These three filament systems form the major cytoskeletal network.",
+      "why_others_wrong": "They support shape, transport, movement and organization.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-060",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Microtubules are made mainly of",
+    "options": [
+      "Tubulin",
+      "Actin",
+      "Myosin",
+      "Collagen"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Microtubules are polymers of tubulin.",
+      "why_others_wrong": "They participate in intracellular transport and chromosome segregation.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-061",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Microfilaments are made mainly of",
+    "options": [
+      "Actin",
+      "Tubulin",
+      "Keratin only",
+      "Cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Actin forms microfilaments.",
+      "why_others_wrong": "They are important in cell shape and movement.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-062",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Intermediate filaments are generally important for",
+    "options": [
+      "Mechanical strength and structural support",
+      "ATP synthesis",
+      "Photosynthesis",
+      "DNA replication"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Intermediate filaments provide tensile strength and stabilize cellular structures.",
+      "why_others_wrong": "They are more stable than many microtubule and actin structures.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-063",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The axoneme of a typical motile cilium has",
+    "options": [
+      "9+2 arrangement",
+      "9+0 arrangement of triplets",
+      "8+2 arrangement",
+      "10+2 arrangement"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Nine peripheral microtubule doublets surround two central singlets.",
+      "why_others_wrong": "This 9+2 axoneme is typical of motile cilia and flagella.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-064",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "A centriole typically has",
+    "options": [
+      "Nine peripheral microtubule triplets",
+      "Nine doublets plus two singlets",
+      "Six triplets",
+      "Eight doublets"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "A centriole has nine peripheral triplets arranged cylindrically.",
+      "why_others_wrong": "It has a 9+0 pattern rather than the 9+2 axoneme.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-065",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Centrioles are especially involved in",
+    "options": [
+      "Organization of spindle and basal bodies",
+      "Protein translation",
+      "Lipid synthesis",
+      "DNA transcription"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Centrioles participate in organizing microtubule structures and can form basal bodies.",
+      "why_others_wrong": "They are characteristic of animal cells and many lower eukaryotes.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-066",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Cilia generally differ from flagella in being",
+    "options": [
+      "Shorter and more numerous",
+      "Longer and fewer in every organism",
+      "Composed of cellulose",
+      "Non-membranous"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cilia are typically shorter and numerous, whereas flagella are usually longer and fewer.",
+      "why_others_wrong": "Both have a membrane-covered microtubule-based axoneme.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-067",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "The plasma membrane is selectively permeable because it",
+    "options": [
+      "Allows some substances to cross more readily than others",
+      "Blocks every substance",
+      "Allows only DNA through",
+      "Is made only of cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Membrane lipids and proteins create selective barriers and transport pathways.",
+      "why_others_wrong": "Transport depends on size, charge, lipid solubility and specific transport proteins.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-068",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Simple diffusion across a membrane generally moves molecules",
+    "options": [
+      "Down their concentration gradient without ATP",
+      "Against their gradient using ATP",
+      "Only through ribosomes",
+      "Only by vesicles"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Simple diffusion is passive movement down a concentration gradient.",
+      "why_others_wrong": "Small non-polar molecules such as oxygen can cross the lipid bilayer readily.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-069",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Facilitated diffusion differs from simple diffusion because it",
+    "options": [
+      "Uses specific membrane proteins but does not directly require ATP",
+      "Always uses ATP",
+      "Moves only water",
+      "Requires vesicle formation"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Facilitated diffusion uses channels or carriers for passive movement down a gradient.",
+      "why_others_wrong": "It does not directly consume ATP.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-e-070",
+    "type": "Practice",
+    "difficulty": "Easy",
+    "question": "Active transport generally moves substances",
+    "options": [
+      "Against a gradient using cellular energy",
+      "Down a gradient without proteins",
+      "Only through the nucleus",
+      "Only by osmosis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Active transport can move substances against electrochemical gradients using energy.",
+      "why_others_wrong": "Many pumps use ATP directly.",
+      "concept_recap": "NEET focus: remember the standard NCERT association between this structure and its function."
+    }
+  },
+  {
+    "id": "cb-m-071",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The sodium-potassium pump transports per cycle",
+    "options": [
+      "3 Na+ out and 2 K+ in",
+      "2 Na+ out and 3 K+ in",
+      "3 Na+ in and 2 K+ out",
+      "1 Na+ out and 1 K+ in"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The Na+/K+ ATPase typically exports three Na+ and imports two K+ per ATP hydrolysed.",
+      "why_others_wrong": "This is electrogenic active transport.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-072",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Osmosis is the movement of",
+    "options": [
+      "Water across a selectively permeable membrane",
+      "Proteins through ribosomes",
+      "DNA through pores",
+      "ATP through lysosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Osmosis is passive water movement across a selectively permeable membrane.",
+      "why_others_wrong": "Water moves toward the region of lower water potential.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-073",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A plant cell placed in a hypertonic solution is likely to undergo",
+    "options": [
+      "Plasmolysis",
+      "Deplasmolysis",
+      "Cytokinesis",
+      "Endocytosis only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Water leaves the cell in a hypertonic external solution, causing the protoplast to shrink away from the wall.",
+      "why_others_wrong": "This is plasmolysis.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-074",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A plasmolysed plant cell can regain turgidity when placed in a suitable hypotonic medium; this is called",
+    "options": [
+      "Deplasmolysis",
+      "Exocytosis",
+      "Phagocytosis",
+      "Transcription"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Water enters the cell during deplasmolysis, restoring turgidity.",
+      "why_others_wrong": "The process is driven by water potential differences.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-075",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Endocytosis is a process by which cells",
+    "options": [
+      "Take material into the cell using membrane vesicles",
+      "Release material using vesicles",
+      "Replicate DNA",
+      "Synthesize ribosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Endocytosis internalizes extracellular material through membrane invagination and vesicle formation.",
+      "why_others_wrong": "Phagocytosis and pinocytosis are forms of endocytosis.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-076",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Exocytosis involves",
+    "options": [
+      "Release of vesicular contents outside the cell",
+      "Uptake of fluid into the cell",
+      "DNA replication",
+      "Ribosome assembly"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "A secretory vesicle fuses with the plasma membrane and releases its contents.",
+      "why_others_wrong": "This process also adds membrane to the cell surface.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-077",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Phagocytosis refers to",
+    "options": [
+      "Cellular uptake of large particles",
+      "Uptake of dissolved ions only",
+      "Release of proteins",
+      "DNA replication"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Phagocytosis is a form of endocytosis involving large particles.",
+      "why_others_wrong": "It is prominent in specialized cells such as macrophages.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-078",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Pinocytosis is best described as",
+    "options": [
+      "Cellular uptake of extracellular fluid and dissolved substances",
+      "Cell division",
+      "Protein synthesis",
+      "Release of neurotransmitters"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Pinocytosis involves uptake of extracellular fluid through small vesicles.",
+      "why_others_wrong": "It is often called cellular drinking.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-079",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The endomembrane system includes",
+    "options": [
+      "ER, Golgi, lysosomes and vacuoles",
+      "Mitochondria and chloroplasts only",
+      "Ribosomes and centrioles only",
+      "DNA and chromosomes only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The endomembrane system includes ER, Golgi, lysosomes, vacuoles and associated vesicles.",
+      "why_others_wrong": "Mitochondria and chloroplasts are generally not included in this system.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-080",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is NOT generally considered part of the endomembrane system?",
+    "options": [
+      "Mitochondrion",
+      "Endoplasmic reticulum",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mitochondria have their own double membrane and evolutionary history and are excluded from the endomembrane system.",
+      "why_others_wrong": "ER, Golgi and lysosomes are core components.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-081",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A secretory protein is synthesized mainly on",
+    "options": [
+      "Ribosomes attached to rough ER",
+      "Free lysosomal enzymes",
+      "Golgi DNA",
+      "Chloroplast grana only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Proteins destined for secretion enter the rough-ER pathway during translation.",
+      "why_others_wrong": "They are then processed through the ER and Golgi.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-082",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A protein destined for secretion generally follows which route?",
+    "options": [
+      "Rough ER → Golgi → secretory vesicle → plasma membrane",
+      "Golgi → nucleus → mitochondrion",
+      "Lysosome → chloroplast → ER",
+      "Nucleus → cell wall → ribosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Secretory proteins enter the ER, pass through Golgi stacks, and are packaged into secretory vesicles.",
+      "why_others_wrong": "This is the classic secretory pathway.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-083",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The cis-Golgi network receives vesicles mainly from the",
+    "options": [
+      "Endoplasmic reticulum",
+      "Mitochondrial matrix",
+      "Nucleus directly",
+      "Cell wall"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "COPII-type transport from ER reaches the cis-Golgi region in the secretory pathway.",
+      "why_others_wrong": "The cis face is the receiving side.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-084",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is most closely associated with detoxification of many lipid-soluble drugs in liver cells?",
+    "options": [
+      "Smooth ER",
+      "Nucleolus",
+      "Ribosome",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Smooth ER enzymes participate in detoxification reactions in hepatocytes.",
+      "why_others_wrong": "Smooth ER also synthesizes lipids.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-085",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A cell specialized for secretion of protein hormones would be expected to have abundant",
+    "options": [
+      "Rough ER and Golgi apparatus",
+      "Only lysosomes",
+      "Only centrioles",
+      "Only smooth ER"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Protein secretion requires extensive rough ER for synthesis and Golgi for processing and packaging.",
+      "why_others_wrong": "Secretory vesicles then deliver the products.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-086",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A steroid-producing cell would be expected to contain abundant",
+    "options": [
+      "Smooth ER",
+      "Rough ER only",
+      "Lysosomes only",
+      "Cellulose wall"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Steroid hormones are lipid-derived and smooth ER is prominent in steroid-producing cells.",
+      "why_others_wrong": "Mitochondria can also participate in steroidogenesis.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-087",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which structure is present in plant cells but absent in typical animal cells?",
+    "options": [
+      "Cell wall",
+      "Plasma membrane",
+      "Ribosome",
+      "Mitochondrion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Plant cells have a cellulose cell wall.",
+      "why_others_wrong": "Animal cells still possess plasma membranes, ribosomes and mitochondria.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-088",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which combination is characteristic of a typical plant cell?",
+    "options": [
+      "Cell wall, plastids and large central vacuole",
+      "Centrioles, no vacuole and no cell wall",
+      "Peptidoglycan wall and 70S cytoplasmic ribosomes",
+      "Chitin wall and chloroplasts"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Typical plant cells possess a cellulose wall, plastids and a prominent vacuole.",
+      "why_others_wrong": "Peptidoglycan is bacterial and chitin is fungal.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-089",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which combination is characteristic of a typical animal cell?",
+    "options": [
+      "Plasma membrane, lysosomes and centrioles",
+      "Cellulose wall, chloroplasts and large central vacuole",
+      "Peptidoglycan wall and plasmids",
+      "Chitin wall and chloroplasts"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Typical animal cells have plasma membranes, lysosomes and centrosomal structures with centrioles.",
+      "why_others_wrong": "They lack a cellulose wall and chloroplasts.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-090",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A mature mammalian red blood cell lacks",
+    "options": [
+      "A nucleus",
+      "Plasma membrane",
+      "Hemoglobin",
+      "Cytoplasm"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mature mammalian RBCs are enucleated.",
+      "why_others_wrong": "They retain plasma membrane, cytoplasm and hemoglobin.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-091",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The absence of a nucleus in mature mammalian RBCs mainly provides",
+    "options": [
+      "More space for haemoglobin and flexibility",
+      "More DNA replication",
+      "More chloroplasts",
+      "More ribosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Loss of the nucleus allows more room for haemoglobin and contributes to the specialized biconcave cell shape.",
+      "why_others_wrong": "Mature RBCs do not synthesize proteins because they lack ribosomes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-092",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which cell structure is non-membranous?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Ribosomes are non-membranous ribonucleoprotein particles.",
+      "why_others_wrong": "Lysosomes, Golgi and mitochondria are membrane-bound.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-093",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which pair contains only non-membranous structures?",
+    "options": [
+      "Ribosome and centriole",
+      "Lysosome and Golgi apparatus",
+      "Mitochondrion and chloroplast",
+      "Vacuole and peroxisome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Ribosomes and centrioles lack surrounding membranes.",
+      "why_others_wrong": "The other pairs contain membrane-bound organelles.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-094",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which pair contains double-membrane-bound structures?",
+    "options": [
+      "Mitochondrion and chloroplast",
+      "Lysosome and vacuole",
+      "Golgi and ER",
+      "Ribosome and centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mitochondria and chloroplasts are surrounded by double membranes.",
+      "why_others_wrong": "The nucleus is also double-membrane-bound.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-095",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which pair contains single-membrane-bound organelles?",
+    "options": [
+      "Golgi apparatus and lysosome",
+      "Mitochondrion and chloroplast",
+      "Ribosome and centriole",
+      "Nucleus and chloroplast"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Golgi apparatus and lysosomes are single-membrane organelles.",
+      "why_others_wrong": "Mitochondria and chloroplasts have double membranes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-096",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The nuclear envelope is structurally related to the",
+    "options": [
+      "Endoplasmic reticulum",
+      "Cell wall",
+      "Golgi lumen",
+      "Mitochondrial cristae"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The outer nuclear membrane is continuous with ER.",
+      "why_others_wrong": "This links nuclear and endomembrane organization.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-097",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle contains enzymes for intracellular digestion of worn-out organelles?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Chloroplast",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Lysosomes participate in degradation of cellular material.",
+      "why_others_wrong": "Autophagy can deliver worn-out organelles to lysosomal degradation pathways.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-098",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Autophagy refers to",
+    "options": [
+      "Degradation and recycling of the cell's own components",
+      "DNA replication",
+      "Protein translation",
+      "Cell-wall synthesis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Autophagy delivers cellular components to lysosomes for degradation and recycling.",
+      "why_others_wrong": "It helps maintain cellular homeostasis.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-099",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A lysosomal enzyme is most active at",
+    "options": [
+      "Acidic pH",
+      "Strongly alkaline pH only",
+      "Neutral pH only",
+      "Any pH equally"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Many lysosomal hydrolases have acidic pH optima.",
+      "why_others_wrong": "The lysosomal membrane maintains an acidic lumen.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-100",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is most closely associated with beta-oxidation of very-long-chain fatty acids?",
+    "options": [
+      "Peroxisome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Peroxisomes participate in oxidation of very-long-chain fatty acids.",
+      "why_others_wrong": "They also contain catalase and other oxidative enzymes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-101",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is involved in photorespiration in plant cells?",
+    "options": [
+      "Peroxisome",
+      "Lysosome only",
+      "Golgi apparatus",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Peroxisomes participate in the photorespiratory pathway along with chloroplasts and mitochondria.",
+      "why_others_wrong": "They contain enzymes required for oxidative steps.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-102",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle contains its own circular DNA and 70S-type ribosomes?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Peroxisome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mitochondria possess circular DNA and ribosomes resembling bacterial 70S ribosomes.",
+      "why_others_wrong": "This supports their semi-autonomous nature.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-103",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle contains thylakoids?",
+    "options": [
+      "Chloroplast",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Thylakoid membranes form the internal photosynthetic membrane system of chloroplasts.",
+      "why_others_wrong": "They contain photosystems and electron carriers.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-104",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle contains cristae?",
+    "options": [
+      "Mitochondrion",
+      "Chloroplast",
+      "Golgi apparatus",
+      "Nucleus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cristae are folds of the inner mitochondrial membrane.",
+      "why_others_wrong": "They provide surface for respiratory electron transport and ATP synthesis.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-105",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A decrease in mitochondrial inner-membrane surface area would most directly affect",
+    "options": [
+      "Oxidative phosphorylation",
+      "DNA transcription in the nucleus",
+      "Golgi packaging",
+      "Lysosomal digestion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The inner membrane houses the respiratory electron transport chain and ATP synthase.",
+      "why_others_wrong": "Reduced membrane area can reduce capacity for oxidative phosphorylation.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-106",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "If ribosomes are removed from rough ER, it becomes structurally similar to",
+    "options": [
+      "Smooth ER",
+      "Golgi apparatus",
+      "Lysosome",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Rough and smooth ER differ primarily in the presence or absence of attached ribosomes.",
+      "why_others_wrong": "The ER membrane itself remains continuous.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-107",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle modifies proteins by processes such as glycosylation and sorts them for delivery?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Centriole",
+      "Nucleoid"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The Golgi modifies and sorts many proteins and lipids.",
+      "why_others_wrong": "Its cisternal organization supports sequential processing.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-108",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A defect in Golgi sorting would most directly disrupt",
+    "options": [
+      "Targeting of cellular proteins and lipids",
+      "DNA base pairing",
+      "ATP production in mitochondria",
+      "Formation of nucleosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Golgi sorting directs processed cargo to appropriate cellular destinations.",
+      "why_others_wrong": "This includes lysosomes, plasma membrane and secretion.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-109",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A mutation preventing formation of functional lysosomal hydrolases would most likely cause",
+    "options": [
+      "Accumulation of undegraded cellular material",
+      "Immediate loss of chlorophyll",
+      "Loss of DNA from nucleus",
+      "Failure of ribosome assembly only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Without lysosomal hydrolases, substrates can accumulate inside lysosomes.",
+      "why_others_wrong": "Such defects underlie lysosomal storage disorders.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-110",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A cell with a very high rate of protein secretion is most likely to contain",
+    "options": [
+      "Abundant rough ER, Golgi and secretory vesicles",
+      "Only smooth ER",
+      "No ribosomes",
+      "No Golgi apparatus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "High protein secretion requires synthesis on rough ER, processing in Golgi and vesicular export.",
+      "why_others_wrong": "This is typical of many secretory cells.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-111",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A cell with extensive membrane lipid synthesis would be expected to have abundant",
+    "options": [
+      "Smooth ER",
+      "Lysosomes only",
+      "Nucleoli only",
+      "Centrioles only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Smooth ER is a major site of lipid synthesis.",
+      "why_others_wrong": "It is prominent in cells specialized for lipid metabolism.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-112",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which statement about chloroplasts is correct?",
+    "options": [
+      "They have a double membrane and internal thylakoid system",
+      "They are single-membrane organelles",
+      "They contain cristae",
+      "They are the main site of lysosomal digestion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chloroplasts have a double membrane and an internal thylakoid membrane system.",
+      "why_others_wrong": "Cristae are characteristic of mitochondria.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-113",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which statement about mitochondria is correct?",
+    "options": [
+      "The electron transport chain is located mainly on the inner membrane",
+      "The Calvin cycle occurs in the matrix",
+      "Thylakoids form their cristae",
+      "They lack DNA"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mitochondrial respiratory electron transport complexes are located in the inner membrane.",
+      "why_others_wrong": "The Calvin cycle is chloroplastic, and mitochondria contain DNA.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-114",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which statement about plant vacuoles is correct?",
+    "options": [
+      "They can store ions, metabolites and pigments and help maintain turgor",
+      "They contain 70S cytoplasmic ribosomes",
+      "They are always absent in mature cells",
+      "They are surrounded by cellulose rather than a membrane"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Plant vacuoles have storage and osmotic roles and contribute to turgor.",
+      "why_others_wrong": "Their membrane is the tonoplast.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-115",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which structure controls movement of substances between nucleus and cytoplasm?",
+    "options": [
+      "Nuclear pore complex",
+      "Middle lamella",
+      "Cristae",
+      "Tonoplast"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Nuclear pore complexes regulate nucleocytoplasmic transport.",
+      "why_others_wrong": "They are embedded in the nuclear envelope.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-116",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which nuclear component is especially prominent in cells actively synthesizing ribosomes?",
+    "options": [
+      "Nucleolus",
+      "Nuclear pore only",
+      "Chromosome centromere only",
+      "Nuclear envelope lipid bilayer"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The nucleolus is prominent when rRNA synthesis and ribosome assembly are high.",
+      "why_others_wrong": "It is not surrounded by a membrane.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-117",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which statement about chromosomes is correct?",
+    "options": [
+      "They are highly condensed chromatin visible during cell division",
+      "They are made only of RNA",
+      "They occur only in prokaryotes",
+      "They are membrane-bound organelles"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chromosomes are condensed DNA-protein structures that become prominent during cell division.",
+      "why_others_wrong": "They are not membrane-bound organelles.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-118",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The basic repeating unit of chromatin is the",
+    "options": [
+      "Nucleosome",
+      "Crista",
+      "Cisterna",
+      "Granum"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The nucleosome is the fundamental repeating unit of chromatin.",
+      "why_others_wrong": "It contains DNA wrapped around a histone core.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-119",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is most directly involved in formation of spindle microtubules in animal cells?",
+    "options": [
+      "Centrosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Peroxisome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The centrosome is the major microtubule-organizing centre in animal cells.",
+      "why_others_wrong": "Centrioles are components of the centrosome.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-120",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The centrosome normally contains",
+    "options": [
+      "A pair of centrioles surrounded by pericentriolar material",
+      "A pair of lysosomes",
+      "Two chloroplasts",
+      "A nucleolus and nucleus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The animal-cell centrosome consists of a centriole pair embedded in pericentriolar material.",
+      "why_others_wrong": "It organizes microtubules.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-121",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which microtubule arrangement is characteristic of a centriole?",
+    "options": [
+      "Nine triplets",
+      "Nine doublets plus two singlets",
+      "Eight triplets",
+      "Seven doublets"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Centrioles contain nine peripheral triplets of microtubules.",
+      "why_others_wrong": "This differs from the 9+2 arrangement of motile cilia.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-122",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which statement about cilia and flagella is correct?",
+    "options": [
+      "They are membrane-bound structures containing a microtubule-based axoneme",
+      "They are made of cellulose",
+      "They lack microtubules",
+      "They are present only in bacteria"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Eukaryotic cilia and flagella are membrane-covered and contain an axoneme.",
+      "why_others_wrong": "Bacterial flagella have a different structure.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-123",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which structure is responsible for movement of cilia by sliding of microtubule doublets?",
+    "options": [
+      "Dynein motor proteins",
+      "Cellulose fibres",
+      "Ribosomal RNA",
+      "Histones"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Dynein motors generate sliding between axonemal microtubules.",
+      "why_others_wrong": "This produces bending of cilia and flagella.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-124",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is absent from mature mammalian RBCs?",
+    "options": [
+      "Mitochondrion",
+      "Plasma membrane",
+      "Cytosol",
+      "Hemoglobin"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mature mammalian RBCs lose their nucleus and mitochondria during differentiation.",
+      "why_others_wrong": "This supports their specialized oxygen-transport role.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-125",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A cell placed in a hypotonic solution will generally",
+    "options": [
+      "Gain water by osmosis",
+      "Lose water by osmosis",
+      "Stop all molecular movement",
+      "Immediately divide"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Water tends to enter a cell when the surrounding medium has higher water potential.",
+      "why_others_wrong": "The response differs between cells with and without rigid walls.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-126",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A plant cell becomes turgid because",
+    "options": [
+      "Water enters and the cell wall resists excessive expansion",
+      "Water leaves the vacuole",
+      "The nucleus disappears",
+      "The cell wall dissolves"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Water entry raises turgor pressure against the cell wall.",
+      "why_others_wrong": "The wall limits excessive expansion.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-127",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which process is energy-independent?",
+    "options": [
+      "Facilitated diffusion",
+      "Na+/K+ ATPase",
+      "Active pumping against a gradient",
+      "Vesicular transport requiring ATP"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Facilitated diffusion moves substances down their electrochemical gradient without directly using ATP.",
+      "why_others_wrong": "It still requires membrane proteins.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-128",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A membrane protein that forms a selective pore for ions is a",
+    "options": [
+      "Channel protein",
+      "Histone",
+      "Ribosomal protein",
+      "Golgi enzyme"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Channel proteins create hydrophilic pathways for selected ions or molecules.",
+      "why_others_wrong": "Their opening can be regulated in many cases.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-129",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Carrier-mediated transport differs from channel-mediated transport because carriers",
+    "options": [
+      "Bind solute and undergo conformational changes",
+      "Always transport DNA",
+      "Are made of cellulose",
+      "Never show specificity"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Carrier proteins bind substrates and change conformation during transport.",
+      "why_others_wrong": "Both carriers and channels can be highly selective.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-130",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which factor generally increases membrane fluidity at low temperature?",
+    "options": [
+      "Higher proportion of unsaturated fatty acids",
+      "Higher proportion of long saturated fatty acids only",
+      "Removal of all lipids",
+      "Addition of cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Unsaturated fatty acids introduce kinks that reduce tight packing and help maintain fluidity.",
+      "why_others_wrong": "Membrane composition is regulated to maintain suitable fluidity.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-131",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Cholesterol in animal plasma membranes generally",
+    "options": [
+      "Buffers membrane fluidity and reduces permeability to some small molecules",
+      "Forms cellulose fibres",
+      "Acts as DNA",
+      "Creates ribosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cholesterol modulates membrane fluidity and reduces permeability of the bilayer to some substances.",
+      "why_others_wrong": "Its effect depends on temperature and membrane composition.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-132",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which component of a membrane contributes to cell recognition?",
+    "options": [
+      "Glycoproteins and glycolipids",
+      "DNA only",
+      "Cellulose only",
+      "ATP only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Carbohydrate chains attached to proteins and lipids contribute to cell recognition and interactions.",
+      "why_others_wrong": "They are usually exposed on the extracellular surface.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-133",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The carbohydrate-rich layer on the outer surface of many animal cells is called",
+    "options": [
+      "Glycocalyx",
+      "Tonoplast",
+      "Nucleoid",
+      "Crista"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The glycocalyx contains carbohydrate chains associated with membrane proteins and lipids.",
+      "why_others_wrong": "It contributes to protection, recognition and adhesion.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-134",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which process can directly add membrane material to the plasma membrane?",
+    "options": [
+      "Exocytosis",
+      "Simple diffusion",
+      "Osmosis",
+      "DNA replication"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Fusion of secretory vesicles with the plasma membrane adds lipid and protein to the cell surface.",
+      "why_others_wrong": "Exocytosis also releases vesicular cargo.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-135",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which process can reduce the plasma membrane area by internalizing membrane?",
+    "options": [
+      "Endocytosis",
+      "Exocytosis",
+      "Transcription",
+      "Translation"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Endocytosis forms vesicles from the plasma membrane and internalizes membrane and cargo.",
+      "why_others_wrong": "Membrane is later recycled through trafficking pathways.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-136",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which cell organelle is associated with packaging of materials into vesicles?",
+    "options": [
+      "Golgi apparatus",
+      "Nucleolus",
+      "Centriole",
+      "Mitochondrial matrix"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The Golgi sorts and packages many proteins and lipids into transport or secretory vesicles.",
+      "why_others_wrong": "These vesicles deliver cargo to specific destinations.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-137",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is most directly connected with synthesis of secretory proteins?",
+    "options": [
+      "Rough ER",
+      "Smooth ER",
+      "Peroxisome",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Secretory proteins are synthesized on ribosomes bound to rough ER and enter the ER lumen or membrane.",
+      "why_others_wrong": "They subsequently travel through the secretory pathway.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-138",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is most directly connected with synthesis of membrane lipids?",
+    "options": [
+      "Smooth ER",
+      "Nucleolus",
+      "Lysosome",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Smooth ER is a major site of phospholipid and steroid-related lipid synthesis.",
+      "why_others_wrong": "It lacks ribosomes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-139",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which statement correctly distinguishes rough and smooth ER?",
+    "options": [
+      "Rough ER has ribosomes; smooth ER lacks them",
+      "Both always have identical ribosome density",
+      "Smooth ER contains DNA",
+      "Rough ER contains chlorophyll"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Rough ER is studded with ribosomes, whereas smooth ER is not.",
+      "why_others_wrong": "Their functions reflect this structural difference.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-140",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "A cell with abundant lysosomes would be expected to have high capacity for",
+    "options": [
+      "Intracellular degradation",
+      "Photosynthesis",
+      "DNA replication only",
+      "Cell-wall synthesis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Lysosomes provide hydrolytic enzymes for degradation of cellular material.",
+      "why_others_wrong": "They are important in recycling and digestion.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-141",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is sometimes called the 'suicidal bag' in older textbook terminology?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Chloroplast"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Lysosomes were historically called suicidal bags because uncontrolled enzyme release was thought to cause autolysis.",
+      "why_others_wrong": "The term is a traditional description rather than a complete functional definition.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-142",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is the main site of oxidative phosphorylation?",
+    "options": [
+      "Inner mitochondrial membrane",
+      "Golgi cisternae",
+      "Lysosomal membrane",
+      "Nuclear envelope"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The electron transport chain and ATP synthase are located in the inner mitochondrial membrane.",
+      "why_others_wrong": "The proton gradient drives ATP synthesis.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-143",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The mitochondrial intermembrane space is located between the",
+    "options": [
+      "Outer and inner mitochondrial membranes",
+      "Two thylakoid membranes",
+      "Golgi cisternae",
+      "Nuclear pores"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The intermembrane space lies between the outer and inner mitochondrial membranes.",
+      "why_others_wrong": "Proton accumulation here is important during oxidative phosphorylation.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-144",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The mitochondrial matrix is enclosed by the",
+    "options": [
+      "Inner mitochondrial membrane",
+      "Plasma membrane",
+      "Golgi membrane",
+      "Tonoplast"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The inner mitochondrial membrane surrounds the matrix.",
+      "why_others_wrong": "The matrix contains enzymes, mitochondrial DNA and ribosomes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-145",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which chloroplast compartment contains the thylakoid system?",
+    "options": [
+      "Inside the inner membrane, suspended in stroma",
+      "Inside the nucleus",
+      "Inside lysosomes",
+      "Inside the Golgi lumen"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Thylakoids are embedded within the chloroplast interior and are surrounded by stroma.",
+      "why_others_wrong": "Their membranes carry the photosynthetic electron transport machinery.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-146",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Stroma lamellae primarily",
+    "options": [
+      "Connect grana and contain intergranal thylakoid membranes",
+      "Form mitochondrial cristae",
+      "Surround lysosomes",
+      "Make up bacterial cell walls"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Stroma lamellae connect grana and contain non-appressed thylakoid membranes.",
+      "why_others_wrong": "They help organize the chloroplast membrane system.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-147",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle has a genome that is generally circular and resembles bacterial genomes?",
+    "options": [
+      "Chloroplast",
+      "Golgi apparatus",
+      "Lysosome",
+      "Peroxisome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chloroplast DNA is generally circular and supports the endosymbiotic interpretation.",
+      "why_others_wrong": "Chloroplasts also have bacterial-type ribosomes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-148",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "The endosymbiotic theory is supported by mitochondria and chloroplasts because they",
+    "options": [
+      "Have double membranes, circular DNA and bacterial-type ribosomes",
+      "Have no membranes",
+      "Contain cellulose walls",
+      "Are formed from lysosomes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "These features are consistent with their evolutionary origin from bacterial endosymbionts.",
+      "why_others_wrong": "They are semi-autonomous organelles.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-149",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which organelle is absent in prokaryotes but present in eukaryotic cells?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Plasma membrane",
+      "Nucleoid"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Prokaryotes lack membrane-bound organelles such as Golgi apparatus.",
+      "why_others_wrong": "They still possess ribosomes and plasma membranes.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-m-150",
+    "type": "Practice",
+    "difficulty": "Medium",
+    "question": "Which structure is common to both prokaryotic and eukaryotic cells?",
+    "options": [
+      "Plasma membrane",
+      "Nuclear envelope",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Both cell types have a plasma membrane.",
+      "why_others_wrong": "Prokaryotes lack the latter three structures listed.",
+      "concept_recap": "NEET focus: connect the organelle's structure with its principal cellular function."
+    }
+  },
+  {
+    "id": "cb-h-151",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which feature is common to both bacterial and eukaryotic ribosomes in principle?",
+    "options": [
+      "They carry out translation",
+      "They are both 80S",
+      "They are both membrane-bound",
+      "They both contain chlorophyll"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Both types of ribosomes synthesize proteins by translating mRNA.",
+      "why_others_wrong": "Their size and molecular composition differ.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-152",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A bacterial cell has a 70S ribosome. Its subunits are",
+    "options": [
+      "50S and 30S",
+      "60S and 40S",
+      "40S and 30S",
+      "70S and 10S"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The bacterial 70S ribosome contains 50S and 30S subunits.",
+      "why_others_wrong": "The S values reflect sedimentation behavior.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-153",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A eukaryotic cytoplasmic ribosome has",
+    "options": [
+      "60S and 40S subunits",
+      "50S and 30S subunits",
+      "70S and 30S subunits",
+      "80S and 20S subunits"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The eukaryotic cytoplasmic ribosome is 80S with 60S and 40S subunits.",
+      "why_others_wrong": "Mitochondria and chloroplasts have 70S-type ribosomes.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-154",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which statement about 70S and 80S is correct?",
+    "options": [
+      "S values are sedimentation coefficients and cannot simply be added as ordinary mass units",
+      "80S is exactly twice the mass of 40S",
+      "70S means 70 grams",
+      "S stands for sugar"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Svedberg units measure sedimentation rate and are not directly additive.",
+      "why_others_wrong": "Thus 50S + 30S is referred to as 70S.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-155",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle is responsible for sorting proteins to lysosomes?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Ribosome",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Golgi processing adds targeting information to many lysosomal enzymes and sorts them into lysosome-directed vesicles.",
+      "why_others_wrong": "This is part of the endomembrane trafficking system.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-156",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which structure is most likely to be abundant in a cell producing large amounts of digestive enzymes for secretion?",
+    "options": [
+      "Rough ER",
+      "Smooth ER only",
+      "Centrioles",
+      "Chloroplasts"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Digestive enzymes are secretory proteins, so rough ER and Golgi are prominent.",
+      "why_others_wrong": "Ribosomes on rough ER synthesize these proteins.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-157",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle contributes to cellular detoxification by converting hydrogen peroxide into less harmful products?",
+    "options": [
+      "Peroxisome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Peroxisomes contain catalase, which decomposes hydrogen peroxide.",
+      "why_others_wrong": "This limits oxidative damage.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-158",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle can contain inclusions of stored starch in plant cells?",
+    "options": [
+      "Amyloplast",
+      "Lysosome",
+      "Mitochondrion",
+      "Centriole"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Amyloplasts are colourless plastids specialized for starch storage.",
+      "why_others_wrong": "They are a type of leucoplast.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-159",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which plastid is most associated with coloured petals and ripe fruits?",
+    "options": [
+      "Chromoplast",
+      "Leucoplast",
+      "Chloroplast only",
+      "Mitochondrion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Chromoplasts accumulate coloured pigments such as carotenoids.",
+      "why_others_wrong": "These pigments contribute to visible colour.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-160",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which structure helps a plant cell resist bursting when water enters?",
+    "options": [
+      "Cell wall",
+      "Nucleolus",
+      "Golgi apparatus",
+      "Ribosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The rigid cell wall resists excessive expansion as water enters a plant cell.",
+      "why_others_wrong": "This supports turgidity.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-161",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A plant cell with a high internal solute concentration placed in water tends to",
+    "options": [
+      "Gain water and become turgid",
+      "Lose water and plasmolyse",
+      "Lose its cell wall",
+      "Stop osmosis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Water enters because of a water-potential gradient, producing turgor.",
+      "why_others_wrong": "The cell wall limits excessive expansion.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-162",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which statement about water potential is correct?",
+    "options": [
+      "Water moves spontaneously from higher water potential toward lower water potential",
+      "Water always moves from lower to higher water potential",
+      "Water potential is independent of solutes",
+      "Water cannot cross biological membranes"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Osmotic movement of water follows the water-potential gradient.",
+      "why_others_wrong": "Dissolved solutes generally lower water potential.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-163",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A cell placed in an isotonic solution experiences",
+    "options": [
+      "No net movement of water",
+      "Only inward water movement",
+      "Only outward water movement",
+      "Immediate plasmolysis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "In an isotonic condition, water may move in both directions but there is no net movement.",
+      "why_others_wrong": "Cell volume remains relatively stable.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-164",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which process requires a vesicle to fuse with the plasma membrane?",
+    "options": [
+      "Exocytosis",
+      "Simple diffusion",
+      "Osmosis",
+      "Facilitated diffusion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Exocytosis releases vesicle contents by fusion with the plasma membrane.",
+      "why_others_wrong": "It is a form of bulk transport.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-165",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which process involves formation of an internal vesicle from the plasma membrane?",
+    "options": [
+      "Endocytosis",
+      "Exocytosis",
+      "Transcription",
+      "Translation"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Endocytosis involves membrane invagination and vesicle formation.",
+      "why_others_wrong": "It brings extracellular material into the cell.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-166",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A macrophage engulfing a bacterium is an example of",
+    "options": [
+      "Phagocytosis",
+      "Pinocytosis",
+      "Simple diffusion",
+      "Osmosis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Phagocytosis is uptake of large particles such as bacteria.",
+      "why_others_wrong": "It is an actin-dependent form of endocytosis.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-167",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A cell taking up extracellular fluid in small vesicles is performing",
+    "options": [
+      "Pinocytosis",
+      "Phagocytosis",
+      "Exocytosis",
+      "Translation"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Pinocytosis internalizes extracellular fluid and dissolved substances.",
+      "why_others_wrong": "It is often called cellular drinking.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-168",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which cytoskeletal element is especially important for chromosome movement during cell division?",
+    "options": [
+      "Microtubules",
+      "Microfilaments only",
+      "Intermediate filaments only",
+      "Cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Spindle microtubules attach to chromosomes and help segregate them.",
+      "why_others_wrong": "Actin and other systems have different major roles.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-169",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which cytoskeletal element is most directly associated with the contractile ring during cytokinesis in animal cells?",
+    "options": [
+      "Actin microfilaments",
+      "Microtubules only",
+      "Intermediate filaments",
+      "Cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Actin filaments interact with myosin in the contractile ring.",
+      "why_others_wrong": "The ring constricts to divide the cytoplasm.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-170",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which cytoskeletal element is especially important for tensile strength?",
+    "options": [
+      "Intermediate filaments",
+      "Microtubules only",
+      "Ribosomes",
+      "Thylakoids"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Intermediate filaments provide mechanical strength and resistance to stress.",
+      "why_others_wrong": "Their proteins vary among cell types.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-171",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which microtubule motor moves cargo toward the minus end in many cells?",
+    "options": [
+      "Dynein",
+      "Myosin",
+      "Actin",
+      "Collagen"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Cytoplasmic dynein generally moves cargo toward microtubule minus ends.",
+      "why_others_wrong": "Kinesins generally move toward plus ends, with exceptions.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-172",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which motor protein is associated with movement along actin filaments?",
+    "options": [
+      "Myosin",
+      "Dynein",
+      "Kinesin",
+      "Tubulin"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Myosins are actin-based motor proteins.",
+      "why_others_wrong": "They participate in muscle contraction and intracellular transport.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-173",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which structure forms the basal body of a typical eukaryotic cilium?",
+    "options": [
+      "Centriole-derived structure",
+      "Nucleolus",
+      "Golgi cisterna",
+      "Lysosome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The basal body is structurally similar to a centriole and anchors the axoneme.",
+      "why_others_wrong": "It organizes the ciliary microtubules.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-174",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "The plasma membrane carbohydrate chains are generally located on the",
+    "options": [
+      "Extracellular surface",
+      "Cytosolic leaflet only",
+      "Mitochondrial matrix",
+      "Nuclear nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Membrane carbohydrates are exposed mainly on the extracellular side, forming part of the glycocalyx.",
+      "why_others_wrong": "This asymmetry is important for recognition.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-175",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which membrane process can be saturated because it depends on a finite number of carrier proteins?",
+    "options": [
+      "Carrier-mediated transport",
+      "Simple diffusion through lipid",
+      "Osmosis only",
+      "Free diffusion of oxygen"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Carrier-mediated transport can show saturation when all carriers are occupied.",
+      "why_others_wrong": "Simple diffusion through the lipid phase does not show carrier saturation in the same way.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-176",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A molecule moving down its electrochemical gradient through an ion channel is undergoing",
+    "options": [
+      "Facilitated diffusion",
+      "Primary active transport",
+      "Endocytosis",
+      "Exocytosis"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Ion channels permit passive movement down an electrochemical gradient.",
+      "why_others_wrong": "No direct ATP hydrolysis is required.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-177",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "The Na+/K+ ATPase is called an electrogenic pump because it",
+    "options": [
+      "Moves unequal numbers of positive ions across the membrane",
+      "Moves only water",
+      "Uses no ATP",
+      "Transports DNA"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "It exports three Na+ for every two K+ imported, producing a net outward positive charge per cycle.",
+      "why_others_wrong": "This contributes to membrane potential.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-178",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle would be most affected by a drug that disrupts microtubule polymerization?",
+    "options": [
+      "Spindle apparatus",
+      "Lysosome lumen",
+      "Golgi enzymes only",
+      "Cell wall cellulose"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Microtubules are essential components of the mitotic spindle.",
+      "why_others_wrong": "Disrupting them can interfere with chromosome segregation.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-179",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle is most likely to be abundant in a cell actively synthesizing and secreting antibodies?",
+    "options": [
+      "Rough ER and Golgi apparatus",
+      "Smooth ER only",
+      "Peroxisomes only",
+      "Centrioles only"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Antibodies are secreted proteins synthesized on rough ER and processed through Golgi.",
+      "why_others_wrong": "Plasma cells are specialized for this function.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-180",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A defect in mitochondrial DNA would directly affect an organelle that",
+    "options": [
+      "Contains its own genetic material and ribosomes",
+      "Is part of the endomembrane system",
+      "Contains peptidoglycan",
+      "Has thylakoids"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mitochondria have their own DNA and ribosomes and can synthesize a subset of proteins.",
+      "why_others_wrong": "Most mitochondrial proteins are nuclear encoded.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-181",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle is most likely to contain enzymes for the TCA cycle?",
+    "options": [
+      "Mitochondrial matrix",
+      "Golgi apparatus",
+      "Lysosome",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Most reactions of the TCA cycle occur in the mitochondrial matrix.",
+      "why_others_wrong": "Exceptions include succinate dehydrogenase, which is embedded in the inner membrane.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-182",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which mitochondrial enzyme of the TCA cycle is embedded in the inner membrane?",
+    "options": [
+      "Succinate dehydrogenase",
+      "Citrate synthase",
+      "Aconitase",
+      "Malate dehydrogenase"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Succinate dehydrogenase is part of both the TCA cycle and respiratory Complex II.",
+      "why_others_wrong": "The other listed enzymes are matrix-localized.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-183",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which statement about the inner mitochondrial membrane is correct?",
+    "options": [
+      "It is highly folded and contains respiratory complexes and ATP synthase",
+      "It contains chlorophyll",
+      "It is continuous with the Golgi",
+      "It has cellulose fibres"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The inner membrane houses the respiratory chain and ATP synthase and forms cristae.",
+      "why_others_wrong": "It is distinct from the outer mitochondrial membrane.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-184",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which chloroplast structure contains photosystems I and II?",
+    "options": [
+      "Thylakoid membrane",
+      "Stroma only",
+      "Outer membrane",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Photosystems are embedded in thylakoid membranes.",
+      "why_others_wrong": "They participate in light-driven electron transfer.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-185",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which statement correctly matches location and process?",
+    "options": [
+      "Thylakoid membrane—light reactions",
+      "Stroma—electron transport chain of mitochondria",
+      "Golgi—DNA replication",
+      "Lysosome—Calvin cycle"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The light reactions occur on thylakoid membranes.",
+      "why_others_wrong": "The other pairings are incorrect.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-186",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A chloroplast loses its thylakoid membranes but retains stroma enzymes. Which process is directly impaired first?",
+    "options": [
+      "Light reactions of photosynthesis",
+      "DNA replication in nucleus",
+      "Golgi packaging",
+      "Lysosomal digestion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Photosystems and the photosynthetic electron transport chain reside in thylakoid membranes.",
+      "why_others_wrong": "Stroma enzymes can remain but lack ATP/NADPH supply from light reactions.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-187",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which structure connects adjacent plant cells through their cell walls?",
+    "options": [
+      "Plasmodesmata",
+      "Desmosomes",
+      "Tight junctions",
+      "Centrioles"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Plasmodesmata traverse plant cell walls and connect adjacent cytoplasms.",
+      "why_others_wrong": "The other junction types are animal-cell structures.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-188",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which junction prevents leakage between adjacent animal epithelial cells?",
+    "options": [
+      "Tight junction",
+      "Plasmodesma",
+      "Middle lamella",
+      "Gap-free cell wall"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Tight junctions seal the intercellular space in epithelial sheets.",
+      "why_others_wrong": "They help maintain epithelial barriers.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-189",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which junction permits direct communication between adjacent animal cells?",
+    "options": [
+      "Gap junction",
+      "Tight junction only",
+      "Middle lamella",
+      "Plasmodesma"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Gap junction channels permit direct passage of small molecules and ions between neighbouring animal cells.",
+      "why_others_wrong": "They are structurally different from plant plasmodesmata.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-190",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which junction provides strong mechanical attachment between animal cells?",
+    "options": [
+      "Desmosome",
+      "Plasmodesma",
+      "Chloroplast",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Desmosomes provide strong cell-cell adhesion through intermediate filament networks.",
+      "why_others_wrong": "They help tissues withstand mechanical stress.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-191",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A cell has abundant free ribosomes rather than rough-ER-bound ribosomes. It is most likely synthesizing",
+    "options": [
+      "Proteins that function mainly in the cytosol",
+      "Secreted digestive enzymes",
+      "Lysosomal lumen proteins",
+      "Membrane receptors destined for secretion"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Free ribosomes primarily synthesize proteins that remain in the cytosol or are imported into certain organelles.",
+      "why_others_wrong": "Secretory and many membrane proteins enter the rough-ER pathway.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-192",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A newly synthesized protein contains an ER signal peptide. It is most likely destined for",
+    "options": [
+      "The secretory pathway or membrane system",
+      "The cytosol exclusively",
+      "The nucleolus exclusively",
+      "The bacterial nucleoid"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Signal peptides can target translating ribosomes to the rough ER for secretory-pathway proteins.",
+      "why_others_wrong": "The eventual destination may be secretion, membrane, lysosome or other ER-derived compartments.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-193",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle is most directly responsible for the initial segregation of secretory proteins from cytosolic proteins?",
+    "options": [
+      "Rough ER",
+      "Centriole",
+      "Lysosome",
+      "Peroxisome"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Signal sequences target nascent secretory proteins to rough ER-associated ribosomes.",
+      "why_others_wrong": "This separates them from proteins synthesized on free ribosomes.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-194",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle contains enzymes that can digest proteins, nucleic acids, lipids and carbohydrates?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Centrosome",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Lysosomes contain several classes of hydrolytic enzymes.",
+      "why_others_wrong": "Their combined activity supports intracellular digestion.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-195",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which organelle contributes to maintenance of cellular ion balance in plant cells by storing ions in its lumen?",
+    "options": [
+      "Vacuole",
+      "Ribosome",
+      "Centriole",
+      "Nucleolus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Plant vacuoles can store ions and metabolites and contribute to osmotic regulation.",
+      "why_others_wrong": "The tonoplast controls exchange with cytoplasm.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-196",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which statement about the tonoplast is correct?",
+    "options": [
+      "It is the membrane surrounding the plant vacuole",
+      "It is the membrane surrounding mitochondria",
+      "It is the bacterial cell wall",
+      "It is the nuclear pore"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "The tonoplast is the vacuolar membrane.",
+      "why_others_wrong": "It regulates transport between vacuole and cytoplasm.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-197",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which structure is absent in a mature mammalian RBC but essential for protein synthesis in most nucleated cells?",
+    "options": [
+      "Ribosome",
+      "Plasma membrane",
+      "Cytosol",
+      "Hemoglobin"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mature mammalian RBCs lose ribosomes along with the nucleus and most organelles.",
+      "why_others_wrong": "Therefore they cannot synthesize new proteins.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-198",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which statement about a mature mammalian RBC is correct?",
+    "options": [
+      "It relies mainly on glycolysis for ATP",
+      "It performs oxidative phosphorylation in mitochondria",
+      "It contains chloroplasts",
+      "It has a large nucleus"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Mature mammalian RBCs lack mitochondria and therefore generate ATP mainly through glycolysis.",
+      "why_others_wrong": "Their main function is oxygen transport.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-199",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "A cell has no membrane-bound organelles but contains DNA, ribosomes and a plasma membrane. It is most likely",
+    "options": [
+      "Prokaryotic",
+      "A typical animal cell",
+      "A mature chloroplast",
+      "A mature plant cell"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "This combination is characteristic of prokaryotic organization.",
+      "why_others_wrong": "Prokaryotes lack membrane-bound organelles.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  },
+  {
+    "id": "cb-h-200",
+    "type": "Practice",
+    "difficulty": "Hard",
+    "question": "Which feature most strongly supports the endosymbiotic origin of mitochondria?",
+    "options": [
+      "Their circular DNA and bacterial-type ribosomes",
+      "Their lysosomal enzymes",
+      "Their Golgi cisternae",
+      "Their cellulose wall"
+    ],
+    "answer": "A",
+    "ncertRef": "NCERT Class 11 Biology, Ch. 8 Cell: The Unit of Life",
+    "solution": {
+      "why_correct": "Circular DNA and bacterial-type ribosomes are key evidence for endosymbiotic ancestry.",
+      "why_others_wrong": "Mitochondria also divide by a process resembling binary fission.",
+      "concept_recap": "NEET focus: integrate the organelle's structure, location and function rather than memorising an isolated fact."
+    }
+  }
+]
