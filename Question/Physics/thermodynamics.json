@@ -1,0 +1,156 @@
+[
+  {
+    "id": "phy-thermo-001",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The efficiency of a Carnot engine depends only on the temperatures of the source and sink. Reason (R): Carnot engine is an ideal reversible engine.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 12, Pg 320",
+    "solution": {
+      "why_correct": "Both statements are factually correct. Efficiency = 1 - (T_sink/T_source) depends only on temperatures. The Carnot engine being ideal and reversible is precisely why this temperature-only dependence holds -- R correctly explains A.",
+      "why_others_wrong": "Options B, C, and D are eliminated because both statements are true AND R directly explains why A is true (the reversibility is the reason efficiency depends only on temperature).",
+      "concept_recap": "For A&R questions: first judge A true/false, then R true/false independently, then ask whether R logically explains A -- not just whether both happen to be true."
+    },
+    "year": 2022
+  },
+  {
+    "id": "phy-thermo-002",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "In an isothermal process, which quantity remains constant?",
+    "options": [
+      "Pressure",
+      "Volume",
+      "Temperature",
+      "Entropy"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 12, Pg 310",
+    "solution": {
+      "why_correct": "By definition, an isothermal process occurs at constant temperature; pressure and volume can both change (following PV = constant for an ideal gas).",
+      "why_others_wrong": "Pressure and volume change during an isothermal process (that's what makes it a process). Entropy generally changes too since heat is exchanged.",
+      "concept_recap": "Isothermal = constant T. Adiabatic = no heat exchange (Q=0). Isobaric = constant P. Isochoric = constant V. Know all four for NEET physics questions."
+    }
+  },
+  {
+    "id": "phy-thermo-003",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "For an adiabatic process, which of the following is true?",
+    "options": [
+      "Heat exchange with surroundings is zero",
+      "Temperature remains constant",
+      "Pressure remains constant",
+      "Volume remains constant"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 12, Pg 314",
+    "solution": {
+      "why_correct": "Adiabatic processes are defined by zero heat transfer (Q = 0) between system and surroundings; temperature, pressure, and volume can all still change.",
+      "why_others_wrong": "B describes isothermal, C describes isobaric, D describes isochoric -- each is a different, distinct thermodynamic process with its own defining constant quantity.",
+      "concept_recap": "Adiabatic: Q=0 (thermally insulated system, e.g., rapid compression/expansion). First law reduces to work done at the expense of internal energy."
+    },
+    "year": 2021
+  },
+  {
+    "id": "phy-thermo-004",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "According to the first law of thermodynamics, the change in internal energy of a system equals:",
+    "options": [
+      "Heat added minus work done by the system",
+      "Heat added plus work done by the system",
+      "Work done divided by heat added",
+      "Heat added multiplied by work done"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 12, Pg 308",
+    "solution": {
+      "why_correct": "The first law of thermodynamics states delta-U = Q - W, where Q is heat supplied to the system and W is work done BY the system on the surroundings.",
+      "why_others_wrong": "B, C, D don't match the standard sign convention and mathematical form of the first law as taught in NCERT (delta-U = Q - W), which is essentially a statement of energy conservation.",
+      "concept_recap": "First law of thermodynamics: delta-U = Q - W (energy conservation). If W is work done ON the system instead, the sign convention flips to delta-U = Q + W -- always check which convention a question uses."
+    }
+  },
+  {
+    "id": "phy-thermo-005",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: In a cyclic process, the change in internal energy of the system is zero. Statement II: In a cyclic process, the system returns to its initial state after undergoing several changes.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 12, Pg 312",
+    "solution": {
+      "why_correct": "Since internal energy is a state function, and a cyclic process returns the system to its exact initial state, the net change in internal energy over one complete cycle is always zero -- both statements are true and connected.",
+      "why_others_wrong": "The other options are wrong because both statements are correct and standard facts about cyclic processes (the basis of heat engines like the Carnot cycle).",
+      "concept_recap": "Cyclic process: delta-U = 0 always (state function property). Net work done = net heat absorbed over the cycle (Q_net = W_net), the basis of how heat engines convert heat into work."
+    }
+  },
+  {
+    "id": "phy-thermo-006",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): It is impossible to convert all the heat absorbed by a system into work in a cyclic process. Reason (R): This is a consequence of the second law of thermodynamics.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 12, Pg 322",
+    "solution": {
+      "why_correct": "The second law of thermodynamics (Kelvin-Planck statement) explicitly states no engine can convert 100% of absorbed heat into work in a cyclic process -- some heat must always be rejected to a sink, directly explaining A.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and R (the second law) is precisely the physical principle underlying the impossibility described in A.",
+      "concept_recap": "Kelvin-Planck statement (second law): no cyclic engine can have 100% efficiency; some heat must always be exhausted to a lower-temperature sink."
+    }
+  },
+  {
+    "id": "phy-thermo-007",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Entropy is a measure of:",
+    "options": [
+      "The total energy of a system",
+      "The disorder or randomness of a system",
+      "The temperature of a system",
+      "The pressure exerted by a system"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 12, Pg 325",
+    "solution": {
+      "why_correct": "Entropy (S) quantifies the degree of disorder or randomness in a system -- higher entropy means greater molecular disorder, and it's a key concept in the second law of thermodynamics.",
+      "why_others_wrong": "A describes internal energy, a different thermodynamic quantity. C and D describe temperature and pressure respectively, which are distinct state variables, not measures of disorder.",
+      "concept_recap": "Entropy: measure of disorder/randomness. Second law of thermodynamics states the total entropy of an isolated system always increases (or stays constant in reversible processes) over time -- never decreases."
+    }
+  },
+  {
+    "id": "phy-thermo-008",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "For an ideal gas undergoing an isochoric (constant volume) process, the work done by the gas is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Dependent on temperature change only"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 12, Pg 315",
+    "solution": {
+      "why_correct": "Work done by a gas W = P.dV (integral of pressure over volume change). Since volume remains constant in an isochoric process (dV=0), no work is done by or on the gas, regardless of pressure or temperature changes.",
+      "why_others_wrong": "A and B incorrectly assume work occurs despite no volume change. D confuses work with the change in internal energy, which DOES depend on temperature change in this process (via delta-U = nCv*delta-T), but work itself remains exactly zero.",
+      "concept_recap": "Isochoric process: dV=0, so W=0. All heat added goes entirely into changing internal energy: delta-U = Q (since W=0), following directly from the first law of thermodynamics."
+    }
+  }
+]

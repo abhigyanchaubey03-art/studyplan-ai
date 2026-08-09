@@ -1,0 +1,97 @@
+[
+  {
+    "id": "phy-mag-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "A magnetic compass needle placed near a current-carrying wire will:",
+    "options": [
+      "Remain unaffected",
+      "Align itself perpendicular to the wire",
+      "Deflect, indicating the presence of a magnetic field around the wire",
+      "Point directly towards the wire always"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 4, Pg 95",
+    "solution": {
+      "why_correct": "A current-carrying wire produces a magnetic field around it (Oersted's discovery), which causes a nearby compass needle to deflect from its normal north-south alignment.",
+      "why_others_wrong": "A is wrong since Oersted's experiment specifically demonstrated the needle DOES deflect. B and D oversimplify the actual behavior, which depends on current direction and distance per the right-hand thumb rule, not a fixed perpendicular or direct alignment.",
+      "concept_recap": "Oersted's experiment: current-carrying conductor produces a magnetic field, deflecting a nearby compass needle -- this connected electricity and magnetism, founding electromagnetism."
+    }
+  },
+  {
+    "id": "phy-mag-002",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The magnetic field at the center of a circular current-carrying loop of radius r carrying current I is proportional to:",
+    "options": [
+      "I/r",
+      "I x r",
+      "I/r^2",
+      "r/I"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 4, Pg 100",
+    "solution": {
+      "why_correct": "The magnetic field at the center of a circular loop is given by B = (mu0 x I) / (2r), showing it is directly proportional to current I and inversely proportional to radius r.",
+      "why_others_wrong": "B, C, and D do not match the actual derived formula from Biot-Savart law applied to a circular loop, which gives a direct I and inverse r (not r^2) relationship.",
+      "concept_recap": "Formula: B_center = mu0 x I / (2r). Larger current -> stronger field. Larger loop radius -> weaker field at center (field spreads over greater distance)."
+    }
+  },
+  {
+    "id": "phy-mag-003",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "A charged particle moving parallel to a magnetic field experiences a force that is:",
+    "options": [
+      "Maximum",
+      "Zero",
+      "Directed opposite to velocity",
+      "Directed along the field"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 4, Pg 105",
+    "solution": {
+      "why_correct": "The magnetic force on a moving charge is given by F = qvB sin(theta), where theta is the angle between velocity and field. When the particle moves parallel to the field, theta = 0 degrees, so sin(0) = 0, making the force zero.",
+      "why_others_wrong": "A describes the case when velocity is perpendicular to the field (theta=90, sin90=1, maximum force). C and D don't match the vector cross-product nature of the magnetic force equation.",
+      "concept_recap": "Magnetic force on moving charge: F = qv x B = qvB sin(theta). Force is maximum when v is perpendicular to B (theta=90), and zero when v is parallel or antiparallel to B (theta=0 or 180)."
+    }
+  },
+  {
+    "id": "phy-mag-004",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "A solenoid carrying current produces a magnetic field pattern similar to that of a:",
+    "options": [
+      "Single point charge",
+      "Bar magnet",
+      "Electric dipole in a uniform field",
+      "Free electron"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 4, Pg 98",
+    "solution": {
+      "why_correct": "A current-carrying solenoid generates a magnetic field pattern with distinct north and south poles very similar to a bar magnet, including field lines emerging from one end and entering the other.",
+      "why_others_wrong": "A point charge produces a radial electric field pattern, unrelated to magnetism. An electric dipole in a uniform field describes electrostatics, a different phenomenon. A free electron alone doesn't produce a structured field pattern like a solenoid.",
+      "concept_recap": "Solenoid: tightly wound coil carrying current, produces a strong, fairly uniform magnetic field inside, resembling a bar magnet's field pattern outside -- the basis for electromagnets."
+    }
+  },
+  {
+    "id": "phy-mag-005",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "The magnetic dipole moment of a current loop is given by which formula?",
+    "options": [
+      "m = I/A",
+      "m = I x A (current times area)",
+      "m = I + A",
+      "m = A/I"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 4, Pg 102",
+    "solution": {
+      "why_correct": "The magnetic dipole moment of a current-carrying loop is m = IA, where I is the current and A is the area enclosed by the loop, with direction given by the right-hand rule perpendicular to the loop's plane.",
+      "why_others_wrong": "A, C, and D don't match the standard formula derived from the relationship between circulating current and the resulting magnetic moment for a planar current loop.",
+      "concept_recap": "Magnetic dipole moment: m = IA (current x area), vector quantity, direction perpendicular to loop plane (right-hand rule). Analogous to electric dipole moment p = qd in electrostatics."
+    }
+  }
+]

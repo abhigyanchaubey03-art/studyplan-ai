@@ -1,0 +1,155 @@
+[
+  {
+    "id": "phy-mech-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "A body moving in a circle at constant speed has:",
+    "options": [
+      "Zero acceleration",
+      "Constant velocity",
+      "Acceleration directed towards the center",
+      "Acceleration directed away from the center"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 4, Pg 78",
+    "solution": {
+      "why_correct": "Even at constant speed, the direction of velocity keeps changing in circular motion, producing centripetal acceleration directed towards the center of the circle.",
+      "why_others_wrong": "A is wrong since direction changes even if speed doesn't, meaning velocity (a vector) is changing. B is wrong for the same reason. D describes centrifugal 'pseudo-force' effect, not actual acceleration.",
+      "concept_recap": "Uniform circular motion: speed constant, velocity direction constantly changing, acceleration (centripetal) always points towards the center, magnitude = v^2/r."
+    }
+  },
+  {
+    "id": "phy-mech-002",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "A ball is thrown vertically upward with velocity u. The time taken to reach maximum height is:",
+    "options": [
+      "u/g",
+      "2u/g",
+      "u/(2g)",
+      "g/u"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 3, Pg 62",
+    "solution": {
+      "why_correct": "At maximum height, final velocity = 0. Using v = u - gt, setting v=0 gives t = u/g.",
+      "why_others_wrong": "B is the total time for the ball to go up and come back down (time of flight), not just time to reach the top. C and D don't follow from the correct kinematic equation for this scenario.",
+      "concept_recap": "Time to max height = u/g. Total time of flight (up and back down to same level) = 2u/g. Max height reached = u^2/2g. Know all three formulas together."
+    }
+  },
+  {
+    "id": "phy-mech-003",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The work done by centripetal force in uniform circular motion is always zero. Reason (R): Centripetal force is always perpendicular to the velocity of the object.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 6, Pg 112",
+    "solution": {
+      "why_correct": "Work = Force x displacement x cos(theta). Since centripetal force is always perpendicular (theta = 90 degrees) to the instantaneous velocity/displacement direction, cos(90) = 0, so work done is always zero -- R correctly explains A.",
+      "why_others_wrong": "B, C, D fail because both statements are true and directly linked -- the perpendicularity is exactly why the work done is zero, not a coincidental separate fact.",
+      "concept_recap": "Work done by any force perpendicular to displacement/motion is zero (W = Fd cos90 = 0). This is why circular motion at constant speed involves no net work by centripetal force, even though a force is acting."
+    }
+  },
+  {
+    "id": "phy-mech-004",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Newton's second law of motion relates force to:",
+    "options": [
+      "Mass only",
+      "Velocity only",
+      "Rate of change of momentum",
+      "Rate of change of displacement"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 5, Pg 95",
+    "solution": {
+      "why_correct": "Newton's second law states that force equals the rate of change of momentum (F = dp/dt), which simplifies to F = ma for constant mass.",
+      "why_others_wrong": "A and B are incomplete since force depends on the CHANGE in momentum (involving both mass and velocity/acceleration), not just one factor alone. D describes velocity itself, not force.",
+      "concept_recap": "Newton's 2nd law: F = dp/dt = d(mv)/dt. For constant mass, this reduces to the familiar F = ma. For variable mass systems (like rockets), the full momentum form must be used."
+    }
+  },
+  {
+    "id": "phy-mech-005",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "A body of mass 2 kg is moving with a velocity of 10 m/s. The kinetic energy of the body is:",
+    "options": [
+      "10 J",
+      "20 J",
+      "100 J",
+      "200 J"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 6, Pg 115",
+    "solution": {
+      "why_correct": "Kinetic energy = (1/2)mv^2 = (1/2)(2)(10)^2 = (1/2)(2)(100) = 100 J.",
+      "why_others_wrong": "A, B, and D result from either forgetting to square the velocity or miscalculating the (1/2)m factor -- careful substitution into KE = (1/2)mv^2 gives exactly 100 J.",
+      "concept_recap": "Kinetic energy formula: KE = (1/2)mv^2. Always square the velocity term before multiplying by half the mass -- a common calculation mistake is forgetting the square."
+    },
+    "year": 2020
+  },
+  {
+    "id": "phy-mech-006",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The angular momentum of a system remains conserved if no external torque acts on it. Reason (R): Torque is the rate of change of angular momentum, so zero net torque implies zero rate of change of angular momentum.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 7, Pg 135",
+    "solution": {
+      "why_correct": "Since torque (tau) = dL/dt, if net external torque is zero, then dL/dt = 0, meaning angular momentum L remains constant -- R is the precise mathematical explanation for the conservation law stated in A.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and directly linked through the fundamental relation tau = dL/dt, which is the rotational analog of F = dp/dt.",
+      "concept_recap": "Conservation of angular momentum: L = constant when net external torque = 0. Classic example: a spinning ice skater pulling arms in speeds up rotation (L conserved, moment of inertia decreases, so angular velocity increases)."
+    }
+  },
+  {
+    "id": "phy-mech-007",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The law of conservation of momentum states that in the absence of external forces, the total momentum of a system:",
+    "options": [
+      "Increases continuously",
+      "Decreases continuously",
+      "Remains constant",
+      "Becomes zero eventually"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 5, Pg 100",
+    "solution": {
+      "why_correct": "In an isolated system with no net external force acting on it, the total momentum before and after any interaction (like a collision) remains exactly constant -- this is the law of conservation of momentum.",
+      "why_others_wrong": "A, B, and D all describe momentum changing, which directly contradicts the conservation principle that applies specifically when no external force acts on the system.",
+      "concept_recap": "Conservation of momentum: total momentum (sum of all individual momenta) of an isolated system stays constant. Applies to collisions (elastic and inelastic) and explosions, as long as no external force interferes."
+    }
+  },
+  {
+    "id": "phy-mech-008",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "In a perfectly inelastic collision between two bodies, which of the following is conserved?",
+    "options": [
+      "Kinetic energy only",
+      "Momentum only",
+      "Both momentum and kinetic energy",
+      "Neither momentum nor kinetic energy"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 5, Pg 108",
+    "solution": {
+      "why_correct": "In any collision (elastic or inelastic), momentum is always conserved as long as no external force acts. However, in a perfectly inelastic collision, kinetic energy is NOT conserved -- some is converted to heat, sound, or deformation as the bodies stick together.",
+      "why_others_wrong": "A is wrong since kinetic energy is specifically NOT conserved in inelastic collisions (that's the defining feature). C incorrectly claims both are conserved, which is only true for elastic collisions. D is wrong since momentum conservation always holds regardless of collision type.",
+      "concept_recap": "Elastic collision: both momentum AND kinetic energy conserved. Inelastic collision: only momentum conserved, kinetic energy is lost (converted to other energy forms). Perfectly inelastic: objects stick together after collision."
+    }
+  }
+]

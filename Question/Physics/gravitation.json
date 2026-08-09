@@ -1,0 +1,40 @@
+[
+  {
+    "id": "phy-grav-001",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "According to Kepler's third law, the square of the orbital period of a planet is proportional to:",
+    "options": [
+      "The square of its orbital radius",
+      "The cube of its orbital radius",
+      "The orbital radius itself",
+      "The square root of its orbital radius"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 8, Pg 155",
+    "solution": {
+      "why_correct": "Kepler's third law states T^2 is proportional to r^3 (T-squared proportional to r-cubed), relating a planet's orbital period to the cube of its average distance from the sun.",
+      "why_others_wrong": "A, C, and D don't match the actual mathematical relationship established by Kepler through observational astronomy and later derived from Newton's law of gravitation.",
+      "concept_recap": "Kepler's three laws: (1) elliptical orbits with sun at one focus, (2) equal areas swept in equal times (conservation of angular momentum), (3) T^2 proportional to r^3 (period-distance relationship)."
+    }
+  },
+  {
+    "id": "phy-grav-002",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The value of acceleration due to gravity (g) decreases as altitude above Earth's surface increases. Reason (R): Gravitational force follows an inverse-square law with distance from Earth's center.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 8, Pg 160",
+    "solution": {
+      "why_correct": "As altitude increases, the distance from Earth's center increases, and since gravitational force (and hence g) follows F proportional to 1/r^2, g decreases with height -- R directly and correctly explains why A is true.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and connected -- the inverse-square nature of gravity is exactly why g decreases with altitude, a standard derivation in NCERT physics.",
+      "concept_recap": "g at height h: g' = g(R/(R+h))^2, where R is Earth's radius. This shows g decreases with increasing height due to the inverse-square law governing gravitational force."
+    }
+  }
+]

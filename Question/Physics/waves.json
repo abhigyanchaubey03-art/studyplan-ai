@@ -1,0 +1,40 @@
+[
+  {
+    "id": "phy-waves-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "The speed of sound is generally greatest in which medium?",
+    "options": [
+      "Vacuum",
+      "Gases",
+      "Liquids",
+      "Solids"
+    ],
+    "answer": "D",
+    "ncertRef": "Class 11, Ch 15, Pg 268",
+    "solution": {
+      "why_correct": "Sound travels fastest in solids because particles are closely packed with strong intermolecular bonds, allowing vibrations to transfer quickly between adjacent particles.",
+      "why_others_wrong": "Vacuum cannot transmit sound at all since it requires a material medium. Gases have the loosest particle spacing, giving the slowest sound speed among the three states of matter. Liquids fall between gases and solids in particle density and sound speed.",
+      "concept_recap": "Speed of sound: solids > liquids > gases (denser, more tightly bonded media transmit vibrations faster). Sound cannot travel through vacuum since it needs a material medium to propagate."
+    }
+  },
+  {
+    "id": "phy-waves-002",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: The phenomenon of beats occurs when two sound waves of slightly different frequencies superimpose. Statement II: The beat frequency equals the sum of the two individual frequencies.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 15, Pg 275",
+    "solution": {
+      "why_correct": "Beats do occur from the superposition of two waves with slightly different frequencies, producing periodic variation in amplitude (Statement I true). However, beat frequency equals the DIFFERENCE between the two frequencies, not their sum, making Statement II false.",
+      "why_others_wrong": "B, C, D incorrectly accept the sum formula; the beat frequency formula is always |f1 - f2|, a commonly confused point since intuition might suggest addition rather than subtraction.",
+      "concept_recap": "Beat frequency = |f1 - f2| (difference, not sum). Beats arise from constructive and destructive interference alternating over time due to the slightly mismatched frequencies of the two waves."
+    }
+  }
+]

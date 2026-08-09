@@ -1,0 +1,117 @@
+[
+  {
+    "id": "phy-opt-001",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "A convex lens produces a real, inverted, and diminished image when the object is placed:",
+    "options": [
+      "At the focus",
+      "Between the focus and the lens",
+      "At infinity",
+      "Between focus and twice the focal length"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 9, Pg 178",
+    "solution": {
+      "why_correct": "When the object is at infinity, the convex lens forms a real, inverted, highly diminished image at the focal point -- this is the case of maximum image reduction.",
+      "why_others_wrong": "A gives an image at infinity (no finite diminished image). B gives a virtual, magnified image. D gives a real, inverted, diminished image between F and 2F on the other side, but the classic 'infinity' case is the standard answer for maximum diminishment.",
+      "concept_recap": "Convex lens image rules: object at infinity -> image at F, real, inverted, highly diminished. Object beyond 2F -> image between F and 2F, diminished. Object at 2F -> same size image."
+    },
+    "year": 2023
+  },
+  {
+    "id": "phy-opt-002",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: A concave mirror always forms a virtual image. Statement II: When an object is placed between the pole and focus of a concave mirror, the image formed is virtual, erect, and magnified.",
+    "options": [
+      "Statement I is true and Statement II is true",
+      "Statement I is false and Statement II is true",
+      "Statement I is true and Statement II is false",
+      "Both statements are false"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 9, Pg 165",
+    "solution": {
+      "why_correct": "A concave mirror forms both real and virtual images depending on object position, so Statement I is false. However, Statement II correctly describes the specific case when the object is between pole and focus.",
+      "why_others_wrong": "Statement I is a common misconception -- concave mirrors form real images for objects beyond the focus, and only virtual images for objects between pole and focus.",
+      "concept_recap": "Concave mirror image nature depends entirely on object position relative to focus (F) and center of curvature (C) -- there is no single fixed answer."
+    }
+  },
+  {
+    "id": "phy-opt-003",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "The power of a lens is measured in which unit?",
+    "options": [
+      "Watt",
+      "Diopter",
+      "Newton",
+      "Joule"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 9, Pg 172",
+    "solution": {
+      "why_correct": "The power of a lens (P = 1/f, where f is focal length in meters) is measured in diopters (D), indicating the lens's ability to converge or diverge light.",
+      "why_others_wrong": "Watt measures power in the sense of energy per time (physics of work/energy), not optical lens power. Newton measures force, and Joule measures energy -- none apply to lens power specifically.",
+      "concept_recap": "Lens power: P (diopters) = 1/f (meters). Convex (converging) lens has positive power; concave (diverging) lens has negative power. Higher power means shorter focal length (stronger bending of light)."
+    }
+  },
+  {
+    "id": "phy-opt-004",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): A rainbow is formed due to dispersion, refraction, and total internal reflection of sunlight in water droplets. Reason (R): Different wavelengths of light refract by different amounts, separating white light into its constituent colors.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 9, Pg 185",
+    "solution": {
+      "why_correct": "A rainbow forms as sunlight enters a water droplet (refraction + dispersion by wavelength), undergoes total internal reflection inside, and exits with further refraction, spreading into a spectrum. R explains the core physical basis (wavelength-dependent refraction) enabling this dispersion.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and R directly explains why different colors separate during the described process -- it's the standard physical mechanism taught for rainbow formation.",
+      "concept_recap": "Rainbow formation: refraction (entering droplet) + dispersion (wavelength-dependent bending) + total internal reflection (inside droplet) + refraction again (exiting) = separated color spectrum visible as a rainbow."
+    }
+  },
+  {
+    "id": "phy-opt-005",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The refractive index of a medium is defined as the ratio of:",
+    "options": [
+      "Speed of light in medium to speed of light in vacuum",
+      "Speed of light in vacuum to speed of light in medium",
+      "Wavelength in medium to wavelength in vacuum",
+      "Frequency in medium to frequency in vacuum"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 9, Pg 168",
+    "solution": {
+      "why_correct": "Refractive index n = c/v, where c is the speed of light in vacuum and v is its speed in the medium -- a ratio that is always greater than or equal to 1 for any medium denser than vacuum.",
+      "why_others_wrong": "A inverts the correct ratio. C and D don't match the standard definition, though wavelength does change proportionally with speed (frequency remains constant across media, which is a related but separate fact).",
+      "concept_recap": "Refractive index: n = c/v = speed in vacuum / speed in medium. Denser medium = higher n = slower light speed = greater bending of light at the interface (per Snell's law)."
+    }
+  },
+  {
+    "id": "phy-opt-006",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): Total internal reflection occurs only when light travels from a denser to a rarer medium. Reason (R): The angle of incidence must exceed the critical angle for total internal reflection to occur.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 9, Pg 180",
+    "solution": {
+      "why_correct": "Total internal reflection requires light going from denser to rarer medium (A true), and specifically occurs when the angle of incidence exceeds a critical value beyond which no refraction occurs and all light reflects back (R true, and this is the precise condition explaining A).",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and directly connected -- exceeding the critical angle is exactly the condition that must be met, given the denser-to-rarer requirement, for total internal reflection.",
+      "concept_recap": "Total internal reflection: (1) light travels denser to rarer medium, (2) angle of incidence greater than critical angle. Both conditions required together -- used in optical fibers, mirages, and diamond sparkle."
+    }
+  }
+]

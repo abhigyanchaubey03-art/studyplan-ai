@@ -1,0 +1,78 @@
+[
+  {
+    "id": "phy-cur-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "According to Ohm's Law, the relationship between voltage (V), current (I), and resistance (R) is:",
+    "options": [
+      "V = I/R",
+      "V = IR",
+      "V = I + R",
+      "V = R/I"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 3, Pg 88",
+    "solution": {
+      "why_correct": "Ohm's law states V = IR, meaning voltage across a conductor is directly proportional to the current through it, with resistance as the constant of proportionality (at constant temperature).",
+      "why_others_wrong": "A, C, and D are incorrect mathematical rearrangements or invalid relationships that don't match the fundamental V = IR relationship defined by Ohm's law.",
+      "concept_recap": "Ohm's Law: V = IR (valid for ohmic conductors at constant temperature). Can be rearranged: I = V/R or R = V/I depending on which quantity is unknown."
+    }
+  },
+  {
+    "id": "phy-cur-002",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The resistance of a conductor increases with an increase in temperature. Reason (R): With increasing temperature, the average speed of free electrons decreases due to increased collision frequency with vibrating ions.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 3, Pg 92",
+    "solution": {
+      "why_correct": "As temperature rises, lattice ions vibrate more, increasing collision frequency with free electrons and reducing their drift velocity/relaxation time -- this increases resistivity and resistance, correctly explained by R.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and directly connected -- increased ion vibration and collision frequency is precisely the microscopic reason resistance rises with temperature in conductors.",
+      "concept_recap": "Resistance of metals increases with temperature (more lattice vibration, more electron scattering, lower relaxation time). Note: for semiconductors, resistance decreases with temperature instead."
+    }
+  },
+  {
+    "id": "phy-cur-003",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In a series combination of resistors, the equivalent resistance is:",
+    "options": [
+      "Less than the smallest individual resistance",
+      "Equal to the smallest individual resistance",
+      "Equal to the sum of the individual resistances",
+      "Always less than any individual resistance"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 3, Pg 90",
+    "solution": {
+      "why_correct": "In series, resistances simply add up: R_eq = R1 + R2 + R3 + ..., so the equivalent resistance equals the sum of the individual resistances (and is always greater than any single one, but never exceeds their direct sum).",
+      "why_others_wrong": "A and D describe the behavior of PARALLEL resistor combinations (equivalent resistance is less than the smallest individual resistor), which is the opposite pattern to series combinations. B doesn't match either series or parallel rules.",
+      "concept_recap": "Series resistors: R_eq = R1+R2+...(always larger than any individual R). Parallel resistors: 1/R_eq = 1/R1+1/R2+...(always smaller than the smallest individual R)."
+    }
+  },
+  {
+    "id": "phy-cur-004",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "The drift velocity of electrons in a conductor is:",
+    "options": [
+      "Equal to the speed of light",
+      "Very high, on the order of 10^6 m/s",
+      "Very low, typically on the order of 10^-4 m/s",
+      "Zero when current flows"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 3, Pg 85",
+    "solution": {
+      "why_correct": "Despite the near-instantaneous 'switching on' of a light bulb, the actual drift velocity of individual electrons through a conductor is extremely slow, typically around 10^-4 m/s, due to frequent collisions with the lattice ions.",
+      "why_others_wrong": "A and B vastly overestimate drift velocity -- electrons don't move anywhere near light speed or even a fast fraction of it through a wire. D is contradictory since drift velocity is precisely what constitutes current flow, not its absence.",
+      "concept_recap": "Drift velocity: very slow (~10^-4 m/s) net electron movement due to an applied field, distinct from the much faster propagation speed of the electric field/signal itself (~speed of light) that causes near-instant circuit response."
+    }
+  }
+]
