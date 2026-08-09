@@ -194,37 +194,7 @@
   .hidden{display:none !important;}
   footer{text-align:center;color:var(--paper-dim);font-size:0.78rem;margin-top:40px;}
 </style>
-</head> <script>
-async function getMembership() {
-
-  const {
-    data: { user },
-    error: authError
-  } = await supabaseClient.auth.getUser();
-
-  if (authError || !user) {
-    console.log("Student is not logged in.");
-    return null;
-  }
-
-  const { data, error } = await supabaseClient
-    .from("memberships")
-    .select("plan, status, expires_at")
-    .eq("user_id", user.id)
-    .maybeSingle();
-
-  if (error) {
-    console.error("Membership error:", error);
-    return null;
-  }
-
-  console.log("Current membership:", data);
-
-  return data;
-}
-
-getMembership();
-</script>
+</head>
 <body>
 <div class="wrap">
 
@@ -232,7 +202,7 @@ getMembership();
     <div class="brand">
       <div class="brand-mark">Studyplan<span>AI</span></div>
     </div>
-    <n<nav>
+    <nav>
 <button class="active" data-tab="plan">Plan</button>
 <button data-tab="todo">To-Do</button>
 <button data-tab="groups">Groups</button>
@@ -1118,19 +1088,6 @@ if('serviceWorker' in navigator){
     navigator.serviceWorker.register('sw.js').catch(e=>console.log('SW registration failed', e));
   });
 }
-</script> 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
-<script>
-  const SUPABASE_URL = https://mchglusthfhhbqcozfxr.supabase.co
-  const SUPABASE_KEY = "sb_publishable_qX1-Bbk6MdxQWplnHD0Q9Q_TF-tFrg_"
-
-  const { createClient } = supabase;
-
-  const supabaseClient = createClient(
-    SUPABASE_URL,
-    SUPABASE_KEY
-  );
 </script>
 </body>
 </html>
