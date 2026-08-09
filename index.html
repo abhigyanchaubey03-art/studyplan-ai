@@ -194,7 +194,37 @@
   .hidden{display:none !important;}
   footer{text-align:center;color:var(--paper-dim);font-size:0.78rem;margin-top:40px;}
 </style>
-</head>
+</head> <script>
+async function getMembership() {
+
+  const {
+    data: { user },
+    error: authError
+  } = await supabaseClient.auth.getUser();
+
+  if (authError || !user) {
+    console.log("Student is not logged in.");
+    return null;
+  }
+
+  const { data, error } = await supabaseClient
+    .from("memberships")
+    .select("plan, status, expires_at")
+    .eq("user_id", user.id)
+    .maybeSingle();
+
+  if (error) {
+    console.error("Membership error:", error);
+    return null;
+  }
+
+  console.log("Current membership:", data);
+
+  return data;
+}
+
+getMembership();
+</script>
 <body>
 <div class="wrap">
 
