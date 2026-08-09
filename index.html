@@ -1118,6 +1118,18 @@ if('serviceWorker' in navigator){
     navigator.serviceWorker.register('sw.js').catch(e=>console.log('SW registration failed', e));
   });
 }
+</script> <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+  const SUPABASE_URL = https://mchglusthfhhbqcozfxr.supabase.co
+  const SUPABASE_KEY = "sb_publishable_qX1-Bbk6MdxQWplnHD0Q9Q_TF-tFrg_"
+
+  const { createClient } = supabase;
+
+  const supabaseClient = createClient(
+    SUPABASE_URL,
+    SUPABASE_KEY
+  );
 </script>
 </body>
 </html>
