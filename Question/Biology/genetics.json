@@ -1,0 +1,482 @@
+[
+  {
+    "id": "bio-gen-001",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "A cross between a heterozygous tall pea plant and a homozygous dwarf pea plant produces offspring in what ratio?",
+    "options": [
+      "1:1",
+      "3:1",
+      "1:2:1",
+      "9:3:3:1"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 92",
+    "solution": {
+      "why_correct": "This is a test cross (Tt x tt). Since one parent is heterozygous and the other homozygous recessive, the offspring ratio is always 1:1 (Tt : tt).",
+      "why_others_wrong": "B is the ratio for a monohybrid F2 cross (Tt x Tt), not a test cross. C and D apply to incomplete dominance and dihybrid crosses respectively, neither of which fits this scenario.",
+      "concept_recap": "Test cross = heterozygote x homozygous recessive. Always gives a 1:1 ratio and is used to determine the genotype of the dominant-phenotype parent."
+    },
+    "year": 2023
+  },
+  {
+    "id": "bio-gen-002",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which of the following is NOT a Mendelian trait?",
+    "options": [
+      "Seed shape",
+      "Flower color",
+      "Skin color in humans",
+      "Plant height"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 5, Pg 88",
+    "solution": {
+      "why_correct": "Skin color is a polygenic trait controlled by multiple genes, not a single gene pair, so it does not follow simple Mendelian inheritance.",
+      "why_others_wrong": "A, B, and D are all traits Mendel studied in pea plants and each follows simple dominant/recessive inheritance.",
+      "concept_recap": "Mendelian traits are controlled by a single gene with two alleles. Polygenic traits (like human skin color, height) are controlled by many genes and show continuous variation."
+    }
+  },
+  {
+    "id": "bio-gen-003",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: A dihybrid cross between two heterozygous parents (AaBb x AaBb) produces 16 possible genotype combinations. Statement II: The phenotypic ratio of a dihybrid cross is 9:3:3:1.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 95",
+    "solution": {
+      "why_correct": "A dihybrid cross gives a 4x4 Punnett square = 16 combinations, and independent assortment of two genes yields the classic 9:3:3:1 phenotypic ratio.",
+      "why_others_wrong": "Options B, C, and D are wrong because both underlying facts are independently correct and well-established for dihybrid crosses under independent assortment.",
+      "concept_recap": "Dihybrid cross: 16 genotype combinations, 9 genotype classes, 9:3:3:1 phenotype ratio when genes assort independently (unlinked)."
+    }
+  },
+  {
+    "id": "bio-gen-004",
+    "type": "PYQ",
+    "difficulty": "hard",
+    "question": "In a dihybrid cross, if genes are linked and located close together on the same chromosome, the offspring ratio will:",
+    "options": [
+      "Follow the standard 9:3:3:1 ratio",
+      "Deviate from 9:3:3:1 with more parental-type offspring",
+      "Deviate from 9:3:3:1 with more recombinant-type offspring",
+      "Show a 1:1 ratio only"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 98",
+    "solution": {
+      "why_correct": "Linked genes on the same chromosome tend to be inherited together, so parental-type combinations appear more frequently than the independent-assortment ratio predicts.",
+      "why_others_wrong": "A is only true for unlinked genes. C is incorrect since recombinants (from crossing over) are the minority, not majority, for tightly linked genes. D describes a test cross, unrelated to linkage.",
+      "concept_recap": "Gene linkage reduces recombination frequency; closely linked genes show fewer recombinant offspring and more parental-type offspring than 9:3:3:1 predicts."
+    },
+    "year": 2021
+  },
+  {
+    "id": "bio-gen-005",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "What is the term for the physical location of a gene on a chromosome?",
+    "options": [
+      "Allele",
+      "Locus",
+      "Genotype",
+      "Phenotype"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 85",
+    "solution": {
+      "why_correct": "The locus is the fixed physical position of a gene on a chromosome, used to map and identify genes.",
+      "why_others_wrong": "Allele refers to alternative forms of a gene, not its location. Genotype is the genetic makeup, and phenotype is the observable expression -- neither refers to physical position.",
+      "concept_recap": "Locus = position on chromosome. Allele = version of a gene at that locus. Genotype = combination of alleles. Phenotype = resulting observable trait."
+    }
+  },
+  {
+    "id": "bio-gen-006",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In a monohybrid cross between two heterozygous (Tt) tall pea plants, what fraction of offspring will be homozygous dominant (TT)?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "Full"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 90",
+    "solution": {
+      "why_correct": "A Tt x Tt cross gives genotype ratio 1 TT : 2 Tt : 1 tt, meaning 1/4 of offspring are homozygous dominant (TT).",
+      "why_others_wrong": "B (1/2) is the fraction that is heterozygous (Tt). C (3/4) is the fraction showing the dominant phenotype (TT + Tt combined), not genotype. D is meaningless here.",
+      "concept_recap": "Monohybrid Tt x Tt: genotype ratio 1:2:1 (TT:Tt:tt), phenotype ratio 3:1 (tall:dwarf). Don't confuse genotype fraction with phenotype fraction."
+    }
+  },
+  {
+    "id": "bio-gen-007",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "The DNA double helix model was proposed by:",
+    "options": [
+      "Watson and Crick",
+      "Hershey and Chase",
+      "Meselson and Stahl",
+      "Griffith and Avery"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 6, Pg 105",
+    "solution": {
+      "why_correct": "James Watson and Francis Crick proposed the double helix structure of DNA in 1953, based on X-ray diffraction data from Rosalind Franklin.",
+      "why_others_wrong": "Hershey and Chase confirmed DNA (not protein) as genetic material via bacteriophage experiments. Meselson and Stahl proved semi-conservative replication. Griffith and Avery worked on the transforming principle.",
+      "concept_recap": "Know each experiment: Griffith (transformation), Avery (DNA is the transforming agent), Hershey-Chase (DNA is genetic material), Watson-Crick (double helix structure), Meselson-Stahl (semi-conservative replication)."
+    },
+    "year": 2020
+  },
+  {
+    "id": "bio-gen-008",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "A colorblind man marries a woman who is homozygous normal for color vision. What proportion of their sons will be colorblind?",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 102",
+    "solution": {
+      "why_correct": "Color blindness is X-linked recessive. Sons receive their X chromosome from the mother (who is homozygous normal, XX), so all sons will have normal vision regardless of the father's genotype -- 0% colorblind sons.",
+      "why_others_wrong": "B, C, D incorrectly assume paternal X-linked traits pass to sons, but sons get their single X exclusively from the mother, and the father's Y chromosome (not X) goes to sons.",
+      "concept_recap": "X-linked inheritance: sons get X from mother only, Y from father. Daughters get one X from each parent. This is why fathers cannot pass X-linked traits directly to sons."
+    }
+  },
+  {
+    "id": "bio-gen-009",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Down syndrome is caused by trisomy of chromosome 21. Statement II: Down syndrome results from a point mutation in a single gene.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 108",
+    "solution": {
+      "why_correct": "Down syndrome results from an extra copy (trisomy) of chromosome 21 -- a chromosomal number abnormality, not a point mutation in a single gene, making Statement I true and Statement II false.",
+      "why_others_wrong": "B, C, D incorrectly attribute Down syndrome to a gene-level mutation, which is a different category of genetic disorder (like sickle-cell anemia) rather than a chromosomal aneuploidy.",
+      "concept_recap": "Chromosomal disorders (extra/missing whole chromosomes, e.g., Down syndrome = trisomy 21) differ from gene/point mutations (e.g., sickle-cell anemia = single base change in hemoglobin gene)."
+    }
+  },
+  {
+    "id": "bio-gen-010",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which of the following best defines a 'test cross'?",
+    "options": [
+      "Crossing two homozygous dominant individuals",
+      "Crossing an individual of unknown genotype with a homozygous recessive individual",
+      "Crossing two heterozygous individuals",
+      "Crossing two homozygous recessive individuals"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 93",
+    "solution": {
+      "why_correct": "A test cross involves crossing an organism showing the dominant phenotype (unknown genotype: could be homozygous or heterozygous) with a homozygous recessive individual, to determine the unknown genotype from the offspring ratio.",
+      "why_others_wrong": "A and D don't reveal any new genotype information since both parents are already known/fixed. C (Tt x Tt) is a self/monohybrid cross, not a test cross -- it doesn't identify an unknown genotype.",
+      "concept_recap": "Test cross purpose: reveal whether an organism showing dominant phenotype is homozygous (TT, all offspring dominant) or heterozygous (Tt, 1:1 dominant:recessive offspring)."
+    }
+  },
+  {
+    "id": "bio-gen-011",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): Sickle-cell anemia is an example of a point mutation. Reason (R): It results from the substitution of glutamic acid by valine at the sixth position of the beta-globin chain due to a single base change.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 110",
+    "solution": {
+      "why_correct": "Sickle-cell anemia arises from a single nucleotide substitution (GAG to GTG) causing one amino acid change (glutamic acid to valine) in hemoglobin -- a textbook point mutation, and R accurately explains the molecular basis of A.",
+      "why_others_wrong": "B, C, D are wrong because both statements are true and R gives the exact, correct molecular mechanism behind the point mutation described in A.",
+      "concept_recap": "Point mutation = single base pair change, can alter one amino acid (missense, e.g., sickle-cell) or have no effect (silent) or cause a stop codon (nonsense)."
+    }
+  },
+  {
+    "id": "bio-gen-012",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which scientist's pea plant experiments laid the foundation for the laws of inheritance?",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Thomas Morgan",
+      "Hugo de Vries"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 82",
+    "solution": {
+      "why_correct": "Gregor Mendel conducted systematic breeding experiments on pea plants (Pisum sativum) in the 1860s, establishing the Law of Dominance, Law of Segregation, and Law of Independent Assortment.",
+      "why_others_wrong": "Darwin worked on natural selection/evolution, not inheritance mechanisms. Morgan worked on chromosomal theory and gene linkage using Drosophila. de Vries proposed mutation theory. None conducted the foundational pea plant experiments.",
+      "concept_recap": "Mendel's laws: (1) Law of Dominance, (2) Law of Segregation (alleles separate during gamete formation), (3) Law of Independent Assortment (genes on different chromosomes assort independently)."
+    }
+  },
+  {
+    "id": "bio-gen-013",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In humans, hemophilia is inherited as an X-linked recessive trait. A carrier mother and a normal father have children. What proportion of their sons are expected to be hemophilic?",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 5, Pg 104",
+    "solution": {
+      "why_correct": "A carrier mother is X^H X^h. Sons receive one X from her: 50% chance of X^H (normal) or X^h (hemophilic), so 50% of sons are expected to be affected.",
+      "why_others_wrong": "A ignores the carrier's heterozygous X. B and D don't match the 1:1 segregation ratio expected from a heterozygous carrier mother passing X-linked alleles to sons.",
+      "concept_recap": "Carrier mother (X^H X^h) x normal father (X^H Y): daughters 50% carrier, 50% normal; sons 50% affected, 50% normal. Sons always get Y from father, X from mother."
+    }
+  },
+  {
+    "id": "bio-gen-014",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Linked genes always show a higher frequency of parental type gametes than recombinant type. Statement II: The frequency of recombination is directly proportional to the distance between two genes on a chromosome.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 99",
+    "solution": {
+      "why_correct": "Both facts are correct and related: linked genes stay together more often (higher parental-type frequency), and the farther apart two genes are on a chromosome, the more likely crossing over separates them, increasing recombination frequency.",
+      "why_others_wrong": "The other options are wrong since both statements are standard, well-established principles of genetic linkage and recombination mapping (used in constructing genetic maps).",
+      "concept_recap": "Linkage: genes close together = low recombination, more parental types. Genes far apart = higher recombination frequency, used to build genetic maps (map units based on % recombination)."
+    }
+  },
+  {
+    "id": "bio-gen-015",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "A pedigree chart is primarily used to study:",
+    "options": [
+      "Population genetics of large groups",
+      "Inheritance patterns within a family across generations",
+      "Chromosome number changes in a single individual",
+      "The rate of mutation in bacteria"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 106",
+    "solution": {
+      "why_correct": "A pedigree chart traces the inheritance of a specific trait or disorder through multiple generations of a family, helping determine dominant/recessive or X-linked/autosomal inheritance patterns.",
+      "why_others_wrong": "A describes population genetics studies (Hardy-Weinberg), not a family-based pedigree. C describes karyotyping. D describes mutation rate studies -- all distinct from pedigree analysis.",
+      "concept_recap": "Pedigree analysis: symbols represent individuals (circle=female, square=male, filled=affected), used to trace trait inheritance across generations in humans, where controlled breeding experiments aren't possible."
+    }
+  },
+  {
+    "id": "bio-gen-016",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): ABO blood group inheritance is an example of multiple alleles. Reason (R): The gene for ABO blood group has three alleles (IA, IB, i), of which any two can be present in an individual.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 100",
+    "solution": {
+      "why_correct": "ABO blood group is a classic multiple allele example since three alleles (IA, IB, i) exist in the population for one gene, though each individual carries only two -- R accurately explains why A is a multiple allele system.",
+      "why_others_wrong": "B, C, D are wrong because both statements are true and directly connected -- the existence of three population-level alleles for one gene is the definition of multiple allelism illustrated by ABO blood groups.",
+      "concept_recap": "Multiple alleles: more than two allelic forms exist in a population for one gene (e.g., ABO blood group: IA, IB, i), though a diploid individual has only two at a time. IA and IB are co-dominant; both dominant over i."
+    }
+  },
+  {
+    "id": "bio-gen-017",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "The exchange of genetic material between non-sister chromatids of homologous chromosomes during meiosis is called:",
+    "options": [
+      "Independent assortment",
+      "Crossing over",
+      "Mutation",
+      "Fertilization"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 96",
+    "solution": {
+      "why_correct": "Crossing over occurs during prophase I of meiosis, where non-sister chromatids of homologous chromosomes exchange segments, creating new allele combinations and genetic variation.",
+      "why_others_wrong": "Independent assortment refers to random orientation of different chromosome pairs (not exchange of segments). Mutation is a change in DNA sequence, unrelated to chromatid exchange. Fertilization is fusion of gametes, a separate process entirely.",
+      "concept_recap": "Sources of genetic variation in meiosis: crossing over (exchange between homologous chromatids) and independent assortment (random alignment of different chromosome pairs) -- both occur during meiosis I."
+    }
+  },
+  {
+    "id": "bio-gen-018",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "If a gene has two alleles, B (dominant, black coat) and b (recessive, brown coat), what is the phenotype of a Bb individual?",
+    "options": [
+      "Brown",
+      "Black",
+      "A blend of black and brown",
+      "Neither black nor brown"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 84",
+    "solution": {
+      "why_correct": "Since B is dominant over b, a heterozygous Bb individual expresses the dominant phenotype -- black coat -- while the recessive b allele's effect is masked.",
+      "why_others_wrong": "A describes the bb phenotype, not Bb. C describes incomplete dominance/blending inheritance, which doesn't apply here since B is stated as fully dominant. D is not a valid outcome under simple Mendelian dominance.",
+      "concept_recap": "Complete dominance: heterozygote (Bb) shows the SAME phenotype as homozygous dominant (BB). This differs from incomplete dominance, where heterozygotes show a blended/intermediate phenotype."
+    }
+  },
+  {
+    "id": "bio-gen-019",
+    "type": "PYQ",
+    "difficulty": "hard",
+    "question": "The number of nucleotide bases required to code for one amino acid is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 6, Pg 112",
+    "solution": {
+      "why_correct": "The genetic code is a triplet code -- three consecutive nucleotide bases (a codon) code for one amino acid, since 4^3 = 64 possible codons is sufficient to code for all 20 amino acids plus stop signals.",
+      "why_others_wrong": "A (1) and B (2) don't provide enough combinations (4 or 16) to uniquely specify 20 different amino acids. D (4) would be excessive/inefficient compared to the actual triplet system used by all known life.",
+      "concept_recap": "Genetic code: triplet code (3 bases = 1 codon = 1 amino acid). 64 possible codons code for 20 amino acids (code is degenerate/redundant) plus 3 stop codons and 1 start codon (AUG)."
+    },
+    "year": 2019
+  },
+  {
+    "id": "bio-gen-020",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: A frameshift mutation occurs due to insertion or deletion of nucleotides that is not a multiple of three. Statement II: Frameshift mutations typically have a more severe effect on protein structure than a single point substitution mutation.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 6, Pg 118",
+    "solution": {
+      "why_correct": "Insertion/deletion of bases not in multiples of three shifts the entire reading frame downstream, altering every subsequent codon (Statement I true). This typically causes a much more severe, often completely non-functional protein compared to a single point substitution which usually changes only one amino acid (Statement II true).",
+      "why_others_wrong": "The other options are wrong because both statements accurately describe frameshift mutations and their comparatively severe impact versus simple substitution mutations.",
+      "concept_recap": "Frameshift mutation: insertion/deletion NOT a multiple of 3 -> shifts reading frame -> garbles all downstream codons -> usually non-functional protein. Point substitution: changes only 1 codon -> may be silent, missense, or nonsense."
+    }
+  },
+  {
+    "id": "bio-gen-021",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "The physical expression of a gene, such as flower color or seed shape, is called the:",
+    "options": [
+      "Genotype",
+      "Phenotype",
+      "Genome",
+      "Karyotype"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 83",
+    "solution": {
+      "why_correct": "Phenotype refers to the observable physical or biochemical characteristics of an organism, resulting from the interaction of its genotype with the environment.",
+      "why_others_wrong": "Genotype is the actual genetic makeup (allele combination), not the observable trait itself. Genome refers to the complete set of genetic material. Karyotype refers to the number/appearance of chromosomes, unrelated to trait expression.",
+      "concept_recap": "Genotype (genetic makeup, e.g., Tt) produces Phenotype (observable trait, e.g., tall) through gene expression, often influenced by environmental factors too."
+    }
+  },
+  {
+    "id": "bio-gen-022",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which of the following is true regarding codominance?",
+    "options": [
+      "One allele completely masks the other",
+      "Both alleles are expressed simultaneously and distinctly in the phenotype",
+      "The phenotype is a blend of both alleles",
+      "Only the recessive allele is expressed"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 91",
+    "solution": {
+      "why_correct": "In codominance, both alleles are fully and independently expressed in the phenotype without blending -- a classic example is the AB blood group, where both A and B antigens are simultaneously present.",
+      "why_others_wrong": "A describes complete dominance. C describes incomplete dominance (blending, like pink flowers from red x white cross). D would only occur if the dominant allele were somehow absent, which isn't what codominance means.",
+      "concept_recap": "Codominance: both alleles fully expressed, distinctly visible (e.g., AB blood type, roan cattle coat with both red and white hairs). Different from incomplete dominance, which produces a blended intermediate phenotype."
+    }
+  },
+  {
+    "id": "bio-gen-023",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Down syndrome individuals have 47 chromosomes instead of the usual 46. Statement II: Klinefelter syndrome (XXY) also results in an individual having 47 chromosomes.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 5, Pg 109",
+    "solution": {
+      "why_correct": "Down syndrome results from trisomy of chromosome 21 (47 total chromosomes instead of 46), and Klinefelter syndrome results from an extra X chromosome (XXY, also 47 total) -- both are correct examples of aneuploidy.",
+      "why_others_wrong": "The other options are wrong because both statements accurately describe two different chromosomal number disorders that each result in one extra chromosome (47 total).",
+      "concept_recap": "Aneuploidy examples: Down syndrome (trisomy 21, 47 chromosomes), Klinefelter syndrome (XXY, 47 chromosomes), Turner syndrome (XO, only 45 chromosomes -- a monosomy, not trisomy)."
+    }
+  },
+  {
+    "id": "bio-gen-024",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "In a dihybrid cross AaBb x aabb (a test cross for two genes), what is the expected phenotypic ratio of the offspring if the genes assort independently?",
+    "options": [
+      "9:3:3:1",
+      "1:1:1:1",
+      "3:1",
+      "1:2:1"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 5, Pg 97",
+    "solution": {
+      "why_correct": "A test cross of a double heterozygote (AaBb) with a double homozygous recessive (aabb) produces four equally likely gamete combinations from the heterozygous parent, giving a 1:1:1:1 phenotypic ratio in offspring.",
+      "why_others_wrong": "A (9:3:3:1) is the ratio for an F2 dihybrid cross (AaBb x AaBb), not a test cross. C and D are monohybrid cross ratios, not applicable to a two-gene test cross scenario.",
+      "concept_recap": "Dihybrid test cross (AaBb x aabb): 1:1:1:1 ratio, directly reveals the heterozygous parent's gamete types since the recessive parent contributes no dominant alleles to mask anything."
+    }
+  },
+  {
+    "id": "bio-gen-025",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "Which of the following best defines a 'gene pool'?",
+    "options": [
+      "The total genetic material within a single organism",
+      "The sum total of all genes and their alleles present in a population",
+      "The number of chromosomes in a species",
+      "The physical location of genes on a chromosome"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 7, Pg 134",
+    "solution": {
+      "why_correct": "A gene pool refers to the entire collection of genes and their different alleles present within an interbreeding population at a given time -- a central concept in population genetics and evolution.",
+      "why_others_wrong": "A describes an individual's genome, not a population-level concept. C describes chromosome number, a different measure entirely. D describes a gene's locus, unrelated to population-wide allele frequency.",
+      "concept_recap": "Gene pool: total genetic diversity (all alleles) in a population. Changes in allele frequency within a gene pool over generations is the basis of the modern definition of evolution."
+    },
+    "year": 2018
+  }
+]

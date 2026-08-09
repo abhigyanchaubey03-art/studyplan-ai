@@ -1,0 +1,78 @@
+[
+  {
+    "id": "bio-health-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which of the following is a vector-borne disease transmitted by the female Anopheles mosquito?",
+    "options": [
+      "Dengue",
+      "Malaria",
+      "Typhoid",
+      "Chikungunya"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 8, Pg 152",
+    "solution": {
+      "why_correct": "Malaria is caused by Plasmodium species and transmitted specifically through the bite of the female Anopheles mosquito.",
+      "why_others_wrong": "Dengue and Chikungunya are transmitted by the Aedes mosquito, not Anopheles. Typhoid is a bacterial disease (Salmonella typhi) spread through contaminated food/water, not by mosquitoes at all.",
+      "concept_recap": "Anopheles -> Malaria. Aedes -> Dengue, Chikungunya, Zika. Culex -> Filariasis. Know the mosquito-disease pairings precisely for NEET."
+    }
+  },
+  {
+    "id": "bio-health-002",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): Antibiotics are ineffective against viral infections. Reason (R): Antibiotics target bacterial cell wall or protein synthesis machinery, which viruses lack.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 8, Pg 158",
+    "solution": {
+      "why_correct": "Antibiotics work by disrupting bacterial-specific structures like cell walls or ribosomal machinery. Since viruses have no cell wall and hijack host cell machinery for replication, antibiotics have no target to act on -- directly explaining their ineffectiveness against viruses.",
+      "why_others_wrong": "B, C, D are wrong because both statements are true and the mechanism described in R is exactly why antibiotics fail against viral infections.",
+      "concept_recap": "Antibiotics act on bacteria-specific structures (cell wall, ribosomes, enzymes) absent or different in viruses. This is why viral infections need antivirals, not antibiotics."
+    }
+  },
+  {
+    "id": "bio-health-003",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which type of immunity is provided to a newborn through breast milk (colostrum)?",
+    "options": [
+      "Active natural immunity",
+      "Passive natural immunity",
+      "Active artificial immunity",
+      "Passive artificial immunity"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 8, Pg 162",
+    "solution": {
+      "why_correct": "Colostrum contains pre-formed antibodies (especially IgA) transferred from mother to infant without the infant's own immune system producing them -- this is passive immunity, and since it occurs naturally (not via injection), it's passive NATURAL immunity.",
+      "why_others_wrong": "A is wrong since the infant doesn't produce these antibodies itself (active = self-produced). C and D involve artificial/medical intervention (like vaccines or antibody injections), not a natural biological process like breastfeeding.",
+      "concept_recap": "Immunity types: Active natural (infection, body makes antibodies), active artificial (vaccination), passive natural (mother to child via placenta/breast milk), passive artificial (antibody injection, e.g., anti-venom)."
+    }
+  },
+  {
+    "id": "bio-health-004",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Which of the following best describes the mechanism of action of a vaccine?",
+    "options": [
+      "It directly kills the disease-causing pathogen in the body",
+      "It introduces antigenic material to stimulate the immune system to produce memory cells without causing the disease",
+      "It replaces the need for the body's own immune response entirely",
+      "It provides pre-formed antibodies directly from another organism"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 8, Pg 160",
+    "solution": {
+      "why_correct": "A vaccine introduces a weakened, inactivated, or partial form of a pathogen (antigenic material) that stimulates the immune system to produce antibodies and memory cells, providing long-term active immunity without causing the actual disease.",
+      "why_others_wrong": "A is incorrect since vaccines don't directly kill pathogens already in the body -- they prepare the immune system in advance. C is wrong since the immune system is actively engaged, not bypassed. D describes passive immunity (like antivenom), a different mechanism from vaccination.",
+      "concept_recap": "Vaccination: active immunity, immune system produces its own antibodies and memory cells in response to antigenic exposure, providing lasting protection. Different from passive immunity (direct antibody transfer, temporary protection)."
+    }
+  }
+]

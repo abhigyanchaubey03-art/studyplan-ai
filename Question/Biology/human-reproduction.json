@@ -1,0 +1,78 @@
+[
+  {
+    "id": "bio-repro-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Spermatogenesis occurs in which part of the testis?",
+    "options": [
+      "Vas deferens",
+      "Seminiferous tubules",
+      "Epididymis",
+      "Prostate gland"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 3, Pg 45",
+    "solution": {
+      "why_correct": "Spermatogenesis (formation of sperm from spermatogonia) takes place inside the seminiferous tubules of the testis, lined by germinal epithelium.",
+      "why_others_wrong": "Vas deferens transports sperm, epididymis stores and matures sperm, and the prostate gland contributes fluid to semen -- none of these produce sperm themselves.",
+      "concept_recap": "Sperm production = seminiferous tubules. Sperm maturation/storage = epididymis. Sperm transport = vas deferens. Keep the sequence clear for NEET."
+    }
+  },
+  {
+    "id": "bio-repro-002",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The hormone responsible for triggering ovulation at mid-cycle is:",
+    "options": [
+      "FSH",
+      "Estrogen",
+      "LH surge",
+      "Progesterone"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 3, Pg 52",
+    "solution": {
+      "why_correct": "A sudden surge in Luteinizing Hormone (LH) at approximately day 14 of the menstrual cycle triggers rupture of the Graafian follicle, releasing the ovum -- this is ovulation.",
+      "why_others_wrong": "FSH stimulates follicle growth earlier in the cycle. Estrogen peaks just before the LH surge and helps trigger it, but LH itself causes ovulation. Progesterone rises after ovulation to maintain the uterine lining.",
+      "concept_recap": "Menstrual cycle hormone sequence: FSH/estrogen (follicular phase) -> LH surge (ovulation) -> progesterone (luteal phase, from corpus luteum)."
+    }
+  },
+  {
+    "id": "bio-repro-003",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): Identical twins are always of the same sex. Reason (R): Identical twins arise from the splitting of a single fertilized zygote.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 3, Pg 58",
+    "solution": {
+      "why_correct": "Since identical (monozygotic) twins come from one zygote splitting into two embryos with identical genetic material, both twins share the same sex chromosomes, hence always the same sex -- R directly explains A.",
+      "why_others_wrong": "B, C, D are incorrect since both statements are factually true and the splitting-of-one-zygote fact is precisely why identical twins share identical sex chromosomes.",
+      "concept_recap": "Identical (monozygotic) twins = one zygote splits, same genome, same sex. Fraternal (dizygotic) twins = two separate zygotes, can differ in sex."
+    }
+  },
+  {
+    "id": "bio-hp-repro-004",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Implantation of the blastocyst in humans typically occurs how many days after fertilization?",
+    "options": [
+      "1-2 days",
+      "6-7 days",
+      "20-25 days",
+      "40-45 days"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 3, Pg 55",
+    "solution": {
+      "why_correct": "The fertilized egg develops into a blastocyst as it travels through the fallopian tube, reaching the uterus and implanting into the endometrium approximately 6-7 days after fertilization.",
+      "why_others_wrong": "A is too early -- the zygote is still undergoing early cleavage divisions in the fallopian tube at that point. C and D are far too late; implantation is an early pregnancy event, not a mid-to-late one.",
+      "concept_recap": "Timeline: fertilization (in fallopian tube) -> cleavage divisions -> morula -> blastocyst -> implantation in uterine endometrium (~6-7 days post-fertilization) -> pregnancy (gestation) begins."
+    }
+  }
+]

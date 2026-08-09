@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bio-hp-neural-001",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "The gap between two adjacent neurons through which a nerve impulse is transmitted chemically is called:",
+    "options": [
+      "Axon",
+      "Synapse",
+      "Dendrite",
+      "Node of Ranvier"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 21, Pg 365",
+    "solution": {
+      "why_correct": "A synapse is the junction between two neurons (or a neuron and effector) where the nerve impulse is transmitted via neurotransmitter chemicals released from the presynaptic neuron.",
+      "why_others_wrong": "Axon carries the impulse away from the cell body but is not the junction itself. Dendrites receive signals but again are not the gap. Node of Ranvier is a gap in the myelin sheath along an axon, unrelated to inter-neuron transmission.",
+      "concept_recap": "Synaptic transmission: electrical impulse reaches axon terminal -> neurotransmitter released into synaptic cleft -> binds receptors on next neuron -> triggers new impulse (mostly chemical synapses in humans)."
+    }
+  },
+  {
+    "id": "bio-hp-neural-002",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The resting membrane potential of a typical neuron is approximately:",
+    "options": [
+      "+70 mV",
+      "-70 mV",
+      "0 mV",
+      "-170 mV"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 21, Pg 362",
+    "solution": {
+      "why_correct": "A neuron at rest maintains a membrane potential of approximately -70 mV (inside negative relative to outside), primarily due to the unequal distribution of Na+ and K+ ions maintained by the Na+/K+ pump and differential membrane permeability.",
+      "why_others_wrong": "A has the wrong sign (resting potential is negative, not positive -- positive values occur briefly during depolarization). C ignores the actual polarized resting state. D exaggerates the typical resting potential magnitude beyond standard textbook values.",
+      "concept_recap": "Resting membrane potential: approximately -70mV (inside negative). During an action potential: depolarization brings it to about +30mV (inside positive) before repolarization restores the negative resting state."
+    }
+  },
+  {
+    "id": "bio-hp-neural-003",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Which part of the human brain is primarily responsible for regulating heart rate, breathing, and blood pressure?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 11, Ch 21, Pg 370",
+    "solution": {
+      "why_correct": "The medulla oblongata, part of the brainstem, contains vital control centers that regulate involuntary functions including heart rate, respiratory rate, and blood pressure.",
+      "why_others_wrong": "Cerebrum handles higher cognitive functions (thinking, voluntary movement). Cerebellum coordinates balance and fine motor control. Hypothalamus regulates temperature, hunger, and links nervous/endocrine systems -- none directly control heart rate and breathing the way the medulla does.",
+      "concept_recap": "Brain regions: Cerebrum (cognition, voluntary actions), Cerebellum (balance, coordination), Medulla oblongata (involuntary vital functions -- heart rate, breathing, BP), Hypothalamus (homeostasis, endocrine link)."
+    }
+  }
+]

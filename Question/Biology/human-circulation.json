@@ -1,0 +1,79 @@
+[
+  {
+    "id": "bio-phys-001",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "The heart sound 'lub' (S1) is produced by the closure of which valves?",
+    "options": [
+      "Semilunar valves",
+      "Atrioventricular (tricuspid and bicuspid) valves",
+      "Only the tricuspid valve",
+      "Only the mitral valve"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 18, Pg 315",
+    "solution": {
+      "why_correct": "S1 ('lub') occurs at the start of ventricular systole when the atrioventricular valves (tricuspid and bicuspid/mitral) close together to prevent backflow into the atria.",
+      "why_others_wrong": "A describes S2 ('dub'), caused by semilunar valve closure. C and D are each only half of the correct pair -- both AV valves close together, not just one.",
+      "concept_recap": "Cardiac cycle sounds: S1 = AV valves closing (systole begins), S2 = semilunar valves closing (diastole begins)."
+    },
+    "year": 2022
+  },
+  {
+    "id": "bio-phys-002",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which chamber of the human heart pumps oxygenated blood to the entire body?",
+    "options": [
+      "Right atrium",
+      "Right ventricle",
+      "Left atrium",
+      "Left ventricle"
+    ],
+    "answer": "D",
+    "ncertRef": "Class 11, Ch 18, Pg 312",
+    "solution": {
+      "why_correct": "The left ventricle receives oxygenated blood from the left atrium and pumps it into the aorta, supplying the whole body -- it has the thickest muscular wall for this high-pressure job.",
+      "why_others_wrong": "Right atrium and right ventricle handle deoxygenated blood, sending it to the lungs. Left atrium receives blood but doesn't pump it to the body directly -- that's the ventricle's job.",
+      "concept_recap": "Path: body -> right atrium -> right ventricle -> lungs -> left atrium -> left ventricle -> body. Left ventricle = systemic pump, thickest wall."
+    }
+  },
+  {
+    "id": "bio-hp-circ-003",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The pacemaker of the human heart, responsible for initiating the heartbeat, is the:",
+    "options": [
+      "Atrioventricular node (AV node)",
+      "Sinoatrial node (SA node)",
+      "Bundle of His",
+      "Purkinje fibers"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 18, Pg 316",
+    "solution": {
+      "why_correct": "The SA node, located in the right atrium, generates spontaneous electrical impulses at a rate of about 70-75 per minute, initiating each heartbeat -- hence its nickname 'the pacemaker.'",
+      "why_others_wrong": "AV node delays and relays the impulse to the ventricles but doesn't originate it. Bundle of His and Purkinje fibers conduct the impulse through the ventricles, downstream of the SA node's original signal.",
+      "concept_recap": "Cardiac conduction pathway: SA node (pacemaker, initiates impulse) -> AV node (delays impulse) -> Bundle of His -> Purkinje fibers -> ventricular contraction."
+    }
+  },
+  {
+    "id": "bio-hp-circ-004",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Systolic pressure is the pressure exerted by blood on artery walls during ventricular contraction. Statement II: A normal blood pressure reading of 120/80 mmHg means systolic is 80 and diastolic is 120.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 18, Pg 318",
+    "solution": {
+      "why_correct": "Systolic pressure is indeed generated during ventricular contraction (systole), correctly described in Statement I. However, Statement II reverses the standard notation -- in 120/80 mmHg, 120 is systolic (higher, top number) and 80 is diastolic (lower, bottom number), not the other way around.",
+      "why_others_wrong": "B, C, D incorrectly accept the reversed blood pressure reading in Statement II, but medical convention always lists systolic (higher) first, then diastolic (lower) -- getting this backwards is a common student error.",
+      "concept_recap": "Blood pressure notation: Systolic/Diastolic (e.g., 120/80). Systolic = ventricles contracting (higher pressure). Diastolic = ventricles relaxed (lower pressure). Always systolic first, diastolic second."
+    }
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "bio-eco-001",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "Which ecological pyramid is always upright and never inverted?",
+    "options": [
+      "Pyramid of numbers",
+      "Pyramid of biomass",
+      "Pyramid of energy",
+      "Pyramid of numbers in a forest ecosystem"
+    ],
+    "answer": "C",
+    "ncertRef": "Class 12, Ch 14, Pg 262",
+    "solution": {
+      "why_correct": "Energy flow is unidirectional and decreases at each trophic level due to loss as heat (second law of thermodynamics), so the pyramid of energy is always upright, never inverted.",
+      "why_others_wrong": "A can be inverted (e.g., one tree hosting many insects). D is a specific case of A and can also be inverted. B can be inverted too, as in aquatic ecosystems with phytoplankton.",
+      "concept_recap": "Energy pyramids are always upright because energy is lost at each transfer; number and biomass pyramids can be inverted depending on the ecosystem structure."
+    },
+    "year": 2023
+  },
+  {
+    "id": "bio-eco-002",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: In an aquatic ecosystem, the pyramid of biomass can be inverted. Statement II: Phytoplankton have a very high biomass at any given instant compared to the fish that consume them.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 14, Pg 264",
+    "solution": {
+      "why_correct": "Phytoplankton have low standing biomass at any instant (despite high productivity) because of rapid turnover, while fish biomass accumulates over time -- this makes the biomass pyramid inverted. So Statement I is true but Statement II is false.",
+      "why_others_wrong": "The other options misstate the direction of the relationship -- phytoplankton biomass is LOW at a given instant, not high, which is exactly why the pyramid inverts.",
+      "concept_recap": "Standing crop (biomass at an instant) differs from productivity (rate of biomass production). Aquatic producers have high turnover -- low standing biomass, high productivity."
+    }
+  },
+  {
+    "id": "bio-eco-003",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "The total amount of organic matter or energy produced by autotrophs (producers) per unit area per unit time is called:",
+    "options": [
+      "Net primary productivity",
+      "Gross primary productivity",
+      "Secondary productivity",
+      "Standing crop"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 14, Pg 258",
+    "solution": {
+      "why_correct": "Gross Primary Productivity (GPP) is the total rate of organic matter production by producers via photosynthesis, before subtracting respiratory losses.",
+      "why_others_wrong": "Net Primary Productivity = GPP minus respiration losses (available to consumers), a different, smaller value. Secondary productivity refers to consumers, not producers. Standing crop refers to the biomass present at a given time, not the production rate.",
+      "concept_recap": "GPP (total production) - Respiration (R) = NPP (net available production, what herbivores actually consume). Secondary productivity = rate of biomass production by heterotrophs/consumers."
+    }
+  },
+  {
+    "id": "bio-eco-004",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Ecological succession that begins on a bare rock is called primary succession. Statement II: Primary succession generally takes less time to reach a climax community compared to secondary succession.",
+    "options": [
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 14, Pg 268",
+    "solution": {
+      "why_correct": "Succession starting on bare rock/lifeless substrate is indeed primary succession (Statement I true). However, primary succession actually takes LONGER to reach climax than secondary succession, since it starts with no soil or organic matter at all, unlike secondary succession which starts on already-existing soil -- making Statement II false.",
+      "why_others_wrong": "B, C, D incorrectly state that primary succession is faster; in reality, secondary succession (starting from disturbed but existing soil, e.g., after a fire or flood) reaches climax much faster than primary succession (starting from bare rock).",
+      "concept_recap": "Primary succession: starts from bare rock/lifeless area, very slow (long pioneer stage of lichens forming soil). Secondary succession: starts from disturbed but existing soil, much faster since soil and some organisms are already present."
+    }
+  },
+  {
+    "id": "bio-eco-005",
+    "type": "PYQ",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of mutualism?",
+    "options": [
+      "Tapeworm living in the human intestine",
+      "Lichens (association of algae and fungi)",
+      "Cattle egret and grazing cattle",
+      "Both B and C"
+    ],
+    "answer": "D",
+    "ncertRef": "Class 12, Ch 13, Pg 245",
+    "solution": {
+      "why_correct": "Both lichens (algae provide food via photosynthesis, fungi provide protection/moisture) and cattle egrets (feed on insects disturbed by grazing cattle, while cattle are unaffected/mildly benefited) are genuine mutualistic relationships where both species benefit.",
+      "why_others_wrong": "A describes parasitism (tapeworm benefits, human is harmed), not mutualism. Since both B and C are independently valid mutualism examples, the complete correct answer is D, not either alone.",
+      "concept_recap": "Mutualism: both species benefit (lichens, mycorrhizae, pollination). Parasitism: one benefits, other harmed (tapeworm). Commensalism: one benefits, other unaffected (cattle egret is actually often cited as an example of both, depending on textbook framing -- NCERT lists it under mutualism)."
+    },
+    "year": 2022
+  },
+  {
+    "id": "bio-eco-006",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "In population ecology, which growth curve represents unlimited resources and exponential growth?",
+    "options": [
+      "J-shaped curve",
+      "S-shaped (sigmoid) curve",
+      "U-shaped curve",
+      "Flat/linear curve"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 13, Pg 250",
+    "solution": {
+      "why_correct": "A J-shaped growth curve occurs when a population grows exponentially without resource limitation, since the growth rate is proportional to population size, leading to an ever-accelerating increase (dN/dt = rN).",
+      "why_others_wrong": "The S-shaped (sigmoid) curve reflects growth that slows as resources become limiting, eventually reaching carrying capacity -- a more realistic model, but different from unlimited exponential growth. C and D are not standard population growth curve shapes in this context.",
+      "concept_recap": "Population growth models: J-shaped (exponential, unlimited resources, dN/dt=rN) vs S-shaped/sigmoid (logistic, limited resources, growth slows near carrying capacity K, dN/dt=rN(K-N)/K)."
+    }
+  },
+  {
+    "id": "bio-eco-007",
+    "type": "PYQ",
+    "difficulty": "hard",
+    "question": "Which of the following best describes 'keystone species' in an ecosystem?",
+    "options": [
+      "The most abundant species in the ecosystem",
+      "A species whose impact on its community is disproportionately large relative to its abundance",
+      "A species found only in that specific ecosystem and nowhere else",
+      "The largest species in terms of biomass"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 14, Pg 270",
+    "solution": {
+      "why_correct": "A keystone species exerts a disproportionately large influence on ecosystem structure and function relative to its numerical abundance -- removing it can cause dramatic ecosystem changes, even though it may not be the most numerous species present.",
+      "why_others_wrong": "A describes a dominant species (abundance-based), a different ecological concept. C describes an endemic species. D describes biomass dominance -- none of these capture the specific 'disproportionate influence relative to abundance' definition of keystone species.",
+      "concept_recap": "Keystone species: disproportionately large ecological influence relative to abundance (e.g., sea otters controlling sea urchin populations, which in turn protects kelp forests). Removal can trigger trophic cascades and ecosystem collapse."
+    },
+    "year": 2023
+  }
+]

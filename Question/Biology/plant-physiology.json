@@ -1,0 +1,97 @@
+[
+  {
+    "id": "bio-plant-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which pigment is primarily responsible for absorbing light in the light reaction of photosynthesis?",
+    "options": [
+      "Xanthophyll",
+      "Chlorophyll a",
+      "Carotene",
+      "Anthocyanin"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 13, Pg 232",
+    "solution": {
+      "why_correct": "Chlorophyll a is the primary pigment directly involved in the light reaction, acting as the reaction center pigment that converts light energy into chemical energy.",
+      "why_others_wrong": "Xanthophyll and carotene are accessory pigments that absorb light and pass energy to chlorophyll a but cannot themselves drive the reaction center. Anthocyanin is a non-photosynthetic pigment found in flowers/fruits.",
+      "concept_recap": "Chlorophyll a = primary/reaction center pigment. Chlorophyll b, carotenoids, xanthophylls = accessory pigments that broaden the light-absorption spectrum."
+    }
+  },
+  {
+    "id": "bio-plant-002",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: Stomata open due to an increase in turgor pressure of guard cells. Statement II: Potassium ion influx into guard cells causes water to enter by osmosis, increasing turgor pressure.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 11, Pg 205",
+    "solution": {
+      "why_correct": "Both statements are correct and connected: K+ ions actively move into guard cells, lowering water potential inside them, causing water to enter by osmosis, which increases turgor pressure and opens the stomatal pore.",
+      "why_others_wrong": "The other options are wrong because both statements independently hold true and describe the well-established K+ ion mechanism of stomatal opening.",
+      "concept_recap": "Stomatal opening: light triggers K+ influx into guard cells -> lowers water potential -> water enters by osmosis -> turgor increases -> guard cells bow outward -> pore opens."
+    }
+  },
+  {
+    "id": "bio-plant-003",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): C4 plants are more efficient at photosynthesis in hot, dry climates than C3 plants. Reason (R): C4 plants minimize photorespiration by concentrating CO2 around RuBisCO in bundle sheath cells.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 13, Pg 240",
+    "solution": {
+      "why_correct": "C4 plants use a CO2-concentrating mechanism via PEP carboxylase in mesophyll cells, shuttling CO2 to bundle sheath cells where RuBisCO operates with minimal oxygen competition, reducing photorespiration -- this directly explains their efficiency advantage in hot, dry conditions.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and the CO2-concentration mechanism is precisely why C4 plants outperform C3 plants under heat/water stress.",
+      "concept_recap": "C4 pathway: PEP carboxylase (no photorespiration) fixes CO2 in mesophyll, shuttled to bundle sheath for Calvin cycle -- advantageous in hot/dry climates where stomata close often, limiting CO2 availability."
+    }
+  },
+  {
+    "id": "bio-plant-004",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The process by which plants lose excess water in the form of water droplets (not vapor) through hydathodes is called:",
+    "options": [
+      "Transpiration",
+      "Guttation",
+      "Translocation",
+      "Imbibition"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 11, Pg 210",
+    "solution": {
+      "why_correct": "Guttation is the process where excess water is exuded as liquid droplets from special pores called hydathodes, typically at leaf tips/margins, especially under high humidity when transpiration is suppressed.",
+      "why_others_wrong": "Transpiration is water loss as vapor through stomata, a different mechanism. Translocation refers to movement of organic solutes (sugars) via phloem. Imbibition is water absorption by dry seeds/colloids, unrelated to water loss.",
+      "concept_recap": "Guttation vs transpiration: guttation = liquid water droplets via hydathodes (occurs when transpiration is low, e.g., humid mornings); transpiration = water vapor loss via stomata (main water loss pathway)."
+    }
+  },
+  {
+    "id": "bio-plant-005",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Which of the following best explains why water moves up a tall tree against gravity, according to the cohesion-tension theory?",
+    "options": [
+      "Root pressure alone pushes water to the top",
+      "Transpiration creates a pulling force, and water column cohesion (via hydrogen bonding) prevents the column from breaking",
+      "Capillary action alone is sufficient to explain water rise in tall trees",
+      "Osmotic pressure in xylem vessels actively pumps water upward"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 11, Pg 208",
+    "solution": {
+      "why_correct": "The cohesion-tension theory explains that transpiration from leaves creates a negative pressure (tension) pulling water upward, while hydrogen bonding between water molecules (cohesion) keeps the continuous water column from breaking under this tension, allowing water to rise even in very tall trees.",
+      "why_others_wrong": "A (root pressure alone) is insufficient to explain water rise in very tall trees (over a few meters). C (capillary action alone) can only raise water a few centimeters, far short of what's needed. D is incorrect since xylem transport is passive, not an active pumping process.",
+      "concept_recap": "Cohesion-tension theory: transpiration pull (tension) + water cohesion (hydrogen bonding) + adhesion to xylem walls = continuous water column rising against gravity, the primary mechanism for water transport in tall plants."
+    }
+  }
+]

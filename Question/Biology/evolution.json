@@ -1,0 +1,78 @@
+[
+  {
+    "id": "bio-evo-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Who proposed the theory of natural selection as a mechanism for evolution?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Jean-Baptiste Lamarck",
+      "Hugo de Vries"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 7, Pg 130",
+    "solution": {
+      "why_correct": "Charles Darwin, along with Alfred Russel Wallace, proposed natural selection as the mechanism driving evolution, published in 'On the Origin of Species' (1859).",
+      "why_others_wrong": "Mendel worked on inheritance patterns (genetics), not evolution mechanisms. Lamarck proposed the disproven theory of inheritance of acquired characteristics. de Vries proposed mutation theory, a different evolutionary mechanism.",
+      "concept_recap": "Darwin = natural selection. Lamarck = inheritance of acquired characters (disproven). de Vries = mutation theory (saltation). Know each scientist's specific contribution."
+    }
+  },
+  {
+    "id": "bio-evo-002",
+    "type": "statement",
+    "difficulty": "medium",
+    "question": "Statement I: Homologous organs have a similar basic structure but may perform different functions. Statement II: The forelimbs of a human, bird, and whale are examples of homologous organs.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 7, Pg 135",
+    "solution": {
+      "why_correct": "Homologous organs share the same basic bone structure (common ancestry) despite different functions -- human arms, bird wings, and whale flippers all share the same pentadactyl limb pattern, confirming both statements.",
+      "why_others_wrong": "The other options are wrong because both statements are correct and standard examples used to illustrate divergent evolution from a common ancestor.",
+      "concept_recap": "Homologous organs: same structure, different function, common ancestry (divergent evolution). Analogous organs: different structure, same function, no common ancestry (convergent evolution) -- e.g., wings of a bird and an insect."
+    }
+  },
+  {
+    "id": "bio-evo-003",
+    "type": "custom",
+    "difficulty": "hard",
+    "question": "Which of the following best describes 'adaptive radiation'?",
+    "options": [
+      "The extinction of species due to radiation exposure",
+      "The evolution of different species from a common ancestor, each adapted to a different niche",
+      "The convergent evolution of unrelated species to resemble each other",
+      "The process of genetic drift in small populations"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 7, Pg 138",
+    "solution": {
+      "why_correct": "Adaptive radiation is the diversification of a single ancestral species into multiple new species, each adapted to exploit different ecological niches -- classic examples include Darwin's finches on the Galapagos Islands.",
+      "why_others_wrong": "A confuses 'radiation' in the evolutionary sense with literal radioactivity, a common misconception. C describes convergent evolution (opposite pattern -- different ancestors becoming similar). D describes genetic drift, an unrelated population genetics mechanism.",
+      "concept_recap": "Adaptive radiation: one ancestor -> many diverse descendant species, each suited to a different niche (e.g., Darwin's finches, Australian marsupials). Divergent evolution pattern, driven by natural selection into open niches."
+    }
+  },
+  {
+    "id": "bio-evo-004",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Which of the following provides direct evidence for evolution through the study of fossils found in successive rock strata?",
+    "options": [
+      "Comparative anatomy",
+      "Paleontological evidence",
+      "Molecular evidence",
+      "Embryological evidence"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 7, Pg 132",
+    "solution": {
+      "why_correct": "Paleontological evidence comes from fossils found in different rock layers (strata), showing a chronological record of how life forms have changed over geological time, directly supporting evolutionary change.",
+      "why_others_wrong": "Comparative anatomy compares structures across living species (not fossils/strata). Molecular evidence compares DNA/protein sequences across species. Embryological evidence compares developmental stages -- all valid evolutionary evidence, but none directly involve the fossil record in rock strata like paleontology does.",
+      "concept_recap": "Types of evolutionary evidence: paleontological (fossils in rock strata), comparative anatomy (homologous/analogous structures), embryological (similarities in development), molecular (DNA/protein sequence comparison) -- each provides a different line of support."
+    }
+  }
+]

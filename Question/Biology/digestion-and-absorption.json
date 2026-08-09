@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bio-hp-digest-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which enzyme present in saliva begins the digestion of starch in the mouth?",
+    "options": [
+      "Pepsin",
+      "Salivary amylase (ptyalin)",
+      "Trypsin",
+      "Lipase"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 16, Pg 285",
+    "solution": {
+      "why_correct": "Salivary amylase, also called ptyalin, is secreted by salivary glands and begins breaking down starch into smaller polysaccharides/maltose right in the mouth.",
+      "why_others_wrong": "Pepsin acts on proteins in the stomach, not starch in the mouth. Trypsin acts on proteins in the small intestine. Lipase digests fats, mainly in the small intestine -- none act on starch in the mouth.",
+      "concept_recap": "Digestion starts in the mouth with salivary amylase (carbohydrates). Stomach: pepsin (proteins). Small intestine: trypsin (proteins), lipase (fats), pancreatic amylase (carbohydrates) -- know which enzyme acts where and on what."
+    }
+  },
+  {
+    "id": "bio-hp-digest-002",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Bile, which helps in the emulsification of fats, is produced by the:",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Gallbladder",
+      "Stomach"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 16, Pg 290",
+    "solution": {
+      "why_correct": "Bile is synthesized by liver cells (hepatocytes) and then stored/concentrated in the gallbladder before being released into the small intestine to emulsify fats.",
+      "why_others_wrong": "Pancreas produces digestive enzymes (like lipase, trypsin) but not bile. Gallbladder only stores and concentrates bile -- it doesn't produce it. Stomach secretes gastric juice (pepsin, HCl), unrelated to bile production.",
+      "concept_recap": "Bile production: liver (produces) -> gallbladder (stores/concentrates) -> released into duodenum via bile duct -> emulsifies fats for lipase action. Bile itself contains no digestive enzymes."
+    }
+  },
+  {
+    "id": "bio-hp-digest-003",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Pepsin is most active in a highly acidic environment. Statement II: The stomach maintains a highly acidic environment due to secretion of hydrochloric acid by parietal cells.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 16, Pg 287",
+    "solution": {
+      "why_correct": "Pepsin, a protein-digesting enzyme, functions optimally at a low pH (around 1.5-2), and this acidic environment is created by HCl secreted specifically by parietal (oxyntic) cells lining the stomach -- both statements are accurate and connected.",
+      "why_others_wrong": "The other options are wrong because both statements are standard, well-established facts about gastric digestion taught in NCERT physiology.",
+      "concept_recap": "Stomach digestion: parietal cells secrete HCl (creates acidic pH ~1.5-2), chief cells secrete pepsinogen (activated to pepsin by HCl), pepsin then digests proteins optimally in this acidic environment."
+    }
+  }
+]

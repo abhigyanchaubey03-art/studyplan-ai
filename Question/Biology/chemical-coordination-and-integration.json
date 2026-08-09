@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bio-hp-chem-001",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which gland is often referred to as the 'master gland' because it regulates the activity of other endocrine glands?",
+    "options": [
+      "Thyroid gland",
+      "Pituitary gland",
+      "Adrenal gland",
+      "Pancreas"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 4, Pg 68",
+    "solution": {
+      "why_correct": "The pituitary gland is called the 'master gland' because it secretes hormones (like TSH, ACTH, FSH, LH) that regulate the activity of several other endocrine glands, including the thyroid, adrenal cortex, and gonads.",
+      "why_others_wrong": "Thyroid, adrenal, and pancreas are themselves regulated targets of pituitary hormones (or operate more independently, like the pancreas) -- none of them control multiple other endocrine glands the way the pituitary does.",
+      "concept_recap": "Pituitary gland (hypophysis): 'master gland', controlled by the hypothalamus, secretes tropic hormones (TSH, ACTH, FSH, LH) that regulate other endocrine glands, plus direct-acting hormones like growth hormone and prolactin."
+    }
+  },
+  {
+    "id": "bio-hp-chem-002",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "Insulin, which lowers blood glucose levels, is secreted by which cells of the pancreas?",
+    "options": [
+      "Alpha cells of the Islets of Langerhans",
+      "Beta cells of the Islets of Langerhans",
+      "Acinar cells",
+      "Delta cells of the Islets of Langerhans"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 12, Ch 4, Pg 72",
+    "solution": {
+      "why_correct": "Beta cells within the pancreatic Islets of Langerhans secrete insulin, which promotes glucose uptake by cells and glycogen storage, thereby lowering blood glucose levels.",
+      "why_others_wrong": "Alpha cells secrete glucagon (raises blood glucose, opposite effect). Acinar cells produce digestive enzymes (exocrine function, unrelated to hormone secretion). Delta cells secrete somatostatin, which regulates other pancreatic hormones rather than directly lowering glucose.",
+      "concept_recap": "Pancreatic islet cells: Alpha (glucagon, raises glucose), Beta (insulin, lowers glucose), Delta (somatostatin, regulates other hormones). Insulin and glucagon work antagonistically to maintain blood glucose homeostasis."
+    }
+  },
+  {
+    "id": "bio-hp-chem-003",
+    "type": "statement",
+    "difficulty": "hard",
+    "question": "Statement I: Thyroxine secretion is regulated by TSH from the pituitary gland. Statement II: Excess thyroxine in the blood inhibits further TSH release through negative feedback.",
+    "options": [
+      "Both statements are true",
+      "Statement I is true; Statement II is false",
+      "Statement I is false; Statement II is true",
+      "Both statements are false"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 12, Ch 4, Pg 70",
+    "solution": {
+      "why_correct": "TSH (thyroid-stimulating hormone) from the pituitary does regulate thyroxine secretion from the thyroid gland (Statement I true), and elevated thyroxine levels feed back to suppress further TSH release, maintaining hormonal balance -- a classic negative feedback loop (Statement II true).",
+      "why_others_wrong": "The other options are wrong because both statements accurately describe the well-established hypothalamus-pituitary-thyroid negative feedback axis taught in NCERT endocrinology.",
+      "concept_recap": "Negative feedback loop: Hypothalamus (TRH) -> Pituitary (TSH) -> Thyroid (thyroxine). Rising thyroxine suppresses TRH/TSH release, preventing overproduction -- a common regulatory pattern across many endocrine axes."
+    }
+  }
+]

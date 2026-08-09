@@ -1,0 +1,59 @@
+[
+  {
+    "id": "bio-hp-excr-001",
+    "type": "custom",
+    "difficulty": "medium",
+    "question": "The functional unit of the human kidney responsible for urine formation is the:",
+    "options": [
+      "Nephron",
+      "Ureter",
+      "Bladder",
+      "Renal pelvis"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 19, Pg 330",
+    "solution": {
+      "why_correct": "The nephron is the structural and functional unit of the kidney, carrying out filtration, reabsorption, and secretion to form urine.",
+      "why_others_wrong": "Ureter is the tube carrying urine from kidney to bladder. Bladder stores urine temporarily. Renal pelvis collects urine within the kidney before it enters the ureter -- none of these actually form urine themselves.",
+      "concept_recap": "Nephron process: glomerular filtration -> tubular reabsorption -> tubular secretion -> urine formation. Each kidney contains about a million nephrons."
+    }
+  },
+  {
+    "id": "bio-hp-excr-002",
+    "type": "custom",
+    "difficulty": "easy",
+    "question": "Which of the following is the primary nitrogenous waste product excreted by humans?",
+    "options": [
+      "Ammonia",
+      "Urea",
+      "Uric acid",
+      "Creatine"
+    ],
+    "answer": "B",
+    "ncertRef": "Class 11, Ch 19, Pg 328",
+    "solution": {
+      "why_correct": "Humans are ureotelic organisms, meaning urea is the primary nitrogenous waste excreted, formed in the liver via the ornithine (urea) cycle from toxic ammonia, then filtered out by the kidneys.",
+      "why_others_wrong": "Ammonia (A) is highly toxic and mainly excreted by aquatic animals (ammonotelic) that can dilute it rapidly in water. Uric acid (C) is the primary waste in birds/reptiles (uricotelic) to conserve water. Creatine is a muscle metabolite, not the primary nitrogenous excretory product.",
+      "concept_recap": "Nitrogenous waste types: ammonotelic (ammonia, aquatic animals), ureotelic (urea, humans/mammals), uricotelic (uric acid, birds/reptiles/insects -- water conservation adaptation)."
+    }
+  },
+  {
+    "id": "bio-hp-excr-003",
+    "type": "AR",
+    "difficulty": "hard",
+    "question": "Assertion (A): The loop of Henle plays a crucial role in producing concentrated urine. Assertion continued as Reason (R): The counter-current mechanism in the loop of Henle establishes an osmotic gradient in the medullary interstitium, enabling water reabsorption.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is NOT the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "A",
+    "ncertRef": "Class 11, Ch 19, Pg 335",
+    "solution": {
+      "why_correct": "The loop of Henle's counter-current multiplier mechanism creates an increasing osmotic gradient from cortex to medulla, which allows the collecting duct to reabsorb water efficiently, concentrating the urine -- R directly and correctly explains why A is true.",
+      "why_others_wrong": "B, C, D are wrong since both statements are true and connected -- the counter-current mechanism IS the specific physiological process responsible for the loop of Henle's role in urine concentration.",
+      "concept_recap": "Loop of Henle: descending limb permeable to water (not solutes), ascending limb permeable to solutes (not water) -- this asymmetry creates the counter-current multiplier effect, generating the medullary osmotic gradient essential for concentrated urine."
+    }
+  }
+]
