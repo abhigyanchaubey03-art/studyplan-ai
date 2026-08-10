@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mock Test — StudyplanAI</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#12181f">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="StudyplanAI">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#12181f;
+    --panel:#1c242d;
+    --panel-2:#232c36;
+    --rule:#2c3742;
+    --paper:#f2efe6;
+    --paper-dim:#b9c0c7;
+    --highlight:#f5c84c;
+    --teal:#6fb7a8;
+    --coral:#d96c5b;
+    --radius:10px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--ink);
+    background-image:
+      linear-gradient(var(--rule) 1px, transparent 1px),
+      linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+    background-size: 100% 34px, 34px 100%;
+    background-position: 0 90px, 0 0;
+    background-attachment: local;
+    color:var(--paper);
+    font-family:'Work Sans', sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
+  header{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:6px;}
+  .brand{display:flex;align-items:baseline;gap:10px;}
+  .brand-mark{font-family:'Fraunces',serif;font-weight:700;font-size:1.6rem;letter-spacing:-0.01em;}
+  .brand-mark span{color:var(--highlight);}
+  nav{display:flex;gap:4px;background:var(--panel);border:1px solid var(--rule);border-radius:999px;padding:4px;flex-wrap:wrap;}
+  nav button{
+    border:none;background:transparent;color:var(--paper-dim);font-family:'Work Sans';font-size:0.85rem;
+    padding:8px 16px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500;
+  }
+  nav button.active{background:var(--highlight);color:var(--ink);font-weight:600;}
+  nav a{color:var(--highlight);text-decoration:none;font-size:0.85rem;padding:8px 12px;font-weight:600;}
+  .tagline{color:var(--paper-dim);font-size:0.95rem;margin:0 0 28px;}
+
+  .card{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:26px;margin-bottom:20px;}
+  h1.hero{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.15;margin:10px 0 4px;}
+  .hero-sub{color:var(--paper-dim);margin:0 0 24px;font-size:1rem;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--highlight);margin-bottom:8px;}
+  .section-title{font-family:'Fraunces',serif;font-size:1.15rem;font-weight:600;margin:0 0 14px;}
+  .hint{font-size:0.78rem;color:var(--paper-dim);margin-top:-12px;margin-bottom:16px;}
+  .empty{color:var(--paper-dim);font-size:0.9rem;text-align:center;padding:30px 10px;}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media (max-width:640px){.grid2{grid-template-columns:1fr;}}
+  label{display:block;font-size:0.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--paper-dim);margin-bottom:6px;font-weight:600;}
+  select{
+    width:100%;background:var(--panel-2);border:1px solid var(--rule);color:var(--paper);
+    padding:11px 12px;border-radius:6px;font-family:'Work Sans';font-size:0.95rem;margin-bottom:16px;
+  }
+  select:focus{outline:2px solid var(--highlight);outline-offset:1px;border-color:var(--highlight);}
+  select:disabled{color:var(--paper-dim);cursor:not-allowed;}
+
+  .btn{
+    background:var(--highlight);color:var(--ink);border:none;padding:13px 26px;border-radius:6px;
+    font-weight:600;font-size:0.95rem;cursor:pointer;font-family:'Work Sans';transition:.15s;
+    display:inline-flex;align-items:center;gap:8px;
+  }
+  .btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(245,200,76,.25);}
+  .btn:disabled{background:var(--panel-2);color:var(--paper-dim);cursor:not-allowed;transform:none;box-shadow:none;border:1px solid var(--rule);}
+  .btn-ghost{background:transparent;border:1px solid var(--rule);color:var(--paper);}
+  .btn-ghost:hover{border-color:var(--paper-dim);transform:none;box-shadow:none;}
+  .btn-back{background:none;border:none;color:var(--paper-dim);font-size:0.85rem;cursor:pointer;padding:0;margin-bottom:18px;font-family:'Work Sans';display:flex;align-items:center;gap:6px;}
+  .btn-back:hover{color:var(--paper);}
+
+  /* option cards on landing */
+  .option-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media (max-width:640px){.option-grid{grid-template-columns:1fr;}}
+  .option-card{
+    text-align:left;background:var(--panel-2);border:1px solid var(--rule);border-radius:8px;
+    padding:22px;cursor:pointer;transition:.15s;font-family:'Work Sans';color:var(--paper);
+  }
+  .option-card:hover{border-color:var(--highlight);}
+  .option-icon{
+    width:38px;height:38px;border-radius:8px;background:var(--panel);
+    display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-size:1.1rem;
+  }
+  .option-card h2{font-family:'Fraunces',serif;font-size:1.25rem;font-weight:600;margin:0 0 8px;}
+  .option-card p{color:var(--paper-dim);font-size:0.9rem;margin:0 0 14px;line-height:1.45;}
+  .option-card ul{margin:0 0 16px;padding-left:18px;color:var(--paper-dim);font-size:0.85rem;line-height:1.6;}
+  .option-cta{color:var(--highlight);font-size:0.85rem;font-weight:600;}
+  .option-card:hover .option-cta{text-decoration:underline;}
+
+  /* question count pills */
+  .pill-row{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;}
+  .pill-row button{
+    border:1px solid var(--rule);background:transparent;color:var(--paper-dim);
+    padding:9px 18px;border-radius:999px;font-family:'IBM Plex Mono',monospace;font-size:0.85rem;
+    cursor:pointer;transition:.15s;
+  }
+  .pill-row button.active{background:var(--highlight);color:var(--ink);border-color:var(--highlight);font-weight:600;}
+  .pill-row button:hover:not(.active){border-color:var(--paper-dim);}
+
+  /* full-length stat row */
+  .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px;}
+  @media (max-width:640px){.stat-row{grid-template-columns:1fr 1fr;}}
+  .stat{background:var(--panel-2);border:1px solid var(--rule);border-radius:8px;padding:16px;text-align:center;}
+  .stat .n{font-family:'IBM Plex Mono',monospace;font-size:1.4rem;color:var(--highlight);font-weight:600;}
+  .stat .l{font-size:0.72rem;color:var(--paper-dim);margin-top:4px;text-transform:uppercase;letter-spacing:.05em;}
+
+  .split-row{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--rule);font-size:0.9rem;}
+  .split-row:last-child{border-bottom:none;}
+  .split-row .n{color:var(--paper-dim);font-family:'IBM Plex Mono',monospace;font-size:0.82rem;}
+
+  .hidden{display:none !important;}
+  footer{text-align:center;color:var(--paper-dim);font-size:0.78rem;margin-top:40px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="brand-mark">Studyplan<span>AI</span></div>
+    </div>
+    <nav>
+<a href="index.html"><button type="button">Plan</button></a>
+<a href="index.html"><button type="button">To-Do</button></a>
+<a href="index.html"><button type="button">Groups</button></a>
+<a href="index.html"><button type="button">Track</button></a>
+<a href="index.html"><button type="button">Progress</button></a>
+<a href="practice.html"><button type="button">Practice</button></a>
+<button class="active" type="button">Mock Test</button>
+<a href="stats.html"><button type="button">Stats</button></a>
+      <a href="studyplanai-membership.html">⭐ Membership</a>
+</nav>
+  </header>
+  <p class="tagline">Test what you've studied — by chapter, or under full exam conditions.</p>
+
+  <!-- LANDING -->
+  <section id="view-landing">
+    <div class="card">
+      <div class="eyebrow">Mock Test</div>
+      <h1 class="hero" style="font-size:1.7rem;">Choose how you want to test yourself.</h1>
+      <p class="hero-sub">Scores from both feed into your Progress and Stats tabs.</p>
+
+      <div class="option-grid">
+        <button class="option-card" id="goChapterwise">
+          <div class="option-icon" style="color:var(--teal);">📋</div>
+          <h2>Chapter-wise / Topic-wise</h2>
+          <p>Practice a single chapter or topic at your own pace. Great for reinforcing what you studied today.</p>
+          <ul>
+            <li>15 / 30 / 45 questions</li>
+            <li>Untimed or soft timer</li>
+            <li>Review answers instantly</li>
+          </ul>
+          <span class="option-cta">Start chapter test →</span>
+        </button>
+
+        <button class="option-card" id="goFullLength">
+          <div class="option-icon" style="color:var(--coral);">📑</div>
+          <h2>Full-Length Mock Test</h2>
+          <p>Simulate the real NEET exam end to end — same question count, same clock, same pressure.</p>
+          <ul>
+            <li>180 questions · 720 marks</li>
+            <li>3h 15m · auto-submits at zero</li>
+            <li>+4 / −1 marking, no pausing</li>
+          </ul>
+          <span class="option-cta">Start full mock →</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER-WISE SETUP -->
+  <section id="view-chapterwise" class="hidden">
+    <div class="card">
+      <button class="btn-back" id="backFromChapterwise">← Back to Mock Test</button>
+      <div class="eyebrow">Chapter-wise Mock Test</div>
+      <h1 class="hero" style="font-size:1.5rem;">Set up your chapter test.</h1>
+
+      <div class="grid2">
+        <div>
+          <label for="cwSubject">Subject</label>
+          <select id="cwSubject">
+            <option value="">Loading subjects…</option>
+          </select>
+        </div>
+        <div>
+          <label for="cwChapter">Chapter / Topic</label>
+          <select id="cwChapter" disabled>
+            <option value="">Choose a subject first</option>
+          </select>
+        </div>
+      </div>
+
+      <label>Number of questions</label>
+      <div class="pill-row" id="cwCount">
+        <button data-n="15">15</button>
+        <button data-n="30" class="active">30</button>
+        <button data-n="45">45</button>
+      </div>
+
+      <button class="btn" id="startChapterBtn" disabled>▶ Start Test</button>
+      <p class="hint" id="cwHint" style="margin-top:14px;"></p>
+    </div>
+  </section>
+
+  <!-- FULL-LENGTH SETUP -->
+  <section id="view-fulllength" class="hidden">
+    <div class="card">
+      <button class="btn-back" id="backFromFullLength">← Back to Mock Test</button>
+      <div class="eyebrow">Full-Length Mock Test</div>
+      <h1 class="hero" style="font-size:1.5rem;">NEET Full Mock — ready when you are.</h1>
+      <p class="hero-sub">Once started, the timer can't be paused — treat it like exam day.</p>
+
+      <div class="stat-row">
+        <div class="stat"><div class="n">180</div><div class="l">Questions</div></div>
+        <div class="stat"><div class="n">720</div><div class="l">Total marks</div></div>
+        <div class="stat"><div class="n">3h 15m</div><div class="l">Duration</div></div>
+        <div class="stat"><div class="n">+4 / −1</div><div class="l">Marking</div></div>
+      </div>
+
+      <div class="section-title">Section split</div>
+      <div style="background:var(--panel-2);border:1px solid var(--rule);border-radius:8px;padding:4px 16px;margin-bottom:24px;">
+        <div class="split-row"><span>Physics</span><span class="n">45 questions</span></div>
+        <div class="split-row"><span>Chemistry</span><span class="n">45 questions</span></div>
+        <div class="split-row"><span>Biology (Botany + Zoology)</span><span class="n">90 questions</span></div>
+      </div>
+
+      <button class="btn" id="startFullBtn">▶ Begin Full Mock</button>
+      <p class="hint" id="flHint" style="margin-top:14px;"></p>
+    </div>
+  </section>
+
+  <footer>StudyplanAI · your plan and logs are stored privately in this browser only.<br>Built by Abhigyan Chaubey</footer>
+</div>
+
+<script>
+/* ---------- storage helpers (matches index.html) ---------- */
+async function saveState(key, value){
+  try{ await window.storage.set(key, JSON.stringify(value), false); }catch(e){ console.error(e); }
+}
+async function loadState(key, fallback){
+  try{
+    const r = await window.storage.get(key, false);
+    return r ? JSON.parse(r.value) : fallback;
+  }catch(e){ return fallback; }
+}
+
+/* ---------- view switching ---------- */
+function showView(id){
+  ['view-landing','view-chapterwise','view-fulllength'].forEach(v=>{
+    document.getElementById(v).classList.toggle('hidden', v!==id);
+  });
+}
+document.getElementById('goChapterwise').addEventListener('click', ()=>showView('view-chapterwise'));
+document.getElementById('goFullLength').addEventListener('click', ()=>showView('view-fulllength'));
+document.getElementById('backFromChapterwise').addEventListener('click', ()=>showView('view-landing'));
+document.getElementById('backFromFullLength').addEventListener('click', ()=>showView('view-landing'));
+
+/* ---------- load question bank ---------- */
+let questionBank = { subjects: [], questions: [] };
+
+async function loadQuestionBank(){
+  try{
+    const res = await fetch('questions.json');
+    questionBank = await res.json();
+    populateSubjects();
+  }catch(e){
+    console.error('Failed to load questions.json', e);
+    document.getElementById('cwSubject').innerHTML = '<option value="">Could not load question bank</option>';
+  }
+}
+
+function populateSubjects(){
+  const sel = document.getElementById('cwSubject');
+  sel.innerHTML = '<option value="">Select subject</option>' +
+    questionBank.subjects.map(s=>`<option value="${s.code}">${s.name}</option>`).join('');
+}
+
+document.getElementById('cwSubject').addEventListener('change', (e)=>{
+  const code = e.target.value;
+  const chapterSel = document.getElementById('cwChapter');
+  const subj = questionBank.subjects.find(s=>s.code===code);
+  if(!subj){
+    chapterSel.disabled = true;
+    chapterSel.innerHTML = '<option value="">Choose a subject first</option>';
+  } else {
+    chapterSel.disabled = false;
+    chapterSel.innerHTML = '<option value="">Select chapter</option>' +
+      subj.chapters.map(c=>`<option value="${c.code}">${c.name}</option>`).join('');
+  }
+  checkChapterReady();
+});
+document.getElementById('cwChapter').addEventListener('change', checkChapterReady);
+
+function checkChapterReady(){
+  const subj = document.getElementById('cwSubject').value;
+  const chap = document.getElementById('cwChapter').value;
+  document.getElementById('startChapterBtn').disabled = !(subj && chap);
+}
+
+/* question count pills */
+let cwCount = 30;
+document.querySelectorAll('#cwCount button').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('#cwCount button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    cwCount = parseInt(btn.dataset.n);
+  });
+});
+
+/* ---------- start test handlers ---------- */
+document.getElementById('startChapterBtn').addEventListener('click', async ()=>{
+  const subjectCode = document.getElementById('cwSubject').value;
+  const chapterCode = document.getElementById('cwChapter').value;
+  const pool = questionBank.questions.filter(q=>q.subjectCode===subjectCode && q.chapterCode===chapterCode);
+
+  if(!pool.length){
+    document.getElementById('cwHint').textContent = 'No questions available for this chapter yet — check back soon.';
+    return;
+  }
+  const shuffled = [...pool].sort(()=>Math.random()-0.5).slice(0, cwCount);
+  await saveState('activeMockTest', {
+    mode:'chapterwise', subjectCode, chapterCode, questionIds: shuffled.map(q=>q.id),
+    startedAt: Date.now(), timeLimitSec: null
+  });
+  // Hook up your test-taking screen here, e.g.:
+  // window.location.href = 'mocktest-run.html';
+  document.getElementById('cwHint').textContent = `Loaded ${shuffled.length} question(s). Wire this button to your test-runner page next.`;
+});
+
+document.getElementById('startFullBtn').addEventListener('click', async ()=>{
+  const bySubject = { PHY:45, CHEM:45, BIO:90 };
+  let fullSet = [];
+  Object.entries(bySubject).forEach(([code, count])=>{
+    const pool = questionBank.questions.filter(q=>q.subjectCode===code);
+    const shuffled = [...pool].sort(()=>Math.random()-0.5).slice(0, count);
+    fullSet = fullSet.concat(shuffled);
+  });
+
+  if(fullSet.length < 180){
+    document.getElementById('flHint').textContent =
+      `Question bank currently has ${fullSet.length}/180 questions available — add more to questions.json to run a full mock.`;
+  }
+  await saveState('activeMockTest', {
+    mode:'fulllength', questionIds: fullSet.map(q=>q.id),
+    startedAt: Date.now(), timeLimitSec: 195*60 // 3h 15m
+  });
+  // window.location.href = 'mocktest-run.html';
+  document.getElementById('flHint').textContent += (fullSet.length>=180 ? '' : ' ') +
+    ` Loaded ${fullSet.length} question(s). Wire this button to your test-runner page next.`;
+});
+
+loadQuestionBank();
+</script>
+</body>
+</html>

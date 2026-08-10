@@ -1,0 +1,131 @@
+{
+  "$schema_notes": {
+    "purpose": "Question bank for StudyplanAI Mock Test module (Chapter-wise + Full-length).",
+    "id_format": "{subjectCode}-{chapterCode}-{4digit number}, e.g. PHY-LOM-0001",
+    "subjectCode": { "PHY": "Physics", "CHEM": "Chemistry", "BIO": "Biology" },
+    "options_rule": "Always exactly 4 options, keys A-D, single correctOption.",
+    "difficulty_scale": "easy | medium | hard",
+    "usage": {
+      "chapter_wise_test": "Filter by subject + chapterCode, randomly sample N questions (15/30/45).",
+      "full_length_test": "Pull 45 Physics + 45 Chemistry + 90 Biology (Botany+Zoology) at random, respecting a roughly even difficulty mix if possible.",
+      "pyq_field": "Optional. Use to let users filter 'Previous Year Questions only' as a future feature.",
+      "explanation_field": "Shown in review mode after the test (or instantly for chapter-wise if user enables instant review)."
+    }
+  },
+
+  "subjects": [
+    {
+      "code": "PHY",
+      "name": "Physics",
+      "chapters": [
+        { "code": "LOM", "name": "Laws of Motion" },
+        { "code": "GRAV", "name": "Gravitation" },
+        { "code": "OPT", "name": "Optics" },
+        { "code": "THERMO", "name": "Thermodynamics" },
+        { "code": "ELECTRO", "name": "Electrostatics" }
+      ]
+    },
+    {
+      "code": "CHEM",
+      "name": "Chemistry",
+      "chapters": [
+        { "code": "BOND", "name": "Chemical Bonding" },
+        { "code": "THERMOCHEM", "name": "Thermochemistry" },
+        { "code": "EQUIL", "name": "Equilibrium" },
+        { "code": "ORGBASIC", "name": "Organic Basics" },
+        { "code": "ELECTROCHEM", "name": "Electrochemistry" }
+      ]
+    },
+    {
+      "code": "BIO",
+      "name": "Biology",
+      "section": "Botany | Zoology",
+      "chapters": [
+        { "code": "CELL", "name": "Cell Structure", "section": "Botany" },
+        { "code": "GENE", "name": "Genetics", "section": "Zoology" },
+        { "code": "PHYSIO", "name": "Human Physiology", "section": "Zoology" },
+        { "code": "ECO", "name": "Ecology", "section": "Botany" },
+        { "code": "PLANTPHYSIO", "name": "Plant Physiology", "section": "Botany" }
+      ]
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "PHY-LOM-0001",
+      "subjectCode": "PHY",
+      "chapterCode": "LOM",
+      "questionText": "A block of mass 2 kg rests on a frictionless surface. A force of 10 N is applied horizontally. What is the acceleration of the block?",
+      "options": {
+        "A": "2 m/s²",
+        "B": "5 m/s²",
+        "C": "10 m/s²",
+        "D": "20 m/s²"
+      },
+      "correctOption": "B",
+      "explanation": "Using F = ma, a = F/m = 10/2 = 5 m/s².",
+      "difficulty": "easy",
+      "marks": 4,
+      "negativeMarks": 1,
+      "pyq": { "isPYQ": true, "year": 2021, "exam": "NEET" },
+      "tags": ["newtons-second-law"]
+    },
+    {
+      "id": "PHY-GRAV-0014",
+      "subjectCode": "PHY",
+      "chapterCode": "GRAV",
+      "questionText": "The escape velocity of a body from Earth's surface is approximately:",
+      "options": {
+        "A": "7.9 km/s",
+        "B": "9.8 km/s",
+        "C": "11.2 km/s",
+        "D": "16.4 km/s"
+      },
+      "correctOption": "C",
+      "explanation": "Escape velocity v_e = √(2GM/R) ≈ 11.2 km/s for Earth.",
+      "difficulty": "medium",
+      "marks": 4,
+      "negativeMarks": 1,
+      "pyq": { "isPYQ": false, "year": null, "exam": null },
+      "tags": ["escape-velocity"]
+    },
+    {
+      "id": "CHEM-BOND-0007",
+      "subjectCode": "CHEM",
+      "chapterCode": "BOND",
+      "questionText": "Which type of hybridization is present in the carbon atoms of ethyne (C2H2)?",
+      "options": {
+        "A": "sp3",
+        "B": "sp2",
+        "C": "sp",
+        "D": "sp3d"
+      },
+      "correctOption": "C",
+      "explanation": "Each carbon in ethyne forms one sigma bond with the other carbon, one with hydrogen, and two pi bonds - sp hybridization.",
+      "difficulty": "medium",
+      "marks": 4,
+      "negativeMarks": 1,
+      "pyq": { "isPYQ": true, "year": 2019, "exam": "NEET" },
+      "tags": ["hybridization", "alkynes"]
+    },
+    {
+      "id": "BIO-PHYSIO-0032",
+      "subjectCode": "BIO",
+      "chapterCode": "PHYSIO",
+      "questionText": "Which part of the nephron is primarily responsible for the reabsorption of glucose and amino acids?",
+      "options": {
+        "A": "Loop of Henle",
+        "B": "Distal convoluted tubule",
+        "C": "Proximal convoluted tubule",
+        "D": "Collecting duct"
+      },
+      "correctOption": "C",
+      "explanation": "The PCT reabsorbs nearly all glucose and amino acids via active transport.",
+      "difficulty": "easy",
+      "marks": 4,
+      "negativeMarks": 1,
+      "pyq": { "isPYQ": true, "year": 2022, "exam": "NEET" },
+      "tags": ["excretory-system", "nephron"]
+    }
+  ]
+}
