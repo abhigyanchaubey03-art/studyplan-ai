@@ -672,13 +672,19 @@
 
       <button class="btn btn-primary" id="continueBtn">Continue →</button>
 
-      <div class="modal-note">
-        Demo checkout button — connect this action to your payment/authentication system.
+      <div class="modal-note" id="modalNote">
+        You'll be redirected to a secure Razorpay checkout.
       </div>
     </div>
   </div>
 
+  <!-- Razorpay checkout script -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
   <script>
+    // Public Key ID — safe to expose in frontend code.
+    // Replace with your LIVE key when you switch out of Razorpay test mode.
+    const RAZORPAY_KEY_ID = "rzp_test_TNzEJ585k0BiBs";
     const monthlyBtn = document.getElementById("monthlyBtn");
     const yearlyBtn = document.getElementById("yearlyBtn");
     const proPrice = document.getElementById("proPrice");
@@ -716,24 +722,44 @@
     const selectedPlan = document.getElementById("selectedPlan");
     const modalText = document.getElementById("modalText");
     const continueBtn = document.getElementById("continueBtn");
+    const modalNote = document.getElementById("modalNote");
+
+    // Amounts are in paise (₹1 = 100 paise), as Razorpay requires.
+    let selectedAmount = 0;   // 0 means free plan, no payment needed
+    let selectedPlanName = "";
 
     document.querySelectorAll(".choose-btn").forEach(button => {
       button.addEventListener("click", () => {
         const plan = button.dataset.plan;
-
         let planLabel = plan;
 
-        if (plan === "Pro") {
-          planLabel = billing === "monthly"
-            ? "Pro — ₹99/month"
-            : "Pro — ₹799/year";
+        if (plan === "Start — Free") {
+          selectedAmount = 0;
+          selectedPlanName = "start";
+          planLabel = "Start — Free";
+          modalText.textContent = "Create your free StudyPlanAI account to get started.";
+          modalNote.textContent = "No payment needed for the free plan.";
+        } else if (plan === "Pro") {
+          if (billing === "monthly") {
+            selectedAmount = 9900;   // ₹99
+            planLabel = "Pro — ₹99/month";
+          } else {
+            selectedAmount = 79900;  // ₹799
+            planLabel = "Pro — ₹799/year";
+          }
+          selectedPlanName = "pro-" + billing;
+          modalText.textContent = "You're subscribing to the Pro plan.";
+          modalNote.textContent = "You'll be redirected to a secure Razorpay checkout.";
+        } else if (plan === "Elite") {
+          selectedAmount = 149900; // ₹1,499
+          selectedPlanName = "elite-yearly";
+          planLabel = "Elite — ₹1,499/year";
+          modalText.textContent = "You're subscribing to the Elite plan.";
+          modalNote.textContent = "You'll be redirected to a secure Razorpay checkout.";
         }
 
         selectedPlan.textContent = planLabel;
-        modalText.textContent =
-          plan === "Start — Free"
-            ? "Create your free StudyPlanAI account to get started."
-            : "Your next step is to connect this button to your authentication and payment flow.";
+        continueBtn.textContent = selectedAmount === 0 ? "Get Started →" : "Continue to Payment →";
 
         modal.classList.add("show");
         modal.setAttribute("aria-hidden", "false");
@@ -755,12 +781,78 @@
       if (event.key === "Escape") closePlanModal();
     });
 
-    continueBtn.addEventListener("click", () => {
-      // IMPORTANT:
-      // Replace this with your real login/signup/payment URL.
-      // Example:
-      // window.location.href = "https://your-domain.com/signup?plan=pro";
-      alert("Connect this button to your StudyPlanAI signup/payment flow.");
+    continueBtn.addEventListener("click", async () => {
+      // Free plan: no payment needed — send them straight into the app.
+      if (selectedAmount === 0) {
+        window.location.href = "index.html";
+        return;
+      }
+
+      continueBtn.disabled = true;
+      continueBtn.textContent = "Processing...";
+
+      try {
+        // Step 1: ask our backend to create a Razorpay order
+        const orderRes = await fetch("/api/create-order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ amount: selectedAmount, plan: selectedPlanName })
+        });
+        const order = await orderRes.json();
+
+        if (!order.id) throw new Error("Order creation failed");
+
+        // Step 2: open Razorpay's checkout popup
+        const options = {
+          key: RAZORPAY_KEY_ID,
+          amount: order.amount,
+          currency: order.currency,
+          name: "StudyPlanAI",
+          description: selectedPlan.textContent,
+          order_id: order.id,
+          theme: { color: "#6d5dfc" },
+          handler: async function (response) {
+            // Step 3: verify payment on the backend before granting access
+            try {
+              const verifyRes = await fetch("/api/verify-payment", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(response)
+              });
+              const result = await verifyRes.json();
+
+              if (result.verified) {
+                alert("Payment successful! Your " + selectedPlan.textContent + " membership is now active.");
+                window.location.href = "index.html";
+              } else {
+                alert("We couldn't verify this payment. If money was deducted, please contact support.");
+              }
+            } catch (e) {
+              console.error(e);
+              alert("Payment verification failed. Please contact support with your payment ID: " + response.razorpay_payment_id);
+            }
+          },
+          modal: {
+            ondismiss: function () {
+              continueBtn.disabled = false;
+              continueBtn.textContent = "Continue to Payment →";
+            }
+          }
+        };
+
+        const rzp = new Razorpay(options);
+        rzp.on('payment.failed', function () {
+          alert("Payment failed. Please try again.");
+          continueBtn.disabled = false;
+          continueBtn.textContent = "Continue to Payment →";
+        });
+        rzp.open();
+      } catch (err) {
+        console.error(err);
+        alert("Something went wrong starting checkout. Please try again.");
+        continueBtn.disabled = false;
+        continueBtn.textContent = "Continue to Payment →";
+      }
     });
 
     document.getElementById("year").textContent = new Date().getFullYear();
