@@ -363,7 +363,10 @@ async function generateTest(){
       })
     });
     const data = await res.json();
-    if(!res.ok || data.error) throw new Error(data.error || "Failed to generate test");
+    if(!res.ok || data.error){
+      const detail = data.detail ? (typeof data.detail === "string" ? data.detail : JSON.stringify(data.detail)) : "";
+      throw new Error((data.error || "Failed to generate test") + (detail ? " — " + detail : ""));
+    }
     if(!data.questions || !data.questions.length) throw new Error("No questions returned");
 
     state.chapterSlug = chapterSlug;
