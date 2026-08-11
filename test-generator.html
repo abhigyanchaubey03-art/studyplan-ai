@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Test Generator — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c1119;
+    --surface:#141b26;
+    --surface-2:#1c2531;
+    --surface-3:#232e3c;
+    --line:#28323f;
+    --text:#e9edf3;
+    --text-dim:#8d99a8;
+    --text-faint:#5d6a7a;
+    --bio:#5fb98c;      --bio-dim:#5fb98c26;
+    --phy:#6b9fdb;      --phy-dim:#6b9fdb26;
+    --chem:#d99a5c;     --chem-dim:#d99a5c26;
+    --correct:#5fb98c;  --correct-bg:#5fb98c1a;
+    --incorrect:#e0716b;--incorrect-bg:#e0716b1a;
+    --accent: var(--phy);
+    --accent-dim: var(--phy-dim);
+    --radius:14px;
+    --radius-sm:9px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif; -webkit-font-smoothing:antialiased;}
+  body{min-height:100vh; padding-bottom:48px;}
+  a{color:inherit; text-decoration:none;}
+  button{font-family:inherit; cursor:pointer;}
+  input,select{font-family:inherit;}
+  ::selection{background:var(--accent-dim);}
+
+  header{
+    position:sticky; top:0; z-index:20;
+    background:rgba(12,17,25,.92); backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+    padding:14px 18px;
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+  }
+  .back-link{display:flex; align-items:center; gap:8px; color:var(--text-dim); font-size:14px; font-weight:500;}
+  .back-link svg{width:18px; height:18px;}
+  .brand{font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; letter-spacing:.2px;}
+  .brand em{font-style:normal; color:var(--accent);}
+  .badge{
+    font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--accent);
+    background:var(--accent-dim); border:1px solid var(--accent);
+    padding:5px 10px; border-radius:999px; white-space:nowrap;
+  }
+
+  main{max-width:760px; margin:0 auto; padding:20px 16px 0;}
+
+  .subject-tabs{display:flex; gap:8px; margin-bottom:20px; overflow-x:auto; padding-bottom:2px;}
+  .subject-tab{
+    flex:1; min-width:0; background:var(--surface); border:1px solid var(--line);
+    border-radius:var(--radius-sm); padding:12px 10px;
+    display:flex; flex-direction:column; align-items:flex-start; gap:6px;
+    transition:border-color .15s, background .15s;
+  }
+  .subject-tab .dot{width:8px; height:8px; border-radius:50%;}
+  .subject-tab .label{font-size:13.5px; font-weight:600; color:var(--text);}
+  .subject-tab[data-subject="Biology"] .dot{background:var(--bio);}
+  .subject-tab[data-subject="Physics"] .dot{background:var(--phy);}
+  .subject-tab[data-subject="Chemistry"] .dot{background:var(--chem);}
+  .subject-tab.active{background:var(--surface-2); border-color:var(--accent);}
+
+  .form-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px 17px; margin-bottom:20px;}
+  .field{margin-bottom:16px;}
+  .field:last-child{margin-bottom:0;}
+  .field label{display:block; font-size:12px; font-weight:600; color:var(--text-dim); margin-bottom:7px; text-transform:uppercase; letter-spacing:.04em;}
+  .field select, .field input[type="text"]{
+    width:100%; background:var(--surface-2); border:1px solid var(--line); color:var(--text);
+    padding:11px 13px; border-radius:var(--radius-sm); font-size:14px;
+  }
+  .field select:focus, .field input:focus{outline:none; border-color:var(--accent);}
+  .field .hint{font-size:11.5px; color:var(--text-faint); margin-top:6px;}
+
+  .chip-row{display:flex; gap:8px; flex-wrap:wrap;}
+  .chip{
+    background:var(--surface-2); border:1px solid var(--line); color:var(--text-dim);
+    font-size:12.5px; font-weight:500; padding:8px 14px; border-radius:999px;
+  }
+  .chip.active{background:var(--accent-dim); border-color:var(--accent); color:var(--text);}
+
+  .count-row{display:flex; align-items:center; gap:14px;}
+  .count-btn{
+    width:36px; height:36px; border-radius:50%; background:var(--surface-2); border:1px solid var(--line);
+    color:var(--text); font-size:16px; font-weight:600; display:flex; align-items:center; justify-content:center;
+  }
+  .count-val{font-family:'JetBrains Mono',monospace; font-size:16px; font-weight:600; min-width:24px; text-align:center;}
+
+  .generate-btn{
+    width:100%; padding:15px; border-radius:var(--radius-sm); font-size:14.5px; font-weight:700;
+    background:var(--accent); border:none; color:#0c1119; margin-top:4px;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+  }
+  .generate-btn:disabled{opacity:.5; pointer-events:none;}
+
+  .state-msg{text-align:center; padding:50px 20px; color:var(--text-faint); font-size:13.5px; line-height:1.6;}
+  .state-msg .big{font-family:'Source Serif 4',serif; font-size:17px; color:var(--text-dim); margin-bottom:8px; display:block;}
+  .spinner{width:22px; height:22px; border-radius:50%; border:2px solid var(--line); border-top-color:var(--accent); margin:0 auto 14px; animation:spin .7s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+
+  .error-box{background:var(--incorrect-bg); border:1px solid var(--incorrect); color:var(--incorrect); border-radius:var(--radius-sm); padding:13px 15px; font-size:13px; margin-bottom:16px;}
+
+  .quiz-topbar{display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;}
+  .chapter-title-block .eyebrow{font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--accent); text-transform:uppercase; letter-spacing:.08em;}
+  .chapter-title-block h1{font-family:'Source Serif 4',serif; font-size:19px; font-weight:600; margin-top:2px;}
+  .exit-btn{background:var(--surface); border:1px solid var(--line); color:var(--text-dim); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+
+  .q-nav{display:flex; gap:6px; overflow-x:auto; padding:2px 2px 10px; margin-bottom:8px;}
+  .q-nav button{
+    flex-shrink:0; width:34px; height:34px; border-radius:50%;
+    background:var(--surface); border:1px solid var(--line); color:var(--text-dim);
+    font-size:12px; font-weight:600; font-family:'JetBrains Mono',monospace;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .q-nav button.current{border-color:var(--accent); color:var(--text); background:var(--accent-dim);}
+  .q-nav button.answered.correct-mark{background:var(--correct-bg); border-color:var(--correct); color:var(--correct);}
+  .q-nav button.answered.incorrect-mark{background:var(--incorrect-bg); border-color:var(--incorrect); color:var(--incorrect);}
+
+  .q-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:20px 18px 18px; margin-bottom:16px; position:relative;}
+  .q-tags{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;}
+  .q-tag{font-family:'JetBrains Mono',monospace; font-size:10px; padding:3px 8px; border-radius:5px; background:var(--surface-3); color:var(--text-faint); text-transform:uppercase; letter-spacing:.04em;}
+  .q-text{font-size:15.5px; line-height:1.55; font-weight:500; color:var(--text); margin-bottom:16px;}
+  .q-text .qnum{color:var(--accent); font-family:'JetBrains Mono',monospace; margin-right:6px;}
+
+  .options{display:flex; flex-direction:column; gap:9px;}
+  .option{
+    display:flex; align-items:center; gap:11px;
+    background:var(--surface-2); border:1px solid var(--line); border-radius:var(--radius-sm);
+    padding:12px 13px; text-align:left; font-size:14px; color:var(--text); line-height:1.4;
+    transition:border-color .12s, background .12s; width:100%;
+  }
+  .option:active{background:var(--surface-3);}
+  .option .letter{flex-shrink:0; width:24px; height:24px; border-radius:50%; background:var(--surface-3); display:flex; align-items:center; justify-content:center; font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:600; color:var(--text-dim);}
+  .option.reveal-correct{background:var(--correct-bg); border-color:var(--correct);}
+  .option.reveal-correct .letter{background:var(--correct); color:#0c1119;}
+  .option.reveal-incorrect{background:var(--incorrect-bg); border-color:var(--incorrect);}
+  .option.reveal-incorrect .letter{background:var(--incorrect); color:#0c1119;}
+  .option.disabled-option{pointer-events:none;}
+  .option.dim{opacity:.5;}
+
+  .solution{margin-top:16px; padding-top:16px; border-top:1px dashed var(--line); display:none;}
+  .solution.show{display:block;}
+  .sol-label{font-family:'JetBrains Mono',monospace; font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); margin-bottom:5px; display:flex; align-items:center; gap:6px;}
+  .sol-text{font-size:13.5px; line-height:1.55; color:var(--text-dim);}
+
+  .q-footer-nav{display:flex; gap:10px; margin-bottom:32px;}
+  .nav-btn{flex:1; padding:13px; border-radius:var(--radius-sm); font-size:13.5px; font-weight:600; background:var(--surface); border:1px solid var(--line); color:var(--text); display:flex; align-items:center; justify-content:center; gap:6px;}
+  .nav-btn.primary{background:var(--accent); border-color:var(--accent); color:#0c1119;}
+  .nav-btn:disabled{opacity:.35;}
+
+  .hidden{display:none !important;}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="practice.html" class="back-link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+    <span>Practice</span>
+  </a>
+  <div class="brand">Studyplan<em>AI</em> · Test Generator</div>
+  <div class="badge">✨ AI</div>
+</header>
+
+<main>
+
+  <section id="formView">
+    <div class="subject-tabs" id="subjectTabs"></div>
+
+    <div class="form-card">
+      <div class="field">
+        <label for="chapterSelect">Chapter</label>
+        <select id="chapterSelect"></select>
+      </div>
+
+      <div class="field">
+        <label for="topicInput">Specific topic / subtopic (optional)</label>
+        <input type="text" id="topicInput" placeholder="e.g. Mendelian inheritance, dihybrid cross">
+        <div class="hint">Leave blank to cover the whole chapter</div>
+      </div>
+
+      <div class="field">
+        <label>Difficulty</label>
+        <div class="chip-row" id="difficultyChips">
+          <button class="chip" data-value="easy">Easy</button>
+          <button class="chip active" data-value="medium">Medium</button>
+          <button class="chip" data-value="hard">Hard</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Number of questions</label>
+        <div class="count-row">
+          <button class="count-btn" id="countMinus">−</button>
+          <div class="count-val" id="countVal">10</div>
+          <button class="count-btn" id="countPlus">+</button>
+        </div>
+      </div>
+
+      <button class="generate-btn" id="generateBtn">
+        <span>⚡</span><span>Generate Test</span>
+      </button>
+    </div>
+
+    <div id="errorBox" class="error-box hidden"></div>
+  </section>
+
+  <section id="quizView" class="hidden">
+    <div class="quiz-topbar">
+      <div class="chapter-title-block">
+        <div class="eyebrow" id="quizSubjectLabel">Biology</div>
+        <h1 id="quizChapterLabel">Chapter</h1>
+      </div>
+      <button class="exit-btn" id="exitQuiz" aria-label="Exit">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="q-nav" id="qNav"></div>
+    <div id="quizBody"></div>
+  </section>
+
+  <div id="loadingState" class="state-msg hidden">
+    <div class="spinner"></div>
+    Generating your test…
+  </div>
+
+</main>
+
+<script>
+/* =========================================================
+   CONFIG
+   ========================================================= */
+const EDGE_FUNCTION_URL = "https://mchglusthfhhbqcozfxr.supabase.co/functions/v1/generate-test";
+
+const SUBJECTS = {
+  Biology: { chapters:[
+    ["biomolecules","Biomolecules"],
+    ["breathing-and-exchange-of-gases","Breathing & Exchange of Gases"],
+    ["cell-biology","Cell Biology"],
+    ["chemical-coordination-and-integration","Chemical Coordination"],
+    ["digestion-and-absorption","Digestion & Absorption"],
+    ["ecology","Ecology"],
+    ["evolution","Evolution"],
+    ["excretory-products-and-their-elimination","Excretory Products"],
+    ["genetics","Genetics"],
+    ["human-circulation","Human Circulation"],
+    ["human-health-and-disease","Human Health & Disease"],
+    ["human-reproduction","Human Reproduction"],
+    ["neural-control-and-coordination","Neural Control"],
+    ["plant-physiology","Plant Physiology"]
+  ]},
+  Physics: { chapters:[
+    ["current-electricity","Current Electricity"],
+    ["electrostatics","Electrostatics"],
+    ["gravitation","Gravitation"],
+    ["magnetism","Magnetism"],
+    ["mechanics","Mechanics"],
+    ["optics","Optics"],
+    ["thermodynamics","Thermodynamics"],
+    ["waves","Waves"]
+  ]},
+  Chemistry: { chapters:[
+    ["chemical-bonding","Chemical Bonding"],
+    ["chemical-kinetics","Chemical Kinetics"],
+    ["coordination-compounds","Coordination Compounds"],
+    ["electrochemistry","Electrochemistry"],
+    ["equilibrium","Equilibrium"],
+    ["organic-basics","Organic Basics"],
+    ["periodic-table","Periodic Table"],
+    ["redox-reactions","Redox Reactions"],
+    ["solutions","Solutions"]
+  ]}
+};
+
+let state = { subject:"Biology", chapterSlug:null, chapterName:null, difficulty:"medium", count:10, questions:[], currentIndex:0, answers:{} };
+
+/* ---------------- subject tabs ---------------- */
+function renderSubjectTabs(){
+  const wrap = document.getElementById("subjectTabs");
+  wrap.innerHTML = "";
+  Object.keys(SUBJECTS).forEach(subj => {
+    const btn = document.createElement("button");
+    btn.className = "subject-tab" + (subj === state.subject ? " active" : "");
+    btn.dataset.subject = subj;
+    btn.innerHTML = `<span class="dot"></span><span class="label">${subj}</span>`;
+    btn.addEventListener("click", () => {
+      state.subject = subj;
+      applyAccent();
+      renderSubjectTabs();
+      renderChapterSelect();
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+function applyAccent(){
+  const accent = state.subject === "Biology" ? "var(--bio)" : state.subject === "Physics" ? "var(--phy)" : "var(--chem)";
+  const dim = state.subject === "Biology" ? "var(--bio-dim)" : state.subject === "Physics" ? "var(--phy-dim)" : "var(--chem-dim)";
+  document.documentElement.style.setProperty("--accent", accent);
+  document.documentElement.style.setProperty("--accent-dim", dim);
+}
+
+function renderChapterSelect(){
+  const sel = document.getElementById("chapterSelect");
+  sel.innerHTML = "";
+  SUBJECTS[state.subject].chapters.forEach(([slug, name]) => {
+    const opt = document.createElement("option");
+    opt.value = slug; opt.textContent = name;
+    sel.appendChild(opt);
+  });
+}
+
+/* ---------------- difficulty chips ---------------- */
+document.getElementById("difficultyChips").addEventListener("click", e => {
+  const chip = e.target.closest(".chip");
+  if(!chip) return;
+  document.querySelectorAll("#difficultyChips .chip").forEach(c => c.classList.remove("active"));
+  chip.classList.add("active");
+  state.difficulty = chip.dataset.value;
+});
+
+/* ---------------- count stepper ---------------- */
+document.getElementById("countMinus").addEventListener("click", () => {
+  state.count = Math.max(5, state.count - 5);
+  document.getElementById("countVal").textContent = state.count;
+});
+document.getElementById("countPlus").addEventListener("click", () => {
+  state.count = Math.min(25, state.count + 5);
+  document.getElementById("countVal").textContent = state.count;
+});
+
+/* ---------------- generate ---------------- */
+document.getElementById("generateBtn").addEventListener("click", generateTest);
+
+async function generateTest(){
+  const chapterSlug = document.getElementById("chapterSelect").value;
+  const chapterName = SUBJECTS[state.subject].chapters.find(c => c[0] === chapterSlug)[1];
+  const topic = document.getElementById("topicInput").value.trim();
+
+  document.getElementById("errorBox").classList.add("hidden");
+  document.getElementById("formView").classList.add("hidden");
+  document.getElementById("loadingState").classList.remove("hidden");
+
+  try{
+    const res = await fetch(EDGE_FUNCTION_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        exam: "NEET",
+        subject: state.subject,
+        chapter: chapterName,
+        topic: topic || undefined,
+        difficulty: state.difficulty,
+        count: state.count
+      })
+    });
+    const data = await res.json();
+    if(!res.ok || data.error) throw new Error(data.error || "Failed to generate test");
+    if(!data.questions || !data.questions.length) throw new Error("No questions returned");
+
+    state.chapterSlug = chapterSlug;
+    state.chapterName = chapterName + (topic ? ` — ${topic}` : "");
+    state.questions = data.questions.map((q, i) => ({...q, id: `gen-${i}`}));
+    state.currentIndex = 0;
+    state.answers = {};
+
+    document.getElementById("loadingState").classList.add("hidden");
+    document.getElementById("quizSubjectLabel").textContent = state.subject;
+    document.getElementById("quizChapterLabel").textContent = state.chapterName;
+    document.getElementById("quizView").classList.remove("hidden");
+    renderQNav(); renderQuestion();
+
+  }catch(err){
+    document.getElementById("loadingState").classList.add("hidden");
+    document.getElementById("formView").classList.remove("hidden");
+    const box = document.getElementById("errorBox");
+    box.textContent = "Couldn't generate the test: " + err.message;
+    box.classList.remove("hidden");
+    console.error(err);
+  }
+}
+
+/* ---------------- q navigator ---------------- */
+function renderQNav(){
+  const nav = document.getElementById("qNav");
+  nav.innerHTML = "";
+  state.questions.forEach((q, i) => {
+    const b = document.createElement("button");
+    b.textContent = i + 1;
+    b.className = i === state.currentIndex ? "current" : "";
+    const ans = state.answers[q.id];
+    if(ans) b.classList.add("answered", ans === q.correct ? "correct-mark" : "incorrect-mark");
+    b.addEventListener("click", () => { state.currentIndex = i; renderQuestion(); });
+    nav.appendChild(b);
+  });
+}
+
+/* ---------------- question rendering ---------------- */
+function renderQuestion(){
+  const body = document.getElementById("quizBody");
+  const q = state.questions[state.currentIndex];
+  const chosen = state.answers[q.id];
+  const letters = ["A","B","C","D"];
+
+  const optionsHtml = letters.map(letter => {
+    const optText = q.options[letter];
+    let cls = "option";
+    if(chosen){
+      cls += " disabled-option";
+      if(letter === q.correct) cls += " reveal-correct";
+      else if(letter === chosen) cls += " reveal-incorrect";
+      else cls += " dim";
+    }
+    return `<button class="${cls}" data-letter="${letter}"><span class="letter">${letter}</span><span>${optText}</span></button>`;
+  }).join("");
+
+  const solutionHtml = q.explanation ? `
+    <div class="solution ${chosen ? "show" : ""}">
+      <div class="sol-label">◆ Explanation</div>
+      <div class="sol-text">${q.explanation}</div>
+    </div>` : "";
+
+  body.innerHTML = `
+    <div class="q-card">
+      <div class="q-tags"><span class="q-tag">AI Generated</span></div>
+      <div class="q-text"><span class="qnum">Q${state.currentIndex + 1}.</span>${q.question}</div>
+      <div class="options">${optionsHtml}</div>
+      ${solutionHtml}
+    </div>
+    <div class="q-footer-nav">
+      <button class="nav-btn" id="prevBtn" ${state.currentIndex === 0 ? "disabled" : ""}>← Prev</button>
+      <button class="nav-btn primary" id="nextBtn" ${state.currentIndex === state.questions.length - 1 ? "disabled" : ""}>Next →</button>
+    </div>
+  `;
+
+  body.querySelectorAll(".option").forEach(btn => btn.addEventListener("click", () => selectAnswer(q, btn.dataset.letter)));
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  if(prevBtn) prevBtn.addEventListener("click", () => { state.currentIndex--; renderQNav(); renderQuestion(); });
+  if(nextBtn) nextBtn.addEventListener("click", () => { state.currentIndex++; renderQNav(); renderQuestion(); });
+}
+
+function selectAnswer(q, letter){
+  if(state.answers[q.id]) return;
+  state.answers[q.id] = letter;
+  renderQNav(); renderQuestion();
+}
+
+/* ---------------- exit ---------------- */
+document.getElementById("exitQuiz").addEventListener("click", () => {
+  document.getElementById("quizView").classList.add("hidden");
+  document.getElementById("formView").classList.remove("hidden");
+});
+
+/* ---------------- init ---------------- */
+applyAccent();
+renderSubjectTabs();
+renderChapterSelect();
+</script>
+</body>
+</html>
