@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Leaderboard — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#0c1119; --surface:#141b26; --surface-2:#1c2531; --line:#28323f;
+    --text:#e9edf3; --text-dim:#8d99a8; --text-faint:#5d6a7a; --accent:#5fb98c; --accent-dim:#5fb98c26; --radius:14px; --radius-sm:9px; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif;}
+  body{min-height:100vh; padding:70px 16px 48px;}
+  main{max-width:640px; margin:0 auto;}
+  h1{font-family:'Source Serif 4',serif; font-size:22px; margin-bottom:6px;}
+  .sub{color:var(--text-dim); font-size:13.5px; margin-bottom:20px;}
+  .tabs{display:flex; gap:8px; margin-bottom:16px;}
+  .tab{flex:1; background:var(--surface); border:1px solid var(--line); color:var(--text-dim); padding:10px; border-radius:999px; text-align:center; font-size:13px; font-weight:600;}
+  .tab.active{background:var(--accent-dim); border-color:var(--accent); color:var(--text);}
+  .row{display:flex; align-items:center; gap:12px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius-sm); padding:13px 15px; margin-bottom:8px;}
+  .rank{font-family:'JetBrains Mono',monospace; font-weight:700; font-size:14px; color:var(--text-faint); width:22px;}
+  .row:nth-child(1) .rank{color:#e0c25c;}
+  .row .name{flex:1; font-size:14px; font-weight:600;}
+  .row .time{font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--accent);}
+  .empty{text-align:center; color:var(--text-faint); font-size:13px; padding:40px 20px; line-height:1.6;}
+</style>
+</head>
+<body>
+<main>
+  <h1>🏆 Leaderboard</h1>
+  <div class="sub">Ranked by tracked study time — from your study group</div>
+
+  <div class="tabs">
+    <div class="tab active" data-range="daily">Daily</div>
+    <div class="tab" data-range="weekly">Weekly</div>
+    <div class="tab" data-range="monthly">Monthly</div>
+  </div>
+
+  <div id="listWrap"></div>
+</main>
+
+<script src="sidebar.js"></script>
+<script>
+  // Reads the same localStorage keys your group/study-timer feature already writes.
+  // Adjust these key names if your actual implementation differs.
+  function getGroupSessions(){
+    try{ return JSON.parse(localStorage.getItem("studyplanai_group_sessions_v1")) || []; }
+    catch(e){ return []; }
+  }
+
+  function render(range){
+    const sessions = getGroupSessions();
+    const wrap = document.getElementById("listWrap");
+
+    if(!sessions.length){
+      wrap.innerHTML = `<div class="empty">No group study data yet.<br>Join or create a study group from the homepage, then log study sessions to see rankings here.</div>`;
+      return;
+    }
+
+    const now = Date.now();
+    const cutoff = range === "daily" ? 86400000 : range === "weekly" ? 7*86400000 : 30*86400000;
+    const totals = {};
+    sessions.filter(s => now - s.timestamp <= cutoff).forEach(s => {
+      totals[s.name] = (totals[s.name] || 0) + s.minutes;
+    });
+
+    const sorted = Object.entries(totals).sort((a,b) => b[1] - a[1]);
+    if(!sorted.length){
+      wrap.innerHTML = `<div class="empty">No sessions logged in this period yet.</div>`;
+      return;
+    }
+
+    wrap.innerHTML = sorted.map(([name, mins], i) => `
+      <div class="row">
+        <div class="rank">${i+1}</div>
+        <div class="name">${name}</div>
+        <div class="time">${Math.floor(mins/60)}h ${mins%60}m</div>
+      </div>
+    `).join("");
+  }
+
+  document.querySelectorAll(".tab").forEach(t => {
+    t.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+      t.classList.add("active");
+      render(t.dataset.range);
+    });
+  });
+
+  render("daily");
+</script>
+</body>
+</html>

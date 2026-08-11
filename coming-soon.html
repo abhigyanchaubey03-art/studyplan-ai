@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Coming Soon — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#0c1119; --surface:#141b26; --line:#28323f; --text:#e9edf3; --text-dim:#8d99a8; --accent:#d99a5c; --radius:14px; --radius-sm:9px; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif;}
+  body{min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; text-align:center;}
+  .icon{font-size:44px; margin-bottom:16px;}
+  h1{font-family:'Source Serif 4',serif; font-size:22px; margin-bottom:10px;}
+  p{color:var(--text-dim); font-size:14px; line-height:1.6; max-width:340px; margin:0 auto 20px;}
+  a.back{display:inline-block; background:var(--surface); border:1px solid var(--line); color:var(--text); padding:12px 22px; border-radius:var(--radius-sm); font-size:13.5px; font-weight:600; text-decoration:none;}
+</style>
+</head>
+<body>
+<div>
+  <div class="icon">🚧</div>
+  <h1 id="featTitle">Coming Soon</h1>
+  <p>We're building this feature next. Check the Buzz Board for updates on when it lands.</p>
+  <a class="back" href="index.html">← Back to Home</a>
+</div>
+
+<script src="sidebar.js"></script>
+<script>
+  const params = new URLSearchParams(location.search);
+  const feature = params.get("f");
+  if(feature) document.getElementById("featTitle").textContent = feature + " — Coming Soon";
+</script>
+</body>
+</html>

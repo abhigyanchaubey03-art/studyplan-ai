@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Score Predictor — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#0c1119; --surface:#141b26; --surface-2:#1c2531; --surface-3:#232e3c; --line:#28323f;
+    --text:#e9edf3; --text-dim:#8d99a8; --text-faint:#5d6a7a; --accent:#6b9fdb; --accent-dim:#6b9fdb26; --radius:14px; --radius-sm:9px; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif;}
+  body{min-height:100vh; padding:70px 16px 48px;}
+  main{max-width:640px; margin:0 auto;}
+  h1{font-family:'Source Serif 4',serif; font-size:22px; margin-bottom:6px;}
+  .sub{color:var(--text-dim); font-size:13.5px; margin-bottom:20px; line-height:1.5;}
+  .disclaimer{background:var(--surface-3); border:1px solid var(--line); border-radius:var(--radius-sm); padding:11px 13px; font-size:11.5px; color:var(--text-faint); margin-bottom:20px; line-height:1.5;}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; margin-bottom:16px;}
+  label{display:block; font-size:12px; font-weight:600; color:var(--text-dim); text-transform:uppercase; letter-spacing:.04em; margin-bottom:7px;}
+  select, input{width:100%; background:var(--surface-2); border:1px solid var(--line); color:var(--text); padding:11px 13px; border-radius:var(--radius-sm); font-size:14px; font-family:inherit; margin-bottom:14px;}
+  button{width:100%; padding:14px; border-radius:var(--radius-sm); font-size:14.5px; font-weight:700; background:var(--accent); border:none; color:#0c1119; cursor:pointer;}
+  .result{display:none; margin-top:18px; text-align:center;}
+  .result.show{display:block;}
+  .result .score{font-family:'Source Serif 4',serif; font-size:36px; font-weight:700; color:var(--accent);}
+  .result .label{font-size:12px; color:var(--text-faint); text-transform:uppercase; letter-spacing:.05em; margin-top:4px;}
+  .result .note{font-size:12.5px; color:var(--text-dim); margin-top:14px; line-height:1.5;}
+</style>
+</head>
+<body>
+<main>
+  <h1>🎯 Score Predictor</h1>
+  <div class="sub">Estimate your likely exam score from recent mock/practice performance.</div>
+  <div class="disclaimer">⚠️ This is a rough self-assessment based on your inputs, not an official prediction. Actual results depend on exam difficulty, negative marking, and your performance on the day.</div>
+
+  <div class="card">
+    <label for="examSel">Exam</label>
+    <select id="examSel">
+      <option>NEET</option>
+      <option>JEE Main</option>
+      <option>Boards</option>
+    </select>
+
+    <label for="totalQ">Total questions in exam</label>
+    <input type="number" id="totalQ" value="180" min="1">
+
+    <label for="accPct">Your average accuracy in recent practice/mocks (%)</label>
+    <input type="number" id="accPct" value="70" min="0" max="100">
+
+    <label for="attemptPct">% of questions you typically attempt</label>
+    <input type="number" id="attemptPct" value="90" min="0" max="100">
+
+    <label for="negMark">Negative marking per wrong answer</label>
+    <input type="number" id="negMark" value="1" min="0" step="0.25">
+
+    <label for="posMark">Marks per correct answer</label>
+    <input type="number" id="posMark" value="4" min="0" step="0.5">
+
+    <button id="calcBtn">Estimate my score</button>
+  </div>
+
+  <div class="result" id="resultBox">
+    <div class="score" id="scoreOut">—</div>
+    <div class="label">Estimated raw score</div>
+    <div class="note" id="noteOut"></div>
+  </div>
+</main>
+
+<script src="sidebar.js"></script>
+<script>
+  document.getElementById("calcBtn").addEventListener("click", () => {
+    const total = parseFloat(document.getElementById("totalQ").value) || 0;
+    const acc = parseFloat(document.getElementById("accPct").value) || 0;
+    const attemptPct = parseFloat(document.getElementById("attemptPct").value) || 0;
+    const neg = parseFloat(document.getElementById("negMark").value) || 0;
+    const pos = parseFloat(document.getElementById("posMark").value) || 0;
+
+    const attempted = total * (attemptPct / 100);
+    const correct = attempted * (acc / 100);
+    const wrong = attempted - correct;
+    const score = (correct * pos) - (wrong * neg);
+    const maxScore = total * pos;
+
+    document.getElementById("scoreOut").textContent = Math.round(score) + " / " + Math.round(maxScore);
+    document.getElementById("noteOut").textContent =
+      `Based on attempting ~${Math.round(attempted)} of ${total} questions at ${acc}% accuracy. Improve accuracy or attempt rate to raise this estimate — try a few AI-generated tests on your weaker chapters.`;
+    document.getElementById("resultBox").classList.add("show");
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Support — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#0c1119; --surface:#141b26; --surface-2:#1c2531; --surface-3:#232e3c; --line:#28323f;
+    --text:#e9edf3; --text-dim:#8d99a8; --text-faint:#5d6a7a; --accent:#6b9fdb; --accent-dim:#6b9fdb26; --radius:14px; --radius-sm:9px; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif;}
+  body{min-height:100vh; padding:70px 16px 48px;}
+  a{color:inherit; text-decoration:none;}
+  main{max-width:640px; margin:0 auto;}
+  h1{font-family:'Source Serif 4',serif; font-size:22px; margin-bottom:6px;}
+  .sub{color:var(--text-dim); font-size:13.5px; margin-bottom:24px;}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; margin-bottom:14px;}
+  .faq-q{font-weight:600; font-size:14.5px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:center; cursor:pointer;}
+  .faq-a{font-size:13.5px; color:var(--text-dim); line-height:1.6; display:none; margin-top:8px;}
+  .faq-a.open{display:block;}
+  .faq-arrow{transition:transform .15s; color:var(--text-faint);}
+  .faq-q.open .faq-arrow{transform:rotate(180deg);}
+  label{display:block; font-size:12px; font-weight:600; color:var(--text-dim); text-transform:uppercase; letter-spacing:.04em; margin-bottom:7px;}
+  input, textarea, select{width:100%; background:var(--surface-2); border:1px solid var(--line); color:var(--text); padding:11px 13px; border-radius:var(--radius-sm); font-size:14px; font-family:inherit; margin-bottom:14px;}
+  textarea{min-height:100px; resize:vertical;}
+  button{width:100%; padding:14px; border-radius:var(--radius-sm); font-size:14.5px; font-weight:700; background:var(--accent); border:none; color:#0c1119; cursor:pointer;}
+  .sent-msg{display:none; text-align:center; color:#5fb98c; font-size:13.5px; margin-top:12px; font-weight:600;}
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <div class="sub">Common questions, or reach us directly.</div>
+
+  <div class="card" id="faqCard">
+    <div class="faq-q" data-i="0">Is StudyplanAI free? <span class="faq-arrow">▾</span></div>
+    <div class="faq-a">Yes — the planner, practice questions, and study tracker are free. Membership unlocks extra features.</div>
+
+    <div class="faq-q" data-i="1" style="margin-top:16px;">Where is my data stored? <span class="faq-arrow">▾</span></div>
+    <div class="faq-a">Your plan and study logs are stored privately in your browser only — nothing leaves your device unless you join a study group.</div>
+
+    <div class="faq-q" data-i="2" style="margin-top:16px;">How does the AI Test Generator work? <span class="faq-arrow">▾</span></div>
+    <div class="faq-a">Pick a chapter and (optionally) a topic — questions are generated fresh for you each time using AI.</div>
+
+    <div class="faq-q" data-i="3" style="margin-top:16px;">I found a bug or wrong answer — what do I do? <span class="faq-arrow">▾</span></div>
+    <div class="faq-a">Use the form below with as much detail as possible (chapter, question text, what went wrong) and we'll look into it.</div>
+  </div>
+
+  <div class="card">
+    <label for="msgName">Name</label>
+    <input type="text" id="msgName" placeholder="Your name">
+    <label for="msgEmail">Email</label>
+    <input type="email" id="msgEmail" placeholder="you@example.com">
+    <label for="msgTopic">Topic</label>
+    <select id="msgTopic">
+      <option>General question</option>
+      <option>Bug report</option>
+      <option>Membership / billing</option>
+      <option>Feature request</option>
+    </select>
+    <label for="msgBody">Message</label>
+    <textarea id="msgBody" placeholder="Describe your issue or question…"></textarea>
+    <button id="sendBtn">Send message</button>
+    <div class="sent-msg" id="sentMsg">✓ Message ready — opening your email app…</div>
+  </div>
+</main>
+
+<script src="sidebar.js"></script>
+<script>
+  document.querySelectorAll(".faq-q").forEach(q => {
+    q.addEventListener("click", () => {
+      q.classList.toggle("open");
+      q.nextElementSibling.classList.toggle("open");
+    });
+  });
+
+  document.getElementById("sendBtn").addEventListener("click", () => {
+    const name = document.getElementById("msgName").value.trim();
+    const email = document.getElementById("msgEmail").value.trim();
+    const topic = document.getElementById("msgTopic").value;
+    const body = document.getElementById("msgBody").value.trim();
+    if(!body){ alert("Please write a message before sending."); return; }
+
+    const subject = encodeURIComponent(`StudyplanAI Support — ${topic}`);
+    const mailBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${body}`);
+    // Replace with your real support inbox
+    window.location.href = `mailto:support@studyplanai.com?subject=${subject}&body=${mailBody}`;
+
+    document.getElementById("sentMsg").style.display = "block";
+  });
+</script>
+</body>
+</html>

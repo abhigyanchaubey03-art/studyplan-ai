@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c1119">
+<title>Buzz Board — StudyplanAI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#0c1119; --surface:#141b26; --surface-2:#1c2531; --line:#28323f;
+    --text:#e9edf3; --text-dim:#8d99a8; --text-faint:#5d6a7a; --accent:#d99a5c; --accent-dim:#d99a5c26; --radius:14px; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:var(--bg); color:var(--text); font-family:'Inter',system-ui,sans-serif;}
+  body{min-height:100vh; padding:70px 16px 48px;}
+  main{max-width:640px; margin:0 auto;}
+  h1{font-family:'Source Serif 4',serif; font-size:22px; margin-bottom:6px;}
+  .sub{color:var(--text-dim); font-size:13.5px; margin-bottom:24px;}
+  .post{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:16px 17px; margin-bottom:12px;}
+  .post-tag{font-family:'JetBrains Mono',monospace; font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:var(--accent); background:var(--accent-dim); padding:3px 8px; border-radius:5px; display:inline-block; margin-bottom:8px;}
+  .post-title{font-weight:600; font-size:14.5px; margin-bottom:5px;}
+  .post-body{font-size:13.5px; color:var(--text-dim); line-height:1.55;}
+  .post-date{font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--text-faint); margin-top:10px;}
+  .empty{text-align:center; color:var(--text-faint); font-size:13px; padding:40px 20px;}
+</style>
+</head>
+<body>
+<main>
+  <h1>📣 Buzz Board</h1>
+  <div class="sub">What's new on StudyplanAI</div>
+  <div id="postsWrap"></div>
+</main>
+
+<script src="sidebar.js"></script>
+<script>
+  // Edit this array to post new announcements — no backend needed.
+  const POSTS = [
+    { tag:"New", title:"AI Test Generator is live", body:"Generate a fresh practice test for any chapter — pick a topic, difficulty, and question count, and AI writes it instantly.", date:"11 Aug 2026" },
+    { tag:"Update", title:"Custom domain: studyplanai.com", body:"The site now lives at its own domain instead of the long GitHub link.", date:"11 Aug 2026" },
+    { tag:"Tip", title:"Join a study group", body:"Studying with friends? Create or join a group from the homepage to track time together and stay accountable.", date:"08 Aug 2026" },
+  ];
+
+  const wrap = document.getElementById("postsWrap");
+  if(POSTS.length === 0){
+    wrap.innerHTML = `<div class="empty">Nothing posted yet — check back soon.</div>`;
+  } else {
+    wrap.innerHTML = POSTS.map(p => `
+      <div class="post">
+        <span class="post-tag">${p.tag}</span>
+        <div class="post-title">${p.title}</div>
+        <div class="post-body">${p.body}</div>
+        <div class="post-date">${p.date}</div>
+      </div>
+    `).join("");
+  }
+</script>
+</body>
+</html>
