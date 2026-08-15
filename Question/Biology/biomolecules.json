@@ -1,0 +1,2864 @@
+[
+  {
+    "id": "biomol-001",
+    "question": "On a fresh weight basis, which element is present in the highest percentage in living tissue?",
+    "options": [
+      "Carbon",
+      "Oxygen",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Water makes up 70-90% of any living tissue by fresh weight, and oxygen is the major elemental constituent of water.",
+      "why_others_wrong": "Carbon, hydrogen and nitrogen are abundant but oxygen (mainly from water) dominates fresh-weight composition.",
+      "concept_recap": "Elemental analysis of living tissue: on a dry-weight basis carbon dominates; on a fresh-weight basis oxygen (from water) dominates."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-002",
+    "question": "When elemental analysis of living tissue is done on a dry weight basis, which element is found in maximum amount?",
+    "options": [
+      "Oxygen",
+      "Carbon",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "On a dry weight basis, carbon is the most abundant element because most dry matter consists of carbon-based organic compounds.",
+      "why_others_wrong": "Oxygen dominates on a fresh-weight basis due to water, not dry weight; nitrogen and hydrogen are present in lower amounts.",
+      "concept_recap": "Removing water changes elemental ranking from O-dominant (fresh weight) to C-dominant (dry weight)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-003",
+    "question": "Acid-soluble pool of a living tissue, when analysed, is found to contain which of the following?",
+    "options": [
+      "Only inorganic salts",
+      "Amino acids, sugars, nucleotides and other small molecules",
+      "Only macromolecules like proteins",
+      "Only lipids"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Grinding tissue in trichloroacetic acid separates it into an acid-soluble pool of small molecules (amino acids, sugars, nucleotides, etc.) and an acid-insoluble pellet of macromolecules.",
+      "why_others_wrong": "Inorganic salts alone, macromolecules alone, or lipids alone do not describe the full composition of the acid-soluble fraction.",
+      "concept_recap": "The acid-soluble pool represents the 'metabolite pool' of the cell — the collection of small biomolecules."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-004",
+    "question": "The acid-insoluble fraction obtained after homogenising a living tissue in trichloroacetic acid mainly contains:",
+    "options": [
+      "Amino acids and sugars",
+      "Macromolecules such as proteins, polysaccharides and nucleic acids",
+      "Only inorganic ions",
+      "Water and gases"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The acid-insoluble pellet contains macromolecules — proteins, nucleic acids, and polysaccharides — since they precipitate out under acidic conditions.",
+      "why_others_wrong": "Small molecules like amino acids and sugars remain in the acid-soluble supernatant, not the pellet.",
+      "concept_recap": "This separation is the classic biochemical method used to demonstrate the two categories of biomolecules in a cell."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-005",
+    "question": "Which of the following is classified as a micromolecule rather than a macromolecule?",
+    "options": [
+      "Glucose",
+      "Cellulose",
+      "Haemoglobin",
+      "DNA"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Glucose is a simple monosaccharide with low molecular weight and is classified as a micromolecule (biomolecule).",
+      "why_others_wrong": "Cellulose, haemoglobin and DNA are all polymers built from repeating monomer units and are macromolecules.",
+      "concept_recap": "Micromolecules (like amino acids, sugars, nucleotides) act as monomers that polymerise into macromolecules."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-006",
+    "question": "Which of the following is an example of a secondary metabolite?",
+    "options": [
+      "Glucose",
+      "Amino acid",
+      "Morphine",
+      "Nucleotide"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Morphine is a secondary metabolite (an alkaloid) that has no known direct role in normal physiological processes of the producing organism.",
+      "why_others_wrong": "Glucose, amino acids and nucleotides are primary metabolites with well-defined roles in normal metabolism.",
+      "concept_recap": "Secondary metabolites (alkaloids, terpenoids, essential oils, pigments) often have ecological or pharmacological significance rather than direct metabolic roles."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-007",
+    "question": "Primary metabolites, unlike secondary metabolites, are characterised by:",
+    "options": [
+      "Having no known function",
+      "Being confined to a single plant species",
+      "Having identifiable functions and roles in normal physiological processes",
+      "Being found only in animals"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Primary metabolites (amino acids, sugars, nucleic acids etc.) have clear, well-understood physiological roles in growth, development and reproduction.",
+      "why_others_wrong": "It is secondary metabolites, not primary ones, whose functions are often unclear or species-specific.",
+      "concept_recap": "Primary metabolites = essential for normal metabolism; secondary metabolites = often specialised, defensive, or ecological roles."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-008",
+    "question": "Rubber, essential oils, alkaloids and pigments are collectively referred to as:",
+    "options": [
+      "Primary metabolites",
+      "Secondary metabolites",
+      "Structural proteins",
+      "Nucleic acids"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "These compounds have no obvious role in normal plant metabolism and are grouped as secondary metabolites.",
+      "why_others_wrong": "Primary metabolites include sugars, amino acids and nucleic acids essential to core metabolism, not these compounds.",
+      "concept_recap": "Many secondary metabolites have great commercial and pharmacological importance (e.g., quinine, morphine, rubber)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-009",
+    "question": "Which of the following pairs is correctly matched as (metabolite — category)?",
+    "options": [
+      "Sucrose — secondary metabolite",
+      "Nicotine — primary metabolite",
+      "Cellulose — primary metabolite",
+      "Vinblastine — primary metabolite"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cellulose, though a macromolecule, is built of glucose units used structurally in normal plant physiology, making it a primary metabolite.",
+      "why_others_wrong": "Sucrose is a primary metabolite (not secondary); nicotine and vinblastine are classic secondary metabolites, not primary.",
+      "concept_recap": "Categorisation depends on functional role in normal metabolism, not molecular size."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-010",
+    "question": "Lysergic acid diethylamide (LSD), a well-known secondary metabolite, is derived from which class of compounds?",
+    "options": [
+      "Alkaloids",
+      "Terpenoids",
+      "Flavonoids",
+      "Polysaccharides"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "LSD is a semi-synthetic compound derived from ergot alkaloids, placing it in the alkaloid class of secondary metabolites.",
+      "why_others_wrong": "Terpenoids, flavonoids and polysaccharides are distinct chemical classes unrelated to the alkaloid origin of LSD.",
+      "concept_recap": "Alkaloids are nitrogen-containing secondary metabolites often with potent physiological/pharmacological effects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-011",
+    "question": "Which of the following is NOT considered a true biomacromolecule of the cell?",
+    "options": [
+      "Protein",
+      "Polysaccharide",
+      "Nucleic acid",
+      "Lipid"
+    ],
+    "answer": "D",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Lipids are not classified as true macromolecules because they are not polymers formed by repeating monomer linkage in the same way as proteins, polysaccharides and nucleic acids.",
+      "why_others_wrong": "Proteins, polysaccharides and nucleic acids are all polymers of amino acids, monosaccharides and nucleotides respectively.",
+      "concept_recap": "NCERT treats lipids separately from macromolecules despite their large aggregate size, because they lack a true repeating-monomer polymeric structure."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-012",
+    "question": "The molecular weight of biomacromolecules is generally in the range of:",
+    "options": [
+      "10,000 daltons and above",
+      "Less than 100 daltons",
+      "100–1000 daltons only",
+      "Exactly 500 daltons"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Biomacromolecules such as proteins and nucleic acids typically have molecular weights of 10,000 daltons or more.",
+      "why_others_wrong": "Molecular weights below 1000 daltons describe micromolecules (amino acids, sugars), not macromolecules.",
+      "concept_recap": "Size and molecular weight are key criteria distinguishing macromolecules from micromolecules."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-013",
+    "question": "Which technique is commonly used to separate the acid-soluble pool from the acid-insoluble fraction of a tissue homogenate?",
+    "options": [
+      "Chromatography with trichloroacetic acid precipitation",
+      "PCR amplification",
+      "Gel electrophoresis only",
+      "Flame photometry"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Homogenising tissue in cold trichloroacetic acid (TCA) precipitates macromolecules, allowing separation of the acid-soluble (small molecule) and acid-insoluble (macromolecule) fractions by centrifugation.",
+      "why_others_wrong": "PCR amplifies DNA and doesn't separate metabolite pools; gel electrophoresis separates by size but isn't the initial fractionation method; flame photometry measures ion concentration.",
+      "concept_recap": "TCA precipitation is the classical first step in biochemical fractionation of tissue extracts."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-014",
+    "question": "Which of the following is a monosaccharide?",
+    "options": [
+      "Sucrose",
+      "Glucose",
+      "Starch",
+      "Cellulose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Glucose is a simple six-carbon monosaccharide and cannot be hydrolysed into simpler sugars.",
+      "why_others_wrong": "Sucrose is a disaccharide, while starch and cellulose are polysaccharides made of many monosaccharide units.",
+      "concept_recap": "Monosaccharides are the simplest carbohydrates and serve as building blocks for di- and polysaccharides."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-015",
+    "question": "Sucrose is composed of which two monosaccharide units?",
+    "options": [
+      "Glucose + Glucose",
+      "Glucose + Fructose",
+      "Glucose + Galactose",
+      "Fructose + Fructose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Sucrose (table sugar) is a disaccharide formed by a glycosidic bond between glucose and fructose.",
+      "why_others_wrong": "Glucose+glucose forms maltose; glucose+galactose forms lactose; fructose+fructose is not a natural disaccharide.",
+      "concept_recap": "Common disaccharides: sucrose = glucose+fructose, maltose = glucose+glucose, lactose = glucose+galactose."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-016",
+    "question": "Lactose, the sugar found in milk, is formed from which two monosaccharides?",
+    "options": [
+      "Glucose and fructose",
+      "Glucose and galactose",
+      "Fructose and galactose",
+      "Ribose and glucose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Lactose is a disaccharide made up of glucose and galactose linked by a beta-glycosidic bond.",
+      "why_others_wrong": "Glucose+fructose gives sucrose, not lactose; fructose+galactose is not a standard natural disaccharide; ribose is a pentose used in nucleic acids.",
+      "concept_recap": "Lactose intolerance arises from an inability to hydrolyse this glucose-galactose bond due to lactase deficiency."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-017",
+    "question": "Cellulose, a structural polysaccharide of plant cell walls, is a polymer of which monomer?",
+    "options": [
+      "Alpha-D-glucose",
+      "Beta-D-glucose",
+      "Fructose",
+      "Galactose"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cellulose consists of long unbranched chains of beta-D-glucose units linked by beta-1,4-glycosidic bonds.",
+      "why_others_wrong": "Alpha-D-glucose polymerises to form starch/glycogen, not cellulose; fructose and galactose are not cellulose monomers.",
+      "concept_recap": "The beta-linkage in cellulose makes it resistant to digestion by most animals, unlike the alpha-linked starch."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-018",
+    "question": "Starch, the storage polysaccharide of plants, is a polymer of:",
+    "options": [
+      "Beta-D-glucose",
+      "Alpha-D-glucose",
+      "Fructose",
+      "Ribose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Starch is composed of alpha-D-glucose units linked together, forming amylose and amylopectin.",
+      "why_others_wrong": "Beta-D-glucose forms cellulose, not starch; fructose and ribose are not the monomers of starch.",
+      "concept_recap": "Starch's alpha-linkages make it more flexible and digestible than the beta-linked cellulose."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-019",
+    "question": "Glycogen, the storage polysaccharide in animals, is structurally most similar to which plant polysaccharide?",
+    "options": [
+      "Cellulose",
+      "Amylose",
+      "Amylopectin (but more highly branched)",
+      "Chitin"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glycogen resembles amylopectin in having alpha-1,4 chains with alpha-1,6 branch points, but glycogen is far more extensively branched.",
+      "why_others_wrong": "Cellulose has beta-linkages and is structural, not storage; amylose is unbranched; chitin contains N-acetylglucosamine, not glucose.",
+      "concept_recap": "Higher branching in glycogen allows for rapid mobilisation of glucose when energy is needed."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-020",
+    "question": "Chitin, found in the exoskeleton of arthropods and fungal cell walls, is a polymer of:",
+    "options": [
+      "Glucose",
+      "N-acetylglucosamine",
+      "Fructose",
+      "Galactose"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Chitin is composed of repeating units of N-acetylglucosamine linked by beta-1,4-glycosidic bonds.",
+      "why_others_wrong": "Glucose, fructose and galactose are the monomers of other polysaccharides, not chitin.",
+      "concept_recap": "Chitin is second only to cellulose in abundance among natural polysaccharides."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-021",
+    "question": "The bond that links two monosaccharide units together in a disaccharide is called a:",
+    "options": [
+      "Peptide bond",
+      "Glycosidic bond",
+      "Phosphodiester bond",
+      "Hydrogen bond"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A glycosidic bond forms between the anomeric carbon of one sugar and a hydroxyl group of another, linking monosaccharides.",
+      "why_others_wrong": "Peptide bonds link amino acids; phosphodiester bonds link nucleotides; hydrogen bonds are weak non-covalent interactions.",
+      "concept_recap": "Formation of a glycosidic bond releases a water molecule (condensation/dehydration reaction)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-022",
+    "question": "Which of the following polysaccharides is branched due to the presence of alpha-1,6-glycosidic bonds in addition to alpha-1,4 bonds?",
+    "options": [
+      "Cellulose",
+      "Amylose",
+      "Amylopectin",
+      "Chitin"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Amylopectin has a branched structure created by alpha-1,6-glycosidic bonds at branch points, in addition to the linear alpha-1,4 backbone.",
+      "why_others_wrong": "Cellulose is unbranched with beta-1,4 links; amylose is an unbranched form of starch; chitin's monomer is N-acetylglucosamine, unrelated to glucose branching patterns.",
+      "concept_recap": "Branching increases the number of ends available for rapid enzymatic glucose release."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-023",
+    "question": "A homopolysaccharide differs from a heteropolysaccharide in that a homopolysaccharide:",
+    "options": [
+      "Contains only one type of monosaccharide monomer",
+      "Contains two or more different types of monomers",
+      "Is always branched",
+      "Contains amino acids"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Homopolysaccharides (e.g., starch, cellulose) are built from a single repeating type of monosaccharide.",
+      "why_others_wrong": "Two or more monomer types describes heteropolysaccharides; branching and amino acid content are unrelated distinguishing criteria.",
+      "concept_recap": "Example of a heteropolysaccharide: peptidoglycan of bacterial cell walls, containing amino sugars and amino acids."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-024",
+    "question": "Which of the following is a pentose sugar found in RNA?",
+    "options": [
+      "Deoxyribose",
+      "Ribose",
+      "Glucose",
+      "Galactose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ribose is the five-carbon (pentose) sugar present in ribonucleic acid (RNA).",
+      "why_others_wrong": "Deoxyribose is found in DNA (lacking one oxygen at the 2' position compared to ribose); glucose and galactose are hexoses unrelated to nucleic acid backbones.",
+      "concept_recap": "The 2'-OH group present in ribose but absent in deoxyribose is a key structural difference between RNA and DNA."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-025",
+    "question": "Maltose is formed by the condensation of two molecules of:",
+    "options": [
+      "Fructose",
+      "Galactose",
+      "Glucose",
+      "Ribose"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Maltose is a disaccharide formed from two glucose units joined by an alpha-1,4-glycosidic bond.",
+      "why_others_wrong": "Fructose, galactose, and ribose are not the monomers involved in maltose formation.",
+      "concept_recap": "Maltose is produced during starch digestion by the enzyme amylase."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-026",
+    "question": "Which of the following statements about polysaccharides is correct?",
+    "options": [
+      "They are sweet-tasting and soluble in water",
+      "They are long chains of monosaccharides linked by glycosidic bonds and generally not sweet",
+      "They cannot be hydrolysed under any conditions",
+      "They are always found only in animals"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Polysaccharides such as starch and cellulose are polymers of monosaccharides linked by glycosidic bonds, and unlike simple sugars, they lack sweetness and are largely insoluble.",
+      "why_others_wrong": "Simple sugars, not polysaccharides, are typically sweet and soluble; polysaccharides can be hydrolysed by acids or enzymes; they occur in both plants and animals.",
+      "concept_recap": "Polysaccharides mainly serve structural (cellulose, chitin) or storage (starch, glycogen) functions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-027",
+    "question": "In the context of the definition of glycosidic bond formation, what small molecule is released?",
+    "options": [
+      "Carbon dioxide",
+      "Ammonia",
+      "Water",
+      "Oxygen gas"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Glycosidic bond formation is a dehydration (condensation) reaction in which a water molecule is released.",
+      "why_others_wrong": "Carbon dioxide, ammonia, and oxygen gas are not released during glycosidic bond formation.",
+      "concept_recap": "This is analogous to peptide bond and phosphodiester bond formation, both of which are also condensation reactions releasing water."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-028",
+    "question": "Which of the following disaccharides would yield glucose and glucose upon complete hydrolysis?",
+    "options": [
+      "Sucrose",
+      "Lactose",
+      "Maltose",
+      "None of these"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Maltose hydrolyses into two glucose molecules, as it is formed from two glucose units.",
+      "why_others_wrong": "Sucrose yields glucose and fructose; lactose yields glucose and galactose upon hydrolysis, not two glucose molecules.",
+      "concept_recap": "Recognising hydrolysis products of common disaccharides is a frequently tested NEET concept."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-029",
+    "question": "An amino acid is characterised by the presence of which two functional groups attached to the same carbon atom?",
+    "options": [
+      "Hydroxyl and carboxyl",
+      "Amino and carboxyl",
+      "Amino and hydroxyl",
+      "Carbonyl and phosphate"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "An amino acid has an amino group (-NH2) and a carboxyl group (-COOH) attached to the same alpha-carbon, along with an R group and a hydrogen atom.",
+      "why_others_wrong": "Hydroxyl and carbonyl combinations do not define the general structure of amino acids; phosphate groups are not part of a standard amino acid's core structure.",
+      "concept_recap": "The general formula of an amino acid can be written as R-CH(NH2)-COOH."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-030",
+    "question": "How many standard amino acids are commonly found in proteins?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "50"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "There are 20 standard amino acids that serve as the building blocks of proteins.",
+      "why_others_wrong": "Numbers such as 10, 30, and 50 do not correspond to the standard count of protein-forming amino acids.",
+      "concept_recap": "These 20 amino acids differ from one another only in their R (side chain) group."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-031",
+    "question": "Amino acids are classified as essential and non-essential based on:",
+    "options": [
+      "Their molecular weight",
+      "Whether the body can synthesise them or must obtain them from diet",
+      "Their solubility in water",
+      "Their charge at neutral pH"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Essential amino acids cannot be synthesised by the body and must be obtained through diet, while non-essential amino acids can be synthesised internally.",
+      "why_others_wrong": "Molecular weight, solubility, and charge are not the basis of the essential/non-essential classification.",
+      "concept_recap": "Examples of essential amino acids include lysine and leucine; examples of non-essential ones include glycine and alanine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-032",
+    "question": "Which of the following amino acids is classified as acidic due to an extra carboxyl group in its side chain?",
+    "options": [
+      "Lysine",
+      "Glutamic acid",
+      "Valine",
+      "Serine"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Glutamic acid has an additional carboxyl group in its R group, making it an acidic amino acid.",
+      "why_others_wrong": "Lysine is basic due to an extra amino group; valine is neutral/non-polar; serine is neutral/polar with a hydroxyl group.",
+      "concept_recap": "Acidic amino acids (glutamic acid, aspartic acid) carry a net negative charge at physiological pH."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-033",
+    "question": "Which amino acid is classified as basic because its side chain contains an extra amino group?",
+    "options": [
+      "Aspartic acid",
+      "Lysine",
+      "Alanine",
+      "Cysteine"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Lysine has an extra amino group in its side chain, giving it basic properties and a net positive charge at physiological pH.",
+      "why_others_wrong": "Aspartic acid is acidic; alanine and cysteine are classified as neutral amino acids.",
+      "concept_recap": "Basic amino acids include lysine, arginine, and histidine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-034",
+    "question": "An amino acid that has equal numbers of amino and carboxyl groups (one of each) is classified as:",
+    "options": [
+      "Acidic",
+      "Basic",
+      "Neutral",
+      "Aromatic"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A neutral amino acid has one amino group and one carboxyl group, giving it no net charge contribution from extra functional groups.",
+      "why_others_wrong": "Acidic amino acids have extra carboxyl groups; basic amino acids have extra amino groups; 'aromatic' refers to ring structure, not charge balance.",
+      "concept_recap": "Most of the 20 standard amino acids are neutral; a few are acidic or basic."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-035",
+    "question": "The bond formed between two amino acids during protein synthesis is called a:",
+    "options": [
+      "Glycosidic bond",
+      "Peptide bond",
+      "Hydrogen bond",
+      "Phosphodiester bond"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A peptide bond forms between the carboxyl group of one amino acid and the amino group of another, with the release of water.",
+      "why_others_wrong": "Glycosidic bonds link sugars; hydrogen bonds are weak and non-covalent; phosphodiester bonds link nucleotides.",
+      "concept_recap": "Peptide bond formation is a dehydration/condensation reaction, just like glycosidic and phosphodiester bond formation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-036",
+    "question": "A dipeptide is formed by the linkage of how many amino acids?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A dipeptide consists of exactly two amino acids joined by a single peptide bond.",
+      "why_others_wrong": "One amino acid alone is not a peptide; three amino acids form a tripeptide; four form a tetrapeptide.",
+      "concept_recap": "Peptide nomenclature (dipeptide, tripeptide, polypeptide) is based on the number of amino acid residues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-037",
+    "question": "A protein with a molecular weight of about 12,000 daltons composed of a single polypeptide chain would contain approximately how many amino acids? (Assume ~110 Da per residue)",
+    "options": [
+      "About 30",
+      "About 100",
+      "About 400",
+      "About 1000"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Dividing 12,000 by roughly 110 (average residue weight) gives approximately 100 amino acids, hence 100 is the closest correct estimate.",
+      "why_others_wrong": "30 is too low, while 400 and 1000 overestimate for a 12,000 Da single-chain protein.",
+      "concept_recap": "This approximation (~110 Da/residue) is a standard method to estimate the number of residues in a polypeptide chain from its molecular weight."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-038",
+    "question": "The primary structure of a protein refers to:",
+    "options": [
+      "The three-dimensional folding pattern",
+      "The linear sequence of amino acids in the polypeptide chain",
+      "The association of multiple polypeptide subunits",
+      "The alpha-helix and beta-sheet arrangement"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Primary structure is simply the linear, sequential arrangement of amino acid residues joined by peptide bonds.",
+      "why_others_wrong": "Three-dimensional folding is tertiary structure; subunit association is quaternary structure; helices/sheets are secondary structure.",
+      "concept_recap": "The primary structure ultimately determines all higher levels of protein structure."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-039",
+    "question": "Alpha-helix and beta-pleated sheet are examples of which level of protein structural organisation?",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Alpha-helix and beta-pleated sheet are regular, repeating folding patterns of the polypeptide backbone and represent secondary structure.",
+      "why_others_wrong": "Primary structure is the amino acid sequence; tertiary is the overall 3D shape; quaternary involves multiple subunits.",
+      "concept_recap": "Secondary structures are stabilised primarily by hydrogen bonds between backbone atoms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-040",
+    "question": "The overall three-dimensional folding of a single polypeptide chain, giving the protein its functional shape, is called its:",
+    "options": [
+      "Primary structure",
+      "Secondary structure",
+      "Tertiary structure",
+      "Quaternary structure"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Tertiary structure describes the complete 3D folding of a single polypeptide chain, determining its biological function.",
+      "why_others_wrong": "Primary structure is amino acid sequence, secondary structure refers to local folding patterns, and quaternary structure involves multiple chains.",
+      "concept_recap": "Tertiary structure is stabilised by interactions such as hydrogen bonds, disulfide bridges, ionic bonds and hydrophobic interactions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-041",
+    "question": "Haemoglobin, which consists of four polypeptide subunits assembled together, exemplifies which level of protein organisation?",
+    "options": [
+      "Primary structure",
+      "Secondary structure",
+      "Tertiary structure",
+      "Quaternary structure"
+    ],
+    "answer": "D",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Haemoglobin's four polypeptide chains (2 alpha and 2 beta) associate together, representing quaternary structure.",
+      "why_others_wrong": "Primary, secondary, and tertiary structures describe features of a single polypeptide chain, not the assembly of multiple chains.",
+      "concept_recap": "Not all proteins have quaternary structure — only those made of more than one polypeptide subunit."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-042",
+    "question": "Which type of bond is primarily responsible for stabilising the alpha-helix secondary structure of proteins?",
+    "options": [
+      "Peptide bonds between distant residues",
+      "Hydrogen bonds between backbone C=O and N-H groups",
+      "Ionic bonds between R groups",
+      "Glycosidic bonds"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The alpha-helix is stabilised by regular hydrogen bonding between the carbonyl oxygen of one residue and the amide hydrogen of a residue four positions away.",
+      "why_others_wrong": "Peptide bonds form the backbone but don't stabilise the coiled shape; ionic bonds and glycosidic bonds are not involved in alpha-helix stabilisation.",
+      "concept_recap": "This intrachain hydrogen bonding pattern gives the helix its characteristic 3.6 residues per turn."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-043",
+    "question": "A protein loses its native three-dimensional structure and biological activity upon exposure to heat or extreme pH. This process is called:",
+    "options": [
+      "Hydrolysis",
+      "Denaturation",
+      "Glycosylation",
+      "Phosphorylation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Denaturation is the loss of a protein's native secondary and tertiary structure due to disruption of stabilising bonds, usually caused by heat, pH extremes, or chemicals.",
+      "why_others_wrong": "Hydrolysis breaks peptide bonds chemically; glycosylation and phosphorylation are post-translational modifications, not structural collapse.",
+      "concept_recap": "Denaturation usually does not break peptide bonds (primary structure remains), but destroys higher-order structure and function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-044",
+    "question": "Fibrous proteins like collagen and keratin primarily have which type of secondary structure?",
+    "options": [
+      "Random coil only",
+      "Extended, elongated structures (e.g., triple helix or coiled coils)",
+      "Globular tertiary folding only",
+      "No secondary structure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Fibrous proteins such as collagen (triple helix) and keratin (coiled-coil alpha helices) form elongated, structural filaments rather than compact globular shapes.",
+      "why_others_wrong": "Random coils and absence of secondary structure do not describe these highly organised structural proteins; globular folding characterises proteins like enzymes, not fibrous structural proteins.",
+      "concept_recap": "Fibrous proteins generally serve structural roles (skin, hair, connective tissue), unlike globular proteins which are often functional (enzymes, transport)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-045",
+    "question": "Which of the following best describes a globular protein?",
+    "options": [
+      "An elongated, filamentous protein used for structural support",
+      "A protein that is folded into a compact, roughly spherical shape and often has functional roles like catalysis",
+      "A protein lacking secondary structure",
+      "A protein made of only non-polar amino acids"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Globular proteins fold into compact, spherical shapes and typically perform dynamic biological functions such as enzymatic catalysis or transport.",
+      "why_others_wrong": "Elongated filamentous description fits fibrous proteins; globular proteins do have secondary structure; they are not restricted to non-polar amino acids only.",
+      "concept_recap": "Most enzymes and antibodies are globular proteins, contrasted with structural fibrous proteins."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-046",
+    "question": "Insulin, a hormone composed of two polypeptide chains linked by disulfide bonds, is an example of which class of biomolecule?",
+    "options": [
+      "Carbohydrate",
+      "Lipid",
+      "Protein",
+      "Nucleic acid"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Insulin is a small protein hormone made of two polypeptide chains (A and B) connected by disulfide bridges.",
+      "why_others_wrong": "Insulin is not a carbohydrate, lipid, or nucleic acid — it is built from amino acids and is classified as a protein.",
+      "concept_recap": "Insulin regulates blood glucose levels and is a classic example of a protein hormone."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-047",
+    "question": "Which of the following amino acids contains a sulfhydryl (-SH) group in its side chain, important for disulfide bond formation?",
+    "options": [
+      "Cysteine",
+      "Serine",
+      "Threonine",
+      "Glycine"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cysteine has a thiol/sulfhydryl (-SH) group that can form disulfide bonds (-S-S-) with another cysteine residue, stabilising protein tertiary/quaternary structure.",
+      "why_others_wrong": "Serine and threonine contain hydroxyl groups, not sulfhydryl groups; glycine has only a hydrogen as its side chain.",
+      "concept_recap": "Disulfide bonds are covalent cross-links important for stabilising extracellular proteins like antibodies and insulin."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-048",
+    "question": "Ribonuclease is a classic example used to demonstrate that:",
+    "options": [
+      "Proteins are always denatured irreversibly",
+      "The primary structure (amino acid sequence) determines the higher-order folding and function of a protein",
+      "Proteins have no tertiary structure",
+      "Enzymes cannot be denatured"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Christian Anfinsen's classic ribonuclease experiments showed that a denatured enzyme could refold correctly, proving that primary sequence dictates 3D structure and function.",
+      "why_others_wrong": "Ribonuclease demonstrated reversible, not always irreversible, denaturation; it clearly does possess tertiary structure; enzymes, including ribonuclease, can indeed be denatured.",
+      "concept_recap": "This principle — 'sequence determines structure' — is foundational to understanding protein folding."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-049",
+    "question": "Which bond, besides hydrogen bonds, contributes significantly to stabilising the tertiary structure of proteins?",
+    "options": [
+      "Glycosidic bonds",
+      "Disulfide bonds, ionic bonds and hydrophobic interactions",
+      "Phosphodiester bonds",
+      "Peptide bonds only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Tertiary structure is stabilised by a combination of disulfide bonds, ionic (electrostatic) interactions, hydrophobic interactions, and hydrogen bonds.",
+      "why_others_wrong": "Glycosidic and phosphodiester bonds are involved in carbohydrates and nucleic acids respectively, not protein tertiary structure; peptide bonds alone define the backbone, not the folded shape.",
+      "concept_recap": "The combination of weak and strong interactions allows proteins to fold into precise, functional 3D shapes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-050",
+    "question": "A protein that functions as an oxygen carrier in red blood cells and shows quaternary structure is:",
+    "options": [
+      "Myoglobin",
+      "Haemoglobin",
+      "Insulin",
+      "Trypsin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Haemoglobin has four subunits (quaternary structure) and functions to carry oxygen in red blood cells.",
+      "why_others_wrong": "Myoglobin is a single-chain oxygen-storage protein in muscle (no quaternary structure); insulin is a hormone; trypsin is a digestive enzyme.",
+      "concept_recap": "Myoglobin (monomeric) versus haemoglobin (tetrameric) is a classic comparison of protein structure and function in NEET biology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-051",
+    "question": "Fats and oils are chemically composed of glycerol combined with:",
+    "options": [
+      "Amino acids",
+      "Fatty acids",
+      "Monosaccharides",
+      "Nucleotides"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Fats and oils (triglycerides) are esters formed from one glycerol molecule and three fatty acid chains.",
+      "why_others_wrong": "Amino acids form proteins, monosaccharides form carbohydrates, and nucleotides form nucleic acids — none combine with glycerol to form fats.",
+      "concept_recap": "The ester bond between glycerol's hydroxyl groups and fatty acids' carboxyl groups defines triglyceride structure."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-052",
+    "question": "A fatty acid with no carbon-carbon double bonds in its hydrocarbon chain is called:",
+    "options": [
+      "Saturated",
+      "Unsaturated",
+      "Polyunsaturated",
+      "Essential"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A saturated fatty acid has only single bonds between carbon atoms, being 'saturated' with hydrogen atoms.",
+      "why_others_wrong": "Unsaturated fatty acids contain one or more double bonds; polyunsaturated fatty acids have multiple double bonds; 'essential' refers to dietary necessity, not bond saturation.",
+      "concept_recap": "Saturated fats (common in animal fats) are typically solid at room temperature, unlike unsaturated oils."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-053",
+    "question": "Phospholipids, major components of cell membranes, differ from simple triglycerides in that phospholipids contain:",
+    "options": [
+      "Three fatty acid chains only",
+      "Two fatty acid chains and a phosphate group instead of the third fatty acid",
+      "No glycerol backbone",
+      "Only carbohydrate groups"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Phospholipids have glycerol esterified to two fatty acids and a phosphate group (often with an additional head group) in place of the third fatty acid found in triglycerides.",
+      "why_others_wrong": "Three fatty acids describes a simple triglyceride, not a phospholipid; phospholipids do have a glycerol backbone; they are not composed of carbohydrate groups.",
+      "concept_recap": "This amphipathic structure (hydrophobic tails, hydrophilic head) allows phospholipids to form the bilayer of biological membranes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-054",
+    "question": "Which property of phospholipids allows them to spontaneously form bilayers in an aqueous environment?",
+    "options": [
+      "They are entirely hydrophobic",
+      "They are amphipathic, having both hydrophilic and hydrophobic regions",
+      "They are entirely hydrophilic",
+      "They contain nitrogen bases only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Phospholipids have a hydrophilic phosphate head and hydrophobic fatty acid tails, an amphipathic property that drives spontaneous bilayer formation in water.",
+      "why_others_wrong": "Being entirely hydrophobic or entirely hydrophilic would prevent bilayer self-assembly; nitrogen base content is not the determining factor for bilayer formation.",
+      "concept_recap": "This amphipathic arrangement is fundamental to the fluid mosaic model of cell membranes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-055",
+    "question": "Cholesterol, an important component of animal cell membranes, belongs to which class of lipids?",
+    "options": [
+      "Triglycerides",
+      "Phospholipids",
+      "Steroids",
+      "Waxes"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Cholesterol is a steroid, characterised by a four-fused-ring hydrocarbon structure.",
+      "why_others_wrong": "Triglycerides and phospholipids have glycerol backbones; waxes are esters of long-chain fatty acids and alcohols — none matches cholesterol's ringed steroid structure.",
+      "concept_recap": "Steroids include cholesterol as well as many hormones like testosterone and estrogen, all sharing the characteristic ring structure."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-056",
+    "question": "Waxes, found on plant cuticles and insect exoskeletons, are chemically esters of:",
+    "options": [
+      "Glycerol and fatty acids",
+      "Long-chain fatty acids and long-chain alcohols",
+      "Amino acids and sugars",
+      "Nucleotides and phosphates"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Waxes are esters formed between long-chain fatty acids and long-chain monohydric alcohols (not glycerol).",
+      "why_others_wrong": "Glycerol and fatty acids describe triglycerides, not waxes; amino acid-sugar and nucleotide-phosphate combinations are unrelated to wax structure.",
+      "concept_recap": "Waxes provide waterproofing in plants (cuticle) and insects (exoskeleton) due to their hydrophobic nature."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-057",
+    "question": "A nucleotide is composed of which three components?",
+    "options": [
+      "Amino acid, sugar and phosphate",
+      "Nitrogenous base, pentose sugar and phosphate group",
+      "Fatty acid, glycerol and phosphate",
+      "Amino acid, base and sugar"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A nucleotide consists of a nitrogenous base, a five-carbon (pentose) sugar, and one or more phosphate groups.",
+      "why_others_wrong": "Amino acid combinations describe proteins/other molecules, not nucleotides; fatty acid and glycerol describe lipid components.",
+      "concept_recap": "Nucleotides are the monomeric units that polymerise via phosphodiester bonds to form nucleic acids (DNA/RNA)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-058",
+    "question": "A nucleoside differs from a nucleotide in that a nucleoside lacks:",
+    "options": [
+      "The nitrogenous base",
+      "The pentose sugar",
+      "The phosphate group",
+      "Both the base and sugar"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A nucleoside is composed only of a nitrogenous base linked to a pentose sugar, lacking the phosphate group present in a nucleotide.",
+      "why_others_wrong": "A nucleoside does contain both the base and sugar, so those aren't missing; the distinguishing missing component is specifically the phosphate group.",
+      "concept_recap": "Addition of a phosphate group to a nucleoside converts it into a nucleotide."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-059",
+    "question": "Which of the following is a purine nitrogenous base?",
+    "options": [
+      "Cytosine",
+      "Thymine",
+      "Adenine",
+      "Uracil"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Adenine, along with guanine, is a purine, characterised by a fused double-ring structure.",
+      "why_others_wrong": "Cytosine, thymine, and uracil are all pyrimidines, which have a single-ring structure.",
+      "concept_recap": "Mnemonic: 'PURe As Gold' — Purines are Adenine and Guanine; the rest (Cytosine, Thymine, Uracil) are pyrimidines."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-060",
+    "question": "Which nitrogenous base is found in RNA but not in DNA?",
+    "options": [
+      "Adenine",
+      "Guanine",
+      "Cytosine",
+      "Uracil"
+    ],
+    "answer": "D",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Uracil replaces thymine in RNA and is not normally found in DNA.",
+      "why_others_wrong": "Adenine, guanine, and cytosine are common to both DNA and RNA.",
+      "concept_recap": "DNA uses thymine (with a methyl group) while RNA uses the simpler uracil in its place."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-061",
+    "question": "The sugar-phosphate backbone of DNA is held together by which type of bond?",
+    "options": [
+      "Glycosidic bond",
+      "Peptide bond",
+      "Phosphodiester bond",
+      "Hydrogen bond"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Adjacent nucleotides in a nucleic acid strand are linked by phosphodiester bonds between the phosphate group of one nucleotide and the sugar of the next.",
+      "why_others_wrong": "Glycosidic bonds link the base to the sugar within a single nucleotide, not between nucleotides; peptide bonds are found in proteins; hydrogen bonds hold the two DNA strands together, not the backbone.",
+      "concept_recap": "The phosphodiester backbone gives DNA/RNA strands their directionality (5' to 3')."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-062",
+    "question": "According to Chargaff's rule, in double-stranded DNA the amount of adenine is equal to the amount of:",
+    "options": [
+      "Guanine",
+      "Cytosine",
+      "Thymine",
+      "Uracil"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Chargaff's rule states that in double-stranded DNA, adenine pairs with thymine (A=T) and guanine pairs with cytosine (G=C).",
+      "why_others_wrong": "Guanine pairs with cytosine, not adenine; uracil is found in RNA, not DNA.",
+      "concept_recap": "This base-pairing equality is the biochemical basis of the complementary base pairing described in the Watson-Crick model."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-063",
+    "question": "The two strands of the DNA double helix are held together by:",
+    "options": [
+      "Covalent bonds between bases",
+      "Hydrogen bonds between complementary base pairs",
+      "Peptide bonds",
+      "Glycosidic bonds between strands"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Hydrogen bonds form between complementary base pairs (A-T with 2 hydrogen bonds, G-C with 3 hydrogen bonds), holding the two strands together.",
+      "why_others_wrong": "The bases are not connected by covalent bonds across strands; peptide bonds are unrelated to nucleic acids; glycosidic bonds connect base to sugar within a nucleotide, not between strands.",
+      "concept_recap": "The relative weakness of hydrogen bonds (compared to covalent bonds) allows the DNA strands to separate during replication and transcription."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-064",
+    "question": "How many hydrogen bonds form between a guanine-cytosine (G-C) base pair in DNA?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Guanine and cytosine form three hydrogen bonds, making G-C pairing stronger than A-T pairing.",
+      "why_others_wrong": "One, two, and four are incorrect counts for the G-C base pair specifically (A-T forms two hydrogen bonds).",
+      "concept_recap": "DNA regions rich in G-C content have higher melting temperatures due to the additional hydrogen bond."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-065",
+    "question": "Which type of RNA carries the genetic code from DNA to the ribosome for protein synthesis?",
+    "options": [
+      "Transfer RNA (tRNA)",
+      "Ribosomal RNA (rRNA)",
+      "Messenger RNA (mRNA)",
+      "Small nuclear RNA (snRNA)"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Messenger RNA (mRNA) is transcribed from DNA and carries the genetic information to ribosomes for translation into protein.",
+      "why_others_wrong": "tRNA brings amino acids to the ribosome; rRNA is a structural/catalytic component of ribosomes; snRNA is involved in RNA splicing, not carrying the genetic code to ribosomes.",
+      "concept_recap": "The central dogma flow — DNA to mRNA to protein — highlights mRNA's role as the genetic messenger."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-066",
+    "question": "Which type of RNA has a characteristic cloverleaf secondary structure and functions in bringing amino acids to the ribosome?",
+    "options": [
+      "mRNA",
+      "tRNA",
+      "rRNA",
+      "hnRNA"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Transfer RNA (tRNA) folds into a cloverleaf secondary structure and carries specific amino acids to the ribosome during translation.",
+      "why_others_wrong": "mRNA carries genetic code but lacks the cloverleaf shape; rRNA is a ribosomal structural component; hnRNA is unprocessed pre-mRNA.",
+      "concept_recap": "Each tRNA has an anticodon loop that pairs with the corresponding mRNA codon during protein synthesis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-067",
+    "question": "DNA differs from RNA in its sugar component because DNA contains:",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Glucose",
+      "Fructose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "DNA contains deoxyribose sugar, which lacks a hydroxyl group at the 2' carbon position compared to the ribose found in RNA.",
+      "why_others_wrong": "Ribose is found in RNA, not DNA; glucose and fructose are hexose sugars unrelated to nucleic acid backbones.",
+      "concept_recap": "The absence of the 2'-OH in deoxyribose makes DNA more chemically stable than RNA."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-068",
+    "question": "Nucleic acids are polymers of nucleotides linked together by which bond, forming a long chain?",
+    "options": [
+      "Ester bond only",
+      "Phosphodiester bond",
+      "Peptide bond",
+      "Ionic bond"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Nucleotides polymerise via phosphodiester bonds between the 3' carbon of one sugar and the 5' phosphate of the next nucleotide.",
+      "why_others_wrong": "'Ester bond only' is imprecise (phosphodiester is more specific); peptide bonds link amino acids; ionic bonds are not the covalent backbone linkage in nucleic acids.",
+      "concept_recap": "This repeating sugar-phosphate-sugar-phosphate backbone, together with attached bases, forms the primary structure of DNA/RNA."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-069",
+    "question": "Enzymes are best described chemically as:",
+    "options": [
+      "Carbohydrates that catalyse reactions",
+      "Proteins that act as biological catalysts",
+      "Lipids that store energy",
+      "Nucleic acids that carry genetic information"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Enzymes are proteins (with a few exceptions, like ribozymes) that catalyse biochemical reactions by lowering activation energy.",
+      "why_others_wrong": "Carbohydrates, lipids, and nucleic acids are not the general chemical nature of enzymes, though a small class of catalytic RNAs (ribozymes) exists as an exception.",
+      "concept_recap": "As catalysts, enzymes increase reaction rates without themselves being consumed in the reaction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-070",
+    "question": "The specific region of an enzyme where the substrate binds and the reaction occurs is called the:",
+    "options": [
+      "Allosteric site",
+      "Active site",
+      "Coenzyme site",
+      "Regulatory site"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The active site is the specific region of the enzyme where the substrate binds and the catalytic reaction takes place.",
+      "why_others_wrong": "The allosteric site is a separate regulatory site distinct from the active site; 'coenzyme site' and 'regulatory site' are not standard terms for the substrate-binding location.",
+      "concept_recap": "The unique three-dimensional shape of the active site accounts for enzyme specificity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-071",
+    "question": "Which model of enzyme action proposes that the enzyme's active site is rigid and shaped precisely like the substrate, similar to a lock and key?",
+    "options": [
+      "Induced fit model",
+      "Lock and key model",
+      "Allosteric model",
+      "Feedback inhibition model"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The lock and key model, proposed by Emil Fischer, describes the active site as having a fixed shape that precisely matches the substrate shape.",
+      "why_others_wrong": "The induced fit model proposes a flexible active site that changes shape upon substrate binding, unlike the rigid lock-and-key idea; allosteric and feedback inhibition models describe regulation, not the basic binding mechanism.",
+      "concept_recap": "The induced fit model, proposed later by Koshland, is now considered more accurate than the rigid lock-and-key model."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-072",
+    "question": "According to the induced fit model of enzyme action, the active site of the enzyme:",
+    "options": [
+      "Is completely rigid and unchanging",
+      "Changes shape slightly to better accommodate the substrate upon binding",
+      "Never interacts directly with the substrate",
+      "Is identical for all enzymes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The induced fit model proposes that the enzyme's active site is flexible and undergoes a conformational change to better fit the substrate upon binding.",
+      "why_others_wrong": "A completely rigid active site describes the older lock-and-key model, not induced fit; the active site does interact directly with substrate; active site shape varies between different enzymes based on their specific substrates.",
+      "concept_recap": "This model better explains enzyme specificity and catalytic efficiency observed experimentally."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-073",
+    "question": "A non-protein chemical compound that is required for an enzyme's catalytic activity, and is tightly and permanently bound to the enzyme, is called a:",
+    "options": [
+      "Coenzyme",
+      "Cofactor (specifically a prosthetic group)",
+      "Apoenzyme",
+      "Substrate"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A prosthetic group is a type of cofactor that is tightly, often covalently, bound to the enzyme protein.",
+      "why_others_wrong": "A coenzyme is loosely and transiently associated (not tightly/permanently bound); an apoenzyme refers to the protein part of the enzyme without its cofactor; substrate is the molecule the enzyme acts upon, not a structural cofactor.",
+      "concept_recap": "Cofactors include inorganic ions, coenzymes (loosely bound), and prosthetic groups (tightly bound)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-074",
+    "question": "The protein part of an enzyme, when separated from its non-protein cofactor, is called the:",
+    "options": [
+      "Holoenzyme",
+      "Apoenzyme",
+      "Coenzyme",
+      "Zymogen"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The apoenzyme is the protein component of an enzyme without its associated cofactor.",
+      "why_others_wrong": "A holoenzyme is the complete, catalytically active enzyme (apoenzyme + cofactor); a coenzyme is an organic cofactor; a zymogen is an inactive enzyme precursor.",
+      "concept_recap": "Apoenzyme + cofactor = holoenzyme, the fully functional catalytic form."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-075",
+    "question": "Zinc acting as a required inorganic ion for the activity of carbonic anhydrase is an example of which type of cofactor?",
+    "options": [
+      "Coenzyme",
+      "Prosthetic group",
+      "Inorganic ion cofactor",
+      "Apoenzyme"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Metal ions like zinc that are necessary for enzyme activity are classified as inorganic ion cofactors.",
+      "why_others_wrong": "Coenzymes are organic molecules (often vitamin-derived); prosthetic groups are tightly bound organic/inorganic groups but the term specifically used for simple metal ions here is inorganic cofactor; apoenzyme refers to the protein portion, not the cofactor.",
+      "concept_recap": "Many enzymes require specific metal ions (Zn2+, Mg2+, Fe2+, etc.) as cofactors for proper catalytic function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-076",
+    "question": "NAD+ (nicotinamide adenine dinucleotide), which is loosely and transiently bound to enzymes during catalysis, is an example of a:",
+    "options": [
+      "Prosthetic group",
+      "Coenzyme",
+      "Structural protein",
+      "Substrate"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "NAD+ is an organic coenzyme that binds loosely and reversibly to enzymes, often participating in oxidation-reduction reactions.",
+      "why_others_wrong": "Prosthetic groups are tightly/permanently bound, unlike NAD+'s loose association; NAD+ is not a structural protein or a substrate.",
+      "concept_recap": "Coenzymes like NAD+ and FAD are frequently derived from vitamins and are essential in metabolic pathways such as respiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-077",
+    "question": "As the concentration of substrate is increased while enzyme concentration is kept constant, the rate of an enzyme-catalysed reaction will:",
+    "options": [
+      "Increase indefinitely without limit",
+      "Increase and then plateau as the enzyme becomes saturated with substrate",
+      "Remain constant throughout",
+      "Decrease continuously"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "As substrate concentration rises, reaction rate increases until all enzyme active sites are saturated, after which the rate plateaus regardless of further substrate increase.",
+      "why_others_wrong": "Reaction rate cannot increase indefinitely since enzyme active sites are limited; it does not remain constant at low substrate levels, nor does it decrease as substrate is added (assuming no inhibition).",
+      "concept_recap": "This saturation kinetics behaviour is described by the Michaelis-Menten model of enzyme kinetics."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-078",
+    "question": "Every enzyme typically has an optimum temperature at which its catalytic activity is maximal. Beyond this optimum, enzyme activity declines mainly due to:",
+    "options": [
+      "Increased substrate availability",
+      "Denaturation of the enzyme's protein structure",
+      "Formation of new active sites",
+      "Increased coenzyme binding"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Temperatures above the optimum disrupt the weak bonds maintaining enzyme structure, denaturing the protein and reducing catalytic activity.",
+      "why_others_wrong": "Substrate availability is unrelated to temperature-induced activity loss; new active sites are not formed; increased coenzyme binding does not explain the drop in activity at high temperature.",
+      "concept_recap": "Most human enzymes have an optimum temperature around 37-40°C, consistent with normal body temperature."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-079",
+    "question": "Each enzyme generally has an optimum pH range. A shift away from this optimum pH typically causes enzyme activity to decrease because:",
+    "options": [
+      "The substrate concentration decreases",
+      "Ionisation states of amino acid side chains at the active site change, altering enzyme-substrate binding",
+      "The enzyme gains new coenzymes",
+      "Temperature automatically increases"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Changes in pH alter the ionisation of charged groups in the active site, disrupting substrate binding and catalytic efficiency.",
+      "why_others_wrong": "Substrate concentration is unrelated to pH shift per se; enzymes do not gain new coenzymes from pH changes; temperature is an independent variable, not automatically linked to pH changes.",
+      "concept_recap": "Pepsin (optimum pH ~2) and trypsin (optimum pH ~8) illustrate how different enzymes are adapted to different pH environments in the digestive tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-080",
+    "question": "A competitive inhibitor of an enzyme works by:",
+    "options": [
+      "Binding to a site distinct from the active site and changing enzyme shape",
+      "Structurally resembling the substrate and binding at the active site, blocking substrate binding",
+      "Permanently destroying the enzyme",
+      "Increasing the rate of the reaction"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A competitive inhibitor has a structure similar to the substrate and competes with it for binding at the active site, thereby reducing product formation.",
+      "why_others_wrong": "Binding at a distinct (non-active) site describes an allosteric/non-competitive inhibitor, not a competitive one; competitive inhibition does not permanently destroy the enzyme; it decreases, not increases, reaction rate.",
+      "concept_recap": "Competitive inhibition can typically be overcome by increasing substrate concentration, since it competes directly for the same site."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-081",
+    "question": "Which of the following statements about competitive inhibition is correct?",
+    "options": [
+      "It cannot be reversed by increasing substrate concentration",
+      "It can be overcome by increasing substrate concentration",
+      "The inhibitor binds at a site other than the active site",
+      "The inhibitor has no structural similarity to the substrate"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since competitive inhibitors compete directly with substrate for the active site, raising substrate concentration can outcompete the inhibitor and restore reaction rate.",
+      "why_others_wrong": "Competitive inhibition CAN be reversed by increasing substrate; the inhibitor binds AT the active site, not elsewhere; it DOES structurally resemble the substrate.",
+      "concept_recap": "This reversibility distinguishes competitive inhibition from irreversible or allosteric (non-competitive) inhibition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-082",
+    "question": "Malonate acting as a competitive inhibitor of succinate dehydrogenase is a classic example because malonate:",
+    "options": [
+      "Is structurally very similar to succinate, the natural substrate",
+      "Binds to an allosteric site distant from the active site",
+      "Increases the enzyme's activity",
+      "Is a coenzyme required for the reaction"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Malonate closely resembles succinate in structure, allowing it to competitively bind the active site of succinate dehydrogenase and block normal substrate binding.",
+      "why_others_wrong": "Malonate binds at the active site (not an allosteric site); it inhibits rather than increases enzyme activity; it functions as an inhibitor, not a coenzyme.",
+      "concept_recap": "This classic example from the Krebs cycle is frequently referenced to illustrate competitive inhibition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-083",
+    "question": "Enzymes belonging to the class 'oxidoreductases' catalyse reactions involving:",
+    "options": [
+      "Transfer of functional groups between molecules",
+      "Oxidation-reduction reactions",
+      "Hydrolysis of bonds using water",
+      "Isomerisation within a single molecule"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Oxidoreductases catalyse oxidation-reduction reactions, transferring electrons or hydrogen atoms between molecules.",
+      "why_others_wrong": "Group transfer describes transferases, hydrolysis describes hydrolases, and isomerisation describes isomerases — different enzyme classes.",
+      "concept_recap": "Enzymes are classified into six major classes based on the type of reaction they catalyse: oxidoreductases, transferases, hydrolases, lyases, isomerases, and ligases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-084",
+    "question": "Enzymes classified as 'hydrolases' catalyse which type of reaction?",
+    "options": [
+      "Transfer of a group other than hydrogen from one substrate to another",
+      "Hydrolysis of bonds such as ester, glycosidic, or peptide bonds with the addition of water",
+      "Removal of groups to form double bonds without hydrolysis",
+      "Joining of two molecules using ATP energy"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hydrolases catalyse the breaking of bonds (such as peptide, ester, or glycosidic bonds) through the addition of a water molecule.",
+      "why_others_wrong": "Group transfer without hydrogen involvement describes transferases; removal forming double bonds describes lyases; joining molecules using ATP describes ligases.",
+      "concept_recap": "Digestive enzymes like proteases, lipases, and amylases are common examples of hydrolases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-085",
+    "question": "Enzymes belonging to the 'ligase' class catalyse reactions that:",
+    "options": [
+      "Break large molecules into smaller ones using water",
+      "Join two molecules together, coupled with the hydrolysis of a high-energy bond such as ATP",
+      "Transfer electrons between molecules",
+      "Rearrange atoms within a single molecule"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Ligases catalyse the joining of two molecules, a process usually coupled with ATP hydrolysis to provide the necessary energy.",
+      "why_others_wrong": "Breaking molecules with water describes hydrolases; electron transfer describes oxidoreductases; intramolecular rearrangement describes isomerases.",
+      "concept_recap": "DNA ligase, which joins DNA fragments during replication and repair, is a classic example of this enzyme class."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-086",
+    "question": "Isomerases are enzymes that catalyse:",
+    "options": [
+      "Transfer of a functional group between two substrates",
+      "Structural rearrangement within a single molecule to form its isomer",
+      "Hydrolysis of peptide bonds",
+      "Formation of covalent bonds using ATP"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Isomerases catalyse the conversion of a molecule into one of its isomers by rearranging atoms within the same molecule.",
+      "why_others_wrong": "Group transfer between two substrates describes transferases; hydrolysis describes hydrolases; ATP-driven bond formation describes ligases.",
+      "concept_recap": "An example is the conversion of glucose-6-phosphate to fructose-6-phosphate during glycolysis, catalysed by an isomerase."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-087",
+    "question": "Transferases are enzymes that catalyse the:",
+    "options": [
+      "Transfer of a group, other than hydrogen, from one substrate to another",
+      "Oxidation of one substrate coupled with reduction of another",
+      "Hydrolysis of ester bonds",
+      "Formation of C-C bonds using CO2"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Transferases catalyse the transfer of a specific functional group (such as a phosphate or amino group) from a donor molecule to an acceptor molecule.",
+      "why_others_wrong": "Oxidation-reduction describes oxidoreductases; ester bond hydrolysis describes hydrolases (esterases); C-C bond formation using CO2 describes certain lyases/carboxylases.",
+      "concept_recap": "Kinases, which transfer phosphate groups from ATP to substrates, are a well-known subclass of transferases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-088",
+    "question": "An enzyme that catalyses the addition or removal of chemical groups to form a double bond, without hydrolysis, belongs to which class?",
+    "options": [
+      "Ligases",
+      "Lyases",
+      "Hydrolases",
+      "Isomerases"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Lyases catalyse the removal (or addition) of groups to form double bonds, without hydrolysis or oxidation.",
+      "why_others_wrong": "Ligases join molecules using ATP energy; hydrolases require water for bond breaking; isomerases rearrange atoms within a molecule, not forming new double bonds via elimination.",
+      "concept_recap": "Decarboxylases, which remove CO2 to form a double bond, are a common example of lyases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-089",
+    "question": "Allosteric inhibition of an enzyme occurs when an inhibitor:",
+    "options": [
+      "Binds directly at the active site, structurally mimicking the substrate",
+      "Binds at a site other than the active site, causing a conformational change that reduces enzyme activity",
+      "Increases the rate of substrate binding",
+      "Is chemically identical to the enzyme's normal product"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In allosteric (non-competitive) inhibition, the inhibitor binds at a regulatory site distinct from the active site, inducing a conformational change that decreases catalytic efficiency.",
+      "why_others_wrong": "Binding directly at the active site while mimicking the substrate describes competitive inhibition, not allosteric inhibition; allosteric inhibitors decrease, not increase, substrate binding rate; while feedback inhibitors are often the pathway's end product, this is not the general definition of allosteric inhibition.",
+      "concept_recap": "Allosteric inhibition typically cannot be overcome simply by increasing substrate concentration, unlike competitive inhibition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-090",
+    "question": "In feedback inhibition, the final product of a metabolic pathway inhibits which enzyme?",
+    "options": [
+      "The last enzyme in the pathway",
+      "The enzyme catalysing the first (or an early, committed) step of the pathway",
+      "Any random enzyme in the cell",
+      "An enzyme in an unrelated pathway"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Feedback inhibition typically involves the pathway's end product binding to and inhibiting an enzyme at an early, rate-limiting step, thereby conserving resources when the product is abundant.",
+      "why_others_wrong": "It's usually not the last enzyme but an early one that is inhibited; the inhibition is specific to the enzyme(s) of that pathway, not random or unrelated ones.",
+      "concept_recap": "This is a classic example of negative feedback regulation maintaining metabolic homeostasis within the cell."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-091",
+    "question": "Enzymes increase the rate of a biochemical reaction primarily by:",
+    "options": [
+      "Increasing the free energy of the products",
+      "Lowering the activation energy required for the reaction to proceed",
+      "Making the reaction more exergonic overall",
+      "Changing the equilibrium constant of the reaction"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Enzymes function by lowering the activation energy barrier, allowing the reaction to proceed faster without altering the overall energy change.",
+      "why_others_wrong": "Enzymes do not change the free energy of products, the overall exergonic/endergonic nature, or the equilibrium constant of a reaction — only the rate at which equilibrium is reached.",
+      "concept_recap": "Because they don't change equilibrium, enzymes speed up both forward and reverse reactions equally."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-092",
+    "question": "Which statement about enzymes is correct regarding their consumption during a reaction?",
+    "options": [
+      "Enzymes are consumed and destroyed in every reaction they catalyse",
+      "Enzymes remain chemically unchanged at the end of the reaction and can be reused",
+      "Enzymes are converted into substrate molecules",
+      "Enzymes become part of the final product permanently"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Enzymes act as catalysts, meaning they are not consumed in the reaction and can catalyse multiple reaction cycles.",
+      "why_others_wrong": "Enzymes are not destroyed, converted into substrate, or permanently incorporated into the product — they are regenerated after each catalytic cycle.",
+      "concept_recap": "This reusability is a hallmark feature distinguishing catalysts (including enzymes) from reactants."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-093",
+    "question": "The rate of an enzyme-catalysed reaction is generally highest at:",
+    "options": [
+      "Very low substrate and very low enzyme concentration",
+      "Optimum temperature, optimum pH and sufficient substrate concentration",
+      "Extremely high temperature, regardless of pH",
+      "Any pH as long as temperature is low"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Maximum enzyme activity occurs under optimum temperature and pH conditions, combined with sufficient (saturating) substrate availability.",
+      "why_others_wrong": "Very low concentrations of substrate/enzyme reduce activity; extremely high temperature typically denatures the enzyme regardless of pH; pH still matters even at low temperatures.",
+      "concept_recap": "Deviating from these optimum conditions in either direction (temperature or pH) generally reduces the reaction rate."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-094",
+    "question": "Trypsin, secreted as inactive trypsinogen and later activated in the small intestine, belongs to which class of enzymes based on its catalytic function?",
+    "options": [
+      "Oxidoreductase",
+      "Hydrolase",
+      "Ligase",
+      "Isomerase"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Trypsin is a protease that hydrolyses peptide bonds in proteins, placing it in the hydrolase class of enzymes.",
+      "why_others_wrong": "Trypsin does not catalyse oxidation-reduction, ligation, or isomerisation reactions — its core function is peptide bond hydrolysis.",
+      "concept_recap": "Zymogens like trypsinogen are secreted in inactive forms and activated at the site of action to prevent unwanted self-digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-095",
+    "question": "Ribozymes are unique because they demonstrate that:",
+    "options": [
+      "All enzymes are proteins without exception",
+      "Certain RNA molecules can also act as biological catalysts",
+      "DNA can catalyse reactions like an enzyme",
+      "Lipids can function as enzymes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Ribozymes are catalytic RNA molecules, showing that RNA (not just protein) can have enzymatic activity.",
+      "why_others_wrong": "Ribozymes are an exception disproving the idea that all enzymes are proteins; DNA and lipids are not established as having ribozyme-like catalytic activity.",
+      "concept_recap": "The discovery of ribozymes supported the 'RNA world' hypothesis regarding the origin of life."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-096",
+    "question": "The concept that the constituents of a living body are constantly being synthesised and broken down, even though the overall composition remains relatively stable, is referred to as:",
+    "options": [
+      "Static equilibrium",
+      "The dynamic state of body constituents",
+      "Denaturation equilibrium",
+      "Enzyme saturation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The 'dynamic state of body constituents' describes the continuous turnover — synthesis and breakdown — of molecules within the body, even while overall levels stay relatively constant.",
+      "why_others_wrong": "'Static equilibrium' contradicts the constant turnover described; 'denaturation equilibrium' and 'enzyme saturation' are unrelated concepts.",
+      "concept_recap": "This concept, introduced by Rudolf Schoenheimer, underlies our modern understanding of metabolic turnover in living systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-097",
+    "question": "The sum total of all biochemical reactions occurring within a living organism, including both synthesis and breakdown reactions, is called:",
+    "options": [
+      "Anabolism only",
+      "Catabolism only",
+      "Metabolism",
+      "Homeostasis"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Metabolism refers to the entire network of biochemical reactions in an organism, encompassing both anabolic (synthetic) and catabolic (breakdown) reactions.",
+      "why_others_wrong": "Anabolism and catabolism are each only a subset of overall metabolism; homeostasis refers to maintaining a stable internal environment, not the full set of chemical reactions.",
+      "concept_recap": "Metabolism sustains life by providing energy and building blocks needed for growth, repair, and function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-098",
+    "question": "Biochemical reactions that involve the breakdown of complex molecules into simpler ones, usually releasing energy, are termed:",
+    "options": [
+      "Anabolic reactions",
+      "Catabolic reactions",
+      "Isomerisation reactions",
+      "Condensation reactions"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Catabolic reactions break down complex molecules into simpler ones, typically releasing energy that can be captured (e.g., as ATP).",
+      "why_others_wrong": "Anabolic reactions build complex molecules from simpler ones (energy-consuming), while isomerisation and condensation describe specific reaction types rather than the general breakdown category.",
+      "concept_recap": "Cellular respiration, breaking down glucose to release energy, is a classic example of catabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-099",
+    "question": "Biosynthesis of complex molecules such as proteins from simpler precursor molecules like amino acids is an example of:",
+    "options": [
+      "Catabolism",
+      "Anabolism",
+      "Hydrolysis",
+      "Denaturation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Anabolic reactions involve building larger, more complex molecules from simpler ones, generally requiring an input of energy.",
+      "why_others_wrong": "Catabolism describes breakdown, not synthesis; hydrolysis is bond-breaking using water, not overall biosynthesis; denaturation describes loss of protein structure, unrelated to synthesis.",
+      "concept_recap": "Anabolic pathways (e.g., protein synthesis, photosynthesis) typically consume ATP or other energy sources."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-100",
+    "question": "Which of the following biomolecules would give a positive test with Sudan III/Sudan IV stain, indicating its presence in a tissue sample?",
+    "options": [
+      "Protein",
+      "Carbohydrate",
+      "Lipid",
+      "Nucleic acid"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Sudan III/IV stains are lipid-specific dyes that colour fat droplets, making them a standard test for identifying lipids in tissue samples.",
+      "why_others_wrong": "Proteins, carbohydrates, and nucleic acids are not detected by Sudan stains; they require different specific tests (e.g., Biuret test for proteins, Benedict's test for reducing sugars).",
+      "concept_recap": "Histochemical staining techniques like Sudan stains help visually localise specific biomolecule classes within tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-101",
+    "question": "The Biuret test, used to detect the presence of proteins in a sample, gives a positive result due to the reaction of copper ions with:",
+    "options": [
+      "Glycosidic bonds",
+      "Peptide bonds",
+      "Phosphodiester bonds",
+      "Ester bonds"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Biuret test detects peptide bonds; in alkaline conditions, copper (II) ions form a violet-coloured complex with peptide bonds, indicating protein presence.",
+      "why_others_wrong": "Glycosidic, phosphodiester, and ester bonds are found in carbohydrates, nucleic acids, and lipids/esters respectively — none react in the characteristic Biuret reaction.",
+      "concept_recap": "A positive Biuret test (violet/purple colour) confirms the presence of two or more peptide bonds, i.e., proteins or peptides."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-102",
+    "question": "Which of the following biomolecule classes would test positive using Benedict's reagent, indicating the presence of a reducing sugar?",
+    "options": [
+      "Sucrose",
+      "Glucose",
+      "Starch",
+      "Cellulose"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glucose is a reducing sugar with a free aldehyde group that reduces Benedict's reagent, producing a colour change (brick-red precipitate).",
+      "why_others_wrong": "Sucrose is a non-reducing sugar (no free anomeric carbon available); starch and cellulose are polysaccharides that do not directly react with Benedict's reagent without hydrolysis.",
+      "concept_recap": "Benedict's test is commonly used to detect reducing sugars such as glucose, fructose, and maltose."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-103",
+    "question": "Which statement correctly compares the relative strength of A-T versus G-C base pairing in DNA?",
+    "options": [
+      "A-T pairing is stronger than G-C pairing because it has more hydrogen bonds",
+      "G-C pairing is stronger than A-T pairing because it has three hydrogen bonds compared to two in A-T",
+      "A-T and G-C pairings have equal strength",
+      "Base pairing strength does not depend on the number of hydrogen bonds"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "G-C base pairs form three hydrogen bonds compared to the two formed by A-T pairs, making G-C pairing stronger and requiring more energy to separate.",
+      "why_others_wrong": "A-T does not have more hydrogen bonds than G-C; the two pairings are not of equal strength; hydrogen bond number does directly influence base-pairing strength.",
+      "concept_recap": "This difference explains why DNA regions with higher G-C content have a higher melting temperature."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-104",
+    "question": "A student observes that increasing enzyme concentration (while keeping substrate concentration high and constant) increases the reaction rate proportionally. This trend would be expected to continue until:",
+    "options": [
+      "The substrate becomes limiting",
+      "The enzyme becomes denatured",
+      "Forever, without any limit",
+      "The temperature drops to zero"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "As long as substrate is in excess, increasing enzyme concentration proportionally increases the rate; but eventually, if substrate is fixed, it becomes the limiting factor and rate plateaus.",
+      "why_others_wrong": "Denaturation is a separate variable (usually temperature/pH driven) not implied by simply adding more enzyme; unlimited increase is physically impossible once substrate limits the system; temperature dropping to zero is unrelated to this substrate-vs-enzyme relationship.",
+      "concept_recap": "This illustrates that reaction rate depends on whichever component (enzyme or substrate) is limiting under given conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-105",
+    "question": "Which of the following best explains why cellulose cannot be digested by humans, despite both cellulose and starch being polymers of glucose?",
+    "options": [
+      "Humans lack enzymes capable of hydrolysing the beta-1,4-glycosidic bonds in cellulose",
+      "Cellulose is not made of glucose at all",
+      "Cellulose lacks glycosidic bonds entirely",
+      "Humans lack the enzyme to hydrolyse alpha-1,4-glycosidic bonds"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Human digestive enzymes (like amylase) can hydrolyse alpha-1,4-glycosidic bonds found in starch but cannot cleave the beta-1,4-glycosidic bonds present in cellulose, so cellulose passes through undigested as dietary fibre.",
+      "why_others_wrong": "Cellulose is indeed made of glucose (beta-D-glucose); it does contain glycosidic bonds (just a different type); humans do possess amylase capable of hydrolysing alpha-1,4 bonds in starch, which is why starch is digestible.",
+      "concept_recap": "Only certain microorganisms (e.g., in ruminant guts) produce cellulase enzymes capable of breaking beta-1,4 bonds."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-106",
+    "question": "If a globular enzyme is placed in an environment far from its optimum pH, which type of bond in its tertiary structure is most directly disrupted, potentially altering its shape?",
+    "options": [
+      "Peptide bonds in the backbone",
+      "Ionic bonds between charged R groups",
+      "Glycosidic bonds",
+      "Phosphodiester bonds"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Extreme pH changes alter the ionisation state of acidic and basic R groups, disrupting the ionic (electrostatic) bonds that help stabilise tertiary structure.",
+      "why_others_wrong": "Peptide bonds (covalent, backbone) are generally stable to pH changes that denature proteins; glycosidic and phosphodiester bonds are not part of protein structure at all.",
+      "concept_recap": "Along with ionic bonds, hydrogen bonds can also be affected by pH shifts, together contributing to denaturation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-107",
+    "question": "A researcher finds that adding excess substrate to a reaction mixture containing an inhibited enzyme restores the original (uninhibited) reaction rate. This observation is most consistent with which type of inhibition?",
+    "options": [
+      "Competitive inhibition",
+      "Non-competitive (allosteric) inhibition",
+      "Irreversible inhibition",
+      "Feedback inhibition by an unrelated pathway product"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Competitive inhibition can be overcome by increasing substrate concentration because the inhibitor and substrate compete for the same active site.",
+      "why_others_wrong": "Non-competitive/allosteric inhibition typically cannot be reversed simply by adding more substrate since the inhibitor binds elsewhere; irreversible inhibition permanently inactivates the enzyme; unrelated feedback inhibition doesn't fit this substrate-competition scenario.",
+      "concept_recap": "This substrate-concentration dependency is a key experimental way to distinguish competitive from non-competitive inhibition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-108",
+    "question": "Which of the following correctly ranks biomolecules from smallest to largest typical molecular size?",
+    "options": [
+      "Protein < Amino acid < Polysaccharide",
+      "Amino acid < Protein < Polysaccharide (varies by chain length)",
+      "Polysaccharide < Amino acid < Protein",
+      "Amino acid < Polysaccharide < Amino acid"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Amino acids are small micromolecules, proteins are macromolecules built from many amino acids, and large polysaccharides can be extremely long polymers — generally amino acids are the smallest of the three.",
+      "why_others_wrong": "The other orderings incorrectly place the smallest micromolecule (amino acid) above macromolecules, or are internally inconsistent/nonsensical.",
+      "concept_recap": "Size comparisons depend on degree of polymerisation, but micromolecules like amino acids are always smaller than the macromolecular polymers built from them."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-109",
+    "question": "An enzyme has an optimum pH of 7.4 in the human body. If this enzyme is exposed to a highly acidic environment (pH 2), which of the following is the most likely outcome?",
+    "options": [
+      "The enzyme's activity will increase substantially",
+      "The enzyme may denature and lose most or all of its catalytic activity",
+      "The enzyme's substrate specificity will improve",
+      "No change will occur in enzyme activity"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Exposure to a pH far from the enzyme's optimum (7.4) typically disrupts ionic and hydrogen bonds, denaturing the enzyme and reducing or eliminating its activity.",
+      "why_others_wrong": "Activity would not increase under such non-optimal, denaturing conditions; substrate specificity would not improve, since the active site's shape is compromised; a significant change (not 'no change') would be expected under such an extreme pH shift.",
+      "concept_recap": "This explains why pepsin (active at low pH) and trypsin (active at higher pH) are secreted in different regions of the digestive tract suited to their optimum pH."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-110",
+    "question": "Which of the following correctly pairs a nitrogenous base with its ring structure classification?",
+    "options": [
+      "Adenine — pyrimidine",
+      "Cytosine — purine",
+      "Guanine — purine",
+      "Thymine — purine"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Guanine is correctly classified as a purine, having the characteristic fused double-ring structure shared with adenine.",
+      "why_others_wrong": "Adenine is a purine, not a pyrimidine; cytosine is a pyrimidine, not a purine; thymine is also a pyrimidine, not a purine.",
+      "concept_recap": "Purines (adenine, guanine) have two fused rings; pyrimidines (cytosine, thymine, uracil) have a single ring."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-111",
+    "question": "Which of the following is true regarding the specificity of enzymes for their substrates?",
+    "options": [
+      "All enzymes act on a wide, non-specific range of substrates",
+      "Most enzymes are highly specific, acting on one substrate or a closely related group of substrates",
+      "Enzyme specificity has no relation to active site shape",
+      "Specificity only applies to hydrolase enzymes"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Enzymes generally show high specificity for their substrates, a property directly related to the precise three-dimensional shape and chemical environment of the active site.",
+      "why_others_wrong": "Enzymes are not broadly non-specific; specificity is directly tied to active site shape, not unrelated to it; specificity is a general property across enzyme classes, not limited to hydrolases.",
+      "concept_recap": "This high specificity allows the cell to regulate thousands of distinct biochemical reactions precisely and independently."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-112",
+    "question": "Which of the following would most likely act as a competitive inhibitor for succinate dehydrogenase, an enzyme in the Krebs cycle that converts succinate to fumarate?",
+    "options": [
+      "A molecule structurally unrelated to succinate",
+      "A molecule structurally similar to succinate that can occupy the active site",
+      "A molecule that binds only to the enzyme's allosteric site",
+      "Water"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "For competitive inhibition to occur, the inhibitor must structurally resemble the substrate (succinate) closely enough to bind at the same active site and block normal catalysis.",
+      "why_others_wrong": "A structurally unrelated molecule would be unlikely to bind the active site; binding only at an allosteric site describes non-competitive, not competitive, inhibition; water is a reactant/product in many reactions, not a typical competitive inhibitor here.",
+      "concept_recap": "Malonate is the well-known real-world example fitting this description for succinate dehydrogenase."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-113",
+    "question": "A biology student extracts a tissue sample and finds that after TCA precipitation, the acid-soluble fraction shows the presence of amino acids and nucleotides, while the pellet contains a substance that gives a positive Biuret test. The pellet substance is most likely:",
+    "options": [
+      "A polysaccharide",
+      "A protein",
+      "A lipid",
+      "A monosaccharide"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A positive Biuret test specifically indicates the presence of peptide bonds, which are characteristic of proteins found in the acid-insoluble pellet.",
+      "why_others_wrong": "Polysaccharides, lipids, and monosaccharides do not contain peptide bonds and would not give a positive Biuret test.",
+      "concept_recap": "Combining fractionation technique (TCA precipitation) with specific biochemical tests (Biuret) allows identification of macromolecule classes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-114",
+    "question": "In the context of protein structure, a mutation that changes a single amino acid in the primary structure could potentially affect:",
+    "options": [
+      "Only the primary structure, with no effect on higher-order structure",
+      "Potentially all higher levels of structure (secondary, tertiary, and quaternary) and thus protein function",
+      "Only the quaternary structure",
+      "Nothing, since amino acid changes never affect protein shape"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since primary structure (amino acid sequence) determines all higher levels of folding, even a single amino acid change can potentially disrupt secondary, tertiary, and quaternary structure and hence function.",
+      "why_others_wrong": "The effect is not necessarily confined to primary structure alone, to quaternary structure alone, or entirely absent — sequence changes can propagate through all structural levels.",
+      "concept_recap": "Sickle cell haemoglobin, caused by a single amino acid substitution, is a classic real-world example of this principle."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-115",
+    "question": "Which of the following best explains why RNA is generally considered less chemically stable than DNA?",
+    "options": [
+      "RNA contains thymine while DNA contains uracil",
+      "The 2'-OH group present in ribose (RNA) but absent in deoxyribose (DNA) makes RNA more susceptible to hydrolysis",
+      "RNA is double-stranded while DNA is single-stranded",
+      "RNA lacks a phosphate backbone"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The 2'-hydroxyl group on ribose in RNA makes the molecule more chemically reactive and prone to hydrolytic cleavage compared to the more stable deoxyribose backbone of DNA.",
+      "why_others_wrong": "It is actually DNA that contains thymine and RNA that contains uracil (reversed in the statement); RNA is typically single-stranded while DNA is typically double-stranded (also reversed); RNA does have a phosphate backbone, just like DNA.",
+      "concept_recap": "This structural difference is one reason DNA, not RNA, serves as the primary long-term genetic material in most organisms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-116",
+    "question": "Which of the following statements about the acid-insoluble fraction of a cell is INCORRECT?",
+    "options": [
+      "It contains proteins",
+      "It contains nucleic acids",
+      "It contains polysaccharides",
+      "It contains free amino acids and simple sugars"
+    ],
+    "answer": "D",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Free amino acids and simple sugars belong to the acid-soluble pool, not the acid-insoluble fraction, making this statement the incorrect one.",
+      "why_others_wrong": "Proteins, nucleic acids, and polysaccharides are all correctly described as components of the acid-insoluble (macromolecular) fraction.",
+      "concept_recap": "This question tests the ability to distinguish which biomolecules fall into each fraction after TCA precipitation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-117",
+    "question": "Which of the following is a reducing sugar because it possesses a free anomeric carbon capable of being oxidised?",
+    "options": [
+      "Sucrose",
+      "Maltose",
+      "Trehalose",
+      "Starch"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Maltose has a free anomeric carbon on one of its glucose units, allowing it to act as a reducing sugar in tests like Benedict's or Fehling's.",
+      "why_others_wrong": "Sucrose and trehalose are non-reducing sugars because both anomeric carbons are involved in the glycosidic bond; starch is a large polysaccharide that does not readily reduce test reagents without hydrolysis.",
+      "concept_recap": "Reducing sugars have a free aldehyde or ketone group that can donate electrons in redox-based sugar tests."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-118",
+    "question": "Deoxyribose differs from ribose specifically at which carbon position?",
+    "options": [
+      "1' carbon",
+      "2' carbon",
+      "3' carbon",
+      "5' carbon"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Deoxyribose lacks a hydroxyl group at the 2' carbon (having only hydrogen there), whereas ribose has an -OH group at this position.",
+      "why_others_wrong": "The 1', 3', and 5' carbon positions are chemically similar in both sugars; the defining difference is specifically at the 2' position.",
+      "concept_recap": "This 2'-deoxy modification is reflected in the name 'deoxyribonucleic acid' (DNA)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-119",
+    "question": "Inulin, a storage polysaccharide found in some plants like dahlia tubers, is a polymer of which monosaccharide?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Galactose",
+      "Ribose"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Inulin is composed of fructose units and is used by certain plants as a storage carbohydrate instead of starch.",
+      "why_others_wrong": "Glucose is the monomer of starch/glycogen/cellulose, not inulin; galactose and ribose are not the monomer of inulin.",
+      "concept_recap": "Inulin is of interest in food science as a prebiotic dietary fibre since humans lack the enzyme to digest it."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-120",
+    "question": "Which of the following amino acids is unique among the standard 20 in lacking an asymmetric (chiral) alpha-carbon?",
+    "options": [
+      "Alanine",
+      "Glycine",
+      "Valine",
+      "Leucine"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glycine's side chain (R group) is simply a hydrogen atom, making its alpha-carbon attached to two identical groups and therefore not chiral, unlike other amino acids.",
+      "why_others_wrong": "Alanine, valine, and leucine all have distinct R groups that create a chiral (asymmetric) alpha-carbon.",
+      "concept_recap": "Because it lacks a bulky side chain, glycine often occurs at tight turns in protein structures."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-121",
+    "question": "Which of the following best describes a conjugated protein?",
+    "options": [
+      "A protein made entirely of one type of amino acid",
+      "A protein combined with a non-protein prosthetic group, such as haemoglobin with its heme group",
+      "A protein that has been completely denatured",
+      "A protein lacking any secondary structure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Conjugated proteins consist of a protein portion associated with a non-protein component (prosthetic group), such as the heme group in haemoglobin or myoglobin.",
+      "why_others_wrong": "Being made of one amino acid type, being denatured, or lacking secondary structure do not define a conjugated protein — the key feature is the non-protein prosthetic component.",
+      "concept_recap": "Other examples of conjugated proteins include glycoproteins (with carbohydrate groups) and lipoproteins (with lipid components)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-122",
+    "question": "A glycoprotein is a conjugated protein in which the protein is covalently linked to:",
+    "options": [
+      "A lipid molecule",
+      "A carbohydrate group",
+      "A metal ion only",
+      "A nucleic acid strand"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glycoproteins have carbohydrate chains covalently attached to the protein, often important in cell recognition and membrane functions.",
+      "why_others_wrong": "Lipid attachment describes lipoproteins, not glycoproteins; metal ion binding alone doesn't define a glycoprotein; nucleic acid attachment is not characteristic of glycoproteins.",
+      "concept_recap": "Many cell-surface receptors and antibodies are glycoproteins, with sugar chains playing roles in molecular recognition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-123",
+    "question": "Which type of interaction, arising from the tendency of non-polar amino acid side chains to cluster away from water, contributes significantly to protein folding?",
+    "options": [
+      "Ionic interactions",
+      "Hydrophobic interactions",
+      "Disulfide bonds",
+      "Peptide bonds"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hydrophobic interactions occur as non-polar side chains cluster together in the protein's interior, away from the surrounding aqueous environment, driving proper folding.",
+      "why_others_wrong": "Ionic interactions involve charged groups, disulfide bonds involve covalent sulfur linkages, and peptide bonds form the backbone — none specifically describe non-polar clustering away from water.",
+      "concept_recap": "This hydrophobic effect is often considered a major driving force in the spontaneous folding of globular proteins."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-124",
+    "question": "Which of the following best distinguishes a polypeptide from a protein?",
+    "options": [
+      "A polypeptide always has enzymatic activity while a protein does not",
+      "A polypeptide is simply a chain of amino acids linked by peptide bonds, while the term protein often refers to one or more polypeptides folded into a functional, biologically active structure",
+      "A polypeptide contains sugars while a protein does not",
+      "There is no difference between the two terms"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A polypeptide refers to the linear chain of amino acid residues, while 'protein' typically denotes the functional, folded molecule that may consist of one or more polypeptide chains.",
+      "why_others_wrong": "Enzymatic activity is not a distinguishing criterion by definition; sugar content is unrelated to this distinction (that would define a glycoprotein); the terms are related but not strictly identical, as protein implies functional folding.",
+      "concept_recap": "In casual usage the terms are often used interchangeably, but precise usage reserves 'protein' for the biologically functional folded form."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-125",
+    "question": "Ghee (clarified butter), which is solid at room temperature, most likely contains a high proportion of which type of fatty acids?",
+    "options": [
+      "Unsaturated fatty acids",
+      "Saturated fatty acids",
+      "Only essential fatty acids",
+      "Only phospholipids"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Saturated fatty acids, lacking double bonds, pack tightly together and tend to be solid at room temperature, as seen in animal fats like ghee and butter.",
+      "why_others_wrong": "Unsaturated fatty acids (common in plant oils) are typically liquid at room temperature; ghee is not composed solely of essential fatty acids or phospholipids.",
+      "concept_recap": "This difference in physical state helps distinguish saturated animal fats from unsaturated plant oils in everyday observation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-126",
+    "question": "Which of the following best describes the general chemical nature of a fat molecule (triglyceride)?",
+    "options": [
+      "An ester of glycerol and three fatty acid molecules",
+      "An amide of glycerol and amino acids",
+      "A polymer of glucose units",
+      "A phosphate ester of ribose"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A triglyceride (fat) is formed via ester bonds between one glycerol molecule and three fatty acid molecules.",
+      "why_others_wrong": "Amide bonds with amino acids describe proteins, not fats; glucose polymers describe polysaccharides; phosphate esters of ribose describe nucleotides.",
+      "concept_recap": "The formation of each ester bond in a triglyceride releases one water molecule, a condensation reaction similar to peptide and glycosidic bond formation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-127",
+    "question": "In a DNA double helix, the two polynucleotide strands run in which orientation relative to each other?",
+    "options": [
+      "Parallel (both 5' to 3' in the same direction)",
+      "Antiparallel (one strand 5' to 3', the other 3' to 5')",
+      "Perpendicular to each other",
+      "Randomly oriented with no fixed direction"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The two strands of the DNA double helix run in opposite (antiparallel) directions — one 5' to 3' and the complementary strand 3' to 5'.",
+      "why_others_wrong": "The strands are not parallel (same direction), not perpendicular, and not randomly oriented — antiparallel arrangement is a defined structural feature.",
+      "concept_recap": "This antiparallel arrangement is essential for correct base pairing and has major implications for how DNA replication proceeds."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-128",
+    "question": "A single strand of RNA, unlike DNA, can fold back on itself to form local double-stranded regions. This is most clearly seen in which type of RNA's secondary structure?",
+    "options": [
+      "mRNA only",
+      "tRNA, which forms a cloverleaf shape through intramolecular base pairing",
+      "rRNA cannot fold at all",
+      "hnRNA lacks any secondary structure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "tRNA folds back on itself through intramolecular complementary base pairing, forming stem-loop regions that create its characteristic cloverleaf secondary structure.",
+      "why_others_wrong": "mRNA's primary role doesn't emphasise this specific folding pattern in the same defining way; rRNA does have complex folded secondary structure (statement is false); hnRNA can have secondary structural elements too.",
+      "concept_recap": "This folding pattern in tRNA is essential for correctly positioning the anticodon and amino-acid-binding regions during translation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-129",
+    "question": "How many different nitrogenous bases are typically found in a molecule of DNA?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "DNA contains four standard nitrogenous bases: adenine, guanine, cytosine, and thymine.",
+      "why_others_wrong": "Two, three, and five do not match the standard number of nitrogenous bases in DNA.",
+      "concept_recap": "RNA also has four bases, but uracil replaces thymine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-130",
+    "question": "A 100% pure protein sample is found to be 16% nitrogen by weight. If a food sample yields 0.8 g of nitrogen upon analysis, what is the approximate mass of protein present? (Use the standard nitrogen-to-protein conversion factor of 6.25)",
+    "options": [
+      "0.8 g",
+      "5.0 g",
+      "8.0 g",
+      "16.0 g"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since protein is approximately 16% nitrogen, multiplying the nitrogen mass by the conversion factor 6.25 (100/16) gives 0.8 x 6.25 = 5.0 g of protein.",
+      "why_others_wrong": "0.8 g is just the nitrogen mass itself, not the protein mass; 8.0 g and 16.0 g do not correctly apply the 6.25 conversion factor to 0.8 g nitrogen.",
+      "concept_recap": "The 6.25 nitrogen-to-protein conversion factor is a standard method used in food science based on the average 16% nitrogen content of proteins."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-131",
+    "question": "An enzyme follows Michaelis-Menten kinetics with a given Km value. A low Km value for an enzyme-substrate pair indicates:",
+    "options": [
+      "Low affinity of the enzyme for its substrate",
+      "High affinity of the enzyme for its substrate, since it reaches half-maximal velocity at a low substrate concentration",
+      "The enzyme has no active site",
+      "The reaction cannot be catalysed"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Km is the substrate concentration at which the reaction reaches half of its maximum velocity; a low Km means the enzyme achieves this at a low substrate concentration, indicating high substrate affinity.",
+      "why_others_wrong": "A low Km actually indicates high, not low, affinity; every enzyme by definition has an active site; a defined Km value implies the reaction is indeed being catalysed.",
+      "concept_recap": "Km is a key kinetic parameter used to compare the substrate affinities of different enzymes or the same enzyme for different substrates."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-132",
+    "question": "Which of the following would most directly increase the Vmax of an enzyme-catalysed reaction, assuming substrate is not limiting?",
+    "options": [
+      "Adding a competitive inhibitor",
+      "Increasing the total enzyme concentration",
+      "Lowering the temperature far below optimum",
+      "Removing all cofactors required by the enzyme"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since Vmax reflects the maximum rate achievable when all enzyme active sites are saturated with substrate, increasing the total amount of enzyme raises the ceiling of maximum velocity.",
+      "why_others_wrong": "A competitive inhibitor does not change true Vmax (it can still be reached at high substrate, though apparent Km increases); lowering temperature below optimum slows the reaction rather than raising Vmax; removing required cofactors would decrease or abolish enzyme activity, not increase it.",
+      "concept_recap": "Distinguishing effects on Km versus Vmax is central to understanding different types of enzyme inhibition and regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-133",
+    "question": "Which of the following statements correctly differentiates competitive from non-competitive inhibition in terms of kinetic parameters?",
+    "options": [
+      "Competitive inhibition increases apparent Km but does not change Vmax; non-competitive inhibition decreases Vmax but does not change Km",
+      "Competitive inhibition decreases Vmax; non-competitive inhibition increases Km",
+      "Both types of inhibition always change both Km and Vmax identically",
+      "Neither type of inhibition affects Km or Vmax"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Competitive inhibitors raise the apparent Km (more substrate needed to reach half-Vmax) but true Vmax remains achievable at saturating substrate; non-competitive inhibitors reduce Vmax since some enzyme is always blocked, but Km remains unchanged since binding affinity for substrate isn't altered.",
+      "why_others_wrong": "It's non-competitive inhibition that decreases Vmax, not competitive, and competitive inhibition that increases Km, not non-competitive; the two forms have distinct, not identical, kinetic effects; both do have measurable effects on kinetic parameters.",
+      "concept_recap": "This kinetic distinction is often visualised using Lineweaver-Burk double-reciprocal plots."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-134",
+    "question": "Considering that hydrogen bonds are individually weak but numerous in macromolecules like DNA and proteins, which best explains their biological significance?",
+    "options": [
+      "Individually weak bonds have no biological importance",
+      "Numerous weak, non-covalent bonds collectively provide structural stability while still allowing reversible unwinding/unfolding when needed (e.g., during replication or catalysis)",
+      "Hydrogen bonds are stronger than covalent bonds in biomolecules",
+      "Hydrogen bonds permanently and irreversibly hold macromolecules together"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The cumulative effect of many weak hydrogen bonds gives biomolecules structural stability while still permitting reversible processes like DNA strand separation during replication or protein conformational changes during function.",
+      "why_others_wrong": "Individually weak bonds are biologically significant in aggregate; hydrogen bonds are weaker, not stronger, than covalent bonds; their reversibility (not permanence) is exactly what makes them biologically useful for dynamic processes.",
+      "concept_recap": "This balance between stability and reversibility is a recurring theme in molecular biology, especially in DNA replication, transcription, and protein folding/unfolding."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-135",
+    "question": "If the DNA of an organism has 20% adenine, what would be the expected percentage of guanine, assuming standard Watson-Crick base pairing?",
+    "options": [
+      "20%",
+      "30%",
+      "40%",
+      "60%"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since A=T (20% each, totalling 40%), the remaining 60% is shared equally between G and C, giving 30% guanine and 30% cytosine.",
+      "why_others_wrong": "20% would only be correct if G equalled A, which is not required by base-pairing rules; 40% and 60% do not correctly apply the A+T+G+C=100% and A=T, G=C relationships.",
+      "concept_recap": "This type of calculation directly applies Chargaff's rules (A=T, G=C, and A+G=T+C=50% only in special symmetric cases) to determine unknown base percentages."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-136",
+    "question": "A protein is found to retain its biological activity after mild heating but loses activity irreversibly after being heated to 90°C for an extended period. This is best explained by:",
+    "options": [
+      "Mild heat has no effect on protein structure, while extreme heat causes irreversible denaturation by disrupting most stabilising bonds",
+      "The protein is destroyed at the primary structure level even at mild temperatures",
+      "Heat always increases enzyme activity regardless of temperature",
+      "Only covalent peptide bonds are affected by any level of heating"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "At mild temperatures, weak stabilising interactions may be only slightly perturbed and can reform (reversible effects or no major disruption), but extended exposure to extreme heat (90°C) disrupts hydrogen bonds, ionic interactions and hydrophobic interactions extensively, causing irreversible denaturation.",
+      "why_others_wrong": "Primary structure (covalent peptide bonds) is generally not broken by heat alone at these temperatures; enzyme activity does not increase indefinitely with heat — excessive heat destroys function; it is primarily the non-covalent interactions (not peptide bonds) that are most heat-sensitive.",
+      "concept_recap": "This differential sensitivity to temperature is why enzymes have characteristic optimum temperatures and can be irreversibly inactivated by excessive heat, as used in techniques like pasteurisation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-137",
+    "question": "Which of the following sequences correctly represents the increasing order of structural complexity in protein organisation?",
+    "options": [
+      "Quaternary < Tertiary < Secondary < Primary",
+      "Primary < Secondary < Tertiary < Quaternary",
+      "Secondary < Primary < Quaternary < Tertiary",
+      "Tertiary < Primary < Secondary < Quaternary"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Protein structure builds hierarchically: primary (sequence) determines secondary (local folding patterns), which contributes to tertiary (overall 3D shape of one chain), which can further assemble into quaternary (multi-chain) structure.",
+      "why_others_wrong": "The other sequences place these levels out of their correct hierarchical, building-block order.",
+      "concept_recap": "Not all proteins reach quaternary structure — only those composed of more than one polypeptide chain."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-138",
+    "question": "In an experiment, an enzyme's reaction rate is measured at increasing substrate concentrations while enzyme concentration is held constant. A graph of reaction velocity versus substrate concentration would be expected to show which shape?",
+    "options": [
+      "A straight line through the origin, continuing indefinitely",
+      "A rectangular hyperbola that approaches but never quite reaches Vmax",
+      "A downward sloping straight line",
+      "A perfect circle"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The classic Michaelis-Menten plot of velocity versus substrate concentration is a rectangular hyperbola, rising steeply at low substrate concentrations and asymptotically approaching Vmax at high substrate concentrations.",
+      "why_others_wrong": "A straight line through the origin extending indefinitely ignores enzyme saturation; a downward sloping line would suggest decreasing rate with more substrate, which is incorrect under normal conditions; a circular shape is not a real kinetic relationship.",
+      "concept_recap": "This hyperbolic saturation curve is a hallmark of enzyme kinetics and distinguishes catalysed from uncatalysed reactions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-139",
+    "question": "Which best explains why enzymes, despite being present in very small (catalytic) amounts in cells, can process large amounts of substrate rapidly?",
+    "options": [
+      "Enzymes are permanently altered after use, requiring constant new synthesis for every substrate molecule",
+      "Enzymes are not consumed in the reaction and can repeatedly bind, convert, and release substrate molecules in rapid succession",
+      "Enzymes work only once and then must be replaced entirely",
+      "Enzymes require exactly stoichiometric amounts equal to the substrate"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Because enzymes act as true catalysts, they are regenerated after each catalytic cycle and can process (turn over) many substrate molecules per second, explaining their effectiveness even at low concentrations.",
+      "why_others_wrong": "Enzymes are not permanently altered nor do they need constant resynthesis after each single use; they are reused, not discarded, after one substrate is processed; catalytic amounts, not stoichiometric amounts, are sufficient because of this reusability.",
+      "concept_recap": "This 'turnover number' concept quantifies how many substrate molecules a single enzyme molecule can convert per unit time."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-140",
+    "question": "Which of the following would NOT typically disrupt the secondary and tertiary structure of a globular protein?",
+    "options": [
+      "Extreme heat",
+      "Extreme pH change",
+      "High concentrations of urea (a chaotropic agent)",
+      "Storage at the protein's normal physiological temperature and pH"
+    ],
+    "answer": "D",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Storing a protein under its normal physiological temperature and pH conditions maintains the environment in which its native structure is stable, so it would not cause denaturation.",
+      "why_others_wrong": "Extreme heat, extreme pH, and chaotropic agents like urea are all well-known denaturing agents that disrupt the weak bonds maintaining protein structure.",
+      "concept_recap": "Understanding denaturing versus native (stable) conditions is essential for storing and handling biological samples like enzymes and antibodies."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-141",
+    "question": "A scientist wants to distinguish between DNA and RNA in a mixed sample without using sequencing. Which single test could most directly help distinguish the two based on a fundamental chemical difference?",
+    "options": [
+      "Testing for the presence of phosphate groups (present in both, so uninformative)",
+      "Testing for the presence of a 2'-hydroxyl group on the sugar (present in RNA, absent in DNA)",
+      "Testing for the presence of nitrogenous bases (present in both, uninformative)",
+      "Testing for solubility in water (both are water-soluble)"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Because ribose (in RNA) has a 2'-OH group that deoxyribose (in DNA) lacks, a chemical test targeting this hydroxyl group can distinguish the two nucleic acids.",
+      "why_others_wrong": "Phosphate groups, nitrogenous bases, and water solubility are common to both DNA and RNA and would not help distinguish between them.",
+      "concept_recap": "This 2'-OH difference is also the basis for RNA's greater chemical reactivity and susceptibility to hydrolysis compared to DNA."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-142",
+    "question": "Which of the following correctly identifies a key structural difference between amylose and amylopectin, both components of starch?",
+    "options": [
+      "Amylose is branched while amylopectin is unbranched",
+      "Amylose is an unbranched helical chain of alpha-1,4-linked glucose, while amylopectin is branched with additional alpha-1,6 linkages",
+      "Amylose contains beta-glycosidic bonds while amylopectin contains alpha bonds",
+      "There is no structural difference between the two"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Amylose is an unbranched, helical polymer of glucose joined by alpha-1,4-glycosidic bonds, while amylopectin has a branched structure due to additional alpha-1,6-glycosidic bonds at branch points.",
+      "why_others_wrong": "It is amylopectin, not amylose, that is branched; both amylose and amylopectin use alpha-glycosidic bonds (not beta); the two do have a clear structural difference, so 'no difference' is incorrect.",
+      "concept_recap": "Starch is typically a mixture of both amylose (~20%) and amylopectin (~80%) in most plant sources."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-143",
+    "question": "Which of the following is an example of a heteropolysaccharide, containing more than one type of monomer unit?",
+    "options": [
+      "Starch",
+      "Cellulose",
+      "Peptidoglycan (murein) of bacterial cell walls",
+      "Glycogen"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Peptidoglycan contains alternating amino sugars (N-acetylglucosamine and N-acetylmuramic acid) cross-linked with short peptide chains, making it a heteropolymer.",
+      "why_others_wrong": "Starch, cellulose, and glycogen are all homopolysaccharides built entirely from glucose units.",
+      "concept_recap": "Peptidoglycan's unique composition is the target of antibiotics like penicillin, which inhibit its synthesis in bacteria."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-144",
+    "question": "Which vitamin serves as a precursor for the coenzyme NAD+, essential in many oxidation-reduction reactions in metabolism?",
+    "options": [
+      "Vitamin C",
+      "Niacin (Vitamin B3)",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Niacin (Vitamin B3) is the precursor used by cells to synthesise NAD+ and NADP+, coenzymes central to cellular respiration and biosynthesis.",
+      "why_others_wrong": "Vitamin C, A, and D do not serve as the direct precursor for NAD+ synthesis.",
+      "concept_recap": "Many B-vitamins function as precursors for essential coenzymes, linking dietary micronutrients directly to enzymatic metabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-145",
+    "question": "Which of the following statements about enzyme active sites is correct?",
+    "options": [
+      "The active site constitutes the entire volume of the enzyme molecule",
+      "The active site is typically a small region/cleft of the enzyme where substrate binding and catalysis occur",
+      "Every amino acid in the protein directly participates in catalysis",
+      "The active site is identical in shape across all enzymes"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The active site is usually a small, specific pocket or cleft formed by a subset of amino acids, where substrate binding and the chemical reaction take place.",
+      "why_others_wrong": "The active site is not the entire enzyme volume; most amino acids in a protein play structural, not direct catalytic, roles; active site shape varies uniquely among different enzymes to match their specific substrates.",
+      "concept_recap": "The rest of the protein structure often serves to maintain the correct three-dimensional positioning of the active site."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-146",
+    "question": "Which of the following molecules would be classified as a purine derivative and is also a component of ATP, the primary energy currency of the cell?",
+    "options": [
+      "Cytosine",
+      "Uracil",
+      "Adenine",
+      "Thymine"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Adenine, a purine base, is a structural component of ATP (adenosine triphosphate), alongside ribose sugar and three phosphate groups.",
+      "why_others_wrong": "Cytosine, uracil, and thymine are pyrimidines and are not part of the ATP molecule.",
+      "concept_recap": "ATP's structure links nucleotide chemistry directly to cellular energy metabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-147",
+    "question": "A tripeptide is formed from three amino acids joined together. How many peptide bonds are present in a tripeptide?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Joining three amino acids in a chain requires exactly two peptide bonds (one between each consecutive pair).",
+      "why_others_wrong": "One peptide bond would only link two amino acids (a dipeptide); three or four peptide bonds would require more than three amino acids in the chain.",
+      "concept_recap": "In general, a chain of 'n' amino acids contains (n-1) peptide bonds."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-148",
+    "question": "Which of the following best describes the role of chaperone proteins in relation to other proteins in the cell?",
+    "options": [
+      "They act as substrates for digestive enzymes",
+      "They assist other proteins in folding correctly into their proper three-dimensional structure",
+      "They are a type of nucleic acid",
+      "They permanently prevent all proteins from folding"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Molecular chaperones assist newly synthesised or stress-damaged polypeptides in achieving correct folding into their functional three-dimensional structure.",
+      "why_others_wrong": "Chaperones are not typically substrates for digestion in this context, are proteins (not nucleic acids), and promote (rather than prevent) proper folding.",
+      "concept_recap": "Chaperones are especially important under cellular stress conditions (e.g., heat shock proteins) when misfolding risk increases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-149",
+    "question": "Which of the following best explains why enzyme names often end in the suffix '-ase' (e.g., protease, lipase, amylase)?",
+    "options": [
+      "It indicates the enzyme is inactive",
+      "It is a naming convention typically added to the name of the substrate or reaction type the enzyme acts upon",
+      "It indicates the molecule is a carbohydrate",
+      "It has no particular significance"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The suffix '-ase' is a standard convention added to the substrate name (e.g., 'lipase' acts on lipids) or the reaction type, to name the corresponding enzyme.",
+      "why_others_wrong": "The suffix does not indicate inactivity, does not classify the molecule as a carbohydrate, and does carry clear naming significance in enzymology.",
+      "concept_recap": "This naming pattern helps quickly identify the general function of an enzyme from its name alone."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-150",
+    "question": "Pepsin, a digestive enzyme secreted in the stomach, has an optimum pH of approximately 2. This is best explained by the fact that:",
+    "options": [
+      "Pepsin denatures at neutral pH and requires the highly acidic gastric environment for correct ionisation of its active site residues",
+      "Pepsin works equally well at all pH levels",
+      "Pepsin's optimum pH has no relation to its physiological location",
+      "Pepsin requires a basic environment to function"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Pepsin has evolved to function optimally in the highly acidic environment of the stomach; the specific ionisation states of its active site residues at low pH are required for proper substrate binding and catalysis.",
+      "why_others_wrong": "Pepsin does not work equally well at all pH levels — its activity is pH-dependent; its optimum pH is directly tied to its physiological secretion site (stomach); it requires an acidic, not basic, environment.",
+      "concept_recap": "This adaptation illustrates how different digestive enzymes are suited to the specific pH of their site of action along the digestive tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-151",
+    "question": "Which of the following is true regarding the relationship between an enzyme and the overall equilibrium of the reaction it catalyses?",
+    "options": [
+      "The enzyme shifts the equilibrium point towards more products",
+      "The enzyme has no effect on the final equilibrium position, only on the speed at which equilibrium is reached",
+      "The enzyme prevents the reaction from ever reaching equilibrium",
+      "The enzyme changes the equilibrium constant of the reaction"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Enzymes are catalysts and therefore accelerate both the forward and reverse reactions equally, meaning they do not alter the position of equilibrium or the equilibrium constant — only the rate of reaching it.",
+      "why_others_wrong": "Enzymes do not shift the equilibrium point toward products, do not prevent equilibrium from being reached, and do not change the equilibrium constant — a common misconception in enzyme kinetics.",
+      "concept_recap": "This principle distinguishes catalysts from reactions that are driven forward by continuous energy input or removal of products."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-152",
+    "question": "Which of the following molecules is amphipathic, possessing both a hydrophilic and a hydrophobic region within the same molecule?",
+    "options": [
+      "Glucose",
+      "Phospholipid",
+      "Cellulose",
+      "Deoxyribose"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A phospholipid has a hydrophilic phosphate-containing head and hydrophobic fatty acid tails, making it amphipathic.",
+      "why_others_wrong": "Glucose, cellulose, and deoxyribose are predominantly hydrophilic due to their many hydroxyl groups, lacking a distinct hydrophobic region.",
+      "concept_recap": "This amphipathic nature is central to the ability of phospholipids to self-assemble into bilayers and micelles in water."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-153",
+    "question": "A researcher denatures an enzyme using high heat and then slowly cools it back to physiological temperature. If the enzyme regains its original catalytic activity, this observation supports which concept?",
+    "options": [
+      "Denaturation is always irreversible",
+      "Under suitable conditions, denaturation can sometimes be reversible, with the protein refolding into its native, functional conformation",
+      "Enzymes cannot be denatured by heat",
+      "Primary structure is lost during denaturation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "While many cases of denaturation are irreversible, some proteins can refold correctly upon return to favourable conditions, demonstrating that denaturation can, in certain cases, be a reversible process.",
+      "why_others_wrong": "Denaturation is not always irreversible, as this example shows; enzymes clearly can be denatured by heat; primary structure (peptide bonds) is generally preserved during typical denaturation, allowing refolding to occur.",
+      "concept_recap": "This reversibility (when it occurs) supports Anfinsen's principle that primary sequence contains all the information needed for correct folding."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-154",
+    "question": "Which of the following is the correct order of increasing size, from smallest to largest, among these three sugar-related molecules?",
+    "options": [
+      "Polysaccharide < Disaccharide < Monosaccharide",
+      "Monosaccharide < Disaccharide < Polysaccharide",
+      "Disaccharide < Monosaccharide < Polysaccharide",
+      "All three are the same size"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Monosaccharides are the simplest single-unit sugars, disaccharides consist of two joined units, and polysaccharides are large polymers of many monosaccharide units — representing increasing size in that order.",
+      "why_others_wrong": "The other orderings place these categories out of their correct size hierarchy or incorrectly claim they are all equal in size.",
+      "concept_recap": "This size hierarchy directly reflects the degree of polymerisation of the constituent monosaccharide units."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-155",
+    "question": "Which of the following best describes the primary function of DNA polymerase, an enzyme in the ligase/polymerase family involved in DNA replication?",
+    "options": [
+      "Breaking down DNA into free nucleotides",
+      "Catalysing the synthesis of a new DNA strand by adding nucleotides complementary to a template strand",
+      "Converting RNA into DNA",
+      "Digesting RNA primers only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "DNA polymerase catalyses the addition of deoxyribonucleotides to a growing DNA strand, using an existing strand as a template during replication.",
+      "why_others_wrong": "Breaking down DNA describes nuclease activity, not the primary polymerase function; converting RNA into DNA describes reverse transcriptase, a different enzyme; digesting RNA primers describes a specific exonuclease activity, not the core polymerase function.",
+      "concept_recap": "DNA polymerase's high fidelity and proofreading ability are essential for accurate genome replication."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-156",
+    "question": "Which class of biomolecule is generally the LEAST soluble in water, due to its predominantly non-polar/hydrophobic character?",
+    "options": [
+      "Proteins",
+      "Carbohydrates",
+      "Lipids",
+      "Nucleic acids"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Lipids are largely non-polar and hydrophobic, making them generally the least soluble in water among the major classes of biomolecules.",
+      "why_others_wrong": "Proteins, carbohydrates, and nucleic acids generally have many polar or charged groups that make them more water-soluble compared to lipids.",
+      "concept_recap": "This hydrophobicity is precisely why lipids are used for long-term energy storage and membrane formation, functions requiring water-insolubility."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-157",
+    "question": "Which of the following best describes the term 'metabolite pool' as used in the context of cellular chemistry?",
+    "options": [
+      "The complete set of macromolecules in a cell",
+      "The collection of small, acid-soluble molecules such as amino acids, sugars and nucleotides present in a cell",
+      "Only the enzymes present in the cell",
+      "The cell's entire genome"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The metabolite pool refers to the set of small molecules (the acid-soluble fraction) such as amino acids, simple sugars, and nucleotides that participate in ongoing metabolic reactions.",
+      "why_others_wrong": "Macromolecules make up the acid-insoluble fraction, not the metabolite pool; enzymes are a specific subset of proteins, not synonymous with the whole metabolite pool; the genome refers to DNA content, a different concept entirely.",
+      "concept_recap": "The metabolite pool is dynamic, constantly being replenished and depleted as reactions proceed within the cell."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-158",
+    "question": "Which statement correctly reflects the relationship between enzyme concentration and reaction rate when substrate is present in excess (saturating conditions)?",
+    "options": [
+      "Reaction rate is independent of enzyme concentration",
+      "Reaction rate is directly proportional to enzyme concentration, since more active sites are available to process the abundant substrate",
+      "Reaction rate decreases as enzyme concentration increases",
+      "Reaction rate becomes zero regardless of enzyme concentration"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "When substrate is not limiting, increasing enzyme concentration directly increases the number of available active sites, proportionally increasing the overall reaction rate.",
+      "why_others_wrong": "Reaction rate is not independent of enzyme concentration under these conditions; it does not decrease with more enzyme (assuming substrate remains abundant); a zero reaction rate would not be expected under active, substrate-rich conditions.",
+      "concept_recap": "This proportionality holds only as long as substrate remains in excess relative to the enzyme's capacity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  },
+  {
+    "id": "biomol-159",
+    "question": "Which of the following is an example of a nucleotide that also functions independently as an important energy-carrying molecule in cellular metabolism?",
+    "options": [
+      "Glucose",
+      "ATP (adenosine triphosphate)",
+      "Sucrose",
+      "Glycogen"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "ATP is a nucleotide (adenine + ribose + three phosphate groups) that also serves as the primary energy currency of the cell, independent of being part of a nucleic acid polymer.",
+      "why_others_wrong": "Glucose, sucrose, and glycogen are carbohydrates and are not nucleotides.",
+      "concept_recap": "ATP's high-energy phosphoanhydride bonds release energy upon hydrolysis, powering countless cellular processes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 9"
+  }
+]
