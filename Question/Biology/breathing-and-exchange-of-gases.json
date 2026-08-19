@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "resp-001",
+    "question": "Which respiratory organ is characteristic of fishes for exchanging gases dissolved in water?",
+    "options": [
+      "Lungs",
+      "Gills",
+      "Trachea",
+      "Skin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Fishes use gills, richly vascularised structures adapted for extracting dissolved oxygen from water.",
+      "why_others_wrong": "Lungs are used by terrestrial vertebrates, tracheae are found in insects, and skin respiration alone is insufficient for most fish.",
+      "concept_recap": "Gills provide a large surface area and countercurrent flow mechanism for efficient gas exchange in aquatic organisms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-002",
+    "question": "Insects such as cockroaches respire through a network of tubes called:",
+    "options": [
+      "Gills",
+      "Lungs",
+      "Tracheae",
+      "Book lungs"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Insects possess a tracheal system — branching tubes that carry air directly to tissues through openings called spiracles.",
+      "why_others_wrong": "Gills are aquatic respiratory organs, lungs are found in vertebrates, and book lungs are characteristic of arachnids like spiders, not insects.",
+      "concept_recap": "The tracheal system allows direct gas exchange with tissues, bypassing the need for a circulatory transport of oxygen in many insects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-003",
+    "question": "Earthworms respire through their moist skin, a process known as:",
+    "options": [
+      "Cutaneous respiration",
+      "Pulmonary respiration",
+      "Branchial respiration",
+      "Tracheal respiration"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Earthworms lack specialised respiratory organs and instead exchange gases directly through their moist, vascularised skin — cutaneous respiration.",
+      "why_others_wrong": "Pulmonary respiration involves lungs, branchial respiration involves gills, and tracheal respiration involves tracheae — none apply to earthworms.",
+      "concept_recap": "Cutaneous respiration requires the skin to remain moist, which is why earthworms are sensitive to dry conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-004",
+    "question": "Which of the following organisms uses book lungs as its main respiratory organ?",
+    "options": [
+      "Cockroach",
+      "Spider",
+      "Earthworm",
+      "Frog (adult)"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Spiders (and other arachnids) possess book lungs — stacked, leaf-like structures that provide a large surface area for gas exchange.",
+      "why_others_wrong": "Cockroaches use tracheae, earthworms use their skin, and adult frogs primarily use lungs and skin, not book lungs.",
+      "concept_recap": "Book lungs are a distinctive respiratory adaptation of the arachnid group, unlike the tracheal system of insects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-005",
+    "question": "Adult amphibians such as frogs use which combination of respiratory surfaces?",
+    "options": [
+      "Only gills",
+      "Only lungs",
+      "Skin and lungs (buccopharyngeal and cutaneous, plus pulmonary respiration)",
+      "Only tracheae"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Adult frogs respire through their moist skin (cutaneous) and buccal cavity lining, as well as through lungs (pulmonary respiration), especially during activity.",
+      "why_others_wrong": "Gills are used by larval tadpoles, not typically by adults; lungs alone underestimate the significant cutaneous contribution; tracheae are restricted to insects.",
+      "concept_recap": "This dual respiratory strategy allows amphibians to survive both in water and on land during different life stages."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-006",
+    "question": "In humans, the primary organs of respiration are the:",
+    "options": [
+      "Skin",
+      "Gills",
+      "Lungs",
+      "Tracheae"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Humans, like other terrestrial mammals, use a pair of lungs as the primary site of gas exchange with air.",
+      "why_others_wrong": "Skin plays a negligible role in human respiration; gills are aquatic organs absent in humans; tracheae (in the insect sense) are not present in humans.",
+      "concept_recap": "Human lungs are housed within the thoracic cavity and are the central organs of the respiratory system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-007",
+    "question": "Air entering through the nostrils first passes into the:",
+    "options": [
+      "Larynx",
+      "Pharynx",
+      "Nasal passage lined with mucus and hair",
+      "Trachea"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Air first passes through the nasal passage, which is lined with hair and mucus that filter dust particles and humidify the air.",
+      "why_others_wrong": "The pharynx, larynx, and trachea are all located further along the respiratory pathway, after the nasal passage.",
+      "concept_recap": "The nasal passage plays a key role in warming, moistening, and filtering incoming air before it reaches deeper structures."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-008",
+    "question": "The common passage for both food and air, located behind the nasal chamber, is called the:",
+    "options": [
+      "Larynx",
+      "Pharynx",
+      "Trachea",
+      "Bronchus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pharynx serves as a shared passageway used by both the digestive and respiratory systems for the passage of food and air respectively.",
+      "why_others_wrong": "The larynx is the voice box below the pharynx; the trachea is further down; the bronchus branches off the trachea into the lungs — none serve as the shared passage.",
+      "concept_recap": "The epiglottis helps direct food and air appropriately as they pass through the pharynx region."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-009",
+    "question": "The larynx, also known as the voice box, is composed primarily of which type of tissue?",
+    "options": [
+      "Bone",
+      "Cartilage",
+      "Smooth muscle only",
+      "Adipose tissue"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The larynx is supported by a framework of cartilage, which also houses the vocal cords responsible for sound production.",
+      "why_others_wrong": "The larynx is not made of bone, is not composed solely of smooth muscle, and is not primarily adipose (fat) tissue.",
+      "concept_recap": "Cartilage provides structural support while remaining flexible enough to allow movement during sound production."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-010",
+    "question": "The trachea is prevented from collapsing during breathing due to the presence of:",
+    "options": [
+      "Complete bony rings",
+      "C-shaped cartilaginous rings",
+      "Only smooth muscle",
+      "No supportive structure"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The trachea is supported by C-shaped rings of cartilage that keep the airway open while still allowing flexibility for movements such as swallowing.",
+      "why_others_wrong": "The rings are cartilaginous, not bony, and are not complete circles; smooth muscle alone would not provide sufficient rigidity to prevent collapse; the trachea does have a clear supportive structure.",
+      "concept_recap": "The open part of the C-shaped ring faces the oesophagus, allowing it to expand slightly during swallowing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-011",
+    "question": "The trachea divides into two primary bronchi at a point called the:",
+    "options": [
+      "Larynx",
+      "Carina",
+      "Alveolar sac",
+      "Pharynx"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The trachea bifurcates into the right and left primary bronchi at an internal ridge called the carina.",
+      "why_others_wrong": "The larynx and pharynx are located higher up in the respiratory tract, and the alveolar sac is found deep within the lung, not at the bifurcation point.",
+      "concept_recap": "The carina is highly sensitive and triggers a strong cough reflex if irritated, such as by inhaled foreign objects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-012",
+    "question": "Within the lungs, the bronchi progressively divide into smaller tubes called bronchioles, which ultimately lead to thin-walled sacs called:",
+    "options": [
+      "Alveoli",
+      "Pleura",
+      "Diaphragm",
+      "Larynx"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Alveoli are the tiny, thin-walled, balloon-like sacs at the terminal ends of the bronchial tree where actual gas exchange occurs.",
+      "why_others_wrong": "The pleura is the membrane covering the lungs, the diaphragm is a respiratory muscle, and the larynx is located much higher in the tract — none are the terminal gas-exchange sacs.",
+      "concept_recap": "The extremely thin walls and rich capillary network of alveoli make them ideally suited for efficient diffusion of gases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-013",
+    "question": "The double-layered membrane that covers the lungs and lines the thoracic cavity is called the:",
+    "options": [
+      "Peritoneum",
+      "Pleura",
+      "Pericardium",
+      "Meninges"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pleura is a thin double membrane — visceral (covering the lung) and parietal (lining the thoracic cavity) — enclosing each lung.",
+      "why_others_wrong": "The peritoneum lines the abdominal cavity, the pericardium surrounds the heart, and the meninges cover the brain and spinal cord — none are associated with the lungs.",
+      "concept_recap": "The pleural fluid between the two pleural layers reduces friction during the movements of breathing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-014",
+    "question": "The fluid present within the pleural cavity primarily functions to:",
+    "options": [
+      "Provide nutrients to lung tissue",
+      "Reduce friction between the two pleural membranes during breathing movements",
+      "Transport oxygen to the blood",
+      "Filter incoming air"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Pleural fluid acts as a lubricant between the visceral and parietal pleura, minimising friction as the lungs expand and contract during breathing.",
+      "why_others_wrong": "Nutrient supply is provided via blood vessels, not pleural fluid; oxygen transport occurs via haemoglobin in blood, not pleural fluid; air filtration occurs in the nasal passage, not the pleural cavity.",
+      "concept_recap": "Reduced friction from pleural fluid allows smooth, effortless lung movement during each respiratory cycle."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-015",
+    "question": "Which structure prevents food from entering the trachea during swallowing?",
+    "options": [
+      "Larynx",
+      "Epiglottis",
+      "Pharynx",
+      "Bronchiole"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The epiglottis is a flap of cartilage that folds down over the tracheal opening (glottis) during swallowing, directing food into the oesophagus instead.",
+      "why_others_wrong": "The larynx houses the vocal cords but is not itself the protective flap; the pharynx is the shared passage, not the protective mechanism; bronchioles are located deep within the lungs, unrelated to swallowing.",
+      "concept_recap": "Malfunction of the epiglottis reflex can lead to choking, as food or liquid may enter the airway."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-016",
+    "question": "The alveoli of the lungs are surrounded by an extensive network of:",
+    "options": [
+      "Lymphatic vessels only",
+      "Blood capillaries",
+      "Nerve fibres only",
+      "Cartilage rings"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Each alveolus is surrounded by a dense network of blood capillaries, facilitating efficient diffusion of oxygen and carbon dioxide between air and blood.",
+      "why_others_wrong": "Lymphatic vessels and nerve fibres are present in lung tissue but are not the primary structures directly enabling gas exchange at alveoli; cartilage rings are found in larger airways like the trachea, not around alveoli.",
+      "concept_recap": "The extremely short diffusion distance between alveolar air and capillary blood is central to efficient respiratory gas exchange."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-017",
+    "question": "Approximately how many alveoli are estimated to be present in a pair of human lungs, contributing to a very large surface area for gas exchange?",
+    "options": [
+      "About 3,000",
+      "About 300,000",
+      "About 30 million",
+      "About 300 million"
+    ],
+    "answer": "D",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Human lungs contain approximately 300 million alveoli, providing an enormous surface area (roughly the size of a tennis court) for efficient gas exchange.",
+      "why_others_wrong": "3,000, 300,000, and 30 million are all significant underestimates of the actual number of alveoli in human lungs.",
+      "concept_recap": "This vast surface area, combined with thin alveolar walls, maximises the efficiency of oxygen and carbon dioxide diffusion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-018",
+    "question": "The right lung in humans typically has how many lobes, compared to the left lung?",
+    "options": [
+      "2 lobes; left has 3",
+      "3 lobes; left has 2",
+      "3 lobes; left has 3",
+      "2 lobes; left has 2"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The right lung is divided into three lobes, while the left lung has only two lobes, partly to accommodate space for the heart.",
+      "why_others_wrong": "The other combinations do not correctly reflect human lung anatomy, where the right lung has one more lobe than the left.",
+      "concept_recap": "This asymmetry reflects the anatomical space constraints imposed by the heart's position, which is shifted slightly to the left."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-019",
+    "question": "During inspiration (inhalation) in humans, the diaphragm:",
+    "options": [
+      "Relaxes and moves upward, decreasing thoracic volume",
+      "Contracts and moves downward, increasing the volume of the thoracic cavity",
+      "Remains completely stationary",
+      "Contracts and moves upward"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "During inspiration, the diaphragm contracts and flattens, moving downward and increasing the volume of the thoracic cavity, which lowers pressure and draws air in.",
+      "why_others_wrong": "Relaxing and moving upward describes the diaphragm's action during expiration, not inspiration; the diaphragm is not stationary during breathing; contraction moves it downward, not upward.",
+      "concept_recap": "This diaphragm movement, along with the elevation of ribs by external intercostal muscles, drives the pressure changes needed for airflow into the lungs."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-020",
+    "question": "According to Boyle's law, as applied to breathing mechanics, an increase in thoracic cavity volume leads to:",
+    "options": [
+      "An increase in pulmonary pressure, causing air to move out",
+      "A decrease in pulmonary (intrapulmonary) pressure, causing air to move in from outside",
+      "No change in pressure",
+      "A change in temperature only, unrelated to pressure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Boyle's law states that pressure and volume are inversely related at constant temperature; increasing thoracic and lung volume decreases intrapulmonary pressure below atmospheric pressure, drawing air in.",
+      "why_others_wrong": "An increase in pressure causing outward airflow describes expiration, the opposite mechanism; a 'no change' claim contradicts Boyle's law; while temperature is part of the broader gas law context, the direct driver of airflow here is the pressure-volume relationship.",
+      "concept_recap": "This pressure gradient (lower inside the lungs than outside) is the fundamental physical basis for airflow into the lungs during inspiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-021",
+    "question": "During normal quiet expiration in humans, which of the following changes occurs?",
+    "options": [
+      "The diaphragm contracts further",
+      "The diaphragm and external intercostal muscles relax, decreasing thoracic volume",
+      "The rib cage is actively pulled further upward and outward",
+      "Thoracic volume increases"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "During normal, quiet expiration, the diaphragm and external intercostal muscles relax, causing the thoracic cavity to return to its smaller resting volume, which increases pressure and pushes air out.",
+      "why_others_wrong": "Further diaphragm contraction and increased thoracic volume describe inspiration, not expiration; the rib cage moves down and inward during relaxed expiration, not further upward and outward.",
+      "concept_recap": "Quiet expiration is largely a passive process, driven by elastic recoil of lung tissue rather than active muscular contraction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-022",
+    "question": "Forced (active) expiration, such as during vigorous exercise, involves the additional contraction of which muscles beyond the relaxation seen in quiet expiration?",
+    "options": [
+      "External intercostal muscles only",
+      "Internal intercostal muscles and abdominal muscles",
+      "Diaphragm only",
+      "No additional muscles are needed"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "During forced expiration, internal intercostal muscles pull the ribs further down and inward, while abdominal muscles help push the diaphragm further upward, actively decreasing thoracic volume beyond passive relaxation.",
+      "why_others_wrong": "External intercostal muscles are primarily involved in inspiration, not forced expiration; the diaphragm relaxes (it doesn't actively contract further) during expiration; additional muscle involvement is indeed needed for forced expiration compared to quiet breathing.",
+      "concept_recap": "This active involvement of accessory muscles allows for a much greater and more rapid decrease in lung volume during forceful breathing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-023",
+    "question": "The average number of breaths (respiratory rate) per minute in a healthy resting adult human is approximately:",
+    "options": [
+      "6-8",
+      "12-16",
+      "30-35",
+      "50-60"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A healthy resting adult typically breathes at a rate of about 12-16 times per minute.",
+      "why_others_wrong": "6-8 breaths per minute would be abnormally slow (bradypnea); 30-35 and 50-60 would be abnormally rapid (tachypnea) for a resting healthy adult.",
+      "concept_recap": "Respiratory rate can increase significantly during exercise or stress due to increased metabolic demand for oxygen."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-024",
+    "question": "The pressure inside the intrapleural space is normally:",
+    "options": [
+      "Equal to atmospheric pressure",
+      "Slightly negative (lower) relative to intrapulmonary pressure, helping keep the lungs inflated",
+      "Much higher than atmospheric pressure",
+      "Exactly zero at all times"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The intrapleural pressure is normally slightly negative relative to the pressure inside the lungs (intrapulmonary pressure), which helps keep the lungs expanded against the chest wall.",
+      "why_others_wrong": "It is not equal to atmospheric pressure under normal resting conditions; it is not higher than atmospheric pressure — it is comparatively lower; describing it as 'exactly zero' oversimplifies and misrepresents the relative negative pressure relationship.",
+      "concept_recap": "Loss of this negative intrapleural pressure, as in a pneumothorax (collapsed lung), causes the lung to collapse due to its own elastic recoil."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-025",
+    "question": "Which muscles, upon contraction, elevate the ribs and sternum, expanding the thoracic cavity during inspiration?",
+    "options": [
+      "Internal intercostal muscles",
+      "External intercostal muscles",
+      "Abdominal muscles",
+      "Diaphragm only, with no rib involvement"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Contraction of the external intercostal muscles lifts the ribs and sternum upward and outward, expanding the thoracic cavity during inspiration.",
+      "why_others_wrong": "Internal intercostal muscles are primarily involved in forced expiration, not inspiration; abdominal muscles assist forced expiration; rib movement via external intercostals works together with, not instead of, diaphragm movement.",
+      "concept_recap": "Coordinated contraction of the diaphragm and external intercostal muscles together maximises the increase in thoracic volume during inspiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-026",
+    "question": "The volume of air inspired or expired during a single normal (quiet) breath is called the:",
+    "options": [
+      "Inspiratory reserve volume",
+      "Tidal volume",
+      "Residual volume",
+      "Vital capacity"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Tidal volume (TV) is the volume of air moved into or out of the lungs during one normal, resting breath, approximately 500 mL in a healthy adult.",
+      "why_others_wrong": "Inspiratory reserve volume is the extra air that can be forcibly inhaled beyond tidal volume; residual volume is the air remaining after maximal exhalation; vital capacity is a much larger measure combining several volumes.",
+      "concept_recap": "Tidal volume is one of the four basic lung volumes measured in pulmonary function testing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-027",
+    "question": "The additional volume of air that can be forcibly inhaled after a normal tidal inspiration is called the:",
+    "options": [
+      "Expiratory reserve volume",
+      "Inspiratory reserve volume",
+      "Residual volume",
+      "Tidal volume"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Inspiratory reserve volume (IRV) is the extra air, beyond normal tidal volume, that can be forcibly inhaled with maximum effort — typically around 2500-3000 mL.",
+      "why_others_wrong": "Expiratory reserve volume refers to additional air exhaled forcibly, not inhaled; residual volume is air remaining after maximal exhalation; tidal volume is the normal resting breath volume, not the additional forced-inhalation volume.",
+      "concept_recap": "IRV represents the lungs' extra inspiratory capacity beyond what is used during quiet breathing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-028",
+    "question": "The additional volume of air that can be forcibly exhaled after a normal tidal expiration is called the:",
+    "options": [
+      "Inspiratory reserve volume",
+      "Expiratory reserve volume",
+      "Residual volume",
+      "Vital capacity"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Expiratory reserve volume (ERV) is the extra air that can be forcibly exhaled after the end of a normal tidal expiration, typically around 1000-1100 mL.",
+      "why_others_wrong": "Inspiratory reserve volume relates to additional inhalation, not exhalation; residual volume is the air remaining even after maximal forced exhalation; vital capacity is a larger combined measure, not this specific reserve volume.",
+      "concept_recap": "ERV represents the lungs' extra expiratory capacity beyond what occurs during normal quiet breathing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-029",
+    "question": "The volume of air remaining in the lungs even after the most forceful expiration is called the:",
+    "options": [
+      "Tidal volume",
+      "Residual volume",
+      "Vital capacity",
+      "Inspiratory capacity"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Residual volume (RV) is the air that always remains in the lungs even after maximum forced exhalation, preventing complete lung collapse, typically around 1100-1200 mL.",
+      "why_others_wrong": "Tidal volume is the normal resting breath volume; vital capacity is a combined measure of exhalable air; inspiratory capacity relates to maximum possible inhalation, not remaining air after exhalation.",
+      "concept_recap": "Residual volume cannot be measured by simple spirometry and requires other techniques, unlike the other basic lung volumes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-030",
+    "question": "Vital capacity (VC) is defined as the sum of which lung volumes?",
+    "options": [
+      "Tidal volume + Residual volume",
+      "Inspiratory reserve volume + Tidal volume + Expiratory reserve volume",
+      "Residual volume only",
+      "Tidal volume only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Vital capacity is the maximum volume of air that can be exhaled after maximum inhalation, calculated as IRV + TV + ERV.",
+      "why_others_wrong": "Tidal + residual volume does not represent the maximum voluntary exchange (vital capacity); residual volume or tidal volume alone are just single components, not the full vital capacity.",
+      "concept_recap": "Vital capacity is a clinically important measure of overall respiratory function and lung health."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-031",
+    "question": "Total lung capacity (TLC) is defined as the sum of:",
+    "options": [
+      "Vital capacity and residual volume",
+      "Tidal volume and inspiratory reserve volume only",
+      "Residual volume alone",
+      "Expiratory reserve volume and tidal volume only"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Total lung capacity is the maximum volume the lungs can hold, calculated as Vital Capacity + Residual Volume (or equivalently, IRV + TV + ERV + RV).",
+      "why_others_wrong": "Tidal volume and IRV alone, residual volume alone, and ERV+TV alone each represent only partial components, not the complete total lung capacity.",
+      "concept_recap": "TLC represents the absolute maximum air-holding capacity of the lungs, including air that can never be voluntarily expelled (residual volume)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-032",
+    "question": "Functional residual capacity (FRC) is the sum of which two lung volumes?",
+    "options": [
+      "Tidal volume and inspiratory reserve volume",
+      "Expiratory reserve volume and residual volume",
+      "Vital capacity and tidal volume",
+      "Inspiratory reserve volume and residual volume"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Functional residual capacity is the volume of air remaining in the lungs after a normal (tidal) expiration, calculated as ERV + RV.",
+      "why_others_wrong": "Tidal volume + IRV describes inspiratory capacity, not FRC; vital capacity + tidal volume is not a standard defined capacity; IRV + RV skips over the expiratory reserve component needed for FRC.",
+      "concept_recap": "FRC represents the resting lung volume between breaths, important for maintaining continuous gas exchange even between individual breaths."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-033",
+    "question": "Inspiratory capacity (IC) is defined as the sum of:",
+    "options": [
+      "Tidal volume and inspiratory reserve volume",
+      "Tidal volume and expiratory reserve volume",
+      "Residual volume and expiratory reserve volume",
+      "Vital capacity and residual volume"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Inspiratory capacity is the maximum volume of air that can be inhaled after a normal tidal expiration, calculated as TV + IRV.",
+      "why_others_wrong": "Tidal volume + ERV does not represent maximum possible inhalation; residual volume + ERV describes functional residual capacity, not inspiratory capacity; vital capacity + residual volume describes total lung capacity, a different (larger) measure.",
+      "concept_recap": "IC represents the full inspiratory potential of the lungs starting from the resting end-expiratory position."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-034",
+    "question": "If Tidal Volume (TV) = 500 mL, Inspiratory Reserve Volume (IRV) = 3000 mL, and Expiratory Reserve Volume (ERV) = 1100 mL, what is the approximate Vital Capacity?",
+    "options": [
+      "3500 mL",
+      "4100 mL",
+      "4600 mL",
+      "1600 mL"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Vital Capacity = IRV + TV + ERV = 3000 + 500 + 1100 = 4600 mL.",
+      "why_others_wrong": "3500 mL omits the ERV component; 4100 mL omits the TV component; 1600 mL only adds TV and ERV, omitting the much larger IRV.",
+      "concept_recap": "Correctly summing the three components (IRV, TV, ERV) that make up vital capacity is a common quantitative NEET-style question."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-035",
+    "question": "If Vital Capacity (VC) = 4600 mL and Residual Volume (RV) = 1200 mL, what is the Total Lung Capacity (TLC)?",
+    "options": [
+      "3400 mL",
+      "5000 mL",
+      "5800 mL",
+      "4600 mL"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Total Lung Capacity = Vital Capacity + Residual Volume = 4600 + 1200 = 5800 mL.",
+      "why_others_wrong": "3400 mL incorrectly subtracts instead of adding; 5000 mL and 4600 mL do not correctly account for both components being summed.",
+      "concept_recap": "TLC includes the residual volume precisely because this air can never be voluntarily exhaled, unlike the components of vital capacity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-036",
+    "question": "Which of the following lung volumes CANNOT be measured directly by a simple spirometer, and typically requires other techniques such as helium dilution?",
+    "options": [
+      "Tidal volume",
+      "Inspiratory reserve volume",
+      "Residual volume",
+      "Expiratory reserve volume"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Residual volume (and any capacity that includes it, such as FRC and TLC) cannot be measured directly by simple spirometry, since this air can never be voluntarily exhaled; it is measured using techniques like helium dilution or body plethysmography.",
+      "why_others_wrong": "Tidal volume, inspiratory reserve volume, and expiratory reserve volume can all be directly measured by simple spirometry, since they involve air that is actually inhaled or exhaled.",
+      "concept_recap": "This distinction highlights why total lung capacity and functional residual capacity, which include residual volume, also require specialised measurement techniques."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-037",
+    "question": "The exchange of respiratory gases (O2 and CO2) between alveolar air and blood, and between blood and tissues, primarily occurs through:",
+    "options": [
+      "Active transport requiring ATP",
+      "Simple diffusion, driven by differences in partial pressure",
+      "Facilitated transport via specific carrier proteins for gases",
+      "Osmosis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Gas exchange occurs via simple diffusion, with gases moving from regions of higher partial pressure to regions of lower partial pressure across respiratory membranes.",
+      "why_others_wrong": "Active transport (requiring ATP) is not the mechanism for O2/CO2 exchange; specific carrier-protein facilitated transport is not the standard mechanism for these gases (haemoglobin transport in blood is separate from membrane diffusion); osmosis specifically refers to water movement, not gas exchange.",
+      "concept_recap": "This passive diffusion process depends on the partial pressure gradient, surface area, and diffusion distance (thickness of membrane)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-038",
+    "question": "According to Fick's law of diffusion, the rate of gas diffusion across a respiratory membrane is:",
+    "options": [
+      "Directly proportional to membrane thickness",
+      "Directly proportional to surface area and partial pressure difference, and inversely proportional to membrane thickness",
+      "Independent of surface area",
+      "Independent of partial pressure difference"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Fick's law states that diffusion rate increases with greater surface area and partial pressure difference, but decreases with increasing membrane thickness — an inverse relationship with thickness and direct relationships with area and pressure gradient.",
+      "why_others_wrong": "Diffusion rate is inversely, not directly, proportional to membrane thickness; it is directly dependent on both surface area and partial pressure difference, not independent of them.",
+      "concept_recap": "Diseases that increase membrane thickness (like fibrosis) or reduce surface area (like emphysema) impair gas exchange efficiency according to this principle."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-039",
+    "question": "Which respiratory gas has a lower solubility in the alveolar-capillary membrane's fluid components, but this is compensated for by a steeper partial pressure gradient?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Both gases have identical solubility"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Oxygen has lower solubility in the fluid of the respiratory membrane compared to carbon dioxide, but a steeper partial pressure gradient between alveolar air and blood compensates for this, allowing effective diffusion.",
+      "why_others_wrong": "Carbon dioxide actually has considerably higher solubility, not lower; nitrogen is essentially not involved in respiratory gas exchange under normal physiological conditions; the two gases do not have identical solubility.",
+      "concept_recap": "Despite CO2 having a smaller partial pressure gradient than O2, its higher solubility allows it to diffuse just as efficiently in the opposite direction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-040",
+    "question": "The partial pressure of oxygen (pO2) in atmospheric/alveolar air, compared to that in deoxygenated blood arriving at the alveoli, creates a gradient that:",
+    "options": [
+      "Is roughly equal, so no diffusion occurs",
+      "Favours O2 diffusion into the blood, since alveolar pO2 is higher than in deoxygenated pulmonary arterial blood",
+      "Favours O2 diffusion out of the blood into alveolar air",
+      "Has no role in gas exchange"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Alveolar air has a higher pO2 (~104 mm Hg) compared to deoxygenated blood arriving via the pulmonary artery (~40 mm Hg), creating a gradient that drives oxygen diffusion into the blood.",
+      "why_others_wrong": "The pressures are not equal — there is a significant gradient enabling diffusion; the gradient favours O2 moving into, not out of, the blood at the alveoli; partial pressure differences are precisely what drives gas exchange.",
+      "concept_recap": "This pressure gradient reverses at the tissue level, where tissue pO2 is lower than in oxygenated blood, driving oxygen out of blood and into tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-041",
+    "question": "Approximately what percentage of oxygen is transported in the blood bound to haemoglobin, with the remainder dissolved in plasma?",
+    "options": [
+      "Around 3%",
+      "Around 20%",
+      "Around 97%",
+      "Around 50%"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "About 97% of oxygen is transported bound to haemoglobin as oxyhaemoglobin, while only a small fraction (about 3%) is carried dissolved directly in plasma.",
+      "why_others_wrong": "3% describes the dissolved fraction, not the haemoglobin-bound fraction; 20% and 50% are not accurate figures for either transport route.",
+      "concept_recap": "Haemoglobin's high oxygen-carrying capacity is essential given the relatively low solubility of oxygen in plasma alone."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-042",
+    "question": "Each molecule of haemoglobin can bind a maximum of how many molecules of oxygen?",
+    "options": [
+      "One",
+      "Two",
+      "Four",
+      "Eight"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Haemoglobin is a tetramer with four heme groups, each capable of binding one oxygen molecule, giving a maximum capacity of four O2 molecules per haemoglobin.",
+      "why_others_wrong": "One, two, and eight do not correctly reflect the number of oxygen-binding sites on a single haemoglobin molecule.",
+      "concept_recap": "This tetrameric structure also underlies cooperative binding, where binding of one oxygen molecule increases the affinity for subsequent ones."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-043",
+    "question": "The oxygen-haemoglobin dissociation curve has a characteristic shape described as:",
+    "options": [
+      "Linear",
+      "Sigmoidal (S-shaped)",
+      "Perfectly circular",
+      "Straight and horizontal"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The oxygen-haemoglobin dissociation curve is sigmoidal (S-shaped), reflecting the cooperative binding of oxygen to the four subunits of haemoglobin.",
+      "why_others_wrong": "The curve is not linear, circular, or a flat horizontal line — its S-shape specifically reflects cooperative, not simple, binding kinetics.",
+      "concept_recap": "This sigmoidal shape allows haemoglobin to load oxygen efficiently at high pO2 (lungs) and unload it efficiently at low pO2 (tissues)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-044",
+    "question": "The 'Bohr effect' describes how an increase in CO2 concentration and a decrease in pH (more acidic conditions) in tissues affects haemoglobin's affinity for oxygen. This effect causes haemoglobin to:",
+    "options": [
+      "Bind oxygen more tightly, retaining it",
+      "Release oxygen more readily, favouring unloading of O2 at the tissues",
+      "Have no change in oxygen affinity",
+      "Bind carbon dioxide instead of oxygen permanently"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Bohr effect describes how increased CO2 and decreased pH (as found in actively respiring tissues) reduce haemoglobin's oxygen affinity, promoting oxygen release exactly where it is needed most.",
+      "why_others_wrong": "Binding oxygen more tightly would be the opposite of the actual effect; the Bohr effect specifically describes a definite change (not 'no change') in affinity; haemoglobin's transport of CO2 (mostly as carbaminohaemoglobin) is a separate, related, but distinct process from the Bohr effect on oxygen binding.",
+      "concept_recap": "This physiological adaptation ensures that oxygen is preferentially released in metabolically active tissues generating more CO2 and acid."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-045",
+    "question": "Which of the following conditions would shift the oxygen-haemoglobin dissociation curve to the right, favouring oxygen release to tissues?",
+    "options": [
+      "Decreased temperature",
+      "Decreased pCO2",
+      "Increased H+ concentration (lower pH)",
+      "Decreased 2,3-BPG concentration"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Increased H+ concentration (lower, more acidic pH), as occurs in metabolically active tissues, shifts the dissociation curve to the right, reducing haemoglobin's oxygen affinity and favouring oxygen release.",
+      "why_others_wrong": "Decreased temperature and decreased pCO2 would shift the curve to the left (increasing O2 affinity), not right; decreased 2,3-BPG would also shift the curve left, not right — the opposite direction of what promotes O2 release.",
+      "concept_recap": "Rightward shifts of the dissociation curve (higher CO2, lower pH, higher temperature, higher 2,3-BPG) all favour oxygen unloading at actively respiring tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-046",
+    "question": "Foetal haemoglobin (HbF) generally has a higher affinity for oxygen than adult haemoglobin (HbA). This adaptation allows the foetus to:",
+    "options": [
+      "Release oxygen more readily to the mother",
+      "Extract oxygen efficiently from the mother's blood across the placenta",
+      "Store oxygen without ever using it",
+      "Avoid using oxygen altogether"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The higher oxygen affinity of foetal haemoglobin allows the foetus to effectively extract oxygen from maternal blood across the placenta, where oxygen levels are relatively low compared to the lungs.",
+      "why_others_wrong": "It is the mother's haemoglobin releasing oxygen to the foetus, not the reverse; the foetus does actively use oxygen for metabolism, not simply store it; avoiding oxygen use entirely would be incompatible with foetal development.",
+      "concept_recap": "This difference in oxygen affinity between HbF and HbA is a key physiological adaptation supporting prenatal development."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-047",
+    "question": "Approximately what percentage of carbon dioxide is transported in the blood in the form of bicarbonate ions (HCO3-)?",
+    "options": [
+      "Around 7%",
+      "Around 20-25%",
+      "Around 70%",
+      "Around 97%"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "About 70% of CO2 is transported in blood as bicarbonate ions, formed after CO2 combines with water to form carbonic acid, which then dissociates.",
+      "why_others_wrong": "7% approximates the small fraction dissolved directly in plasma; 20-25% approximates the fraction bound to haemoglobin as carbaminohaemoglobin; 97% is characteristic of oxygen transport via haemoglobin, not CO2 transport as bicarbonate.",
+      "concept_recap": "This bicarbonate-based transport also plays a crucial role in blood pH buffering, linking respiratory and acid-base physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-048",
+    "question": "The enzyme that catalyses the conversion of carbon dioxide and water into carbonic acid within red blood cells is:",
+    "options": [
+      "Carbonic anhydrase",
+      "DNA polymerase",
+      "Amylase",
+      "Pepsin"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Carbonic anhydrase rapidly catalyses the reaction CO2 + H2O ⇌ H2CO3 within red blood cells, essential for efficient CO2 transport as bicarbonate.",
+      "why_others_wrong": "DNA polymerase functions in DNA replication, amylase digests starch, and pepsin digests proteins — none catalyse the CO2-water reaction.",
+      "concept_recap": "This enzyme dramatically speeds up an otherwise slow reaction, enabling rapid CO2 loading and unloading as blood passes through tissues and lungs."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-049",
+    "question": "CO2 that binds directly to the globin portion (amino groups) of haemoglobin, without competing with oxygen at the heme site, forms a compound called:",
+    "options": [
+      "Oxyhaemoglobin",
+      "Carbaminohaemoglobin",
+      "Methaemoglobin",
+      "Carboxyhaemoglobin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Carbaminohaemoglobin forms when CO2 binds to amino groups on the globin chains of haemoglobin, distinct from the heme group where oxygen binds.",
+      "why_others_wrong": "Oxyhaemoglobin refers specifically to oxygen-bound haemoglobin; methaemoglobin is an oxidised, non-functional form of haemoglobin; carboxyhaemoglobin forms when carbon monoxide (not carbon dioxide) binds to haemoglobin's heme group.",
+      "concept_recap": "Because CO2 binds a different site than O2, carbaminohaemoglobin formation doesn't directly compete with oxygen transport at the heme group."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-050",
+    "question": "The reaction CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3- occurring within red blood cells illustrates the role of the respiratory system in:",
+    "options": [
+      "Digestion of nutrients",
+      "Regulation of blood pH (acid-base balance)",
+      "Synthesis of glucose",
+      "Formation of urine"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "This bicarbonate buffering reaction, central to CO2 transport, also plays a major role in maintaining blood pH homeostasis, linking respiration directly to acid-base balance.",
+      "why_others_wrong": "This reaction is unrelated to nutrient digestion, glucose synthesis, or urine formation — its primary physiological significance lies in gas transport and pH regulation.",
+      "concept_recap": "Disruptions in CO2 removal (e.g., in respiratory diseases) can lead to acid-base imbalances such as respiratory acidosis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-051",
+    "question": "The primary respiratory rhythm centre, responsible for the basic rhythm of breathing, is located in the:",
+    "options": [
+      "Cerebrum",
+      "Medulla oblongata",
+      "Cerebellum",
+      "Spinal cord only"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The medulla oblongata houses the respiratory rhythm centre, which generates and regulates the basic rhythm of breathing.",
+      "why_others_wrong": "The cerebrum is involved in voluntary control and conscious perception, not the basic automatic rhythm; the cerebellum coordinates movement and balance, not respiratory rhythm; the spinal cord transmits signals but is not the primary rhythm-generating centre.",
+      "concept_recap": "Damage to the medullary respiratory centre can be life-threatening since it controls the fundamental, involuntary rhythm of breathing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-052",
+    "question": "The pneumotaxic centre, located in the pons region of the brain, primarily functions to:",
+    "options": [
+      "Generate the basic breathing rhythm independently",
+      "Moderate the function of the respiratory rhythm centre and help regulate the rate/pattern of breathing",
+      "Control heart rate exclusively",
+      "Digest food in the stomach"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The pneumotaxic centre in the pons sends signals that moderate and fine-tune the activity of the medullary respiratory rhythm centre, helping regulate the rate and depth of breathing.",
+      "why_others_wrong": "The basic rhythm is generated by the medulla, not independently by the pneumotaxic centre; heart rate is regulated by separate cardiovascular centres; digestion is unrelated to this brain region's respiratory function.",
+      "concept_recap": "Together, the medullary rhythm centre and pneumotaxic centre allow fine adjustment of breathing patterns according to physiological needs."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-053",
+    "question": "Which of the following stimuli is the MOST significant and sensitive trigger for changes in the rate and depth of breathing under normal physiological conditions?",
+    "options": [
+      "Slight increase in blood CO2 concentration (hypercapnia)",
+      "Slight decrease in blood oxygen concentration",
+      "Blood glucose fluctuations",
+      "Blood calcium levels"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Chemoreceptors are most sensitive to changes in blood CO2 (and the resulting changes in H+ concentration), making even small increases in CO2 a powerful stimulus for increasing ventilation.",
+      "why_others_wrong": "Oxygen changes are a comparatively weaker and less sensitive stimulus under normal conditions (oxygen becomes a dominant driver only in severe hypoxia); glucose and calcium levels are not the primary regulators of respiratory rate under normal conditions.",
+      "concept_recap": "This high CO2 sensitivity allows for precise, rapid regulation of breathing to maintain stable blood pH and gas levels."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-054",
+    "question": "Chemosensitive areas that detect changes in CO2/H+ concentration and adjust the activity of the respiratory rhythm centre are located:",
+    "options": [
+      "Only in the lungs",
+      "Adjacent to the rhythm centre in the medulla, and also in the aortic and carotid bodies",
+      "Only in the heart",
+      "Only in skeletal muscle"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Central chemoreceptors near the medullary respiratory centre, along with peripheral chemoreceptors in the aortic and carotid bodies, detect changes in blood CO2/H+ (and O2) and relay signals to adjust breathing.",
+      "why_others_wrong": "The lungs themselves are not the primary chemosensitive sites for this regulation; the heart is not a chemosensitive respiratory control site; skeletal muscle is not involved in chemoreceptor-based respiratory regulation.",
+      "concept_recap": "This dual system (central and peripheral chemoreceptors) provides robust, redundant regulation of breathing based on blood gas composition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-055",
+    "question": "Asthma is a respiratory disorder characterised by:",
+    "options": [
+      "Permanent destruction of alveolar walls",
+      "Difficulty in breathing due to inflammation and constriction of bronchi and bronchioles",
+      "Infection of the pleural cavity leading to fluid accumulation",
+      "Complete blockage of the trachea by cartilage overgrowth"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Asthma involves inflammation and constriction of the bronchi and bronchioles, causing wheezing and difficulty in breathing.",
+      "why_others_wrong": "Permanent alveolar wall destruction describes emphysema, not asthma; pleural fluid accumulation describes pleurisy/pleural effusion, not asthma; cartilage overgrowth blocking the trachea is not characteristic of asthma.",
+      "concept_recap": "Asthma is typically triggered by allergens, irritants, or exercise, and can often be managed with bronchodilator medications."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-056",
+    "question": "Emphysema is a chronic respiratory disorder in which:",
+    "options": [
+      "Bronchioles become inflamed and constricted temporarily",
+      "Alveolar walls are progressively damaged and destroyed, reducing the surface area available for gas exchange",
+      "The trachea becomes completely blocked by mucus",
+      "Only the nasal passage is affected"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Emphysema involves the progressive, often irreversible destruction of alveolar walls, decreasing the surface area available for gas exchange and reducing lung elasticity.",
+      "why_others_wrong": "Temporary bronchial inflammation and constriction describes asthma, not emphysema; complete tracheal blockage by mucus does not describe emphysema; emphysema affects the alveoli deep within the lungs, not just the nasal passage.",
+      "concept_recap": "Cigarette smoking is a major cause of emphysema, which is part of the broader category of chronic obstructive pulmonary disease (COPD)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-057",
+    "question": "Occupational respiratory disorders, such as those seen in workers exposed to excessive dust in grinding or stone-breaking industries, primarily lead to which type of lung damage?",
+    "options": [
+      "Complete lung regeneration over time",
+      "Fibrosis of lung tissue, reducing lung function due to chronic inflammation from dust particle exposure",
+      "Increased alveolar surface area",
+      "No long-term effect on lung tissue"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Chronic exposure to certain dust particles can trigger persistent inflammation and lead to fibrosis (scarring) of lung tissue, impairing normal lung function over time.",
+      "why_others_wrong": "Lung tissue does not simply regenerate completely after such damage; fibrosis reduces, rather than increases, effective alveolar surface area for gas exchange; there is indeed significant long-term effect on lung tissue with chronic dust exposure.",
+      "concept_recap": "Regulations mandating protective equipment in dusty occupational environments aim to prevent these occupational respiratory disorders."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-058",
+    "question": "Which of the following best distinguishes emphysema from asthma in terms of reversibility?",
+    "options": [
+      "Both are always completely reversible with medication",
+      "Asthma symptoms are often reversible/manageable with bronchodilators, while emphysema involves largely irreversible structural lung damage",
+      "Emphysema is always reversible while asthma is not",
+      "Neither condition has any reversible component"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Asthma is characterised by episodic, often reversible bronchoconstriction that can be managed with bronchodilators, whereas emphysema involves permanent, largely irreversible destruction of alveolar structure.",
+      "why_others_wrong": "Neither is universally 'always' completely reversible or irreversible in the way the other options state; it is specifically emphysema, not asthma, that involves largely irreversible damage; asthma does have a significant reversible component, making 'no reversible component for either' incorrect.",
+      "concept_recap": "This distinction is clinically important since management strategies differ significantly between reversible airway constriction and permanent structural lung damage."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-059",
+    "question": "The conducting part of the human respiratory system, which transports air but does not participate in gas exchange, includes all of the following EXCEPT:",
+    "options": [
+      "Nasal passage",
+      "Trachea",
+      "Alveoli",
+      "Bronchioles (terminal, non-respiratory)"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Alveoli are part of the respiratory (exchange) zone, not the conducting zone, since actual gas exchange occurs here.",
+      "why_others_wrong": "The nasal passage, trachea, and terminal (non-respiratory) bronchioles are all part of the conducting zone, which transports air without participating directly in gas exchange.",
+      "concept_recap": "The respiratory system is divided into a conducting zone (air transport) and a respiratory zone (gas exchange), a distinction frequently tested in NEET."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-060",
+    "question": "Which structure marks the beginning of the respiratory (gas-exchanging) zone, as opposed to the purely conducting zone?",
+    "options": [
+      "Trachea",
+      "Primary bronchi",
+      "Respiratory bronchioles and alveoli",
+      "Larynx"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Respiratory bronchioles and alveoli mark the beginning of the respiratory zone, where actual gas exchange with blood occurs.",
+      "why_others_wrong": "The trachea, primary bronchi, and larynx are all part of the conducting zone, transporting air without direct gas exchange.",
+      "concept_recap": "This transition from conducting to respiratory zone reflects a shift from simple air transport to functional gas exchange."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-061",
+    "question": "Which cells lining the alveolar walls are primarily responsible for facilitating rapid gas diffusion due to their extremely thin, squamous structure?",
+    "options": [
+      "Type II alveolar cells (secreting surfactant)",
+      "Type I alveolar cells (squamous epithelial cells)",
+      "Goblet cells",
+      "Ciliated columnar cells"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Type I alveolar cells are extremely thin, flattened (squamous) epithelial cells that make up most of the alveolar surface, allowing for rapid and efficient gas diffusion.",
+      "why_others_wrong": "Type II alveolar cells primarily secrete surfactant rather than serving as the main gas-diffusion surface; goblet cells secrete mucus and are found in larger airways; ciliated columnar cells line the upper conducting airways, not the alveoli.",
+      "concept_recap": "The thinness of Type I cells, combined with the adjacent capillary endothelium, forms the extremely short diffusion path essential for efficient gas exchange."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-062",
+    "question": "Pulmonary surfactant, secreted by Type II alveolar cells, primarily functions to:",
+    "options": [
+      "Increase surface tension in the alveoli, promoting their collapse",
+      "Reduce surface tension within the alveoli, preventing their collapse and easing lung expansion",
+      "Transport oxygen directly to tissues",
+      "Digest inhaled particles"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Surfactant reduces surface tension in the alveoli, preventing their collapse (especially during expiration) and reducing the effort needed for lung expansion during inspiration.",
+      "why_others_wrong": "Surfactant reduces, rather than increases, surface tension; it does not transport oxygen directly (that is haemoglobin's role); it does not function primarily to digest inhaled particles.",
+      "concept_recap": "Deficiency of surfactant, common in premature infants, leads to respiratory distress syndrome due to increased alveolar collapse."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-063",
+    "question": "Cilia lining the trachea and bronchi primarily function to:",
+    "options": [
+      "Produce sound for speech",
+      "Sweep mucus (trapping dust and pathogens) upward toward the pharynx to be expelled or swallowed",
+      "Absorb oxygen directly into the blood",
+      "Regulate the diameter of the airway"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cilia lining the respiratory tract beat in a coordinated fashion to move mucus, which traps dust particles and pathogens, upward and out of the airway.",
+      "why_others_wrong": "Sound production for speech occurs at the vocal cords in the larynx, not via ciliary action; oxygen absorption occurs in alveoli, not via the ciliated tract; airway diameter regulation is primarily controlled by smooth muscle, not cilia.",
+      "concept_recap": "This 'mucociliary escalator' is a key defence mechanism protecting the lungs from inhaled particles and pathogens."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-064",
+    "question": "Damage to the cilia lining the respiratory tract, such as that caused by chronic smoking, would most directly impair which protective function?",
+    "options": [
+      "Gas exchange in the alveoli",
+      "Clearance of mucus, dust, and pathogens from the airway",
+      "Regulation of blood pressure",
+      "Digestion of food"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Ciliary damage impairs the mucociliary escalator, reducing the airway's ability to clear trapped mucus, dust particles, and pathogens, increasing susceptibility to infection.",
+      "why_others_wrong": "Alveolar gas exchange is a separate process from the ciliated conducting airway function; blood pressure regulation and digestion are unrelated to airway cilia function.",
+      "concept_recap": "This is one reason chronic smokers often experience increased respiratory infections and chronic cough."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-065",
+    "question": "During deep or forced inspiration, in addition to the diaphragm and external intercostal muscles, which accessory muscles may also be recruited?",
+    "options": [
+      "Internal intercostal muscles only",
+      "Sternocleidomastoid and scalene muscles (neck muscles)",
+      "Abdominal muscles only",
+      "No accessory muscles are ever used"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "During forced/deep inspiration, accessory muscles such as the sternocleidomastoid and scalene muscles in the neck can further elevate the rib cage, increasing thoracic volume beyond quiet breathing.",
+      "why_others_wrong": "Internal intercostal muscles assist forced expiration, not inspiration; abdominal muscles are primarily used in forced expiration; accessory muscles are indeed recruited under conditions of increased respiratory demand.",
+      "concept_recap": "Recruitment of accessory muscles becomes especially evident during heavy exercise or in respiratory distress."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-066",
+    "question": "A pneumothorax refers to a condition in which:",
+    "options": [
+      "Excess mucus accumulates in the bronchi",
+      "Air enters the pleural cavity, disrupting negative intrapleural pressure and potentially causing lung collapse",
+      "The alveoli become permanently enlarged",
+      "The diaphragm becomes paralysed"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Pneumothorax occurs when air enters the pleural cavity (often due to injury), eliminating the negative intrapleural pressure that normally keeps the lung expanded, causing it to collapse due to its own elastic recoil.",
+      "why_others_wrong": "Excess mucus accumulation describes conditions like bronchitis, not pneumothorax; permanent alveolar enlargement describes emphysema; diaphragm paralysis is a distinct condition affecting a different mechanism of breathing.",
+      "concept_recap": "This condition illustrates the critical physiological importance of maintaining negative intrapleural pressure for normal lung inflation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-067",
+    "question": "If the phrenic nerve, which innervates the diaphragm, is severed or severely damaged, the most direct consequence would be:",
+    "options": [
+      "Improved breathing efficiency",
+      "Paralysis or severe impairment of diaphragm movement, significantly affecting the ability to breathe",
+      "No effect on breathing at all",
+      "Increased heart rate only"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The phrenic nerve directly innervates the diaphragm; its damage impairs diaphragm contraction, which is essential for generating the pressure changes needed for normal breathing.",
+      "why_others_wrong": "Breathing would not improve with such nerve damage; a complete lack of effect is inconsistent with the diaphragm's critical role in respiration; while some cardiovascular reflexes might be indirectly affected, the primary and most direct consequence concerns breathing mechanics, not heart rate.",
+      "concept_recap": "This underlies why phrenic nerve injury (e.g., from certain spinal cord injuries) can be life-threatening, sometimes requiring mechanical ventilation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-068",
+    "question": "Which of the following would occur immediately if intrapulmonary pressure became LOWER than atmospheric pressure, as it does during a normal inspiration?",
+    "options": [
+      "Air would flow out of the lungs",
+      "Air would flow into the lungs, moving from high (atmospheric) to low (intrapulmonary) pressure",
+      "No air movement would occur",
+      "The lungs would immediately collapse"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Gases move from areas of higher pressure to areas of lower pressure; when intrapulmonary pressure drops below atmospheric pressure, air flows into the lungs.",
+      "why_others_wrong": "Air flowing out would occur if intrapulmonary pressure were higher, not lower, than atmospheric pressure; a lack of movement contradicts the basic physics of pressure-driven airflow; the lungs would not collapse under these conditions — that is a different scenario (e.g., pneumothorax).",
+      "concept_recap": "This pressure-driven bulk flow of air is the fundamental physical principle underlying both inspiration and expiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-069",
+    "question": "If a person's Total Lung Capacity (TLC) is 6000 mL and their Vital Capacity (VC) is 4800 mL, what is their Residual Volume (RV)?",
+    "options": [
+      "1200 mL",
+      "4800 mL",
+      "6000 mL",
+      "10800 mL"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since TLC = VC + RV, rearranging gives RV = TLC − VC = 6000 − 4800 = 1200 mL.",
+      "why_others_wrong": "4800 mL is the given vital capacity, not the residual volume; 6000 mL is the total lung capacity itself; 10800 mL incorrectly adds the two values instead of subtracting.",
+      "concept_recap": "This type of rearrangement of standard lung capacity equations (TLC = VC + RV) is a common quantitative NEET question format."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-070",
+    "question": "If Inspiratory Capacity (IC) = 3500 mL and Tidal Volume (TV) = 500 mL, what is the Inspiratory Reserve Volume (IRV)?",
+    "options": [
+      "3000 mL",
+      "4000 mL",
+      "500 mL",
+      "3500 mL"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since IC = TV + IRV, rearranging gives IRV = IC − TV = 3500 − 500 = 3000 mL.",
+      "why_others_wrong": "4000 mL incorrectly adds the values instead of subtracting; 500 mL is just the given tidal volume; 3500 mL is the given inspiratory capacity itself, not the IRV.",
+      "concept_recap": "This calculation reinforces the relationship IC = TV + IRV, a standard formula in respiratory physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-071",
+    "question": "A person has a Functional Residual Capacity (FRC) of 2300 mL and a Residual Volume (RV) of 1200 mL. What is their Expiratory Reserve Volume (ERV)?",
+    "options": [
+      "1100 mL",
+      "3500 mL",
+      "2300 mL",
+      "1200 mL"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since FRC = ERV + RV, rearranging gives ERV = FRC − RV = 2300 − 1200 = 1100 mL.",
+      "why_others_wrong": "3500 mL incorrectly adds instead of subtracting; 2300 mL and 1200 mL are the given FRC and RV themselves, not the calculated ERV.",
+      "concept_recap": "This reinforces the standard relationship FRC = ERV + RV used in interpreting spirometry data."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-072",
+    "question": "At high altitude, where atmospheric pO2 is significantly reduced, the body's compensatory response typically includes:",
+    "options": [
+      "Decreased red blood cell production",
+      "Increased red blood cell (erythrocyte) production to enhance oxygen-carrying capacity",
+      "Decreased breathing rate",
+      "Complete cessation of haemoglobin synthesis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In response to chronic low oxygen availability at high altitude, the body increases erythropoietin secretion, stimulating increased red blood cell production to enhance the blood's oxygen-carrying capacity.",
+      "why_others_wrong": "Decreased red blood cell production would worsen, not compensate for, oxygen deficiency; breathing rate typically increases (not decreases) to compensate for low pO2; haemoglobin synthesis increases rather than ceases under these conditions.",
+      "concept_recap": "This adaptive response, called acclimatisation, can take days to weeks to fully develop after ascent to high altitude."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-073",
+    "question": "Carbon monoxide (CO) is highly toxic primarily because it:",
+    "options": [
+      "Cannot bind to haemoglobin at all",
+      "Binds to haemoglobin with a much higher affinity than oxygen, displacing oxygen and preventing normal O2 transport",
+      "Increases oxygen's binding affinity to haemoglobin",
+      "Has no interaction with the respiratory system"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Carbon monoxide binds to the same heme sites as oxygen but with roughly 200 times greater affinity, effectively displacing oxygen and severely impairing oxygen transport, forming carboxyhaemoglobin.",
+      "why_others_wrong": "CO does bind haemoglobin, and quite readily; it competitively displaces oxygen rather than enhancing its binding; CO has a very direct and dangerous interaction with the respiratory/circulatory oxygen transport system.",
+      "concept_recap": "Carbon monoxide poisoning is dangerous precisely because of this strong, competitive binding, which can rapidly reduce the blood's effective oxygen-carrying capacity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-074",
+    "question": "The 'chloride shift' refers to the movement of chloride ions into red blood cells to balance the charge as which ion moves out into the plasma?",
+    "options": [
+      "Sodium ions",
+      "Bicarbonate ions (HCO3-)",
+      "Potassium ions",
+      "Calcium ions"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "As bicarbonate ions formed within red blood cells diffuse out into the plasma (to be transported to the lungs), chloride ions move into the cell to maintain electrical neutrality — the chloride shift.",
+      "why_others_wrong": "Sodium, potassium, and calcium ions are not the ions directly involved in this specific exchange mechanism related to CO2/bicarbonate transport.",
+      "concept_recap": "The chloride shift is an important detail of CO2 transport physiology, closely tied to the bicarbonate buffering system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-075",
+    "question": "Which of the following best explains why oxygen diffuses from alveolar air into pulmonary capillary blood, while carbon dioxide diffuses in the opposite direction, from blood into alveolar air, simultaneously at the same respiratory membrane?",
+    "options": [
+      "Each gas independently follows its own partial pressure gradient, moving from high to low concentration/partial pressure regardless of the other gas's movement",
+      "Oxygen and carbon dioxide are chemically bonded and must move together",
+      "Only one gas can diffuse at a time across the membrane",
+      "Gas movement direction is randomly determined"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Each gas diffuses independently according to its own partial pressure gradient — O2 moves from high pO2 (alveoli) to low pO2 (blood), while CO2 simultaneously moves from high pCO2 (blood) to low pCO2 (alveoli).",
+      "why_others_wrong": "Oxygen and carbon dioxide are not chemically bonded to each other and move independently; simple diffusion allows simultaneous, not sequential, movement of different gases; gas movement direction is governed by concentration/pressure gradients, not randomness.",
+      "concept_recap": "This simultaneous, independent diffusion of two different gases along their respective gradients is a hallmark feature of respiratory gas exchange."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-076",
+    "question": "Myoglobin, found in muscle tissue, has a higher affinity for oxygen than haemoglobin. This property allows myoglobin to:",
+    "options": [
+      "Release oxygen to haemoglobin in the blood",
+      "Efficiently extract and store oxygen from blood for use during periods of high muscular activity",
+      "Transport oxygen throughout the entire circulatory system",
+      "Bind carbon dioxide preferentially over oxygen"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Myoglobin's higher oxygen affinity compared to haemoglobin allows it to effectively take up and store oxygen within muscle tissue, releasing it during periods of intense activity when local oxygen levels drop.",
+      "why_others_wrong": "Myoglobin generally receives oxygen from haemoglobin (via blood), not the reverse; myoglobin functions locally within muscle tissue, not as a circulatory transport protein; myoglobin's key functional property relates to its oxygen affinity, not a preference for CO2 over O2.",
+      "concept_recap": "This localized oxygen storage in muscle is particularly important for tissues with high, fluctuating oxygen demand such as skeletal and cardiac muscle."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-077",
+    "question": "Voluntary control of breathing, such as holding one's breath or speaking, is exerted through pathways originating in the:",
+    "options": [
+      "Medulla oblongata only",
+      "Cerebral cortex, which can override the involuntary rhythm generated by the medulla to a limited extent",
+      "Spinal cord exclusively",
+      "Peripheral chemoreceptors"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The cerebral cortex allows for voluntary, conscious control over breathing patterns (such as holding one's breath or speaking), though this control can be overridden by involuntary mechanisms if blood gas levels become critical.",
+      "why_others_wrong": "The medulla is responsible for involuntary, automatic rhythm, not voluntary control; the spinal cord primarily transmits signals rather than initiating voluntary control; peripheral chemoreceptors detect blood gas changes but do not provide voluntary breathing control.",
+      "concept_recap": "This voluntary override has physiological limits — eventually, rising CO2 and falling O2 will trigger involuntary breathing, which is why one cannot voluntarily hold one's breath indefinitely until unconsciousness."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-078",
+    "question": "Hyperventilation (excessively rapid and deep breathing) typically leads to which of the following blood gas changes?",
+    "options": [
+      "Increased blood CO2 and decreased pH (acidosis)",
+      "Decreased blood CO2 and increased blood pH (alkalosis)",
+      "No change in blood gas composition",
+      "Decreased blood O2 only, with no change in CO2"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hyperventilation causes excessive removal of CO2 from the blood, lowering blood CO2 levels and raising blood pH, a condition known as respiratory alkalosis.",
+      "why_others_wrong": "Increased CO2 and acidosis would result from hypoventilation (inadequate breathing), the opposite scenario; blood gas composition does change significantly during hyperventilation; oxygen levels are not the primary or exclusive change — CO2 removal is the dominant effect.",
+      "concept_recap": "This is why hyperventilation can cause symptoms like dizziness and tingling, related to the resulting change in blood pH."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-079",
+    "question": "Hypoventilation (inadequate breathing relative to metabolic needs) typically results in:",
+    "options": [
+      "Decreased blood CO2 and alkalosis",
+      "Increased blood CO2 (hypercapnia) and decreased blood pH (respiratory acidosis)",
+      "No effect on blood pH",
+      "Increased blood oxygen levels only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Inadequate ventilation leads to CO2 accumulation in the blood (hypercapnia), which lowers blood pH, resulting in respiratory acidosis.",
+      "why_others_wrong": "Decreased CO2 and alkalosis are characteristic of hyperventilation, the opposite condition; blood pH is significantly affected by hypoventilation, not unaffected; oxygen levels would typically decrease, not increase, with inadequate ventilation.",
+      "concept_recap": "This CO2-pH relationship underlies why respiratory rate and depth are so tightly regulated to maintain blood pH homeostasis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-080",
+    "question": "Which of the following statements about the effects of smoking on the respiratory system is correct?",
+    "options": [
+      "Smoking has no measurable effect on lung tissue",
+      "Smoking damages cilia, promotes chronic inflammation, and is a major risk factor for emphysema and lung cancer",
+      "Smoking increases the number of functional alveoli",
+      "Smoking primarily affects only the sense of smell, with no deeper respiratory impact"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Chronic smoking damages ciliated airway cells, causes persistent inflammation, and significantly increases the risk of serious conditions such as emphysema and lung cancer.",
+      "why_others_wrong": "Smoking has substantial, well-documented harmful effects on lung tissue, contrary to having no effect; it decreases, not increases, functional alveolar surface area over time through damage; its effects extend far beyond just the sense of smell, deeply impacting airway and alveolar structures.",
+      "concept_recap": "Public health measures targeting smoking cessation are largely aimed at reducing the incidence of these serious respiratory (and cardiovascular) diseases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-081",
+    "question": "A patient with a significantly reduced vital capacity due to lung fibrosis (scarring and thickening of lung tissue) would most likely also show impaired gas exchange due to:",
+    "options": [
+      "Decreased diffusion distance across the respiratory membrane",
+      "Increased thickness of the respiratory membrane, which reduces the rate of gas diffusion according to Fick's law",
+      "Increased surface area for gas exchange",
+      "No change in the rate of gas diffusion"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Fibrosis thickens the respiratory membrane, which, according to Fick's law, directly reduces the rate of gas diffusion since diffusion rate is inversely proportional to membrane thickness.",
+      "why_others_wrong": "Fibrosis increases, rather than decreases, diffusion distance/membrane thickness; it typically decreases, not increases, effective surface area for gas exchange due to scarring; there would indeed be a significant, not absent, change in diffusion rate.",
+      "concept_recap": "This illustrates how structural lung diseases directly impair the physical principles (surface area, thickness, pressure gradient) governing efficient gas exchange."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-082",
+    "question": "Which of the following conditions would be expected to shift the oxygen-haemoglobin dissociation curve to the LEFT, increasing haemoglobin's affinity for oxygen?",
+    "options": [
+      "Increased temperature",
+      "Increased blood pH (more alkaline conditions)",
+      "Increased pCO2",
+      "Increased 2,3-BPG concentration"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Increased blood pH (more alkaline, lower H+ concentration) shifts the oxygen-haemoglobin dissociation curve to the left, increasing haemoglobin's affinity for oxygen and reducing oxygen release to tissues.",
+      "why_others_wrong": "Increased temperature, increased pCO2, and increased 2,3-BPG all shift the curve to the right (decreasing O2 affinity), the opposite of what is asked here.",
+      "concept_recap": "Leftward shifts favour oxygen loading (e.g., at the lungs), while rightward shifts favour oxygen unloading (e.g., at metabolically active tissues) — understanding both directions is key for NEET."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-083",
+    "question": "Which of the following is a common symptom directly resulting from reduced oxygen-carrying capacity of the blood, such as in severe anaemia or carbon monoxide poisoning?",
+    "options": [
+      "Improved exercise tolerance",
+      "Fatigue and shortness of breath due to inadequate oxygen delivery to tissues",
+      "Increased blood pH beyond normal range as the primary symptom",
+      "No noticeable symptoms"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Reduced oxygen-carrying capacity directly limits oxygen delivery to metabolically active tissues, commonly causing fatigue and shortness of breath (dyspnea) as the body struggles to meet oxygen demand.",
+      "why_others_wrong": "Exercise tolerance would decrease, not improve, under conditions of reduced oxygen delivery; while blood gas changes can occur, pH change is not the primary or most direct symptom described; noticeable symptoms are expected, not their complete absence.",
+      "concept_recap": "These symptoms are common presenting complaints in conditions affecting the blood's ability to transport oxygen effectively."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-084",
+    "question": "Cyanosis, a bluish discoloration of the skin and mucous membranes, is most directly caused by:",
+    "options": [
+      "Excess oxygenated haemoglobin in the blood",
+      "An increased amount of deoxygenated haemoglobin in the blood, often due to inadequate oxygenation",
+      "Excess white blood cells",
+      "Increased blood glucose levels"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cyanosis occurs when there is a relatively high concentration of deoxygenated (reduced) haemoglobin in the blood, which has a bluish colour, typically reflecting inadequate oxygenation.",
+      "why_others_wrong": "Excess oxygenated (not deoxygenated) haemoglobin would not cause the bluish discoloration seen in cyanosis; white blood cell count and blood glucose levels are unrelated to the mechanism causing cyanosis.",
+      "concept_recap": "Cyanosis is a clinically important sign often associated with respiratory or cardiovascular conditions that impair proper oxygenation of the blood."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-085",
+    "question": "Which of the following best describes 'apnea' in the context of respiratory physiology?",
+    "options": [
+      "Abnormally rapid breathing",
+      "A temporary cessation or pause in breathing",
+      "Chronic wheezing due to bronchoconstriction",
+      "Excessive mucus production in the airway"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Apnea refers to a temporary stop or pause in breathing, which can occur normally (briefly) or pathologically (as in sleep apnea).",
+      "why_others_wrong": "Abnormally rapid breathing describes tachypnea, not apnea; chronic wheezing describes conditions like asthma; excessive mucus production describes conditions like bronchitis, not apnea specifically.",
+      "concept_recap": "Sleep apnea, involving repeated pauses in breathing during sleep, is a well-known clinical condition related to this concept."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-086",
+    "question": "A student measures their tidal volume as 500 mL and respiratory rate as 15 breaths per minute. What is their approximate total pulmonary ventilation (minute ventilation) rate?",
+    "options": [
+      "500 mL/min",
+      "3300 mL/min",
+      "7500 mL/min",
+      "15000 mL/min"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Minute ventilation = Tidal Volume x Respiratory Rate = 500 mL x 15 = 7500 mL/min.",
+      "why_others_wrong": "500 mL/min is just the tidal volume itself, not accounting for rate; 3300 mL/min and 15000 mL/min do not correctly apply the tidal volume x rate calculation.",
+      "concept_recap": "Minute ventilation is a key clinical measure reflecting overall airflow into and out of the lungs per minute."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-087",
+    "question": "Which of the following correctly ranks the relative percentages of the three main routes of CO2 transport in the blood, from highest to lowest?",
+    "options": [
+      "Dissolved in plasma > Bicarbonate > Carbaminohaemoglobin",
+      "Bicarbonate > Carbaminohaemoglobin > Dissolved in plasma",
+      "Carbaminohaemoglobin > Bicarbonate > Dissolved in plasma",
+      "All three routes transport equal amounts of CO2"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The correct order, from highest to lowest contribution, is bicarbonate (~70%) > carbaminohaemoglobin (~20-25%) > dissolved CO2 in plasma (~7%).",
+      "why_others_wrong": "The other orderings incorrectly rank the routes, or incorrectly claim equal contribution from all three, which does not match established respiratory physiology.",
+      "concept_recap": "Understanding the relative proportions of these three transport routes is a frequently tested detail in NEET respiratory physiology questions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-088",
+    "question": "Which of the following best explains why haemoglobin's oxygen-binding curve is sigmoidal rather than a simple hyperbola (as seen with single-subunit oxygen-binding proteins like myoglobin)?",
+    "options": [
+      "Haemoglobin has no cooperative interactions between subunits",
+      "Haemoglobin's four subunits interact cooperatively — binding of oxygen to one subunit increases the oxygen affinity of the remaining subunits",
+      "Haemoglobin binds oxygen randomly with no pattern",
+      "Haemoglobin has only one oxygen-binding site, like myoglobin"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The sigmoidal shape arises because haemoglobin exhibits positive cooperativity: oxygen binding to one of its four subunits induces conformational changes that increase the oxygen affinity of the remaining subunits.",
+      "why_others_wrong": "The sigmoidal shape specifically requires cooperative interactions, contradicting 'no cooperative interactions'; the binding pattern follows a defined cooperative mechanism, not randomness; haemoglobin has four oxygen-binding sites (one per subunit), unlike myoglobin's single site.",
+      "concept_recap": "Myoglobin's single subunit lacks this cooperativity, resulting in the simpler hyperbolic binding curve rather than haemoglobin's characteristic S-shape."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-089",
+    "question": "Which of the following best summarises the overall relationship between structure and function in the human respiratory system, as illustrated by the alveoli?",
+    "options": [
+      "Structure and function are unrelated in biological systems",
+      "The alveoli's thin walls, large surface area, and rich capillary network are structurally optimised to maximise the efficiency of gas exchange, directly reflecting their function",
+      "Alveolar structure has no impact on the rate of gas exchange",
+      "All respiratory structures have identical form regardless of their specific function"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The thin walls, immense collective surface area, and dense capillary network of alveoli directly reflect and enable their specific function of efficient gas exchange — a clear example of structure-function relationship in biology.",
+      "why_others_wrong": "Structure and function are deeply related, not unrelated, in this and most biological systems; alveolar structure has a very significant, not negligible, impact on gas exchange efficiency; different respiratory structures (e.g., trachea vs. alveoli) have distinctly different forms suited to their distinct functions, not identical forms.",
+      "concept_recap": "This structure-function relationship is a recurring theme throughout physiology and a key conceptual takeaway from the study of the respiratory system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-090",
+    "question": "Which of the following best defines 'breathing' as distinct from the broader term 'respiration'?",
+    "options": [
+      "Breathing refers to the biochemical oxidation of food to release energy, while respiration refers only to airflow",
+      "Breathing refers to the mechanical process of moving air into and out of the lungs, while respiration (cellular respiration) refers to the biochemical breakdown of food to release energy",
+      "The two terms are completely interchangeable with no distinction",
+      "Breathing occurs only in plants, while respiration occurs only in animals"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Breathing is the physical, mechanical process of ventilating the lungs (inspiration and expiration), whereas respiration (specifically cellular respiration) refers to the biochemical process of breaking down glucose to release usable energy within cells.",
+      "why_others_wrong": "The definitions given for breathing and respiration are reversed in the first option; while colloquially used interchangeably, they have technically distinct meanings in physiology; both breathing and respiration occur in various forms across many organisms, not exclusively in plants or animals as stated.",
+      "concept_recap": "This distinction between the mechanical process (breathing) and biochemical process (cellular respiration) is foundational to understanding respiratory physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-091",
+    "question": "Which of the following gases makes up the largest percentage of atmospheric air by volume, though it plays no direct role in respiratory gas exchange?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Water vapour"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Nitrogen constitutes about 78% of atmospheric air by volume, though it is physiologically inert and not involved in normal respiratory gas exchange.",
+      "why_others_wrong": "Oxygen makes up roughly 21% (the gas actually used in respiration); carbon dioxide is present only in trace amounts (~0.04%); water vapour content is variable and generally much less than nitrogen.",
+      "concept_recap": "Despite its abundance, nitrogen's inertness under normal conditions means it does not participate in the oxygen-carbon dioxide exchange central to respiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-092",
+    "question": "Which of the following best explains why gas exchange occurs efficiently at the alveoli, despite the relatively low percentage of oxygen in atmospheric air?",
+    "options": [
+      "Alveoli have extremely thick walls to maximise contact time",
+      "Alveoli provide an enormous total surface area combined with a rich capillary network and thin walls, maximising diffusion efficiency despite lower ambient oxygen levels",
+      "Alveoli actively pump oxygen using ATP",
+      "Gas exchange efficiency is unrelated to alveolar structure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The combination of enormous total alveolar surface area, thin walls, and dense capillary network compensates for the relatively low oxygen percentage in air, allowing efficient net oxygen uptake.",
+      "why_others_wrong": "Alveolar walls are extremely thin, not thick, which is key to their efficiency; gas exchange at alveoli occurs via passive diffusion, not active ATP-dependent pumping; alveolar structure is very much related to, and central to, the efficiency of gas exchange.",
+      "concept_recap": "This structural optimisation is a clear example of how anatomy supports physiological function in the respiratory system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-093",
+    "question": "Which of the following would most directly decrease the rate of oxygen diffusion into the blood at the alveoli, based on the factors described by Fick's law?",
+    "options": [
+      "An increase in the partial pressure difference of oxygen",
+      "A decrease in the surface area available for diffusion, such as in emphysema",
+      "A decrease in the thickness of the respiratory membrane",
+      "An increase in total alveolar number"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A decrease in the available alveolar surface area, as occurs in emphysema due to alveolar wall destruction, directly reduces the rate of gas diffusion according to Fick's law.",
+      "why_others_wrong": "An increased partial pressure difference would increase, not decrease, diffusion rate; a decrease in membrane thickness would increase, not decrease, diffusion rate; an increase in alveolar number would increase, not decrease, effective surface area and thus diffusion rate.",
+      "concept_recap": "This principle explains why diseases reducing alveolar surface area (like emphysema) significantly impair oxygen uptake."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-094",
+    "question": "Which of the following would be the most likely immediate physiological response to a sudden significant increase in blood CO2 concentration (hypercapnia) in a healthy individual?",
+    "options": [
+      "Decreased respiratory rate and depth",
+      "Increased respiratory rate and depth, to expel excess CO2 and restore normal blood gas levels",
+      "No change in breathing pattern",
+      "Immediate cessation of breathing"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Elevated blood CO2 is detected by chemoreceptors, triggering an increase in both the rate and depth of breathing to expel the excess CO2 and restore normal blood gas homeostasis.",
+      "why_others_wrong": "A decrease in respiratory rate would worsen, not correct, the hypercapnia; a lack of change would fail to address the elevated CO2 detected by chemoreceptors; breathing cessation would be a dangerous and physiologically counterproductive response to rising CO2, not the expected reflex.",
+      "concept_recap": "This negative feedback loop, driven primarily by CO2-sensitive chemoreceptors, is central to maintaining stable blood gas levels under normal physiological conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-095",
+    "question": "Which of the following statements correctly describes the relationship between altitude and atmospheric oxygen availability?",
+    "options": [
+      "Atmospheric oxygen percentage increases significantly with altitude",
+      "Atmospheric pressure (and thus the partial pressure of oxygen) decreases with increasing altitude, even though the percentage of oxygen in air remains roughly constant",
+      "Atmospheric pressure has no relationship with altitude",
+      "Oxygen percentage in air varies unpredictably with altitude"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "While the percentage of oxygen in the atmosphere remains roughly 21% regardless of altitude, the overall atmospheric pressure decreases with increasing altitude, reducing the partial pressure (and thus availability) of oxygen for diffusion into blood.",
+      "why_others_wrong": "Oxygen percentage does not increase significantly with altitude; atmospheric pressure is clearly related to (and decreases with) altitude, not unrelated; oxygen percentage remains relatively constant, not unpredictably variable, with altitude.",
+      "concept_recap": "This principle explains why breathing becomes more difficult at high altitude, despite the percentage composition of air remaining largely unchanged."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-096",
+    "question": "Which respiratory volume or capacity would be expected to increase the most with regular aerobic (endurance) exercise training over time?",
+    "options": [
+      "Residual volume only, with all other volumes unchanged",
+      "Vital capacity, as the respiratory muscles strengthen and lung function improves",
+      "Tidal volume alone, with no change in other volumes or capacities",
+      "No respiratory volumes or capacities are affected by exercise training"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Regular aerobic training strengthens respiratory muscles and can improve overall lung function, often leading to an increased vital capacity over time.",
+      "why_others_wrong": "Residual volume is largely structurally determined and not the primary volume expected to change substantially with training; tidal volume during rest generally remains relatively stable, though it may increase during exercise itself; multiple respiratory parameters, especially vital capacity, are indeed affected by sustained aerobic training.",
+      "concept_recap": "Improved vital capacity and overall respiratory efficiency are among the well-documented adaptations to regular aerobic exercise."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-097",
+    "question": "A newborn infant born prematurely, with insufficiently developed Type II alveolar cells, would most likely suffer from a deficiency of:",
+    "options": [
+      "Haemoglobin",
+      "Surfactant, leading to alveolar collapse and difficulty breathing (respiratory distress syndrome)",
+      "Red blood cells only",
+      "Carbonic anhydrase"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Premature infants often have underdeveloped Type II alveolar cells, resulting in insufficient surfactant production, which leads to alveolar collapse and difficulty breathing, a condition known as neonatal respiratory distress syndrome.",
+      "why_others_wrong": "While other blood components matter for oxygen transport, the specific and well-documented cause in premature infants relates to surfactant deficiency, not directly to haemoglobin or red blood cell deficiency as the primary Type II cell-related issue; carbonic anhydrase deficiency is not the characteristic problem associated with premature Type II cell underdevelopment.",
+      "concept_recap": "Surfactant therapy is a standard, life-saving treatment for premature infants suffering from this condition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-098",
+    "question": "Which of the following best explains the physiological basis for the common practice of encouraging deep, slow breathing to help calm anxiety or reduce hyperventilation-related symptoms?",
+    "options": [
+      "Deep, slow breathing has no measurable effect on blood gas levels",
+      "Deep, slow breathing helps normalise blood CO2 levels that may have dropped due to rapid, shallow hyperventilation, helping restore normal blood pH",
+      "Deep, slow breathing always increases blood CO2 to dangerously high levels",
+      "Deep, slow breathing works purely through psychological distraction, with no physiological basis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Controlled, slower breathing can help restore CO2 levels that had dropped due to hyperventilation, helping normalise blood pH and reduce associated symptoms like dizziness and tingling.",
+      "why_others_wrong": "Breathing pattern does have a clear, measurable effect on blood gas levels, contrary to the first option; the goal is to restore, not push to dangerously high, CO2 levels; while there may be psychological benefits too, there is a genuine, well-established physiological basis related to blood gas regulation.",
+      "concept_recap": "This technique directly leverages the physiological relationship between breathing pattern, blood CO2 levels, and blood pH."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-099",
+    "question": "Which of the following best describes why the walls of alveoli, despite being extremely thin, do not typically rupture under the normal pressures generated during breathing?",
+    "options": [
+      "They are reinforced with thick bone tissue",
+      "Elastic connective tissue fibres and the structural properties of the alveolar walls, along with surfactant reducing surface tension, provide sufficient support and stability",
+      "Alveoli are rigid and completely inflexible structures",
+      "Alveolar walls are not actually thin at all"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Alveolar walls contain elastic fibres that provide flexibility and recoil, while surfactant reduces surface tension, together allowing the thin alveolar walls to withstand normal breathing pressures without rupturing.",
+      "why_others_wrong": "Alveolar walls are not reinforced with bone tissue; they are actually quite flexible, not rigid or inflexible, allowing them to expand and recoil during breathing; alveolar walls are indeed extremely thin, which is precisely why efficient gas diffusion is possible.",
+      "concept_recap": "This balance between extreme thinness (for efficient diffusion) and adequate structural support (for durability) exemplifies fine-tuned biological design."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-100",
+    "question": "Which statement correctly relates atmospheric pressure changes to breathing during scuba diving at increasing depth underwater?",
+    "options": [
+      "Pressure decreases with depth underwater, similar to altitude",
+      "Pressure increases significantly with depth underwater, affecting gas solubility and requiring specialised breathing equipment/protocols",
+      "Pressure remains completely constant regardless of depth underwater",
+      "Pressure changes underwater have no physiological relevance to divers"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Unlike the decrease in pressure with altitude, underwater pressure increases substantially with depth, which affects the solubility and behaviour of respiratory gases and necessitates specific safety protocols for divers.",
+      "why_others_wrong": "Pressure increases, not decreases, with underwater depth — an inverse trend compared to altitude; pressure is definitely not constant underwater, changing significantly with depth; these pressure changes have very significant physiological relevance, informing dive safety practices (e.g., preventing decompression sickness).",
+      "concept_recap": "Divers must carefully manage ascent and descent rates to allow their bodies to adjust to these significant pressure changes safely."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-101",
+    "question": "Which of the following best describes the primary functional difference between the conducting zone and the respiratory zone of the human respiratory tract?",
+    "options": [
+      "The conducting zone participates directly in gas exchange, while the respiratory zone only transports air",
+      "The conducting zone transports air without significant gas exchange, while the respiratory zone (bronchioles and alveoli) is where actual gas exchange with blood occurs",
+      "Both zones perform identical functions with no meaningful difference",
+      "The conducting zone is found only in the lower respiratory tract"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The conducting zone (nasal passage through terminal bronchioles) primarily transports and conditions air, while the respiratory zone (respiratory bronchioles and alveoli) is where actual gas exchange with the blood takes place.",
+      "why_others_wrong": "The functional roles described in the first option are reversed; there is a clear and meaningful functional distinction between the two zones, not an absence of difference; the conducting zone includes both upper (nasal passage, pharynx, larynx) and lower (trachea, bronchi) respiratory structures, not just the lower tract.",
+      "concept_recap": "This division of labour — air conditioning/transport versus gas exchange — is fundamental to understanding respiratory system organisation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-102",
+    "question": "Which of the following would most likely occur if a person's respiratory rhythm centre in the medulla were significantly damaged, without immediate medical intervention?",
+    "options": [
+      "Breathing would become perfectly normal and unaffected",
+      "Severe disruption or cessation of the automatic breathing rhythm, potentially life-threatening without ventilatory support",
+      "Only voluntary breathing control would be lost, with automatic breathing remaining completely normal",
+      "Heart function would be permanently and immediately stopped, with no effect on breathing"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since the medullary respiratory rhythm centre generates the fundamental automatic breathing rhythm, significant damage to this area can severely disrupt or halt spontaneous breathing, a potentially life-threatening situation requiring ventilatory support.",
+      "why_others_wrong": "Breathing would not remain normal after significant damage to this critical control centre; it is specifically the automatic (involuntary) rhythm that is most directly threatened by medullary damage, not just voluntary control; while cardiovascular centres are nearby, the direct and immediate concern described specifically involves breathing, not necessarily immediate cardiac arrest.",
+      "concept_recap": "This underscores why the medulla oblongata is considered a vital, life-sustaining region of the brainstem."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-103",
+    "question": "Which of the following best explains why a person cannot voluntarily hold their breath indefinitely, even with strong willpower?",
+    "options": [
+      "There is no physiological limit; a person could theoretically hold their breath forever with enough willpower",
+      "Rising CO2 levels (and falling pH) eventually trigger a powerful involuntary drive to breathe, overriding voluntary control",
+      "Oxygen levels alone, with no involvement of CO2, are the sole trigger that forces a person to breathe again",
+      "Breath-holding has no physiological basis and is purely psychological"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "As CO2 accumulates and blood pH drops during breath-holding, chemoreceptors trigger an increasingly powerful involuntary urge to breathe that eventually overrides voluntary control, regardless of willpower.",
+      "why_others_wrong": "There is indeed a physiological limit, contrary to the first option's claim; while oxygen levels do matter, it is primarily CO2 accumulation (and resulting pH change) that serves as the dominant, more sensitive trigger under normal conditions; breath-holding limits have a clear, well-established physiological basis, not merely a psychological one.",
+      "concept_recap": "This built-in protective reflex ensures that voluntary breath-holding cannot be sustained to the point of serious harm under normal circumstances."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-104",
+    "question": "Which of the following best describes why carbon dioxide, despite being present in much smaller amounts in the atmosphere compared to oxygen, is nonetheless efficiently removed from the blood at the alveoli?",
+    "options": [
+      "Carbon dioxide's much higher solubility in the respiratory membrane's fluid compensates for its smaller partial pressure gradient, allowing efficient diffusion out of the blood",
+      "Carbon dioxide is actively transported out of the blood using ATP",
+      "Carbon dioxide does not actually need to be removed from the blood",
+      "Carbon dioxide removal depends entirely on kidney function, not the lungs"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Although CO2 has a smaller partial pressure gradient than O2 across the respiratory membrane, its considerably higher solubility allows it to diffuse just as effectively, ensuring efficient removal from the blood at the alveoli.",
+      "why_others_wrong": "CO2 removal at the alveoli occurs via passive diffusion, not active ATP-dependent transport; CO2 does need to be efficiently removed to prevent harmful accumulation (hypercapnia) and maintain blood pH; while kidneys play a role in longer-term acid-base balance, the lungs are the primary and rapid route for CO2 removal via diffusion.",
+      "concept_recap": "This compensation via higher solubility, despite a smaller pressure gradient, is a key detail explaining efficient CO2 elimination during respiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-105",
+    "question": "Which of the following best summarises the overall purpose of the respiratory system's coordinated structures — from nasal passage to alveoli — working together?",
+    "options": [
+      "To transport food efficiently to the stomach",
+      "To bring atmospheric air into intimate contact with blood, enabling efficient exchange of oxygen and carbon dioxide to support cellular respiration throughout the body",
+      "To regulate body temperature exclusively, with no role in gas exchange",
+      "To produce digestive enzymes for nutrient breakdown"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The respiratory system's coordinated structures work together to bring atmospheric air into close contact with blood at the alveoli, enabling efficient oxygen uptake and carbon dioxide removal to support the body's ongoing metabolic (cellular respiration) needs.",
+      "why_others_wrong": "Food transport is the role of the digestive system, not the respiratory system; while breathing can have minor secondary effects related to heat loss, temperature regulation is not its primary purpose, and it definitely plays a central role in gas exchange; digestive enzyme production is unrelated to the respiratory system's core function.",
+      "concept_recap": "This integration of structure and function across the entire respiratory pathway ultimately supports the continuous cellular respiration occurring in tissues throughout the body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-106",
+    "question": "The Hering-Breuer reflex, which helps prevent over-inflation of the lungs, is triggered by:",
+    "options": [
+      "Chemoreceptors detecting low oxygen",
+      "Stretch receptors in the lungs detecting excessive lung inflation, sending inhibitory signals to stop further inspiration",
+      "Baroreceptors detecting blood pressure changes",
+      "Osmoreceptors detecting blood osmolarity"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The Hering-Breuer inflation reflex is triggered by stretch receptors in the lung walls that, upon detecting excessive inflation, send signals to the respiratory centre to inhibit further inspiration, preventing lung over-expansion.",
+      "why_others_wrong": "Chemoreceptors respond to blood gas changes (CO2/O2), not lung stretch; baroreceptors detect blood pressure, unrelated to lung inflation; osmoreceptors detect blood osmolarity, also unrelated to this reflex.",
+      "concept_recap": "This protective reflex is an example of a negative feedback mechanism preventing potential damage from lung over-inflation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-107",
+    "question": "Silicosis, an occupational lung disease, is caused by prolonged inhalation of which type of particles?",
+    "options": [
+      "Asbestos fibres",
+      "Silica dust particles",
+      "Coal dust only",
+      "Pollen grains"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Silicosis results from prolonged inhalation of fine silica dust particles, commonly encountered in mining, quarrying, and sandblasting occupations, leading to lung fibrosis.",
+      "why_others_wrong": "Asbestos fibre inhalation causes asbestosis, a related but distinct condition; coal dust exposure causes coal workers' pneumoconiosis (black lung disease), a separate condition; pollen grains typically cause allergic reactions like hay fever, not silicosis.",
+      "concept_recap": "Like other pneumoconioses, silicosis involves chronic inflammation and progressive fibrosis due to the body's inability to clear the fine inhaled particles."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-108",
+    "question": "Which of the following occupational lung diseases is specifically associated with prolonged exposure to asbestos fibres?",
+    "options": [
+      "Silicosis",
+      "Asbestosis",
+      "Byssinosis",
+      "Farmer's lung"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Asbestosis is the specific fibrotic lung disease caused by prolonged inhalation of asbestos fibres, historically common in construction and shipbuilding industries.",
+      "why_others_wrong": "Silicosis is caused by silica dust, not asbestos; byssinosis is associated with cotton dust exposure; farmer's lung is caused by inhaling mould spores from hay, not asbestos.",
+      "concept_recap": "Asbestos exposure is also associated with increased risk of certain cancers, making occupational protection especially critical."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-109",
+    "question": "Which of the following best describes the paranasal sinuses in relation to the respiratory system?",
+    "options": [
+      "They are the primary site of gas exchange",
+      "Air-filled cavities within certain skull bones that connect to the nasal cavity, helping to lighten the skull and resonate voice",
+      "They are found only in the lower respiratory tract",
+      "They function primarily to filter blood"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Paranasal sinuses are air-filled spaces in bones surrounding the nasal cavity that help lighten the skull, humidify air, and contribute to vocal resonance.",
+      "why_others_wrong": "Gas exchange occurs at the alveoli, not the paranasal sinuses; sinuses are located in the skull (upper respiratory region), not the lower respiratory tract; sinuses have no role in filtering blood.",
+      "concept_recap": "Sinus inflammation (sinusitis) is a common condition affecting these air-filled cavities connected to the nasal passages."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-110",
+    "question": "Which of the following best explains why the respiratory surface (alveolar-capillary membrane) must always remain moist for effective gas exchange?",
+    "options": [
+      "Moisture has no role in gas exchange",
+      "Gases must first dissolve in the thin fluid layer lining the respiratory surface before diffusing across the membrane",
+      "Moisture prevents any gas from crossing the membrane",
+      "Dryness would increase the rate of diffusion"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Respiratory gases must dissolve in the thin moist fluid film lining the alveolar surface before they can diffuse across the membrane into the blood, making moisture essential for gas exchange.",
+      "why_others_wrong": "Moisture plays a very important, not negligible, role in gas exchange; moisture facilitates, rather than prevents, gas diffusion across the membrane; dryness would actually impair, not increase, the rate of diffusion by disrupting this essential dissolving step.",
+      "concept_recap": "This requirement for a moist respiratory surface is a common feature across many respiratory systems in the animal kingdom, from amphibian skin to human alveoli."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-111",
+    "question": "Which of the following correctly compares the surface area-to-volume considerations that make large, complex organisms like humans require specialised respiratory organs (like lungs), unlike very small organisms such as protozoa?",
+    "options": [
+      "Small organisms have too much surface area relative to volume, requiring specialised organs",
+      "Small organisms have a large surface area-to-volume ratio sufficient for direct diffusion, while larger organisms have a comparatively smaller ratio, necessitating specialised respiratory organs and transport systems",
+      "Surface area-to-volume ratio has no bearing on respiratory adaptations",
+      "All organisms, regardless of size, use identical respiratory strategies"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Small organisms have a large surface area relative to their volume, allowing sufficient gas exchange via simple diffusion across their body surface, whereas larger organisms have a much smaller relative surface area, requiring specialised respiratory organs and internal transport systems to meet metabolic demands.",
+      "why_others_wrong": "It is precisely because small organisms have a LARGE (not excessive/problematic) surface area-to-volume ratio that they can rely on simple diffusion; surface area-to-volume ratio is a major factor, not irrelevant, in shaping respiratory adaptations across the animal kingdom; different organisms clearly use very different respiratory strategies suited to their size and habitat, not identical ones.",
+      "concept_recap": "This size-dependent respiratory adaptation is a classic concept linking basic physical principles to the evolution of complex organ systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-112",
+    "question": "A patient with chronic bronchitis, another form of COPD, primarily experiences which of the following changes in their airways?",
+    "options": [
+      "Destruction of alveolar walls only, with no change in bronchial mucus",
+      "Persistent inflammation and excessive mucus production in the bronchi, narrowing the airway and obstructing airflow",
+      "Complete absence of any mucus production",
+      "Widening of the bronchi with no obstruction"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Chronic bronchitis involves long-term inflammation of the bronchial lining and excessive mucus secretion, which narrows the airway and obstructs normal airflow, often accompanied by a persistent productive cough.",
+      "why_others_wrong": "Alveolar wall destruction without bronchial mucus changes better describes emphysema, not chronic bronchitis specifically; chronic bronchitis is characterised by excessive, not absent, mucus production; the airway typically narrows (not widens) due to inflammation and mucus, causing obstruction rather than an absence of it.",
+      "concept_recap": "Chronic bronchitis and emphysema often coexist and together are classified under chronic obstructive pulmonary disease (COPD)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-113",
+    "question": "Which of the following would most likely result from a significant blockage of a bronchiole supplying a portion of lung tissue?",
+    "options": [
+      "Improved gas exchange in the affected region",
+      "Reduced or absent ventilation to the alveoli supplied by that bronchiole, impairing gas exchange in that region",
+      "No effect on the affected lung tissue",
+      "Increased surfactant production only, with no change in ventilation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A blocked bronchiole prevents air from reaching the alveoli it supplies, impairing ventilation and consequently gas exchange in that specific region of lung tissue.",
+      "why_others_wrong": "Blockage would impair, not improve, gas exchange in the affected region; a complete lack of effect contradicts the clear physiological consequence of obstructed airflow; while surfactant dynamics might be secondarily affected over time, the immediate and primary consequence is reduced ventilation, not simply altered surfactant production.",
+      "concept_recap": "This concept underlies the pathology of conditions like bronchial obstruction from mucus plugs, tumours, or foreign objects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-114",
+    "question": "Which of the following best describes why the trachea and bronchi, but not the smaller bronchioles, contain cartilage rings/plates for structural support?",
+    "options": [
+      "Cartilage becomes unnecessary in larger airways",
+      "Larger airways need rigid support to stay open against greater pressure changes, while smaller bronchioles rely more on elastic tissue and smooth muscle for their structural needs",
+      "Bronchioles are structurally identical to the trachea in every way",
+      "Cartilage is only found in bones, never in airways"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The trachea and larger bronchi require cartilage for rigid structural support to prevent collapse under the greater pressure changes they experience, while the smaller bronchioles rely on elastic fibres and smooth muscle, allowing more dynamic diameter regulation.",
+      "why_others_wrong": "Cartilage does remain important, not unnecessary, specifically in the larger airways; bronchioles differ meaningfully in structure from the trachea (lacking significant cartilage, having more smooth muscle for diameter control), contrary to being structurally 'identical'; cartilage is indeed found in the walls of these airways, not just in bones.",
+      "concept_recap": "This structural gradient — cartilage-supported larger airways transitioning to muscular smaller bronchioles — allows fine control of airflow resistance deeper in the lung."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-115",
+    "question": "Which of the following best explains the physiological reason that panting in dogs helps with heat loss, in addition to normal respiratory gas exchange?",
+    "options": [
+      "Panting has no relationship to temperature regulation",
+      "Rapid, shallow panting increases evaporative water loss from the moist respiratory surfaces (mouth, tongue, airway), helping dissipate heat since dogs have limited sweat glands",
+      "Panting decreases blood flow to the respiratory tract",
+      "Panting is purely a voluntary behaviour with no physiological basis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Because dogs have relatively few sweat glands, panting increases airflow over moist respiratory surfaces, promoting evaporative cooling and helping dissipate excess body heat.",
+      "why_others_wrong": "Panting is very much related to temperature regulation, not unrelated; increased, not decreased, blood flow to respiratory surfaces supports the evaporative cooling process during panting; panting does have a clear physiological basis (thermoregulation via evaporative cooling), not being purely voluntary/arbitrary behaviour.",
+      "concept_recap": "This is a good example of how the respiratory system can be adapted for functions beyond gas exchange, such as thermoregulation in certain species."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-116",
+    "question": "Which of the following best explains why the partial pressure of oxygen in systemic arterial blood leaving the lungs is slightly lower than the partial pressure of oxygen in alveolar air?",
+    "options": [
+      "There is no actual difference between the two values",
+      "Some mixing occurs with deoxygenated blood from other sources (e.g., bronchial circulation), along with minor diffusion limitations, causing a small but normal difference",
+      "Oxygen is destroyed within the lungs before reaching systemic circulation",
+      "Atmospheric pressure changes within the lungs alone account for the entire difference"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "A small, normal difference exists between alveolar and arterial pO2 due to factors like minor physiological shunting (mixing with less oxygenated blood from bronchial circulation) and minor diffusion limitations, even in healthy individuals.",
+      "why_others_wrong": "There is indeed a small, well-documented difference between these values in healthy physiology, not an absence of difference; oxygen is not destroyed within the lungs — it is simply not 100% equilibrated due to minor physiological factors; while pressure principles underlie gas movement, the specific alveolar-arterial difference is explained by mixing/shunting effects, not simply generic pressure changes within the lungs.",
+      "concept_recap": "This 'alveolar-arterial oxygen gradient' is actually used clinically as a diagnostic indicator of lung function and gas exchange efficiency."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-117",
+    "question": "Which of the following best summarises the role of negative feedback in the regulation of breathing, using blood CO2 levels as an example?",
+    "options": [
+      "Rising CO2 triggers increased breathing, which then removes CO2, reducing the original stimulus — a classic negative feedback loop",
+      "Rising CO2 has no effect on breathing rate at all",
+      "Rising CO2 triggers decreased breathing to conserve CO2 levels",
+      "Breathing regulation operates only through positive feedback, amplifying CO2 levels further"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "This is a classic negative feedback loop: rising blood CO2 stimulates increased breathing rate/depth, which expels more CO2, thereby reducing blood CO2 back toward normal and diminishing the original stimulus.",
+      "why_others_wrong": "Rising CO2 does have a significant, well-documented effect on breathing rate, contrary to having no effect; breathing increases (not decreases) in response to rising CO2, since decreased breathing would worsen the problem; this is a negative feedback mechanism, not positive feedback, since the response counteracts (rather than amplifies) the initial change.",
+      "concept_recap": "Negative feedback loops like this are fundamental to physiological homeostasis, maintaining stable internal conditions despite external or internal perturbations."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-118",
+    "question": "How many lungs does a normal healthy human have?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Humans have two lungs, located within the thoracic cavity on either side of the heart.",
+      "why_others_wrong": "One, three, and four do not correctly describe normal human lung anatomy.",
+      "concept_recap": "The right and left lungs differ slightly in size and lobe number, mainly due to the space occupied by the heart on the left side."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-119",
+    "question": "The muscular, dome-shaped structure separating the thoracic cavity from the abdominal cavity, essential for breathing, is called the:",
+    "options": [
+      "Sternum",
+      "Diaphragm",
+      "Pleura",
+      "Larynx"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The diaphragm is the dome-shaped muscle separating the thoracic and abdominal cavities, and its contraction/relaxation is central to the mechanics of breathing.",
+      "why_others_wrong": "The sternum is a bone in the chest, the pleura is the membrane covering the lungs, and the larynx is the voice box — none separate the thoracic and abdominal cavities.",
+      "concept_recap": "As the primary muscle of respiration, diaphragm function is essential for normal, effortless breathing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-120",
+    "question": "Which of the following gases is primarily exhaled from the body as a waste product of cellular respiration?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Carbon dioxide is the main gaseous waste product of cellular respiration and is exhaled from the lungs into the atmosphere.",
+      "why_others_wrong": "Oxygen is inhaled and used by cells, not exhaled as waste; nitrogen is largely inert and simply passes through without being consumed or produced in respiration; hydrogen is not a significant waste product of normal human cellular respiration.",
+      "concept_recap": "This continuous removal of CO2 is essential to prevent its toxic accumulation in the blood and tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-121",
+    "question": "Which structure connects the larynx to the bronchi, serving as the main airway to the lungs?",
+    "options": [
+      "Oesophagus",
+      "Trachea",
+      "Pharynx",
+      "Diaphragm"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The trachea (windpipe) connects the larynx to the bronchi, serving as the main conduit for air to reach the lungs.",
+      "why_others_wrong": "The oesophagus is part of the digestive tract, not the airway; the pharynx is located above the larynx, not between it and the bronchi; the diaphragm is a muscle, not an airway structure.",
+      "concept_recap": "The trachea's cartilage-supported structure keeps this critical airway open at all times."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-122",
+    "question": "The process by which air is drawn into the lungs is called:",
+    "options": [
+      "Expiration",
+      "Inspiration",
+      "Diffusion",
+      "Osmosis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Inspiration (inhalation) is the process by which air is drawn into the lungs, driven by an increase in thoracic volume and a corresponding decrease in pressure.",
+      "why_others_wrong": "Expiration refers to air being pushed out, the opposite process; diffusion and osmosis are separate physical processes (molecular movement and water movement respectively), not the overall term for air being drawn in.",
+      "concept_recap": "Together, inspiration and expiration make up a complete respiratory (breathing) cycle."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-123",
+    "question": "The process by which air is expelled out of the lungs is called:",
+    "options": [
+      "Inspiration",
+      "Expiration",
+      "Filtration",
+      "Absorption"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Expiration (exhalation) is the process by which air is expelled from the lungs, typically as thoracic volume decreases and pressure increases.",
+      "why_others_wrong": "Inspiration refers to air being drawn in, the opposite process; filtration and absorption describe different, unrelated physiological processes, not the expulsion of air from the lungs.",
+      "concept_recap": "Expiration can be passive (relaxed) during quiet breathing or active/forced during vigorous exercise."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-124",
+    "question": "Which blood cells contain the haemoglobin responsible for the majority of oxygen transport in humans?",
+    "options": [
+      "White blood cells",
+      "Red blood cells (erythrocytes)",
+      "Platelets",
+      "Plasma cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Red blood cells (erythrocytes) contain haemoglobin, the protein primarily responsible for carrying oxygen throughout the bloodstream.",
+      "why_others_wrong": "White blood cells are primarily involved in immune defence, not oxygen transport; platelets function in blood clotting, not oxygen transport; plasma cells are specialised white blood cells producing antibodies, unrelated to oxygen transport.",
+      "concept_recap": "The unique biconcave shape and lack of a nucleus in mature red blood cells maximise their surface area for efficient oxygen loading and unloading."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-125",
+    "question": "Which of the following best describes the general trend in oxygen partial pressure (pO2) as blood travels from the lungs to peripheral tissues?",
+    "options": [
+      "pO2 increases from lungs to tissues",
+      "pO2 decreases from lungs to tissues, as oxygen diffuses out of the blood and into metabolically active tissues",
+      "pO2 remains completely constant throughout the circulatory system",
+      "pO2 has no relevance to oxygen movement in the body"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Oxygen partial pressure decreases as blood moves from the oxygen-rich lungs toward peripheral tissues, since oxygen continuously diffuses out of the blood into tissues that are consuming it.",
+      "why_others_wrong": "pO2 does not increase from lungs to tissues — it decreases as oxygen is delivered and used; pO2 is not constant throughout circulation, changing as oxygen is exchanged at different sites; pO2 is highly relevant, serving as the direct driving force for oxygen diffusion between blood and tissues.",
+      "concept_recap": "This continuous pO2 gradient, from high (lungs) to low (tissues), ensures oxygen is delivered efficiently to where it is metabolically needed."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-126",
+    "question": "Which of the following best describes the general trend in carbon dioxide partial pressure (pCO2) as blood travels from peripheral tissues back to the lungs?",
+    "options": [
+      "pCO2 decreases from tissues to lungs",
+      "pCO2 increases from tissues to lungs",
+      "pCO2 remains exactly the same throughout, with no change",
+      "pCO2 has no role in gas transport"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "As blood travels from CO2-rich tissues back toward the lungs, its pCO2 decreases progressively as CO2 diffuses out into the alveolar air for exhalation.",
+      "why_others_wrong": "pCO2 does not increase on the journey from tissues to lungs — it decreases as CO2 is released; pCO2 does change meaningfully along this pathway, not remaining constant; pCO2 plays a central, not negligible, role in driving CO2 transport and exchange.",
+      "concept_recap": "This pCO2 gradient, from high (tissues) to low (lungs, upon exhalation), mirrors the corresponding oxygen gradient but in the reverse direction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-127",
+    "question": "Which of the following animals primarily uses gills throughout its adult life for respiration in an aquatic environment?",
+    "options": [
+      "Adult frog",
+      "Fish",
+      "Adult human",
+      "Cockroach"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Fish retain and use gills as their primary respiratory organ throughout their adult, aquatic life.",
+      "why_others_wrong": "Adult frogs primarily use lungs and skin, not gills, as adults; adult humans use lungs, not gills; cockroaches use a tracheal system, not gills.",
+      "concept_recap": "Gills are specifically adapted to extract dissolved oxygen efficiently from water, a very different medium from air."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-128",
+    "question": "Which of the following is the correct sequence of structures air passes through, in order, when entering the human respiratory system?",
+    "options": [
+      "Trachea → Nasal passage → Pharynx → Larynx → Bronchi",
+      "Nasal passage → Pharynx → Larynx → Trachea → Bronchi",
+      "Larynx → Trachea → Pharynx → Nasal passage → Bronchi",
+      "Bronchi → Trachea → Larynx → Pharynx → Nasal passage"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The correct sequence for incoming air is: nasal passage, then pharynx, then larynx, then trachea, and finally into the bronchi leading to the lungs.",
+      "why_others_wrong": "The other sequences list these structures in an incorrect or reversed order relative to the actual path air follows into the respiratory system.",
+      "concept_recap": "Memorising this correct anatomical sequence is fundamental for understanding the overall organisation of the respiratory tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-129",
+    "question": "Which of the following best describes 'external respiration' as used in respiratory physiology?",
+    "options": [
+      "The breakdown of glucose within cells to release energy",
+      "The exchange of O2 and CO2 between the atmosphere/alveoli and the blood",
+      "The exchange of gases between blood and body tissues only",
+      "The synthesis of ATP within mitochondria"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "External respiration specifically refers to the exchange of oxygen and carbon dioxide between the atmosphere (via alveoli) and the blood in pulmonary capillaries.",
+      "why_others_wrong": "Glucose breakdown for energy release describes cellular respiration, not external respiration; gas exchange between blood and tissues is termed 'internal respiration', a related but distinct process; ATP synthesis within mitochondria is part of cellular respiration, not external respiration.",
+      "concept_recap": "Distinguishing external respiration (lungs/blood), internal respiration (blood/tissues), and cellular respiration (biochemical energy release) is a key conceptual framework in respiratory physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-130",
+    "question": "Which of the following best describes 'internal respiration' as used in respiratory physiology?",
+    "options": [
+      "Gas exchange between alveolar air and pulmonary blood",
+      "Gas exchange between systemic blood and body tissues",
+      "The mechanical process of breathing air in and out",
+      "The synthesis of haemoglobin in bone marrow"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Internal respiration refers specifically to the exchange of oxygen and carbon dioxide between systemic blood (in tissue capillaries) and the surrounding body tissues.",
+      "why_others_wrong": "Gas exchange between alveolar air and pulmonary blood describes external respiration, a different process; the mechanical process of moving air is 'breathing' or 'ventilation', not internal respiration; haemoglobin synthesis in bone marrow is unrelated to this specific gas-exchange terminology.",
+      "concept_recap": "This tissue-level gas exchange (internal respiration) is where oxygen is finally delivered for use in cellular metabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-131",
+    "question": "Which of the following best describes the term 'cellular respiration' as distinct from breathing (ventilation)?",
+    "options": [
+      "The mechanical movement of air into and out of the lungs",
+      "The biochemical process within cells (mainly mitochondria) that breaks down glucose using oxygen to release usable energy (ATP), producing CO2 and water as byproducts",
+      "The exchange of gases at the alveoli only",
+      "The transport of oxygen by haemoglobin in blood"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Cellular respiration is the biochemical process occurring within cells (largely in mitochondria) that breaks down glucose using oxygen to produce ATP, releasing carbon dioxide and water as byproducts.",
+      "why_others_wrong": "The mechanical movement of air describes breathing/ventilation, a distinct process from the biochemical cellular respiration; alveolar gas exchange describes external respiration, not cellular respiration itself; haemoglobin-mediated oxygen transport is a separate transport process, distinct from the biochemical reactions of cellular respiration.",
+      "concept_recap": "Breathing (ventilation) ultimately supplies the oxygen needed to sustain ongoing cellular respiration throughout the body's tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-132",
+    "question": "Which of the following best explains why fish gills are highly efficient at extracting oxygen from water, despite water containing far less dissolved oxygen than air?",
+    "options": [
+      "Gills use active transport requiring large amounts of ATP for every oxygen molecule",
+      "Gills employ a countercurrent exchange mechanism, where water and blood flow in opposite directions, maintaining a favourable diffusion gradient along the entire length of the gill",
+      "Gills do not actually extract oxygen efficiently from water",
+      "Fish do not require much oxygen compared to terrestrial animals"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The countercurrent flow of water and blood in fish gills maintains a diffusion gradient favourable for oxygen uptake along the entire respiratory surface, greatly increasing the efficiency of oxygen extraction from oxygen-poor water.",
+      "why_others_wrong": "Gill oxygen uptake relies primarily on passive diffusion facilitated by the countercurrent mechanism, not extensive active transport; gills are, in fact, remarkably efficient at oxygen extraction, contrary to being inefficient; fish do require substantial oxygen for their metabolism, similar in principle to other animals, despite water's lower oxygen content compared to air.",
+      "concept_recap": "This countercurrent exchange system is a classic example of an anatomical/physiological adaptation maximising gas exchange efficiency in an aquatic environment."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-133",
+    "question": "Which of the following statements about the relationship between exercise and breathing rate/depth is correct?",
+    "options": [
+      "Exercise has no effect on breathing rate or depth",
+      "During exercise, increased metabolic activity raises CO2 production, which increases breathing rate and depth to meet the body's higher oxygen demand and CO2 removal needs",
+      "Exercise decreases breathing rate and depth due to reduced oxygen demand",
+      "Breathing completely stops during intense exercise"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Increased metabolic activity during exercise raises CO2 production and oxygen consumption, triggering an increase in both the rate and depth of breathing to meet these heightened physiological demands.",
+      "why_others_wrong": "Exercise very clearly affects breathing rate and depth, contrary to having no effect; oxygen demand and CO2 production increase, not decrease, during exercise, so breathing correspondingly increases rather than decreases; breathing certainly does not stop during intense exercise — quite the opposite occurs.",
+      "concept_recap": "This exercise-induced increase in ventilation is a well-known physiological response ensuring adequate oxygen supply and CO2 removal during increased metabolic demand."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-134",
+    "question": "Which of the following best describes the composition of expired (exhaled) air compared to inspired (inhaled) atmospheric air?",
+    "options": [
+      "Expired air has higher oxygen and lower CO2 than inspired air",
+      "Expired air has lower oxygen and higher CO2 content than inspired atmospheric air, along with more water vapour",
+      "Expired and inspired air have identical composition",
+      "Expired air contains no oxygen at all"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Exhaled air has a lower oxygen concentration (since some was absorbed) and higher CO2 concentration (produced by metabolism) compared to inhaled air, and is also more saturated with water vapour due to humidification in the airway.",
+      "why_others_wrong": "It is inspired air, not expired air, that has relatively higher oxygen and lower CO2; expired and inspired air compositions are clearly different, not identical; expired air still contains a significant amount of oxygen (not none), since not all inhaled oxygen is absorbed in a single breath.",
+      "concept_recap": "This composition difference is the direct physiological consequence of oxygen uptake and CO2 release occurring during gas exchange at the alveoli."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-135",
+    "question": "Which of the following is the primary respiratory pigment responsible for oxygen transport in the majority of vertebrates, including humans?",
+    "options": [
+      "Chlorophyll",
+      "Haemoglobin",
+      "Haemocyanin",
+      "Myosin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Haemoglobin, an iron-containing protein found in red blood cells, is the primary respiratory pigment responsible for oxygen transport in most vertebrates.",
+      "why_others_wrong": "Chlorophyll is a plant pigment for photosynthesis, unrelated to animal oxygen transport; haemocyanin is a copper-based respiratory pigment found in some invertebrates (like molluscs and arthropods), not typically in vertebrates; myosin is a muscle protein involved in contraction, not oxygen transport.",
+      "concept_recap": "Haemoglobin's iron-containing heme groups are specifically responsible for reversibly binding oxygen molecules."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-136",
+    "question": "Which of the following invertebrate groups commonly uses haemocyanin, a copper-containing pigment, instead of haemoglobin for oxygen transport?",
+    "options": [
+      "Insects",
+      "Molluscs and some arthropods (e.g., crustaceans)",
+      "Mammals",
+      "Birds"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Many molluscs and certain arthropods (such as crustaceans) use haemocyanin, a copper-based respiratory pigment, for oxygen transport instead of haemoglobin.",
+      "why_others_wrong": "Most insects rely on a tracheal system for direct gas delivery to tissues, often without a major role for a respiratory pigment in oxygen transport; mammals and birds are vertebrates that use haemoglobin, not haemocyanin.",
+      "concept_recap": "Haemocyanin gives the blood of these organisms a bluish colour when oxygenated, in contrast to haemoglobin's characteristic red colour."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-137",
+    "question": "Which of the following best explains why the percentage of oxygen bound to haemoglobin (percent saturation) rises steeply between roughly 10-60 mm Hg pO2, but levels off (plateaus) above about 70 mm Hg on the oxygen-haemoglobin dissociation curve?",
+    "options": [
+      "Haemoglobin has no binding sites left at low pO2",
+      "At low-to-moderate pO2, small increases in pO2 substantially increase oxygen binding due to cooperative binding effects; at higher pO2, haemoglobin approaches full saturation, so further pO2 increases have little additional effect",
+      "The curve is a straight line with no plateau at any point",
+      "Haemoglobin loses all oxygen-binding capacity above 70 mm Hg"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The steep rise reflects cooperative binding, where oxygen binding to one subunit increases affinity for further binding; the plateau at higher pO2 occurs because haemoglobin approaches full saturation, leaving little room for further increases in oxygen binding despite rising pO2.",
+      "why_others_wrong": "Haemoglobin does have available binding sites at low pO2 (this is where oxygen loading begins); the dissociation curve is sigmoidal, not a straight line, precisely because of this steep-rise-then-plateau pattern; haemoglobin does not lose oxygen-binding capacity at higher pO2 — rather, it becomes increasingly saturated (bound), which is the opposite of losing capacity.",
+      "concept_recap": "This plateau at higher pO2 (as found in the lungs) ensures haemoglobin remains highly saturated even with some variability in alveolar oxygen levels, providing a safety margin for oxygen loading."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-138",
+    "question": "Which of the following would be the most likely direct effect of severe anaemia (low haemoglobin concentration) on oxygen delivery to tissues, even if lung function itself is completely normal?",
+    "options": [
+      "No effect, since lung function is normal",
+      "Reduced oxygen-carrying capacity of the blood, leading to inadequate oxygen delivery to tissues despite normal lung gas exchange",
+      "Increased oxygen delivery due to compensatory mechanisms alone being sufficient to fully offset the deficiency",
+      "Complete cessation of all cellular respiration"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Even with completely normal lung function, a low haemoglobin concentration directly reduces the blood's overall oxygen-carrying capacity, resulting in inadequate oxygen delivery to tissues despite gas exchange occurring normally at the lungs.",
+      "why_others_wrong": "There would indeed be a significant effect on oxygen delivery, not an absence of effect, due to reduced haemoglobin; while some compensatory mechanisms (like increased heart rate) may partially help, they generally do not fully offset a significant reduction in oxygen-carrying capacity; cellular respiration would be impaired, not completely halted, under typical anaemic conditions.",
+      "concept_recap": "This illustrates that adequate oxygen delivery depends not just on functional lungs, but also on sufficient haemoglobin concentration in the blood."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-139",
+    "question": "Which of the following best describes why the alveolar walls, pulmonary capillary walls, and their fused basement membranes together are often referred to as the 'respiratory membrane'?",
+    "options": [
+      "They form a single, extremely thin barrier across which O2 and CO2 must diffuse between alveolar air and blood",
+      "They actively pump gases across using ATP",
+      "They are unrelated structures with no functional connection",
+      "They only allow water molecules to pass through, blocking all gases"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The alveolar epithelium, capillary endothelium, and their fused basement membranes together form an extremely thin composite barrier — the respiratory membrane — across which O2 and CO2 diffuse passively between air and blood.",
+      "why_others_wrong": "Gas movement across the respiratory membrane occurs via passive diffusion, not active ATP-dependent pumping; these structures are intimately functionally connected, forming a single working barrier, not unrelated structures; the respiratory membrane specifically allows gases (O2 and CO2) to pass, not just water, this being its primary function.",
+      "concept_recap": "The extreme thinness of this composite respiratory membrane (only a few micrometres) is central to enabling efficient gas exchange."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-140",
+    "question": "Which of the following statements correctly describes the effect of increased body temperature (such as during fever or intense exercise) on haemoglobin's oxygen affinity?",
+    "options": [
+      "Increased temperature increases haemoglobin's affinity for oxygen",
+      "Increased temperature decreases haemoglobin's affinity for oxygen, shifting the dissociation curve to the right and promoting oxygen release to tissues",
+      "Temperature has no effect on haemoglobin's oxygen affinity",
+      "Increased temperature causes haemoglobin to stop binding oxygen entirely"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Increased temperature decreases haemoglobin's oxygen affinity, shifting the dissociation curve to the right, which promotes oxygen unloading — a useful adaptation supplying more oxygen to tissues generating heat through increased metabolic activity.",
+      "why_others_wrong": "Temperature increases decrease, rather than increase, haemoglobin's oxygen affinity; temperature does have a measurable and physiologically important effect on oxygen affinity, not an absence of effect; haemoglobin continues to bind oxygen at elevated temperatures, simply with somewhat reduced affinity, rather than stopping entirely.",
+      "concept_recap": "This temperature effect works alongside the Bohr effect (pH/CO2) to enhance oxygen delivery specifically to metabolically active, heat-generating tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-141",
+    "question": "Which of the following best explains the physiological significance of the fact that only about 3% of the total oxygen in blood is carried dissolved in plasma, rather than bound to haemoglobin?",
+    "options": [
+      "Dissolved oxygen contributes the vast majority of oxygen delivery to tissues",
+      "Oxygen has relatively low solubility in plasma alone, making haemoglobin essential for transporting the much larger amount of oxygen actually required by tissues",
+      "Plasma cannot dissolve any oxygen at all",
+      "Dissolved oxygen is toxic and must be minimised"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Because oxygen has relatively low solubility in blood plasma, the small dissolved fraction alone would be insufficient to meet tissue oxygen demands; haemoglobin dramatically increases the blood's total oxygen-carrying capacity, making it essential for adequate delivery.",
+      "why_others_wrong": "The vast majority of functional oxygen delivery relies on haemoglobin-bound oxygen, not the small dissolved fraction; plasma does dissolve a small but non-zero amount of oxygen, contrary to 'cannot dissolve any'; dissolved oxygen itself is not toxic — it is simply insufficient in quantity without haemoglobin's much larger contribution.",
+      "concept_recap": "This highlights why conditions affecting haemoglobin (such as anaemia or carbon monoxide poisoning) have such a dramatic impact on oxygen delivery, since the dissolved fraction alone cannot compensate."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-142",
+    "question": "Which of the following best describes the relationship between the respiratory system and the circulatory system in enabling efficient gas transport throughout the body?",
+    "options": [
+      "The two systems function completely independently, with no interaction",
+      "The respiratory system enables gas exchange with the external environment at the alveoli, while the circulatory system transports these gases (via blood) to and from body tissues, working together as an integrated gas transport pathway",
+      "The circulatory system alone handles all aspects of gas exchange and transport, with no involvement from the respiratory system",
+      "The respiratory system transports gases throughout the entire body without any assistance from the circulatory system"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The respiratory and circulatory systems work together as an integrated pathway: the respiratory system handles gas exchange with the external environment at the alveoli, while the circulatory system (blood) transports these gases to and from all body tissues.",
+      "why_others_wrong": "The two systems are closely integrated and interdependent, not functioning completely independently; the respiratory system plays an essential, active role in enabling initial gas exchange, so it cannot be excluded; without the circulatory system's transport function, gases exchanged at the lungs could not reach distant tissues, so the respiratory system alone could not accomplish body-wide gas transport.",
+      "concept_recap": "This integration exemplifies how organ systems in the body work together, rather than in isolation, to support overall physiological function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  },
+  {
+    "id": "resp-143",
+    "question": "Which of the following would most likely be observed in a person suffering from severe, longstanding untreated asthma, in terms of the effect on their overall respiratory efficiency?",
+    "options": [
+      "No effect on respiratory efficiency, regardless of severity or duration",
+      "Repeated episodes of airway inflammation and constriction can lead to airway remodelling over time, potentially causing more persistent, less reversible reductions in respiratory efficiency",
+      "Immediate and permanent destruction of all alveoli within days",
+      "Complete and immediate cure of underlying airway hyperreactivity without any treatment"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Chronic, poorly controlled asthma can lead to airway remodelling — structural changes in the airway wall over time — potentially resulting in more persistent, less fully reversible reductions in respiratory function, distinct from the typically reversible acute episodes.",
+      "why_others_wrong": "Severe, longstanding untreated asthma can indeed have significant effects on respiratory efficiency over time, contrary to having 'no effect'; asthma does not typically cause immediate, permanent destruction of all alveoli within days — that pattern is more characteristic of a different, more acute and severe process; asthma does not spontaneously and completely resolve without any management, especially when untreated and severe.",
+      "concept_recap": "This distinction between typically reversible acute asthma episodes and potential longer-term airway remodelling underscores the clinical importance of proper asthma management."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 17"
+  }
+]
