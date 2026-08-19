@@ -1,59 +1,2234 @@
 [
   {
-    "id": "bio-hp-chem-001",
-    "type": "custom",
-    "difficulty": "easy",
-    "question": "Which gland is often referred to as the 'master gland' because it regulates the activity of other endocrine glands?",
+    "id": "chem-coord-001",
+    "question": "Chemical coordination in the body is primarily achieved through signalling molecules called:",
     "options": [
-      "Thyroid gland",
-      "Pituitary gland",
-      "Adrenal gland",
-      "Pancreas"
+      "Neurotransmitters only",
+      "Hormones",
+      "Enzymes only",
+      "Antibodies"
     ],
     "answer": "B",
-    "ncertRef": "Class 12, Ch 4, Pg 68",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "The pituitary gland is called the 'master gland' because it secretes hormones (like TSH, ACTH, FSH, LH) that regulate the activity of several other endocrine glands, including the thyroid, adrenal cortex, and gonads.",
-      "why_others_wrong": "Thyroid, adrenal, and pancreas are themselves regulated targets of pituitary hormones (or operate more independently, like the pancreas) -- none of them control multiple other endocrine glands the way the pituitary does.",
-      "concept_recap": "Pituitary gland (hypophysis): 'master gland', controlled by the hypothalamus, secretes tropic hormones (TSH, ACTH, FSH, LH) that regulate other endocrine glands, plus direct-acting hormones like growth hormone and prolactin."
-    }
+      "why_correct": "Hormones are the chemical messengers secreted by endocrine glands that coordinate and regulate various physiological processes throughout the body.",
+      "why_others_wrong": "Neurotransmitters mediate nervous coordination, a related but distinct system; enzymes catalyse biochemical reactions but are not the primary chemical messengers for whole-body coordination; antibodies are immune system proteins, unrelated to hormonal coordination.",
+      "concept_recap": "The endocrine system, using hormones, works alongside the nervous system to achieve overall coordination in the body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
   },
   {
-    "id": "bio-hp-chem-002",
-    "type": "custom",
-    "difficulty": "medium",
-    "question": "Insulin, which lowers blood glucose levels, is secreted by which cells of the pancreas?",
+    "id": "chem-coord-002",
+    "question": "Glands that secrete hormones directly into the bloodstream, without the use of ducts, are called:",
     "options": [
-      "Alpha cells of the Islets of Langerhans",
-      "Beta cells of the Islets of Langerhans",
-      "Acinar cells",
-      "Delta cells of the Islets of Langerhans"
+      "Exocrine glands",
+      "Endocrine glands",
+      "Salivary glands only",
+      "Sweat glands only"
     ],
     "answer": "B",
-    "ncertRef": "Class 12, Ch 4, Pg 72",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Beta cells within the pancreatic Islets of Langerhans secrete insulin, which promotes glucose uptake by cells and glycogen storage, thereby lowering blood glucose levels.",
-      "why_others_wrong": "Alpha cells secrete glucagon (raises blood glucose, opposite effect). Acinar cells produce digestive enzymes (exocrine function, unrelated to hormone secretion). Delta cells secrete somatostatin, which regulates other pancreatic hormones rather than directly lowering glucose.",
-      "concept_recap": "Pancreatic islet cells: Alpha (glucagon, raises glucose), Beta (insulin, lowers glucose), Delta (somatostatin, regulates other hormones). Insulin and glucagon work antagonistically to maintain blood glucose homeostasis."
-    }
+      "why_correct": "Endocrine glands are ductless glands that secrete hormones directly into the bloodstream, allowing hormones to travel throughout the body to reach target organs.",
+      "why_others_wrong": "Exocrine glands secrete their products through ducts (e.g., sweat glands), unlike endocrine glands; salivary and sweat glands are specific examples of exocrine, not endocrine, glands.",
+      "concept_recap": "This ductless nature of endocrine glands allows hormones to be distributed body-wide via the circulatory system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
   },
   {
-    "id": "bio-hp-chem-003",
-    "type": "statement",
-    "difficulty": "hard",
-    "question": "Statement I: Thyroxine secretion is regulated by TSH from the pituitary gland. Statement II: Excess thyroxine in the blood inhibits further TSH release through negative feedback.",
+    "id": "chem-coord-003",
+    "question": "Which of the following best defines a hormone?",
     "options": [
-      "Both statements are true",
-      "Statement I is true; Statement II is false",
-      "Statement I is false; Statement II is true",
-      "Both statements are false"
+      "A digestive enzyme secreted into the gut",
+      "A chemical messenger, usually secreted in small amounts, that travels via blood to regulate the activity of target cells/organs elsewhere in the body",
+      "A structural protein found in muscle",
+      "A pigment involved in vision"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A hormone is a chemical messenger, typically secreted in minute amounts by endocrine glands, that travels through the bloodstream to influence the function of specific target cells or organs.",
+      "why_others_wrong": "Digestive enzymes act locally within the gut and are not classified as hormones in this signalling sense; structural muscle proteins do not function as chemical messengers; visual pigments are unrelated to hormonal signalling.",
+      "concept_recap": "Hormones are effective even at very low concentrations, reflecting their high specificity and potency at target receptors."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-004",
+    "question": "Hormones can be chemically classified into different categories. Which of the following is an example of a peptide/protein hormone?",
+    "options": [
+      "Testosterone",
+      "Insulin",
+      "Thyroxine",
+      "Cortisol"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Insulin is a peptide hormone composed of amino acids, produced by the pancreas to regulate blood glucose levels.",
+      "why_others_wrong": "Testosterone and cortisol are steroid hormones derived from cholesterol; thyroxine is an iodinated amino acid derivative, not a peptide hormone.",
+      "concept_recap": "Peptide hormones are generally water-soluble and typically act via cell-surface receptors, unlike lipid-soluble steroid hormones."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-005",
+    "question": "Which of the following hormones is classified as a steroid hormone, derived from cholesterol?",
+    "options": [
+      "Insulin",
+      "Growth hormone",
+      "Testosterone",
+      "Oxytocin"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Testosterone is a steroid hormone synthesised from cholesterol, characterised by its four-ring steroid structure.",
+      "why_others_wrong": "Insulin, growth hormone, and oxytocin are all peptide/protein hormones, not steroid hormones.",
+      "concept_recap": "Steroid hormones, being lipid-soluble, can typically cross cell membranes and interact with intracellular receptors."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-006",
+    "question": "Thyroxine, secreted by the thyroid gland, is chemically classified as a(n):",
+    "options": [
+      "Steroid hormone",
+      "Peptide hormone",
+      "Iodinated amino acid derivative (tyrosine derivative)",
+      "Prostaglandin"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Thyroxine (T4) is derived from the amino acid tyrosine and incorporates iodine atoms, classifying it as an iodinated amino acid derivative.",
+      "why_others_wrong": "Thyroxine is not a steroid (it lacks the steroid ring structure); it is not a peptide/protein hormone (it is not made of a chain of many amino acids); it is not a prostaglandin, which is a distinct class of lipid-derived signalling molecules.",
+      "concept_recap": "Iodine is an essential dietary component required for normal thyroxine synthesis by the thyroid gland."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-007",
+    "question": "Which of the following best describes how lipid-soluble hormones, such as steroid hormones, typically exert their effects on target cells?",
+    "options": [
+      "They bind only to receptors on the outer cell membrane surface",
+      "They diffuse across the cell membrane and bind to intracellular (cytoplasmic or nuclear) receptors, often directly affecting gene expression",
+      "They cannot enter cells at all",
+      "They act only through second messenger systems, never entering the cell"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Being lipid-soluble, steroid hormones can diffuse directly across the cell membrane and bind intracellular receptors, often forming a hormone-receptor complex that directly regulates gene transcription.",
+      "why_others_wrong": "Lipid-soluble hormones are not restricted to cell-surface receptors, since they can cross the membrane; they clearly can and do enter cells, unlike this option's claim; the second-messenger mechanism is characteristic of water-soluble (peptide) hormones acting at the cell surface, not the direct intracellular mechanism used by lipid-soluble steroid hormones.",
+      "concept_recap": "This direct gene-regulatory mechanism often results in relatively slower but more sustained hormonal effects compared to rapid second-messenger systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-008",
+    "question": "Which of the following best describes how water-soluble, peptide hormones typically exert their effects on target cells?",
+    "options": [
+      "They diffuse freely across the cell membrane like steroid hormones",
+      "They bind to specific receptors on the cell surface, often triggering intracellular second messenger systems (e.g., cAMP) without entering the cell",
+      "They must be converted to steroids before acting",
+      "They directly bind nuclear DNA without any receptor involvement"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Peptide hormones, being water-soluble, generally cannot cross the lipid cell membrane directly; instead, they bind cell-surface receptors, triggering intracellular signalling cascades (such as the cAMP second messenger system) to produce their effects.",
+      "why_others_wrong": "Unlike lipid-soluble steroid hormones, peptide hormones generally cannot freely diffuse across the membrane; peptide hormones function as peptides, not by conversion into steroids; peptide hormones act via specific surface receptors, not by direct binding to nuclear DNA.",
+      "concept_recap": "This surface-receptor, second-messenger mechanism generally allows for a more rapid hormonal response compared to the gene-regulation mechanism of steroid hormones."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-009",
+    "question": "Cyclic AMP (cAMP) is a well-known example of a:",
+    "options": [
+      "Steroid hormone",
+      "Second messenger molecule involved in intracellular signal transduction",
+      "Peptide hormone",
+      "Neurotransmitter"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cyclic AMP is a classic second messenger, generated within the cell in response to hormone binding at surface receptors, which then triggers further intracellular signalling events.",
+      "why_others_wrong": "cAMP is not itself a steroid hormone, peptide hormone, or neurotransmitter — it functions specifically as an intracellular signalling intermediate produced after a hormone binds its receptor.",
+      "concept_recap": "Second messengers like cAMP amplify the original hormonal signal, allowing a small number of hormone molecules to produce a large intracellular response."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-010",
+    "question": "The hypothalamus, located at the base of the brain, primarily functions in the endocrine system by:",
+    "options": [
+      "Directly secreting digestive enzymes",
+      "Producing releasing and inhibiting hormones that regulate the secretion of hormones from the pituitary gland",
+      "Producing insulin for blood glucose regulation",
+      "Filtering blood to remove waste products"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The hypothalamus secretes releasing and inhibiting hormones that control the secretion of hormones from the anterior pituitary gland, acting as a crucial link between the nervous and endocrine systems.",
+      "why_others_wrong": "The hypothalamus does not secrete digestive enzymes, which is unrelated to its endocrine role; insulin production is the function of the pancreas, not the hypothalamus; blood filtration is a kidney function, unrelated to the hypothalamus's endocrine role.",
+      "concept_recap": "This hypothalamic control over the pituitary makes it a central regulatory hub for much of the body's hormonal activity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-011",
+    "question": "Which of the following hormones is released by the hypothalamus to stimulate the release of growth hormone from the anterior pituitary?",
+    "options": [
+      "Growth hormone releasing hormone (GHRH)",
+      "Thyroid stimulating hormone (TSH)",
+      "Oxytocin",
+      "Insulin"
     ],
     "answer": "A",
-    "ncertRef": "Class 12, Ch 4, Pg 70",
+    "difficulty": "Medium",
     "solution": {
-      "why_correct": "TSH (thyroid-stimulating hormone) from the pituitary does regulate thyroxine secretion from the thyroid gland (Statement I true), and elevated thyroxine levels feed back to suppress further TSH release, maintaining hormonal balance -- a classic negative feedback loop (Statement II true).",
-      "why_others_wrong": "The other options are wrong because both statements accurately describe the well-established hypothalamus-pituitary-thyroid negative feedback axis taught in NCERT endocrinology.",
-      "concept_recap": "Negative feedback loop: Hypothalamus (TRH) -> Pituitary (TSH) -> Thyroid (thyroxine). Rising thyroxine suppresses TRH/TSH release, preventing overproduction -- a common regulatory pattern across many endocrine axes."
-    }
+      "why_correct": "Growth hormone releasing hormone (GHRH), secreted by the hypothalamus, stimulates the anterior pituitary to release growth hormone.",
+      "why_others_wrong": "TSH is itself secreted by the pituitary (not the hypothalamic releasing hormone for growth hormone); oxytocin is a hypothalamic hormone but is stored/released by the posterior pituitary, not related to growth hormone stimulation; insulin is a pancreatic hormone unrelated to growth hormone regulation.",
+      "concept_recap": "This releasing hormone illustrates the hierarchical hypothalamus-pituitary control axis governing many hormonal systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-012",
+    "question": "The pituitary gland is often referred to as the 'master gland' because it:",
+    "options": [
+      "Produces the largest quantity of hormones in the body",
+      "Regulates the secretion of hormones from many other endocrine glands throughout the body",
+      "Is the largest endocrine gland in the body",
+      "Directly controls digestion"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pituitary gland is called the 'master gland' because many of its hormones regulate the activity of other endocrine glands, coordinating a wide range of physiological processes.",
+      "why_others_wrong": "The pituitary does not necessarily produce the largest quantity of hormones compared to all other glands; it is not the largest endocrine gland by size (the thyroid, for instance, is larger); it does not directly control digestion, which is a separate physiological process.",
+      "concept_recap": "This regulatory hierarchy, with the pituitary influencing other glands, is itself controlled by hypothalamic releasing and inhibiting hormones."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-013",
+    "question": "The pituitary gland is anatomically and functionally divided into which two main parts?",
+    "options": [
+      "Cortex and medulla",
+      "Anterior pituitary (adenohypophysis) and posterior pituitary (neurohypophysis)",
+      "Left lobe and right lobe",
+      "Superior and inferior lobes"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pituitary gland consists of two main functional parts: the anterior pituitary (adenohypophysis) and the posterior pituitary (neurohypophysis).",
+      "why_others_wrong": "Cortex and medulla describe the divisions of the adrenal gland, not the pituitary; the pituitary is not typically described as having left/right lobes or superior/inferior lobes in this standard classification.",
+      "concept_recap": "These two parts differ significantly in their embryonic origin, structure, and mechanism of hormone release."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-014",
+    "question": "Growth hormone (GH), which promotes overall body growth, is secreted by which part of the pituitary gland?",
+    "options": [
+      "Posterior pituitary",
+      "Anterior pituitary",
+      "Pars intermedia only",
+      "Neither part; it is secreted by the hypothalamus directly"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Growth hormone is synthesised and secreted by the anterior pituitary gland (adenohypophysis).",
+      "why_others_wrong": "The posterior pituitary stores and releases hormones made by the hypothalamus (like oxytocin and ADH), not growth hormone; the pars intermedia is a minor pituitary region, not the primary source of GH; the hypothalamus regulates GH release via releasing hormones but is not the direct source of GH itself.",
+      "concept_recap": "GH deficiency during childhood can result in dwarfism, while excess GH can cause gigantism or acromegaly."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-015",
+    "question": "Which pituitary hormone stimulates the thyroid gland to produce and release thyroid hormones (T3 and T4)?",
+    "options": [
+      "Adrenocorticotropic hormone (ACTH)",
+      "Thyroid stimulating hormone (TSH)",
+      "Follicle stimulating hormone (FSH)",
+      "Luteinizing hormone (LH)"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Thyroid stimulating hormone (TSH), secreted by the anterior pituitary, stimulates the thyroid gland to synthesise and release thyroid hormones.",
+      "why_others_wrong": "ACTH stimulates the adrenal cortex, not the thyroid; FSH and LH are gonadotropins regulating reproductive function, not thyroid activity.",
+      "concept_recap": "This hypothalamus-pituitary-thyroid axis is a classic example of hierarchical hormonal regulation with negative feedback control."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-016",
+    "question": "Which pituitary hormone stimulates the adrenal cortex to secrete corticosteroids such as cortisol?",
+    "options": [
+      "Thyroid stimulating hormone (TSH)",
+      "Adrenocorticotropic hormone (ACTH)",
+      "Prolactin",
+      "Melanocyte stimulating hormone (MSH)"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Adrenocorticotropic hormone (ACTH), secreted by the anterior pituitary, stimulates the adrenal cortex to produce and release corticosteroids like cortisol.",
+      "why_others_wrong": "TSH targets the thyroid, not the adrenal cortex; prolactin primarily regulates milk production, unrelated to adrenal cortex stimulation; MSH influences melanin production, not adrenal cortex activity.",
+      "concept_recap": "The hypothalamus-pituitary-adrenal (HPA) axis, involving ACTH, is central to the body's stress response."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-017",
+    "question": "Which two gonadotropic hormones are secreted by the anterior pituitary to regulate reproductive function in both males and females?",
+    "options": [
+      "TSH and ACTH",
+      "FSH and LH",
+      "Prolactin and Oxytocin",
+      "GH and MSH"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Follicle stimulating hormone (FSH) and luteinizing hormone (LH) are the two gonadotropins secreted by the anterior pituitary, regulating gonadal (testicular/ovarian) function.",
+      "why_others_wrong": "TSH and ACTH target the thyroid and adrenal cortex respectively, not the gonads; prolactin and oxytocin, while reproductive-related, are not classified as gonadotropins; GH and MSH have different primary target functions (growth and pigmentation, respectively), not gonadal regulation.",
+      "concept_recap": "FSH and LH together orchestrate processes such as spermatogenesis in males and the ovarian/menstrual cycle in females."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-018",
+    "question": "Prolactin, secreted by the anterior pituitary, primarily functions to:",
+    "options": [
+      "Regulate blood calcium levels",
+      "Stimulate milk (lactation) production in the mammary glands after childbirth",
+      "Increase heart rate",
+      "Regulate blood glucose levels"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Prolactin's primary role is to stimulate milk production (lactation) by the mammary glands, particularly after childbirth.",
+      "why_others_wrong": "Blood calcium regulation is primarily controlled by parathyroid hormone and calcitonin, not prolactin; prolactin does not directly regulate heart rate; blood glucose regulation is primarily managed by insulin and glucagon, not prolactin.",
+      "concept_recap": "Prolactin levels typically rise significantly during pregnancy and after childbirth to support breastfeeding."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-019",
+    "question": "Melanocyte stimulating hormone (MSH), secreted by the pituitary, primarily influences:",
+    "options": [
+      "Blood clotting",
+      "Melanin (pigment) production in the skin",
+      "Bone growth",
+      "Heart rate regulation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "MSH stimulates melanocytes to produce melanin, the pigment responsible for skin, hair, and eye colouration.",
+      "why_others_wrong": "Blood clotting is regulated by clotting factors and platelets, not MSH; bone growth is primarily influenced by growth hormone, not MSH; heart rate regulation is not a primary function of MSH.",
+      "concept_recap": "MSH's role in pigmentation is more prominent in some other vertebrates, though it retains some functional significance in humans."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-020",
+    "question": "Oxytocin, though synthesised in the hypothalamus, is stored in and released from which structure?",
+    "options": [
+      "Anterior pituitary",
+      "Posterior pituitary",
+      "Thyroid gland",
+      "Adrenal medulla"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Oxytocin is synthesised by hypothalamic neurons but is transported to and stored in the posterior pituitary, from which it is released into the bloodstream.",
+      "why_others_wrong": "The anterior pituitary produces its own distinct set of hormones and does not store hypothalamic hormones like oxytocin; the thyroid gland and adrenal medulla are unrelated to oxytocin storage/release.",
+      "concept_recap": "This unique hypothalamus-to-posterior-pituitary relationship distinguishes oxytocin (and ADH) from hormones produced directly by the anterior pituitary."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-021",
+    "question": "Which of the following is a key physiological function of oxytocin?",
+    "options": [
+      "Stimulating uterine contractions during childbirth and milk ejection during breastfeeding",
+      "Regulating blood glucose levels",
+      "Stimulating thyroid hormone release",
+      "Regulating blood calcium levels"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Oxytocin stimulates powerful uterine contractions during labour and childbirth, and also triggers milk ejection (let-down reflex) during breastfeeding.",
+      "why_others_wrong": "Blood glucose regulation is primarily the role of insulin and glucagon, not oxytocin; thyroid hormone release is regulated by TSH, not oxytocin; blood calcium regulation is primarily controlled by parathyroid hormone and calcitonin, not oxytocin.",
+      "concept_recap": "Oxytocin is sometimes referred to as the 'love hormone' due to its additional roles in social bonding and attachment."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-022",
+    "question": "Antidiuretic hormone (ADH), also known as vasopressin, is released from the posterior pituitary and primarily functions to:",
+    "options": [
+      "Increase urine production by the kidneys",
+      "Promote water reabsorption by the kidneys, reducing urine volume and conserving body water",
+      "Stimulate insulin secretion",
+      "Decrease blood pressure directly by dilating all blood vessels"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "ADH promotes water reabsorption in the kidney tubules (particularly the collecting ducts), reducing urine output and helping conserve body water, especially important during dehydration.",
+      "why_others_wrong": "ADH decreases, rather than increases, urine production; it does not directly stimulate insulin secretion, which is a pancreatic function; while ADH (vasopressin) can cause vasoconstriction at high concentrations (raising blood pressure), it does not function as a general vasodilator lowering blood pressure.",
+      "concept_recap": "ADH deficiency or dysfunction is associated with diabetes insipidus, a condition characterised by excessive urination and thirst."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-023",
+    "question": "A deficiency of antidiuretic hormone (ADH) would most likely result in which of the following conditions?",
+    "options": [
+      "Diabetes mellitus, characterised by high blood glucose",
+      "Diabetes insipidus, characterised by excessive urination and dilute urine",
+      "Gigantism due to excess growth hormone",
+      "Cretinism due to thyroid hormone deficiency"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A deficiency of ADH impairs water reabsorption by the kidneys, resulting in diabetes insipidus, characterised by excessive urination (polyuria) and the production of very dilute urine.",
+      "why_others_wrong": "Diabetes mellitus is related to insulin/blood glucose regulation, not ADH; gigantism results from excess growth hormone, unrelated to ADH; cretinism results from thyroid hormone deficiency, unrelated to ADH.",
+      "concept_recap": "Despite the similar-sounding names, diabetes insipidus (ADH-related) and diabetes mellitus (insulin-related) are distinct conditions with different underlying causes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-024",
+    "question": "The pineal gland, located in the brain, primarily secretes which hormone, which is involved in regulating sleep-wake cycles (circadian rhythms)?",
+    "options": [
+      "Melatonin",
+      "Thyroxine",
+      "Cortisol",
+      "Insulin"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pineal gland secretes melatonin, a hormone closely involved in regulating circadian (sleep-wake) rhythms, with secretion typically influenced by light-dark cycles.",
+      "why_others_wrong": "Thyroxine is secreted by the thyroid gland, cortisol by the adrenal cortex, and insulin by the pancreas — none are the primary pineal gland hormone.",
+      "concept_recap": "Melatonin secretion typically increases in darkness and decreases with light exposure, closely linking it to environmental light cues and sleep regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-025",
+    "question": "Which of the following best describes the general effect of light exposure on melatonin secretion by the pineal gland?",
+    "options": [
+      "Light increases melatonin secretion",
+      "Light exposure generally suppresses (decreases) melatonin secretion, while darkness promotes its release",
+      "Light has no effect on melatonin secretion",
+      "Melatonin secretion is completely independent of light-dark cycles"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Melatonin secretion by the pineal gland is typically suppressed by light exposure and increased during darkness, helping regulate the body's sleep-wake cycle in response to environmental light conditions.",
+      "why_others_wrong": "Light does not increase melatonin secretion — it actually suppresses it; light clearly has a significant, well-documented effect on melatonin secretion, not an absence of effect; melatonin secretion is closely tied to, not independent of, light-dark cycles.",
+      "concept_recap": "This light-sensitivity underlies why exposure to bright light (e.g., from screens) late at night can disrupt normal sleep patterns by suppressing melatonin release."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-026",
+    "question": "The thyroid gland, located in the neck, secretes hormones essential for regulating:",
+    "options": [
+      "Blood clotting only",
+      "Basal metabolic rate and overall metabolism",
+      "Digestive enzyme secretion only",
+      "Immune cell production only"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Thyroid hormones (T3 and T4) play a central role in regulating basal metabolic rate and overall metabolic activity throughout the body.",
+      "why_others_wrong": "Blood clotting is regulated by clotting factors, not primarily thyroid hormones; digestive enzyme secretion is controlled by other mechanisms, not primarily thyroid hormones; immune cell production is not the primary function of thyroid hormones, though thyroid hormones can have some broader physiological effects.",
+      "concept_recap": "Both hypothyroidism (underactive thyroid) and hyperthyroidism (overactive thyroid) significantly affect metabolic rate and overall health."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-027",
+    "question": "Which essential dietary mineral is required for the normal synthesis of thyroid hormones?",
+    "options": [
+      "Calcium",
+      "Iodine",
+      "Iron",
+      "Sodium"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Iodine is an essential component incorporated into thyroid hormones (T3 and T4), making adequate dietary iodine intake crucial for normal thyroid function.",
+      "why_others_wrong": "Calcium, iron, and sodium are important minerals for other physiological functions, but they are not the specific mineral incorporated into the structure of thyroid hormones.",
+      "concept_recap": "Iodine deficiency can lead to goitre (enlarged thyroid) and impaired thyroid hormone synthesis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-028",
+    "question": "Which condition results from a chronic dietary deficiency of iodine, often characterised by an enlarged thyroid gland?",
+    "options": [
+      "Goitre",
+      "Gigantism",
+      "Diabetes insipidus",
+      "Cushing's syndrome"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Goitre is the enlargement of the thyroid gland, commonly resulting from chronic iodine deficiency, which impairs normal thyroid hormone synthesis and triggers compensatory gland growth (often via elevated TSH stimulation).",
+      "why_others_wrong": "Gigantism results from excess growth hormone, not iodine deficiency; diabetes insipidus results from ADH deficiency, not iodine deficiency; Cushing's syndrome results from excess cortisol, not iodine deficiency.",
+      "concept_recap": "Iodised salt programs have significantly reduced the prevalence of goitre in many regions historically affected by iodine deficiency."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-029",
+    "question": "Which of the following conditions results from thyroid hormone deficiency occurring during infancy/childhood, characterised by stunted growth and intellectual disability?",
+    "options": [
+      "Myxoedema",
+      "Cretinism",
+      "Acromegaly",
+      "Addison's disease"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cretinism results from thyroid hormone deficiency during infancy/childhood, leading to stunted physical growth and impaired mental development if untreated.",
+      "why_others_wrong": "Myxoedema describes thyroid hormone deficiency occurring in adults, with different characteristic features; acromegaly results from excess growth hormone in adults, unrelated to thyroid deficiency; Addison's disease results from adrenal cortical insufficiency, unrelated to thyroid hormone deficiency in childhood.",
+      "concept_recap": "Early diagnosis and treatment of congenital hypothyroidism is critical to prevent the developmental consequences of cretinism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-030",
+    "question": "Myxoedema, resulting from hypothyroidism in adults, is characterised by symptoms such as:",
+    "options": [
+      "Increased metabolic rate and weight loss",
+      "Decreased metabolic rate, weight gain, and lethargy",
+      "Excessive height and rapid growth",
+      "Elevated blood glucose levels similar to diabetes mellitus"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Myxoedema (adult hypothyroidism) typically presents with a decreased metabolic rate, weight gain, fatigue, and lethargy due to insufficient thyroid hormone levels.",
+      "why_others_wrong": "Increased metabolic rate and weight loss are more characteristic of hyperthyroidism, not hypothyroidism/myxoedema; excessive height and rapid growth describe gigantism, unrelated to thyroid hormone deficiency; elevated blood glucose is characteristic of diabetes mellitus, a distinct condition from myxoedema.",
+      "concept_recap": "The reduced metabolic rate in myxoedema reflects the fundamental role of thyroid hormones in regulating overall metabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-031",
+    "question": "The thyroid gland also secretes calcitonin, a hormone involved in regulating:",
+    "options": [
+      "Blood glucose levels",
+      "Blood calcium levels, by promoting calcium deposition in bone and lowering blood calcium",
+      "Blood sodium levels",
+      "Blood oxygen levels"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Calcitonin, secreted by parafollicular (C) cells of the thyroid, helps lower blood calcium levels by promoting calcium deposition into bone tissue.",
+      "why_others_wrong": "Blood glucose regulation is primarily managed by insulin and glucagon, not calcitonin; blood sodium regulation involves hormones like aldosterone, not primarily calcitonin; blood oxygen levels are regulated by respiratory/circulatory mechanisms, not calcitonin.",
+      "concept_recap": "Calcitonin's calcium-lowering action works in opposition to parathyroid hormone, which raises blood calcium levels."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-032",
+    "question": "Parathyroid hormone (PTH), secreted by the parathyroid glands, primarily functions to:",
+    "options": [
+      "Decrease blood calcium levels",
+      "Increase blood calcium levels by promoting calcium release from bone, reabsorption in kidneys, and absorption in intestine",
+      "Regulate blood glucose exclusively",
+      "Decrease blood phosphate reabsorption while decreasing calcium as well"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Parathyroid hormone raises blood calcium levels through multiple mechanisms: stimulating calcium release from bone, increasing calcium reabsorption in the kidneys, and promoting calcium absorption in the intestine.",
+      "why_others_wrong": "PTH increases, rather than decreases, blood calcium levels; PTH's primary regulatory role concerns calcium (and phosphate), not blood glucose; PTH actually promotes, rather than decreases, calcium levels alongside its effects on phosphate handling.",
+      "concept_recap": "PTH and calcitonin work in a coordinated, opposing manner to maintain blood calcium homeostasis within a narrow physiological range."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-033",
+    "question": "Which of the following best describes the relationship between parathyroid hormone (PTH) and calcitonin in regulating blood calcium levels?",
+    "options": [
+      "Both hormones increase blood calcium levels",
+      "PTH increases blood calcium levels while calcitonin decreases them, working as antagonistic (opposing) regulators",
+      "Both hormones decrease blood calcium levels",
+      "PTH and calcitonin have no relationship to calcium regulation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "PTH and calcitonin act as antagonistic hormones: PTH raises blood calcium levels, while calcitonin lowers them, together maintaining calcium homeostasis within a tight normal range.",
+      "why_others_wrong": "It is not the case that both hormones increase blood calcium — they have opposing effects; similarly, both do not decrease blood calcium; both hormones are, in fact, centrally and directly involved in calcium regulation, contrary to having 'no relationship'.",
+      "concept_recap": "This antagonistic hormone pair is a classic example of how opposing regulatory mechanisms maintain precise physiological homeostasis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-034",
+    "question": "The adrenal gland is structurally and functionally divided into which two main regions?",
+    "options": [
+      "Cortex and medulla",
+      "Anterior and posterior lobes",
+      "Left and right hemispheres",
+      "Superior and inferior poles"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The adrenal gland consists of an outer cortex and an inner medulla, each producing distinct types of hormones.",
+      "why_others_wrong": "Anterior/posterior lobes describe pituitary anatomy, not the adrenal gland; the adrenal gland's key functional division is cortex/medulla, not left/right hemispheres or superior/inferior poles.",
+      "concept_recap": "This dual structure reflects the adrenal gland's dual embryonic origin and its combined roles in both steroid hormone and catecholamine secretion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-035",
+    "question": "The adrenal cortex secretes which broad category of hormones?",
+    "options": [
+      "Peptide hormones exclusively",
+      "Corticosteroids (steroid hormones), including glucocorticoids and mineralocorticoids",
+      "Neurotransmitters exclusively",
+      "Amino acid derivatives exclusively"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The adrenal cortex secretes corticosteroids, a class of steroid hormones that includes glucocorticoids (e.g., cortisol) and mineralocorticoids (e.g., aldosterone).",
+      "why_others_wrong": "The adrenal cortex primarily secretes steroid hormones, not peptide hormones; neurotransmitter secretion is more characteristic of the adrenal medulla (e.g., adrenaline) or nervous tissue, not the cortex; corticosteroids are steroids, not amino acid derivatives.",
+      "concept_recap": "The adrenal cortex is further divided into three distinct zones, each specialising in producing different types of corticosteroids."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-036",
+    "question": "Aldosterone, a mineralocorticoid secreted by the adrenal cortex, primarily functions to regulate:",
+    "options": [
+      "Blood glucose levels",
+      "Sodium and water reabsorption (and potassium excretion) by the kidneys, helping regulate blood volume and pressure",
+      "Blood calcium levels",
+      "Thyroid hormone synthesis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Aldosterone acts on the kidneys to promote sodium and water reabsorption while increasing potassium excretion, playing a central role in regulating blood volume and blood pressure.",
+      "why_others_wrong": "Blood glucose regulation is primarily managed by insulin, glucagon, and glucocorticoids like cortisol, not aldosterone specifically; blood calcium levels are regulated by PTH and calcitonin, not aldosterone; thyroid hormone synthesis is regulated by TSH and iodine availability, unrelated to aldosterone.",
+      "concept_recap": "Aldosterone is a key component of the renin-angiotensin-aldosterone system (RAAS), central to blood pressure regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-037",
+    "question": "Cortisol, a glucocorticoid secreted by the adrenal cortex, plays an important role in:",
+    "options": [
+      "Regulating carbohydrate, protein, and fat metabolism, and mediating the body's stress response",
+      "Regulating only blood calcium levels",
+      "Producing milk in mammary glands",
+      "Stimulating uterine contractions"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Cortisol regulates carbohydrate, protein, and fat metabolism, and plays a central role in the body's physiological response to stress.",
+      "why_others_wrong": "Blood calcium regulation is primarily managed by PTH and calcitonin, not cortisol; milk production is regulated by prolactin, not cortisol; uterine contractions are stimulated by oxytocin, not cortisol.",
+      "concept_recap": "Cortisol is often referred to as the primary 'stress hormone' due to its central role in the body's response to physical or psychological stress."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-038",
+    "question": "Excess secretion of cortisol, often due to a pituitary or adrenal tumour, results in a condition known as:",
+    "options": [
+      "Addison's disease",
+      "Cushing's syndrome",
+      "Diabetes insipidus",
+      "Cretinism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cushing's syndrome results from chronically excessive cortisol levels, often caused by a tumour affecting the pituitary or adrenal gland, and presents with symptoms like weight gain, particularly in the face and trunk.",
+      "why_others_wrong": "Addison's disease results from adrenal insufficiency (too little cortisol/aldosterone), the opposite condition; diabetes insipidus results from ADH deficiency, unrelated to cortisol; cretinism results from thyroid hormone deficiency in childhood, unrelated to cortisol excess.",
+      "concept_recap": "Cushing's syndrome and Addison's disease represent opposite extremes of adrenal cortical hormone dysfunction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-039",
+    "question": "Addison's disease results from insufficient secretion of adrenal cortical hormones and is characterised by symptoms such as:",
+    "options": [
+      "Weight gain and high blood pressure",
+      "Weakness, weight loss, and low blood pressure due to insufficient cortisol and aldosterone",
+      "Excessive growth and gigantism",
+      "Excessive thyroid hormone production"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Addison's disease results from inadequate adrenal cortical hormone production, leading to symptoms such as weakness, weight loss, and low blood pressure due to insufficient cortisol and aldosterone.",
+      "why_others_wrong": "Weight gain and high blood pressure are more characteristic of excess cortisol/aldosterone (as in Cushing's syndrome), the opposite condition; excessive growth/gigantism results from excess growth hormone, unrelated to Addison's disease; excessive thyroid hormone production describes hyperthyroidism, a separate condition.",
+      "concept_recap": "Addison's disease demonstrates the serious physiological consequences of inadequate adrenal cortical hormone secretion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-040",
+    "question": "The adrenal medulla, the inner part of the adrenal gland, primarily secretes which two catecholamine hormones?",
+    "options": [
+      "Cortisol and aldosterone",
+      "Adrenaline (epinephrine) and noradrenaline (norepinephrine)",
+      "Insulin and glucagon",
+      "Thyroxine and calcitonin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The adrenal medulla secretes the catecholamines adrenaline (epinephrine) and noradrenaline (norepinephrine), both involved in the body's rapid 'fight or flight' response.",
+      "why_others_wrong": "Cortisol and aldosterone are secreted by the adrenal cortex, not the medulla; insulin and glucagon are pancreatic hormones, unrelated to the adrenal medulla; thyroxine and calcitonin are thyroid hormones, unrelated to the adrenal medulla.",
+      "concept_recap": "Unlike the steroid hormones of the adrenal cortex, catecholamines from the medulla act rapidly, producing near-immediate physiological effects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-041",
+    "question": "Adrenaline (epinephrine), secreted during the 'fight or flight' response, produces which of the following physiological effects?",
+    "options": [
+      "Decreased heart rate and blood glucose levels",
+      "Increased heart rate, increased blood glucose levels, and redirected blood flow to skeletal muscles",
+      "Decreased alertness and slowed metabolism",
+      "No significant physiological effects"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Adrenaline rapidly increases heart rate, raises blood glucose levels (by promoting glycogen breakdown), and redirects blood flow toward skeletal muscles, preparing the body for rapid physical action.",
+      "why_others_wrong": "Adrenaline increases, rather than decreases, heart rate and blood glucose; it increases, rather than decreases, alertness and metabolic activity; adrenaline has very significant, well-documented physiological effects, not an absence of effects.",
+      "concept_recap": "These adrenaline-mediated changes are central to the classic 'fight or flight' stress response, preparing the body for immediate physical exertion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-042",
+    "question": "The pancreas functions as both an exocrine and endocrine gland. Which cells within the pancreatic islets (islets of Langerhans) secrete insulin?",
+    "options": [
+      "Alpha cells",
+      "Beta cells",
+      "Delta cells",
+      "Acinar cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Beta cells within the pancreatic islets of Langerhans are responsible for synthesising and secreting insulin.",
+      "why_others_wrong": "Alpha cells secrete glucagon, not insulin; delta cells secrete somatostatin, not insulin; acinar cells are part of the exocrine pancreas, secreting digestive enzymes, not insulin.",
+      "concept_recap": "The distinct cell types within pancreatic islets each secrete a different hormone, together finely regulating blood glucose levels."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-043",
+    "question": "Which cells within the pancreatic islets secrete glucagon, a hormone that raises blood glucose levels?",
+    "options": [
+      "Beta cells",
+      "Alpha cells",
+      "Delta cells",
+      "Goblet cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Alpha cells within the pancreatic islets secrete glucagon, which raises blood glucose levels primarily by stimulating glycogen breakdown in the liver.",
+      "why_others_wrong": "Beta cells secrete insulin, which lowers (not raises) blood glucose; delta cells secrete somatostatin, a regulatory hormone, not glucagon; goblet cells secrete mucus and are not part of the endocrine pancreatic islets.",
+      "concept_recap": "Glucagon and insulin act antagonistically, together maintaining blood glucose levels within a stable normal range."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-044",
+    "question": "Insulin's primary effect on blood glucose levels is to:",
+    "options": [
+      "Increase blood glucose by promoting glycogen breakdown",
+      "Decrease blood glucose by promoting cellular glucose uptake and glycogen synthesis",
+      "Have no significant effect on blood glucose",
+      "Convert glucose directly into amino acids"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Insulin lowers blood glucose levels by promoting glucose uptake into cells (especially muscle and adipose tissue) and stimulating glycogen synthesis in the liver.",
+      "why_others_wrong": "Increasing blood glucose via glycogen breakdown describes glucagon's action, the opposite of insulin's effect; insulin has a very significant, well-documented effect on blood glucose, not an absence of effect; insulin's primary action does not involve directly converting glucose into amino acids.",
+      "concept_recap": "Insulin deficiency or resistance underlies diabetes mellitus, a condition characterised by chronically elevated blood glucose levels."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-045",
+    "question": "Diabetes mellitus, a condition characterised by chronically elevated blood glucose levels, primarily results from a deficiency or dysfunction of:",
+    "options": [
+      "Growth hormone",
+      "Insulin (either insufficient production or impaired action)",
+      "Thyroid hormone",
+      "Antidiuretic hormone"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Diabetes mellitus results from either insufficient insulin production (Type 1) or impaired insulin action/resistance (Type 2), leading to chronically elevated blood glucose levels.",
+      "why_others_wrong": "Growth hormone dysfunction leads to conditions like gigantism or dwarfism, not diabetes mellitus specifically; thyroid hormone dysfunction leads to conditions like hypothyroidism or hyperthyroidism, distinct from diabetes mellitus; ADH dysfunction leads to diabetes insipidus, a different condition despite the similar name.",
+      "concept_recap": "Diabetes mellitus is a major global health concern, with significant long-term complications if blood glucose is not well controlled."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-046",
+    "question": "The testes, the male gonads, primarily secrete which hormone responsible for the development of male secondary sexual characteristics?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Testosterone",
+      "Oxytocin"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Testosterone, secreted by the Leydig cells of the testes, is responsible for the development of male secondary sexual characteristics and supports spermatogenesis.",
+      "why_others_wrong": "Estrogen and progesterone are primarily female sex hormones, not the primary testicular hormone; oxytocin is unrelated to male secondary sexual characteristic development.",
+      "concept_recap": "Testosterone also plays a crucial role in supporting sperm production (spermatogenesis) within the testes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-047",
+    "question": "The ovaries, the female gonads, primarily secrete which two key hormones involved in regulating the female reproductive cycle?",
+    "options": [
+      "Testosterone and cortisol",
+      "Estrogen and progesterone",
+      "Insulin and glucagon",
+      "Thyroxine and calcitonin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The ovaries primarily secrete estrogen and progesterone, hormones central to regulating the menstrual cycle, supporting pregnancy, and developing female secondary sexual characteristics.",
+      "why_others_wrong": "Testosterone and cortisol are not the primary ovarian hormones; insulin and glucagon are pancreatic hormones, unrelated to ovarian function; thyroxine and calcitonin are thyroid hormones, unrelated to ovarian function.",
+      "concept_recap": "Estrogen and progesterone levels fluctuate cyclically throughout the menstrual cycle, coordinating ovulation and preparation of the uterine lining."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-048",
+    "question": "Which hormone, secreted primarily by the corpus luteum, plays a key role in maintaining the uterine lining during early pregnancy?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Testosterone",
+      "Growth hormone"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Progesterone, secreted primarily by the corpus luteum (and later the placenta), is essential for maintaining the uterine lining and supporting early pregnancy.",
+      "why_others_wrong": "Estrogen contributes to reproductive function but progesterone is specifically the key hormone for maintaining the uterine lining during early pregnancy; testosterone and growth hormone are not the primary hormones responsible for this specific function.",
+      "concept_recap": "Insufficient progesterone levels can contribute to difficulty maintaining early pregnancy, highlighting its critical supportive role."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-049",
+    "question": "The thymus gland, located in the upper thoracic region, primarily secretes hormones important for the development and maturation of which type of cells?",
+    "options": [
+      "Red blood cells",
+      "T-lymphocytes (T-cells) of the immune system",
+      "Platelets",
+      "Osteoblasts (bone-forming cells)"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The thymus secretes hormones (such as thymosin) that are important for the development and maturation of T-lymphocytes, key cells of the adaptive immune system.",
+      "why_others_wrong": "Red blood cell production (erythropoiesis) is primarily regulated by erythropoietin from the kidney, not thymus hormones; platelet production is regulated by thrombopoietin, unrelated to the thymus; osteoblast activity is influenced by hormones like PTH and calcitonin, not primarily thymus hormones.",
+      "concept_recap": "The thymus is particularly active during childhood and tends to shrink (involute) with age as immune system maturation progresses."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-050",
+    "question": "Which of the following hormones, secreted by the kidney, stimulates the production of red blood cells in bone marrow?",
+    "options": [
+      "Renin",
+      "Erythropoietin",
+      "Aldosterone",
+      "Calcitriol"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Erythropoietin, secreted by the kidney (particularly in response to low oxygen levels), stimulates red blood cell production in the bone marrow.",
+      "why_others_wrong": "Renin is involved in blood pressure regulation via the renin-angiotensin system, not red blood cell production; aldosterone regulates sodium/water balance, unrelated to red blood cell stimulation; calcitriol (active vitamin D) regulates calcium absorption, not red blood cell production.",
+      "concept_recap": "This kidney-mediated stimulation of red blood cell production is especially important in conditions of chronic low oxygen, such as high altitude or certain diseases."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-051",
+    "question": "Atrial natriuretic factor (ANF), secreted by the heart's atrial wall, primarily functions to:",
+    "options": [
+      "Increase blood pressure and sodium retention",
+      "Decrease blood pressure by promoting sodium and water excretion (natriuresis) and vasodilation",
+      "Increase heart rate exclusively, with no effect on blood pressure",
+      "Stimulate red blood cell production"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "ANF is released in response to increased blood volume/pressure and acts to lower blood pressure by promoting sodium and water excretion by the kidneys and causing vasodilation.",
+      "why_others_wrong": "ANF decreases, rather than increases, blood pressure and sodium retention; ANF's primary described effects concern blood pressure/fluid balance, not solely heart rate; ANF is not primarily involved in stimulating red blood cell production — that is erythropoietin's role.",
+      "concept_recap": "ANF acts in opposition to hormones like aldosterone and ADH, which tend to promote sodium/water retention and raise blood pressure."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-052",
+    "question": "Which of the following hormones is secreted by cells of the gastrointestinal tract and stimulates the secretion of gastric juice in the stomach?",
+    "options": [
+      "Secretin",
+      "Gastrin",
+      "Cholecystokinin",
+      "Insulin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Gastrin, secreted by cells in the stomach lining, stimulates the secretion of gastric juice (including hydrochloric acid) to aid digestion.",
+      "why_others_wrong": "Secretin stimulates pancreatic bicarbonate secretion, not gastric juice release; cholecystokinin stimulates gallbladder contraction and pancreatic enzyme release, not gastric juice specifically; insulin is a pancreatic hormone regulating blood glucose, unrelated to gastric juice secretion.",
+      "concept_recap": "Gastrin illustrates that hormonal (chemical) coordination extends beyond the classical endocrine glands into organs like the digestive tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-053",
+    "question": "Secretin, a hormone secreted by the duodenum in response to acidic chyme from the stomach, primarily stimulates:",
+    "options": [
+      "Gastric acid secretion",
+      "The pancreas to release bicarbonate-rich fluid to neutralise stomach acid entering the small intestine",
+      "Insulin release from beta cells exclusively",
+      "Bile production by the liver directly, with no effect on the pancreas"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Secretin stimulates the pancreas to secrete a bicarbonate-rich fluid that neutralises the acidic chyme entering the duodenum from the stomach, protecting the intestinal lining and creating optimal conditions for digestive enzymes.",
+      "why_others_wrong": "Secretin actually stimulates bicarbonate secretion to counteract, not promote, gastric acid's effects in the intestine; secretin's primary and defining action concerns pancreatic bicarbonate secretion, not directly stimulating insulin release; secretin's primary target is the pancreas (for bicarbonate), not a direct, exclusive stimulation of liver bile production.",
+      "concept_recap": "This hormone was historically significant as one of the first hormones ever discovered, establishing the concept of chemical messengers coordinating digestive processes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-054",
+    "question": "Cholecystokinin (CCK), secreted by the small intestine, primarily stimulates:",
+    "options": [
+      "Gastric acid secretion in the stomach",
+      "Contraction of the gallbladder (releasing bile) and secretion of pancreatic digestive enzymes",
+      "Thyroid hormone synthesis",
+      "Insulin secretion exclusively, with no effect on digestion"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cholecystokinin stimulates gallbladder contraction (releasing stored bile) and the pancreas to secrete digestive enzymes, both important for fat and protein digestion.",
+      "why_others_wrong": "CCK's primary role concerns bile release and pancreatic enzyme secretion, not gastric acid secretion in the stomach; CCK is unrelated to thyroid hormone synthesis; while CCK can have some effect on insulin secretion, its primary and defining digestive role is not exclusively about insulin.",
+      "concept_recap": "CCK works together with secretin to coordinate the digestive response to food entering the small intestine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-055",
+    "question": "Which of the following best describes 'negative feedback' regulation, as commonly seen in hormonal control systems (e.g., the thyroid axis)?",
+    "options": [
+      "Rising hormone levels stimulate even more hormone release, in an ever-escalating cycle",
+      "Rising levels of a hormone (or its effects) inhibit further secretion of that hormone, helping maintain levels within a stable range",
+      "Hormone levels have no regulatory feedback mechanisms at all",
+      "Negative feedback only applies to nervous system signalling, never to hormones"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Negative feedback is a regulatory mechanism where rising levels of a hormone (or its physiological effects) inhibit further secretion of that hormone, helping maintain hormone levels within a stable, healthy range.",
+      "why_others_wrong": "An ever-escalating cycle describes positive feedback, the opposite regulatory pattern; hormone levels are very much regulated by feedback mechanisms, contrary to having none; negative feedback is a general regulatory principle that applies extensively to hormonal systems, not just nervous system signalling.",
+      "concept_recap": "The hypothalamus-pituitary-thyroid axis is a classic example: rising thyroid hormone levels inhibit further TSH and TRH release, preventing excessive thyroid hormone production."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-056",
+    "question": "Oxytocin's role in stimulating stronger uterine contractions during childbirth, which further stimulates more oxytocin release, is a classic physiological example of:",
+    "options": [
+      "Negative feedback",
+      "Positive feedback",
+      "No feedback mechanism at all",
+      "Feedback exclusively via the nervous system, without hormonal involvement"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "This is a classic example of positive feedback: increasing uterine contractions stimulate further oxytocin release, which in turn intensifies contractions, escalating until childbirth is complete.",
+      "why_others_wrong": "This is positive, not negative, feedback, since the response amplifies rather than counteracts the original stimulus; this scenario clearly demonstrates an active feedback mechanism, not an absence of one; while nervous system signals do contribute to this reflex, oxytocin (a hormone) plays the central role, so it is not exclusively non-hormonal.",
+      "concept_recap": "Positive feedback loops like this are relatively rare in physiology but are well-suited to processes needing to be driven rapidly to completion, such as childbirth."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-057",
+    "question": "Which of the following best describes why hormones, despite being present in very low concentrations in the blood, can produce significant physiological effects?",
+    "options": [
+      "Hormones act non-specifically on all cells in the body equally",
+      "Target cells possess specific, high-affinity receptors for particular hormones, allowing even small hormone concentrations to trigger significant, often amplified, intracellular responses",
+      "Hormones have no real physiological effect regardless of concentration",
+      "All cells in the body respond identically to every hormone"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Target cells express specific, high-affinity receptors for particular hormones; hormone binding can trigger amplified intracellular signalling cascades (e.g., via second messengers), allowing even minute hormone concentrations to produce substantial physiological effects.",
+      "why_others_wrong": "Hormones act specifically on cells bearing appropriate receptors, not non-specifically on all cells; hormones do have well-documented, often profound physiological effects, contrary to having none; only cells with the appropriate specific receptors respond to a given hormone, not all cells identically.",
+      "concept_recap": "This receptor-mediated specificity and signal amplification explain how hormones can be so effective even at very low blood concentrations."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-058",
+    "question": "Which of the following best explains why removal or damage to the pituitary gland can have widespread effects on many different body systems?",
+    "options": [
+      "The pituitary gland has no significant regulatory role in the body",
+      "The pituitary regulates the secretion of hormones from several other endocrine glands (thyroid, adrenal cortex, gonads), so its loss disrupts multiple interconnected hormonal systems",
+      "The pituitary gland only affects a single, isolated body system",
+      "All pituitary functions are immediately and fully compensated by other glands with no consequence"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Because the pituitary regulates multiple other endocrine glands (thyroid, adrenal cortex, gonads) through its various tropic hormones, its damage or removal disrupts numerous interconnected hormonal systems throughout the body.",
+      "why_others_wrong": "The pituitary has extensive, well-documented regulatory significance, contrary to having none; its effects are broad and multi-systemic, not limited to a single isolated system; loss of pituitary function generally causes significant, not fully or immediately compensated, physiological disruption.",
+      "concept_recap": "This widespread impact underscores the pituitary's central, 'master gland' role within the endocrine system's regulatory hierarchy."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-059",
+    "question": "A patient presents with excessive thirst, frequent urination of large volumes of dilute urine, but normal blood glucose levels. Which of the following is the most likely underlying cause?",
+    "options": [
+      "Insulin deficiency (diabetes mellitus)",
+      "ADH deficiency or resistance (diabetes insipidus)",
+      "Excess aldosterone secretion",
+      "Thyroid hormone deficiency"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Excessive thirst and large volumes of dilute urine, with normal blood glucose, points to impaired water reabsorption due to ADH deficiency or resistance — diabetes insipidus — rather than a glucose-related disorder.",
+      "why_others_wrong": "Insulin deficiency (diabetes mellitus) would typically present with elevated blood glucose, which is explicitly not the case here; excess aldosterone would tend to cause sodium/water retention rather than this pattern of dilute polyuria; thyroid hormone deficiency does not typically present with this specific pattern of excessive dilute urination.",
+      "concept_recap": "Distinguishing diabetes insipidus (water balance/ADH issue) from diabetes mellitus (glucose/insulin issue) despite similar names is a key NEET-style conceptual distinction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-060",
+    "question": "A researcher observes that blocking a hormone's cell-surface receptor with an antagonist completely prevents the hormone's effect on the target cell, even at very high hormone concentrations. This observation is most consistent with which type of hormone action mechanism?",
+    "options": [
+      "An intracellular receptor-mediated, gene-regulation mechanism typical of steroid hormones",
+      "A cell-surface receptor-mediated mechanism, such as the second messenger system typical of peptide hormones",
+      "Direct diffusion into the cell without any receptor involvement",
+      "No receptor is involved in hormone action of any kind"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since blocking the cell-surface receptor prevents the hormonal effect entirely, this points to a mechanism dependent on binding a specific surface receptor — characteristic of water-soluble peptide hormones using second messenger systems.",
+      "why_others_wrong": "Steroid hormones typically act via intracellular (not cell-surface) receptors, so surface-receptor blockade would be less directly relevant to their classic mechanism; hormone action does depend on specific receptor binding in this scenario, contradicting 'no receptor involved' and 'direct diffusion without receptor involvement'.",
+      "concept_recap": "This experimental logic — using receptor antagonists to probe mechanism — is a classic approach in endocrinology and pharmacology research."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-061",
+    "question": "Which of the following best explains why a person with chronic kidney disease might develop anaemia (low red blood cell count) as a secondary complication?",
+    "options": [
+      "Damaged kidneys produce excess erythropoietin, leading to red blood cell over-production",
+      "Damaged kidneys produce insufficient erythropoietin, reducing stimulation of red blood cell production in bone marrow",
+      "Kidney disease has no relationship to red blood cell production",
+      "Kidney disease directly destroys existing red blood cells in the bloodstream"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since the kidneys are the primary source of erythropoietin, chronic kidney disease often reduces erythropoietin production, decreasing the stimulus for red blood cell production in bone marrow and resulting in anaemia.",
+      "why_others_wrong": "Kidney damage typically decreases, not increases, erythropoietin production; kidney function is directly and significantly linked to red blood cell production via erythropoietin, contrary to 'no relationship'; the mechanism concerns reduced production stimulation, not direct destruction of existing red blood cells by the kidneys.",
+      "concept_recap": "This kidney-erythropoietin-anaemia connection is an important applied example of endocrine physiology in clinical medicine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-062",
+    "question": "Which of the following best explains why steroid hormones generally have a slower onset of action but often more prolonged effects compared to peptide hormones acting via second messengers?",
+    "options": [
+      "Steroid hormones act instantly with no delay and have effects lasting only seconds",
+      "Steroid hormones typically act by influencing gene transcription and new protein synthesis, a process that takes time to initiate but produces effects that persist as long as the new proteins remain functional",
+      "There is no meaningful difference in the speed or duration of action between steroid and peptide hormones",
+      "Peptide hormones always act more slowly than steroid hormones"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Because steroid hormones typically work by altering gene expression and directing new protein synthesis, their effects take longer to begin but can persist for extended periods as the newly synthesised proteins continue to function.",
+      "why_others_wrong": "Steroid hormone action is not instantaneous, since gene transcription and protein synthesis inherently take time; there is, in fact, a well-documented and meaningful difference between the typical timeframes of steroid versus second-messenger-mediated peptide hormone action; it is actually peptide hormones (via rapid second messenger systems) that generally act faster than steroid hormones, not the reverse.",
+      "concept_recap": "This distinction between rapid membrane-receptor signalling (peptide hormones) and slower gene-regulation mechanisms (steroid hormones) is a recurring theme in hormone physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-063",
+    "question": "Which of the following would be the most likely long-term consequence of excessive growth hormone (GH) secretion beginning in adulthood, after the growth plates of long bones have already fused?",
+    "options": [
+      "Gigantism, with significant increase in overall height",
+      "Acromegaly, characterised by abnormal growth of bones in the hands, feet, and face, without significant increase in height",
+      "No physiological effect at all, since growth plates are fused",
+      "Immediate dwarfism"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since long bone growth plates have already fused in adults, excess GH cannot increase overall height; instead, it causes disproportionate growth of bones in the hands, feet, jaw, and face, resulting in acromegaly.",
+      "why_others_wrong": "Gigantism (increased height) results specifically from GH excess during childhood, before growth plate fusion, not adulthood; excess GH does have significant, visible physiological effects in adults (acromegaly), contrary to having none; dwarfism results from GH deficiency, not excess, making this option incorrect regardless of timing.",
+      "concept_recap": "The distinction between gigantism (childhood GH excess) and acromegaly (adult GH excess) hinges specifically on the growth-plate fusion status of long bones."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-064",
+    "question": "Which of the following best explains why patients with severe adrenal cortex insufficiency (Addison's disease) often show darkened (hyperpigmented) skin?",
+    "options": [
+      "Reduced cortisol leads to compensatory increased ACTH secretion; since ACTH is derived from the same precursor molecule as melanocyte stimulating hormone (MSH)-related peptides, elevated ACTH can also stimulate melanocytes",
+      "Darkened skin is entirely unrelated to any hormonal changes in Addison's disease",
+      "Excess cortisol directly darkens the skin in Addison's disease",
+      "Increased aldosterone directly causes skin pigmentation changes"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "In Addison's disease, low cortisol removes negative feedback, causing the pituitary to secrete much more ACTH; since ACTH is derived from the same precursor (POMC) that also yields MSH-related peptides, elevated ACTH levels can stimulate melanocytes, causing hyperpigmentation.",
+      "why_others_wrong": "This skin darkening is a well-documented, hormonally-mediated feature of Addison's disease, not something unrelated to hormonal changes; Addison's disease is characterised by cortisol deficiency, not excess, so 'excess cortisol' causing pigmentation is factually incorrect for this condition; aldosterone is not the hormone responsible for this specific pigmentation effect — it is linked to the shared precursor relationship between ACTH and MSH.",
+      "concept_recap": "This connection between ACTH and MSH-related peptides, both derived from the POMC precursor protein, is a classic and often-tested detail in endocrinology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-065",
+    "question": "Which of the following would be the most likely direct consequence of a tumour in the pancreatic beta cells causing excessive, unregulated insulin secretion?",
+    "options": [
+      "Chronic hyperglycaemia (high blood glucose), similar to diabetes mellitus",
+      "Hypoglycaemia (dangerously low blood glucose), due to excessive glucose uptake by cells and suppressed glucose release from the liver",
+      "No significant change in blood glucose levels",
+      "Excessive glucagon release, completely counteracting the excess insulin"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Excessive, unregulated insulin secretion would drive excessive glucose uptake into cells and suppress hepatic glucose release, potentially causing dangerously low blood glucose levels (hypoglycaemia).",
+      "why_others_wrong": "Excess insulin lowers, rather than raises, blood glucose, making chronic hyperglycaemia an incorrect outcome in this specific scenario; there would indeed be a significant, potentially dangerous change in blood glucose, not an absence of change; while glucagon can be released in response to low glucose, this compensatory response would not necessarily 'completely counteract' a tumour causing unregulated, excessive insulin secretion.",
+      "concept_recap": "This scenario, associated with a rare tumour called an insulinoma, illustrates the serious clinical consequences of disrupted insulin regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-066",
+    "question": "Which of the following best summarises the overall relationship between the nervous system and endocrine system in achieving whole-body coordination?",
+    "options": [
+      "The two systems function completely independently, with the hypothalamus serving no connective role",
+      "The hypothalamus serves as a key link between the nervous and endocrine systems, translating neural signals into hormonal (releasing/inhibiting hormone) outputs that regulate the pituitary and, in turn, many other endocrine glands",
+      "The endocrine system controls all nervous system activity directly, with no reciprocal influence",
+      "The nervous system has no influence on hormone secretion under any circumstances"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The hypothalamus acts as a crucial integrating link between the nervous and endocrine systems, converting neural inputs into hormonal signals (releasing and inhibiting hormones) that regulate the pituitary gland and, subsequently, numerous other endocrine glands throughout the body.",
+      "why_others_wrong": "The two systems are closely integrated, not completely independent, with the hypothalamus playing a central connective role; while hormones can influence nervous system function, it is an oversimplification to say the endocrine system directly controls all nervous activity with no reciprocal relationship; the nervous system very much does influence hormone secretion, particularly via the hypothalamus, contrary to having 'no influence'.",
+      "concept_recap": "This neuroendocrine integration via the hypothalamus exemplifies how the body's two major coordination systems work together rather than in isolation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-067",
+    "question": "Which of the following hormone pairs correctly illustrates an antagonistic (opposing) relationship in regulating a physiological parameter?",
+    "options": [
+      "Insulin and glucagon, regulating blood glucose levels in opposite directions",
+      "TSH and thyroxine, both raising blood metabolic rate identically",
+      "FSH and LH, both having identical opposing effects on each other",
+      "Oxytocin and ADH, both regulating blood calcium in opposite directions"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Insulin lowers blood glucose while glucagon raises it, making them a classic antagonistic hormone pair regulating blood glucose homeostasis in opposite directions.",
+      "why_others_wrong": "TSH stimulates thyroxine release rather than having an opposing effect on the same parameter in this antagonistic sense; FSH and LH work together (synergistically) in reproductive regulation rather than being described as directly antagonistic to each other in this manner; oxytocin and ADH are not primarily described as an antagonistic pair regulating blood calcium — calcium regulation is more classically attributed to PTH and calcitonin.",
+      "concept_recap": "Recognising antagonistic hormone pairs (like insulin/glucagon and PTH/calcitonin) is key to understanding how the body maintains stable internal conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-068",
+    "question": "Which of the following best explains why hypothyroidism during pregnancy, if left untreated, poses significant risk to foetal development?",
+    "options": [
+      "Thyroid hormones have no role in foetal development",
+      "Thyroid hormones are essential for normal foetal brain development and overall growth; maternal hypothyroidism can impair these processes, especially before the foetal thyroid becomes fully functional",
+      "The foetus is completely unaffected by maternal hormone levels under any circumstances",
+      "Only paternal hormone levels affect foetal development, not maternal levels"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Thyroid hormones are critical for normal foetal brain development and overall growth, particularly in early pregnancy before the foetal thyroid gland is fully functional; maternal hypothyroidism can significantly impair these developmental processes if untreated.",
+      "why_others_wrong": "Thyroid hormones do have a very significant, well-documented role in foetal development, contrary to having none; the foetus is indeed affected by maternal hormone levels, especially thyroid hormones, contrary to being 'completely unaffected'; while genetics involves both parents, hormonal influence during pregnancy is predominantly maternal, not paternal, in this specific context.",
+      "concept_recap": "This underlies why thyroid function screening and management are important considerations during pregnancy in clinical practice."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-069",
+    "question": "Which of the following best explains the physiological rationale for why cortisol levels typically follow a diurnal (daily) rhythm, being highest in the early morning and lowest at night?",
+    "options": [
+      "Cortisol has no relationship with daily activity patterns",
+      "This rhythm helps prepare the body for the metabolic demands of increased activity upon waking, aligning hormone secretion with the sleep-wake cycle",
+      "Cortisol levels are completely random with no discernible pattern",
+      "Cortisol is only secreted during periods of extreme stress, with no baseline rhythm"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The diurnal cortisol rhythm, peaking in the early morning, helps prepare the body metabolically for the demands of daytime activity, aligning hormonal secretion with the natural sleep-wake cycle.",
+      "why_others_wrong": "Cortisol's rhythm is very much related to daily activity patterns, contrary to having no relationship; this rhythm follows a well-documented, predictable daily pattern, not being completely random; cortisol has both a baseline diurnal rhythm and additional stress-induced secretion, so it is not exclusively tied to extreme stress alone.",
+      "concept_recap": "This normal diurnal variation is an important consideration in clinical contexts, since cortisol testing often needs to account for expected time-of-day fluctuations."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-070",
+    "question": "Which of the following endocrine glands is located in the neck, anterior to the trachea, and has a characteristic butterfly (bilobed) shape?",
+    "options": [
+      "Adrenal gland",
+      "Thyroid gland",
+      "Pancreas",
+      "Pituitary gland"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The thyroid gland, located in the neck anterior to the trachea, has a distinctive bilobed, butterfly-like shape.",
+      "why_others_wrong": "The adrenal gland sits atop the kidneys, not in the neck; the pancreas is located in the abdomen, not the neck; the pituitary gland is located at the base of the brain, not in the neck.",
+      "concept_recap": "This anatomical location makes the thyroid gland palpable and easily visualised for clinical examination."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-071",
+    "question": "The parathyroid glands are typically located:",
+    "options": [
+      "Within the brain",
+      "Embedded in or adjacent to the posterior surface of the thyroid gland",
+      "Within the kidneys",
+      "Within the pancreas"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The parathyroid glands (usually four small glands) are typically embedded in or located adjacent to the posterior surface of the thyroid gland.",
+      "why_others_wrong": "The parathyroid glands are not located within the brain, kidneys, or pancreas — their characteristic location is closely associated with the thyroid gland in the neck.",
+      "concept_recap": "Despite their close anatomical association with the thyroid, the parathyroid glands have distinct functions related primarily to calcium regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-072",
+    "question": "Which of the following endocrine glands is located directly above each kidney?",
+    "options": [
+      "Thyroid gland",
+      "Adrenal gland",
+      "Pituitary gland",
+      "Thymus gland"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The adrenal glands are located atop each kidney, giving rise to their alternative name, 'suprarenal glands'.",
+      "why_others_wrong": "The thyroid gland is located in the neck; the pituitary gland is located at the base of the brain; the thymus gland is located in the upper thoracic region — none are positioned directly above the kidneys.",
+      "concept_recap": "This close anatomical relationship with the kidneys is reflected in the adrenal gland's alternative name, though its hormonal functions are distinct from renal function itself."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-073",
+    "question": "Which of the following endocrine organs is located in the abdomen, near the stomach and duodenum, and has both digestive (exocrine) and hormonal (endocrine) functions?",
+    "options": [
+      "Thymus",
+      "Pancreas",
+      "Pineal gland",
+      "Thyroid gland"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pancreas, located in the abdomen near the stomach and duodenum, serves dual roles: an exocrine role secreting digestive enzymes, and an endocrine role secreting hormones like insulin and glucagon.",
+      "why_others_wrong": "The thymus is located in the upper thoracic region, not the abdomen; the pineal gland is located in the brain; the thyroid gland is located in the neck — none share the pancreas's dual exocrine-endocrine abdominal role.",
+      "concept_recap": "This dual functionality makes the pancreas a unique and important organ within both the digestive and endocrine systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-074",
+    "question": "Which of the following best describes the relative size and location of the pituitary gland within the body?",
+    "options": [
+      "A large gland located in the abdomen",
+      "A small, pea-sized gland located at the base of the brain, connected to the hypothalamus",
+      "A large gland located in the neck",
+      "A gland located within the heart"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pituitary gland is a small, pea-sized structure located at the base of the brain, connected to the hypothalamus by a thin stalk.",
+      "why_others_wrong": "The pituitary is notably small, not large, and is not located in the abdomen, neck, or heart — its characteristic location is at the base of the brain.",
+      "concept_recap": "Despite its small size, the pituitary gland has an outsized regulatory influence on many other endocrine glands throughout the body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-075",
+    "question": "Which hormone deficiency during childhood most directly leads to a condition of significantly reduced stature, known as dwarfism (assuming otherwise normal proportions)?",
+    "options": [
+      "Insulin deficiency",
+      "Growth hormone deficiency",
+      "Aldosterone deficiency",
+      "Oxytocin deficiency"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Growth hormone deficiency during childhood impairs normal bone and tissue growth, resulting in significantly reduced stature, known as pituitary dwarfism.",
+      "why_others_wrong": "Insulin deficiency primarily affects blood glucose regulation (diabetes mellitus), not overall stature in this classic sense; aldosterone deficiency primarily affects sodium/water balance, not growth; oxytocin deficiency primarily affects reproductive/lactation functions, not overall growth.",
+      "concept_recap": "Growth hormone deficiency, if identified early, can sometimes be treated with hormone replacement therapy to support more normal growth."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-076",
+    "question": "Excess growth hormone secretion beginning in childhood, before growth plate fusion, results in a condition characterised by excessive height, known as:",
+    "options": [
+      "Dwarfism",
+      "Gigantism",
+      "Acromegaly",
+      "Cretinism"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Excess growth hormone during childhood, while growth plates remain open, leads to excessive linear growth and significantly increased height, a condition called gigantism.",
+      "why_others_wrong": "Dwarfism results from GH deficiency, the opposite condition; acromegaly results from GH excess specifically in adulthood, after growth plate fusion, not childhood; cretinism results from thyroid hormone deficiency, unrelated to growth hormone excess.",
+      "concept_recap": "The timing of GH excess (childhood vs. adulthood) is the key factor distinguishing gigantism from acromegaly."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-077",
+    "question": "Which of the following hormones is primarily responsible for stimulating spermatogenesis (sperm production) within the testes, in conjunction with testosterone?",
+    "options": [
+      "Luteinizing hormone (LH) only",
+      "Follicle stimulating hormone (FSH)",
+      "Prolactin",
+      "Oxytocin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Follicle stimulating hormone (FSH), acting on Sertoli cells within the testes, plays a key role (along with testosterone) in stimulating and supporting spermatogenesis.",
+      "why_others_wrong": "LH primarily stimulates Leydig cells to produce testosterone, working alongside but distinct from FSH's direct role in spermatogenesis; prolactin's primary role concerns lactation, not spermatogenesis; oxytocin is not primarily involved in stimulating spermatogenesis.",
+      "concept_recap": "FSH and LH work together, along with locally produced testosterone, to support normal sperm production within the testes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-078",
+    "question": "Which of the following hormones triggers ovulation (the release of a mature egg from the ovary) through a mid-cycle surge?",
+    "options": [
+      "Follicle stimulating hormone (FSH), through a sustained rise",
+      "Luteinizing hormone (LH), through a sharp mid-cycle surge",
+      "Progesterone, through a sustained rise",
+      "Prolactin, through a sustained rise"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A sharp, mid-cycle surge in luteinizing hormone (LH) triggers ovulation, the release of a mature egg from the ovarian follicle.",
+      "why_others_wrong": "While FSH plays an important role in follicular development, it is specifically the LH surge that directly triggers ovulation; progesterone rises after ovulation (from the corpus luteum), not as the trigger causing it; prolactin's primary role concerns lactation, not triggering ovulation.",
+      "concept_recap": "This LH surge is a key physiological event used in various fertility monitoring and family planning approaches."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-079",
+    "question": "Which of the following best describes the primary role of insulin and glucagon together in the body?",
+    "options": [
+      "Regulating blood calcium levels exclusively",
+      "Maintaining blood glucose homeostasis through their antagonistic actions",
+      "Regulating blood sodium levels exclusively",
+      "Regulating immune cell development exclusively"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Insulin and glucagon work antagonistically — insulin lowering and glucagon raising blood glucose — together maintaining blood glucose levels within a stable, healthy range (glucose homeostasis).",
+      "why_others_wrong": "Blood calcium regulation is primarily the role of PTH and calcitonin, not insulin/glucagon; blood sodium regulation is primarily managed by hormones like aldosterone, not insulin/glucagon; immune cell development is not the primary role of insulin and glucagon.",
+      "concept_recap": "This antagonistic insulin-glucagon relationship is a foundational concept in understanding blood glucose regulation and diabetes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-080",
+    "question": "Which of the following hormone-gland pairs is correctly matched?",
+    "options": [
+      "Insulin — Adrenal cortex",
+      "Thyroxine — Thyroid gland",
+      "Cortisol — Pancreas",
+      "Oxytocin — Anterior pituitary"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Thyroxine is correctly matched with the thyroid gland, which synthesises and secretes this iodine-containing hormone.",
+      "why_others_wrong": "Insulin is secreted by the pancreas, not the adrenal cortex; cortisol is secreted by the adrenal cortex, not the pancreas; oxytocin is released from the posterior pituitary (though synthesised in the hypothalamus), not primarily associated with the anterior pituitary.",
+      "concept_recap": "Correctly matching hormones to their glands of origin is a foundational skill for understanding endocrine physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-081",
+    "question": "Which of the following hormone-gland pairs is correctly matched?",
+    "options": [
+      "Aldosterone — Adrenal cortex",
+      "Calcitonin — Parathyroid gland",
+      "Glucagon — Adrenal medulla",
+      "Testosterone — Anterior pituitary"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Aldosterone is correctly matched with the adrenal cortex, which secretes this mineralocorticoid hormone regulating sodium and water balance.",
+      "why_others_wrong": "Calcitonin is secreted by the thyroid gland (parafollicular cells), not the parathyroid gland; glucagon is secreted by the pancreas, not the adrenal medulla; testosterone is secreted by the testes, not the anterior pituitary.",
+      "concept_recap": "Careful attention to which specific gland (and even sub-region) secretes each hormone is essential for avoiding common mix-ups in endocrinology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-082",
+    "question": "Which of the following best describes the effect of thyroid hormones on the developing nervous system, particularly during foetal and early postnatal life?",
+    "options": [
+      "Thyroid hormones have no role in nervous system development",
+      "Thyroid hormones are essential for normal brain and nervous system development; deficiency during this critical period can cause irreversible intellectual disability",
+      "Thyroid hormones only affect bone development, not the nervous system",
+      "Thyroid hormone effects on the nervous system are limited to adulthood only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Thyroid hormones play a critical role in normal brain and nervous system development during foetal life and early infancy; deficiency during this sensitive period can result in irreversible intellectual disability if not promptly treated (as seen in cretinism).",
+      "why_others_wrong": "Thyroid hormones have a very significant, well-documented role in nervous system development, contrary to having none; while thyroid hormones do influence bone growth, their effects extend importantly to the nervous system as well, not being limited to bone alone; thyroid hormone effects on the nervous system are especially critical during early development, not limited to adulthood only.",
+      "concept_recap": "This developmental sensitivity underlies the importance of newborn screening programs for congenital hypothyroidism in many countries."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-083",
+    "question": "Which of the following best explains why patients with poorly controlled diabetes mellitus often experience increased thirst (polydipsia) and increased urination (polyuria)?",
+    "options": [
+      "High blood glucose has no effect on kidney function or urine output",
+      "Excess glucose in the blood exceeds the kidney's reabsorption capacity, causing glucose (and accompanying water, via osmotic effects) to be lost in urine, triggering compensatory increased thirst",
+      "Insulin directly causes increased thirst, unrelated to blood glucose levels",
+      "Diabetes mellitus has no relationship to fluid balance in the body"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "When blood glucose exceeds the kidney's capacity to reabsorb it, excess glucose is excreted in urine, drawing water along with it via osmotic effects (osmotic diuresis), leading to increased urination and subsequent compensatory increased thirst.",
+      "why_others_wrong": "High blood glucose does have a very direct, significant effect on kidney function and urine output in this context, contrary to having none; it is elevated blood glucose itself (not insulin directly) that drives this osmotic mechanism causing increased thirst; diabetes mellitus has a clear, well-documented relationship to fluid balance through this glucose-related osmotic mechanism.",
+      "concept_recap": "This classic triad of symptoms (along with increased hunger, or polyphagia) is often a key early clinical clue leading to a diagnosis of diabetes mellitus."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-084",
+    "question": "Which of the following best describes the primary function of the endocrine system as a whole, compared to the nervous system, in body coordination?",
+    "options": [
+      "The endocrine system produces effects that are generally slower in onset but often longer-lasting, using hormones distributed via blood, compared to the generally faster, more localized effects of nervous signalling",
+      "The endocrine and nervous systems are functionally identical, with no meaningful differences",
+      "The endocrine system only regulates digestion, with no other role in body coordination",
+      "The nervous system uses hormones exclusively, with no distinct role for the endocrine system"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Compared to the fast, localized, electrical/chemical signalling of the nervous system, the endocrine system typically produces effects that develop more slowly (as hormones travel via blood) but often last longer, providing a complementary mode of body-wide coordination.",
+      "why_others_wrong": "The two systems have distinct, well-documented differences in signalling speed, mechanism, and duration, contrary to being 'functionally identical'; the endocrine system's regulatory role extends far beyond digestion alone, influencing metabolism, growth, reproduction, and more; the nervous system primarily uses neurotransmitters and electrical signals, distinct from the endocrine system's hormonal signalling, so hormones are not exclusively a nervous system tool.",
+      "concept_recap": "Understanding these complementary characteristics helps clarify why the body uses both nervous and endocrine coordination systems together, rather than relying on just one."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-085",
+    "question": "Which of the following best describes a 'target cell' in the context of hormone action?",
+    "options": [
+      "Any cell in the body, since all cells respond identically to every hormone",
+      "A cell that possesses specific receptors for a particular hormone, allowing it to respond to that hormone's signal",
+      "A cell that produces the hormone itself, but does not respond to it",
+      "A cell found only within endocrine glands"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A target cell is one that possesses specific receptors for a particular hormone, enabling it to detect and respond to that hormone's signal, even if the cell is located far from the gland that secreted it.",
+      "why_others_wrong": "Not all cells respond identically to every hormone — only those with appropriate specific receptors do; a hormone-producing cell is not necessarily itself a target cell for that same hormone; target cells are found throughout the body, in many different tissues, not just within endocrine glands themselves.",
+      "concept_recap": "This receptor-based specificity ensures that hormones exert precise, targeted effects rather than uniformly affecting the entire body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-086",
+    "question": "Which of the following best explains why a single hormone, such as adrenaline, can produce different effects in different target tissues (e.g., increased heart rate in the heart, but different specific effects on blood vessels or the liver)?",
+    "options": [
+      "Adrenaline is chemically different in each tissue",
+      "Different target tissues express different types or subtypes of receptors for the same hormone, leading to distinct downstream cellular responses",
+      "Adrenaline has no consistent mechanism of action anywhere in the body",
+      "All tissues respond to adrenaline in an identical manner"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The same circulating hormone, like adrenaline, can bind to different receptor subtypes present in different tissues, triggering distinct intracellular signalling pathways and thus different physiological effects depending on the target tissue.",
+      "why_others_wrong": "Adrenaline itself remains chemically the same molecule regardless of which tissue it reaches; adrenaline has well-characterised, receptor-mediated mechanisms of action, not an absence of consistent mechanism; different tissues clearly do NOT respond identically, given their differing receptor expression, contrary to this option's claim.",
+      "concept_recap": "This concept of tissue-specific receptor expression allowing diverse effects from a single hormone is fundamental to understanding the versatility of endocrine signalling."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-087",
+    "question": "Which of the following best explains why removing the adrenal glands entirely (bilateral adrenalectomy) would be life-threatening without hormone replacement therapy?",
+    "options": [
+      "The adrenal glands have no essential physiological functions",
+      "The adrenal glands, particularly the cortex, produce essential hormones (like cortisol and aldosterone) necessary for metabolism, stress response, and maintaining blood volume/electrolyte balance",
+      "The adrenal glands only affect minor, non-essential body functions",
+      "The body can easily compensate for total adrenal loss without any hormone replacement"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The adrenal cortex produces essential hormones — including cortisol (metabolism, stress response) and aldosterone (sodium/water/blood volume regulation) — that are necessary for survival; their complete loss without replacement therapy can be life-threatening.",
+      "why_others_wrong": "The adrenal glands have very significant, essential physiological functions, contrary to having none; these functions are far from minor — they are critical for survival, as the life-threatening consequences of adrenal insufficiency demonstrate; without hormone replacement, the body generally cannot adequately compensate for total loss of adrenal cortical function.",
+      "concept_recap": "This is why patients undergoing adrenalectomy require lifelong hormone replacement therapy to survive and maintain normal physiological function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-088",
+    "question": "Which of the following best describes why hormone secretion is often regulated by multiple overlapping feedback mechanisms rather than by a single simple pathway?",
+    "options": [
+      "Hormone regulation is always extremely simple, involving only one factor",
+      "Multiple, sometimes redundant regulatory mechanisms provide more precise, robust control over hormone levels, helping the body respond appropriately to varying physiological conditions",
+      "Overlapping regulation serves no physiological purpose and is simply inefficient",
+      "Hormones are not regulated by any feedback mechanisms at all"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Multiple, sometimes overlapping regulatory mechanisms provide more precise and robust control over hormone secretion, allowing the body to respond flexibly and accurately to varying physiological demands and conditions.",
+      "why_others_wrong": "Hormone regulation is often more complex than a single simple factor, contrary to being 'always extremely simple'; this overlapping regulation serves an important physiological purpose (robustness and precision), rather than being simply inefficient; hormones are, in fact, extensively regulated by various feedback mechanisms, contrary to having none.",
+      "concept_recap": "This layered regulatory complexity reflects the sophisticated fine-tuning needed to maintain physiological homeostasis across many different, interacting hormonal systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-089",
+    "question": "Which of the following statements correctly describes the general trend in hormone concentration required to produce a physiological effect, compared to the concentration of typical intracellular metabolites (like glucose) involved in metabolism?",
+    "options": [
+      "Hormones typically act at much lower concentrations than common metabolites, reflecting their high potency and receptor specificity",
+      "Hormones always require higher concentrations than metabolites to have any effect",
+      "Hormone and metabolite concentrations required for physiological effects are always identical",
+      "Hormone concentration has no relationship to their physiological potency"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hormones are typically effective at very low concentrations (often nanomolar or picomolar range) due to their high specificity and affinity for target receptors, in contrast to many metabolites that are present and active at much higher concentrations.",
+      "why_others_wrong": "It is precisely the opposite — hormones generally act at lower, not higher, concentrations than common metabolites; hormone and metabolite effective concentrations are generally very different, not identical; hormone concentration is, in fact, closely related to their physiological potency via receptor affinity, contrary to having 'no relationship'.",
+      "concept_recap": "This remarkable potency at low concentrations underscores the importance of precise, receptor-mediated signal amplification in endocrine physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-090",
+    "question": "Which of the following would be the most likely consequence of a genetic mutation that renders a target tissue's insulin receptors non-functional, even though insulin secretion by the pancreas remains completely normal?",
+    "options": [
+      "Normal blood glucose regulation, since insulin is still secreted normally",
+      "Insulin resistance and elevated blood glucose levels, since the hormone cannot exert its effect without functional receptors",
+      "Excessive insulin action, causing dangerously low blood glucose",
+      "No effect at all on blood glucose regulation"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Even with normal insulin secretion, non-functional insulin receptors on target tissues prevent the hormone from exerting its glucose-lowering effect, resulting in insulin resistance and elevated blood glucose levels — a mechanism relevant to some forms of diabetes.",
+      "why_others_wrong": "Blood glucose regulation would be significantly impaired, not normal, since functional receptors are required for insulin to act, regardless of normal secretion; this scenario would lead to reduced, not excessive, insulin action at the tissue level, since receptors cannot properly respond; there would be a very significant effect on blood glucose regulation, not an absence of effect.",
+      "concept_recap": "This illustrates that adequate hormone secretion alone is insufficient for normal physiological function — functional target-cell receptors are equally essential."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-091",
+    "question": "Which of the following best explains why the same hormone (e.g., cortisol) can have both beneficial short-term effects (aiding acute stress response) and harmful effects if chronically elevated over long periods?",
+    "options": [
+      "Cortisol is always beneficial, regardless of duration or concentration",
+      "While cortisol's acute effects help mobilise energy and manage short-term stress, chronically elevated cortisol can suppress immune function, cause tissue breakdown, and lead to conditions like Cushing's syndrome",
+      "Cortisol has no significant physiological effects, whether acute or chronic",
+      "Cortisol is always harmful, even in short-term, acute situations"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Cortisol's acute effects help the body respond effectively to short-term stress by mobilising energy reserves; however, chronic elevation can suppress immune function, promote tissue breakdown, and contribute to conditions such as Cushing's syndrome, illustrating that hormone effects can be beneficial or harmful depending on duration and context.",
+      "why_others_wrong": "Cortisol is not 'always' beneficial regardless of duration — chronic elevation clearly causes harm, as described; cortisol has very significant physiological effects, both acute and chronic, contrary to having none; cortisol is not 'always' harmful — its acute, short-term effects are indeed adaptive and beneficial for managing stress.",
+      "concept_recap": "This context-dependent nature of hormone effects (acute vs. chronic) is an important principle in understanding both normal physiology and disease states."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-092",
+    "question": "Which of the following best explains the physiological basis for why athletes might sometimes misuse synthetic anabolic steroids (structurally related to testosterone) to enhance muscle growth?",
+    "options": [
+      "Anabolic steroids have no relationship to natural hormone pathways in the body",
+      "Anabolic steroids act similarly to testosterone, promoting protein synthesis and muscle growth by binding to androgen receptors, but their misuse carries significant health risks and is banned in competitive sports",
+      "Anabolic steroids only affect bone density, with no effect on muscle tissue",
+      "Anabolic steroids have no effect on the body when taken exogenously"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Synthetic anabolic steroids act similarly to natural testosterone, binding androgen receptors to promote protein synthesis and muscle growth; however, their misuse is associated with significant health risks and is prohibited in competitive sports due to unfair advantage and safety concerns.",
+      "why_others_wrong": "Anabolic steroids are directly related to natural testosterone/androgen signalling pathways, not unrelated to them; while they can influence bone density to some extent, their well-known primary effect relevant to misuse is on muscle tissue growth, not exclusively bone; exogenous anabolic steroids do have very significant physiological effects on the body, contrary to having none.",
+      "concept_recap": "This connects basic endocrine physiology (androgen receptor signalling) to real-world applications in sports medicine and ethics."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-093",
+    "question": "Which of the following best describes why blood glucose levels remain relatively stable in a healthy individual despite highly variable food intake throughout the day (e.g., fasting overnight versus eating a large meal)?",
+    "options": [
+      "Blood glucose is not actually regulated and fluctuates wildly and unpredictably in healthy individuals",
+      "The coordinated, antagonistic actions of insulin (lowering glucose) and glucagon (raising glucose), among other regulatory hormones, continuously adjust to maintain blood glucose within a relatively narrow, stable range",
+      "Only insulin is involved in blood glucose regulation, with no contribution from any other hormones",
+      "Blood glucose regulation occurs exclusively through voluntary dietary control, with no hormonal involvement"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The continuous, coordinated interplay between insulin (lowering blood glucose after meals) and glucagon (raising blood glucose during fasting), along with other hormones, allows the body to maintain blood glucose within a relatively stable, narrow range despite variable food intake.",
+      "why_others_wrong": "Blood glucose is, in fact, actively and effectively regulated in healthy individuals, contrary to being unregulated and wildly fluctuating; multiple hormones (not insulin alone) contribute to blood glucose regulation, including glucagon and others; hormonal regulation, not just voluntary dietary control, plays the central role in this fine-tuned homeostatic process.",
+      "concept_recap": "This dynamic hormonal regulation exemplifies negative feedback homeostasis, continuously adjusting to keep a critical physiological parameter within a healthy range."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-094",
+    "question": "Which of the following best describes exocrine glands, in contrast to endocrine glands?",
+    "options": [
+      "Glands that secrete hormones directly into the bloodstream",
+      "Glands that secrete their products through ducts onto an epithelial surface or into a cavity, rather than directly into the blood",
+      "Glands that only exist in the digestive system",
+      "Glands that have no secretory function at all"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Exocrine glands secrete their products (such as enzymes, sweat, or saliva) through ducts onto epithelial surfaces or into cavities, unlike ductless endocrine glands that secrete hormones directly into the blood.",
+      "why_others_wrong": "Direct secretion into the bloodstream describes endocrine, not exocrine, glands; exocrine glands are found throughout the body (skin, digestive tract, and more), not exclusively within the digestive system; exocrine glands do have a clear, active secretory function, contrary to having none.",
+      "concept_recap": "The pancreas is a notable example of a gland with both exocrine (digestive enzymes via ducts) and endocrine (hormones via blood) functions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-095",
+    "question": "Which of the following best describes a 'heterocrine' gland, using the pancreas as an example?",
+    "options": [
+      "A gland with only endocrine function",
+      "A gland that has both exocrine and endocrine functions",
+      "A gland found only in plants",
+      "A gland with no functional role in the body"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A heterocrine gland, such as the pancreas, possesses both exocrine (duct-based, e.g., digestive enzyme secretion) and endocrine (hormone secretion into blood) functions within the same organ.",
+      "why_others_wrong": "A gland with only endocrine function would not be classified as heterocrine, since that term specifically implies dual function; heterocrine glands are found in animals like humans, not specifically in plants; heterocrine glands like the pancreas have very clear, essential functional roles in the body, contrary to having none.",
+      "concept_recap": "The pancreas is the classic example of a heterocrine gland studied in the context of chemical coordination."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-096",
+    "question": "Which of the following best describes the general structural feature that allows endocrine glands to release their hormones efficiently into the bloodstream?",
+    "options": [
+      "Endocrine glands lack any blood supply",
+      "Endocrine glands are richly supplied with blood vessels (highly vascularised), facilitating direct hormone release into the circulation",
+      "Endocrine glands release hormones only through long ducts into distant organs",
+      "Endocrine glands are structurally identical to muscle tissue"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Endocrine glands are typically richly vascularised (having an extensive blood supply), which facilitates the direct release of hormones into the bloodstream for distribution throughout the body.",
+      "why_others_wrong": "Endocrine glands have a very significant blood supply, contrary to lacking any; endocrine glands are specifically ductless, releasing hormones directly into blood rather than through long ducts; endocrine gland tissue has distinct structural features suited to hormone secretion, differing from typical muscle tissue structure.",
+      "concept_recap": "This rich vascularisation is a key structural adaptation supporting the endocrine system's function of body-wide hormonal signalling."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-097",
+    "question": "Which of the following best explains why hormone levels in the blood must be tightly regulated, neither too high nor too low, for normal physiological function?",
+    "options": [
+      "Hormone levels have no impact on physiological function regardless of concentration",
+      "Both hormone excess and deficiency can disrupt normal physiological processes, as seen in conditions like hyperthyroidism (excess) versus hypothyroidism (deficiency)",
+      "Only excessively high hormone levels cause problems; low levels are always harmless",
+      "Only excessively low hormone levels cause problems; high levels are always harmless"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Both hormone excess and deficiency can significantly disrupt normal physiology, as clearly illustrated by paired conditions such as hyperthyroidism (excess thyroid hormone) and hypothyroidism (thyroid hormone deficiency), each with distinct but equally problematic consequences.",
+      "why_others_wrong": "Hormone levels have very significant, well-documented effects on physiological function, contrary to having no impact; low hormone levels are not always harmless, as conditions like hypothyroidism clearly demonstrate; high hormone levels are also not always harmless, as conditions like hyperthyroidism or Cushing's syndrome clearly demonstrate.",
+      "concept_recap": "This principle — that both excess and deficiency of a given hormone can cause distinct pathological conditions — is a recurring theme throughout endocrinology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-098",
+    "question": "Which of the following best describes hyperthyroidism, the condition of excessive thyroid hormone secretion?",
+    "options": [
+      "Decreased metabolic rate, weight gain, and lethargy",
+      "Increased metabolic rate, weight loss, increased heart rate, and heightened nervous excitability",
+      "No noticeable symptoms at all",
+      "Symptoms identical to hypothyroidism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hyperthyroidism, caused by excessive thyroid hormone, typically presents with an increased metabolic rate, weight loss despite normal or increased appetite, increased heart rate, and heightened nervous system excitability.",
+      "why_others_wrong": "Decreased metabolic rate and weight gain are characteristic of hypothyroidism (the opposite condition), not hyperthyroidism; hyperthyroidism produces very noticeable, well-documented symptoms, contrary to having none; hyperthyroidism and hypothyroidism have distinctly different, largely opposite, symptom profiles, so they are not identical.",
+      "concept_recap": "Graves' disease is a common autoimmune cause of hyperthyroidism frequently referenced in this context."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-099",
+    "question": "Which of the following best explains why the posterior pituitary is sometimes described as not being a true independent endocrine gland, in contrast to the anterior pituitary?",
+    "options": [
+      "The posterior pituitary does not store or release any hormones at all",
+      "The posterior pituitary primarily stores and releases hormones (oxytocin and ADH) that are actually synthesised by hypothalamic neurons, rather than synthesising its own hormones as the anterior pituitary does",
+      "The posterior pituitary is structurally identical to the anterior pituitary in every respect, including hormone synthesis",
+      "The posterior pituitary produces far more hormones than the anterior pituitary"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The posterior pituitary mainly serves as a storage and release site for hormones (oxytocin and ADH) that are actually synthesised by hypothalamic neurons, rather than synthesising its own hormones as the anterior pituitary does, leading to this distinction in some classifications.",
+      "why_others_wrong": "The posterior pituitary does actively store and release hormones, contrary to doing neither; the anterior and posterior pituitary differ significantly in their embryonic origin, structure, and hormone synthesis/storage roles, so they are not structurally identical in this respect; the posterior pituitary is generally associated with fewer distinct hormones (mainly oxytocin and ADH) compared to the several hormones of the anterior pituitary, not more.",
+      "concept_recap": "This synthesis-versus-storage distinction highlights an important structural and functional difference between the two pituitary regions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-100",
+    "question": "Which of the following best explains why blood tests for hormone levels (e.g., thyroid function tests) are commonly used in clinical diagnosis of endocrine disorders?",
+    "options": [
+      "Hormone blood levels have no diagnostic value in detecting endocrine dysfunction",
+      "Since hormones circulate in the blood at levels reflecting gland activity, measuring these levels can help identify whether a gland is overactive, underactive, or functioning normally",
+      "Hormone blood tests can only detect blood cell abnormalities, not hormone-related conditions",
+      "Endocrine disorders can never be diagnosed using any blood-based tests"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Because hormones circulate in the blood at concentrations reflecting the activity of their source glands, measuring these blood hormone levels provides valuable diagnostic information about whether a gland is overactive, underactive, or functioning normally.",
+      "why_others_wrong": "Hormone blood levels have very significant, well-established diagnostic value, contrary to having none; these tests specifically measure hormone (not blood cell) levels for this diagnostic purpose; blood-based hormone tests are, in fact, a standard and widely used diagnostic tool for endocrine disorders, contrary to never being usable for this purpose.",
+      "concept_recap": "This principle underlies the widespread clinical use of tests such as TSH, T3/T4, cortisol, and blood glucose measurements in diagnosing various endocrine conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-101",
+    "question": "Which of the following best explains why untreated congenital hypothyroidism (thyroid hormone deficiency present from birth) requires urgent treatment shortly after birth?",
+    "options": [
+      "Thyroid hormone has no time-sensitive role in early development",
+      "There is a critical early developmental window during which adequate thyroid hormone is essential for normal brain development; delayed treatment can result in irreversible intellectual disability",
+      "Thyroid hormone deficiency can always be fully corrected later in life with no lasting consequences, regardless of treatment timing",
+      "Congenital hypothyroidism has no relationship to intellectual development"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "There is a critical, time-sensitive window early in life during which adequate thyroid hormone is essential for normal brain development; delaying treatment for congenital hypothyroidism can result in irreversible intellectual disability, making urgent early treatment essential.",
+      "why_others_wrong": "Thyroid hormone does have a very time-sensitive, critical role in early development, contrary to having none; delayed treatment can indeed result in permanent, irreversible consequences, contrary to always being fully correctable later without lasting effects; congenital hypothyroidism has a well-documented, significant relationship to intellectual development if untreated.",
+      "concept_recap": "This urgency underlies newborn screening programs designed to detect and treat congenital hypothyroidism as early as possible."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-102",
+    "question": "Which of the following best explains the physiological significance of aldosterone's action being tightly linked to the renin-angiotensin system in regulating blood pressure?",
+    "options": [
+      "Aldosterone acts completely independently of any other blood pressure regulatory system",
+      "The renin-angiotensin-aldosterone system (RAAS) forms an integrated regulatory pathway, where falling blood pressure triggers renin release, ultimately stimulating aldosterone secretion to promote sodium/water retention and restore blood pressure",
+      "Aldosterone has no relationship to blood pressure regulation",
+      "The renin-angiotensin system only regulates heart rate, with no connection to aldosterone"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The renin-angiotensin-aldosterone system (RAAS) is an integrated regulatory pathway: falling blood pressure triggers renin release from the kidney, which ultimately leads to increased aldosterone secretion, promoting sodium and water retention to help restore blood pressure toward normal.",
+      "why_others_wrong": "Aldosterone's regulation is closely integrated with, not independent of, this broader RAAS pathway; aldosterone has a very significant, well-documented relationship to blood pressure regulation, contrary to having none; the renin-angiotensin system is specifically and centrally connected to aldosterone secretion as part of blood pressure regulation, not limited to heart rate with no aldosterone connection.",
+      "concept_recap": "Understanding RAAS is essential not only for basic physiology but also for understanding how many blood pressure medications work by targeting this pathway."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-103",
+    "question": "Which of the following best explains why, despite testosterone being generally considered a 'male' hormone and estrogen a 'female' hormone, both hormones are actually present (though in different amounts) in both males and females?",
+    "options": [
+      "Testosterone and estrogen are found only in males, never in females, and vice versa",
+      "Both sexes produce both hormones from shared biosynthetic pathways (both derived from cholesterol via similar steroidogenic pathways), differing mainly in the relative amounts produced and their physiological roles",
+      "Testosterone and estrogen are structurally completely unrelated molecules with no shared biosynthetic origin",
+      "Only synthetic (not naturally produced) testosterone and estrogen exist in the opposite sex"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Both testosterone and estrogen are steroid hormones derived from cholesterol through overlapping biosynthetic pathways; both sexes naturally produce both hormones, differing mainly in the relative amounts and the resulting physiological emphasis (e.g., predominance of testosterone in males, estrogen in females).",
+      "why_others_wrong": "Both hormones are naturally present, to varying degrees, in both sexes, contrary to being found 'only' in one sex; testosterone and estrogen do share a common biosynthetic origin (steroidogenesis from cholesterol), contrary to being 'completely unrelated'; both hormones are naturally, endogenously produced in both sexes, not requiring synthetic sources in the 'opposite' sex.",
+      "concept_recap": "This shared steroidogenic pathway explains why hormonal balance (not simple presence/absence) is the key factor differentiating typical male and female physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-104",
+    "question": "Which of the following best explains why chronic stress, through sustained activation of the hypothalamus-pituitary-adrenal (HPA) axis and prolonged cortisol elevation, can have negative long-term health effects?",
+    "options": [
+      "The HPA axis and cortisol have no role in the body's stress response",
+      "While acute cortisol release helps manage short-term stress, chronic HPA axis activation and sustained high cortisol levels can impair immune function, disrupt metabolism, and contribute to various health problems over time",
+      "Cortisol has identical effects whether released acutely or chronically, with no difference in outcome",
+      "Chronic stress has no measurable effect on hormone levels in the body"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "While the HPA axis and acute cortisol release are adaptive for managing short-term stress, chronic activation and sustained high cortisol levels can impair immune function, disrupt normal metabolism, and contribute to a range of negative long-term health outcomes.",
+      "why_others_wrong": "The HPA axis and cortisol have a very central, well-documented role in the stress response, contrary to having none; chronic, sustained cortisol elevation has different (generally more harmful) effects compared to acute, short-term release, so the two are not identical in outcome; chronic stress does have a measurable, significant effect on hormone levels (cortisol in particular), contrary to having no measurable effect.",
+      "concept_recap": "This distinction between adaptive acute stress responses and potentially harmful chronic stress responses is an important concept linking endocrinology to broader health and well-being."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-105",
+    "question": "Which of the following best describes the term 'endocrinology' as a field of study?",
+    "options": [
+      "The study of bones and joints",
+      "The study of the endocrine system, including glands, hormones, and their physiological effects",
+      "The study of digestive enzymes only",
+      "The study of the nervous system exclusively"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Endocrinology is the branch of biology/medicine dedicated to studying the endocrine system, encompassing glands, the hormones they produce, and the wide-ranging physiological effects of these hormones.",
+      "why_others_wrong": "The study of bones and joints is orthopaedics, not endocrinology; digestive enzyme study alone is a narrower topic within physiology/biochemistry, not the full scope of endocrinology; the nervous system is studied primarily within neurology/neuroscience, a related but distinct field from endocrinology.",
+      "concept_recap": "Endocrinology as a field covers a vast range of glands and hormones, from growth and metabolism to reproduction and stress responses."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-106",
+    "question": "Which of the following hormones would most directly be tested for in a routine blood test to screen for thyroid dysfunction?",
+    "options": [
+      "Insulin and glucagon",
+      "TSH, along with T3 and T4",
+      "Cortisol and aldosterone",
+      "FSH and LH"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Standard thyroid function screening typically measures TSH (thyroid stimulating hormone) alongside the thyroid hormones T3 and T4, providing insight into both pituitary and thyroid gland function.",
+      "why_others_wrong": "Insulin and glucagon are relevant to blood glucose/pancreatic function testing, not thyroid screening; cortisol and aldosterone are relevant to adrenal function testing, not thyroid screening; FSH and LH are relevant to reproductive/gonadal function testing, not thyroid screening.",
+      "concept_recap": "This combination of TSH with T3/T4 helps clinicians distinguish between primary thyroid problems and pituitary-related thyroid dysfunction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-107",
+    "question": "Which of the following best describes why the hypothalamus-pituitary-adrenal (HPA), hypothalamus-pituitary-thyroid (HPT), and hypothalamus-pituitary-gonadal (HPG) axes are all considered examples of hierarchical hormonal control systems?",
+    "options": [
+      "Each axis involves only a single gland acting alone, with no hierarchy",
+      "In each axis, the hypothalamus regulates the pituitary, which in turn regulates a peripheral endocrine gland (adrenal, thyroid, or gonad), creating a layered, hierarchical control structure",
+      "These axes have no relationship to each other or any common structural pattern",
+      "Only the HPA axis involves the hypothalamus; the HPT and HPG axes do not"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Each of these three axes follows the same layered hierarchical pattern: the hypothalamus regulates the pituitary via releasing/inhibiting hormones, and the pituitary in turn regulates a peripheral endocrine gland (adrenal cortex, thyroid, or gonads respectively), illustrating a consistent hierarchical control structure across multiple hormonal systems.",
+      "why_others_wrong": "Each axis involves multiple glands working in a coordinated hierarchy, not just a single gland acting alone; these three axes actually share a clear common structural pattern (hypothalamus-pituitary-peripheral gland), rather than having no relationship; all three axes (HPA, HPT, and HPG) involve the hypothalamus as their starting point, not just the HPA axis alone.",
+      "concept_recap": "Recognising this shared hierarchical pattern across different hormonal axes helps build a unified understanding of endocrine system organisation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-108",
+    "question": "Which of the following best explains why measuring TSH levels alone is often sufficient as an initial screening test for many thyroid disorders, even before directly measuring T3/T4?",
+    "options": [
+      "TSH has no relationship to actual thyroid hormone levels",
+      "Due to negative feedback, TSH levels are highly sensitive to even small changes in thyroid hormone levels — TSH tends to rise when thyroid hormone is low (hypothyroidism) and fall when thyroid hormone is high (hyperthyroidism), making it a sensitive early indicator",
+      "TSH levels are completely unrelated to pituitary or thyroid function",
+      "TSH can only be measured after all other thyroid tests have already been completed"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Due to the sensitive negative feedback relationship between thyroid hormones and the pituitary, TSH levels change detectably in response to even small deviations in thyroid hormone levels — rising in hypothyroidism and falling in hyperthyroidism — making TSH a highly sensitive initial screening indicator.",
+      "why_others_wrong": "TSH has a very direct, well-established relationship to thyroid hormone levels via negative feedback, contrary to having none; TSH is, by definition, closely tied to both pituitary and thyroid function, contrary to being unrelated to either; TSH testing does not require other thyroid tests to be completed first — it is commonly used as a standalone initial screening test.",
+      "concept_recap": "This negative feedback sensitivity is why TSH is often described as a particularly useful 'first-line' screening test in clinical thyroid evaluation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-109",
+    "question": "Which of the following best describes the overall theme connecting hormones like insulin, glucagon, PTH, calcitonin, ADH, and aldosterone, despite their very different specific target processes?",
+    "options": [
+      "They all originate from exactly the same gland",
+      "They all function to maintain specific aspects of internal physiological stability (homeostasis) — such as blood glucose, blood calcium, or blood volume/electrolyte balance — despite acting on different systems",
+      "They all have completely identical chemical structures",
+      "None of these hormones are involved in any form of feedback regulation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Despite regulating very different specific physiological parameters (blood glucose, blood calcium, blood volume/electrolytes), these hormones share the common overarching theme of maintaining various aspects of internal physiological stability, or homeostasis.",
+      "why_others_wrong": "These hormones originate from several different glands (pancreas, parathyroid, thyroid, posterior pituitary, adrenal cortex), not a single common gland; these hormones have quite different chemical structures and classifications (peptide vs. steroid, for example), not identical structures; virtually all of these hormones are regulated by feedback mechanisms, contrary to none being involved in feedback regulation.",
+      "concept_recap": "Recognising this shared homeostatic theme, despite differing specific mechanisms, helps unify understanding across the many individual hormone systems studied in endocrinology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-110",
+    "question": "Which of the following hormones is NOT secreted by the anterior pituitary?",
+    "options": [
+      "Growth hormone (GH)",
+      "Thyroid stimulating hormone (TSH)",
+      "Antidiuretic hormone (ADH)",
+      "Adrenocorticotropic hormone (ACTH)"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "ADH is synthesised by the hypothalamus and released from the posterior pituitary, not secreted by the anterior pituitary.",
+      "why_others_wrong": "GH, TSH, and ACTH are all hormones genuinely secreted by the anterior pituitary gland.",
+      "concept_recap": "This distinguishes the anterior pituitary's several tropic hormones from the posterior pituitary's role in storing/releasing hypothalamic hormones (oxytocin and ADH)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-111",
+    "question": "Which of the following hormones is secreted directly by the posterior pituitary (as opposed to merely being stored/released there after hypothalamic synthesis)?",
+    "options": [
+      "None; the posterior pituitary does not synthesise its own hormones, only stores and releases hypothalamic hormones",
+      "Growth hormone",
+      "Thyroid stimulating hormone",
+      "Follicle stimulating hormone"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The posterior pituitary does not synthesise its own hormones; it stores and releases oxytocin and ADH, both of which are actually synthesised by hypothalamic neurons.",
+      "why_others_wrong": "GH, TSH, and FSH are all synthesised and secreted by the anterior pituitary, not the posterior pituitary.",
+      "concept_recap": "This is a key distinguishing feature between the anterior pituitary (hormone-synthesising) and posterior pituitary (hormone-storing/releasing) regions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-112",
+    "question": "Which of the following correctly lists a hormone secreted by the adrenal MEDULLA (not the cortex)?",
+    "options": [
+      "Aldosterone",
+      "Cortisol",
+      "Noradrenaline (norepinephrine)",
+      "Corticosterone"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Noradrenaline (along with adrenaline) is secreted by the adrenal medulla, the inner part of the adrenal gland.",
+      "why_others_wrong": "Aldosterone, cortisol, and corticosterone are all corticosteroids secreted by the adrenal cortex, not the medulla.",
+      "concept_recap": "The adrenal medulla's catecholamines act quickly, unlike the comparatively slower-acting steroid hormones of the cortex."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-113",
+    "question": "Which of the following hormones plays a key role in stimulating uterine contractions and is sometimes administered clinically to induce or augment labour?",
+    "options": [
+      "Progesterone",
+      "Oxytocin",
+      "Estrogen alone, with no role for other hormones",
+      "Relaxin, with no involvement of any other hormone"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Oxytocin is well known both for its natural role in stimulating uterine contractions during labour and for its clinical use (as a synthetic form) to induce or augment labour when medically indicated.",
+      "why_others_wrong": "Progesterone generally helps maintain uterine quiescence during pregnancy rather than stimulating contractions; while estrogen has supportive roles in preparing the uterus, oxytocin is the more direct, clinically recognised contraction-stimulating hormone; relaxin has roles in pregnancy-related ligament and cervix changes, but is not the primary hormone associated with directly stimulating contractions in this context.",
+      "concept_recap": "This clinical application (synthetic oxytocin, e.g., Pitocin) directly builds on the natural physiological role of this hormone in childbirth."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-114",
+    "question": "Which of the following would be the most likely direct effect of a tumour causing chronic hypersecretion of aldosterone (primary hyperaldosteronism)?",
+    "options": [
+      "Low blood pressure and sodium loss",
+      "High blood pressure (hypertension) due to excessive sodium and water retention, along with low blood potassium",
+      "No effect on blood pressure or electrolytes",
+      "Excessive urine dilution with no change in sodium levels"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Chronic aldosterone excess causes excessive sodium and water retention (raising blood pressure/hypertension) along with increased potassium excretion, leading to low blood potassium (hypokalaemia).",
+      "why_others_wrong": "Aldosterone excess causes sodium retention and typically raised, not low, blood pressure; there would be a very significant effect on blood pressure and electrolytes, not an absence of effect; the primary effect concerns sodium retention (not simply urine dilution), along with clear electrolyte changes, not 'no change in sodium levels'.",
+      "concept_recap": "Primary hyperaldosteronism (Conn's syndrome) is a recognised, treatable cause of secondary hypertension, illustrating the clinical relevance of this hormone."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-115",
+    "question": "Which of the following best explains why the pancreas is described as having 'islets' (islets of Langerhans) within a sea of exocrine tissue?",
+    "options": [
+      "The endocrine hormone-secreting cells form small, distinct clusters scattered throughout the predominantly exocrine (digestive enzyme-secreting) pancreatic tissue",
+      "The entire pancreas is composed exclusively of endocrine tissue, with no exocrine component",
+      "The islets refer to physical islands within the abdominal cavity, unrelated to pancreatic cell types",
+      "The pancreas has no distinguishable regions; all cells are functionally identical"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The islets of Langerhans are small, distinct clusters of hormone-secreting endocrine cells scattered throughout the pancreas, which is otherwise predominantly composed of exocrine tissue (acinar cells secreting digestive enzymes).",
+      "why_others_wrong": "The pancreas has both exocrine and endocrine components, not exclusively endocrine tissue; 'islets' specifically refers to these clusters of pancreatic endocrine cells, not physical islands in the abdominal cavity; the pancreas has clearly distinguishable regions/cell types (exocrine acinar tissue versus endocrine islet cells), contrary to being functionally uniform throughout.",
+      "concept_recap": "This 'islands within a sea' structural arrangement is a classic descriptive image used to explain the pancreas's dual exocrine-endocrine organisation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-116",
+    "question": "Which of the following correctly identifies the primary hormone deficiency responsible for Type 1 diabetes mellitus?",
+    "options": [
+      "Glucagon deficiency",
+      "Insulin deficiency, typically due to autoimmune destruction of pancreatic beta cells",
+      "Cortisol deficiency",
+      "Growth hormone deficiency"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Type 1 diabetes mellitus results from insulin deficiency, most commonly caused by autoimmune destruction of the insulin-producing beta cells within the pancreatic islets.",
+      "why_others_wrong": "Glucagon deficiency is not the characteristic hormonal defect in Type 1 diabetes; cortisol deficiency is associated with different conditions like Addison's disease, not Type 1 diabetes; growth hormone deficiency is unrelated to Type 1 diabetes's characteristic pathology.",
+      "concept_recap": "Distinguishing Type 1 (typically autoimmune, insulin deficiency) from Type 2 (typically insulin resistance) diabetes is an important applied concept in endocrinology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-117",
+    "question": "Which of the following best describes the primary distinguishing feature of Type 2 diabetes mellitus, compared to Type 1?",
+    "options": [
+      "Complete absence of insulin production from birth",
+      "Insulin resistance in target tissues, often combined with relative (rather than absolute) insulin deficiency over time",
+      "No relationship to blood glucose regulation at all",
+      "Exclusively occurs in children, never in adults"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Type 2 diabetes is primarily characterised by insulin resistance in target tissues (reduced responsiveness to insulin), often accompanied by a relative, progressive insulin deficiency over time, distinguishing it from the typically more complete insulin deficiency of Type 1 diabetes.",
+      "why_others_wrong": "Complete absence of insulin from birth is not the typical pattern in Type 2 diabetes, which usually develops later with a different mechanism; Type 2 diabetes has a very clear, central relationship to blood glucose regulation, contrary to having none; Type 2 diabetes, though historically more common in adults, is not exclusively restricted to children or adults alone.",
+      "concept_recap": "This distinction between insulin resistance (Type 2) and typically more complete insulin deficiency (Type 1) reflects different underlying disease mechanisms requiring different management approaches."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-118",
+    "question": "Which of the following best explains why insulin is administered by injection rather than orally in patients with insulin-dependent diabetes?",
+    "options": [
+      "Insulin has no effect when taken orally or by injection",
+      "Insulin is a protein/peptide hormone that would be broken down by digestive enzymes in the gastrointestinal tract if taken orally, so injection bypasses this digestive breakdown",
+      "Injection is simply a more traditional method with no specific physiological rationale",
+      "Oral insulin works perfectly well but injections are used only for patient convenience"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since insulin is a peptide/protein hormone, it would be broken down by digestive enzymes in the gastrointestinal tract if taken orally; injecting insulin bypasses the digestive system, allowing it to enter the bloodstream intact and functional.",
+      "why_others_wrong": "Insulin does have a very significant physiological effect via injection, contrary to having no effect via any route; there is a clear, specific physiological rationale (avoiding digestive breakdown) behind using injection rather than oral administration, not merely tradition; oral insulin does not work well due to digestive breakdown, contrary to working 'perfectly well' — injection is a physiological necessity, not simply a convenience choice.",
+      "concept_recap": "This principle — that peptide hormones are generally destroyed by digestion if taken orally — is an important pharmacological consideration relevant to many protein-based therapeutics, not just insulin."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-119",
+    "question": "Which of the following best explains why steroid hormones (unlike peptide hormones) can often be administered orally as medications (e.g., oral corticosteroids or oral contraceptives) without being destroyed by digestion?",
+    "options": [
+      "Steroid hormones are entirely resistant to any chemical breakdown under any conditions",
+      "Steroid hormones are lipid-soluble, small molecules that are not primarily broken down by the same protein-digesting enzymes that would destroy peptide hormones, allowing many to survive oral administration and absorption",
+      "Steroid hormones have no effect when taken orally, similar to peptide hormones",
+      "Steroid hormones can only be administered by injection, never orally"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Because steroid hormones are lipid-soluble, relatively small molecules distinct from proteins, they are not primarily targeted by the protein-digesting enzymes of the gastrointestinal tract, allowing many steroid-based medications to survive oral administration and be absorbed effectively.",
+      "why_others_wrong": "Steroid hormones are not entirely immune to all chemical modification, though they resist protein-digesting enzymes specifically, which is the relevant distinction here; unlike peptide hormones, many steroid hormones DO have significant effect when taken orally, contrary to having none; oral administration is, in fact, a common and effective route for many steroid-based medications, contrary to only being deliverable by injection.",
+      "concept_recap": "This solubility-and-structure-based distinction explains why medication formulations differ so much between steroid-based and peptide-based hormone therapies."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-120",
+    "question": "Which of the following best describes the term 'euthyroid,' as used to describe a patient's thyroid status?",
+    "options": [
+      "A state of excessive thyroid hormone secretion",
+      "A state of normal, balanced thyroid hormone levels and function",
+      "A state of complete absence of thyroid hormone",
+      "A state describing enlarged thyroid tissue only, regardless of hormone levels"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "'Euthyroid' describes a state of normal, balanced thyroid hormone levels and function, neither hyperthyroid (excess) nor hypothyroid (deficient).",
+      "why_others_wrong": "Excessive thyroid hormone secretion describes hyperthyroidism, not the euthyroid state; complete absence of thyroid hormone describes a severe deficiency state, not the balanced euthyroid condition; 'euthyroid' specifically refers to hormone levels/function, not merely thyroid tissue size (which is a separate consideration, as in simple goitre with normal function).",
+      "concept_recap": "This terminology (euthyroid, hyperthyroid, hypothyroid) is commonly used in clinical practice to describe a patient's overall thyroid functional status."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-121",
+    "question": "Which of the following best describes why iodised salt programs have been effective public health interventions in regions historically prone to goitre?",
+    "options": [
+      "Iodised salt has no relationship to thyroid function",
+      "By ensuring adequate dietary iodine intake, iodised salt supports normal thyroid hormone synthesis, preventing the compensatory thyroid gland enlargement (goitre) that results from iodine deficiency",
+      "Goitre is caused by excess iodine, so iodised salt would worsen the condition",
+      "Iodised salt only affects taste, with no physiological health benefit"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "By providing adequate dietary iodine, iodised salt supports normal thyroid hormone synthesis, preventing the compensatory gland enlargement (goitre) that results from chronic iodine deficiency.",
+      "why_others_wrong": "Iodised salt has a very direct, well-documented relationship to thyroid function via iodine supplementation, contrary to having none; goitre is classically caused by iodine deficiency (not excess) in the most common public health context, so iodised salt addresses rather than worsens this specific cause; iodised salt has a clear, significant physiological health benefit (preventing iodine-deficiency disorders), beyond simply affecting taste.",
+      "concept_recap": "This public health intervention is a well-known, successful example of applying basic endocrine physiology to address a widespread nutritional deficiency disorder."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-122",
+    "question": "Which of the following best describes the general concept of hormone 'half-life,' and why it matters clinically?",
+    "options": [
+      "Half-life refers to the time it takes for a hormone to be fully synthesised",
+      "Half-life refers to the time required for the concentration of a hormone in the blood to decrease by half, which influences dosing frequency for hormone replacement therapies",
+      "Half-life has no relevance to hormone therapy or dosing",
+      "All hormones have identical half-lives regardless of their chemical structure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hormone half-life refers to the time required for its blood concentration to decrease by half; this parameter is clinically important because it influences how frequently a hormone replacement medication needs to be administered to maintain effective levels.",
+      "why_others_wrong": "Half-life describes hormone clearance/breakdown over time, not the time required for synthesis; half-life is, in fact, highly relevant to clinical hormone therapy dosing, contrary to having no relevance; different hormones have quite different half-lives depending on their chemical structure and metabolism, contrary to all being identical.",
+      "concept_recap": "Understanding half-life helps explain why some hormone medications are taken once daily while others require more or less frequent dosing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-123",
+    "question": "Which of the following best explains why pregnancy testing kits typically detect human chorionic gonadotropin (hCG), a hormone produced early in pregnancy?",
+    "options": [
+      "hCG has no relationship to pregnancy and is a coincidental marker",
+      "hCG is produced by tissue that develops into the placenta shortly after implantation, and its presence in urine/blood serves as a reliable, early, pregnancy-specific hormonal marker",
+      "hCG is produced continuously throughout life regardless of pregnancy status, with no change during pregnancy",
+      "hCG can only be detected via invasive blood tests, never through urine testing"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "hCG is produced by tissue that will become the placenta shortly after embryo implantation; because its presence is specific to early pregnancy, it serves as a reliable hormonal marker detectable in urine or blood pregnancy tests.",
+      "why_others_wrong": "hCG has a very direct, specific relationship to pregnancy, contrary to being merely coincidental; hCG levels rise specifically and significantly during early pregnancy, contrary to remaining unchanged throughout life; hCG can indeed be detected through convenient urine-based home pregnancy tests, not solely through invasive blood tests.",
+      "concept_recap": "This hormone-based pregnancy testing exemplifies a direct, practical application of endocrine physiology in everyday healthcare."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
+  },
+  {
+    "id": "chem-coord-124",
+    "question": "Which of the following best explains why hormone replacement therapy (e.g., levothyroxine for hypothyroidism) requires ongoing monitoring and dose adjustment, rather than a single fixed dose for life?",
+    "options": [
+      "Hormone requirements never change once therapy begins",
+      "An individual's hormone needs can change over time due to factors like age, weight, other health conditions, and life stage (e.g., pregnancy), requiring periodic monitoring and dose adjustment to maintain appropriate hormone levels",
+      "Hormone replacement therapy never requires any monitoring after the initial prescription",
+      "Dose adjustments are made randomly, with no relationship to actual hormone levels"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "An individual's hormone needs can change over time due to factors such as aging, weight changes, other health conditions, or life stages like pregnancy, making ongoing monitoring and potential dose adjustment necessary to maintain appropriate, healthy hormone levels.",
+      "why_others_wrong": "Hormone requirements can, in fact, change significantly over time due to various factors, contrary to never changing; hormone replacement therapy does require ongoing monitoring in standard clinical practice, contrary to needing none after the initial prescription; dose adjustments are made based on actual measured hormone levels and clinical response, not randomly.",
+      "concept_recap": "This need for ongoing monitoring reflects the dynamic nature of hormone physiology and the importance of individualised, responsive treatment approaches."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 22"
   }
 ]
