@@ -1,9 +1,187 @@
 [
   {
-    "id": "bio-hp-digest-001",
-    "type": "custom",
-    "difficulty": "easy",
-    "question": "Which enzyme present in saliva begins the digestion of starch in the mouth?",
+    "id": "digest-001",
+    "question": "The human alimentary canal begins at the mouth and ends at the:",
+    "options": [
+      "Stomach",
+      "Anus",
+      "Small intestine",
+      "Oesophagus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The alimentary canal is a continuous tube extending from the mouth to the anus, through which food passes and waste is eliminated.",
+      "why_others_wrong": "The stomach, small intestine, and oesophagus are all intermediate structures along the canal, not its terminal end.",
+      "concept_recap": "This continuous tube structure allows for the sequential processing of food through digestion, absorption, and elimination."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-002",
+    "question": "Which of the following is the correct sequence of structures food passes through in the human alimentary canal?",
+    "options": [
+      "Mouth to Oesophagus to Stomach to Small intestine to Large intestine to Rectum to Anus",
+      "Mouth to Stomach to Oesophagus to Small intestine to Large intestine to Anus",
+      "Mouth to Small intestine to Stomach to Large intestine to Anus",
+      "Mouth to Large intestine to Small intestine to Stomach to Anus"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The correct sequence is mouth, oesophagus, stomach, small intestine, large intestine, rectum, and finally the anus.",
+      "why_others_wrong": "The other sequences place the oesophagus, stomach, or intestines in an incorrect order relative to the actual path food follows.",
+      "concept_recap": "Memorising this correct sequence is fundamental to understanding the overall organisation of the digestive system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-003",
+    "question": "The buccal cavity (mouth) is lined with which type of epithelium, appropriate for a region subject to mechanical abrasion from food?",
+    "options": [
+      "Simple columnar epithelium",
+      "Stratified squamous epithelium",
+      "Simple cuboidal epithelium",
+      "Ciliated columnar epithelium"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The buccal cavity is lined with stratified squamous epithelium, providing protection against the mechanical abrasion caused by chewing and food movement.",
+      "why_others_wrong": "Simple columnar epithelium lines regions like the stomach and intestine, suited for secretion/absorption rather than abrasion resistance; simple cuboidal epithelium lines ducts and glands, not the abrasion-prone buccal cavity; ciliated columnar epithelium lines the respiratory tract, unrelated to the buccal cavity.",
+      "concept_recap": "This tough, multi-layered epithelium is well-suited to withstand the mechanical stress of chewing and food movement in the mouth."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-004",
+    "question": "Which of the following structures hangs from the soft palate and helps prevent food from entering the nasal cavity during swallowing?",
+    "options": [
+      "Epiglottis",
+      "Uvula",
+      "Tongue",
+      "Pharynx"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The uvula, a small conical projection hanging from the soft palate, helps prevent food and liquid from entering the nasal cavity during swallowing.",
+      "why_others_wrong": "The epiglottis prevents food from entering the trachea (windpipe), not the nasal cavity; the tongue helps manipulate food and initiate swallowing but is not the specific structure preventing nasal entry; the pharynx is a shared passage, not the specific protective structure for the nasal cavity.",
+      "concept_recap": "Malfunction affecting the uvula/soft palate region can sometimes result in food or liquid entering the nasal passage during swallowing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-005",
+    "question": "Which of the following best describes the primary function of the epiglottis during swallowing?",
+    "options": [
+      "It directs food into the nasal cavity",
+      "It folds down over the glottis (tracheal opening), preventing food from entering the trachea and directing it into the oesophagus",
+      "It produces saliva",
+      "It absorbs nutrients from food"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The epiglottis folds down over the glottis (the opening to the trachea) during swallowing, directing food into the oesophagus instead of the airway.",
+      "why_others_wrong": "Directing food into the nasal cavity is prevented by the soft palate/uvula, not the epiglottis; saliva production is the role of salivary glands, not the epiglottis; nutrient absorption occurs in the small intestine, unrelated to the epiglottis's protective swallowing function.",
+      "concept_recap": "This protective reflex is essential for preventing choking or aspiration of food into the respiratory tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-006",
+    "question": "The wall of the alimentary canal, from the oesophagus to the large intestine, is generally composed of how many main layers?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The wall of the alimentary canal typically consists of four main layers: the mucosa, submucosa, muscularis, and serosa (from innermost to outermost).",
+      "why_others_wrong": "Two and three layers underestimate the standard four-layer organisation; six layers overestimates the standard structural description of the alimentary canal wall.",
+      "concept_recap": "This four-layered organisation is largely consistent throughout the gut tube, though the specific structure of each layer varies by region to support local function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-007",
+    "question": "Which of the following is the innermost layer of the alimentary canal wall, in direct contact with digested food?",
+    "options": [
+      "Serosa",
+      "Muscularis",
+      "Submucosa",
+      "Mucosa"
+    ],
+    "answer": "D",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The mucosa is the innermost layer of the gut wall, directly lining the lumen and in contact with the contents of the digestive tract.",
+      "why_others_wrong": "The serosa is the outermost layer, covering the exterior of the gut tube; the muscularis is the muscular layer responsible for peristalsis, located beneath the mucosa/submucosa; the submucosa lies just beneath the mucosa, containing blood vessels and nerves, but not directly lining the lumen.",
+      "concept_recap": "The mucosa's structure varies along the canal, being specialised in different regions for functions like secretion (stomach) or absorption (small intestine)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-008",
+    "question": "Which layer of the alimentary canal wall contains smooth muscle responsible for the rhythmic contractions (peristalsis) that propel food along the canal?",
+    "options": [
+      "Mucosa",
+      "Submucosa",
+      "Muscularis externa",
+      "Serosa"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The muscularis externa, typically composed of inner circular and outer longitudinal smooth muscle layers, generates the coordinated contractions (peristalsis) that propel food through the digestive tract.",
+      "why_others_wrong": "The mucosa is primarily involved in secretion/absorption, not the main muscular propulsion; the submucosa contains blood vessels/nerves but is not the primary muscular layer for peristalsis; the serosa is a protective outer covering, not a muscular layer generating peristalsis.",
+      "concept_recap": "Peristalsis, generated by this muscular layer, is essential for moving food progressively through each region of the digestive tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-009",
+    "question": "Which of the following best describes 'peristalsis' in the context of digestion?",
+    "options": [
+      "The random, uncoordinated squeezing of the gut wall",
+      "Coordinated, wave-like muscular contractions that propel food along the digestive tract",
+      "The chemical breakdown of food by enzymes",
+      "The absorption of nutrients into the blood"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Peristalsis refers to coordinated, wave-like contractions of the smooth muscle in the gut wall, which propel food forward through the digestive tract.",
+      "why_others_wrong": "Peristalsis is a coordinated, not random, muscular process; enzymatic chemical breakdown of food is a separate process from peristalsis (mechanical movement); nutrient absorption into blood is also a distinct process, unrelated to the muscular movement described by peristalsis.",
+      "concept_recap": "Peristalsis works throughout the digestive tract, from the oesophagus down to the large intestine, ensuring the continuous, directional movement of food and waste."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-010",
+    "question": "Which of the following pairs of salivary glands is located just below the tongue?",
+    "options": [
+      "Parotid glands",
+      "Submandibular glands",
+      "Sublingual glands",
+      "Pancreatic glands"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The sublingual glands are located just below the tongue, one of the three major pairs of salivary glands in humans.",
+      "why_others_wrong": "The parotid glands are located near the ears, not below the tongue; the submandibular glands are located below the jaw, distinct in position from the sublingual glands; pancreatic glands refer to the pancreas, an entirely separate digestive organ, not a salivary gland.",
+      "concept_recap": "The three major salivary gland pairs (parotid, submandibular, sublingual) together produce the saliva needed for the initial digestion and lubrication of food."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-011",
+    "question": "Saliva contains which enzyme responsible for initiating the digestion of starch in the mouth?",
     "options": [
       "Pepsin",
       "Salivary amylase (ptyalin)",
@@ -11,49 +189,1632 @@
       "Lipase"
     ],
     "answer": "B",
-    "ncertRef": "Class 11, Ch 16, Pg 285",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Salivary amylase, also called ptyalin, is secreted by salivary glands and begins breaking down starch into smaller polysaccharides/maltose right in the mouth.",
-      "why_others_wrong": "Pepsin acts on proteins in the stomach, not starch in the mouth. Trypsin acts on proteins in the small intestine. Lipase digests fats, mainly in the small intestine -- none act on starch in the mouth.",
-      "concept_recap": "Digestion starts in the mouth with salivary amylase (carbohydrates). Stomach: pepsin (proteins). Small intestine: trypsin (proteins), lipase (fats), pancreatic amylase (carbohydrates) -- know which enzyme acts where and on what."
-    }
+      "why_correct": "Salivary amylase (also called ptyalin) begins the digestion of starch into smaller polysaccharides and maltose while food is still in the mouth.",
+      "why_others_wrong": "Pepsin digests proteins in the stomach, not starch in the mouth; trypsin is a pancreatic protease acting in the small intestine, not the mouth; lipase digests fats, not starch, and acts primarily in the stomach/small intestine, not the mouth.",
+      "concept_recap": "This enzyme's action is limited to the mouth and briefly continues in the stomach until stopped by the acidic gastric environment."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
   },
   {
-    "id": "bio-hp-digest-002",
-    "type": "custom",
-    "difficulty": "medium",
-    "question": "Bile, which helps in the emulsification of fats, is produced by the:",
+    "id": "digest-012",
+    "question": "Salivary amylase requires which condition for optimal activity?",
+    "options": [
+      "Highly acidic pH, similar to the stomach",
+      "Neutral to slightly alkaline pH, typical of the mouth",
+      "Extremely high temperature, above 60 degrees Celsius",
+      "Complete absence of water"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Salivary amylase functions optimally at a neutral to slightly alkaline pH, consistent with the normal environment of the mouth.",
+      "why_others_wrong": "A highly acidic pH (like the stomach) actually denatures and inactivates salivary amylase, rather than being its optimal condition; extremely high temperatures would denature the enzyme, not represent optimal activity; enzymes, including salivary amylase, require an aqueous environment to function, not the complete absence of water.",
+      "concept_recap": "This explains why salivary amylase's action is halted once food reaches the highly acidic environment of the stomach."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-013",
+    "question": "Which of the following best explains why salivary amylase's digestive action stops once food reaches the stomach?",
+    "options": [
+      "The stomach lacks any digestive activity at all",
+      "The highly acidic environment of the stomach denatures salivary amylase, inactivating the enzyme",
+      "Salivary amylase continues working unaffected throughout the entire digestive tract",
+      "The stomach specifically destroys all enzymes using mechanical grinding alone"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The highly acidic gastric environment (due to hydrochloric acid secretion) denatures salivary amylase, halting its starch-digesting activity once food enters the stomach.",
+      "why_others_wrong": "The stomach has very significant digestive activity (via pepsin and HCl), contrary to lacking any; salivary amylase's activity is, in fact, halted by the acidic stomach environment, not continuing unaffected; enzyme inactivation in the stomach occurs due to the acidic chemical environment, not primarily through mechanical grinding.",
+      "concept_recap": "This illustrates how each digestive enzyme is adapted to function within a specific pH range corresponding to its particular region of the digestive tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-014",
+    "question": "Mastication (chewing) primarily serves which of the following purposes in digestion?",
+    "options": [
+      "Chemical breakdown of proteins",
+      "Mechanical breakdown of food into smaller particles, increasing surface area for enzymatic action, and mixing food with saliva",
+      "Absorption of nutrients directly through the cheek lining",
+      "Neutralising stomach acid"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Mastication mechanically breaks food into smaller particles, increasing the surface area available for enzymatic digestion, while also mixing food thoroughly with saliva to form a bolus.",
+      "why_others_wrong": "Protein breakdown is primarily a chemical (enzymatic) process occurring later in the stomach/small intestine, not the direct role of mastication itself; nutrient absorption occurs mainly in the small intestine, not through the cheek lining during chewing; neutralising stomach acid is unrelated to the mechanical process of chewing in the mouth.",
+      "concept_recap": "This combination of mechanical breakdown and salivary mixing prepares food for efficient swallowing and further digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-015",
+    "question": "The bolus of food is moved from the mouth to the stomach through the oesophagus primarily by the action of:",
+    "options": [
+      "Gravity alone, with no muscular involvement",
+      "Peristaltic contractions of the oesophageal muscular wall",
+      "Ciliary movement lining the oesophagus",
+      "Simple diffusion of food particles"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Coordinated peristaltic contractions of the oesophageal smooth muscle actively propel the food bolus from the mouth to the stomach, regardless of body position.",
+      "why_others_wrong": "While gravity can assist, peristalsis is the primary, active mechanism (allowing swallowing even upside down); the oesophagus is not lined with cilia responsible for moving food, unlike the respiratory tract; food movement through the oesophagus involves active muscular propulsion, not passive diffusion of particles.",
+      "concept_recap": "This active peristaltic mechanism is why humans can swallow food and liquids effectively even when lying down or upside down."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-016",
+    "question": "The stomach is anatomically divided into which three main regions?",
+    "options": [
+      "Cardiac, fundic, and pyloric regions",
+      "Superior, middle, and inferior regions",
+      "Anterior, posterior, and lateral regions",
+      "Proximal, distal, and central regions"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The stomach is divided into three main regions: the cardiac region (near the oesophageal opening), the fundic region (the upper curved portion), and the pyloric region (leading to the small intestine).",
+      "why_others_wrong": "The other groupings (superior/middle/inferior, anterior/posterior/lateral, proximal/distal/central) do not reflect the standard anatomical terminology used to describe stomach regions.",
+      "concept_recap": "Each of these three stomach regions has slightly different structural and functional characteristics relevant to digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-017",
+    "question": "The stomach's inner wall contains gastric glands, which include which of the following cell types responsible for secreting hydrochloric acid?",
+    "options": [
+      "Chief cells (peptic cells)",
+      "Parietal cells (oxyntic cells)",
+      "Mucous neck cells",
+      "Goblet cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Parietal cells (also called oxyntic cells) within the gastric glands secrete hydrochloric acid (HCl), contributing to the highly acidic environment of the stomach.",
+      "why_others_wrong": "Chief cells secrete pepsinogen (the inactive precursor of pepsin), not HCl; mucous neck cells secrete mucus for protection, not HCl; goblet cells secrete mucus in the intestine, not HCl in the stomach.",
+      "concept_recap": "The HCl secreted by parietal cells activates pepsinogen into active pepsin and creates the optimal acidic environment for pepsin's protein-digesting activity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-018",
+    "question": "Which gastric gland cells secrete pepsinogen, the inactive precursor of the protein-digesting enzyme pepsin?",
+    "options": [
+      "Parietal cells",
+      "Chief cells (peptic cells)",
+      "Mucous cells",
+      "G cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Chief cells (also called peptic cells) secrete pepsinogen, the inactive zymogen form of pepsin, which is then activated by stomach acid.",
+      "why_others_wrong": "Parietal cells secrete hydrochloric acid, not pepsinogen; mucous cells secrete protective mucus, not pepsinogen; G cells secrete the hormone gastrin, not pepsinogen.",
+      "concept_recap": "Pepsinogen is secreted in an inactive form specifically to protect the chief cells themselves from being digested by active pepsin."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-019",
+    "question": "Pepsinogen is converted into its active form, pepsin, primarily through the action of:",
+    "options": [
+      "Bile salts",
+      "Hydrochloric acid (and existing active pepsin, autocatalytically)",
+      "Salivary amylase",
+      "Trypsin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hydrochloric acid in the stomach converts pepsinogen into active pepsin; once some pepsin is formed, it can also autocatalytically activate more pepsinogen.",
+      "why_others_wrong": "Bile salts function in fat emulsification in the small intestine, unrelated to pepsinogen activation; salivary amylase digests starch and is inactivated by stomach acid, playing no role in pepsinogen activation; trypsin is a pancreatic enzyme active in the small intestine, not involved in activating pepsinogen in the stomach.",
+      "concept_recap": "This acid-triggered, self-amplifying activation ensures pepsin is only active within the stomach's specific acidic environment."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-020",
+    "question": "Pepsin, the primary protein-digesting enzyme of the stomach, functions optimally at which approximate pH?",
+    "options": [
+      "pH 7 (neutral)",
+      "pH 2 (highly acidic)",
+      "pH 9 (alkaline)",
+      "pH 12 (highly alkaline)"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Pepsin functions optimally at a highly acidic pH of approximately 2, consistent with the normal acidic environment of the stomach.",
+      "why_others_wrong": "Neutral pH (7) is far from pepsin's acidic optimum; alkaline pH values (9 or 12) would inactivate pepsin, which requires a strongly acidic environment for optimal function.",
+      "concept_recap": "This acidic pH optimum is precisely maintained by the hydrochloric acid secreted by parietal cells in the stomach lining."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-021",
+    "question": "Which of the following best explains why the stomach's own lining is normally protected from digestion by the highly acidic gastric juice and active pepsin?",
+    "options": [
+      "The stomach lining has no cells that could be digested",
+      "A thick layer of mucus, secreted by mucous cells, coats and protects the stomach lining from the acidic, enzyme-rich gastric juice",
+      "Pepsin cannot digest any proteins under any circumstances",
+      "The stomach lining is made of a material entirely resistant to acid, requiring no protective mechanism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A protective mucus layer, secreted by mucous cells lining the stomach, forms a physical barrier that shields the stomach's own tissue from the damaging effects of acidic gastric juice and active pepsin.",
+      "why_others_wrong": "The stomach lining does contain cells that could potentially be digested without protection, contrary to having 'no cells'; pepsin is indeed capable of digesting proteins (that is its core function), contrary to being unable to digest any; the stomach lining does require this active mucus-based protective mechanism -- it is not inherently immune to acid without it.",
+      "concept_recap": "Breakdown of this protective mucus barrier (e.g., due to certain infections or medications) can lead to conditions such as gastric ulcers."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-022",
+    "question": "Which hormone, secreted by G cells in the stomach lining, stimulates further secretion of gastric acid and pepsinogen?",
+    "options": [
+      "Secretin",
+      "Gastrin",
+      "Cholecystokinin",
+      "Insulin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Gastrin, secreted by G cells in the stomach lining (particularly in the pyloric region), stimulates further gastric acid and pepsinogen secretion, especially in response to the presence of food.",
+      "why_others_wrong": "Secretin stimulates pancreatic bicarbonate secretion, acting in the small intestine, not stimulating gastric secretion; cholecystokinin stimulates gallbladder contraction and pancreatic enzyme release, not primarily gastric acid secretion; insulin regulates blood glucose, unrelated to gastric secretion regulation.",
+      "concept_recap": "Gastrin exemplifies how hormonal signals help coordinate and regulate the digestive process, not just direct nervous or local mechanical stimulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-023",
+    "question": "The partially digested, semi-liquid food mass that leaves the stomach and enters the small intestine is called:",
+    "options": [
+      "Bolus",
+      "Chyme",
+      "Chyle",
+      "Bile"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Chyme is the semi-liquid, partially digested food mass produced in the stomach that is released into the small intestine for further digestion.",
+      "why_others_wrong": "Bolus refers to the food mass formed in the mouth before swallowing, an earlier stage than chyme; chyle refers to lymph containing absorbed fats from the small intestine, a different substance formed later; bile is a digestive secretion from the liver, not the food mass itself.",
+      "concept_recap": "This transition from bolus (mouth) to chyme (stomach) reflects the progressive processing of food as it moves through the digestive tract."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-024",
+    "question": "Which sphincter regulates the passage of chyme from the stomach into the small intestine (duodenum)?",
+    "options": [
+      "Cardiac sphincter",
+      "Pyloric sphincter",
+      "Ileocaecal sphincter",
+      "Anal sphincter"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The pyloric sphincter, located at the junction between the stomach and the duodenum, regulates the controlled release of chyme into the small intestine.",
+      "why_others_wrong": "The cardiac sphincter is located at the junction between the oesophagus and stomach, not between the stomach and intestine; the ileocaecal sphincter is located between the small and large intestine, a different junction; the anal sphincter controls the exit of waste at the very end of the digestive tract, unrelated to stomach-intestine passage.",
+      "concept_recap": "This controlled, regulated release of chyme allows the small intestine time to properly process each portion of digested food."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-025",
+    "question": "The small intestine is divided into which three main regions, in order from the stomach?",
+    "options": [
+      "Ileum, jejunum, duodenum",
+      "Duodenum, jejunum, ileum",
+      "Jejunum, duodenum, ileum",
+      "Duodenum, ileum, jejunum"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The correct order of the small intestine's three regions, starting from the stomach, is duodenum, then jejunum, then ileum.",
+      "why_others_wrong": "The other orderings place these three regions in an incorrect sequence relative to their actual anatomical arrangement.",
+      "concept_recap": "The duodenum is notably the shortest region but is a major site of chemical digestion due to the entry of bile and pancreatic secretions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-026",
+    "question": "Which region of the small intestine receives secretions from both the liver (bile) and the pancreas (pancreatic juice)?",
+    "options": [
+      "Ileum",
+      "Duodenum",
+      "Jejunum",
+      "Caecum"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The duodenum, the first part of the small intestine, receives bile from the liver/gallbladder and pancreatic juice from the pancreas via the common bile duct/pancreatic duct system.",
+      "why_others_wrong": "The ileum is a later region of the small intestine, not the primary recipient of these specific secretions; the jejunum is also a later region, following the duodenum; the caecum is part of the large intestine, unrelated to receiving bile/pancreatic juice.",
+      "concept_recap": "This convergence of secretions in the duodenum makes it a critical site for the chemical digestion of proteins, fats, and carbohydrates."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-027",
+    "question": "Bile, produced by the liver and stored in the gallbladder, primarily functions to:",
+    "options": [
+      "Digest proteins directly using enzymes",
+      "Emulsify fats, breaking large fat globules into smaller droplets to increase surface area for lipase action",
+      "Digest starch directly",
+      "Neutralise stomach acid completely on its own before food even reaches the duodenum"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Bile emulsifies large fat globules into smaller droplets, significantly increasing the surface area available for pancreatic lipase to act upon, enhancing fat digestion.",
+      "why_others_wrong": "Bile does not contain enzymes and does not directly digest proteins; bile is unrelated to starch digestion, which is handled by amylase enzymes; while bile does have a mild alkaline nature, the primary and more complete neutralisation of stomach acid in the duodenum is mainly achieved by pancreatic bicarbonate secretion.",
+      "concept_recap": "This physical emulsification process (not chemical digestion) is bile's key contribution to fat digestion in the small intestine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-028",
+    "question": "Bile is synthesised in the liver and stored/concentrated in which structure before being released into the duodenum?",
     "options": [
       "Pancreas",
-      "Liver",
       "Gallbladder",
+      "Spleen",
       "Stomach"
     ],
     "answer": "B",
-    "ncertRef": "Class 11, Ch 16, Pg 290",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Bile is synthesized by liver cells (hepatocytes) and then stored/concentrated in the gallbladder before being released into the small intestine to emulsify fats.",
-      "why_others_wrong": "Pancreas produces digestive enzymes (like lipase, trypsin) but not bile. Gallbladder only stores and concentrates bile -- it doesn't produce it. Stomach secretes gastric juice (pepsin, HCl), unrelated to bile production.",
-      "concept_recap": "Bile production: liver (produces) -> gallbladder (stores/concentrates) -> released into duodenum via bile duct -> emulsifies fats for lipase action. Bile itself contains no digestive enzymes."
-    }
+      "why_correct": "The gallbladder stores and concentrates bile produced by the liver, releasing it into the duodenum when needed, particularly in response to fatty food intake.",
+      "why_others_wrong": "The pancreas produces pancreatic juice, not bile storage; the spleen is involved in blood filtration and immune function, unrelated to bile storage; the stomach is involved in earlier digestive stages, not bile storage.",
+      "concept_recap": "Gallbladder contraction, releasing stored bile, is stimulated by the hormone cholecystokinin (CCK) in response to fat entering the duodenum."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
   },
   {
-    "id": "bio-hp-digest-003",
-    "type": "statement",
-    "difficulty": "hard",
-    "question": "Statement I: Pepsin is most active in a highly acidic environment. Statement II: The stomach maintains a highly acidic environment due to secretion of hydrochloric acid by parietal cells.",
+    "id": "digest-029",
+    "question": "Pancreatic juice, secreted into the duodenum, contains which of the following components essential for neutralising acidic chyme?",
     "options": [
-      "Both statements are true",
-      "Statement I is true; Statement II is false",
-      "Statement I is false; Statement II is true",
-      "Both statements are false"
+      "Hydrochloric acid",
+      "Bicarbonate ions",
+      "Bile salts",
+      "Pepsin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Pancreatic juice contains bicarbonate ions, which neutralise the acidic chyme entering the duodenum from the stomach, creating a suitable pH for intestinal enzyme activity.",
+      "why_others_wrong": "Hydrochloric acid is secreted by the stomach, not the pancreas, and would not serve a neutralising function; bile salts are produced by the liver, not the pancreas, and function in fat emulsification, not acid neutralisation; pepsin is a stomach enzyme, not a component of pancreatic juice.",
+      "concept_recap": "This bicarbonate-mediated neutralisation creates the near-neutral to slightly alkaline environment required for pancreatic and intestinal enzymes to function optimally."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-030",
+    "question": "Which pancreatic enzyme, secreted in an inactive form (trypsinogen) and later activated in the duodenum, digests proteins into smaller peptides?",
+    "options": [
+      "Pepsin",
+      "Trypsin",
+      "Salivary amylase",
+      "Lactase"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Trypsin, activated from inactive trypsinogen within the duodenum, is a pancreatic protease that breaks down proteins into smaller peptides.",
+      "why_others_wrong": "Pepsin is a stomach enzyme, not a pancreatic one; salivary amylase digests starch in the mouth, not proteins in the duodenum; lactase digests lactose, a specific sugar, not proteins.",
+      "concept_recap": "Trypsinogen is secreted in this inactive form to prevent premature protein digestion within the pancreas itself, which could damage pancreatic tissue."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-031",
+    "question": "Which enzyme is responsible for activating trypsinogen into active trypsin within the duodenum?",
+    "options": [
+      "Pepsin",
+      "Enterokinase (enteropeptidase), an enzyme present in the intestinal mucosa",
+      "Salivary amylase",
+      "Bile salts"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Enterokinase (enteropeptidase), present in the intestinal mucosal lining, activates trypsinogen into active trypsin within the duodenum.",
+      "why_others_wrong": "Pepsin is a stomach enzyme with a different function, not the specific activator of trypsinogen; salivary amylase digests starch and is unrelated to trypsinogen activation; bile salts function in fat emulsification, not enzyme activation.",
+      "concept_recap": "Once some trypsin is formed, it can also activate additional trypsinogen molecules, similar to the autocatalytic activation seen with pepsinogen/pepsin."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-032",
+    "question": "Pancreatic lipase, secreted into the duodenum, primarily digests:",
+    "options": [
+      "Proteins into amino acids",
+      "Emulsified fats into fatty acids and glycerol/monoglycerides",
+      "Starch into glucose",
+      "Nucleic acids into nucleotides"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Pancreatic lipase acts on emulsified fat droplets (prepared by bile), breaking them down into fatty acids and glycerol (or monoglycerides).",
+      "why_others_wrong": "Protein digestion is carried out by proteases like trypsin and chymotrypsin, not lipase; starch digestion is carried out by amylase enzymes, not lipase; nucleic acid digestion is carried out by nucleases, not lipase.",
+      "concept_recap": "The combined action of bile (emulsification) and pancreatic lipase (chemical breakdown) is essential for efficient fat digestion in the small intestine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-033",
+    "question": "Which pancreatic enzyme continues the digestion of starch that was initiated by salivary amylase in the mouth?",
+    "options": [
+      "Pancreatic amylase",
+      "Trypsin",
+      "Pepsin",
+      "Lipase"
     ],
     "answer": "A",
-    "ncertRef": "Class 11, Ch 16, Pg 287",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Pepsin, a protein-digesting enzyme, functions optimally at a low pH (around 1.5-2), and this acidic environment is created by HCl secreted specifically by parietal (oxyntic) cells lining the stomach -- both statements are accurate and connected.",
-      "why_others_wrong": "The other options are wrong because both statements are standard, well-established facts about gastric digestion taught in NCERT physiology.",
-      "concept_recap": "Stomach digestion: parietal cells secrete HCl (creates acidic pH ~1.5-2), chief cells secrete pepsinogen (activated to pepsin by HCl), pepsin then digests proteins optimally in this acidic environment."
-    }
+      "why_correct": "Pancreatic amylase, secreted into the duodenum, continues breaking down starch into smaller sugars (like maltose), picking up where salivary amylase left off.",
+      "why_others_wrong": "Trypsin is a protease digesting proteins, not starch; pepsin is a stomach protease, unrelated to starch digestion; lipase digests fats, not starch.",
+      "concept_recap": "This continuation of starch digestion in the small intestine, following its initiation in the mouth, ensures thorough breakdown of complex carbohydrates."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-034",
+    "question": "Which of the following intestinal (brush border) enzymes specifically breaks down maltose into two glucose molecules?",
+    "options": [
+      "Lactase",
+      "Maltase",
+      "Sucrase",
+      "Peptidase"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Maltase, an enzyme present on the intestinal brush border, specifically hydrolyses maltose into two glucose molecules.",
+      "why_others_wrong": "Lactase breaks down lactose into glucose and galactose, not maltose; sucrase breaks down sucrose into glucose and fructose, not maltose; peptidases break down peptides into amino acids, unrelated to maltose digestion.",
+      "concept_recap": "These brush border enzymes (maltase, lactase, sucrase) complete carbohydrate digestion, producing monosaccharides ready for absorption."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-035",
+    "question": "Which of the following intestinal brush border enzymes specifically breaks down lactose (milk sugar) into glucose and galactose?",
+    "options": [
+      "Maltase",
+      "Sucrase",
+      "Lactase",
+      "Trypsin"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Lactase specifically hydrolyses lactose into its two component monosaccharides: glucose and galactose.",
+      "why_others_wrong": "Maltase acts on maltose, not lactose; sucrase acts on sucrose, not lactose; trypsin is a protease acting on proteins, entirely unrelated to lactose digestion.",
+      "concept_recap": "Lactase deficiency, common in many adult populations, results in lactose intolerance, characterised by digestive symptoms after consuming dairy products."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-036",
+    "question": "Which of the following intestinal brush border enzymes specifically breaks down sucrose into glucose and fructose?",
+    "options": [
+      "Sucrase",
+      "Lactase",
+      "Maltase",
+      "Enterokinase"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Sucrase specifically hydrolyses sucrose into its two component monosaccharides: glucose and fructose.",
+      "why_others_wrong": "Lactase acts on lactose, not sucrose; maltase acts on maltose, not sucrose; enterokinase activates trypsinogen and is unrelated to sucrose digestion.",
+      "concept_recap": "Together, sucrase, lactase, and maltase complete the breakdown of common dietary disaccharides into absorbable monosaccharides."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-037",
+    "question": "The inner surface (mucosa) of the small intestine is highly folded into finger-like projections called:",
+    "options": [
+      "Villi",
+      "Alveoli",
+      "Rugae",
+      "Papillae"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Villi are finger-like projections of the small intestinal mucosa that greatly increase the surface area available for nutrient absorption.",
+      "why_others_wrong": "Alveoli are the gas-exchange structures of the lungs, unrelated to the small intestine; rugae are the folds found in the stomach lining, not the small intestine's villi; papillae refer to structures on the tongue, unrelated to the small intestine.",
+      "concept_recap": "Villi, along with even smaller microvilli on individual epithelial cells, dramatically maximise the intestine's absorptive surface area."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-038",
+    "question": "Which of the following further increases the absorptive surface area of individual epithelial cells lining the villi of the small intestine?",
+    "options": [
+      "Cilia",
+      "Microvilli, collectively forming a 'brush border'",
+      "Flagella",
+      "Basement membrane folding only"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Microvilli are tiny, finger-like projections on the surface of individual intestinal epithelial cells, collectively forming a 'brush border' that further increases the absorptive surface area beyond that provided by villi alone.",
+      "why_others_wrong": "Cilia are motile hair-like structures found elsewhere (e.g., respiratory tract), not the primary surface-area-increasing structures of intestinal epithelial cells; flagella are whip-like structures used for cell movement, not found on intestinal absorptive cells; basement membrane folding is not the primary mechanism described for increasing absorptive surface area at this cellular level.",
+      "concept_recap": "This hierarchical structure (folds of mucosa then villi then microvilli) represents multiple, compounding levels of surface area amplification for efficient absorption."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-039",
+    "question": "Each villus in the small intestine contains a network of blood capillaries and a lymphatic capillary called a:",
+    "options": [
+      "Lacteal",
+      "Alveolus",
+      "Nephron",
+      "Sinusoid"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Each villus contains a central lymphatic vessel called a lacteal, which absorbs digested fats (as chylomicrons) in addition to the blood capillary network absorbing other nutrients.",
+      "why_others_wrong": "Alveoli are lung structures, unrelated to villi; nephrons are the functional units of the kidney, unrelated to intestinal villi; sinusoids are specialised blood vessels found in organs like the liver, not the specific lymphatic structure within a villus.",
+      "concept_recap": "The lacteal's role in absorbing fats highlights those nutrients' unique absorption pathway via the lymphatic system rather than directly into blood capillaries."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-040",
+    "question": "Monosaccharides such as glucose are absorbed from the small intestine into the blood primarily via:",
+    "options": [
+      "Simple diffusion only, with no active transport ever involved",
+      "Active transport (e.g., sodium-glucose cotransport) and facilitated diffusion mechanisms",
+      "Direct absorption into the lymphatic lacteals, bypassing blood capillaries entirely",
+      "No absorption occurs for monosaccharides in the small intestine"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glucose (and similarly galactose) is absorbed via active transport mechanisms, such as sodium-glucose cotransport, along with some facilitated diffusion, allowing efficient uptake even against a concentration gradient when needed.",
+      "why_others_wrong": "Absorption is not limited to simple diffusion alone -- active transport plays a significant role for glucose/galactose; glucose is absorbed primarily into blood capillaries, not the lymphatic lacteals (which primarily handle absorbed fats); there is very significant, well-documented absorption of monosaccharides in the small intestine, contrary to having none.",
+      "concept_recap": "This active transport mechanism allows efficient glucose absorption even when luminal glucose concentration is lower than that inside the intestinal epithelial cells."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-041",
+    "question": "Digested fats (fatty acids and monoglycerides) are absorbed into intestinal epithelial cells, where they are reassembled into triglycerides and packaged with proteins into structures called:",
+    "options": [
+      "Micelles",
+      "Chylomicrons",
+      "Ribosomes",
+      "Lysosomes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Within intestinal epithelial cells, reassembled triglycerides are packaged along with proteins into chylomicrons, which are then transported into the lacteals of the villi.",
+      "why_others_wrong": "Micelles are the transport structures that carry fatty acids and monoglycerides to the intestinal cell surface before absorption, a step preceding chylomicron formation, not the final packaged structure itself; ribosomes are involved in protein synthesis generally, not specifically fat packaging; lysosomes are involved in intracellular digestion, not fat packaging for absorption.",
+      "concept_recap": "This chylomicron formation and subsequent transport via lacteals represents the unique absorption pathway for dietary fats, distinct from other nutrients absorbed directly into blood."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-042",
+    "question": "Which of the following best describes the role of bile salts in forming 'micelles' during fat digestion?",
+    "options": [
+      "Bile salts chemically digest fats directly into fatty acids",
+      "Bile salts surround small aggregates of fatty acids and monoglycerides, forming micelles that help transport these products to the intestinal epithelial surface for absorption",
+      "Bile salts have no role in fat absorption",
+      "Bile salts are absorbed directly into the lacteals along with fat"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Bile salts surround small aggregates of digested fat products (fatty acids, monoglycerides), forming micelles that help solubilise and transport these otherwise poorly water-soluble molecules to the intestinal epithelial surface for absorption.",
+      "why_others_wrong": "Bile salts do not chemically digest fats -- that is the role of lipase enzymes, a physical/chemical distinction; bile salts play a very significant, well-established role in fat absorption via micelle formation, contrary to having none; bile salts are largely reabsorbed in the ileum and recycled (enterohepatic circulation), rather than being absorbed directly into the lacteals along with fat.",
+      "concept_recap": "This micelle-forming role of bile salts is essential for making hydrophobic fat digestion products accessible for absorption in the aqueous intestinal environment."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-043",
+    "question": "Amino acids, the products of protein digestion, are absorbed from the small intestine primarily via:",
+    "options": [
+      "Passive diffusion only, with no active transport involved",
+      "Active transport mechanisms (often coupled with sodium ions), similar in principle to glucose absorption",
+      "Direct absorption only into the lacteals, bypassing blood capillaries",
+      "No absorption occurs for amino acids in the small intestine"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Amino acids are absorbed from the small intestine primarily via active transport mechanisms, often coupled with sodium ion transport, conceptually similar to glucose absorption.",
+      "why_others_wrong": "Amino acid absorption is not limited to passive diffusion alone -- active transport is significant; amino acids are absorbed primarily into the blood capillaries of the villi, not primarily into the lacteals (which handle fats); there is very significant, well-documented absorption of amino acids in the small intestine, contrary to having none.",
+      "concept_recap": "This active, often sodium-coupled transport mechanism allows efficient amino acid absorption, similar in principle to the mechanism used for glucose."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-044",
+    "question": "Which of the following best describes why absorbed fats travel via the lymphatic system (through lacteals) rather than directly entering blood capillaries, unlike absorbed glucose and amino acids?",
+    "options": [
+      "Fats are chemically identical to glucose and amino acids in their absorption pathway",
+      "Reassembled fats, packaged as chylomicrons, are too large to easily pass through the walls of blood capillaries but can enter the more permeable lymphatic lacteals",
+      "Fats are not actually absorbed at all in the small intestine",
+      "Blood capillaries actively reject all fat molecules through a specific immune mechanism"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Chylomicrons, the large lipoprotein particles containing reassembled fats, are too large to easily cross into blood capillaries, but can enter the more permeable lymphatic lacteals, explaining this distinct absorption pathway for fats.",
+      "why_others_wrong": "Fats have a distinctly different absorption pathway compared to glucose and amino acids, contrary to being chemically identical in this respect; fats are, in fact, well-absorbed in the small intestine via this specific lacteal pathway, contrary to not being absorbed at all; this size-based physical difference in capillary permeability, not an immune rejection mechanism, explains the distinct absorption route.",
+      "concept_recap": "This size-based distinction in absorption routes (blood capillaries for smaller molecules, lacteals for larger chylomicrons) is a key structural/functional detail in digestive physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-045",
+    "question": "The large intestine is primarily responsible for which of the following functions?",
+    "options": [
+      "Complete digestion of all nutrients",
+      "Absorption of water and some electrolytes, and formation/storage of faeces",
+      "Initial mechanical breakdown of food",
+      "Secretion of bile"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The large intestine primarily absorbs water and certain electrolytes from the remaining undigested material, and is responsible for forming and temporarily storing faeces before elimination.",
+      "why_others_wrong": "Complete nutrient digestion occurs mainly earlier, in the stomach and small intestine, not primarily in the large intestine; initial mechanical breakdown of food occurs in the mouth, not the large intestine; bile secretion is a liver function, unrelated to the large intestine's primary role.",
+      "concept_recap": "This water absorption function is crucial for forming solid faeces and preventing excessive water loss from the body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-046",
+    "question": "Which of the following is the first part of the large intestine, located at the junction with the small intestine?",
+    "options": [
+      "Rectum",
+      "Caecum",
+      "Colon",
+      "Anus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The caecum is the first, pouch-like part of the large intestine, located at the junction where the ileum (small intestine) joins the large intestine.",
+      "why_others_wrong": "The rectum is located near the end of the large intestine, not the beginning; the colon follows the caecum, representing a later section, not the very first part; the anus is the terminal opening, at the very end of the entire alimentary canal.",
+      "concept_recap": "The vermiform appendix is attached to the caecum, though its digestive function in humans is considered largely vestigial."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-047",
+    "question": "The vermiform appendix, attached to the caecum, is generally considered to be:",
+    "options": [
+      "Essential for digestion of all major nutrients",
+      "A vestigial structure with limited digestive significance in humans, though it may have some immune function",
+      "The primary site of water absorption in the large intestine",
+      "The main site of protein digestion"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The vermiform appendix is generally considered a vestigial structure in humans with limited direct digestive significance, though some researchers suggest it may play a minor role in immune function or maintaining gut bacteria.",
+      "why_others_wrong": "The appendix is not essential for digesting major nutrients, which occurs earlier in the small intestine; water absorption occurs primarily in the colon, not specifically the appendix; protein digestion occurs mainly in the stomach and small intestine, not the appendix.",
+      "concept_recap": "Inflammation of the appendix (appendicitis) can be a serious medical condition, despite the organ's limited direct digestive role."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-048",
+    "question": "Bacteria naturally residing in the human large intestine (gut microbiota) contribute to digestion by:",
+    "options": [
+      "Synthesising certain vitamins (e.g., vitamin K, some B vitamins) and helping break down some undigested materials",
+      "Directly digesting all proteins consumed in the diet",
+      "Producing digestive enzymes secreted into the small intestine only",
+      "Having no beneficial role in human digestion at all"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Gut bacteria in the large intestine synthesise certain vitamins, such as vitamin K and some B-complex vitamins, and help break down some remaining undigested materials, providing beneficial contributions to overall digestive physiology.",
+      "why_others_wrong": "Gut bacteria are not primarily responsible for digesting all dietary protein, which occurs earlier via host enzymes; these bacteria act within the large intestine itself, not by secreting enzymes specifically into the small intestine; gut microbiota have a well-documented, significant beneficial role in digestion and health, contrary to having none.",
+      "concept_recap": "This beneficial gut microbiota relationship exemplifies a form of mutualistic symbiosis between the human host and resident bacteria."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-049",
+    "question": "The process by which undigested, semi-solid waste material is eliminated from the body through the anus is called:",
+    "options": [
+      "Peristalsis",
+      "Egestion (defecation)",
+      "Absorption",
+      "Secretion"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Egestion, also called defecation, is the process of eliminating undigested waste material (faeces) from the body through the anus.",
+      "why_others_wrong": "Peristalsis refers to the muscular contractions that move material along the digestive tract, a mechanism involved in, but not synonymous with, elimination itself; absorption refers to nutrient uptake, the opposite process from waste elimination; secretion refers to the release of digestive fluids/enzymes, unrelated to waste elimination.",
+      "concept_recap": "Egestion represents the final step of the digestive process, following ingestion, digestion, and absorption."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-050",
+    "question": "Which of the following best describes the role of the hormone cholecystokinin (CCK) in coordinating digestive processes?",
+    "options": [
+      "It stimulates gastric acid secretion exclusively",
+      "It stimulates gallbladder contraction (bile release) and pancreatic enzyme secretion in response to fats and proteins in the duodenum",
+      "It has no role in digestion",
+      "It stimulates salivary gland secretion exclusively"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cholecystokinin (CCK), released by the duodenum in response to fats and proteins, stimulates gallbladder contraction (releasing bile) and pancreatic enzyme secretion, coordinating the digestive response to these nutrients.",
+      "why_others_wrong": "CCK's primary described role concerns bile release and pancreatic enzymes, not exclusively gastric acid secretion (that is more associated with gastrin); CCK has a very significant, well-documented role in digestion, contrary to having none; CCK's primary role concerns intestinal/pancreatic/gallbladder coordination, not exclusively salivary gland secretion.",
+      "concept_recap": "CCK exemplifies hormonal (chemical) coordination of digestion, complementing the nervous system's role in regulating digestive processes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-051",
+    "question": "Which of the following best describes the role of secretin in coordinating digestive processes?",
+    "options": [
+      "It stimulates the pancreas to release bicarbonate-rich fluid in response to acidic chyme entering the duodenum",
+      "It stimulates gastric acid secretion directly",
+      "It stimulates the gallbladder to contract, releasing bile",
+      "It has no relationship to pancreatic secretion"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Secretin, released by the duodenum in response to acidic chyme, stimulates the pancreas to secrete bicarbonate-rich fluid, neutralising the acid and creating optimal conditions for pancreatic enzyme function.",
+      "why_others_wrong": "Secretin's primary action counteracts gastric acid's effects in the duodenum rather than directly stimulating further gastric acid secretion; gallbladder contraction is primarily stimulated by CCK, not secretin; secretin has a very direct, well-established relationship to pancreatic bicarbonate secretion, contrary to having none.",
+      "concept_recap": "Secretin was historically one of the first hormones ever discovered, establishing the foundational concept of chemical (hormonal) coordination in physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-052",
+    "question": "Which of the following best describes the overall sequence of digestive processes, in the correct order?",
+    "options": [
+      "Absorption then Digestion then Ingestion then Egestion",
+      "Ingestion then Digestion then Absorption then Egestion",
+      "Egestion then Absorption then Digestion then Ingestion",
+      "Digestion then Ingestion then Egestion then Absorption"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The correct overall sequence of digestive processes is: ingestion (taking in food), digestion (breakdown into absorbable units), absorption (uptake of nutrients), and finally egestion (elimination of undigested waste).",
+      "why_others_wrong": "The other sequences place these four fundamental processes in an incorrect order relative to their actual physiological sequence.",
+      "concept_recap": "Understanding this correct overall sequence provides a useful framework for organising the many specific steps and structures involved in digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-053",
+    "question": "Jaundice, a condition characterised by yellowing of the skin and eyes, is primarily caused by:",
+    "options": [
+      "Excess deposition of bilirubin pigment due to liver dysfunction or bile duct obstruction",
+      "Excess secretion of gastric acid",
+      "Deficiency of pancreatic enzymes only",
+      "Excess absorption of dietary fat"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Jaundice results from excess bilirubin (a bile pigment) accumulating in tissues, commonly due to liver dysfunction, bile duct obstruction, or excessive red blood cell breakdown.",
+      "why_others_wrong": "Excess gastric acid secretion is associated with conditions like gastritis or ulcers, not jaundice; pancreatic enzyme deficiency affects digestion but is not the direct cause of jaundice's characteristic yellowing; excess dietary fat absorption is unrelated to bilirubin accumulation and jaundice.",
+      "concept_recap": "Jaundice serves as a clinical sign pointing to potential underlying liver or biliary system dysfunction, requiring further medical evaluation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-054",
+    "question": "Vomiting is primarily controlled by a specific centre located in which part of the brain?",
+    "options": [
+      "Cerebrum",
+      "Medulla oblongata",
+      "Cerebellum",
+      "Hypothalamus exclusively"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The vomiting centre is located in the medulla oblongata, coordinating the complex reflex involved in vomiting in response to various stimuli.",
+      "why_others_wrong": "The cerebrum is involved in higher cognitive functions and conscious perception, not the primary reflex centre for vomiting; the cerebellum coordinates movement and balance, not the vomiting reflex; while the hypothalamus can have some involvement in triggering nausea/vomiting through certain pathways, the primary dedicated vomiting centre is in the medulla, not exclusively the hypothalamus.",
+      "concept_recap": "This brainstem location allows the vomiting reflex to be triggered by various inputs, including from the digestive tract, inner ear (motion sickness), and certain chemical/toxin signals."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-055",
+    "question": "Diarrhoea, characterised by frequent, watery bowel movements, primarily results from:",
+    "options": [
+      "Excessive water absorption by the large intestine",
+      "Reduced water absorption (or increased secretion) by the intestines, often due to infection or irritation, resulting in more liquid faecal content",
+      "Complete blockage of the large intestine",
+      "Excessive bile secretion only, with no involvement of water balance"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Diarrhoea results from reduced water absorption (or increased fluid secretion) by the intestines, often triggered by infections, irritation, or other disturbances, leading to more watery faecal content.",
+      "why_others_wrong": "Diarrhoea reflects reduced, not excessive, effective water absorption relative to intestinal content; diarrhoea does not involve complete blockage -- in fact, it often involves increased motility/frequency, which is different from obstruction; while various factors can be involved, the core issue is fundamentally related to disrupted water/electrolyte balance in the intestines, not excessive bile secretion alone.",
+      "concept_recap": "Severe diarrhoea can lead to significant dehydration and electrolyte imbalance, making appropriate fluid replacement an important treatment consideration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-056",
+    "question": "Constipation is characterised by:",
+    "options": [
+      "Excessively frequent, watery bowel movements",
+      "Infrequent bowel movements, often with difficulty passing hard, dry stools",
+      "Complete absence of any large intestine function",
+      "Excessive water loss specifically through vomiting"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Constipation is characterised by infrequent bowel movements, often accompanied by difficulty passing stools that have become hard and dry due to excessive water absorption by the large intestine.",
+      "why_others_wrong": "Frequent, watery bowel movements describe diarrhoea, the opposite condition from constipation; constipation reflects altered (typically slowed) large intestine function, not a complete absence of function; constipation is specifically related to bowel movement patterns, not vomiting-related water loss.",
+      "concept_recap": "Adequate dietary fibre and fluid intake are commonly recommended lifestyle measures to help prevent or manage constipation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-057",
+    "question": "Peptic ulcers, which involve damage to the lining of the stomach or duodenum, are commonly associated with which of the following causes?",
+    "options": [
+      "Excessive dietary fibre intake alone",
+      "Infection with Helicobacter pylori bacteria and/or excessive gastric acid production overwhelming protective mechanisms",
+      "Complete absence of stomach acid",
+      "Excessive bile production only, with no relationship to gastric acid or infection"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Peptic ulcers are commonly associated with Helicobacter pylori bacterial infection and/or conditions involving excessive gastric acid production that overwhelms the stomach/duodenum's normal protective mucus barrier.",
+      "why_others_wrong": "Excessive dietary fibre is not a recognised primary cause of peptic ulcers; peptic ulcers involve excess (not absent) acid-related damage to the vulnerable lining; while various factors can contribute, excessive bile alone is not the primary well-established cause -- H. pylori infection and acid-related factors are the recognised major contributors.",
+      "concept_recap": "The discovery of H. pylori's role in peptic ulcers significantly changed medical understanding and treatment approaches for this condition."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-058",
+    "question": "A patient with a condition causing complete blockage of the common bile duct would most likely show which combination of symptoms?",
+    "options": [
+      "Improved fat digestion and normal stool colour",
+      "Jaundice, pale (clay-coloured) stools, and impaired fat digestion, since bile cannot reach the duodenum",
+      "No effect on digestion, since bile is not important for fat absorption",
+      "Excessive bile secretion into the blood, with no other symptoms"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Blockage of the common bile duct prevents bile from reaching the duodenum, impairing fat emulsification/digestion, causing pale stools (lack of bile pigments reaching the intestine), and causing bilirubin to back up into the blood, resulting in jaundice.",
+      "why_others_wrong": "Fat digestion would be impaired, not improved, and stool colour would become pale, not normal, without bile reaching the intestine; bile is, in fact, essential for efficient fat digestion, contrary to having no importance; this blockage produces a well-documented, recognisable combination of symptoms, not merely isolated excess bile in blood with no other effects.",
+      "concept_recap": "This classic triad (jaundice, pale stools, impaired fat digestion) illustrates the interconnected roles of the biliary system in both digestion and pigment excretion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-059",
+    "question": "Which of the following would most likely occur if the pancreas were severely damaged, significantly reducing its exocrine secretory function, while leaving the stomach and liver otherwise normal?",
+    "options": [
+      "Complete digestion of all nutrients would proceed normally",
+      "Significantly impaired digestion of starch, protein, and fat, due to loss of pancreatic amylase, proteases, and lipase",
+      "Only starch digestion would be affected, with no impact on protein or fat digestion",
+      "No effect on digestion at all, since the stomach alone is sufficient"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since the pancreas is a major source of amylase (starch), proteases like trypsin (protein), and lipase (fat), significant pancreatic damage would substantially impair the digestion of all three major macronutrient classes.",
+      "why_others_wrong": "Complete, normal digestion would not proceed given the loss of these essential pancreatic enzymes; the impact extends across starch, protein, AND fat digestion, not just starch alone; the stomach alone (via pepsin and HCl) is not sufficient to handle the digestive roles normally performed by pancreatic enzymes, so there would be a very significant effect, not none.",
+      "concept_recap": "This scenario reflects real clinical conditions like chronic pancreatitis or pancreatic insufficiency, which significantly impair overall nutrient digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-060",
+    "question": "Which of the following best explains why a person who has had their gallbladder surgically removed (cholecystectomy) can still digest fats, though perhaps somewhat less efficiently, especially with large fatty meals?",
+    "options": [
+      "Bile is completely eliminated from the body after gallbladder removal, so fat digestion becomes impossible",
+      "The liver continues to produce bile, which can still flow directly into the duodenum (though without the concentrating/storage function of the gallbladder), allowing continued, though possibly less efficient, fat digestion",
+      "Fat digestion does not require bile at all, so gallbladder removal has no relevance",
+      "Pancreatic lipase alone, without any bile, is fully sufficient to digest large amounts of fat efficiently"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since bile is produced by the liver (not the gallbladder itself), bile can continue to flow directly into the duodenum after gallbladder removal; without the gallbladder's storage/concentration function, however, the delivery of a large, concentrated bolus of bile in response to a fatty meal is reduced, sometimes leading to less efficient fat digestion, especially with large fatty meals.",
+      "why_others_wrong": "Bile production continues via the liver even without a gallbladder, so bile is not completely eliminated from the body; bile plays a very significant role in fat digestion (via emulsification), contrary to being irrelevant; pancreatic lipase's efficiency depends significantly on bile's emulsification action, so lipase alone is not fully sufficient without this support, especially for larger fat loads.",
+      "concept_recap": "This explains why patients after cholecystectomy are sometimes advised to moderate fat intake, particularly of large, high-fat meals, to reduce digestive discomfort."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-061",
+    "question": "Which of the following best explains why proteolytic (protein-digesting) enzymes such as trypsin and chymotrypsin are secreted by the pancreas in inactive precursor forms (zymogens), rather than in their active forms?",
+    "options": [
+      "Zymogens have no functional purpose and are simply an evolutionary accident",
+      "Secreting inactive precursors prevents these powerful protein-digesting enzymes from digesting and damaging the pancreatic tissue itself before reaching the intestine",
+      "Active enzymes would work more efficiently if secreted directly, so this is a design flaw",
+      "Zymogens are only found in the stomach, not the pancreas"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Secreting proteolytic enzymes as inactive zymogens (like trypsinogen) protects the pancreas from being digested by its own powerful protein-digesting enzymes; activation occurs only after reaching the intestine, where the enzymes' targets (dietary proteins) are located.",
+      "why_others_wrong": "Zymogens serve a very clear, important protective functional purpose, not being a mere accident; this zymogen strategy is, in fact, a beneficial protective mechanism, not a design flaw, since premature activation would cause serious pancreatic damage (as seen in conditions like pancreatitis); zymogens are found in multiple digestive organs, including both the stomach (pepsinogen) and pancreas (trypsinogen, chymotrypsinogen), not exclusively the stomach.",
+      "concept_recap": "This zymogen-based protective strategy is a recurring theme in digestive physiology, seen with pepsinogen in the stomach and multiple pancreatic zymogens."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-062",
+    "question": "Which of the following best explains why individuals with lactase deficiency (lactose intolerance) often experience bloating, gas, and diarrhoea after consuming dairy products?",
+    "options": [
+      "Lactose is completely inert and produces no effect if undigested",
+      "Undigested lactose passes into the large intestine, where gut bacteria ferment it, producing gas, and the resulting increased osmotic load draws water into the intestine, causing bloating and diarrhoea",
+      "Lactase deficiency has no relationship to digestive symptoms",
+      "Lactose is directly toxic to intestinal cells, causing immediate cell death"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Without sufficient lactase, undigested lactose reaches the large intestine, where it is fermented by gut bacteria (producing gas) and also exerts an osmotic effect, drawing water into the intestinal lumen, together causing the characteristic bloating, gas, and diarrhoea symptoms of lactose intolerance.",
+      "why_others_wrong": "Undigested lactose is not inert in this context — it has clear, well-documented downstream effects via bacterial fermentation and osmotic action; lactase deficiency has a very direct, well-established relationship to these characteristic digestive symptoms, contrary to having none; lactose itself is not described as directly toxic causing immediate cell death — the symptoms arise from fermentation and osmotic effects, not direct cellular toxicity.",
+      "concept_recap": "This mechanism (osmotic effect plus bacterial fermentation of undigested sugar) is a general principle relevant to various carbohydrate malabsorption conditions, not just lactose intolerance specifically."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-063",
+    "question": "Which of the following best summarises why digestion of starch actually begins in the mouth (via salivary amylase) but macronutrient absorption occurs almost entirely in the small intestine, rather than the mouth or stomach?",
+    "options": [
+      "The mouth and stomach are structurally and functionally optimised for initial food processing (mechanical breakdown, acid digestion) rather than absorption, while the small intestine's vast surface area (villi/microvilli) and complete enzymatic breakdown make it ideally suited for absorption",
+      "Absorption could occur equally well at any point along the digestive tract, with no particular advantage to the small intestine",
+      "The mouth and stomach actually absorb the majority of nutrients, with the small intestine playing a minor role",
+      "There is no structural difference between the mouth, stomach, and small intestine relevant to absorption"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The mouth and stomach are structurally specialised for initial mechanical and chemical processing (chewing, acid digestion) rather than absorption, whereas the small intestine's vastly increased surface area (via villi and microvilli) combined with the completion of enzymatic digestion there makes it the primary and most efficient site for nutrient absorption.",
+      "why_others_wrong": "There is a very significant structural/functional advantage to the small intestine for absorption (given its specialised surface area), so absorption does not occur equally well everywhere; the small intestine, not the mouth or stomach, is responsible for the vast majority of nutrient absorption; there are indeed major structural differences (e.g., villi/microvilli) that specifically make the small intestine optimised for absorption, unlike the mouth or stomach.",
+      "concept_recap": "This structure-function relationship — different gut regions specialised for different sequential digestive tasks — is a unifying theme across the entire digestive system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-064",
+    "question": "Which of the following would most likely occur in a patient whose vagus nerve, which stimulates gastric secretion and motility, is severely damaged or surgically cut (vagotomy)?",
+    "options": [
+      "Increased gastric acid secretion and increased gastric motility",
+      "Reduced gastric acid secretion and reduced gastric motility, potentially slowing stomach emptying",
+      "No change in gastric function, since the vagus nerve has no digestive role",
+      "Complete cessation of all digestive processes throughout the entire digestive tract"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since the vagus nerve normally stimulates gastric acid secretion and motility, its damage or surgical interruption (vagotomy) typically reduces gastric acid secretion and slows gastric motility, potentially delaying stomach emptying.",
+      "why_others_wrong": "Vagotomy would reduce, not increase, gastric acid secretion and motility, since it removes a key stimulatory input; the vagus nerve has a very significant, well-documented role in digestive regulation, contrary to having none; the effect is specifically localized to gastric (and some broader digestive) function, not a complete cessation of all digestive processes throughout the entire tract.",
+      "concept_recap": "Vagotomy has historically been used as a surgical treatment approach for certain peptic ulcer conditions, specifically to reduce excessive gastric acid secretion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-065",
+    "question": "Which of the following best explains why chewing food thoroughly, in addition to aiding initial digestion, may also indirectly support more efficient nutrient absorption later in the small intestine?",
+    "options": [
+      "Chewing has no relationship to later digestive steps",
+      "Thorough chewing increases the surface area of food particles, which can improve the efficiency of subsequent enzymatic digestion in the stomach and small intestine, indirectly supporting more complete nutrient breakdown available for absorption",
+      "Chewing directly absorbs nutrients through the cheek lining into the blood",
+      "Chewing only affects taste perception, with no digestive consequence at all"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "By increasing the surface area of food particles, thorough chewing can improve the efficiency of subsequent enzymatic digestion in the stomach and small intestine, indirectly supporting more complete macronutrient breakdown and thus more effective nutrient absorption.",
+      "why_others_wrong": "Chewing does have a meaningful indirect relationship to later digestive efficiency, contrary to having none; nutrient absorption through the cheek lining during chewing is not how digestion/absorption actually works — absorption occurs mainly in the small intestine; chewing has significant digestive consequences beyond simply taste perception, given its effect on particle size and subsequent enzymatic efficiency.",
+      "concept_recap": "This principle underlies common dietary advice to chew food thoroughly to support overall digestive efficiency."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-066",
+    "question": "Which of the following best explains why the stomach's highly acidic environment (around pH 2), while optimal for pepsin activity, would actually be harmful if it persisted unchanged into the duodenum without any neutralisation?",
+    "options": [
+      "The duodenum's lining and pancreatic/intestinal enzymes are adapted to function optimally at near-neutral to slightly alkaline pH, not the strongly acidic pH suited to the stomach; unneutralised acidic chyme would damage the duodenal lining and impair these enzymes",
+      "The duodenum has no sensitivity to pH at all, so acid would have no effect there",
+      "Pancreatic and intestinal enzymes actually work best at the same highly acidic pH as pepsin",
+      "Acidic chyme entering the duodenum has no relationship to enzyme function there"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The duodenal lining and the pancreatic/intestinal enzymes (like trypsin, amylase, lipase) are adapted to function optimally at a near-neutral to slightly alkaline pH; unneutralised, strongly acidic chyme entering the duodenum would damage the duodenal lining and impair the proper function of these enzymes, making bicarbonate-based neutralisation (via secretin-stimulated pancreatic secretion) essential.",
+      "why_others_wrong": "The duodenum does have significant pH sensitivity, given the specific pH optima of its lining and associated enzymes, contrary to having none; pancreatic/intestinal enzymes function optimally at near-neutral/slightly alkaline pH, NOT the same highly acidic pH suited to pepsin in the stomach; there is a very direct, important relationship between chyme acidity and enzyme function in the duodenum, contrary to having none.",
+      "concept_recap": "This pH-based regional specialisation (acidic stomach vs. neutral/alkaline small intestine) is a recurring theme explaining why different digestive enzymes are active in different specific locations."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-067",
+    "question": "Which of the following teeth types is primarily adapted for cutting/biting food?",
+    "options": [
+      "Molars",
+      "Incisors",
+      "Premolars only",
+      "Canines only"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Incisors, located at the front of the jaw, have a sharp, chisel-like edge adapted for cutting and biting food.",
+      "why_others_wrong": "Molars are adapted for grinding food, not primarily cutting; premolars have a role intermediate between cutting and grinding, not the primary cutting function; canines are adapted for tearing/gripping, distinct from the primary cutting role of incisors.",
+      "concept_recap": "The different tooth types (incisors, canines, premolars, molars) reflect functional specialisation for different aspects of mechanical food processing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-068",
+    "question": "Which of the following teeth types is primarily adapted for tearing food?",
+    "options": [
+      "Incisors",
+      "Canines",
+      "Molars",
+      "Premolars"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Canines are pointed teeth adapted for tearing and gripping food, located between the incisors and premolars.",
+      "why_others_wrong": "Incisors are adapted for cutting/biting, not primarily tearing; molars are adapted for grinding, not tearing; premolars have an intermediate grinding/cutting function, not the primary tearing role of canines.",
+      "concept_recap": "This functional specialisation of tooth types reflects adaptations that support the overall process of mechanical digestion in the mouth."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-069",
+    "question": "Which of the following teeth types is primarily adapted for grinding and crushing food?",
+    "options": [
+      "Incisors",
+      "Canines",
+      "Molars",
+      "None of the teeth types have a grinding function"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Molars, located at the back of the jaw, have broad, flat surfaces adapted for grinding and crushing food into smaller particles.",
+      "why_others_wrong": "Incisors are adapted for cutting, not grinding; canines are adapted for tearing, not grinding; molars do have a clear, well-known grinding function, contrary to no teeth having this role.",
+      "concept_recap": "This grinding action by molars significantly increases the surface area of food, aiding subsequent chemical digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-070",
+    "question": "Which of the following best describes 'deciduous teeth' in humans?",
+    "options": [
+      "The permanent set of adult teeth",
+      "The initial, temporary set of teeth present in childhood, later replaced by permanent teeth",
+      "Teeth found only in herbivorous animals",
+      "Teeth that never fall out throughout life"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Deciduous teeth (also called 'milk teeth' or 'baby teeth') are the initial, temporary set of teeth that develop in childhood and are later shed and replaced by permanent teeth.",
+      "why_others_wrong": "The permanent adult set is distinct from, and replaces, the deciduous set, so they are not the same; deciduous teeth are a general mammalian feature, not restricted to herbivores; deciduous teeth are specifically temporary and do fall out, contrary to never falling out.",
+      "concept_recap": "This two-stage tooth development (deciduous followed by permanent) is a characteristic feature of human (and general mammalian) dental development."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-071",
+    "question": "Which of the following best describes the dental formula, as used to describe the number and arrangement of different tooth types in a species?",
+    "options": [
+      "A formula representing the number of incisors, canines, premolars, and molars in one half of the upper and lower jaw",
+      "A measure of tooth hardness only",
+      "A formula used only for herbivorous animals",
+      "A description of tooth colour patterns"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The dental formula represents the number of incisors, canines, premolars, and molars present in one half of the upper jaw and one half of the lower jaw, providing a standardised way to describe a species' dentition.",
+      "why_others_wrong": "Tooth hardness is a separate property, not what the dental formula describes; the dental formula concept applies broadly across many mammalian species, not exclusively herbivores; the dental formula concerns tooth number/type/arrangement, not tooth colour.",
+      "concept_recap": "The human dental formula (2123/2123) reflects the standard adult human arrangement of these four tooth types."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-072",
+    "question": "Which of the following best describes the primary role of the tongue in the process of digestion?",
+    "options": [
+      "Secreting digestive enzymes exclusively",
+      "Helping manipulate food during chewing, mixing it with saliva, and initiating the swallowing reflex",
+      "Absorbing all nutrients directly",
+      "Producing bile"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The tongue plays a key mechanical role in manipulating food during chewing, mixing it thoroughly with saliva, and helping initiate the swallowing reflex to move the bolus toward the pharynx.",
+      "why_others_wrong": "The tongue does not itself secrete digestive enzymes (though taste buds and some minor lingual glands exist, this is not its primary digestive role as described); nutrient absorption occurs mainly in the small intestine, not through the tongue; bile production is a liver function, unrelated to the tongue.",
+      "concept_recap": "This combination of tongue and jaw movements, along with salivary secretion, exemplifies the coordinated mechanical processing of food during the oral phase of digestion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-073",
+    "question": "Which of the following digestive glands is described as the largest gland in the human body?",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Salivary glands (combined)",
+      "Gallbladder"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The liver is the largest gland in the human body, playing numerous roles including bile production essential for fat digestion.",
+      "why_others_wrong": "The pancreas, while an important digestive gland, is considerably smaller than the liver; salivary glands, even combined, are much smaller than the liver; the gallbladder is a small storage organ, not the largest gland.",
+      "concept_recap": "Beyond digestion, the liver performs many other vital functions, including detoxification, protein synthesis, and metabolic regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-074",
+    "question": "Besides producing bile, which of the following is another important digestive/metabolic function of the liver?",
+    "options": [
+      "Producing insulin exclusively",
+      "Storing glycogen and regulating blood glucose levels, among many other metabolic functions",
+      "Directly absorbing all nutrients from the small intestine",
+      "Producing gastric acid"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In addition to bile production, the liver plays a central role in glycogen storage and blood glucose regulation, along with numerous other metabolic functions such as detoxification and plasma protein synthesis.",
+      "why_others_wrong": "Insulin is produced by the pancreas, not the liver; nutrient absorption occurs primarily via the small intestine's epithelial cells, not directly by the liver; gastric acid is produced by the stomach, not the liver.",
+      "concept_recap": "This central metabolic role makes the liver one of the most functionally versatile and vital organs in the body, extending well beyond simple digestive functions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-075",
+    "question": "Which of the following best summarises the primary functional distinction between the exocrine and endocrine roles of the pancreas?",
+    "options": [
+      "The exocrine pancreas secretes digestive enzymes/fluid into the duodenum via ducts, while the endocrine pancreas (islets of Langerhans) secretes hormones like insulin and glucagon directly into the blood",
+      "The exocrine and endocrine pancreas perform identical functions with no distinction",
+      "The endocrine pancreas secretes digestive enzymes, while the exocrine pancreas secretes hormones",
+      "The pancreas has only an endocrine function, with no exocrine role at all"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The exocrine portion of the pancreas secretes digestive enzymes and bicarbonate-rich fluid into the duodenum via ducts, while the endocrine portion (islets of Langerhans) secretes hormones like insulin and glucagon directly into the bloodstream.",
+      "why_others_wrong": "There is a very clear, meaningful functional distinction between these two pancreatic roles, not an absence of difference; the functional descriptions are reversed in this option — it is the exocrine (not endocrine) pancreas that secretes digestive enzymes; the pancreas has both established exocrine and endocrine functions, not exclusively an endocrine role.",
+      "concept_recap": "This dual exocrine-endocrine nature makes the pancreas a key organ bridging both the digestive and endocrine systems."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-076",
+    "question": "Which of the following correctly summarises the three major categories of nutrients that undergo significant chemical digestion in the human digestive tract?",
+    "options": [
+      "Carbohydrates, proteins, and fats (lipids)",
+      "Vitamins, minerals, and water only",
+      "DNA, RNA, and ATP exclusively",
+      "Oxygen, carbon dioxide, and nitrogen"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Carbohydrates, proteins, and fats (lipids) are the three major macronutrient categories that undergo substantial enzymatic chemical digestion in the digestive tract, being broken down into their respective absorbable subunits.",
+      "why_others_wrong": "Vitamins, minerals, and water generally do not require significant chemical digestion in the same way, since they are largely absorbed directly rather than broken down into subunits; DNA, RNA, and ATP are cellular molecules but not the primary macronutrient categories discussed in typical dietary digestion; oxygen, carbon dioxide, and nitrogen are respiratory gases, unrelated to digestive chemical processing of food.",
+      "concept_recap": "This categorisation (carbohydrates, proteins, fats) forms the basis for understanding the specific enzymes and processes involved in digesting each type of macronutrient."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-077",
+    "question": "Which of the following correctly matches a macronutrient with its final absorbable digestion product(s)?",
+    "options": [
+      "Carbohydrates -> Amino acids",
+      "Proteins -> Monosaccharides",
+      "Fats -> Fatty acids and glycerol/monoglycerides",
+      "Nucleic acids -> Fatty acids"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Fats are broken down into fatty acids and glycerol (or monoglycerides), which are the absorbable products of fat digestion.",
+      "why_others_wrong": "Carbohydrates are broken down into monosaccharides, not amino acids; proteins are broken down into amino acids, not monosaccharides; nucleic acids are broken down into nucleotides/nitrogenous bases and sugars, not fatty acids.",
+      "concept_recap": "Correctly matching each macronutrient to its specific final digestion products is essential for understanding the overall logic of the digestive process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-078",
+    "question": "Which of the following best describes why proteins must be broken down into amino acids before absorption, rather than being absorbed as intact protein molecules?",
+    "options": [
+      "Proteins are actually absorbed intact without any digestion in healthy individuals",
+      "Intact proteins are generally too large and structurally complex to be efficiently transported across intestinal epithelial cell membranes; breaking them into amino acids allows efficient absorption via specific transport mechanisms",
+      "Amino acids have no nutritional value compared to intact proteins",
+      "Protein digestion serves no functional purpose and could be skipped entirely"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Because intact proteins are large, complex molecules poorly suited for direct transport across cell membranes, digestion into amino acids allows efficient absorption via specific membrane transport mechanisms adapted for these smaller molecules.",
+      "why_others_wrong": "In healthy individuals, dietary protein is normally digested before absorption, not typically absorbed as intact protein; amino acids are, in fact, the essential nutritional units the body actually uses for protein synthesis and other functions, not lacking nutritional value; protein digestion serves a very clear, essential functional purpose (enabling absorption), so it cannot simply be skipped.",
+      "concept_recap": "This principle — breaking macromolecules into smaller absorbable units — is a unifying theme across the digestion of carbohydrates, proteins, and (to a related extent) fats."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-079",
+    "question": "Which of the following best describes 'ingestion' as the first step of the overall digestive process?",
+    "options": [
+      "The chemical breakdown of food into smaller molecules",
+      "The act of taking food into the body through the mouth",
+      "The absorption of nutrients into the blood",
+      "The elimination of undigested waste"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ingestion refers specifically to the act of taking food into the body, typically through the mouth, marking the first step of the overall digestive process.",
+      "why_others_wrong": "Chemical breakdown of food describes digestion, a later step, not ingestion itself; nutrient absorption into blood is a distinct, later step in the process; waste elimination (egestion) is the final step, not the first.",
+      "concept_recap": "This first step (ingestion) sets the stage for the subsequent digestion, absorption, and egestion processes that follow."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-080",
+    "question": "Which of the following best describes 'digestion' as a distinct process within the overall digestive sequence?",
+    "options": [
+      "The mechanical and chemical breakdown of complex food molecules into simpler, absorbable subunits",
+      "The act of taking food into the mouth",
+      "The uptake of nutrients into the bloodstream",
+      "The elimination of solid waste from the body"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Digestion specifically refers to the mechanical (chewing, churning) and chemical (enzymatic) breakdown of complex food molecules into simpler subunits that can subsequently be absorbed.",
+      "why_others_wrong": "Taking food into the mouth describes ingestion, a distinct earlier step; nutrient uptake into blood describes absorption, a distinct later step; waste elimination describes egestion, the final step, not digestion itself.",
+      "concept_recap": "Clearly distinguishing digestion from the related but distinct processes of ingestion, absorption, and egestion is fundamental to understanding digestive physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-081",
+    "question": "Which of the following would be the most likely consequence of a genetic condition causing complete absence of functional pancreatic amylase, while all other digestive enzymes remain normal?",
+    "options": [
+      "Complete inability to digest any nutrients",
+      "Significantly impaired digestion of starch specifically, since pancreatic amylase is a major contributor to starch breakdown in the small intestine, while protein and fat digestion remain largely unaffected",
+      "No effect on digestion at all, since salivary amylase alone is always sufficient",
+      "Improved digestion of all nutrients due to compensatory mechanisms"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since pancreatic amylase is a major contributor to starch digestion in the small intestine, its absence would significantly impair starch breakdown specifically, while protein digestion (via proteases) and fat digestion (via lipase) would remain largely unaffected, as they depend on different enzymes.",
+      "why_others_wrong": "Digestion of protein and fat would generally proceed via their respective independent enzymes, so a complete inability to digest all nutrients is not the expected outcome; salivary amylase alone typically provides only partial starch digestion and is not normally sufficient to fully compensate for the loss of the major pancreatic contribution; there is no established compensatory mechanism that would improve overall digestion in this scenario — starch digestion would be impaired, not enhanced.",
+      "concept_recap": "This scenario illustrates how digestion of specific macronutrients depends on specific corresponding enzymes, so a deficiency in one enzyme selectively affects the digestion of its particular substrate."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-082",
+    "question": "Which of the following best explains why newborn infants can digest milk (rich in lactose) efficiently, while lactase activity commonly declines later in childhood/adulthood in many populations?",
+    "options": [
+      "Lactase levels remain constant and high throughout life in all humans, with no decline ever occurring",
+      "Lactase is naturally high in infancy to support milk digestion, but in many populations, lactase expression genetically declines after weaning as dietary reliance on milk typically decreases",
+      "Lactase has no relationship to age or milk consumption patterns",
+      "Lactase only exists in adult humans, being completely absent in infancy"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Lactase is naturally expressed at high levels in infancy to support the digestion of milk (a primary infant food source), but in many human populations, lactase expression genetically declines after the typical weaning period, reflecting reduced reliance on milk as the primary food source in it's evolutionary and dietary context.",
+      "why_others_wrong": "Lactase levels do not remain uniformly high throughout life in all populations — in many groups, a well-documented decline occurs after infancy; lactase has a very clear, well-established relationship to age and milk consumption patterns, contrary to having none; lactase is actually present and important specifically during infancy, contrary to being completely absent then.",
+      "concept_recap": "This variability in adult lactase persistence versus decline across different human populations is a well-studied example connecting genetics, diet, and evolutionary history."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-083",
+    "question": "Which of the following best explains why severe, prolonged vomiting can lead to a range of physiological disturbances beyond simple fluid loss, such as disruption of the body's acid-base balance?",
+    "options": [
+      "Vomiting has no effect on the body's chemical balance beyond fluid volume",
+      "Vomiting expels stomach acid (HCl), and its prolonged, excessive loss can disrupt the body's normal acid-base balance, potentially leading to metabolic alkalosis",
+      "Vomiting always causes excess acid to build up in the blood, unrelated to stomach acid loss",
+      "Vomiting has no relationship to the stomach's chemical contents at all"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since vomiting expels stomach contents including hydrochloric acid, prolonged or severe vomiting can lead to significant loss of stomach acid, which can disrupt the body's normal acid-base balance and potentially contribute to a condition called metabolic alkalosis.",
+      "why_others_wrong": "Vomiting does have significant effects on chemical/acid-base balance beyond just fluid volume, contrary to having none; the loss of stomach acid through vomiting tends to push the body toward alkalosis (not excess acid/acidosis) due to the specific loss of HCl; vomiting is very directly related to the stomach's chemical contents, since it expels gastric contents including acid.",
+      "concept_recap": "This connection between vomiting-related acid loss and metabolic alkalosis is an important applied concept linking basic digestive physiology to broader physiological/clinical consequences."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-084",
+    "question": "Which of the following best explains the general principle behind why babies are typically introduced to solid foods gradually, starting several months after birth, rather than immediately at birth?",
+    "options": [
+      "Solid food digestion has no relationship to digestive system maturity",
+      "A newborn's digestive system, including certain enzyme systems and gut structures, needs time to mature sufficiently to handle the more complex processing required for solid foods, beyond simple milk digestion",
+      "Newborns are actually fully capable of digesting all solid foods immediately at birth, with no developmental limitation",
+      "Solid food introduction timing is based purely on cultural preference, with no physiological basis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A newborn's digestive system requires time to mature — including further development of certain enzyme systems and structural/functional aspects of the gut — before it can effectively handle the more complex processing demands of solid foods beyond simple milk digestion.",
+      "why_others_wrong": "There is a very clear, well-established relationship between solid food digestion capability and digestive system developmental maturity, contrary to having none; newborns are not fully capable of digesting all solid foods immediately at birth, given known developmental limitations in enzyme systems and gut function; while cultural factors can influence specific practices, there is a genuine underlying physiological/developmental basis for gradual solid food introduction, not purely cultural preference.",
+      "concept_recap": "This developmental principle underlies general paediatric guidance on gradually introducing solid foods as an infant's digestive system continues to mature."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-085",
+    "question": "Which of the following best describes why enzymes involved in digestion (e.g., pepsin, trypsin, amylase, lipase) are each adapted to function optimally within specific, different pH ranges corresponding to their location in the digestive tract?",
+    "options": [
+      "All digestive enzymes actually share an identical optimal pH, regardless of their location",
+      "Each enzyme's specific protein structure (and its active site) is adapted to maintain proper conformation and function within the particular pH environment characteristic of its site of action, ensuring efficient digestion at each stage",
+      "pH has no relationship to enzyme function anywhere in the digestive tract",
+      "Enzyme pH optima are randomly assigned, with no relationship to their location of action"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Each digestive enzyme's specific protein structure, including its active site conformation, is adapted through evolution to remain stable and functional within the particular pH environment characteristic of its site of action (e.g., pepsin in the acidic stomach, pancreatic/intestinal enzymes in the more neutral small intestine), ensuring efficient digestion at each successive stage.",
+      "why_others_wrong": "Digestive enzymes do NOT share an identical optimal pH — they have distinctly different pH optima matched to their specific locations; pH has a very significant, well-documented relationship to enzyme structure/function throughout the digestive tract, contrary to having none; enzyme pH optima are specifically and functionally matched to their location of action, not randomly assigned.",
+      "concept_recap": "This location-specific pH adaptation of digestive enzymes is a clear example of structure-function relationships shaping physiological processes across different regions of an organ system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-086",
+    "question": "Which of the following best describes the general concept of 'malabsorption,' as a category of digestive disorder?",
+    "options": [
+      "A condition in which the body absorbs too much of every nutrient",
+      "A condition in which one or more nutrients are not properly absorbed by the small intestine, potentially leading to nutritional deficiencies",
+      "A condition affecting only water absorption in the large intestine, with no relationship to nutrients",
+      "A condition that has no clinical significance"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Malabsorption refers to a category of conditions in which one or more nutrients are not properly absorbed by the small intestine, which can lead to various nutritional deficiencies depending on which nutrients are affected.",
+      "why_others_wrong": "Malabsorption specifically involves inadequate (not excessive) absorption of nutrients; malabsorption can affect a wide range of nutrients absorbed by the small intestine, not being limited only to water absorption in the large intestine; malabsorption has very significant clinical significance, given its potential to cause nutritional deficiencies.",
+      "concept_recap": "Various specific conditions (e.g., certain enzyme deficiencies, coeliac disease, pancreatic insufficiency) can lead to malabsorption of different specific nutrients."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-087",
+    "question": "Which of the following best describes coeliac disease, an autoimmune digestive disorder?",
+    "options": [
+      "A condition causing excessive digestion of all nutrients",
+      "A condition in which ingestion of gluten (found in wheat and related grains) triggers an immune response that damages the small intestinal lining, impairing nutrient absorption",
+      "A condition entirely unrelated to diet or the small intestine",
+      "A condition that only affects the stomach, not the small intestine"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Coeliac disease is an autoimmune condition in which gluten ingestion triggers an immune response that damages the small intestinal lining (particularly the villi), impairing nutrient absorption and potentially leading to various deficiencies.",
+      "why_others_wrong": "Coeliac disease impairs, rather than causes excessive, nutrient digestion/absorption; coeliac disease has a very direct, well-established relationship to a specific dietary trigger (gluten) and the small intestine; the condition specifically and primarily affects the small intestinal lining, not the stomach.",
+      "concept_recap": "Management of coeliac disease typically involves strict avoidance of dietary gluten to prevent ongoing intestinal damage."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-088",
+    "question": "Which of the following best describes why damage to intestinal villi, as seen in conditions like coeliac disease, significantly impairs nutrient absorption?",
+    "options": [
+      "Villi have no actual role in nutrient absorption",
+      "Villi (and their microvilli) provide the greatly increased surface area essential for efficient nutrient absorption; their damage/flattening substantially reduces this surface area, impairing absorption",
+      "Villi are only involved in digestion, not absorption, so their damage would not affect absorption",
+      "Villi damage always improves absorption efficiency by removing unnecessary structures"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since villi (along with their microvilli) provide the greatly increased surface area essential for efficient nutrient absorption, damage or flattening of these structures (as in coeliac disease) substantially reduces the available absorptive surface area, significantly impairing nutrient absorption.",
+      "why_others_wrong": "Villi have a very significant, well-established role specifically in absorption, contrary to having none; villi are specifically structures supporting absorption (not primarily digestion itself), so their damage does directly impair absorption; villi damage impairs, rather than improves, absorption efficiency, since it reduces the critical surface area needed for this process.",
+      "concept_recap": "This villi-damage mechanism explains the nutritional deficiencies commonly seen in poorly managed coeliac disease and similar intestinal conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-089",
+    "question": "Which of the following best describes why chronic alcohol consumption is a well-known risk factor for pancreatitis (inflammation of the pancreas)?",
+    "options": [
+      "Alcohol has no relationship to pancreatic function or health",
+      "Chronic alcohol use can trigger inflammation and damage within the pancreas, potentially through mechanisms involving premature activation of digestive enzymes within the pancreatic tissue itself",
+      "Alcohol always improves pancreatic enzyme secretion with no adverse effects",
+      "Pancreatitis is caused exclusively by dietary fat intake, with no relationship to alcohol"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Chronic alcohol consumption is a well-established risk factor for pancreatitis, potentially through mechanisms involving premature, damaging activation of digestive enzymes within pancreatic tissue itself, among other contributing factors.",
+      "why_others_wrong": "Alcohol has a very significant, well-documented relationship to pancreatic health and disease risk, contrary to having none; chronic alcohol use is a recognised risk factor for pancreatic harm, not an unqualified benefit with no adverse effects; while diet can be a contributing factor in some cases, chronic alcohol use is independently a major, well-established risk factor for pancreatitis, not exclusively caused by dietary fat.",
+      "concept_recap": "This alcohol-pancreatitis relationship is an important applied example connecting lifestyle factors to digestive organ health and disease risk."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-090",
+    "question": "Which of the following best describes why individuals with chronic pancreatic insufficiency (inadequate pancreatic enzyme secretion) often experience fatty, poorly formed stools (steatorrhea)?",
+    "options": [
+      "Pancreatic enzymes have no relationship to fat digestion",
+      "Insufficient pancreatic lipase impairs fat digestion, causing undigested fat to remain in the stool, resulting in fatty, poorly formed, often foul-smelling stools",
+      "Steatorrhea is caused exclusively by excessive bile secretion, unrelated to pancreatic function",
+      "Pancreatic insufficiency always improves stool consistency"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Insufficient pancreatic lipase secretion, characteristic of pancreatic insufficiency, impairs proper fat digestion, resulting in significant amounts of undigested fat remaining in the stool, causing the characteristic fatty, poorly formed, often foul-smelling stools known as steatorrhea.",
+      "why_others_wrong": "Pancreatic enzymes, particularly lipase, have a very direct, significant relationship to fat digestion, contrary to having none; steatorrhea is specifically and primarily linked to inadequate fat digestion due to insufficient pancreatic lipase, not excessive bile secretion; pancreatic insufficiency worsens, rather than improves, stool consistency due to this undigested fat content.",
+      "concept_recap": "Steatorrhea is a clinically useful sign that can help point toward underlying pancreatic dysfunction as part of a broader diagnostic evaluation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-091",
+    "question": "Which of the following best explains why a balanced diet, providing adequate carbohydrates, proteins, fats, vitamins, and minerals, is important for supporting normal digestive system function itself, in addition to overall body health?",
+    "options": [
+      "The digestive system requires no specific nutrients to function normally, operating independently of diet",
+      "Components of the digestive system, including its cells, enzymes, and mucosal lining, themselves require adequate nutrients (e.g., proteins for enzyme synthesis, vitamins for cell turnover) to be produced, maintained, and to function properly",
+      "Only carbohydrates are relevant to digestive system health, with no role for proteins, fats, vitamins, or minerals",
+      "A balanced diet has no relationship to digestive system structure or function"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The digestive system's own cells, enzymes, and mucosal lining require adequate nutrients — such as proteins for enzyme and tissue synthesis, and vitamins/minerals supporting cell turnover and repair — to be properly produced, maintained, and to function effectively, creating an important, sometimes overlooked, connection between diet and digestive system health itself.",
+      "why_others_wrong": "The digestive system does have specific nutrient requirements to properly build and maintain its own structures and functions, contrary to operating independently of diet; multiple nutrient categories (proteins, fats, vitamins, minerals), not just carbohydrates, are relevant to digestive system health; there is a very significant, direct relationship between balanced nutrition and digestive system structure/function.",
+      "concept_recap": "This reciprocal relationship — the digestive system processing nutrients while itself requiring adequate nutrition to function well — highlights the interconnected nature of nutrition and digestive physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-092",
+    "question": "Which of the following best explains why excessive, chronic intake of highly processed foods low in fibre is often associated with digestive issues such as constipation?",
+    "options": [
+      "Fibre has no relationship to bowel function or stool consistency",
+      "Dietary fibre adds bulk to stool and helps retain water within it, promoting healthy bowel movements; diets low in fibre can result in harder, less bulky stools, contributing to constipation",
+      "Processed foods always improve digestive function regardless of fibre content",
+      "Constipation is caused exclusively by excessive water intake, unrelated to fibre"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Dietary fibre adds bulk to stool and helps retain water within it, which promotes healthy, regular bowel movements; diets chronically low in fibre (common with highly processed foods) can result in smaller, harder, less bulky stools, contributing to constipation.",
+      "why_others_wrong": "Fibre has a very well-established, significant relationship to bowel function and stool consistency, contrary to having none; low-fibre processed foods are, in fact, commonly associated with digestive issues like constipation, not universal improvement in digestive function; constipation is specifically and classically linked to inadequate (not excessive) intake of fibre and fluids, among other factors, not simply excessive water intake.",
+      "concept_recap": "This fibre-constipation relationship underlies common dietary recommendations to include adequate fibre (from fruits, vegetables, whole grains) to support healthy digestive function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-093",
+    "question": "Which of the following salivary gland pairs is the largest of the three major pairs, located near the ears?",
+    "options": [
+      "Sublingual glands",
+      "Submandibular glands",
+      "Parotid glands",
+      "Buccal glands"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The parotid glands, located near the ears, are the largest of the three major pairs of salivary glands.",
+      "why_others_wrong": "Sublingual and submandibular glands are smaller and located elsewhere (below the tongue and below the jaw respectively); buccal glands are minor, scattered glands within the cheek lining, not one of the three major paired salivary glands.",
+      "concept_recap": "Inflammation of the parotid glands is a hallmark feature of conditions such as mumps."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-094",
+    "question": "Which of the following best describes the primary difference between digestion in herbivores and carnivores in terms of gut length and complexity?",
+    "options": [
+      "Herbivores and carnivores have identical gut anatomy and length",
+      "Herbivores generally have a longer, more complex digestive tract (often including specialised fermentation chambers) suited to breaking down plant cellulose, while carnivores typically have a comparatively shorter, simpler digestive tract suited to protein-rich diets",
+      "Carnivores always have longer digestive tracts than herbivores",
+      "Gut length has no relationship to diet type in any animal"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Herbivores generally have a longer, more complex digestive tract, often including specialised fermentation chambers (e.g., rumen) to help break down difficult-to-digest plant cellulose, while carnivores typically have a comparatively shorter, simpler digestive tract suited to a protein-rich diet that is generally easier to digest.",
+      "why_others_wrong": "There are significant, well-documented anatomical differences between herbivore and carnivore digestive tracts, not identical anatomy; it is herbivores, not carnivores, that typically have the longer digestive tract adapted for plant material digestion; gut length has a very clear, well-established relationship to diet type across many animal species.",
+      "concept_recap": "This diet-related anatomical adaptation is a classic example of structure-function relationships shaped by evolutionary dietary specialisation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-095",
+    "question": "Which of the following best describes why ruminant animals (such as cows) can digest cellulose from plant material, despite lacking their own cellulase enzyme?",
+    "options": [
+      "Ruminants produce their own cellulase enzyme directly, like any other digestive enzyme",
+      "Ruminants host cellulose-digesting microorganisms in specialised stomach chambers (e.g., the rumen), which ferment and break down cellulose that the animal's own enzymes cannot digest",
+      "Ruminants do not actually digest cellulose at all, despite consuming plant material",
+      "Cellulose requires no digestion and is absorbed directly by ruminants"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Ruminants host specialised microorganisms (bacteria and protozoa) within dedicated stomach chambers (such as the rumen), which ferment and break down cellulose that the ruminant's own digestive enzymes cannot directly digest, illustrating a mutualistic symbiotic relationship.",
+      "why_others_wrong": "Ruminants themselves do not produce cellulase directly — they rely on symbiotic microorganisms for this function; ruminants do, in fact, effectively digest cellulose through this microbial fermentation process, contrary to not digesting it at all; cellulose requires this specific microbial fermentation process before its breakdown products can be absorbed, rather than being absorbed directly without digestion.",
+      "concept_recap": "This mutualistic relationship between ruminants and their gut microorganisms is a classic example of symbiosis enabling access to an otherwise indigestible nutrient source."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-096",
+    "question": "Which of the following best explains why the digestive system, despite operating with foreign material (food) and diverse microorganisms constantly passing through, does not typically trigger a harmful, widespread immune response against ingested food itself?",
+    "options": [
+      "The digestive tract has no immune system components at all",
+      "Specialised immune tolerance mechanisms in the gut-associated lymphoid tissue generally allow the body to distinguish between harmless food antigens (promoting tolerance) and genuine pathogens (triggering appropriate immune defence)",
+      "All ingested food always triggers an identical, non-specific immune response",
+      "The digestive system relies entirely on mechanical barriers alone, with no immune involvement whatsoever"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Specialised immune tolerance mechanisms within gut-associated lymphoid tissue (GALT) generally allow the body to distinguish between harmless food antigens (promoting tolerance, avoiding unnecessary immune reactions) and genuine pathogens (triggering appropriate immune defence), maintaining a delicate balance suited to the gut's unique exposure to diverse foreign material.",
+      "why_others_wrong": "The digestive tract has very significant immune system components (like GALT), contrary to having none; the immune response to different ingested substances is not identical and non-specific — there is a nuanced distinction between tolerance to food and defence against pathogens; the digestive system relies on both mechanical/chemical barriers AND significant immune involvement, not exclusively mechanical barriers.",
+      "concept_recap": "Disruption of this immune tolerance balance is thought to contribute to conditions like food allergies and certain autoimmune digestive disorders, such as coeliac disease."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-097",
+    "question": "Which of the following best explains why the enzyme pepsin, which is highly effective at digesting many dietary proteins, does not typically cause significant self-digestion of the stomach's own protein-containing cells under normal healthy conditions?",
+    "options": [
+      "Pepsin has no ability to digest any proteins under any circumstances",
+      "A combination of factors—including pepsin's secretion as inactive pepsinogen, the protective mucus layer, and rapid turnover/repair of stomach lining cells—normally protects the stomach from significant self-digestion",
+      "The stomach lining is made of a completely different molecule type than protein, making it immune to pepsin",
+      "Pepsin only becomes active outside the body, never within the stomach itself"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Multiple protective factors work together under normal healthy conditions: pepsin is secreted as inactive pepsinogen (activated only after entering the gastric lumen), a thick mucus layer physically shields the stomach lining, and rapid epithelial cell turnover/repair helps address any minor damage, together normally preventing significant self-digestion of the stomach's own tissue.",
+      "why_others_wrong": "Pepsin is, in fact, highly effective at digesting proteins (that is its defined function), contrary to having no such ability; the stomach lining cells do contain protein components (like any human cells), so 'immunity' via different molecule type is inaccurate — instead, the combination of protective mechanisms described is what prevents significant self-digestion; pepsin becomes active and functions specifically within the stomach's acidic lumen, not exclusively outside the body.",
+      "concept_recap": "Breakdown of these normal protective mechanisms (e.g., reduced mucus protection) is a key factor contributing to the development of peptic ulcers."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-098",
+    "question": "Which of the following best describes the primary purpose of digestive juices being secreted in a coordinated sequence, rather than all at once from the very start?",
+    "options": [
+      "Sequential secretion has no functional advantage over simultaneous secretion of all digestive juices",
+      "Coordinated, sequential secretion ensures that each digestive juice/enzyme acts at the appropriate time and location, matching the changing composition and position of food as it moves through the digestive tract",
+      "All digestive juices are actually secreted simultaneously regardless of food location",
+      "Sequential secretion only occurs in a few isolated species, not in humans"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Coordinated, sequential secretion of digestive juices (saliva in the mouth, gastric juice in the stomach, pancreatic/intestinal secretions in the small intestine) ensures each specific set of enzymes acts at the appropriate time and location, efficiently matching the changing composition and position of food as it moves through the digestive tract.",
+      "why_others_wrong": "There is a very clear functional advantage to this sequential coordination, contrary to having none; digestive juices are secreted in a coordinated, sequential (not simultaneous) manner corresponding to food's position in the tract; this sequential secretion pattern is a general principle applicable to human digestion, not limited to only a few isolated species.",
+      "concept_recap": "This principle of sequential, location-matched secretion (achieved through nervous and hormonal regulation) exemplifies the sophisticated coordination underlying the overall digestive process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-099",
+    "question": "Which of the following best explains why a person experiencing severe, chronic diarrhoea is often advised to increase fluid and electrolyte intake (e.g., oral rehydration solutions)?",
+    "options": [
+      "Diarrhoea has no effect on fluid or electrolyte balance",
+      "Diarrhoea causes significant loss of water and electrolytes from the body; replacing these losses helps prevent dehydration and maintain normal physiological function",
+      "Increasing fluid intake during diarrhoea would worsen the condition and should always be avoided",
+      "Electrolytes have no relevance to recovery from diarrhoea"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since diarrhoea causes significant loss of water and electrolytes from the body, replacing these losses through adequate fluid and electrolyte intake (such as oral rehydration solutions) is important to prevent dehydration and help maintain normal physiological function.",
+      "why_others_wrong": "Diarrhoea has a very significant, well-documented effect on fluid and electrolyte balance, contrary to having none; appropriately replacing fluids/electrolytes during diarrhoea is a standard, beneficial practice, not something that would worsen the condition; electrolyte balance is very relevant to safe recovery from diarrhoea, given the substantial losses that can occur.",
+      "concept_recap": "This principle underlies the widespread use of oral rehydration therapy as a simple, effective treatment for diarrhoea-related dehydration, particularly important in preventing serious complications."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-100",
+    "question": "Which of the following best explains why proper hand hygiene and food safety practices are important in preventing many common digestive system infections (e.g., causing diarrhoea or gastroenteritis)?",
+    "options": [
+      "Digestive infections are never caused by ingested pathogens",
+      "Many digestive infections are caused by pathogens (bacteria, viruses, parasites) transmitted through contaminated food, water, or hands; proper hygiene reduces the risk of ingesting these harmful microorganisms",
+      "Hand hygiene has no relationship to digestive system health",
+      "Food safety practices only affect taste and appearance of food, with no health relevance"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Many digestive system infections are caused by pathogens transmitted through contaminated food, water, or unwashed hands; practising proper hygiene and food safety significantly reduces the risk of ingesting these harmful microorganisms and developing subsequent digestive infections.",
+      "why_others_wrong": "Many digestive infections are, in fact, caused by ingested pathogens transmitted this way, contrary to never being caused by such transmission; hand hygiene has a very direct, well-established relationship to preventing digestive infections; food safety practices have very significant health relevance beyond just taste/appearance, specifically in preventing pathogen transmission.",
+      "concept_recap": "This connection between hygiene practices and digestive health underlies widespread public health recommendations for handwashing and food safety."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
+  },
+  {
+    "id": "digest-101",
+    "question": "Which of the following best describes the general purpose of digestive system health education (e.g., understanding balanced diets, hydration, and hygiene) in the broader context of public health?",
+    "options": [
+      "Digestive health has no meaningful connection to broader public health outcomes",
+      "Since digestive health significantly influences nutrient absorption, disease prevention, and overall well-being, education on healthy digestive practices contributes meaningfully to broader public health goals",
+      "Digestive health education is only relevant to healthcare professionals, with no practical value for the general public",
+      "There is no practical way to apply knowledge of digestive physiology to improve everyday health practices"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Since digestive health significantly influences nutrient absorption, disease prevention, and overall physical well-being, educating people about healthy digestive practices (balanced diet, hydration, hygiene) contributes meaningfully to broader public health goals.",
+      "why_others_wrong": "Digestive health does have a very significant, well-established connection to broader public health outcomes, contrary to having none; digestive health education has significant, practical value for the general public, not being relevant only to healthcare professionals; understanding digestive physiology has clear, practical applications for improving everyday health practices and decisions.",
+      "concept_recap": "This connects the detailed biological study of digestion to broader, practical applications in personal health, nutrition, and public health education."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 16"
   }
 ]
