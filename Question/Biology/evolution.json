@@ -1,160 +1,938 @@
-{
-  "chapter": "Evolution",
-  "subject": "Biology",
-  "totalQuestions": 150,
-  "difficultyBreakdown": { "easy": 50, "moderate": 60, "hard": 40 },
-  "questions": [
-    { "id": "evo_001", "difficulty": "easy", "question": "The theory of organic evolution by natural selection was proposed by:", "options": ["Gregor Mendel", "Charles Darwin", "Jean-Baptiste Lamarck", "Hugo de Vries"], "correctAnswer": 1, "explanation": "Charles Darwin proposed the theory of evolution by natural selection in 'On the Origin of Species' (1859)." },
-    { "id": "evo_002", "difficulty": "easy", "question": "Darwin's theory of evolution is also known as the theory of:", "options": ["Use and disuse", "Natural selection", "Mutation", "Inheritance of acquired characters"], "correctAnswer": 1, "explanation": "Darwin's theory is best known as the theory of natural selection, or 'survival of the fittest'." },
-    { "id": "evo_003", "difficulty": "easy", "question": "Lamarck's theory of evolution is based on:", "options": ["Natural selection", "Inheritance of acquired characters", "Mutation theory", "Genetic drift"], "correctAnswer": 1, "explanation": "Lamarckism proposes that characteristics acquired during an organism's life are passed to offspring." },
-    { "id": "evo_004", "difficulty": "easy", "question": "The classic example used to illustrate Lamarck's theory is:", "options": ["Peppered moth", "Giraffe's long neck", "Darwin's finches", "Galapagos tortoise"], "correctAnswer": 1, "explanation": "Lamarck used the giraffe's elongated neck (from stretching to reach leaves) as an example of use and disuse." },
-    { "id": "evo_005", "difficulty": "easy", "question": "Who proposed the Mutation Theory of evolution?", "options": ["Charles Darwin", "Hugo de Vries", "Jean-Baptiste Lamarck", "August Weismann"], "correctAnswer": 1, "explanation": "Hugo de Vries proposed the mutation theory based on his studies of the evening primrose (Oenothera lamarckiana)." },
-    { "id": "evo_006", "difficulty": "easy", "question": "According to de Vries, mutations are:", "options": ["Small and continuous", "Large, random and discontinuous", "Always harmful", "Always beneficial"], "correctAnswer": 1, "explanation": "De Vries believed mutations were large, sudden, and discontinuous variations that create new species directly." },
-    { "id": "evo_007", "difficulty": "easy", "question": "The process by which life is believed to have originated from non-living matter is called:", "options": ["Biogenesis", "Abiogenesis", "Panspermia", "Spontaneous generation only"], "correctAnswer": 1, "explanation": "Abiogenesis refers to the origin of life from non-living chemical matter." },
-    { "id": "evo_008", "difficulty": "easy", "question": "Who proposed the theory of chemical evolution of life?", "options": ["Louis Pasteur", "Oparin and Haldane", "Charles Darwin", "Stanley Miller"], "correctAnswer": 1, "explanation": "Oparin and Haldane independently proposed that life originated through chemical evolution in early Earth's reducing atmosphere." },
-    { "id": "evo_009", "difficulty": "easy", "question": "Louis Pasteur's experiments disproved the theory of:", "options": ["Natural selection", "Spontaneous generation", "Chemical evolution", "Mutation"], "correctAnswer": 1, "explanation": "Pasteur's swan-neck flask experiments disproved spontaneous generation, showing life arises only from pre-existing life (biogenesis)." },
-    { "id": "evo_010", "difficulty": "easy", "question": "The Miller-Urey experiment attempted to simulate the conditions of:", "options": ["Present-day atmosphere", "Early Earth's primitive atmosphere", "Deep ocean floor", "Modern laboratory conditions only"], "correctAnswer": 1, "explanation": "Stanley Miller and Harold Urey simulated early Earth's reducing atmosphere to test the origin of organic molecules." },
-    { "id": "evo_011", "difficulty": "easy", "question": "In the Miller-Urey experiment, which gases were used to simulate the primitive atmosphere?", "options": ["Oxygen, nitrogen, CO2", "Methane, ammonia, hydrogen, water vapor", "Only oxygen and water", "Nitrogen and helium"], "correctAnswer": 1, "explanation": "Miller and Urey used a mixture of methane, ammonia, hydrogen, and water vapor to mimic early Earth's atmosphere." },
-    { "id": "evo_012", "difficulty": "easy", "question": "What did the Miller-Urey experiment successfully produce?", "options": ["Complete living cells", "Simple amino acids", "DNA molecules", "Complex proteins"], "correctAnswer": 1, "explanation": "The experiment produced simple amino acids, supporting the idea that organic molecules could form from inorganic matter." },
-    { "id": "evo_013", "difficulty": "easy", "question": "Fossils are best defined as:", "options": ["Living organisms in rocks", "Preserved remains or traces of ancient organisms", "Modern skeletons", "Chemical compounds only"], "correctAnswer": 1, "explanation": "Fossils are the preserved remains, impressions, or traces of organisms from the past, typically found in sedimentary rock." },
-    { "id": "evo_014", "difficulty": "easy", "question": "The scientific study of fossils is called:", "options": ["Paleontology", "Anatomy", "Taxonomy", "Cytology"], "correctAnswer": 0, "explanation": "Paleontology is the branch of science dealing with the study of fossils." },
-    { "id": "evo_015", "difficulty": "easy", "question": "Which of the following provides direct evidence for evolution?", "options": ["Fossil record", "Comparative anatomy only", "Embryology only", "Molecular biology only"], "correctAnswer": 0, "explanation": "Fossils provide direct physical evidence of organisms that lived in the past, supporting evolutionary change over time." },
-    { "id": "evo_016", "difficulty": "easy", "question": "Organs having the same basic structure but different functions, indicating common ancestry, are called:", "options": ["Analogous organs", "Homologous organs", "Vestigial organs", "Convergent organs"], "correctAnswer": 1, "explanation": "Homologous organs share a common structural plan and origin despite performing different functions, e.g. forelimbs of vertebrates." },
-    { "id": "evo_017", "difficulty": "easy", "question": "The forelimbs of a bat, human, and whale are an example of:", "options": ["Analogous organs", "Homologous organs", "Vestigial organs", "Non-homologous organs"], "correctAnswer": 1, "explanation": "Despite different functions (flying, grasping, swimming), these forelimbs share the same basic bone structure, making them homologous." },
-    { "id": "evo_018", "difficulty": "easy", "question": "Organs with different structural origin but similar function are called:", "options": ["Homologous organs", "Analogous organs", "Vestigial organs", "Identical organs"], "correctAnswer": 1, "explanation": "Analogous organs perform similar functions but have different evolutionary origins, e.g. wings of birds and insects." },
-    { "id": "evo_019", "difficulty": "easy", "question": "The wings of a butterfly and the wings of a bird are an example of:", "options": ["Homologous organs", "Analogous organs", "Vestigial organs", "Rudimentary organs"], "correctAnswer": 1, "explanation": "Both structures function for flight but arose independently, making them analogous, illustrating convergent evolution." },
-    { "id": "evo_020", "difficulty": "easy", "question": "Non-functional or reduced organs that were functional in ancestors are called:", "options": ["Homologous organs", "Analogous organs", "Vestigial organs", "Adaptive organs"], "correctAnswer": 2, "explanation": "Vestigial organs, like the human appendix, are remnants of structures that had a function in ancestral species." },
-    { "id": "evo_021", "difficulty": "easy", "question": "Which of the following is a vestigial organ in humans?", "options": ["Heart", "Appendix", "Liver", "Kidney"], "correctAnswer": 1, "explanation": "The human appendix is considered a vestigial structure, reduced from a functional organ in ancestral species." },
-    { "id": "evo_022", "difficulty": "easy", "question": "The presence of similar early embryonic stages across vertebrates is studied under:", "options": ["Comparative embryology", "Comparative anatomy", "Paleontology", "Biogeography"], "correctAnswer": 0, "explanation": "Comparative embryology examines similarities in early developmental stages of different species as evidence for common ancestry." },
-    { "id": "evo_023", "difficulty": "easy", "question": "The presence of gill slits in early embryos of all vertebrates, including humans, supports:", "options": ["Special creation", "Common ancestry/evolution", "Lamarckism only", "Independent origin of species"], "correctAnswer": 1, "explanation": "The presence of gill slits in vertebrate embryos, even those that never develop gills, is embryological evidence for shared ancestry." },
-    { "id": "evo_024", "difficulty": "easy", "question": "Which branch of study compares molecules like DNA and proteins across species to establish evolutionary relationships?", "options": ["Molecular biology/phylogenetics", "Comparative anatomy", "Paleontology", "Ecology"], "correctAnswer": 0, "explanation": "Molecular phylogenetics uses similarities in DNA, RNA, and protein sequences to infer evolutionary relationships between species." },
-    { "id": "evo_025", "difficulty": "easy", "question": "The finches Darwin studied on the Galapagos Islands showed variation mainly in their:", "options": ["Wing color", "Beak shape and size", "Body temperature", "Number of legs"], "correctAnswer": 1, "explanation": "Darwin's finches showed diverse beak shapes adapted to different food sources, a classic example of adaptive radiation." },
-    { "id": "evo_026", "difficulty": "easy", "question": "Adaptive radiation refers to:", "options": ["Migration of a species to a new area", "Diversification of a species into several forms adapted to different niches from a common ancestor", "Extinction of a species", "Random mutation with no adaptive value"], "correctAnswer": 1, "explanation": "Adaptive radiation is the evolutionary diversification of a single ancestral species into multiple forms occupying different ecological niches." },
-    { "id": "evo_027", "difficulty": "easy", "question": "Which of the following is the best example of adaptive radiation?", "options": ["Darwin's finches", "Human appendix", "Whale flippers", "Bat wings"], "correctAnswer": 0, "explanation": "Darwin's finches on the Galapagos Islands diversified from a common ancestor into many species with different beak adaptations." },
-    { "id": "evo_028", "difficulty": "easy", "question": "Marsupials in Australia evolving into forms resembling placental mammals elsewhere is an example of:", "options": ["Convergent evolution", "Divergent evolution", "Coevolution", "Extinction"], "correctAnswer": 1, "explanation": "This is divergent evolution/adaptive radiation, where isolated marsupials evolved to fill niches similar to placental mammals independently." },
-    { "id": "evo_029", "difficulty": "easy", "question": "When two unrelated species independently evolve similar traits due to similar environments, it is called:", "options": ["Convergent evolution", "Divergent evolution", "Adaptive radiation", "Genetic drift"], "correctAnswer": 0, "explanation": "Convergent evolution occurs when unrelated species independently evolve similar features in response to similar environmental pressures." },
-    { "id": "evo_030", "difficulty": "easy", "question": "The Australian marsupial wolf (Thylacine) and the placental wolf are an example of:", "options": ["Convergent evolution", "Homologous evolution", "Divergent evolution", "Coevolution"], "correctAnswer": 0, "explanation": "Both evolved similar body forms independently due to similar ecological roles, illustrating convergent evolution." },
-    { "id": "evo_031", "difficulty": "easy", "question": "Natural selection acts on:", "options": ["The genotype directly", "Heritable variations among individuals", "Only dominant traits", "Only recessive traits"], "correctAnswer": 1, "explanation": "Natural selection acts on heritable phenotypic variation, favoring traits that increase survival and reproduction." },
-    { "id": "evo_032", "difficulty": "easy", "question": "The industrial melanism seen in the peppered moth (Biston betularia) is a classic example of:", "options": ["Genetic drift", "Natural selection", "Artificial selection", "Gene flow"], "correctAnswer": 1, "explanation": "During industrialization, dark-colored moths were favored by natural selection due to soot-darkened tree bark, demonstrating natural selection in action." },
-    { "id": "evo_033", "difficulty": "easy", "question": "The smallest unit that can evolve is considered to be a:", "options": ["Individual organism", "Population", "Cell", "Species as a whole, not smaller units"], "correctAnswer": 1, "explanation": "Evolution occurs at the population level through changes in allele frequencies over generations, not in individual organisms." },
-    { "id": "evo_034", "difficulty": "easy", "question": "A change in the frequency of alleles in a population over generations is called:", "options": ["Mutation", "Evolution", "Natural selection", "Speciation"], "correctAnswer": 1, "explanation": "Evolution, at the genetic level, is defined as a change in allele frequencies in a population over time." },
-    { "id": "evo_035", "difficulty": "easy", "question": "The sudden, random change in allele frequency in small populations due to chance events is called:", "options": ["Natural selection", "Genetic drift", "Gene flow", "Mutation"], "correctAnswer": 1, "explanation": "Genetic drift is a random, chance-based fluctuation in allele frequency, more pronounced in small populations." },
-    { "id": "evo_036", "difficulty": "easy", "question": "The movement of genes between populations via migration is called:", "options": ["Gene flow", "Genetic drift", "Mutation", "Natural selection"], "correctAnswer": 0, "explanation": "Gene flow is the transfer of alleles between populations through the movement (migration) of individuals or gametes." },
-    { "id": "evo_037", "difficulty": "easy", "question": "The formation of a new species from an existing one over time is called:", "options": ["Adaptation", "Speciation", "Mutation", "Migration"], "correctAnswer": 1, "explanation": "Speciation is the evolutionary process by which new, distinct species arise from ancestral populations." },
-    { "id": "evo_038", "difficulty": "easy", "question": "Geographic isolation as a factor leading to speciation is called:", "options": ["Sympatric speciation", "Allopatric speciation", "Parapatric speciation", "Artificial speciation"], "correctAnswer": 1, "explanation": "Allopatric speciation occurs when populations are separated by a geographic barrier, leading to independent evolution and eventual reproductive isolation." },
-    { "id": "evo_039", "difficulty": "easy", "question": "Speciation occurring within the same geographic area without physical separation is called:", "options": ["Allopatric speciation", "Sympatric speciation", "Peripatric speciation", "Vicariance"], "correctAnswer": 1, "explanation": "Sympatric speciation occurs without geographic separation, often through mechanisms like polyploidy or behavioral isolation." },
-    { "id": "evo_040", "difficulty": "easy", "question": "Which of the following is the modern name given to the combination of Darwinism and genetics?", "options": ["Neo-Darwinism / Modern Synthetic Theory", "Lamarckism", "Mutation theory", "Catastrophism"], "correctAnswer": 0, "explanation": "The Modern Synthesis (Neo-Darwinism) combines Darwin's natural selection with Mendelian genetics and population genetics." },
-    { "id": "evo_041", "difficulty": "easy", "question": "According to modern evolutionary theory, the primary raw material for evolution is:", "options": ["Genetic variation", "Environmental change alone", "Acquired characteristics", "Extinction"], "correctAnswer": 0, "explanation": "Genetic variation (from mutation and recombination) provides the raw material upon which natural selection acts." },
-    { "id": "evo_042", "difficulty": "easy", "question": "Homo sapiens belongs to which order of mammals?", "options": ["Carnivora", "Primates", "Rodentia", "Chiroptera"], "correctAnswer": 1, "explanation": "Humans (Homo sapiens) belong to the order Primates, along with apes and monkeys." },
-    { "id": "evo_043", "difficulty": "easy", "question": "Which of the following is considered a direct ancestor closely related to modern humans in the hominid lineage?", "options": ["Ramapithecus", "Australopithecus", "Chimpanzee", "Dryopithecus"], "correctAnswer": 1, "explanation": "Australopithecus is regarded as an early hominid ancestor that walked upright, closer to the modern human lineage." },
-    { "id": "evo_044", "difficulty": "easy", "question": "Approximately how many years ago did the first anatomically modern humans (Homo sapiens) appear, according to fossil evidence taught in NCERT?", "options": ["10,000 years ago", "About 75,000-200,000 years ago (Africa)", "1 million years ago", "5 million years ago"], "correctAnswer": 1, "explanation": "Modern Homo sapiens are believed to have originated in Africa approximately 75,000 to 200,000 years ago before migrating globally." },
-    { "id": "evo_045", "difficulty": "easy", "question": "Which of the following early hominids used fire and tools, associated with the 'Peking Man'?", "options": ["Homo habilis", "Homo erectus", "Homo sapiens neanderthalensis", "Australopithecus"], "correctAnswer": 1, "explanation": "Homo erectus, including specimens like Peking Man, is associated with tool use and control of fire." },
-    { "id": "evo_046", "difficulty": "easy", "question": "Which finches did Darwin observe had beaks best suited for different food sources like seeds and insects?", "options": ["Galapagos finches", "Amazon finches", "African finches", "European finches"], "correctAnswer": 0, "explanation": "Darwin's observations of finch beak variation on the Galapagos Islands were key evidence for natural selection." },
-    { "id": "evo_047", "difficulty": "easy", "question": "According to Darwin, organisms produce more offspring than can survive, leading to:", "options": ["Overproduction and struggle for existence", "Immediate extinction", "No competition", "Equal survival for all"], "correctAnswer": 0, "explanation": "Darwin noted that overproduction of offspring leads to competition for limited resources — the struggle for existence." },
-    { "id": "evo_048", "difficulty": "easy", "question": "Variation among individuals of a species is important for evolution because it provides:", "options": ["Uniformity in traits", "Raw material for natural selection", "No advantage", "Only harmful effects"], "correctAnswer": 1, "explanation": "Variation provides the diversity upon which natural selection can act, allowing advantageous traits to be selected over generations." },
-    { "id": "evo_049", "difficulty": "easy", "question": "'Survival of the fittest' is a phrase associated with:", "options": ["Lamarckism", "Darwinism", "Mutation theory", "Special creation"], "correctAnswer": 1, "explanation": "The phrase 'survival of the fittest', coined by Herbert Spencer, is closely associated with Darwin's theory of natural selection." },
-    { "id": "evo_050", "difficulty": "easy", "question": "Artificial selection refers to selective breeding of organisms by:", "options": ["Nature", "Humans, for desired traits", "Random chance", "Climate change"], "correctAnswer": 1, "explanation": "Artificial selection is the deliberate breeding of plants/animals by humans to enhance particular desired traits." },
-
-    { "id": "evo_051", "difficulty": "moderate", "question": "The theory of Special Creation states that:", "options": ["All species evolved gradually from simple forms", "All living organisms were created by a supernatural being as they are today", "Life arose from chemical evolution", "Species arise from mutations only"], "correctAnswer": 1, "explanation": "Special Creation is a pre-Darwinian belief that species were individually and independently created in their present form." },
-    { "id": "evo_052", "difficulty": "moderate", "question": "Which experiment demonstrated that RNA-like molecules could self-replicate under prebiotic conditions, supporting the 'RNA world' hypothesis?", "options": ["Miller-Urey experiment", "Fox's experiments on proteinoids", "Cech and Altman's discovery of catalytic RNA (ribozymes)", "Pasteur's swan-neck flask experiment"], "correctAnswer": 2, "explanation": "Thomas Cech and Sidney Altman discovered that RNA can act as a catalyst (ribozyme), supporting the RNA world hypothesis for early self-replicating molecules." },
-    { "id": "evo_053", "difficulty": "moderate", "question": "According to the Oparin-Haldane hypothesis, the first organic compounds formed in the primitive ocean are collectively referred to as:", "options": ["Prebiotic soup / primordial soup", "DNA polymers", "Cellular membranes", "Enzymes"], "correctAnswer": 0, "explanation": "The 'primordial soup' hypothesis suggests simple organic molecules accumulated in early oceans, eventually forming more complex biomolecules." },
-    { "id": "evo_054", "difficulty": "moderate", "question": "Sidney Fox demonstrated that amino acids, when heated under dry conditions, could spontaneously form:", "options": ["Proteinoids (protein-like polymers)", "Nucleic acids", "Complete cells", "Lipids only"], "correctAnswer": 0, "explanation": "Fox showed that simple heating of amino acids could produce proteinoid microspheres, a step toward protocell formation." },
-    { "id": "evo_055", "difficulty": "moderate", "question": "Coacervates and microspheres are considered significant in the origin of life because they represent:", "options": ["The first true living cells", "Precursor structures with a boundary, resembling primitive cell-like organization", "Modern bacterial cells", "DNA replication systems"], "correctAnswer": 1, "explanation": "Coacervates and microspheres are aggregates of molecules with a boundary, considered possible precursors to true cells (protobionts)." },
-    { "id": "evo_056", "difficulty": "moderate", "question": "Which of the following correctly places the geological time periods in order of dinosaur dominance and early mammal appearance?", "options": ["Mesozoic Era (Triassic, Jurassic, Cretaceous)", "Paleozoic Era only", "Cenozoic Era only", "Precambrian Era"], "correctAnswer": 0, "explanation": "The Mesozoic Era, spanning the Triassic, Jurassic, and Cretaceous periods, is known as the age of dinosaurs, with early mammals also appearing." },
-    { "id": "evo_057", "difficulty": "moderate", "question": "The mass extinction event that led to the extinction of dinosaurs occurred at the end of which period?", "options": ["Jurassic", "Cretaceous", "Triassic", "Permian"], "correctAnswer": 1, "explanation": "The Cretaceous-Paleogene extinction event, about 66 million years ago, led to the extinction of non-avian dinosaurs." },
-    { "id": "evo_058", "difficulty": "moderate", "question": "Which era is known as the 'Age of Mammals'?", "options": ["Paleozoic Era", "Mesozoic Era", "Cenozoic Era", "Precambrian Era"], "correctAnswer": 2, "explanation": "The Cenozoic Era, following the extinction of dinosaurs, saw the diversification and dominance of mammals." },
-    { "id": "evo_059", "difficulty": "moderate", "question": "The evolutionary history of the horse (Eohippus to Equus) is a classic example illustrating:", "options": ["Convergent evolution", "Gradual evolutionary change over geological time supported by fossil evidence", "Sudden mutation-driven speciation", "Special creation"], "correctAnswer": 1, "explanation": "The horse fossil series shows gradual changes in size, limb structure, and teeth over millions of years, providing strong fossil evidence for evolution." },
-    { "id": "evo_060", "difficulty": "moderate", "question": "Which of the following best illustrates connecting link evidence for evolution?", "options": ["Archaeopteryx, showing both reptilian and avian features", "Human appendix", "Wings of a bat", "Beak of a Galapagos finch"], "correctAnswer": 0, "explanation": "Archaeopteryx, having both reptilian traits (teeth, tail) and avian traits (feathers), is considered a connecting link between reptiles and birds." },
-    { "id": "evo_061", "difficulty": "moderate", "question": "The presence of similar biochemical pathways (e.g., glycolysis) across almost all living organisms is evidence supporting:", "options": ["Special creation", "Common ancestry of life", "Independent evolution", "No relationship between organisms"], "correctAnswer": 1, "explanation": "Universally conserved biochemical pathways strongly suggest that all life shares a common evolutionary origin." },
-    { "id": "evo_062", "difficulty": "moderate", "question": "Hardy-Weinberg principle states that allele and genotype frequencies in a population remain constant across generations in the absence of:", "options": ["Evolutionary influences (mutation, selection, migration, drift, non-random mating)", "Reproduction", "Meiosis", "Fertilization"], "correctAnswer": 0, "explanation": "The Hardy-Weinberg principle describes genetic equilibrium, disrupted by mutation, selection, gene flow, genetic drift, or non-random mating." },
-    { "id": "evo_063", "difficulty": "moderate", "question": "In the Hardy-Weinberg equation p² + 2pq + q² = 1, 'p' and 'q' represent:", "options": ["Genotype frequencies of two alleles", "Allele frequencies of two alleles in a population", "Number of individuals in a population", "Mutation rates"], "correctAnswer": 1, "explanation": "In the Hardy-Weinberg equation, p and q represent the frequencies of the two alleles at a given locus in the population." },
-    { "id": "evo_064", "difficulty": "moderate", "question": "If the frequency of a recessive allele 'q' is 0.2 in a population at Hardy-Weinberg equilibrium, what is the frequency of the dominant allele 'p'?", "options": ["0.2", "0.4", "0.8", "1.0"], "correctAnswer": 2, "explanation": "Since p + q = 1, if q = 0.2, then p = 1 - 0.2 = 0.8." },
-    { "id": "evo_065", "difficulty": "moderate", "question": "If q = 0.2 in a Hardy-Weinberg population, what is the expected frequency of homozygous recessive individuals (q²)?", "options": ["0.02", "0.04", "0.20", "0.40"], "correctAnswer": 1, "explanation": "q² = (0.2)² = 0.04, representing the frequency of homozygous recessive genotypes." },
-    { "id": "evo_066", "difficulty": "moderate", "question": "The founder effect is best described as:", "options": ["A change in allele frequency when a small group establishes a new population with a non-representative sample of the parent population's genetic diversity", "Selection based on physical fitness", "Gene flow between two large populations", "Mutation caused by radiation"], "correctAnswer": 0, "explanation": "The founder effect occurs when a small subset of a population, carrying only a fraction of the original genetic variation, establishes a new population." },
-    { "id": "evo_067", "difficulty": "moderate", "question": "The 'bottleneck effect' refers to:", "options": ["A drastic reduction in population size leading to loss of genetic variation by chance", "Steady population growth", "Increase in mutation rate", "Migration into a population"], "correctAnswer": 0, "explanation": "A bottleneck effect occurs when a population's size is drastically reduced, causing a random loss of genetic diversity, as seen in cheetahs." },
-    { "id": "evo_068", "difficulty": "moderate", "question": "Which type of natural selection favors individuals with extreme phenotypes over intermediate ones, potentially splitting a population into two forms?", "options": ["Stabilizing selection", "Directional selection", "Disruptive selection", "Sexual selection only"], "correctAnswer": 2, "explanation": "Disruptive selection favors both extreme phenotypes over the intermediate, which can lead to a bimodal distribution of traits." },
-    { "id": "evo_069", "difficulty": "moderate", "question": "Selection that favors the average phenotype and eliminates extreme variants is called:", "options": ["Stabilizing selection", "Directional selection", "Disruptive selection", "Artificial selection"], "correctAnswer": 0, "explanation": "Stabilizing selection favors intermediate phenotypes and reduces variation by selecting against both extremes, e.g. human birth weight." },
-    { "id": "evo_070", "difficulty": "moderate", "question": "Selection that favors one extreme phenotype, shifting the population's trait distribution in one direction, is called:", "options": ["Stabilizing selection", "Directional selection", "Disruptive selection", "Balancing selection"], "correctAnswer": 1, "explanation": "Directional selection favors one extreme phenotype over others, shifting the population mean over time, as seen in antibiotic resistance." },
-    { "id": "evo_071", "difficulty": "moderate", "question": "Antibiotic resistance in bacteria evolving under selective pressure from antibiotic use is an example of:", "options": ["Stabilizing selection", "Directional selection", "Disruptive selection", "Genetic drift only"], "correctAnswer": 1, "explanation": "Continuous antibiotic exposure directionally selects for resistant bacterial strains, shifting the population toward resistance over generations." },
-    { "id": "evo_072", "difficulty": "moderate", "question": "Reproductive isolation mechanisms that prevent mating between species before fertilization are called:", "options": ["Postzygotic isolating mechanisms", "Prezygotic isolating mechanisms", "Genetic drift mechanisms", "Gene flow mechanisms"], "correctAnswer": 1, "explanation": "Prezygotic isolating mechanisms (e.g., behavioral, temporal, mechanical isolation) prevent mating or fertilization from occurring between species." },
-    { "id": "evo_073", "difficulty": "moderate", "question": "Hybrid sterility, as seen in mules (horse × donkey offspring), is an example of:", "options": ["Prezygotic isolation", "Postzygotic isolation", "Geographic isolation", "Temporal isolation"], "correctAnswer": 1, "explanation": "Hybrid sterility is a postzygotic isolating mechanism where offspring are produced but are unable to reproduce." },
-    { "id": "evo_074", "difficulty": "moderate", "question": "Two species of crickets that breed at different times of the year are reproductively isolated by:", "options": ["Temporal isolation", "Mechanical isolation", "Habitat isolation", "Hybrid inviability"], "correctAnswer": 0, "explanation": "Temporal isolation occurs when species breed at different times, preventing interbreeding despite living in the same area." },
-    { "id": "evo_075", "difficulty": "moderate", "question": "The theory of punctuated equilibrium, proposed by Eldredge and Gould, suggests that evolution occurs:", "options": ["Gradually and continuously at a constant rate", "In rapid bursts followed by long periods of stability (stasis)", "Only through mutation", "Only in isolated populations"], "correctAnswer": 1, "explanation": "Punctuated equilibrium proposes that most species show little change (stasis) for long periods, interrupted by rapid bursts of evolutionary change." },
-    { "id": "evo_076", "difficulty": "moderate", "question": "Which of the following organisms is considered a 'living fossil' due to its unchanged morphology over millions of years?", "options": ["Peppered moth", "Coelacanth", "Darwin's finch", "Human"], "correctAnswer": 1, "explanation": "The coelacanth, a fish once thought extinct, has retained a similar morphology for millions of years, earning the title 'living fossil'." },
-    { "id": "evo_077", "difficulty": "moderate", "question": "The relative dating of fossils based on the rock strata (layers) in which they are found is known as:", "options": ["Radiometric dating", "Stratigraphic dating", "Carbon dating only", "Molecular clock dating"], "correctAnswer": 1, "explanation": "Stratigraphic (relative) dating estimates the age of fossils based on their position within layered sedimentary rock." },
-    { "id": "evo_078", "difficulty": "moderate", "question": "Radiometric dating of fossils, using isotopes like Carbon-14 or Uranium, provides:", "options": ["Only relative age", "Absolute age of fossils", "No information about age", "Only the location of fossils"], "correctAnswer": 1, "explanation": "Radiometric dating measures the decay of radioactive isotopes to determine the absolute age of fossils." },
-    { "id": "evo_079", "difficulty": "moderate", "question": "Which of the following best represents 'divergent evolution'?", "options": ["Forelimbs of vertebrates evolving into different specialized structures from a common ancestral form", "Wings of insects and birds evolving similar structure independently", "Two species developing identical traits despite different ancestry", "Vestigial organs disappearing completely"], "correctAnswer": 0, "explanation": "Divergent evolution occurs when related species, starting from a common ancestor, evolve different traits adapted to different environments/functions." },
-    { "id": "evo_080", "difficulty": "moderate", "question": "The concept that closely related species show similar patterns of geographic distribution is studied under:", "options": ["Biogeography", "Paleontology", "Comparative anatomy", "Embryology"], "correctAnswer": 0, "explanation": "Biogeography examines the geographic distribution of species and provides evidence for evolutionary relationships and common ancestry." },
-    { "id": "evo_081", "difficulty": "moderate", "question": "Which primate group is considered most closely related to humans based on molecular and anatomical evidence?", "options": ["Gorillas", "Chimpanzees", "Orangutans", "Gibbons"], "correctAnswer": 1, "explanation": "Molecular and genetic evidence shows chimpanzees share the closest evolutionary relationship with humans among living primates." },
-    { "id": "evo_082", "difficulty": "moderate", "question": "The genus Homo is believed to have first appeared during which epoch?", "options": ["Pleistocene", "Pliocene", "Miocene", "Holocene"], "correctAnswer": 1, "explanation": "The genus Homo, including early species like Homo habilis, is believed to have first appeared in the Pliocene epoch, around 2.5 million years ago." },
-    { "id": "evo_083", "difficulty": "moderate", "question": "Which of the following early hominid species is best known for the fossil skeleton nicknamed 'Lucy'?", "options": ["Homo habilis", "Australopithecus afarensis", "Homo erectus", "Homo neanderthalensis"], "correctAnswer": 1, "explanation": "The famous fossil 'Lucy' belongs to Australopithecus afarensis, an early hominid that walked upright." },
-    { "id": "evo_084", "difficulty": "moderate", "question": "Homo habilis is significant in human evolution primarily because it is considered the first hominid to:", "options": ["Walk upright", "Use and make simple stone tools", "Control fire", "Develop complex language"], "correctAnswer": 1, "explanation": "Homo habilis, meaning 'handy man', is recognized as one of the earliest tool-making hominids." },
-    { "id": "evo_085", "difficulty": "moderate", "question": "Neanderthals (Homo neanderthalensis) are believed to have:", "options": ["Directly evolved into modern Homo sapiens with no overlap", "Coexisted with early Homo sapiens before eventually going extinct", "Never existed alongside modern humans", "Evolved after modern humans"], "correctAnswer": 1, "explanation": "Fossil and genetic evidence shows Neanderthals coexisted and even interbred with early Homo sapiens before their extinction." },
-    { "id": "evo_086", "difficulty": "moderate", "question": "Which theory suggests that modern humans originated in Africa and then spread across the world, replacing other hominid populations?", "options": ["Multiregional hypothesis", "Out of Africa hypothesis / Recent African Origin", "Special creation", "Panspermia"], "correctAnswer": 1, "explanation": "The 'Out of Africa' hypothesis, supported by genetic and fossil evidence, proposes modern humans originated in Africa and migrated globally." },
-    { "id": "evo_087", "difficulty": "moderate", "question": "Increase in brain capacity (cranial volume) over the course of hominid evolution is best correlated with:", "options": ["Decrease in tool use", "Progressive development of cognitive abilities and culture", "Reduction in bipedalism", "Loss of social behavior"], "correctAnswer": 1, "explanation": "The trend of increasing cranial capacity across hominid evolution is associated with growing cognitive complexity, tool use, and culture." },
-    { "id": "evo_088", "difficulty": "moderate", "question": "Bipedalism (walking on two legs) is considered a key adaptation in early hominids because it:", "options": ["Freed the hands for tool use and carrying objects", "Reduced brain size", "Decreased mobility", "Had no evolutionary advantage"], "correctAnswer": 0, "explanation": "Bipedal locomotion freed the hands, enabling tool use, carrying food/infants, and was a crucial step in hominid evolution." },
-    { "id": "evo_089", "difficulty": "moderate", "question": "Which of the following statements about mutation as a source of variation is correct?", "options": ["Mutations are always directed towards adaptive advantage", "Mutations are random and may be neutral, harmful, or beneficial", "Mutations never occur in germ cells", "Mutations cannot be inherited"], "correctAnswer": 1, "explanation": "Mutations occur randomly with respect to their effect on fitness — they can be neutral, harmful, or occasionally beneficial." },
-    { "id": "evo_090", "difficulty": "moderate", "question": "Sexual selection, as proposed by Darwin, refers to selection based on:", "options": ["Survival ability only", "Traits that increase mating success, even if they reduce survival", "Random genetic drift", "Environmental temperature"], "correctAnswer": 1, "explanation": "Sexual selection favors traits (like elaborate plumage) that enhance mating success, even at some cost to individual survival." },
-    { "id": "evo_091", "difficulty": "moderate", "question": "The peacock's elaborate tail is considered an example of which type of selection?", "options": ["Natural selection for camouflage", "Sexual selection", "Stabilizing selection", "Genetic drift"], "correctAnswer": 1, "explanation": "The peacock's tail evolved through sexual selection, as it enhances mating success by attracting females despite being a survival burden." },
-    { "id": "evo_092", "difficulty": "moderate", "question": "Convergent evolution between Australian marsupials and placental mammals elsewhere is best explained by:", "options": ["Shared recent common ancestry", "Similar environmental pressures acting on unrelated lineages", "Direct genetic exchange between species", "Random chance with no environmental role"], "correctAnswer": 1, "explanation": "Similar ecological niches and environmental pressures caused unrelated marsupial and placental lineages to evolve similar body forms independently." },
-    { "id": "evo_093", "difficulty": "moderate", "question": "Which of the following best explains why vestigial organs are considered evidence for evolution rather than special creation?", "options": ["They serve important current functions", "They represent remnants of structures functional in ancestors, implying descent with modification", "They appear randomly with no pattern", "They only occur in plants"], "correctAnswer": 1, "explanation": "Vestigial organs make sense as remnants from ancestors where they had a function, supporting evolutionary descent rather than independent creation." },
-    { "id": "evo_094", "difficulty": "moderate", "question": "The similarity in the sequence of the cytochrome-c protein across diverse species is used as evidence for:", "options": ["Special creation", "Molecular evolution and common ancestry", "Independent evolution of each species", "No evolutionary relationship"], "correctAnswer": 1, "explanation": "Cytochrome-c sequence similarity across species reflects shared ancestry, with fewer differences indicating closer evolutionary relationships." },
-    { "id": "evo_095", "difficulty": "moderate", "question": "Which of the following statements correctly distinguishes homology from analogy?", "options": ["Homology indicates common ancestry (divergent evolution); analogy indicates similar function without common origin (convergent evolution)", "Homology and analogy are the same concept", "Analogy always indicates common ancestry", "Homology never involves structural similarity"], "correctAnswer": 0, "explanation": "Homologous structures share evolutionary origin (divergent evolution) while analogous structures share function but not origin (convergent evolution)." },
-    { "id": "evo_095b", "difficulty": "moderate", "question": "The 'struggle for existence' proposed by Darwin was influenced by which economist's ideas on population growth exceeding resources?", "options": ["Adam Smith", "Thomas Malthus", "Karl Marx", "John Maynard Keynes"], "correctAnswer": 1, "explanation": "Darwin was influenced by Thomas Malthus's essay on how populations grow faster than resources, leading to competition for survival." },
-    { "id": "evo_095c", "difficulty": "moderate", "question": "Which of the following is an example of coevolution?", "options": ["Flowering plants and their specific pollinators evolving matched traits over time", "Two unrelated species living in different habitats", "A single species evolving in isolation", "Random mutation with no ecological interaction"], "correctAnswer": 0, "explanation": "Coevolution occurs when two interacting species, like a flower and its pollinator, reciprocally influence each other's evolution." },
-    { "id": "evo_095d", "difficulty": "moderate", "question": "Which of the following best describes 'gene pool' in population genetics?", "options": ["The sum total of all alleles present in a population at a given time", "The genetic material of a single individual", "Only the dominant alleles in a population", "The number of chromosomes in a species"], "correctAnswer": 0, "explanation": "The gene pool refers to the complete set of genes/alleles present in a population, which evolution acts upon." },
-    { "id": "evo_095e", "difficulty": "moderate", "question": "Non-random mating, such as assortative mating, can lead to which outcome in a population's genetic structure?", "options": ["No change in genotype frequencies at all", "Deviation from Hardy-Weinberg proportions even without allele frequency change", "Complete elimination of one allele instantly", "Uniform genotype frequencies across all populations"], "correctAnswer": 1, "explanation": "Non-random (assortative) mating changes genotype frequency distributions (e.g., increasing homozygosity) even if overall allele frequencies remain unchanged, violating Hardy-Weinberg assumptions." },
-    { "id": "evo_095f", "difficulty": "moderate", "question": "Which of the following best explains why island species often evolve gigantism or dwarfism compared to their mainland relatives?", "options": ["Unique island resource availability, absence of certain predators/competitors, and isolation create distinct selective pressures compared to the mainland", "Islands always have identical selective pressures to the mainland", "Gigantism and dwarfism occur randomly with no ecological basis", "Island species never differ from mainland relatives"], "correctAnswer": 0, "explanation": "The 'island rule' reflects how unique resource limitations, predator absence, and isolation on islands create distinct selection pressures leading to size changes relative to mainland populations." },
-    { "id": "evo_095g", "difficulty": "moderate", "question": "Which of these best defines 'reproductive isolation' in the context of speciation?", "options": ["Barriers that prevent gene flow between populations, allowing them to diverge into separate species", "A process where two species merge into one", "Increased mating success between different species", "Unlimited gene flow between diverging populations"], "correctAnswer": 0, "explanation": "Reproductive isolation refers to mechanisms preventing successful interbreeding, which allows diverging populations to accumulate independent genetic differences and become separate species." },
-    { "id": "evo_095h", "difficulty": "moderate", "question": "Which type of fossil evidence is Archaeopteryx, given its combination of reptilian and bird-like features?", "options": ["A transitional fossil / connecting link", "A living fossil", "An index fossil only", "A trace fossil"], "correctAnswer": 0, "explanation": "Archaeopteryx is a transitional fossil showing a mix of reptilian (teeth, clawed wings, long bony tail) and avian (feathers) characteristics, linking reptiles and birds." },
-    { "id": "evo_095i", "difficulty": "moderate", "question": "Why is the presence of a vermiform appendix in humans, alongside a functional cecum in herbivorous mammals, considered evolutionary evidence?", "options": ["It shows a reduced, non-functional remnant of a structure that was larger and functional (for digesting cellulose) in herbivorous ancestors", "It shows appendix has always been non-functional in all species", "It is unrelated to any ancestral structure", "It proves humans never had herbivorous ancestors"], "correctAnswer": 0, "explanation": "The human appendix is a reduced vestige of the larger cecum found in herbivorous ancestors, which was used for digesting plant cellulose." },
-    { "id": "evo_095j", "difficulty": "moderate", "question": "In evolutionary terms, why do generalist species often have an advantage during periods of rapid environmental change compared to specialists?", "options": ["Generalists can utilize a broader range of resources and conditions, making them less vulnerable to the loss of any single resource", "Generalists always have lower population sizes", "Specialists can survive on any resource available", "Environmental change never affects specialist species"], "correctAnswer": 0, "explanation": "Because generalists are not dependent on a narrow set of resources, they are more likely to survive disruptions that would severely impact specialist species reliant on specific conditions." },
-    { "id": "evo_095k", "difficulty": "moderate", "question": "Which of the following best explains why gene flow tends to reduce genetic differences between populations?", "options": ["Migration of individuals (and their alleles) between populations homogenizes allele frequencies, counteracting local differentiation", "Gene flow always increases differences between populations", "Gene flow has no effect on allele frequency", "Gene flow only occurs within a single population, not between populations"], "correctAnswer": 0, "explanation": "Gene flow introduces new alleles or changes allele frequencies through migration, tending to make connected populations more genetically similar over time." },
-    { "id": "evo_095l", "difficulty": "moderate", "question": "The presence of pentadactyl (five-digit) limb structure across amphibians, reptiles, birds, and mammals is used as evidence for:", "options": ["Independent, unrelated origin of each vertebrate class", "Common ancestry among tetrapod vertebrates", "Convergent evolution only", "Special creation of each species separately"], "correctAnswer": 1, "explanation": "The shared pentadactyl limb pattern across diverse tetrapods, despite different functions, points to a common ancestral origin (homology)." },
-    { "id": "evo_095m", "difficulty": "moderate", "question": "Which best explains why comparing vestigial structures across species is more informative than comparing only functional structures for evolutionary studies?", "options": ["Vestigial structures are less likely to be shaped by current selective pressures, so their similarities more purely reflect shared ancestry rather than convergent functional adaptation", "Vestigial structures are always identical to functional structures", "Vestigial structures never show any similarity between species", "Functional structures always give clearer evolutionary information than vestigial ones"], "correctAnswer": 0, "explanation": "Since vestigial structures no longer serve their original function, their retained similarity across species is less likely due to convergent adaptive pressure and more likely reflects shared ancestry." },
-    { "id": "evo_095n", "difficulty": "moderate", "question": "The evolution of resistance to pesticides in insect populations is best explained by which evolutionary mechanism?", "options": ["Directional natural selection favoring pre-existing resistance alleles", "Lamarckian inheritance of acquired resistance", "Random genetic drift with no selective pressure", "Special creation of resistant insects"], "correctAnswer": 0, "explanation": "Pesticide exposure acts as a selective pressure, favoring survival and reproduction of individuals with pre-existing resistance alleles, driving directional selection." },
-    { "id": "evo_095o", "difficulty": "moderate", "question": "Which of the following best explains the evolutionary relationship indicated by DNA hybridization studies between humans and other primates?", "options": ["Greater DNA hybridization (binding) between human and chimpanzee DNA compared to human and other primates indicates a closer evolutionary relationship with chimpanzees", "DNA hybridization shows no evolutionary relationships", "All primates show identical DNA hybridization with humans", "DNA hybridization can only be used for plants"], "correctAnswer": 0, "explanation": "DNA hybridization experiments measure genetic similarity; higher hybridization between human and chimpanzee DNA compared to other primates indicates a closer evolutionary relationship." },
-    { "id": "evo_095p", "difficulty": "moderate", "question": "Which of the following best describes the significance of Dryopithecus and Ramapithecus in the study of primate/hominid evolution?", "options": ["They are ape-like and man-like fossil primates once studied as possible common ancestors in the hominid lineage", "They are modern-day living primate species", "They are entirely unrelated to primate evolution", "They represent modern Homo sapiens populations"], "correctAnswer": 0, "explanation": "Dryopithecus (more ape-like) and Ramapithecus (once thought more man-like) are fossil primates that have been studied in relation to the divergence of hominid and ape lineages." },
-
-    { "id": "evo_096", "difficulty": "hard", "question": "Which of the following best explains why the mutation theory of de Vries, though partially correct, could not fully replace Darwin's theory of natural selection?", "options": ["De Vries's theory ignored the role of gradual variation and the differential survival/reproduction (selection) that shapes evolutionary direction", "Mutation theory perfectly explained gradual evolution", "Darwin's theory rejected the existence of variation", "De Vries proved mutations never occur"], "correctAnswer": 0, "explanation": "While mutations do provide raw genetic variation, de Vries's theory alone did not account for the selective process (natural selection) that determines which variations persist, which Darwin's theory addressed." },
-    { "id": "evo_097", "difficulty": "hard", "question": "In the modern synthetic theory of evolution, which combination of factors is considered essential for evolutionary change?", "options": ["Mutation, gene recombination, natural selection, and genetic drift acting on populations", "Only mutation acting on individuals", "Only natural selection with no genetic basis", "Only inheritance of acquired characteristics"], "correctAnswer": 0, "explanation": "Modern synthesis integrates Mendelian genetics with Darwinian selection, incorporating mutation, recombination, selection, and drift as combined mechanisms of evolution at the population level." },
-    { "id": "evo_098", "difficulty": "hard", "question": "Which line of evidence would most strongly support that whales evolved from land-dwelling ancestors?", "options": ["Presence of vestigial pelvic and hind limb bones in whale skeletons along with transitional fossils like Pakicetus and Ambulocetus", "Whales living exclusively in the ocean today", "Whales having gills like fish", "Whales having no bones at all"], "correctAnswer": 0, "explanation": "Vestigial pelvic bones and a series of transitional fossils (Pakicetus, Ambulocetus, etc.) provide strong evidence that whales evolved from four-legged land mammals." },
-    { "id": "evo_099", "difficulty": "hard", "question": "Why is the presence of a 'molecular clock' useful in evolutionary biology, and what key assumption does it rely on?", "options": ["It estimates divergence time between species based on the assumption that mutations accumulate at a roughly constant rate over time", "It measures the exact age of fossils using radioactive decay", "It has no assumptions and is always 100% accurate", "It only applies to morphological traits, not molecules"], "correctAnswer": 0, "explanation": "The molecular clock hypothesis assumes a relatively constant rate of neutral mutation accumulation, allowing scientists to estimate the time since two species diverged from a common ancestor." },
-    { "id": "evo_100", "difficulty": "hard", "question": "In Hardy-Weinberg equilibrium, if the observed genotype frequencies in a population significantly deviate from those predicted by p² + 2pq + q² = 1, this suggests that:", "options": ["The population is likely undergoing evolutionary change due to factors like selection, migration, or non-random mating", "The population has no genetic variation", "Hardy-Weinberg equilibrium is always maintained regardless of evolutionary forces", "The population size must be infinite"], "correctAnswer": 0, "explanation": "Deviation from Hardy-Weinberg predicted frequencies indicates that one or more evolutionary forces (mutation, selection, migration, drift, non-random mating) are acting on the population." },
-    { "id": "evo_101", "difficulty": "hard", "question": "A population of 1000 individuals has 640 homozygous dominant (AA), 320 heterozygous (Aa), and 40 homozygous recessive (aa) individuals. What is the allele frequency of 'a' in this population?", "options": ["0.1", "0.2", "0.3", "0.4"], "correctAnswer": 1, "explanation": "Frequency of 'a' = [(2 × 40) + 320] / (2 × 1000) = (80 + 320)/2000 = 400/2000 = 0.2." },
-    { "id": "evo_102", "difficulty": "hard", "question": "Which scenario best illustrates the founder effect in evolutionary biology?", "options": ["A small group of birds is blown by a storm to a new island and establishes a population with allele frequencies different from the mainland population", "A large population gradually accumulates mutations over millions of years", "A population undergoes constant gene flow with a neighboring population", "A population remains at Hardy-Weinberg equilibrium indefinitely"], "correctAnswer": 0, "explanation": "The founder effect occurs when a small number of individuals establish a new population, carrying only a random subset of the original population's genetic variation." },
-    { "id": "evo_103", "difficulty": "hard", "question": "Why do biologists consider the fossil record to be an incomplete but still valuable source of evolutionary evidence?", "options": ["Fossilization requires specific conditions (rapid burial, mineral-rich environment) so many organisms, especially soft-bodied ones, are never preserved, yet existing fossils still reveal clear evolutionary trends and transitional forms", "All organisms fossilize equally well", "Fossils provide no useful information about evolution", "The fossil record is 100% complete with no gaps"], "correctAnswer": 0, "explanation": "Fossilization is a rare event requiring specific conditions, so the fossil record has significant gaps, yet it still documents clear evolutionary transitions and trends, such as in horse evolution." },
-    { "id": "evo_104", "difficulty": "hard", "question": "Which of the following best explains why genetic drift has a stronger effect on small populations than large ones?", "options": ["In small populations, random sampling of alleles from one generation to the next causes larger proportional changes in allele frequency due to fewer individuals", "Genetic drift only occurs in large populations", "Small populations have no genetic variation", "Large populations are immune to any allele frequency change"], "correctAnswer": 0, "explanation": "In small populations, chance events have a proportionally larger effect on allele frequencies because there are fewer individuals to average out random fluctuations." },
-    { "id": "evo_105", "difficulty": "hard", "question": "The Cambrian explosion refers to:", "options": ["A relatively rapid diversification of most major animal phyla within a geologically short period around 541 million years ago", "The extinction of all life on Earth", "The formation of the first stars", "A slow, gradual process spanning billions of years"], "correctAnswer": 0, "explanation": "The Cambrian explosion was a period of rapid evolutionary diversification where most major animal phyla appeared in the fossil record over a relatively short geological timescale." },
-    { "id": "evo_106", "difficulty": "hard", "question": "Which of the following best explains the evolutionary significance of homeotic (Hox) genes in the diversification of animal body plans?", "options": ["Hox genes regulate the development of body segments and their mutations/regulatory changes can lead to significant morphological diversification across species", "Hox genes have no role in development", "Hox genes are unique to plants only", "Hox genes prevent all morphological change"], "correctAnswer": 0, "explanation": "Hox genes control body plan development, and changes in their regulation are thought to underlie major evolutionary innovations and diversification in body forms." },
-    { "id": "evo_107", "difficulty": "hard", "question": "Why is convergent evolution considered strong evidence for the role of natural selection (rather than random processes) in shaping phenotypes?", "options": ["Unrelated species independently evolving similar traits in similar environments suggests that selection pressures, not chance, are driving adaptive solutions", "It shows that evolution is completely random", "It proves that natural selection does not occur", "It shows organisms never adapt to environments"], "correctAnswer": 0, "explanation": "The repeated, independent evolution of similar traits in unrelated lineages facing similar environmental challenges strongly suggests that natural selection is driving convergent adaptive outcomes." },
-    { "id": "evo_108", "difficulty": "hard", "question": "Which of the following statements about punctuated equilibrium versus phyletic gradualism is most accurate?", "options": ["Punctuated equilibrium proposes rapid change followed by long stasis, while phyletic gradualism proposes slow, continuous change; both are supported by different parts of the fossil record", "Punctuated equilibrium and phyletic gradualism describe identical patterns", "Phyletic gradualism has been completely disproven", "Punctuated equilibrium denies that evolution occurs at all"], "correctAnswer": 0, "explanation": "Both models describe different observed tempos of evolutionary change in the fossil record — gradual continuous change (gradualism) versus rapid change interspersed with stasis (punctuated equilibrium)." },
-    { "id": "evo_109", "difficulty": "hard", "question": "Why might polyploidy be considered a mechanism of rapid sympatric speciation, particularly in plants?", "options": ["A sudden increase in chromosome number can immediately create reproductive isolation from the parent population, forming a new species within a single generation", "Polyploidy always results in death of the organism", "Polyploidy never affects fertility", "Polyploidy only occurs over millions of years"], "correctAnswer": 0, "explanation": "Polyploid individuals often cannot successfully breed with the diploid parent population due to chromosome number mismatch, potentially creating instant reproductive isolation and new species, common in plants." },
-    { "id": "evo_110", "difficulty": "hard", "question": "Which of the following best explains why the peppered moth (Biston betularia) example is considered strong evidence for natural selection rather than merely correlation?", "options": ["Controlled experiments showed differential predation rates on light vs. dark moths correlated with bark coloration, and allele frequencies shifted predictably with pollution levels and reversed after pollution controls", "The moths changed color voluntarily to match their environment", "No experiments were ever conducted on peppered moths", "Predation had no role in the moth's coloration change"], "correctAnswer": 0, "explanation": "Controlled field experiments (e.g., by Kettlewell) demonstrated that bird predation favored camouflaged moths, and population allele frequencies shifted correspondingly with pollution levels, and reversed after clean air legislation — strong causal evidence for selection." },
-    { "id": "evo_111", "difficulty": "hard", "question": "Which of the following best describes why humans and chimpanzees, despite sharing a high percentage of DNA sequence similarity, show substantial phenotypic differences?", "options": ["Small changes in regulatory genes controlling the timing and pattern of gene expression can produce large phenotypic differences, even with high overall sequence similarity", "DNA similarity has no bearing on phenotype", "Humans and chimps have completely different genetic codes", "Phenotypic differences are due to environment alone with no genetic basis"], "correctAnswer": 0, "explanation": "Even small differences in regulatory (non-coding) DNA that control gene expression patterns and timing can result in significant phenotypic and developmental differences between closely related species." },
-    { "id": "evo_112", "difficulty": "hard", "question": "Why do scientists consider Australopithecus afarensis a crucial transitional form in human evolution?", "options": ["It exhibits a mosaic of ape-like (small brain) and human-like (bipedal walking) traits, illustrating gradual evolutionary transition", "It is identical to modern humans in every way", "It shows no relationship to either apes or humans", "It lived exclusively in trees with no terrestrial adaptation"], "correctAnswer": 0, "explanation": "Australopithecus afarensis (e.g., 'Lucy') combined a small, ape-like brain with clearly bipedal locomotion, representing a key transitional stage in hominid evolution." },
-    { "id": "evo_113", "difficulty": "hard", "question": "Which of the following best explains the evolutionary advantage that may have driven the selection for larger brain size in the Homo lineage?", "options": ["Increased cognitive capacity supported complex tool use, social cooperation, and adaptability to varied and changing environments", "Larger brains had no survival advantage", "Brain size decreased steadily throughout Homo evolution", "Brain size evolution is unrelated to environmental or social factors"], "correctAnswer": 0, "explanation": "A larger brain likely conferred advantages in tool-making, social cooperation, problem-solving, and adaptability, which were selected for in changing Pleistocene environments." },
-    { "id": "evo_114", "difficulty": "hard", "question": "Which statement best captures the significance of genetic and fossil evidence supporting interbreeding between Homo sapiens and Neanderthals?", "options": ["Modern non-African human genomes contain a small percentage of Neanderthal DNA, indicating historical interbreeding events between the two groups", "Neanderthals and Homo sapiens never coexisted", "There is no genetic evidence linking Neanderthals to modern humans", "All modern humans are genetically identical to Neanderthals"], "correctAnswer": 0, "explanation": "Genomic studies have found that modern non-African human populations carry a small percentage of Neanderthal DNA, confirming interbreeding occurred as modern humans migrated out of Africa." },
-    { "id": "evo_115", "difficulty": "hard", "question": "Why is the study of pseudogenes (non-functional gene remnants) considered strong molecular evidence for evolution?", "options": ["Pseudogenes are shared, non-functional remnants of once-active genes found in similar locations in the genomes of related species, indicating common ancestry", "Pseudogenes have essential, active functions in all species", "Pseudogenes are found only in unrelated species", "Pseudogenes arise independently with no evolutionary connection"], "correctAnswer": 0, "explanation": "Shared pseudogenes (non-functional genetic remnants) in similar genomic locations across related species are difficult to explain except through common ancestry and divergence from a shared genome." },
-    { "id": "evo_116", "difficulty": "hard", "question": "Which of the following best explains why 'natural selection' is not synonymous with 'evolution' but rather one of its mechanisms?", "options": ["Evolution refers to change in allele frequencies over time via multiple possible mechanisms (selection, drift, mutation, gene flow), of which natural selection is just one", "Natural selection and evolution are identical concepts with no distinction", "Evolution only occurs through natural selection and no other mechanism", "Natural selection causes evolution to stop"], "correctAnswer": 0, "explanation": "Evolution is the broader phenomenon of allele frequency change over generations, driven by multiple mechanisms including natural selection, genetic drift, mutation, and gene flow." },
-    { "id": "evo_117", "difficulty": "hard", "question": "Why can reproductive isolation evolve as a byproduct of allopatric divergence even without direct selection for isolation itself?", "options": ["As geographically separated populations accumulate independent genetic changes over time, incidental incompatibilities can arise that prevent successful interbreeding if the populations later come into contact", "Reproductive isolation always requires direct selection specifically for that trait", "Geographic separation has no effect on genetic divergence", "Populations never diverge genetically when separated"], "correctAnswer": 0, "explanation": "Genetic divergence accumulated independently in geographically isolated populations can incidentally create reproductive barriers (a byproduct of divergence) even without direct selection for isolation." },
-    { "id": "evo_118", "difficulty": "hard", "question": "Which line of evidence would be most convincing in distinguishing whether two similar-looking species arose via convergent evolution or shared recent common ancestry?", "options": ["Comparing DNA/molecular sequence similarity and phylogenetic analysis, since morphology alone can be misleading due to convergence", "Comparing only external body shape", "Assuming similarity in appearance always means close relation", "Ignoring genetic data entirely"], "correctAnswer": 0, "explanation": "Molecular and phylogenetic analysis can reveal true evolutionary relationships, since morphological similarity due to convergent evolution can be misleading if based on appearance alone." },
-    { "id": "evo_119", "difficulty": "hard", "question": "Why does the presence of DDT-resistant mosquitoes appearing rapidly after DDT use NOT indicate that mosquitoes 'developed' resistance in response to DDT exposure, from a natural selection perspective?", "options": ["Resistance alleles likely already existed at low frequency in the population before DDT exposure; DDT acted as a selective agent favoring survival and reproduction of already-resistant individuals, not creating the mutation", "DDT directly caused mutations that created resistance intentionally", "Mosquitoes consciously changed their genetics to survive", "Resistance was impossible before DDT was introduced"], "correctAnswer": 0, "explanation": "Natural selection does not create new mutations in response to need; pre-existing genetic variation (resistance alleles) is selected for when the environment (DDT presence) favors survival of already-resistant individuals." },
-    { "id": "evo_120", "difficulty": "hard", "question": "Which of the following best explains why island populations often show rapid morphological divergence compared to mainland populations of the same ancestral species (as in Darwin's finches)?", "options": ["Reduced gene flow from the mainland, novel ecological niches, and founder effects allow isolated island populations to diverge rapidly under unique selective pressures", "Islands have identical environments to the mainland", "Gene flow between island and mainland populations is always maximal", "Island populations never experience unique selective pressures"], "correctAnswer": 0, "explanation": "Geographic isolation limits gene flow, while novel island ecological niches and founder effects create unique selective pressures that can drive rapid divergence, as seen in Darwin's finches." },
-    { "id": "evo_121", "difficulty": "hard", "question": "In evolutionary biology, why is 'fitness' defined in terms of reproductive success rather than physical strength or size?", "options": ["Fitness measures an organism's relative ability to survive AND successfully pass on its genes to the next generation, which is the actual currency of natural selection", "Fitness only refers to physical strength", "Fitness is unrelated to reproduction", "Larger organisms always have higher fitness regardless of reproduction"], "correctAnswer": 0, "explanation": "In evolutionary terms, fitness specifically measures reproductive success (contribution to the next generation's gene pool), not merely physical attributes like size or strength." },
-    { "id": "evo_122", "difficulty": "hard", "question": "Which of the following best explains why vestigial structures like the human coccyx (tailbone) are not simply useless byproducts, but rather evidence of evolutionary history combined with occasional secondary function?", "options": ["Though reduced from an ancestral tail, the coccyx now serves as a muscle attachment point, illustrating how structures can be co-opted for new minor functions while still reflecting evolutionary ancestry", "The coccyx has always had its current function with no evolutionary history", "Vestigial structures never have any function at all", "The coccyx is unrelated to any ancestral structure"], "correctAnswer": 0, "explanation": "The human coccyx, though vestigial (reduced from an ancestral tail), has been co-opted to serve as an attachment point for certain muscles, illustrating how evolution can repurpose ancestral structures." },
-    { "id": "evo_123", "difficulty": "hard", "question": "Which of the following best explains why the modern synthetic theory considers 'population', not the 'individual', as the fundamental unit of evolution?", "options": ["Allele frequencies, upon which evolutionary change is measured, exist and change at the population level across generations, not within a single organism's lifetime", "Individual organisms can evolve within their own lifetime", "Populations have no genetic variation", "Evolution occurs only within a single generation of one individual"], "correctAnswer": 0, "explanation": "Since evolution is defined as a change in allele frequency over generations, and individual organisms cannot change their own genotype after birth, the population is the level at which evolutionary change is measured." },
-    { "id": "evo_124", "difficulty": "hard", "question": "Why might scientists argue that the Cambrian explosion does not contradict Darwinian gradualism despite its relatively rapid pace in geological terms?", "options": ["Even though rapid on a geological timescale, the Cambrian explosion still spanned millions of years, allowing sufficient time for gradual, cumulative evolutionary changes to occur through natural selection", "The Cambrian explosion occurred within a single day", "Gradualism requires evolutionary change to be instantaneous", "The Cambrian explosion proves that no gradual change ever occurs"], "correctAnswer": 0, "explanation": "Although the Cambrian explosion appears rapid on a geological scale (spanning roughly 13-25 million years), this timeframe is still sufficient to accommodate gradual, cumulative evolutionary changes consistent with natural selection." },
-    { "id": "evo_125", "difficulty": "hard", "question": "Which of the following best explains why comparative genomics (comparing whole genome sequences) provides more robust evidence for evolutionary relationships than comparing single genes or proteins alone?", "options": ["Whole genome comparisons account for multiple independent loci, reducing the chance that convergent or parallel changes in a single gene mislead the inferred phylogenetic relationship", "Single gene comparisons are always more accurate than whole genomes", "Genome size alone determines evolutionary relationships", "Comparative genomics has no advantage over single-gene studies"], "correctAnswer": 0, "explanation": "Using data from many genes across the genome reduces the risk that chance similarities or convergent changes in any single gene will distort the inferred evolutionary relationships, giving more robust phylogenies." },
-    { "id": "evo_126", "difficulty": "hard", "question": "Why do evolutionary biologists consider 'irreducible complexity' arguments against evolution to be flawed, using the example of the vertebrate eye?", "options": ["Studies of simpler eye-like structures across species (from light-sensitive patches to complex camera eyes) show plausible gradual evolutionary intermediates, each providing a survival advantage", "The vertebrate eye appeared suddenly with no precursor structures", "No intermediate eye structures exist in nature", "Complex organs cannot evolve through small incremental steps under any circumstances"], "correctAnswer": 0, "explanation": "Comparative studies across species reveal a graded series of increasingly complex eye structures, each conferring a functional advantage, refuting claims that complex organs like the eye could not evolve gradually." },
-    { "id": "evo_127", "difficulty": "hard", "question": "Which of the following best explains why horizontal gene transfer complicates the construction of a simple 'tree of life' model for evolution, particularly in prokaryotes?", "options": ["Genes can be transferred between unrelated or distantly related species (not just parent to offspring), creating a more web-like pattern of genetic relationships rather than a strict branching tree", "Horizontal gene transfer never occurs in nature", "All organisms only inherit genes vertically from parents with no exceptions", "Horizontal gene transfer only occurs in complex multicellular organisms"], "correctAnswer": 0, "explanation": "Horizontal gene transfer, common in prokaryotes, moves genetic material between unrelated species, creating reticulate (net-like) evolutionary relationships rather than a purely branching tree pattern." },
-    { "id": "evo_128", "difficulty": "hard", "question": "Which of the following best explains why the 'living fossil' status of organisms like the coelacanth does NOT mean they have stopped evolving entirely?", "options": ["While their gross morphology has remained relatively stable, molecular/genetic evolution (mutation accumulation) continues at the DNA level even without major visible morphological change", "Living fossils have completely stopped all genetic change including at the molecular level", "Living fossils are genetically identical to their ancestors from millions of years ago", "Evolution requires visible morphological change to be occurring"], "correctAnswer": 0, "explanation": "Even organisms with stable morphology over long periods (like coelacanths) continue to accumulate genetic mutations at the molecular level; stasis in visible form does not mean a complete absence of evolutionary change." },
-    { "id": "evo_129", "difficulty": "hard", "question": "Which of the following best explains the evolutionary concept of 'exaptation', using feathers in early theropod dinosaurs as an example?", "options": ["A trait that originally evolved for one function (e.g., insulation or display) can later be co-opted for a different function (e.g., flight) under new selective pressures", "Exaptation means a trait evolves specifically and only for its current function from the very beginning", "Feathers evolved solely and directly for flight with no other prior function", "Exaptation refers to traits that provide no adaptive benefit at any point"], "correctAnswer": 0, "explanation": "Exaptation describes how a trait like feathers, which may have initially evolved for insulation or display in theropod dinosaurs, was later co-opted for the new function of flight in birds." },
-    { "id": "evo_130", "difficulty": "hard", "question": "Why is it inaccurate to describe evolution as producing organisms that are 'perfectly designed' for their environment?", "options": ["Natural selection acts on existing variation and historical constraints, often producing workable but imperfect solutions (e.g., the vertebrate retina's inverted wiring) rather than optimal design from scratch", "Evolution always produces perfect, flawless adaptations with no exceptions", "Natural selection has unlimited raw material to design any trait from nothing", "All organisms are equally and maximally adapted with no tradeoffs"], "correctAnswer": 0, "explanation": "Evolution works with existing variation and is constrained by ancestry and history, often resulting in imperfect but functional adaptations (like the human vertebrate eye's 'backwards' retina), rather than optimal engineered solutions." },
-    { "id": "evo_131", "difficulty": "hard", "question": "Which of the following best explains why 'antibiotic resistance' evolving in bacterial populations under lab conditions is considered a directly observed example of evolution, addressing common misconceptions about evolution being 'just a theory'?", "options": ["Researchers can directly observe allele frequency changes (increase in resistance genes) across generations under controlled selective pressure, fulfilling the scientific definition of evolution as a repeatable, testable, observable process", "Evolution can never be directly observed or tested in real time", "Antibiotic resistance has no genetic basis and is not evolution", "Bacterial evolution under lab conditions does not count as real evolution"], "correctAnswer": 0, "explanation": "Laboratory studies tracking bacterial populations under antibiotic selection directly observe increasing frequency of resistance alleles across generations — a controlled, repeatable, and directly testable demonstration of evolution by natural selection." },
-    { "id": "evo_132", "difficulty": "hard", "question": "Which of the following best explains why analyzing pseudogene mutations shared between humans and other primates (e.g., a broken vitamin C synthesis gene, GULO) provides especially strong evidence for common ancestry?", "options": ["The same specific inactivating mutation occurring independently by pure chance in the identical genomic location across unrelated lineages is statistically extremely improbable, so shared identical pseudogene mutations strongly indicate inheritance from a common ancestor", "Pseudogene mutations always occur independently and identically by pure random chance across all species", "Shared pseudogenes prove that species were created separately and identically", "Pseudogenes have no relevance to evolutionary relationships"], "correctAnswer": 0, "explanation": "The probability of the exact same disabling mutation occurring independently and by chance in the identical location of a non-functional gene across multiple species is vanishingly small; shared identical pseudogene mutations are much better explained by common inheritance from a shared ancestor." },
-    { "id": "evo_133", "difficulty": "hard", "question": "Why do biologists argue that 'evolution' and the 'origin of life' (abiogenesis) are conceptually distinct, even though they are often discussed together?", "options": ["Evolution describes the process of change in existing living organisms across generations, while abiogenesis addresses the separate question of how life first arose from non-living matter; evolutionary theory does not depend on resolving abiogenesis", "Evolution and abiogenesis are exactly the same concept with no distinction", "Evolution requires a fully solved theory of abiogenesis to be considered valid", "Abiogenesis and evolution both refer only to natural selection"], "correctAnswer": 0, "explanation": "Evolutionary theory explains how life diversifies once it exists, and is supported independently of how life originated; abiogenesis is a separate, ongoing area of research into life's chemical origins." },
-    { "id": "evo_134", "difficulty": "hard", "question": "Which of the following best explains why the concept of 'missing links' in the fossil record is somewhat misleading according to modern evolutionary understanding?", "options": ["Evolution is a branching, continuous process, so there will always be more transitional forms to discover between any two points; no single fossil represents a final, definitive 'missing link', and many transitional fossils have already been found", "Every possible transitional fossil has already been discovered with no gaps remaining", "The fossil record shows no transitional forms have ever been found", "Missing links are impossible to exist because evolution does not occur through gradual steps"], "correctAnswer": 0, "explanation": "Because evolution is a continuous branching process, there is no single definitive 'missing link' — rather, many transitional fossils (e.g., Archaeopteryx, Tiktaalik, Australopithecus) have been found, and more transitional stages can theoretically always be found between any two points in the lineage." },
-    { "id": "evo_135", "difficulty": "hard", "question": "Which of the following best explains why sexual reproduction is thought to have been favored by natural selection despite its costs (like the 'two-fold cost of sex') compared to asexual reproduction?", "options": ["Genetic recombination during sexual reproduction generates greater genetic diversity in offspring, which can be advantageous for adapting to changing environments and resisting parasites/pathogens (Red Queen hypothesis)", "Sexual reproduction has no evolutionary cost compared to asexual reproduction", "Asexual reproduction always produces more genetically diverse offspring than sexual reproduction", "Sexual reproduction was favored purely by random chance with no adaptive explanation"], "correctAnswer": 0, "explanation": "Despite reproductive costs, sexual reproduction's genetic recombination creates variable offspring, which may provide an evolutionary advantage in resisting fast-evolving parasites and adapting to changing environments, as proposed by the Red Queen hypothesis." }
-  ]
-}
+[
+  {
+    "id": "evo-001",
+    "question": "According to the Oparin-Haldane hypothesis, the first organic molecules on early Earth are believed to have originated from:",
+    "options": [
+      "Simple inorganic molecules present in the early atmosphere, undergoing chemical reactions driven by energy sources like lightning and UV radiation",
+      "Fully formed living cells that arrived directly from outer space with no prior chemical evolution",
+      "Spontaneous generation from decaying organic matter",
+      "Direct divine creation with no chemical basis"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The Oparin-Haldane hypothesis proposes that simple inorganic molecules in Earth's early atmosphere (such as methane, ammonia, water vapour, and hydrogen) underwent chemical reactions, driven by energy sources like lightning and UV radiation, to form simple organic molecules — the first step toward the origin of life.",
+      "why_others_wrong": "The hypothesis specifically addresses chemical evolution from inorganic precursors, not organisms arriving fully formed from space; spontaneous generation from decaying organic matter is a distinct, now-discredited historical idea, different from the Oparin-Haldane chemical evolution hypothesis; the hypothesis is a scientific chemical evolution theory, not based on direct divine creation.",
+      "concept_recap": "This hypothesis forms the foundation for the broader scientific understanding of chemical evolution as a precursor to biological evolution."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-002",
+    "question": "The Miller-Urey experiment, conducted to test ideas about the origin of life, demonstrated that:",
+    "options": [
+      "Complex, fully functional living cells can be created directly in a laboratory setting",
+      "Simple organic molecules, including amino acids, can be synthesised from a simulated early-Earth atmosphere under laboratory conditions using an electric spark",
+      "Life definitely originated on another planet and was transported to Earth",
+      "DNA can be synthesised directly from inorganic molecules without any intermediate organic compounds"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Miller-Urey experiment demonstrated that simple organic molecules, including amino acids, could be synthesised from a simulated early-Earth atmosphere (containing methane, ammonia, hydrogen, and water vapour) when subjected to an electric spark simulating lightning.",
+      "why_others_wrong": "The experiment did not create complex, fully functional living cells — it demonstrated only the formation of simple organic building blocks like amino acids; the experiment provides support for chemical evolution occurring on early Earth itself, not evidence of life's origin elsewhere; the experiment specifically demonstrated the formation of organic molecules like amino acids, not the direct synthesis of complex molecules like DNA from inorganic precursors alone.",
+      "concept_recap": "This landmark experiment provided important experimental support for the Oparin-Haldane hypothesis regarding the chemical origin of life's building blocks."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-003",
+    "question": "Which of the following best describes the significance of the discovery that some RNA molecules (ribozymes) can act as catalysts, in the context of theories about the origin of life?",
+    "options": [
+      "It has no relevance to theories about the origin of life",
+      "It supports the 'RNA world' hypothesis, suggesting that RNA may have been capable of both storing genetic information and catalysing reactions before the evolution of DNA and proteins",
+      "It proves that DNA was the very first genetic material to exist",
+      "It shows that proteins were the first molecules capable of self-replication"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The discovery that RNA can act as a catalyst (as a ribozyme) supports the 'RNA world' hypothesis, which proposes that early life may have relied on RNA molecules capable of both storing genetic information and catalysing biochemical reactions, before the later evolution of DNA and protein-based catalysis.",
+      "why_others_wrong": "This discovery has very significant relevance to origin-of-life theories, contrary to having none; the RNA world hypothesis specifically proposes RNA (not DNA) as the likely earlier genetic material, given DNA's greater chemical stability suggesting later evolutionary origin; the ribozyme discovery specifically highlights RNA's catalytic capability, not evidence that proteins were the first self-replicating molecules.",
+      "concept_recap": "The RNA world hypothesis helps address the 'chicken-and-egg' problem of needing both genetic material and catalysts for early life, since RNA could potentially serve both roles simultaneously."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-004",
+    "question": "Which of the following best describes the likely function of early, simple membrane-bound structures (sometimes called 'protobionts' or 'coacervates') in theories about the origin of life?",
+    "options": [
+      "They had no functional significance in early chemical evolution",
+      "They may have provided a bounded, concentrated environment allowing organic molecules to interact more efficiently, representing a step toward the organisation of the first true cells",
+      "They were fully functional modern cells with complex organelles from the very beginning",
+      "They only existed after the evolution of complex multicellular life"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Simple membrane-bound structures like protobionts or coacervates may have provided an early bounded, concentrated environment, allowing organic molecules to interact more efficiently and concentrate — representing a plausible intermediate step toward the organisation of the first true, simple cells.",
+      "why_others_wrong": "These structures are considered to have significant functional relevance in origin-of-life theories, not being without significance; protobionts/coacervates represent simple, early precursor structures, not fully functional modern cells with complex organelles; these concepts specifically address a very early stage of life's origin, occurring long before the evolution of complex multicellular life.",
+      "concept_recap": "This progression from simple organic molecules to bounded protobiont-like structures represents a plausible stepwise pathway toward the emergence of the first true living cells."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-005",
+    "question": "Which of the following best describes 'homologous organs,' as evidence supporting evolution?",
+    "options": [
+      "Organs with completely different underlying structure but similar external function, having evolved independently in unrelated species",
+      "Organs with similar underlying structure, indicating a common evolutionary origin, but which may perform different functions in different species",
+      "Organs found only in a single species, with no equivalent in any other species",
+      "Organs that have no relationship to evolutionary history whatsoever"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Homologous organs share a similar underlying anatomical structure, indicating a common evolutionary origin (divergent evolution from a shared ancestor), even though they may have since evolved to perform different functions in different species (e.g., the forelimbs of humans, whales, and bats).",
+      "why_others_wrong": "Organs with different structure but similar function due to independent evolution describes analogous organs, not homologous organs; homologous organs are, by definition, found across multiple related species sharing a common ancestor, not restricted to a single species; homologous organs have very significant, direct relevance to understanding evolutionary relationships, contrary to having none.",
+      "concept_recap": "The forelimbs of humans (for grasping), bats (for flight), and whales (for swimming) are classic examples of homologous structures, all built on a similar underlying skeletal plan despite their different functions."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-006",
+    "question": "Which of the following best describes 'analogous organs,' as distinct from homologous organs?",
+    "options": [
+      "Organs with similar underlying structure due to common ancestry",
+      "Organs that perform similar functions but have different underlying structures, having evolved independently in unrelated species (convergent evolution)",
+      "Organs found in only one single organism",
+      "Organs with no evolutionary significance"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Analogous organs perform similar functions but have different underlying structures, having evolved independently in unrelated species through a process called convergent evolution, driven by similar environmental/functional pressures rather than shared ancestry.",
+      "why_others_wrong": "Similar underlying structure due to common ancestry describes homologous organs, the opposite/distinct concept from analogous organs; analogous organs are found across multiple different species (through independent, convergent evolution), not restricted to a single organism; analogous organs have very significant evolutionary significance, specifically illustrating convergent evolution, contrary to having none.",
+      "concept_recap": "The wings of insects and birds are a classic example of analogous structures — both serve flight function but evolved independently with fundamentally different underlying anatomical structures."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-007",
+    "question": "Which of the following pairs of structures is the best example of homologous organs?",
+    "options": [
+      "Wings of a bird and wings of a butterfly",
+      "Forelimb of a human and forelimb of a bat, both built on a similar underlying bone structure",
+      "Eyes of an octopus and eyes of a human, despite differing developmental origins",
+      "Fins of a shark (a fish) and fins of a dolphin (a mammal)"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The forelimbs of humans and bats, despite performing very different functions (grasping vs. flying), share a similar underlying bone structure (arrangement of humerus, radius, ulna, and digits), reflecting their common evolutionary ancestry — a classic example of homologous organs.",
+      "why_others_wrong": "Bird wings and butterfly wings, while both used for flight, have fundamentally different underlying structures (bone-and-feather vs. chitin-based), making them analogous, not homologous; octopus and human eyes, despite superficial similarities, actually arose through convergent evolution with different developmental origins, making them analogous, not homologous; shark and dolphin fins serve a similar swimming function but have different underlying structures (cartilaginous fish fin vs. modified mammalian limb), making them analogous, not homologous.",
+      "concept_recap": "Homology (shared underlying structure due to common ancestry) versus analogy (similar function via independent evolution) is a key distinction frequently tested in evolutionary biology."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-008",
+    "question": "Which of the following pairs of structures is the best example of analogous organs?",
+    "options": [
+      "Forelimb of a human and forelimb of a whale",
+      "Wings of a bird and wings of an insect, which serve a similar flight function but have entirely different underlying structures",
+      "Vertebral column of a human and vertebral column of a fish",
+      "Heart of a mammal and heart of a bird, both built on a similar four-chambered structure"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Bird wings and insect wings both serve the similar function of enabling flight, but they have entirely different underlying anatomical structures (bone/feather-based versus chitin-based), having evolved independently — a classic example of analogous organs.",
+      "why_others_wrong": "Human and whale forelimbs share a similar underlying bone structure despite different specific functions, making them homologous, not analogous; the vertebral columns of humans and fish share a common underlying evolutionary origin (homologous), not simply similar function via independent evolution; mammalian and bird hearts, sharing a similar four-chambered structure due to (largely) related ancestry/convergent refinement, are generally discussed in terms of structural similarity reflecting either homology or convergence depending on specific context, but the clearest, most classic 'analogous' example among these options is the insect/bird wing comparison.",
+      "concept_recap": "Recognising analogous structures (similar function, different origin/structure) as evidence of convergent evolution is an important complement to understanding homologous structures."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-009",
+    "question": "Which of the following best describes 'vestigial organs,' as evidence supporting evolution?",
+    "options": [
+      "Organs that are fully functional and essential for survival in the organism possessing them",
+      "Reduced, seemingly non-functional (or minimally functional) structures that likely served a significant function in an ancestral species, providing evidence of evolutionary history",
+      "Organs found only in extinct species, never observed in any living organism",
+      "Organs that appear suddenly with no relationship to any ancestral structures"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Vestigial organs are reduced, often seemingly non-functional (or only minimally functional) structures that likely served a significant function in an ancestral species; their presence, despite reduced or altered function, provides evidence of evolutionary history and common descent.",
+      "why_others_wrong": "Vestigial organs are specifically characterised by reduced or absent function (not being fully functional and essential), which is precisely what makes them evolutionarily interesting as evidence; vestigial organs are, in fact, commonly observed in many living organisms today (e.g., the human appendix), not being restricted to extinct species alone; vestigial organs have a very clear, direct relationship to ancestral structures, contrary to appearing with no such relationship.",
+      "concept_recap": "The human appendix and the reduced pelvic bones found in some whale species are commonly cited examples of vestigial structures providing evidence for evolutionary ancestry."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-010",
+    "question": "Which of the following best describes how the fossil record provides evidence supporting evolution?",
+    "options": [
+      "Fossils show no pattern of change over geological time, appearing randomly distributed with no order",
+      "The fossil record, when examined chronologically through geological strata, generally shows a progression from simpler to more complex life forms over vast time periods, and reveals transitional forms connecting different major groups",
+      "Fossils can only be found for organisms that have never gone extinct",
+      "The fossil record provides no information about the age or sequence of past life forms"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "When examined chronologically through geological strata, the fossil record generally shows a progression from simpler to more complex life forms over vast time periods, and importantly reveals transitional forms that help connect different major evolutionary groups, supporting the concept of gradual evolutionary change over time.",
+      "why_others_wrong": "Fossils actually show a discernible, chronological pattern related to geological strata, not random distribution with no order; the fossil record specifically documents both extinct AND (in some cases via more recent strata/subfossils) organisms related to living lineages, not being limited only to non-extinct organisms; the fossil record provides very significant information about the relative age and sequence of past life forms through stratigraphic dating methods, contrary to providing no such information.",
+      "concept_recap": "Classic transitional fossils, such as Archaeopteryx (showing features intermediate between reptiles and birds), are frequently cited as powerful evidence supporting evolutionary transitions between major groups."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-011",
+    "question": "Archaeopteryx, an important fossil discovery, is significant in evolutionary biology because it shows a combination of features characteristic of which two groups, supporting the idea of evolutionary transition between them?",
+    "options": [
+      "Fish and amphibians",
+      "Reptiles and birds",
+      "Mammals and reptiles",
+      "Invertebrates and vertebrates generally"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Archaeopteryx shows a combination of reptilian features (such as teeth and a long bony tail) alongside avian features (such as feathers), making it a classic transitional fossil supporting the evolutionary link between reptiles and birds.",
+      "why_others_wrong": "Fish-amphibian transitions are supported by different specific transitional fossils (like Tiktaalik), not primarily Archaeopteryx; mammal-reptile transitions are supported by different transitional fossils (like certain therapsids), not Archaeopteryx; while broadly relevant to vertebrate evolution, Archaeopteryx's specific, well-known significance concerns the reptile-bird transition specifically, not invertebrate-vertebrate transitions.",
+      "concept_recap": "Archaeopteryx remains one of the most iconic examples used in biology education to illustrate the concept of transitional fossils supporting evolutionary theory."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-012",
+    "question": "Which of the following best describes how comparative anatomy and embryology provide evidence supporting evolution?",
+    "options": [
+      "Related species show no similarities in their anatomical structures or embryonic development",
+      "Related species often show significant similarities in anatomical structure and patterns of embryonic development, reflecting their shared evolutionary ancestry",
+      "Embryonic development is identical across all animal species, with no variation whatsoever",
+      "Comparative anatomy has been completely discredited as a source of evolutionary evidence"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Related species often show significant similarities in both anatomical structure (as seen in homologous organs) and patterns of embryonic development (such as similar early developmental stages across vertebrate groups), reflecting their shared evolutionary ancestry.",
+      "why_others_wrong": "Related species actually show very significant similarities in these areas, contrary to showing none; while there IS significant similarity, especially in earlier developmental stages, embryonic development is not entirely identical across all species — later developmental stages show increasing divergence reflecting each species' specific evolutionary path; comparative anatomy remains a well-established, valid source of evolutionary evidence, not something discredited.",
+      "concept_recap": "The similarities seen in early vertebrate embryonic development (such as the presence of pharyngeal structures across diverse vertebrate groups) are frequently cited as supporting evidence for shared evolutionary ancestry."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-013",
+    "question": "Which of the following best describes how molecular biology (e.g., DNA and protein sequence comparisons) provides modern evidence supporting evolutionary relationships between species?",
+    "options": [
+      "Molecular data show no meaningful patterns related to evolutionary relationships between species",
+      "Species that are more closely related evolutionarily generally show greater similarity in their DNA and protein sequences compared to more distantly related species, providing a modern, quantifiable line of evolutionary evidence",
+      "All species have identical DNA sequences, showing no variation at all",
+      "Molecular biology has completely replaced and invalidated all previous evolutionary evidence from fossils and anatomy"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Species that are more closely related evolutionarily generally show greater similarity in their DNA and protein sequences compared to more distantly related species; this molecular evidence provides a modern, highly quantifiable additional line of evidence supporting evolutionary relationships, often complementing traditional fossil and anatomical evidence.",
+      "why_others_wrong": "Molecular data show very clear, meaningful patterns directly related to evolutionary relationships, contrary to showing no such patterns; there is, in fact, considerable DNA sequence variation both within and between species, contrary to complete uniformity; molecular biology COMPLEMENTS (rather than invalidates) previous fossil and anatomical evidence, with all these different lines of evidence generally supporting consistent evolutionary conclusions.",
+      "concept_recap": "Comparing molecular sequences, such as cytochrome c protein sequences across diverse species, has become a powerful modern tool for reconstructing evolutionary relationships (phylogenies)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-014",
+    "question": "Which of the following best describes Charles Darwin's concept of 'natural selection' as the primary mechanism of evolution?",
+    "options": [
+      "All individuals in a population have exactly equal chances of survival and reproduction, regardless of their traits",
+      "Individuals with heritable traits better suited to their environment tend to survive and reproduce more successfully, passing those advantageous traits to subsequent generations, gradually changing the population over time",
+      "Natural selection acts to make every individual in a population identical over time",
+      "Natural selection has no relationship to heritable genetic variation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Natural selection describes how individuals possessing heritable traits better suited to their particular environment tend to survive and reproduce more successfully than others, passing these advantageous traits to their offspring, gradually shifting the characteristics of the population over successive generations.",
+      "why_others_wrong": "Individuals do NOT have exactly equal survival/reproductive chances — natural selection specifically operates because of differential survival/reproduction based on trait variation; natural selection acts on existing variation, generally maintaining and increasing frequency of advantageous traits, not necessarily making all individuals identical over time; natural selection has a very direct, essential relationship to heritable genetic variation, since it specifically acts upon such variation.",
+      "concept_recap": "Darwin's theory of natural selection, alongside the modern understanding of genetics, forms the core framework of the modern evolutionary synthesis."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-015",
+    "question": "Which of the following is a key prerequisite for natural selection to act effectively within a population?",
+    "options": [
+      "Complete genetic uniformity among all individuals in the population",
+      "Heritable variation among individuals in traits that affect survival and reproductive success",
+      "A population size of exactly one individual",
+      "The complete absence of any environmental pressures"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Natural selection requires heritable variation among individuals in traits affecting survival and reproductive success; without such variation, there would be nothing for selection to differentially act upon.",
+      "why_others_wrong": "Complete genetic uniformity would actually prevent natural selection from having differential material to act upon, the opposite of the actual prerequisite; natural selection operates on populations (groups of individuals), not on a single individual in isolation; environmental pressures (such as resource limitation, predation, or climate) are typically what drive the differential survival/reproduction central to natural selection, so their complete absence would remove selection's driving force, not represent a prerequisite for it.",
+      "concept_recap": "This requirement for heritable variation directly connects Darwin's original theory of natural selection to our modern understanding of genetics as the source of such variation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-016",
+    "question": "Which of the following best describes 'genetic drift,' as an evolutionary mechanism distinct from natural selection?",
+    "options": [
+      "A process that occurs only in very large populations, never in small ones",
+      "Random changes in allele frequencies within a population, due to chance events rather than differential survival/reproduction based on traits, with especially significant effects in small populations",
+      "A process identical to natural selection in every respect",
+      "A mechanism that always increases genetic diversity within a population"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Genetic drift refers to random changes in allele frequencies within a population, arising from chance events rather than the differential survival/reproduction based on specific trait advantages that characterises natural selection; genetic drift has particularly significant effects in small populations, where chance events can disproportionately influence allele frequencies.",
+      "why_others_wrong": "Genetic drift's effects are especially pronounced in SMALL (not large) populations, since chance events have proportionally greater impact when fewer individuals are involved; genetic drift is fundamentally different from natural selection, since it involves random chance rather than trait-based differential survival/reproduction; genetic drift can either increase OR decrease genetic diversity (often decreasing it, particularly through processes like population bottlenecks), not consistently increasing diversity.",
+      "concept_recap": "Genetic drift is one of several important evolutionary mechanisms beyond natural selection, particularly significant in shaping allele frequencies within small, isolated populations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-017",
+    "question": "Which of the following best describes a 'genetic bottleneck,' as a specific example of genetic drift?",
+    "options": [
+      "A gradual, ongoing process of steady population growth with no sudden changes",
+      "A dramatic, sudden reduction in population size (due to events like natural disasters or disease outbreaks) that can significantly reduce genetic diversity in the surviving population, regardless of the specific traits of survivors",
+      "A mechanism that always increases genetic diversity within a population",
+      "A process that only affects a single individual, never an entire population"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A genetic bottleneck refers to a dramatic, sudden reduction in population size — often due to events like natural disasters, disease outbreaks, or other catastrophic events — that can significantly reduce genetic diversity in the surviving population, essentially through chance (regardless of which specific traits characterised the survivors).",
+      "why_others_wrong": "A genetic bottleneck specifically involves a sudden, dramatic population decline, not gradual, steady growth; a genetic bottleneck typically decreases (not increases) genetic diversity within the surviving population, due to the loss of many previously present alleles; a genetic bottleneck, by definition, affects an entire population (not just a single individual), since it concerns population-level changes in genetic diversity.",
+      "concept_recap": "The relatively low genetic diversity observed in cheetah populations today is often cited as a real-world example potentially linked to a historical genetic bottleneck event."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-018",
+    "question": "Which of the following best describes the 'founder effect,' as another specific example of genetic drift?",
+    "options": [
+      "A phenomenon that occurs only within very large, well-established populations",
+      "A situation in which a small group of individuals becomes geographically isolated from a larger population and establishes a new population, potentially with allele frequencies significantly different from the original source population, purely due to chance",
+      "A mechanism that guarantees the new population will have higher genetic diversity than the original population",
+      "A process entirely unrelated to genetic drift"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The founder effect occurs when a small group of individuals becomes geographically isolated from a larger source population and establishes a new population; due to chance, the small founding group may have allele frequencies significantly different from the original population, potentially leading to distinct genetic characteristics in the new population over time.",
+      "why_others_wrong": "The founder effect specifically involves a small, not large, founding group establishing a new isolated population; the founder effect typically results in REDUCED (not necessarily increased) genetic diversity in the new population compared to the original source, given the smaller founding sample; the founder effect is, in fact, considered a specific, well-recognised example of genetic drift, not something unrelated to it.",
+      "concept_recap": "Certain human populations descended from small founding groups (e.g., some island populations) provide real-world examples illustrating the founder effect's influence on genetic characteristics."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-019",
+    "question": "Which of the following best describes 'gene flow' (or 'migration'), as an evolutionary mechanism?",
+    "options": [
+      "The movement of alleles between populations through the migration of individuals (and their genes) from one population to another, potentially altering allele frequencies in the recipient population",
+      "A process that only occurs within a single, completely isolated population with no external contact",
+      "A mechanism entirely unrelated to genetic variation between populations",
+      "A process that always makes all populations of a species genetically identical over time"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Gene flow refers to the movement of alleles between populations, typically occurring through the migration of individuals (carrying their genes) from one population into another, which can alter allele frequencies in the recipient population and potentially increase genetic similarity between the interacting populations.",
+      "why_others_wrong": "Gene flow specifically involves movement BETWEEN populations, requiring some level of contact/migration, not occurring within a single, completely isolated population with no external contact; gene flow has a very direct, significant relationship to genetic variation between populations, contrary to being unrelated; while gene flow can increase genetic similarity between interacting populations, it does not necessarily make ALL populations of a species identical, especially where geographic barriers limit migration between certain groups.",
+      "concept_recap": "Gene flow can counteract the effects of genetic drift and local natural selection by introducing new alleles or changing allele frequencies through migration between populations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-020",
+    "question": "Which of the following best describes 'mutation,' as the ultimate source of new genetic variation for evolution?",
+    "options": [
+      "A process that never occurs in any living organism",
+      "A random change in an organism's DNA sequence, which can introduce new alleles into a population, providing raw material upon which natural selection and other evolutionary mechanisms can act",
+      "A process that always produces harmful effects, with no possibility of neutral or beneficial outcomes",
+      "A mechanism identical to natural selection in every respect"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Mutation refers to random changes in an organism's DNA sequence, which can introduce new alleles into a population; while many mutations may be neutral or harmful, mutation ultimately serves as the essential source of new genetic variation upon which natural selection and other evolutionary mechanisms can act.",
+      "why_others_wrong": "Mutations do occur in living organisms as a fundamental biological process, contrary to never occurring; mutations can indeed be neutral or occasionally beneficial, not always harmful, contrary to this option's absolute claim; mutation (the source of new variation) is fundamentally different from natural selection (the differential survival/reproduction process acting on existing variation), so they are not identical processes.",
+      "concept_recap": "Without mutation continuously introducing new genetic variation, populations would eventually lack the raw material necessary for continued evolutionary adaptation to changing environments."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-021",
+    "question": "Which of the following best describes 'adaptive radiation,' as an evolutionary pattern?",
+    "options": [
+      "The extinction of all species within a particular lineage",
+      "The relatively rapid evolutionary diversification of a single ancestral species into multiple new species, each adapted to different ecological niches, often following colonisation of a new environment",
+      "A process that only occurs in plant species, never in animals",
+      "A pattern in which all descendant species remain identical to the ancestral species"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Adaptive radiation describes the relatively rapid evolutionary diversification of a single ancestral species into multiple new descendant species, each becoming adapted to different available ecological niches, often occurring after colonisation of a new environment offering diverse unexploited resources.",
+      "why_others_wrong": "Adaptive radiation specifically describes diversification and speciation, not extinction of a lineage; adaptive radiation is well-documented across both animal and plant lineages, not being restricted only to plants; adaptive radiation, by definition, involves descendant species diverging and becoming DIFFERENT from each other and the ancestor (adapted to different niches), not remaining identical.",
+      "concept_recap": "Darwin's finches on the Galapagos Islands are a classic, frequently cited example of adaptive radiation, showing diversification into species with different beak shapes adapted to different food sources."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-022",
+    "question": "Darwin's finches, observed on the Galapagos Islands, are frequently cited as a classic example of which evolutionary concept?",
+    "options": [
+      "Genetic drift exclusively, with no role for natural selection",
+      "Adaptive radiation, showing diversification of beak shapes and sizes adapted to different available food sources",
+      "Vestigial organs",
+      "Convergent evolution between unrelated bird families"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Darwin's finches illustrate adaptive radiation, showing how a single ancestral finch species diversified into multiple distinct species, each with beak shapes and sizes adapted to exploit different specific food sources available on the various islands.",
+      "why_others_wrong": "While genetic drift may play some role in isolated island populations, the finches are most classically and specifically cited as an example of adaptive radiation driven substantially by natural selection for different feeding niches, not genetic drift exclusively; the finches' beak variations are functional adaptations, not reduced non-functional vestigial structures; the finches represent divergence FROM a common ancestor (not independent convergent evolution between unrelated groups), making 'convergent evolution' an inaccurate description of this specific example.",
+      "concept_recap": "This example remains one of the most iconic illustrations of adaptive radiation and natural selection in introductory evolutionary biology education."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-023",
+    "question": "Which of the following best describes 'convergent evolution,' as an evolutionary pattern distinct from adaptive radiation?",
+    "options": [
+      "The evolution of similar traits/structures in unrelated species facing similar environmental/functional pressures, despite different ancestral origins",
+      "The rapid diversification of a single species into many descendant species",
+      "A process that always results in structures with identical underlying anatomy",
+      "A pattern observed only in a single specific taxonomic group, never across different groups"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Convergent evolution describes the evolution of similar traits or structures in unrelated species (with different ancestral origins) that face similar environmental or functional pressures, resulting in similar adaptive solutions despite the lack of shared recent ancestry for that particular trait.",
+      "why_others_wrong": "Rapid diversification of a single species into many descendants describes adaptive radiation, a distinct concept from convergent evolution; convergent evolution specifically produces similar EXTERNAL function/form but typically through DIFFERENT underlying anatomical structures (analogous structures), not identical underlying anatomy; convergent evolution is observed across many different, often quite distantly related taxonomic groups (e.g., marsupial and placental mammals), not confined to a single specific group.",
+      "concept_recap": "The similar streamlined body shapes of sharks (fish), ichthyosaurs (extinct marine reptiles), and dolphins (mammals) are a classic example of convergent evolution driven by similar aquatic locomotion demands."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-024",
+    "question": "Which of the following best describes 'speciation,' as an evolutionary process?",
+    "options": [
+      "The extinction of an existing species",
+      "The evolutionary process by which new, distinct species arise from existing ancestral species, often through the accumulation of genetic differences leading to reproductive isolation",
+      "A process that occurs only through direct human intervention (e.g., selective breeding)",
+      "A pattern in which species remain completely unchanged indefinitely"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Speciation refers to the evolutionary process by which new, distinct species arise from existing ancestral species, typically through the gradual accumulation of genetic differences that eventually lead to reproductive isolation between diverging populations.",
+      "why_others_wrong": "Speciation specifically describes the formation of NEW species, not the extinction of an existing one; speciation occurs naturally through evolutionary processes, not being restricted only to direct human intervention like selective breeding (though such intervention can sometimes influence related processes); speciation, by definition, involves change leading to new species formation, contrary to species remaining completely unchanged indefinitely.",
+      "concept_recap": "Understanding the mechanisms driving speciation is central to explaining the vast diversity of life observed on Earth today."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-025",
+    "question": "Which of the following best describes 'geographic (allopatric) speciation,' as a common mode of speciation?",
+    "options": [
+      "Speciation occurring without any physical separation between diverging populations",
+      "Speciation that occurs when populations become geographically separated by a physical barrier, leading to independent evolutionary changes and eventual reproductive isolation",
+      "A process that always occurs within a single generation",
+      "A pattern observed only in plant species, never in animals"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Geographic (allopatric) speciation occurs when populations become geographically separated by some physical barrier (such as a mountain range, river, or ocean), preventing gene flow between them; the separated populations then undergo independent evolutionary changes, eventually leading to reproductive isolation and the formation of distinct species.",
+      "why_others_wrong": "Geographic speciation, by definition, specifically requires physical separation between diverging populations, not occurring without such separation; speciation, including allopatric speciation, is generally a gradual process occurring over many generations, not typically within a single generation; allopatric speciation is well-documented across both plant AND animal species, not being restricted to plants alone.",
+      "concept_recap": "Geographic isolation is considered one of the most common and well-studied mechanisms driving speciation across many different groups of organisms."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-026",
+    "question": "Which of the following best describes 'sympatric speciation,' as distinct from allopatric (geographic) speciation?",
+    "options": [
+      "Speciation that requires complete physical geographic separation between diverging populations",
+      "Speciation that occurs without complete geographic separation, with new species arising within the same or overlapping geographic area, often through mechanisms like strong ecological or reproductive isolation",
+      "A process identical in every respect to allopatric speciation",
+      "A pattern that has never been documented in any real species"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Sympatric speciation describes the formation of new species without complete geographic separation, occurring within the same or overlapping geographic area, often driven by mechanisms such as strong ecological specialisation, polyploidy (particularly common in plants), or specific reproductive isolation mechanisms.",
+      "why_others_wrong": "Requiring complete geographic separation describes allopatric, not sympatric, speciation — this is the key distinguishing feature between the two; sympatric speciation is a distinct process from allopatric speciation, differing specifically in the absence of complete geographic separation, so they are not identical; sympatric speciation has been documented in various real studied examples (particularly involving certain plants and some specialised animal populations), contrary to never being documented.",
+      "concept_recap": "Sympatric speciation, while generally considered less common than allopatric speciation, illustrates that geographic separation is not always a strict requirement for new species to arise."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-027",
+    "question": "Which of the following best describes 'reproductive isolation,' as a key concept related to speciation?",
+    "options": [
+      "A situation in which two populations can freely interbreed and produce fully fertile offspring with no restrictions",
+      "A situation in which two populations are prevented from successfully interbreeding (or producing fertile offspring), maintaining them as genetically distinct groups, ultimately leading to full speciation",
+      "A concept entirely unrelated to the process of speciation",
+      "A pattern only relevant to plant species, never to animals"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Reproductive isolation refers to a situation in which two populations are prevented from successfully interbreeding, or from producing viable/fertile offspring if they do interbreed, maintaining the populations as genetically distinct groups; complete reproductive isolation is typically considered the defining threshold marking full speciation into separate species.",
+      "why_others_wrong": "Free interbreeding with fully fertile offspring and no restrictions describes populations that are NOT reproductively isolated, the opposite of this concept; reproductive isolation has a very direct, central relationship to the process of speciation, essentially defining its endpoint, contrary to being unrelated; reproductive isolation is a broadly applicable evolutionary concept relevant to both animal AND plant speciation, not restricted to plants alone.",
+      "concept_recap": "Various specific mechanisms (such as differences in breeding season, mating behaviour, or genetic incompatibility) can contribute to establishing reproductive isolation between diverging populations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-028",
+    "question": "Which of the following best describes the general scientific consensus regarding the evolutionary relationship between modern humans and other great apes (such as chimpanzees)?",
+    "options": [
+      "Modern humans evolved directly from modern chimpanzees",
+      "Modern humans and chimpanzees share a common ancestor that lived millions of years ago, with both lineages having since evolved independently along their own distinct evolutionary paths",
+      "There is no evolutionary relationship whatsoever between humans and other great apes",
+      "Modern chimpanzees are considered direct, unmodified descendants of early hominid ancestors identical to those that gave rise to humans"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The scientific consensus is that modern humans and chimpanzees share a common ancestor that lived several million years ago; since that common ancestor, both lineages have evolved independently along their own distinct evolutionary paths, resulting in the different species observed today.",
+      "why_others_wrong": "Modern humans did NOT evolve directly from modern chimpanzees — both are separate descendant lineages from an earlier shared ancestor, not one evolving from the other; there IS a very well-documented, significant evolutionary relationship between humans and other great apes, based on substantial genetic and anatomical evidence, contrary to having no relationship; modern chimpanzees have also undergone their own significant evolutionary changes since the shared ancestor, so they are not simply unmodified, identical descendants of that ancestral lineage.",
+      "concept_recap": "This common-ancestor framework, rather than a simple linear 'humans evolved from chimps' model, accurately reflects the branching, tree-like nature of evolutionary relationships as understood in modern evolutionary biology."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-029",
+    "question": "Which of the following hominid species is generally considered among the early ancestors in the human evolutionary lineage, known for evidence suggesting early bipedalism (walking upright)?",
+    "options": [
+      "Homo sapiens (modern humans) specifically",
+      "Australopithecus, an early hominid genus showing evidence of bipedal locomotion",
+      "Modern chimpanzees, considered identical to early human ancestors",
+      "Modern gorillas, considered the direct evolutionary predecessor of humans"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Australopithecus is an early hominid genus, known from fossil evidence (including well-known specimens like 'Lucy'), showing clear evidence of bipedal locomotion (walking upright), representing an important early stage in the human evolutionary lineage.",
+      "why_others_wrong": "Homo sapiens (modern humans) represents the current endpoint of human evolution, not an 'early ancestor' in this specific evolutionary sequence being described; modern chimpanzees are a related but distinct living species, not identical to the specific early hominid ancestors in the direct human lineage; modern gorillas represent another separate great ape lineage, not considered the direct evolutionary predecessor specifically leading to modern humans.",
+      "concept_recap": "The fossil record of hominid evolution, including species like Australopithecus, provides important evidence for tracing the gradual evolutionary changes leading toward modern Homo sapiens."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-030",
+    "question": "Which of the following best describes the general trend in brain size (cranial capacity) observed across the fossil record of human evolutionary lineage, from earlier hominids toward modern humans?",
+    "options": [
+      "A general, gradual decrease in brain size over evolutionary time",
+      "A general, gradual increase in average brain size (cranial capacity) over evolutionary time, culminating in the relatively large brain size of modern Homo sapiens",
+      "No significant change in brain size at any point in human evolutionary history",
+      "Brain size fluctuated randomly with no discernible overall trend"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The human evolutionary fossil record generally shows a gradual increase in average cranial capacity (brain size) over evolutionary time, from earlier, smaller-brained hominid species toward the comparatively large brain size characteristic of modern Homo sapiens.",
+      "why_others_wrong": "The overall trend is a general INCREASE, not decrease, in average brain size across human evolutionary history; there IS a significant, well-documented overall change (increase) in brain size across this evolutionary sequence, contrary to no significant change; while there is some variation, the fossil record shows a discernible general increasing trend, not simply random fluctuation with no overall pattern.",
+      "concept_recap": "This trend of increasing brain size (encephalisation) is often discussed alongside other significant changes in the hominid lineage, such as bipedalism, tool use, and the development of language and complex culture."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-031",
+    "question": "Which of the following best describes the significance of the Hardy-Weinberg principle in population genetics?",
+    "options": [
+      "It describes the conditions under which allele and genotype frequencies in a population would remain constant (not evolve) across generations, providing a baseline against which real evolutionary change can be measured",
+      "It proves that evolution never actually occurs in any real population",
+      "It only applies to asexually reproducing organisms",
+      "It describes a principle with no mathematical basis whatsoever"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Hardy-Weinberg principle describes a theoretical set of conditions (including no mutation, no migration, random mating, no natural selection, and a very large population size) under which allele and genotype frequencies in a population would remain constant (in equilibrium, not evolving) across generations; deviations from these predicted frequencies in real populations indicate that evolutionary forces are actively at work, making the principle a valuable baseline/null model for detecting evolution.",
+      "why_others_wrong": "The principle actually helps DETECT evolution by providing a null (non-evolving) baseline for comparison — it does not claim evolution never occurs; the principle specifically applies to sexually reproducing, randomly mating populations (not exclusively asexual organisms); the principle has a clear, well-established mathematical basis (p² + 2pq + q² = 1, and p + q = 1), contrary to lacking mathematical foundation.",
+      "concept_recap": "This principle is foundational to population genetics, providing a crucial theoretical framework for detecting and quantifying evolutionary change in real populations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-032",
+    "question": "According to the Hardy-Weinberg principle, if the frequency of a dominant allele (p) in a population is 0.6, what is the frequency of the recessive allele (q), assuming only these two alleles exist at this locus?",
+    "options": [
+      "0.6",
+      "0.4",
+      "1.0",
+      "0.36"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since p + q = 1 under the Hardy-Weinberg principle, and p = 0.6, then q = 1 - 0.6 = 0.4.",
+      "why_others_wrong": "0.6 is the given frequency of the dominant allele (p) itself, not the recessive allele frequency being calculated; 1.0 represents the total combined frequency of both alleles together (p + q), not the recessive allele frequency alone; 0.36 represents p² (0.6 squared), the expected frequency of the homozygous dominant genotype, not the allele frequency q.",
+      "concept_recap": "This basic p + q = 1 relationship is the starting point for further Hardy-Weinberg calculations involving genotype frequencies (p² + 2pq + q² = 1)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-033",
+    "question": "According to the Hardy-Weinberg principle, if the frequency of the recessive allele (q) is 0.3, what is the expected frequency of the homozygous recessive genotype in the population?",
+    "options": [
+      "0.3",
+      "0.09",
+      "0.7",
+      "0.49"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The expected frequency of the homozygous recessive genotype is q², so q² = 0.3 x 0.3 = 0.09.",
+      "why_others_wrong": "0.3 is simply the given allele frequency q itself, not the squared genotype frequency being calculated; 0.7 represents the frequency of the dominant allele p (1 - 0.3), not the homozygous recessive genotype frequency; 0.49 would be the result of squaring 0.7 (p²), the homozygous dominant genotype frequency, not the homozygous recessive frequency being asked about.",
+      "concept_recap": "This q² calculation for homozygous recessive genotype frequency is a standard, frequently tested application of the Hardy-Weinberg principle."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-034",
+    "question": "Which of the following would violate the assumptions of the Hardy-Weinberg equilibrium, thereby indicating that evolution is likely occurring in a population?",
+    "options": [
+      "Extremely large population size with no migration, mutation, or selection",
+      "Non-random mating, natural selection, small population size (genetic drift), migration, or mutation occurring within the population",
+      "A population that is not undergoing any reproduction at all",
+      "A population that has existed in perfect equilibrium for only a single generation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Any of the following would violate Hardy-Weinberg assumptions and indicate that evolution is likely occurring: non-random mating, natural selection acting on trait variation, small population size (making genetic drift significant), migration (gene flow) into or out of the population, or new mutations arising within the population.",
+      "why_others_wrong": "A large population with no migration/mutation/selection describes conditions that would actually SUPPORT Hardy-Weinberg equilibrium (non-evolving), not violate it; a population with no reproduction at all represents an extreme edge case not directly addressed by the core Hardy-Weinberg evolutionary-force assumptions being tested here; the number of generations alone doesn't inherently violate the assumptions — it's the presence of the specific evolutionary forces listed that causes deviation from equilibrium.",
+      "concept_recap": "Recognising these specific violating factors (selection, drift, migration, mutation, non-random mating) helps clarify the real-world evolutionary mechanisms that continuously shape actual populations, in contrast to the theoretical non-evolving Hardy-Weinberg baseline."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-035",
+    "question": "Which of the following best describes 'natural selection' acting to favour individuals with intermediate trait values over both extremes, tending to reduce variation in a population?",
+    "options": [
+      "Directional selection",
+      "Stabilising selection",
+      "Disruptive selection",
+      "Sexual selection"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Stabilising selection favours individuals with intermediate trait values, selecting against both extremes, which tends to reduce overall variation in the trait within the population over time.",
+      "why_others_wrong": "Directional selection favours one extreme trait value over others, shifting the population average in one direction, not favouring the intermediate; disruptive selection favours both extremes while selecting against the intermediate, the opposite pattern from stabilising selection; sexual selection specifically relates to mate choice/competition, a different (though related) selective process, not defined by favouring intermediate values over extremes.",
+      "concept_recap": "Human birth weight is a classic example of stabilising selection, since babies with average birth weights generally have the highest survival rates compared to those with extremely low or high birth weights."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-036",
+    "question": "Which of the following describes 'directional selection,' as a specific pattern of natural selection?",
+    "options": [
+      "Selection that favours intermediate trait values, reducing variation",
+      "Selection that favours one extreme trait value over the others, gradually shifting the population's average trait value in that direction over time",
+      "Selection that favours both extreme trait values while selecting against the intermediate",
+      "Selection that has no effect whatsoever on trait distribution within a population"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Directional selection favours individuals at one extreme of a trait's range, gradually shifting the population's average value for that trait in that particular direction over successive generations.",
+      "why_others_wrong": "Favouring intermediate trait values describes stabilising selection, a different pattern from directional selection; favouring both extremes while selecting against the intermediate describes disruptive selection, distinct from directional selection; directional selection, by definition, DOES have a significant effect on trait distribution (shifting it toward one extreme), contrary to having no effect.",
+      "concept_recap": "The evolution of antibiotic resistance in bacteria, where resistant strains are increasingly favoured under antibiotic exposure, is a commonly cited example of directional selection in action."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-037",
+    "question": "Which of the following describes 'disruptive selection,' as a specific pattern of natural selection?",
+    "options": [
+      "Selection that favours only the intermediate trait value",
+      "Selection that favours both extreme trait values while selecting against the intermediate value, potentially leading to increased variation or even speciation over time",
+      "A pattern identical to stabilising selection in every respect",
+      "Selection that has no relationship to trait variation within a population"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Disruptive selection favours individuals at both extremes of a trait's range while selecting against those with intermediate values, potentially increasing overall trait variation within the population and, in some cases, contributing toward speciation over time.",
+      "why_others_wrong": "Favouring only the intermediate value describes stabilising selection, essentially the opposite pattern from disruptive selection; disruptive selection is distinctly different from stabilising selection, favouring extremes rather than the intermediate, so they are not identical; disruptive selection has a very direct, significant relationship to trait variation (specifically increasing it in many cases), contrary to having no such relationship.",
+      "concept_recap": "Certain finch populations with bimodal beak size distributions, where both small and large beak sizes are favoured over intermediate sizes for exploiting different food sources, illustrate disruptive selection."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-038",
+    "question": "Which of the following best describes 'sexual selection,' as a specific evolutionary mechanism related to (but distinct from) general natural selection?",
+    "options": [
+      "Selection based entirely on survival advantages, with no relationship to mating success",
+      "Selection favouring traits that increase an individual's mating success, even if those traits do not directly improve (or may even slightly reduce) general survival",
+      "A process that has no relationship to evolutionary change",
+      "A mechanism that only occurs in plant species"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Sexual selection specifically favours traits that increase an individual's success in acquiring mates (through either mate choice by the opposite sex or competition among same-sex individuals for mates), even in cases where such traits may not directly improve, or could even slightly reduce, general survival.",
+      "why_others_wrong": "Sexual selection is specifically distinguished from purely survival-based selection precisely because it can favour traits based on mating success even at some potential survival cost, so it is not the same as selection based entirely on survival; sexual selection has a very significant, direct relationship to evolutionary change (shaping mating-related traits), contrary to having none; sexual selection is well-documented across many ANIMAL species (not plants specifically), particularly in relation to elaborate mating displays/structures.",
+      "concept_recap": "The elaborate, sometimes seemingly cumbersome tail feathers of peacocks are a classic example illustrating how sexual selection can favour traits that enhance mating success despite potential survival costs (like increased vulnerability to predation)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-039",
+    "question": "Which of the following best describes the term 'fitness,' as used in the context of evolutionary biology?",
+    "options": [
+      "An organism's physical strength or athletic ability",
+      "An organism's relative reproductive success (its ability to survive and pass genes to the next generation) compared to other individuals in the population",
+      "A measure of an organism's body size only",
+      "A concept with no relationship to natural selection"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In evolutionary biology, 'fitness' specifically refers to an organism's relative reproductive success — its ability to survive and successfully pass its genes to subsequent generations — compared to other individuals within the population, rather than referring to physical strength in the everyday sense.",
+      "why_others_wrong": "Evolutionary fitness is not synonymous with everyday physical strength or athletic ability, though such traits could sometimes indirectly contribute to fitness in certain contexts; fitness in this evolutionary sense is not simply a measure of body size, though size could be one of many traits potentially influencing actual reproductive success; fitness has a very direct, central relationship to natural selection, essentially representing the outcome that natural selection acts to maximise, contrary to being unrelated.",
+      "concept_recap": "This precise evolutionary definition of fitness (relative reproductive success) is essential for correctly understanding how natural selection operates on trait variation within populations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-040",
+    "question": "Which of the following best describes why antibiotic resistance in bacteria is frequently cited as a real-world, observable example of natural selection and evolution occurring on a relatively short timescale?",
+    "options": [
+      "Bacteria never evolve or change over time",
+      "Exposure to antibiotics creates selective pressure favouring bacteria with pre-existing (or newly mutated) resistance genes, which survive and reproduce while susceptible bacteria are killed, rapidly increasing the frequency of resistance within the bacterial population over successive generations",
+      "Antibiotic resistance arises through a process entirely unrelated to genetic variation or natural selection",
+      "Bacteria develop antibiotic resistance intentionally, through conscious adaptation similar to learned behaviour in animals"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Antibiotic exposure creates strong selective pressure: bacteria possessing resistance genes (whether pre-existing or arising through new mutation) survive and reproduce, while susceptible bacteria are killed; because bacteria reproduce very rapidly, this process can rapidly increase the frequency of resistance within the population over a relatively short number of generations, providing an observable, real-world example of natural selection in action.",
+      "why_others_wrong": "Bacteria demonstrably DO evolve and change over time, as extensively documented by antibiotic resistance evolution, contrary to never evolving; antibiotic resistance evolution is, in fact, a very clear, well-studied example of genetic variation and natural selection working together, not something unrelated to these core evolutionary concepts; bacterial resistance arises through random genetic variation (mutation) and subsequent selection, NOT through any form of conscious, intentional adaptation akin to learned animal behaviour.",
+      "concept_recap": "This rapid, observable evolutionary process in bacteria has significant real-world medical implications, driving ongoing concerns about the effectiveness of antibiotic treatments in modern healthcare."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-041",
+    "question": "Which of the following best explains why pesticide resistance in insect populations, similar to antibiotic resistance in bacteria, is considered strong evidence for evolution by natural selection?",
+    "options": [
+      "Pesticide use has no relationship to genetic changes within insect populations",
+      "Repeated pesticide exposure selectively favours survival and reproduction of individuals with resistance-conferring genetic variants, increasing the frequency of these resistance alleles within the population over successive generations",
+      "All insects within a population are always equally susceptible to any given pesticide, with no genetic variation in susceptibility",
+      "Pesticide resistance develops through a completely random process entirely disconnected from selective pressure imposed by the pesticide itself"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Repeated pesticide application creates selective pressure that favours the survival and reproduction of individuals carrying genetic variants conferring resistance; over successive generations, this selective process increases the frequency of resistance alleles within the insect population, closely paralleling the well-documented pattern seen with antibiotic resistance in bacteria.",
+      "why_others_wrong": "Pesticide use has a very direct, significant relationship to genetic changes (allele frequency shifts) within exposed insect populations, contrary to having none; there is typically meaningful genetic variation in susceptibility among individuals within a population, which is precisely what allows differential survival and the subsequent evolution of resistance; while the initial resistance-conferring mutations arise randomly, their increasing frequency in the population is specifically and non-randomly driven by the selective pressure from pesticide exposure, not a process disconnected from this pressure.",
+      "concept_recap": "This pattern (repeated observation across many different pest species and various pesticides) provides robust, independently replicated real-world evidence supporting the fundamental principles of natural selection."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-042",
+    "question": "Which of the following best describes why the study of evolution is considered a unifying theme across virtually all fields of biology?",
+    "options": [
+      "Evolutionary theory has no meaningful connections to other biological disciplines like genetics, ecology, or anatomy",
+      "Evolutionary principles help explain patterns and relationships observed across diverse biological fields — including genetics (heredity/variation), ecology (species interactions/adaptation), anatomy (homologous structures), and molecular biology (sequence comparisons) — providing a coherent explanatory framework connecting these otherwise disparate areas",
+      "Evolution is considered relevant only to the specific study of fossils, with no broader biological relevance",
+      "All biological fields operate under completely separate, unconnected theoretical frameworks with no unifying concept"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Evolutionary principles help explain patterns and relationships observed across many diverse biological fields — including genetics (heredity and variation), ecology (species interactions and adaptation), comparative anatomy (homologous structures), and molecular biology (sequence comparisons) — providing a coherent explanatory framework that connects these otherwise seemingly disparate areas of biological study.",
+      "why_others_wrong": "Evolutionary theory has very extensive, well-established connections across numerous biological disciplines, contrary to having no meaningful connections; evolution's relevance extends far beyond the study of fossils alone, deeply informing genetics, ecology, anatomy, molecular biology, and more; rather than being unconnected, many biological fields are, in fact, meaningfully unified by evolutionary theory as a common explanatory framework, contrary to lacking any unifying concept.",
+      "concept_recap": "This unifying role is famously captured in the frequently cited phrase (attributed to evolutionary biologist Theodosius Dobzhansky): 'Nothing in biology makes sense except in the light of evolution.'"
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-043",
+    "question": "Who is generally credited as the primary scientist who proposed the theory of evolution by natural selection, published in 'On the Origin of Species'?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Carl Linnaeus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Charles Darwin is generally credited as the primary scientist who proposed the theory of evolution by natural selection, most notably presented in his influential work 'On the Origin of Species'.",
+      "why_others_wrong": "Gregor Mendel is known for foundational work in genetics/heredity, not the theory of natural selection itself; Louis Pasteur is known for germ theory and pasteurisation, unrelated to proposing natural selection; Carl Linnaeus is known for developing the modern system of biological classification (taxonomy), not the theory of natural selection.",
+      "concept_recap": "Alfred Russel Wallace independently developed similar ideas about natural selection around the same time, and the two scientists jointly presented their findings before Darwin's more famous publication."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-044",
+    "question": "Which of the following scientists is known for independently proposing ideas about natural selection around the same time as Charles Darwin?",
+    "options": [
+      "Gregor Mendel",
+      "Alfred Russel Wallace",
+      "James Watson",
+      "Rosalind Franklin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Alfred Russel Wallace independently developed similar ideas about evolution by natural selection around the same time as Darwin, leading to a joint presentation of their findings before the Linnean Society.",
+      "why_others_wrong": "Gregor Mendel is known for his foundational genetics experiments with pea plants, not independently proposing natural selection; James Watson is known for co-discovering the DNA double helix structure, unrelated to independently proposing natural selection; Rosalind Franklin is known for her X-ray crystallography work contributing to DNA structure discovery, also unrelated to independently proposing natural selection.",
+      "concept_recap": "This historical episode of independent, simultaneous discovery highlights how scientific ideas can sometimes emerge from multiple researchers working separately toward similar conclusions."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-045",
+    "question": "Which of the following best describes the term 'evolution,' in its most general biological sense?",
+    "options": [
+      "The instantaneous appearance of a completely new species with no relationship to any prior species",
+      "The gradual change in heritable characteristics of biological populations over successive generations",
+      "A process that occurs identically and simultaneously in every individual organism within a single generation",
+      "A concept limited exclusively to changes in physical appearance, with no genetic basis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Evolution, in its most general biological sense, refers to the gradual change in heritable characteristics of biological populations over successive generations, driven by mechanisms such as natural selection, genetic drift, mutation, and gene flow.",
+      "why_others_wrong": "Evolution specifically describes gradual change over generations, not the instantaneous appearance of an entirely unrelated new species; evolution occurs at the population level over multiple generations, not identically and simultaneously within every individual of a single generation; evolution is fundamentally based on genetic (heritable) change, not merely limited to non-genetic physical appearance changes.",
+      "concept_recap": "This population-level, generational perspective on gradual heritable change is central to the modern scientific understanding of evolution."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-046",
+    "question": "Which of the following best describes 'natural selection' in one simple, commonly used phrase?",
+    "options": [
+      "Survival of the largest individuals only",
+      "Survival and reproductive success of the best-suited (fittest) individuals for a given environment",
+      "Random extinction of all species over time",
+      "Complete genetic uniformity across all populations"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Natural selection is often summarised by the commonly used phrase 'survival of the fittest,' referring to the survival and reproductive success of individuals best suited to their particular environment.",
+      "why_others_wrong": "Natural selection specifically concerns being well-suited (fit) for the environment, not simply about being the largest in physical size; natural selection describes differential survival/reproduction based on fitness, not random extinction of all species; natural selection tends to work with existing genetic VARIATION (not complete uniformity), since it specifically acts on differences between individuals.",
+      "concept_recap": "While this simplified 'survival of the fittest' phrase is popular, remembering that 'fitness' specifically means relative reproductive success (not just survival alone) provides a more precise, technically accurate understanding."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-047",
+    "question": "Which of the following best describes why small, isolated island populations are often particularly useful for studying evolutionary processes like genetic drift and speciation?",
+    "options": [
+      "Island populations are identical to mainland populations in every relevant respect, providing no unique research value",
+      "Island populations are often small, geographically isolated, and subject to unique environmental pressures, making the effects of genetic drift, founder effects, and adaptive divergence often more pronounced and easier to observe/study",
+      "Genetic drift and speciation processes only occur on islands, never in mainland populations",
+      "Island populations never show any evidence of evolutionary change"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Island populations are often small, geographically isolated from mainland gene pools, and subject to unique local environmental pressures, making the effects of genetic drift, founder effects, and adaptive divergence often more pronounced and more readily observable/studiable compared to larger, more continuous mainland populations.",
+      "why_others_wrong": "Island populations often differ meaningfully from mainland populations in these specific ways (size, isolation, unique pressures), providing significant unique research value, contrary to being identical with no special value; genetic drift and speciation processes occur in mainland populations too (just sometimes less pronounced/observable), not being exclusive to islands; island populations, in fact, frequently show very clear, well-documented evidence of evolutionary change (e.g., Darwin's finches), contrary to showing no such evidence.",
+      "concept_recap": "This is why island ecosystems (like the Galapagos) have historically served as such important, influential natural laboratories for studying evolutionary processes."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-048",
+    "question": "Which of the following best explains why a population with very low genetic diversity (e.g., following a severe genetic bottleneck) may be particularly vulnerable to a new disease outbreak or environmental change?",
+    "options": [
+      "Low genetic diversity always guarantees a population's long-term survival, regardless of any threats faced",
+      "With reduced genetic diversity, there is a smaller range of trait variants within the population; if none of the remaining variants happen to confer resistance to a new threat, the entire population may be highly vulnerable, lacking the raw material for adaptive response",
+      "Genetic diversity has no relationship to a population's ability to withstand new environmental challenges",
+      "Populations with low genetic diversity always have higher genetic diversity than populations with high genetic diversity, creating a paradox"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "With reduced genetic diversity, there is a smaller range of trait variants present within the population; if none of these limited remaining variants happen to confer resistance to a new disease or environmental challenge, the entire population may be highly vulnerable, since natural selection requires existing variation as raw material to enable an effective adaptive response.",
+      "why_others_wrong": "Low genetic diversity does NOT guarantee long-term survival — it can actually significantly increase vulnerability to new threats, as this scenario describes; genetic diversity has a very direct, significant relationship to a population's adaptive capacity/resilience, contrary to having no relationship; the phrasing describing populations with low diversity as having 'higher' diversity than populations with high diversity is a direct logical contradiction and does not represent a genuine biological paradox.",
+      "concept_recap": "This vulnerability of genetically uniform populations is a key concern in conservation biology, particularly for endangered species that have experienced significant population bottlenecks."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-049",
+    "question": "Which of the following best explains why comparing DNA sequences across many different species can help construct a 'molecular clock' estimating when two species diverged from a common ancestor?",
+    "options": [
+      "DNA sequences never change over time in any species, making comparison meaningless",
+      "If mutations accumulate at a relatively constant average rate over time, the degree of genetic sequence difference between two species can be used to estimate roughly how much time has passed since they diverged from their shared common ancestor",
+      "The molecular clock concept has been completely disproven and is no longer used in evolutionary biology",
+      "DNA sequence comparison can only reveal information about very recently diverged species, never about ancient evolutionary divergences"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "If mutations accumulate at a relatively constant average rate over evolutionary time (the core assumption behind a 'molecular clock'), then the degree of genetic sequence difference observed between two species can be used to estimate, roughly, how much time has passed since they diverged from their most recent shared common ancestor.",
+      "why_others_wrong": "DNA sequences DO change over time through mutation, which is precisely the basis for the molecular clock concept, contrary to sequences never changing; while the molecular clock has known limitations and requires careful calibration/interpretation, it remains a widely used, valuable tool in evolutionary biology, not something completely disproven and abandoned; molecular clock methods can, in fact, provide estimates spanning both relatively recent AND quite ancient evolutionary divergences, given appropriate calibration, not being limited only to recent divergences.",
+      "concept_recap": "Molecular clock estimates are often calibrated and cross-checked against independent fossil evidence to improve the accuracy and reliability of divergence time estimates."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-050",
+    "question": "Which of the following best describes Jean-Baptiste Lamarck's theory of evolution, often referred to as the 'inheritance of acquired characteristics'?",
+    "options": [
+      "Lamarck proposed that traits an organism acquires or develops during its lifetime (through use or disuse) could be passed directly to its offspring",
+      "Lamarck's theory is identical to Darwin's theory of natural selection in every respect",
+      "Lamarck proposed that evolution never occurs, and species remain permanently fixed",
+      "Lamarck's ideas have been fully confirmed by modern genetics with no significant revision"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Lamarck proposed that traits an organism acquires or develops during its own lifetime — often through use or disuse of particular structures — could be directly passed on to its offspring, a mechanism now generally considered largely incorrect according to modern genetic understanding.",
+      "why_others_wrong": "Lamarck's theory (inheritance of acquired characteristics) is distinctly different from Darwin's natural selection (differential survival/reproduction based on existing heritable variation), so they are not identical; Lamarck specifically proposed a mechanism FOR evolutionary change (not a claim that evolution never occurs), even though his proposed mechanism is now considered largely incorrect; Lamarck's specific mechanism (direct inheritance of acquired traits) has largely NOT been confirmed by modern genetics and is generally considered incorrect, though some very limited, distinct epigenetic phenomena have generated ongoing, nuanced scientific discussion.",
+      "concept_recap": "The classic example often used to illustrate (and critique) Lamarck's theory involves the elongation of giraffe necks, which he proposed resulted from giraffes stretching their necks during their lifetimes to reach higher branches, then passing this acquired elongation to offspring — a mechanism modern genetics does not support."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-051",
+    "question": "Which of the following best explains why Lamarck's theory of the inheritance of acquired characteristics is generally considered inconsistent with modern genetic understanding?",
+    "options": [
+      "Modern genetics shows that traits acquired during an individual's lifetime (not caused by changes in germline DNA/gametes) are generally not passed on to offspring, since inheritance depends on the genetic information contained within reproductive cells (gametes), not on changes to body (somatic) cells or tissues during an individual's life",
+      "Modern genetics has no relationship to evaluating historical evolutionary theories like Lamarckism",
+      "Lamarck's theory has been fully validated by modern epigenetics with no remaining scientific debate",
+      "Modern genetics shows that ALL acquired characteristics ARE directly and completely inherited by offspring"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Modern genetics demonstrates that inheritance depends specifically on the genetic information contained within reproductive cells (gametes); traits acquired during an individual's lifetime through changes to body (somatic) cells or tissues, rather than through changes to the germline DNA itself, are generally NOT passed on to offspring, directly contradicting Lamarck's core proposed mechanism.",
+      "why_others_wrong": "Modern genetics has very significant, direct relevance to evaluating historical evolutionary theories like Lamarckism, contrary to having no relationship; while epigenetics has revealed some limited, specific and still actively researched exceptions/nuances regarding certain heritable modifications, this does NOT amount to full validation of Lamarck's original general theory, and there remains considerable ongoing distinction from his broader claims; modern genetics does NOT show that all acquired characteristics are inherited — quite the opposite, generally, which is precisely why Lamarck's theory is considered largely incorrect.",
+      "concept_recap": "This distinction between changes to germline (reproductive) cells versus somatic (body) cells is central to understanding why Lamarck's proposed mechanism differs fundamentally from the modern, gene-based understanding of heredity and evolution."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  },
+  {
+    "id": "evo-052",
+    "question": "Which of the following best describes why the theory of evolution by natural selection is considered a well-supported scientific theory, rather than merely an unproven guess or 'just a theory' in the casual, everyday sense of that word?",
+    "options": [
+      "The theory has never been tested or examined by scientists",
+      "The theory is supported by extensive, independently converging evidence from multiple different fields — including the fossil record, comparative anatomy, molecular biology, and direct observations of evolutionary change in real populations — making it one of the most robustly supported explanatory frameworks in all of biology",
+      "Scientific theories, by definition, are simply unproven guesses with no supporting evidence required",
+      "The theory of evolution has been completely disproven by modern genetics"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The theory of evolution by natural selection is supported by extensive, independently converging evidence from multiple different scientific fields — including the fossil record, comparative anatomy, molecular biology, biogeography, and direct observations of evolutionary change occurring in real populations (like bacteria and insects) — making it one of the most robustly supported explanatory frameworks within all of biology.",
+      "why_others_wrong": "The theory has, in fact, been extensively tested and examined by scientists across many different disciplines and approaches, contrary to never being tested; in scientific usage (distinct from casual, everyday usage), a 'theory' specifically refers to a well-substantiated explanation supported by extensive evidence, not merely an unproven guess; modern genetics has, in fact, provided substantial ADDITIONAL supporting evidence for evolutionary theory (e.g., through DNA/molecular comparisons), rather than disproving it.",
+      "concept_recap": "This distinction between the casual, everyday use of 'theory' (meaning a guess) and the specific scientific meaning (a well-substantiated explanatory framework) is important for accurately understanding the strong evidentiary status of evolutionary theory within biology."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 7"
+  }
+]
