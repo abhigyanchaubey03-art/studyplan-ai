@@ -116,4 +116,45 @@
   overlay.addEventListener("click", closeDrawer);
   document.getElementById("spaiClose").addEventListener("click", closeDrawer);
 
+  /* ---------- shared day-streak badge ----------
+     Reads the same 'sp_studylogs' key that index.html's Track tab writes to,
+     so the streak shown here matches the one on the dashboard exactly.
+     If a page already has its own #headerStreakCount element (index.html),
+     that element is updated instead of adding a duplicate badge. */
+  function computeStreak(){
+    let logs = [];
+    try{ logs = JSON.parse(localStorage.getItem('sp_studylogs')) || []; }catch(e){ logs = []; }
+    const startOfToday = new Date(); startOfToday.setHours(0,0,0,0);
+    let streak = 0;
+    for(let i=0;i<365;i++){
+      const dayStart = new Date(startOfToday); dayStart.setDate(dayStart.getDate()-i);
+      const dayEnd = new Date(dayStart); dayEnd.setDate(dayEnd.getDate()+1);
+      const has = logs.some(l=>l.ts>=dayStart.getTime() && l.ts<dayEnd.getTime());
+      if(has) streak++; else break;
+    }
+    return streak;
+  }
+
+  const existingCounter = document.getElementById('headerStreakCount');
+  if(existingCounter){
+    existingCounter.textContent = computeStreak();
+  } else {
+    const badgeStyle = document.createElement("style");
+    badgeStyle.textContent = `
+      .spai-streak-badge{
+        position:fixed; top:14px; right:14px; z-index:100;
+        display:flex; align-items:center; gap:5px;
+        background:var(--surface,#12162A); border:1px solid var(--line,#212642);
+        border-radius:999px; padding:6px 12px 6px 10px;
+        font-family:'JetBrains Mono','IBM Plex Mono',monospace; font-size:12px; font-weight:600;
+        color:#FF9142;
+      }
+    `;
+    document.head.appendChild(badgeStyle);
+    const badge = document.createElement("div");
+    badge.className = "spai-streak-badge";
+    badge.innerHTML = `🔥 <span id="spaiStreakNum">${computeStreak()}</span>`;
+    document.body.appendChild(badge);
+  }
+
 })();

@@ -44,6 +44,18 @@
   .overall-card .num{font-family:'Source Serif 4',serif; font-size:26px; font-weight:600;}
   .overall-card .label{font-size:11.5px; color:var(--text-faint); margin-top:3px;}
 
+  /* ---------- subject split donut ---------- */
+  .split-card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; margin-bottom:28px;}
+  .split-wrap{display:flex; align-items:center; gap:20px; flex-wrap:wrap;}
+  .split-donut{width:130px; height:130px; border-radius:50%; position:relative; flex-shrink:0;}
+  .split-hole{position:absolute; inset:22px; background:var(--surface); border-radius:50%; display:flex;
+    flex-direction:column; align-items:center; justify-content:center;}
+  .split-hole .dn{font-family:'Source Serif 4',serif; font-weight:600; font-size:18px;}
+  .split-hole .dl{font-size:10px; color:var(--text-faint);}
+  .split-legend{flex:1; min-width:150px;}
+  .split-legend-row{display:flex; align-items:center; justify-content:space-between; font-size:13px; margin-bottom:9px;}
+  .split-legend-row .sw{width:9px; height:9px; border-radius:3px; display:inline-block; margin-right:8px;}
+
   /* ---------- subject comparison ---------- */
   .subject-compare{display:flex; flex-direction:column; gap:12px; margin-bottom:30px;}
   .subj-row{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:16px 17px;}
@@ -102,6 +114,16 @@
 <main id="mainContent">
 
   <div class="overall" id="overallGrid"></div>
+
+  <div class="split-card" id="splitCard">
+    <h2 class="section-title" style="margin-bottom:14px;">Question split by subject</h2>
+    <div class="split-wrap">
+      <div class="split-donut" id="splitDonut">
+        <div class="split-hole"><div class="dn" id="splitTotal">0</div><div class="dl">Questions</div></div>
+      </div>
+      <div class="split-legend" id="splitLegend"></div>
+    </div>
+  </div>
 
   <h2 class="section-title">Subject vs subject</h2>
   <div class="subject-compare" id="subjectCompare"></div>
@@ -169,6 +191,27 @@ function render(){
     <div class="overall-card"><div class="num">${grandAttempted}</div><div class="label">questions attempted</div></div>
     <div class="overall-card"><div class="num">${overallAcc}%</div><div class="label">overall accuracy</div></div>
   `;
+
+  // subject split donut
+  const SUBJECT_HEX = { Biology:"#5fb98c", Physics:"#6b9fdb", Chemistry:"#d99a5c" };
+  document.getElementById("splitTotal").textContent = grandAttempted;
+  let cursorPct = 0;
+  const stops = subjects
+    .filter(s => totals[s].attempted > 0)
+    .map(s => {
+      const pct = (totals[s].attempted / grandAttempted) * 100;
+      const stop = `${SUBJECT_HEX[s]} ${cursorPct}% ${cursorPct+pct}%`;
+      cursorPct += pct;
+      return stop;
+    }).join(", ");
+  document.getElementById("splitDonut").style.background = `conic-gradient(${stops})`;
+  document.getElementById("splitLegend").innerHTML = subjects
+    .filter(s => totals[s].attempted > 0)
+    .sort((a,b) => totals[b].attempted - totals[a].attempted)
+    .map(s => {
+      const pct = Math.round((totals[s].attempted / grandAttempted) * 100);
+      return `<div class="split-legend-row"><span><span class="sw" style="background:${SUBJECT_HEX[s]};"></span>${s}</span><span style="color:var(--text-faint);">${totals[s].attempted} (${pct}%)</span></div>`;
+    }).join("");
 
   // subject comparison, sorted by attempted desc so the most-practiced subject leads
   const compareWrap = document.getElementById("subjectCompare");
