@@ -1,0 +1,848 @@
+[
+  {
+    "id": "excr-001",
+    "question": "Which of the following nitrogenous waste products is excreted by ammonotelic organisms, such as most bony fishes and aquatic amphibians?",
+    "options": [
+      "Urea",
+      "Ammonia",
+      "Uric acid",
+      "Creatinine"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ammonotelic organisms excrete ammonia directly, which is highly toxic but readily diffuses into the surrounding water, an option available to aquatic organisms with abundant water for dilution.",
+      "why_others_wrong": "Urea is characteristic of ureotelic organisms, not ammonotelic ones; uric acid is characteristic of uricotelic organisms, not ammonotelic ones; creatinine is a minor waste product related to muscle metabolism, not the primary nitrogenous waste defining ammonotelism.",
+      "concept_recap": "Ammonia excretion requires large amounts of water for dilution to non-toxic levels, making it feasible mainly for aquatic organisms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-002",
+    "question": "Which of the following nitrogenous waste products is excreted by ureotelic organisms, such as humans and other mammals?",
+    "options": [
+      "Ammonia",
+      "Urea",
+      "Uric acid",
+      "Guanine"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ureotelic organisms, including humans and most other mammals, convert toxic ammonia into urea (a less toxic compound) in the liver before excretion, allowing for excretion with comparatively less water loss than ammonia excretion would require.",
+      "why_others_wrong": "Ammonia excretion is characteristic of ammonotelic organisms, not ureotelic ones; uric acid excretion is characteristic of uricotelic organisms, not ureotelic ones; guanine is a nitrogenous base found in nucleic acids, not the primary nitrogenous excretory product in ureotelism.",
+      "concept_recap": "The urea cycle, occurring in the liver, is the key metabolic pathway responsible for converting ammonia into urea in ureotelic organisms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-003",
+    "question": "Which of the following nitrogenous waste products is excreted by uricotelic organisms, such as birds, reptiles, and insects?",
+    "options": [
+      "Ammonia",
+      "Urea",
+      "Uric acid",
+      "Creatine"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Uricotelic organisms, including birds, reptiles, and insects, excrete nitrogenous waste primarily as uric acid, a relatively non-toxic, insoluble compound that can be excreted with minimal water loss, an adaptation well-suited to terrestrial life (especially in egg-laying species).",
+      "why_others_wrong": "Ammonia excretion is characteristic of ammonotelic organisms, not uricotelic ones; urea excretion is characteristic of ureotelic organisms, not uricotelic ones; creatine is a distinct molecule related to muscle energy metabolism, not the defining nitrogenous excretory product of uricotelism.",
+      "concept_recap": "Uric acid's low solubility and low toxicity allow it to be excreted as a semi-solid paste, conserving significant amounts of water compared to ammonia or urea excretion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-004",
+    "question": "Which of the following best explains why uricotelism (uric acid excretion) is considered particularly advantageous for organisms that lay shelled eggs, such as birds and reptiles?",
+    "options": [
+      "Uric acid is highly toxic and must be immediately diluted with large amounts of water",
+      "Uric acid's low solubility and low toxicity allow it to be stored as a solid/semi-solid waste within the egg without harming the developing embryo, since it does not need to be immediately excreted or diluted",
+      "Uric acid excretion requires significantly more water than ammonia excretion",
+      "Uricotelism has no particular relationship to reproduction in egg-laying species"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Because uric acid is relatively non-toxic and has low solubility, it can be safely stored as a solid/semi-solid waste within the enclosed egg environment without harming the developing embryo, since it doesn't require immediate excretion or dilution with water (which would not be available in adequate amounts within a shelled egg).",
+      "why_others_wrong": "Uric acid is characterised by comparatively LOW (not high) toxicity, which is precisely why it can be safely stored within the egg; uric acid excretion requires significantly LESS (not more) water compared to ammonia or urea excretion, an advantage for both egg-bound embryos and water-conserving terrestrial adults; uricotelism has a very direct, significant relationship to successful reproduction via shelled eggs, contrary to having no such relationship.",
+      "concept_recap": "This adaptation allows the developing embryo within a shelled egg to safely accumulate nitrogenous waste throughout development without needing external elimination until hatching."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-005",
+    "question": "Which of the following best explains why ammonia, despite being the simplest nitrogenous waste to produce metabolically, is not excreted by most terrestrial organisms?",
+    "options": [
+      "Ammonia is completely harmless and non-toxic to living tissues",
+      "Ammonia is highly toxic and requires large amounts of water for safe dilution and excretion, a requirement not easily met by most terrestrial organisms facing water conservation challenges",
+      "Terrestrial organisms have no mechanism for producing ammonia at all",
+      "Ammonia excretion is only possible in organisms that lay eggs"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Ammonia is highly toxic and requires large amounts of water for safe dilution to non-harmful concentrations before excretion; most terrestrial organisms face significant water conservation challenges and generally cannot afford this large water expenditure, making ammonia excretion impractical compared to converting it to less toxic forms like urea or uric acid.",
+      "why_others_wrong": "Ammonia is, in fact, quite toxic to living tissues, contrary to being harmless; terrestrial (and all) organisms do produce ammonia as an initial byproduct of protein/amino acid metabolism, even if they then convert it to a less toxic form before excretion; ammonia excretion is specifically related to water availability (aquatic vs. terrestrial life), not to whether an organism lays eggs.",
+      "concept_recap": "This trade-off between metabolic energy cost (converting ammonia to urea/uric acid) and water conservation is a key evolutionary consideration shaping which excretory strategy different organisms use."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-006",
+    "question": "The human excretory system primarily consists of a pair of which organs, responsible for forming urine?",
+    "options": [
+      "Lungs",
+      "Kidneys",
+      "Liver",
+      "Pancreas"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The kidneys are the primary organs of the human excretory system, responsible for filtering blood and forming urine to remove nitrogenous waste and excess substances from the body.",
+      "why_others_wrong": "The lungs are primarily respiratory organs, though they do excrete some CO2 and water vapour, not the primary urine-forming organs; the liver has many metabolic functions (including urea synthesis) but is not itself the organ that filters blood to form urine; the pancreas has digestive and endocrine functions, unrelated to urine formation.",
+      "concept_recap": "The kidneys work alongside the ureters, urinary bladder, and urethra to form the complete urinary (excretory) system responsible for eliminating liquid waste."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-007",
+    "question": "Which of the following ducts carries urine from each kidney to the urinary bladder?",
+    "options": [
+      "Urethra",
+      "Ureter",
+      "Renal artery",
+      "Renal vein"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The ureter is the duct that carries urine from each kidney down to the urinary bladder for temporary storage.",
+      "why_others_wrong": "The urethra carries urine from the bladder to the outside of the body, a later step than the ureter's function; the renal artery carries blood INTO the kidney, not urine; the renal vein carries filtered blood OUT of the kidney, not urine.",
+      "concept_recap": "Peristaltic contractions of the ureter's muscular walls help propel urine from the kidney toward the bladder."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-008",
+    "question": "Which of the following structures stores urine temporarily before it is eliminated from the body?",
+    "options": [
+      "Ureter",
+      "Urethra",
+      "Urinary bladder",
+      "Renal pelvis"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The urinary bladder is a muscular, expandable sac that temporarily stores urine until it is convenient for elimination from the body.",
+      "why_others_wrong": "The ureter carries urine to the bladder but does not primarily function as a storage structure itself; the urethra carries urine out of the body during urination, not for storage; the renal pelvis is a funnel-shaped structure within the kidney that collects urine before it enters the ureter, not the main storage site.",
+      "concept_recap": "The bladder's ability to stretch significantly as it fills, combined with voluntary and involuntary sphincter control, allows for controlled, convenient urination."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-009",
+    "question": "Which of the following structures carries urine from the urinary bladder to the exterior of the body?",
+    "options": [
+      "Ureter",
+      "Urethra",
+      "Renal artery",
+      "Nephron"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The urethra is the final duct that carries urine from the urinary bladder to the exterior of the body during urination.",
+      "why_others_wrong": "The ureter carries urine from the kidney TO the bladder, an earlier step than the urethra's function; the renal artery carries blood into the kidney, unrelated to carrying urine out of the bladder; the nephron is the functional unit within the kidney responsible for urine formation, not the duct carrying urine out of the body.",
+      "concept_recap": "The length and specific anatomy of the urethra differs notably between males and females, though its basic function (carrying urine out) remains the same."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-010",
+    "question": "Which of the following is the outer, granular region of the kidney's internal structure?",
+    "options": [
+      "Renal medulla",
+      "Renal cortex",
+      "Renal pelvis",
+      "Renal capsule (fibrous covering)"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The renal cortex is the outer, granular-appearing region of the kidney, containing the renal corpuscles (glomerulus and Bowman's capsule) of the nephrons.",
+      "why_others_wrong": "The renal medulla is the inner region, containing pyramid-shaped structures, not the outer granular region; the renal pelvis is a funnel-shaped collecting structure at the centre of the kidney, not the outer cortex; the renal capsule is a thin fibrous protective covering surrounding the entire kidney, not the internal granular cortex region itself.",
+      "concept_recap": "This cortex-medulla organisation reflects the specific arrangement of nephron structures needed to establish the concentration gradients essential for urine concentration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-011",
+    "question": "Which of the following is the inner region of the kidney, characterised by cone-shaped structures called renal pyramids?",
+    "options": [
+      "Renal cortex",
+      "Renal medulla",
+      "Renal capsule",
+      "Bowman's capsule"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The renal medulla is the inner region of the kidney, characterised by multiple cone-shaped structures called renal pyramids, which contain the loops of Henle and collecting ducts important for urine concentration.",
+      "why_others_wrong": "The renal cortex is the outer granular region, not the inner pyramid-containing medulla; the renal capsule is the thin outer fibrous covering of the whole kidney, not an internal region; Bowman's capsule is a microscopic structure within an individual nephron, not the entire inner medullary region.",
+      "concept_recap": "The renal pyramids of the medulla play a crucial role in establishing the osmotic gradient that allows the kidney to produce concentrated urine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-012",
+    "question": "Which of the following is the basic structural and functional unit of the kidney, responsible for filtering blood and forming urine?",
+    "options": [
+      "Alveolus",
+      "Nephron",
+      "Neuron",
+      "Hepatocyte"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The nephron is the basic structural and functional unit of the kidney; each kidney contains roughly a million nephrons, each capable of filtering blood and processing the filtrate into urine.",
+      "why_others_wrong": "An alveolus is the functional unit of gas exchange in the lungs, unrelated to kidney function; a neuron is the functional unit of the nervous system, unrelated to kidney function; a hepatocyte is a liver cell, unrelated to the kidney's specific functional unit.",
+      "concept_recap": "Each nephron consists of a renal corpuscle (glomerulus and Bowman's capsule) and a renal tubule, together performing the sequential steps of urine formation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-013",
+    "question": "Which of the following structures within a nephron consists of a tuft of capillaries responsible for the initial filtration of blood?",
+    "options": [
+      "Bowman's capsule",
+      "Glomerulus",
+      "Loop of Henle",
+      "Collecting duct"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The glomerulus is a tuft of capillaries within the nephron where blood is initially filtered under pressure, forming the filtrate that will be further processed into urine.",
+      "why_others_wrong": "Bowman's capsule surrounds the glomerulus and collects the filtrate, but is not itself the capillary tuft that performs filtration; the loop of Henle is a later tubular segment involved in concentrating urine, not the initial filtration structure; the collecting duct is the final segment collecting urine from multiple nephrons, not the initial filtering capillary tuft.",
+      "concept_recap": "The glomerulus, together with the surrounding Bowman's capsule, forms the renal corpuscle, the site of initial blood filtration in the nephron."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-014",
+    "question": "Which of the following structures surrounds the glomerulus and collects the initial filtrate formed during blood filtration in the nephron?",
+    "options": [
+      "Loop of Henle",
+      "Bowman's capsule",
+      "Distal convoluted tubule",
+      "Collecting duct"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Bowman's capsule is a cup-shaped structure that surrounds the glomerulus, collecting the fluid (filtrate) that is filtered out of the blood as it passes through the glomerular capillaries.",
+      "why_others_wrong": "The loop of Henle is a later tubular segment, not the initial filtrate-collecting structure surrounding the glomerulus; the distal convoluted tubule is also a later segment of the nephron, following Bowman's capsule and the loop of Henle; the collecting duct is the final segment collecting urine from multiple nephrons, not the structure directly surrounding the glomerulus.",
+      "concept_recap": "Together, the glomerulus and Bowman's capsule constitute the renal corpuscle, marking the beginning of the nephron's urine-forming process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-015",
+    "question": "Which segment of the renal tubule immediately follows Bowman's capsule, and is the site of significant reabsorption of water, glucose, amino acids, and ions?",
+    "options": [
+      "Loop of Henle",
+      "Proximal convoluted tubule (PCT)",
+      "Distal convoluted tubule (DCT)",
+      "Collecting duct"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The proximal convoluted tubule (PCT) immediately follows Bowman's capsule and is the site of significant, largely unregulated reabsorption of water, glucose, amino acids, and various ions back into the blood.",
+      "why_others_wrong": "The loop of Henle follows the PCT, playing a different specific role (mainly in concentrating urine); the distal convoluted tubule (DCT) is a later segment, involved more in regulated (hormonally controlled) reabsorption/secretion, not the primary bulk reabsorption site immediately after Bowman's capsule; the collecting duct is the final segment, not immediately following Bowman's capsule.",
+      "concept_recap": "Nearly all of the glucose and amino acids filtered at the glomerulus are normally reabsorbed in the PCT under healthy conditions, along with a substantial proportion of filtered water and ions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-016",
+    "question": "Which of the following segments of the nephron is primarily responsible for establishing the concentration gradient in the kidney medulla, essential for producing concentrated urine?",
+    "options": [
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Bowman's capsule",
+      "Glomerulus"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The loop of Henle, through its specific arrangement and selective permeability of its descending and ascending limbs, plays the central role in establishing the osmotic concentration gradient within the kidney medulla, essential for the kidney's ability to produce concentrated urine.",
+      "why_others_wrong": "The proximal convoluted tubule performs significant bulk reabsorption but is not the primary structure establishing the medullary concentration gradient; Bowman's capsule is involved in initial filtrate collection, not gradient establishment; the glomerulus performs initial blood filtration, not the establishment of the medullary concentration gradient.",
+      "concept_recap": "This medullary concentration gradient, established by the loop of Henle (particularly pronounced in nephrons with long loops), is fundamental to the kidney's ability to conserve water by concentrating urine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-017",
+    "question": "Which segment of the renal tubule leads into the collecting duct, and is a site of hormonally regulated reabsorption/secretion (e.g., influenced by aldosterone and ADH)?",
+    "options": [
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Distal convoluted tubule (DCT)",
+      "Bowman's capsule"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The distal convoluted tubule (DCT) leads into the collecting duct and is an important site of hormonally regulated reabsorption and secretion, influenced by hormones such as aldosterone (sodium reabsorption) and antidiuretic hormone (ADH, water reabsorption).",
+      "why_others_wrong": "The proximal convoluted tubule performs largely unregulated, bulk reabsorption earlier in the nephron, not the specific hormonally regulated segment described; the loop of Henle is involved primarily in establishing the concentration gradient, a different specific role from DCT's regulated reabsorption/secretion; Bowman's capsule is the initial filtrate-collecting structure, not the hormonally regulated segment leading into the collecting duct.",
+      "concept_recap": "This hormonal regulation at the DCT (and collecting duct) allows for fine-tuned control of the final urine composition, adjusting to the body's specific homeostatic needs."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-018",
+    "question": "Which of the following best describes the collecting duct, in relation to the nephrons of the kidney?",
+    "options": [
+      "A structure found only within a single nephron, entirely separate from other nephrons",
+      "A duct that receives urine from multiple nephrons' distal convoluted tubules, playing a further role in water reabsorption before urine passes into the renal pelvis",
+      "The initial filtration structure of the nephron",
+      "A structure with no role in water reabsorption"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The collecting duct receives urine from the distal convoluted tubules of multiple nephrons, and plays a further important role (especially under ADH regulation) in additional water reabsorption before the resulting urine passes into the renal pelvis and onward to the ureter.",
+      "why_others_wrong": "The collecting duct is shared among multiple nephrons, not confined to serving just a single individual nephron; the glomerulus (within Bowman's capsule) is the initial filtration structure, not the collecting duct, which acts later in the process; the collecting duct plays a very significant, well-established role in additional water reabsorption (particularly under ADH influence), contrary to having no such role.",
+      "concept_recap": "The collecting duct's permeability to water, regulated by ADH, is a key mechanism allowing the kidney to adjust urine concentration according to the body's hydration status."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-019",
+    "question": "Which of the following best describes 'glomerular filtration,' the first step in urine formation?",
+    "options": [
+      "The active transport of glucose back into the blood",
+      "The passive filtration of blood plasma (excluding blood cells and large proteins) from the glomerular capillaries into Bowman's capsule, driven by blood pressure",
+      "The active secretion of hydrogen ions into the renal tubule",
+      "The concentration of urine within the collecting duct"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Glomerular filtration is the passive process by which blood plasma (excluding blood cells and large proteins, which are too big to pass through the filtration membrane) is filtered from the glomerular capillaries into Bowman's capsule, driven primarily by blood pressure within the glomerulus.",
+      "why_others_wrong": "Active transport of glucose back into blood describes tubular reabsorption, a later step, not glomerular filtration itself; active secretion of hydrogen ions describes tubular secretion, another distinct, later step; urine concentration within the collecting duct is a later process, not the initial glomerular filtration step.",
+      "concept_recap": "The high blood pressure within the glomerular capillaries (compared to other capillary beds in the body) is essential for driving this initial filtration process effectively."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-020",
+    "question": "Which of the following is generally NOT normally found in the glomerular filtrate under healthy conditions, due to being too large to pass through the filtration membrane?",
+    "options": [
+      "Water",
+      "Glucose",
+      "Plasma proteins (e.g., albumin)",
+      "Urea"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Plasma proteins, such as albumin, are generally too large to pass through the glomerular filtration membrane under healthy conditions, and are therefore normally retained in the blood rather than appearing in the filtrate.",
+      "why_others_wrong": "Water, glucose, and urea are all small enough to pass through the healthy glomerular filtration membrane, and are normally present in the initial filtrate (though glucose is subsequently almost entirely reabsorbed under normal conditions).",
+      "concept_recap": "The presence of significant plasma protein in urine (proteinuria) can indicate damage to the glomerular filtration membrane, making it a clinically useful diagnostic sign."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-021",
+    "question": "Which of the following best describes 'tubular reabsorption,' as a key process in urine formation?",
+    "options": [
+      "The initial filtration of blood plasma at the glomerulus",
+      "The selective movement of useful substances (such as glucose, amino acids, and much of the filtered water) from the renal tubule back into the surrounding peritubular capillaries (blood)",
+      "The active secretion of waste substances from blood into the renal tubule",
+      "The storage of urine within the urinary bladder"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Tubular reabsorption is the process by which useful substances -- including glucose, amino acids, and a large proportion of the filtered water -- are selectively moved from the renal tubule back into the surrounding peritubular capillaries (blood), preventing these valuable substances from being lost in urine.",
+      "why_others_wrong": "Initial filtration of blood plasma describes glomerular filtration, an earlier step, not tubular reabsorption; active secretion of waste into the tubule describes tubular secretion, essentially the reverse direction of movement from reabsorption; storage of urine in the bladder is a much later step, unrelated to the tubular reabsorption process itself.",
+      "concept_recap": "Under normal healthy conditions, nearly all filtered glucose and amino acids are reabsorbed, illustrating the remarkable selectivity and efficiency of this reabsorption process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-022",
+    "question": "Which of the following best describes 'tubular secretion,' as a key process in urine formation?",
+    "options": [
+      "The reabsorption of glucose back into the blood",
+      "The active transport of certain substances (such as hydrogen ions, potassium ions, and certain drugs/toxins) from the peritubular capillaries (blood) directly into the renal tubule, to be eliminated in urine",
+      "The initial filtration of blood at the glomerulus",
+      "The storage of urine in the urinary bladder"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Tubular secretion is the active process by which certain substances -- such as hydrogen ions, potassium ions, and certain drugs or other waste products -- are transported from the peritubular capillaries (blood) directly into the renal tubule, supplementing what was originally filtered at the glomerulus, to help eliminate these substances in the final urine.",
+      "why_others_wrong": "Glucose reabsorption back into blood describes tubular reabsorption, essentially the reverse process from secretion; initial filtration of blood at the glomerulus is a distinct, earlier step, not tubular secretion; urine storage in the bladder is a much later step, unrelated to the tubular secretion process occurring within the nephron.",
+      "concept_recap": "Tubular secretion is particularly important for regulating blood pH (via hydrogen ion secretion) and eliminating certain substances that were not adequately removed during the initial glomerular filtration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-023",
+    "question": "Which of the following best summarises the overall three-step process of urine formation within the nephron, in the correct order?",
+    "options": [
+      "Tubular secretion, then glomerular filtration, then tubular reabsorption",
+      "Glomerular filtration, then tubular reabsorption, then tubular secretion",
+      "Tubular reabsorption, then tubular secretion, then glomerular filtration",
+      "All three processes occur simultaneously with no particular sequential order"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The correct sequential order of urine formation is: glomerular filtration (initial blood filtration), followed by tubular reabsorption (useful substances returned to blood), followed by tubular secretion (additional waste actively added to the forming urine) as the filtrate moves along the nephron.",
+      "why_others_wrong": "The other orderings place these three steps in an incorrect sequence relative to how urine actually forms as fluid moves through the nephron; while some secretion and reabsorption can occur somewhat concurrently along different tubule segments, the overall process still follows this general sequential logic starting with filtration, not being entirely without any sequential order.",
+      "concept_recap": "Understanding this correct three-step sequence (filtration, reabsorption, secretion) is fundamental to understanding how the kidney precisely regulates the final composition of urine."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-024",
+    "question": "Which of the following hormones increases the permeability of the collecting duct to water, promoting water reabsorption and reducing urine volume?",
+    "options": [
+      "Aldosterone",
+      "Antidiuretic hormone (ADH)",
+      "Insulin",
+      "Parathyroid hormone"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Antidiuretic hormone (ADH), released from the posterior pituitary, increases the permeability of the collecting duct to water, promoting water reabsorption back into the blood and thereby reducing urine volume, particularly important during dehydration.",
+      "why_others_wrong": "Aldosterone primarily regulates sodium reabsorption (and potassium excretion), a related but distinct hormonal effect from ADH's specific water-permeability action; insulin regulates blood glucose, unrelated to collecting duct water permeability; parathyroid hormone regulates blood calcium levels, unrelated to collecting duct water permeability.",
+      "concept_recap": "ADH deficiency or resistance results in diabetes insipidus, characterised by excessive urination of dilute urine due to impaired water reabsorption in the collecting duct."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-025",
+    "question": "Which of the following hormones promotes sodium reabsorption (and potassium excretion) primarily at the distal convoluted tubule and collecting duct?",
+    "options": [
+      "Antidiuretic hormone (ADH)",
+      "Aldosterone",
+      "Calcitonin",
+      "Glucagon"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Aldosterone, secreted by the adrenal cortex, promotes sodium reabsorption (along with increased potassium excretion) primarily at the distal convoluted tubule and collecting duct, playing a key role in regulating blood sodium levels, blood volume, and blood pressure.",
+      "why_others_wrong": "ADH primarily regulates water permeability/reabsorption, a related but distinct hormonal effect from aldosterone's sodium-specific action; calcitonin regulates blood calcium levels, unrelated to sodium reabsorption; glucagon regulates blood glucose levels, unrelated to sodium reabsorption in the kidney.",
+      "concept_recap": "Aldosterone is a key component of the renin-angiotensin-aldosterone system (RAAS), a major regulatory pathway for blood pressure and fluid balance."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-026",
+    "question": "Which of the following best describes the role of atrial natriuretic factor (ANF) in regulating kidney function?",
+    "options": [
+      "ANF promotes sodium and water retention, increasing blood volume",
+      "ANF promotes sodium and water excretion (natriuresis), helping to lower blood volume and blood pressure",
+      "ANF has no relationship to kidney function",
+      "ANF exclusively regulates blood glucose levels"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Atrial natriuretic factor (ANF), released by the heart's atrial wall in response to increased blood volume/pressure, promotes sodium and water excretion by the kidneys (natriuresis), helping to lower blood volume and blood pressure back toward normal.",
+      "why_others_wrong": "ANF promotes excretion (not retention) of sodium and water, working to LOWER, not increase, blood volume; ANF has a very direct, significant relationship to kidney function via this natriuretic action, contrary to having none; ANF's primary described role concerns sodium/water balance and blood pressure, not blood glucose regulation.",
+      "concept_recap": "ANF acts in functional opposition to hormones like aldosterone and ADH, which tend to promote sodium/water retention, together finely balancing the body's fluid and electrolyte homeostasis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-027",
+    "question": "Which of the following best describes the 'juxtaglomerular apparatus (JGA),' located near the glomerulus of the nephron?",
+    "options": [
+      "A structure with no role in regulating kidney function or blood pressure",
+      "A specialised structure that monitors blood pressure/flow and glomerular filtration rate, releasing renin when needed to help regulate blood pressure via the renin-angiotensin-aldosterone system",
+      "The primary site of glucose reabsorption in the nephron",
+      "A structure found only in the collecting duct, unrelated to the glomerulus"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The juxtaglomerular apparatus (JGA) is a specialised structure located near the glomerulus that monitors blood pressure/flow and glomerular filtration rate, releasing the enzyme renin when needed to help regulate blood pressure via activation of the renin-angiotensin-aldosterone system (RAAS).",
+      "why_others_wrong": "The JGA has a very significant, well-established role in regulating kidney function and blood pressure, contrary to having no such role; glucose reabsorption primarily occurs in the proximal convoluted tubule, not the JGA; the JGA is specifically located near the glomerulus (as its name suggests, 'juxta' meaning 'near'), not within the collecting duct.",
+      "concept_recap": "This JGA-mediated renin release exemplifies an important feedback mechanism allowing the kidney to help regulate the body's overall blood pressure, beyond just its more direct urine-forming functions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-028",
+    "question": "Which of the following best describes the sequence of the renin-angiotensin-aldosterone system (RAAS), in response to low blood pressure?",
+    "options": [
+      "Renin release leads to angiotensin I formation, which is converted to angiotensin II, which then stimulates aldosterone release, promoting sodium/water retention to help raise blood pressure",
+      "Aldosterone release directly causes renin release, with no involvement of angiotensin",
+      "RAAS activation always lowers blood pressure further, worsening the original low blood pressure situation",
+      "RAAS has no relationship to blood pressure regulation"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In response to low blood pressure, renin is released (from the JGA), initiating a cascade: renin converts a precursor into angiotensin I, which is then converted to angiotensin II; angiotensin II subsequently stimulates aldosterone release from the adrenal cortex, promoting sodium and water retention by the kidneys, helping to raise blood pressure back toward normal.",
+      "why_others_wrong": "The sequence is specifically renin leading to angiotensin, which then leads to aldosterone release -- not aldosterone directly causing renin release, which reverses the correct causal sequence; RAAS activation is specifically a compensatory mechanism that works to RAISE (not further lower) blood pressure in response to an initial drop; RAAS has a very direct, central, well-established relationship to blood pressure regulation, contrary to having none.",
+      "concept_recap": "This RAAS pathway is a major physiological mechanism for blood pressure regulation and is also an important target for several classes of blood pressure medications."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-029",
+    "question": "Which of the following would be the expected result of a significant DECREASE in glomerular filtration rate (GFR), all else being equal?",
+    "options": [
+      "Increased urine output, with more waste products efficiently removed",
+      "Decreased urine output and potential accumulation of waste products (like urea and creatinine) in the blood, since less filtrate is being formed",
+      "No change in urine output or blood waste product levels",
+      "GFR has no relationship to urine output or waste removal"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A significant decrease in glomerular filtration rate (GFR) means less blood plasma is being filtered per unit time, generally resulting in decreased urine output and potential accumulation of waste products (like urea and creatinine) in the blood, since less overall filtrate is being formed to eventually eliminate these substances.",
+      "why_others_wrong": "Decreased GFR would be expected to result in DECREASED (not increased) urine output and LESS (not more) efficient waste removal; there would be a very significant, expected change in urine output/blood waste levels with a significant GFR decrease, contrary to no change occurring; GFR has a very direct, fundamental relationship to urine output and waste removal, contrary to having none.",
+      "concept_recap": "GFR is a clinically important measure of kidney function, and significantly reduced GFR is a hallmark feature of conditions like chronic kidney disease."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-030",
+    "question": "Besides the kidneys, which of the following organs also plays a role in excreting certain waste products from the body?",
+    "options": [
+      "The heart, which excretes excess blood cells",
+      "The lungs, which excrete carbon dioxide and some water vapour",
+      "The pancreas, which excretes digestive enzymes as a form of excretion",
+      "The spleen, which excretes bile"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The lungs play a role in excretion by eliminating carbon dioxide (a metabolic waste product) and some water vapour during exhalation, complementing the kidney's role in eliminating nitrogenous and other waste.",
+      "why_others_wrong": "The heart pumps blood but does not function as an excretory organ eliminating waste products in this sense; the pancreas secretes digestive enzymes into the digestive tract, which is a digestive function, not typically classified as excretion of body waste; bile is produced by the liver (not the spleen) and its release, while involving waste pigment elimination, is primarily framed as a digestive secretion, though it does carry some excretory function via the liver.",
+      "concept_recap": "The skin (through sweat) and the liver (in bile pigment elimination) are additional examples of organs beyond the kidneys that contribute to overall excretory function in the body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-031",
+    "question": "Which of the following best describes the role of sweat glands in the skin as accessory excretory structures?",
+    "options": [
+      "Sweat glands excrete large amounts of glucose exclusively",
+      "Sweat glands excrete water, salts, and small amounts of urea, contributing modestly to overall excretion while primarily serving a thermoregulatory function",
+      "Sweat glands have no excretory function whatsoever",
+      "Sweat glands are the primary organs responsible for nitrogenous waste excretion in humans"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Sweat glands excrete water, salts, and small amounts of urea as a component of sweat, contributing modestly to overall excretory function, though their primary physiological role is thermoregulation (cooling the body through evaporative heat loss).",
+      "why_others_wrong": "Sweat does not excrete large amounts of glucose under normal healthy conditions; sweat glands do have a modest, recognised excretory function (water, salts, some urea), contrary to having none; the kidneys, not sweat glands, are the primary organs responsible for nitrogenous waste excretion in humans.",
+      "concept_recap": "This dual role of sweat glands (primarily thermoregulatory, with a secondary modest excretory function) illustrates how organ systems can serve multiple overlapping physiological purposes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-032",
+    "question": "Which of the following disorders is characterised by the formation of hard, crystalline masses (calculi) within the kidney, often composed of substances like calcium oxalate?",
+    "options": [
+      "Diabetes insipidus",
+      "Renal calculi (kidney stones)",
+      "Glomerulonephritis",
+      "Uremia"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Renal calculi (commonly known as kidney stones) are hard, crystalline masses that form within the kidney, often composed of substances such as calcium oxalate, and can cause significant pain if they obstruct the urinary tract.",
+      "why_others_wrong": "Diabetes insipidus is related to ADH deficiency/resistance, not crystalline stone formation; glomerulonephritis is inflammation of the glomeruli, a different type of kidney disorder from stone formation; uremia refers to the accumulation of urea and other waste products in the blood, a consequence of impaired kidney function, not the crystalline stone formation itself.",
+      "concept_recap": "Adequate hydration is commonly recommended as a preventive measure to help reduce the risk of kidney stone formation by keeping urine appropriately dilute."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-033",
+    "question": "Which of the following best describes 'glomerulonephritis,' as a kidney disorder?",
+    "options": [
+      "A condition involving stone formation within the kidney",
+      "Inflammation of the glomeruli, which can impair the kidney's normal blood filtration function",
+      "A condition exclusively affecting the urinary bladder, with no involvement of the kidney itself",
+      "A term synonymous with kidney stones"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glomerulonephritis refers to inflammation of the glomeruli (the blood-filtering capillary tufts within the nephrons), which can impair the kidney's normal blood filtration function and potentially allow abnormal substances (like blood cells or excess protein) to appear in the urine.",
+      "why_others_wrong": "Stone formation within the kidney describes renal calculi, a distinct condition from glomerulonephritis; glomerulonephritis specifically and directly involves the kidney's glomeruli, not being restricted to the urinary bladder with no kidney involvement; glomerulonephritis (inflammation) and kidney stones (crystalline mass formation) are distinct conditions, not being synonymous terms.",
+      "concept_recap": "Glomerulonephritis can arise from various causes, including autoimmune responses or infections, and may range from mild, temporary inflammation to more serious, chronic kidney damage."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-034",
+    "question": "Which of the following best describes 'uremia,' as a serious condition related to kidney dysfunction?",
+    "options": [
+      "A condition characterised by excessive urine production with normal blood chemistry",
+      "The abnormal accumulation of urea and other nitrogenous waste products in the blood, typically resulting from significantly impaired kidney function",
+      "A condition entirely unrelated to kidney function",
+      "A term synonymous with normal, healthy kidney function"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Uremia refers to the abnormal accumulation of urea and other nitrogenous waste products in the blood, typically resulting from significantly impaired kidney function that prevents adequate filtration and excretion of these waste products.",
+      "why_others_wrong": "Uremia is specifically characterised by abnormal blood chemistry (waste accumulation), not simply excessive urine production with otherwise normal blood chemistry; uremia has a very direct, significant relationship to (impaired) kidney function, contrary to being unrelated; uremia specifically indicates significantly IMPAIRED (not normal, healthy) kidney function, being essentially the opposite of a description of healthy kidney function.",
+      "concept_recap": "Uremia is a serious clinical condition that can result from various underlying kidney diseases and often requires medical intervention, such as dialysis, to manage the dangerous waste product accumulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-035",
+    "question": "Which of the following best describes 'hemodialysis,' as a medical treatment for severe kidney failure?",
+    "options": [
+      "A surgical procedure to remove kidney stones",
+      "A medical procedure in which a patient's blood is filtered through an artificial machine (dialyser) to remove waste products and excess fluid, substituting for lost kidney function",
+      "A dietary intervention with no relationship to actual blood filtration",
+      "A procedure that permanently and completely restores full, normal kidney function"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Hemodialysis is a medical procedure in which a patient's blood is circulated through an artificial machine (dialyser) that filters out waste products and excess fluid, substituting for the filtration function of kidneys that have failed or are severely impaired.",
+      "why_others_wrong": "Removing kidney stones is a distinct surgical/medical procedure, not what hemodialysis specifically describes; hemodialysis involves genuine, direct blood filtration through an artificial device, not merely a dietary intervention; hemodialysis is generally a supportive treatment managing the consequences of kidney failure, not something that permanently and completely restores the patient's own natural kidney function (a kidney transplant would be a different, potentially more complete solution).",
+      "concept_recap": "Hemodialysis has become a life-sustaining treatment for many patients with severe kidney failure, allowing continued removal of dangerous waste products despite the loss of adequate natural kidney function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-036",
+    "question": "A patient's blood tests reveal significantly elevated blood urea and creatinine levels, along with reduced urine output. Which of the following is the most likely underlying explanation?",
+    "options": [
+      "Excessive water intake causing dilution of blood",
+      "Significantly reduced kidney function (reduced GFR), impairing the normal filtration and excretion of these nitrogenous waste products",
+      "Normal, healthy kidney function with no underlying concern",
+      "Excess insulin secretion causing these specific changes"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Elevated blood urea and creatinine, combined with reduced urine output, are classic indicators of significantly reduced kidney function (reduced GFR), since the kidneys are not adequately filtering and excreting these nitrogenous waste products, causing them to accumulate in the blood.",
+      "why_others_wrong": "Excessive water intake would tend to dilute, not elevate, these blood markers, and would not explain reduced urine output; this pattern of results is specifically NOT consistent with normal, healthy kidney function -- it strongly suggests a significant problem; insulin secretion relates to blood glucose regulation, not directly to blood urea/creatinine levels or urine output in this way.",
+      "concept_recap": "This laboratory pattern (elevated urea/creatinine, reduced urine output) is a hallmark clinical presentation used to help diagnose and monitor kidney dysfunction, such as acute or chronic kidney disease."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-037",
+    "question": "Which of the following best explains why the countercurrent arrangement of the loop of Henle (with its descending and ascending limbs running in opposite directions) is essential for establishing the medullary concentration gradient?",
+    "options": [
+      "A countercurrent arrangement has no relationship to establishing concentration gradients",
+      "The opposing flow directions, combined with differential permeability to water and solutes in the descending versus ascending limbs, allow for progressive, multiplied solute concentration in the surrounding medullary tissue, rather than the gradient being 'washed out' as it would be with parallel flow",
+      "A parallel (same-direction) flow arrangement would work equally well for establishing this gradient",
+      "The loop of Henle has no role in concentrating urine"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The countercurrent arrangement -- with the descending limb permeable to water (but not solutes) and the ascending limb permeable to solutes (but not water, and actively pumping ions out) -- allows for a progressive, multiplied build-up of solute concentration in the surrounding medullary tissue as fluid flows in opposite directions through the two limbs, rather than this concentration gradient being diminished or 'washed out,' as would occur with a parallel (same-direction) flow arrangement.",
+      "why_others_wrong": "The countercurrent arrangement has a very direct, essential relationship to establishing this medullary concentration gradient, contrary to having none; a parallel flow arrangement would NOT work equally well -- it would fail to establish or maintain the necessary concentration gradient in the same efficient way; the loop of Henle has a very significant, central role in concentrating urine, contrary to having no role.",
+      "concept_recap": "This countercurrent multiplier mechanism is a sophisticated physiological adaptation that allows mammals (and birds) to produce urine considerably more concentrated than blood plasma, conserving significant amounts of water."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-038",
+    "question": "Which of the following best explains why desert-adapted mammals (such as kangaroo rats) often have unusually long loops of Henle compared to mammals living in water-abundant environments?",
+    "options": [
+      "Longer loops of Henle have no relationship to water conservation ability",
+      "Longer loops of Henle allow for the establishment of a steeper, more extensive medullary concentration gradient, enabling these desert-adapted mammals to produce highly concentrated urine and thereby conserve significant amounts of water",
+      "Longer loops of Henle always result in less concentrated urine being produced",
+      "Desert mammals actually have shorter loops of Henle than mammals in water-abundant environments"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Longer loops of Henle allow for the establishment of a steeper, more extensive medullary concentration gradient; this enables desert-adapted mammals like kangaroo rats to produce highly concentrated urine, significantly reducing water loss and helping them survive in water-scarce desert environments.",
+      "why_others_wrong": "Loop of Henle length has a very direct, well-established relationship to water conservation ability (via urine concentrating capacity), contrary to having none; longer loops of Henle are associated with the ability to produce MORE (not less) concentrated urine; desert mammals characteristically have LONGER (not shorter) loops of Henle compared to mammals in water-abundant environments, reflecting this adaptive relationship.",
+      "concept_recap": "This comparative anatomy -- correlating loop of Henle length with habitat water availability across different mammal species -- is a compelling example of structure-function adaptation shaped by environmental pressures."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-039",
+    "question": "Which of the following would be the most likely consequence of a mutation causing complete loss of function of ADH receptors in the collecting duct (nephrogenic diabetes insipidus)?",
+    "options": [
+      "Normal urine concentration, since ADH would have no relevance in this scenario",
+      "The collecting duct would remain impermeable to water regardless of ADH levels, resulting in excessive dilute urine production (polyuria) and excessive thirst, similar to central diabetes insipidus but due to receptor dysfunction rather than ADH deficiency itself",
+      "Excessively concentrated urine production, well beyond normal levels",
+      "Complete cessation of all urine production"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "If ADH receptors in the collecting duct are non-functional, the collecting duct would remain impermeable to water regardless of how much ADH is present in the blood, resulting in excessive dilute urine production (polyuria) and consequent excessive thirst -- a condition called nephrogenic diabetes insipidus, distinguished from central diabetes insipidus (which involves ADH deficiency itself rather than receptor dysfunction).",
+      "why_others_wrong": "ADH receptor function would have very significant relevance in this scenario, precisely because its loss disrupts normal urine concentration; this scenario would result in EXCESSIVE DILUTE (not excessively concentrated) urine production, since water reabsorption would be impaired; urine production would not cease completely -- rather, LARGE volumes of dilute urine would be produced, reflecting the failure of water reabsorption.",
+      "concept_recap": "This distinction between central diabetes insipidus (ADH deficiency) and nephrogenic diabetes insipidus (ADH receptor dysfunction) illustrates how disruption at different points in a hormonal signalling pathway can produce similar overall symptoms through different underlying mechanisms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-040",
+    "question": "Which of the following invertebrate excretory structures, found in organisms like earthworms, are segmentally arranged tubular structures responsible for waste removal?",
+    "options": [
+      "Malpighian tubules",
+      "Nephridia",
+      "Flame cells",
+      "Green glands"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Nephridia are segmentally arranged, tubular excretory structures found in earthworms (and other annelids), responsible for filtering coelomic fluid and removing nitrogenous waste.",
+      "why_others_wrong": "Malpighian tubules are the excretory structures found in insects, not earthworms; flame cells are excretory structures found in flatworms, not earthworms; green glands (antennal glands) are excretory structures found in crustaceans, not earthworms.",
+      "concept_recap": "Nephridia illustrate an early evolutionary solution to excretion involving segmentally repeated tubular structures, distinct from the more centralised kidney structures of vertebrates."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-041",
+    "question": "Which of the following excretory structures, found in insects such as cockroaches, are thread-like structures that extract nitrogenous waste from the hemolymph (blood) for excretion as uric acid?",
+    "options": [
+      "Nephridia",
+      "Malpighian tubules",
+      "Green glands",
+      "Flame cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Malpighian tubules are thread-like excretory structures found in insects (like cockroaches) that extract nitrogenous waste from the hemolymph, converting and excreting it primarily as uric acid, consistent with the uricotelic excretion characteristic of insects.",
+      "why_others_wrong": "Nephridia are the excretory structures of annelids (like earthworms), not insects; green glands (antennal glands) are found in crustaceans, not insects; flame cells are found in flatworms, not insects.",
+      "concept_recap": "The Malpighian tubule system, working alongside the insect's rectum (further reabsorbing water), is a highly efficient water-conserving excretory adaptation suited to many terrestrial insects."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-042",
+    "question": "Which of the following excretory structures, found in flatworms (Platyhelminthes), are specialised cells with ciliary tufts that help move fluid through a simple tubular excretory system?",
+    "options": [
+      "Malpighian tubules",
+      "Nephridia",
+      "Flame cells (protonephridia)",
+      "Green glands"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Flame cells (also called protonephridia) are specialised excretory cells found in flatworms, featuring ciliary tufts (resembling a flickering flame under a microscope) that help draw and move fluid through the simple excretory tubular system for waste removal.",
+      "why_others_wrong": "Malpighian tubules are found in insects, not flatworms; nephridia are found in annelids like earthworms, not flatworms; green glands are found in crustaceans, not flatworms.",
+      "concept_recap": "The relatively simple protonephridial system of flatworms represents an early evolutionary example of a specialised excretory structure, distinct from the more complex nephron-based systems of vertebrates."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-043",
+    "question": "Which of the following best describes 'micturition,' the process of urination?",
+    "options": [
+      "The process of forming urine within the nephron",
+      "The neurologically coordinated process by which urine is voluntarily released from the urinary bladder through the urethra",
+      "The process of reabsorbing water in the collecting duct",
+      "A term synonymous with glomerular filtration"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Micturition refers to the neurologically coordinated process -- involving both involuntary (bladder muscle contraction, sphincter relaxation) and voluntary (conscious control) components -- by which urine is released from the urinary bladder through the urethra.",
+      "why_others_wrong": "Urine formation within the nephron describes the earlier processes of filtration, reabsorption, and secretion, not micturition itself, which concerns the later release of already-formed urine; water reabsorption in the collecting duct is a distinct process occurring earlier, within the kidney itself; micturition (urination) and glomerular filtration (initial blood filtering) are distinct processes occurring at very different stages, not being synonymous.",
+      "concept_recap": "The stretch receptors in the bladder wall, sending signals as the bladder fills, and the coordinated relaxation of urinary sphincters, together enable this controlled urination process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-044",
+    "question": "Which of the following best describes the 'renal artery,' in relation to kidney blood supply?",
+    "options": [
+      "The vessel that carries filtered, deoxygenated blood away from the kidney",
+      "The vessel that carries oxygenated blood, rich in waste products for filtration, into the kidney from the aorta",
+      "A vessel with no relationship to kidney blood supply",
+      "The duct that carries urine out of the kidney"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The renal artery carries oxygenated blood (containing waste products to be filtered) from the aorta into the kidney, supplying the glomeruli with the blood that will undergo filtration as the first step of urine formation.",
+      "why_others_wrong": "Carrying filtered blood AWAY from the kidney describes the renal vein, not the renal artery; the renal artery has a very direct, essential relationship to kidney blood supply (indeed, being its main arterial blood supply), contrary to having none; the ureter (not the renal artery) is the duct carrying urine out of the kidney -- the renal artery carries blood, not urine.",
+      "concept_recap": "The exceptionally high blood flow the kidneys receive (relative to their size) reflects their critical, continuous role in filtering and regulating the composition of the blood."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-045",
+    "question": "Which of the following best describes 'osmoregulation,' as a broader physiological concept related to excretion?",
+    "options": [
+      "The regulation of body temperature",
+      "The regulation of the water and solute (osmotic) balance within an organism's body fluids, closely linked to excretory system function",
+      "The regulation of blood cell production",
+      "A concept entirely unrelated to kidney function"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Osmoregulation refers to the regulation of water and solute (osmotic) balance within an organism's body fluids, a process closely linked to and significantly mediated by excretory system function, particularly the kidneys in vertebrates.",
+      "why_others_wrong": "Body temperature regulation describes thermoregulation, a related but distinct physiological process from osmoregulation; blood cell production (haematopoiesis) is a separate physiological process, not what osmoregulation specifically describes; osmoregulation has a very direct, central relationship to kidney function, contrary to being unrelated.",
+      "concept_recap": "The kidney's ability to produce urine of varying concentration, depending on the body's hydration status, is a key mechanism supporting overall osmoregulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-046",
+    "question": "Which of the following best explains why the reabsorption of nearly all filtered glucose in a healthy person's proximal convoluted tubule (PCT) fails in individuals with poorly controlled diabetes mellitus, resulting in glucose appearing in the urine (glycosuria)?",
+    "options": [
+      "The PCT has no mechanism at all for reabsorbing glucose",
+      "In diabetes mellitus, blood glucose levels can become so high that the amount of glucose filtered exceeds the PCT's maximum reabsorption capacity (transport maximum), causing the excess unreabsorbed glucose to remain in the filtrate and appear in urine",
+      "Glycosuria has no relationship to blood glucose levels",
+      "The kidneys actively secrete additional glucose into urine in diabetes, unrelated to reabsorption capacity"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "In diabetes mellitus, chronically elevated blood glucose levels can result in the amount of glucose filtered at the glomerulus exceeding the proximal convoluted tubule's maximum reabsorption capacity (a concept known as the transport maximum, or Tm); once this capacity is exceeded, the excess unreabsorbed glucose remains in the tubular fluid and is excreted in the urine, a condition called glycosuria.",
+      "why_others_wrong": "The PCT does have a very significant, normally highly effective mechanism (active transport) for reabsorbing glucose under typical conditions; glycosuria has a very direct, well-established relationship to blood glucose levels (specifically occurring when they become excessively high), contrary to having no relationship; glycosuria results from a saturated/exceeded REABSORPTION capacity, not from active secretion of additional glucose into the urine.",
+      "concept_recap": "Glycosuria is a classic clinical sign historically used to help identify diabetes mellitus, reflecting this fundamental relationship between blood glucose levels and the kidney's finite glucose reabsorption capacity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  },
+  {
+    "id": "excr-047",
+    "question": "Which of the following best explains why an increase in dietary protein intake can lead to a somewhat increased urine output, even without any change in water intake?",
+    "options": [
+      "Dietary protein has no relationship to nitrogenous waste production or urine output",
+      "Increased protein intake results in increased amino acid metabolism and consequently increased urea production; since urea excretion requires water for dilution, this can lead to somewhat increased urine output to help eliminate this additional nitrogenous waste",
+      "Dietary protein is never metabolised into any nitrogenous waste products",
+      "Increased protein intake always decreases urine output significantly"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Increased dietary protein intake leads to increased amino acid metabolism, generating more nitrogenous waste (urea) that must be excreted; since eliminating this additional urea requires a certain amount of water for adequate dilution, this can result in somewhat increased urine output, even without any specific increase in water intake itself.",
+      "why_others_wrong": "Dietary protein has a very direct, significant relationship to nitrogenous waste production (and thus urine output), contrary to having none; dietary protein IS metabolised into nitrogenous waste products (specifically urea, via amino acid breakdown), contrary to never being converted into such waste; increased protein intake would be expected to somewhat INCREASE (not significantly decrease) urine output, given the increased urea excretion burden.",
+      "concept_recap": "This relationship between protein intake and urine output/urea excretion is one reason adequate hydration is often recommended alongside higher protein consumption."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 19"
+  }
+]
