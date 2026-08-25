@@ -38,7 +38,7 @@
     -webkit-font-smoothing:antialiased;
   }
   .wrap{max-width:920px;margin:0 auto;padding:28px 20px 80px;}
-  header{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:6px;}
+  header{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:20px;}
   .brand{display:flex;align-items:baseline;gap:10px;}
   .brand-mark{
     font-family:'Fraunces',serif;font-weight:700;font-size:1.6rem;letter-spacing:-0.01em;
@@ -47,6 +47,10 @@
     background:linear-gradient(90deg,var(--grad-1),var(--grad-2));
     -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
   }
+  .brand-sparkle{-webkit-text-fill-color:initial;font-size:1rem;}
+  .brand-subtitle{color:var(--paper-dim);font-size:0.8rem;margin-top:2px;}
+  .avatar-wrap{display:flex;align-items:center;gap:2px;cursor:pointer;}
+  .avatar-chevron{color:var(--paper-dim);font-size:0.7rem;}
   nav{display:flex;flex-wrap:wrap;gap:4px;background:var(--panel);border:1px solid var(--rule);border-radius:999px;padding:4px;}
   nav a{color:var(--paper-dim);font-size:0.85rem;padding:8px 14px;display:inline-block;}
   nav button{
@@ -54,7 +58,7 @@
     padding:8px 16px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500;
   }
   nav button.active{background:linear-gradient(90deg,#6D5CF6,#8B5CF6);color:#fff;font-weight:600;}
-  .tagline{color:var(--paper-dim);font-size:0.95rem;margin:0 0 28px;}
+  .tagline{display:none;}
 
   .card{
     background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);
@@ -191,6 +195,8 @@
   .timeline-time{font-size:0.68rem;color:var(--paper-dim);width:58px;flex-shrink:0;padding-top:9px;line-height:1.35;}
   .timeline-card{flex:1;background:var(--panel-2);border:1px solid var(--rule);border-radius:10px;
     padding:10px 12px;display:flex;align-items:center;gap:10px;min-width:0;}
+  .ti-icon{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+    font-size:0.95rem;flex-shrink:0;}
   .timeline-card .ti-info{flex:1;min-width:0;}
   .timeline-card .ti-subj{font-weight:600;font-size:0.88rem;}
   .timeline-card .ti-subj.done{text-decoration:line-through;color:var(--paper-dim);}
@@ -320,12 +326,18 @@
 
   <header>
     <div class="brand">
-      <div class="brand-mark">Studyplan<span>AI</span></div>
+      <div>
+        <div class="brand-mark">Studyplan<span>AI</span> <span class="brand-sparkle">✨</span></div>
+        <div class="brand-subtitle">Plan smart. Study better. Ace NEET.</div>
+      </div>
     </div>
     <div class="header-right">
       <div class="streak-badge"><span class="fl">🔥</span> <span id="headerStreakCount">0</span> <small>Day Streak</small></div>
       <button class="icon-btn" aria-label="Notifications" type="button">🔔</button>
-      <div class="avatar-circle" id="headerAvatar">?</div>
+      <div class="avatar-wrap">
+        <div class="avatar-circle" id="headerAvatar">?</div>
+        <span class="avatar-chevron">▾</span>
+      </div>
     </div>
   </header>
   <nav>
@@ -1041,6 +1053,12 @@ function fmtClock(d){
   h=h%12; if(h===0) h=12;
   return `${h}:${String(m).padStart(2,'0')} ${ampm}`;
 }
+const TIMELINE_ICONS = ['📖','🧬','🧪','🎯','📐','🔬'];
+function iconForBlock(b, allSubjects){
+  if(/dpp|practice/i.test(b.subject)) return '🎯';
+  const idx = allSubjects.indexOf(b.subject);
+  return TIMELINE_ICONS[idx % TIMELINE_ICONS.length];
+}
 
 function renderPlan(plan){
   const out = document.getElementById('planOutput');
@@ -1157,6 +1175,7 @@ async function renderTodayChecklist(plan, today, totalTodayQs, allSubjects){
           <div class="timeline-bar" style="background:${color};"></div>
           <div class="timeline-time">${fmtClock(b.start)}<br>– ${fmtClock(b.end)}</div>
           <div class="timeline-card">
+            <div class="ti-icon" style="background:${color}22;color:${color};">${iconForBlock(b, allSubjects)}</div>
             <div class="ti-info">
               <div class="ti-subj ${done?'done':''}">${b.subject}${b.weak?' <span class="tag weak">weak</span>':''}</div>
               <div class="ti-note">${b.weak?'Focused revision block':'Study block'}</div>
