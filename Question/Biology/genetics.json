@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "gen-001",
+    "question": "Gregor Mendel conducted his classic genetics experiments primarily using which organism?",
+    "options": [
+      "Fruit flies (Drosophila)",
+      "Garden pea (Pisum sativum)",
+      "Mice",
+      "Bacteria"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Gregor Mendel conducted his foundational genetics experiments using the garden pea plant (Pisum sativum), studying the inheritance patterns of several distinct traits.",
+      "why_others_wrong": "Fruit flies were used extensively by later geneticists (like Thomas Hunt Morgan), not Mendel's original experiments; mice have been used in various later genetic studies, not Mendel's foundational work; bacteria were used in even later molecular genetics research, unrelated to Mendel's original pea plant experiments.",
+      "concept_recap": "The garden pea was well-suited to Mendel's experiments due to its easily observable, contrasting traits and ability to be both self-pollinated and cross-pollinated in controlled ways."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-002",
+    "question": "Which of the following best describes a 'dominant' allele, in Mendelian genetics?",
+    "options": [
+      "An allele that is never expressed in the phenotype",
+      "An allele whose phenotypic effect is expressed even when only one copy is present in a heterozygous individual, masking the effect of a recessive allele",
+      "An allele found only on the Y chromosome",
+      "An allele that always causes a genetic disorder"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A dominant allele is one whose phenotypic effect is expressed even when only one copy is present (in a heterozygous individual), effectively masking the phenotypic expression of a recessive allele at the same gene locus.",
+      "why_others_wrong": "A dominant allele IS expressed in the phenotype (indeed, that is its defining characteristic), contrary to never being expressed; dominance/recessiveness is a general genetic concept applicable to genes on many different chromosomes, not restricted to the Y chromosome; dominant alleles are not necessarily associated with genetic disorders -- many normal, healthy traits are also dominant.",
+      "concept_recap": "The classic 3:1 phenotypic ratio observed in Mendel's monohybrid crosses reflects this fundamental dominant-recessive relationship between alleles."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-003",
+    "question": "Which of the following best describes a 'recessive' allele, in Mendelian genetics?",
+    "options": [
+      "An allele whose phenotypic effect is only expressed when present in two copies (homozygous), being masked by a dominant allele when only one copy is present",
+      "An allele that is always expressed regardless of the other allele present",
+      "An allele found exclusively on the X chromosome",
+      "An allele that cannot be passed on to offspring"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A recessive allele's phenotypic effect is only expressed when an individual carries two copies of that allele (homozygous recessive), since its effect is masked by a dominant allele when present together in a heterozygous individual.",
+      "why_others_wrong": "Being expressed regardless of the other allele present describes dominant alleles, not recessive ones; recessive alleles can be found on any chromosome (autosomes or sex chromosomes), not being restricted exclusively to the X chromosome; recessive alleles are indeed passed on to offspring through normal inheritance, contrary to being unable to be passed on.",
+      "concept_recap": "Recessive genetic disorders (like cystic fibrosis) typically only manifest in individuals who inherit two copies of the recessive disease-causing allele, one from each parent."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-004",
+    "question": "Which of the following best describes an organism's 'genotype'?",
+    "options": [
+      "The observable physical or biochemical characteristics of an organism",
+      "The specific genetic constitution (allele combination) of an organism for a particular trait or overall",
+      "The environment in which an organism lives",
+      "The specific behaviour patterns displayed by an organism"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Genotype refers to the specific genetic constitution -- the particular combination of alleles -- that an organism possesses for a given trait (or, more broadly, its entire genetic makeup).",
+      "why_others_wrong": "Observable physical/biochemical characteristics describe phenotype, a distinct concept resulting from genotype (and environmental influence), not the genotype itself; environment is a separate external factor that can influence phenotype but is not itself the genotype; behaviour patterns are a type of phenotype (influenced by genotype and environment), not the genotype itself.",
+      "concept_recap": "Distinguishing genotype (genetic makeup) from phenotype (observable characteristics) is a foundational concept in genetics, since the same genotype can sometimes produce different phenotypes under different environmental conditions."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-005",
+    "question": "Which of the following best describes an organism's 'phenotype'?",
+    "options": [
+      "The specific combination of alleles an organism possesses",
+      "The observable physical, biochemical, or behavioural characteristics of an organism, resulting from the interaction of its genotype with the environment",
+      "A term synonymous with 'genotype'",
+      "The specific chromosome number of an organism only"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Phenotype refers to the observable physical, biochemical, or behavioural characteristics of an organism, which result from the interaction between its genotype (genetic makeup) and the environment it develops/lives in.",
+      "why_others_wrong": "The specific combination of alleles describes genotype, a distinct concept that gives rise to (but is not the same as) phenotype; genotype and phenotype are related but distinct concepts (genetic makeup vs. observable traits), not being synonymous; phenotype encompasses much more than chromosome number alone -- it includes the full range of observable traits.",
+      "concept_recap": "The distinction between genotype and phenotype helps explain phenomena like identical genotypes sometimes producing different phenotypes due to environmental influences (e.g., nutrition affecting final height despite a genetic height potential)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-006",
+    "question": "An organism with two identical alleles for a particular gene (e.g., 'TT' or 'tt') is described as being:",
+    "options": [
+      "Heterozygous for that gene",
+      "Homozygous for that gene",
+      "Hemizygous for that gene",
+      "Polyploid for that gene"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "An organism with two identical alleles for a particular gene (such as 'TT' or 'tt') is described as homozygous for that gene.",
+      "why_others_wrong": "Heterozygous describes an organism with two different alleles for a gene (like 'Tt'), the opposite situation from homozygous; hemizygous describes having only a single copy of a gene (as with X-linked genes in males), a different situation from having two identical copies; polyploid describes having more than the normal two sets of chromosomes entirely, an unrelated concept.",
+      "concept_recap": "Homozygous genotypes can be either homozygous dominant (e.g., 'TT') or homozygous recessive (e.g., 'tt'), both being distinct from the heterozygous condition."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-007",
+    "question": "An organism with two different alleles for a particular gene (e.g., 'Tt') is described as being:",
+    "options": [
+      "Homozygous for that gene",
+      "Heterozygous for that gene",
+      "Hemizygous for that gene",
+      "Aneuploid for that gene"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "An organism with two different alleles for a particular gene (such as 'Tt') is described as heterozygous for that gene.",
+      "why_others_wrong": "Homozygous describes an organism with two identical alleles (like 'TT' or 'tt'), the opposite situation from heterozygous; hemizygous describes having only a single copy of a gene, a different situation from having two different alleles; aneuploid describes an abnormal chromosome number, an unrelated concept to allele combination at a single gene.",
+      "concept_recap": "Heterozygous individuals for a gene with a dominant and recessive allele will typically display the dominant phenotype, while still carrying (and potentially passing on) the recessive allele."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-008",
+    "question": "According to Mendel's Law of Segregation, which of the following occurs during gamete formation?",
+    "options": [
+      "Both alleles of a gene pair are passed together into every single gamete",
+      "The two alleles of a gene pair separate (segregate) from each other, so that each gamete receives only one allele from the pair",
+      "Alleles from different genes always separate together as a single unit, with no independent behaviour",
+      "No separation of alleles occurs at all during gamete formation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Law of Segregation states that during gamete formation (meiosis), the two alleles of a gene pair separate (segregate) from each other, such that each individual gamete receives only one allele from that pair, not both together.",
+      "why_others_wrong": "Both alleles of a pair being passed together into every gamete directly contradicts the principle of segregation, which specifically involves their separation; the Law of Segregation specifically concerns a single gene pair's alleles separating, not a claim about alleles of different genes always moving together (that concerns independent assortment instead); segregation is precisely the separation process that DOES occur during gamete formation, contrary to no separation occurring.",
+      "concept_recap": "This segregation of allele pairs during meiosis (specifically during the reduction division) is the cytological basis explaining Mendel's observed inheritance ratios."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-009",
+    "question": "According to Mendel's Law of Independent Assortment, which of the following occurs during gamete formation, specifically regarding genes located on different chromosome pairs?",
+    "options": [
+      "Alleles of different genes (on different chromosome pairs) assort into gametes independently of one another",
+      "Alleles of different genes are always inherited together as a fixed unit, with no independent assortment",
+      "Only a single gene's alleles can ever be considered in any genetic cross",
+      "Independent assortment applies only to genes located on the same chromosome"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Law of Independent Assortment states that alleles of different genes, located on different chromosome pairs, assort into gametes independently of one another during meiosis, meaning the inheritance of one gene's alleles does not affect the inheritance pattern of another gene's alleles (assuming they are on different chromosomes).",
+      "why_others_wrong": "Alleles of different genes being always inherited together as a fixed, non-independent unit contradicts the very principle of independent assortment; the law specifically addresses relationships between MULTIPLE genes (a dihybrid or greater scenario), not being limited to considering only a single gene at a time; independent assortment specifically applies to genes on DIFFERENT chromosome pairs -- genes on the SAME chromosome tend to be inherited together (linked), which is a distinct phenomenon from independent assortment.",
+      "concept_recap": "This law is well-illustrated by Mendel's dihybrid cross experiments, which produced the characteristic 9:3:3:1 phenotypic ratio when two genes assorted independently."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-010",
+    "question": "In a typical Mendelian monohybrid cross between two heterozygous individuals (Tt x Tt), what is the expected phenotypic ratio in the offspring, assuming complete dominance?",
+    "options": [
+      "1:1",
+      "3:1 (dominant:recessive)",
+      "1:2:1",
+      "9:3:3:1"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A cross between two heterozygous individuals (Tt x Tt) for a single gene with complete dominance typically produces offspring in a 3:1 phenotypic ratio -- three individuals displaying the dominant phenotype for every one displaying the recessive phenotype.",
+      "why_others_wrong": "A 1:1 ratio would describe a different type of cross (like a test cross between a heterozygote and homozygous recessive); a 1:2:1 ratio describes the GENOTYPIC ratio of this exact cross (TT:Tt:tt), not the phenotypic ratio; a 9:3:3:1 ratio describes a dihybrid cross (involving two genes), not a monohybrid cross involving just one gene.",
+      "concept_recap": "This classic 3:1 phenotypic ratio was one of Mendel's key foundational observations, directly leading to his proposal of the Law of Segregation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-011",
+    "question": "In a typical Mendelian dihybrid cross between two individuals heterozygous for two independently assorting genes (e.g., RrYy x RrYy), what is the expected phenotypic ratio in the offspring, assuming complete dominance for both genes?",
+    "options": [
+      "3:1",
+      "1:2:1",
+      "9:3:3:1",
+      "1:1:1:1"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A dihybrid cross between two double heterozygotes (RrYy x RrYy) for two independently assorting genes, each showing complete dominance, typically produces offspring in the classic 9:3:3:1 phenotypic ratio.",
+      "why_others_wrong": "A 3:1 ratio describes a monohybrid cross (single gene), not a dihybrid cross; a 1:2:1 ratio describes a genotypic (not phenotypic) ratio for a single gene's monohybrid cross; a 1:1:1:1 ratio would describe a specific test cross scenario, not the standard dihybrid cross between two double heterozygotes.",
+      "concept_recap": "This 9:3:3:1 ratio was central evidence supporting Mendel's Law of Independent Assortment, based on his classic dihybrid pea plant crosses."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-012",
+    "question": "Which of the following best describes a 'test cross,' as used in classical genetics to determine an organism's genotype?",
+    "options": [
+      "Crossing two individuals with unknown genotypes together",
+      "Crossing an individual with a dominant phenotype (of unknown genotype) with a homozygous recessive individual, to help determine whether the first individual is homozygous dominant or heterozygous",
+      "Crossing two homozygous recessive individuals together",
+      "A cross with no useful genetic information obtainable from its results"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A test cross involves crossing an individual displaying a dominant phenotype (whose genotype -- homozygous dominant or heterozygous -- is uncertain) with a homozygous recessive individual; the resulting offspring ratios reveal whether the tested individual was homozygous dominant (all offspring show dominant phenotype) or heterozygous (roughly half the offspring show the recessive phenotype).",
+      "why_others_wrong": "A test cross specifically involves one individual of KNOWN genotype (homozygous recessive) crossed with the individual of uncertain genotype, not two unknowns crossed together; crossing two homozygous recessive individuals would not test the genotype of an unknown dominant-phenotype individual, since neither party's uncertain status is being examined this way; a test cross provides very useful, specific genetic information (about the unknown individual's genotype), contrary to providing no useful information.",
+      "concept_recap": "This test cross technique remains a valuable practical tool in genetics for determining whether a dominant-phenotype individual is homozygous or heterozygous for a particular gene."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-013",
+    "question": "Which of the following best describes 'incomplete dominance,' as an exception to simple Mendelian dominance?",
+    "options": [
+      "The heterozygous phenotype is identical to one of the homozygous parental phenotypes",
+      "The heterozygous phenotype is intermediate between the two homozygous parental phenotypes, as neither allele is completely dominant over the other",
+      "Both alleles are expressed simultaneously and separately, without blending, in the heterozygote",
+      "A phenomenon that has never been documented in any real organism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In incomplete dominance, the heterozygous phenotype appears intermediate between the two homozygous parental phenotypes, since neither allele is completely dominant over the other, resulting in a blended or intermediate expression (such as pink flowers resulting from a cross between red and white flowered parent plants).",
+      "why_others_wrong": "The heterozygous phenotype being identical to one parental homozygous phenotype describes complete (simple) dominance, not incomplete dominance; both alleles being expressed separately and distinctly (without blending) describes codominance, a different exception from incomplete dominance; incomplete dominance has been well-documented in various real organisms (like the classic snapdragon/four o'clock flower colour examples), contrary to never being documented.",
+      "concept_recap": "The classic example of pink-flowered offspring resulting from a cross between red-flowered and white-flowered four o'clock plants (Mirabilis jalapa) illustrates incomplete dominance."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-014",
+    "question": "Which of the following best describes 'codominance,' as another exception to simple Mendelian dominance?",
+    "options": [
+      "Both alleles in a heterozygote are fully and separately expressed, with neither masking the other, resulting in a phenotype showing distinct features of both alleles simultaneously",
+      "The heterozygous phenotype is a blended intermediate between the two homozygous phenotypes",
+      "One allele is always completely dominant over the other, with no exceptions",
+      "A phenomenon exclusively seen in plants, never in animals"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In codominance, both alleles in a heterozygous individual are fully and separately expressed, with neither one masking the other, resulting in a phenotype that clearly displays distinct features associated with both alleles simultaneously (rather than a blended intermediate).",
+      "why_others_wrong": "A blended intermediate phenotype describes incomplete dominance, a different exception from codominance; codominance is specifically an EXCEPTION to the simple 'one allele always dominant' pattern, not an example reinforcing that this always holds true without exception; codominance has been documented in both plants and animals (the classic human ABO blood group system, where A and B alleles are codominant, is a well-known animal/human example), contrary to being exclusive to plants.",
+      "concept_recap": "The human ABO blood group system, where both A and B alleles are codominantly expressed in an AB blood type individual, is a classic real-world example of codominance."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-015",
+    "question": "Which of the following best describes the ABO blood group system in humans, in terms of its underlying genetics?",
+    "options": [
+      "A system controlled by a single gene with only two possible alleles",
+      "A system controlled by a single gene with three possible alleles (IA, IB, i), where IA and IB are codominant with each other, and both are dominant over the recessive i allele",
+      "A system entirely unrelated to genetics, determined solely by diet",
+      "A system in which all four blood types (A, B, AB, O) are controlled by four completely separate, unrelated genes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The ABO blood group system is controlled by a single gene with three possible alleles (IA, IB, and i); the IA and IB alleles are codominant with each other (producing the AB blood type when both are present), while both IA and IB are dominant over the recessive i allele (which, when homozygous, produces the O blood type).",
+      "why_others_wrong": "The ABO system involves three (not just two) possible alleles at this single gene locus; the ABO blood group is a well-established genetic trait, not something determined by diet; all four ABO blood types are explained by different combinations of the SAME three alleles at a SINGLE gene, not by four entirely separate, unrelated genes.",
+      "concept_recap": "The ABO blood group system is a classic textbook example illustrating both multiple alleles (more than two possible alleles at a single locus) and codominance simultaneously."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-016",
+    "question": "Which of the following best describes 'pleiotropy,' as a genetic phenomenon?",
+    "options": [
+      "A single gene influencing multiple, seemingly unrelated phenotypic traits",
+      "Multiple different genes all influencing a single phenotypic trait",
+      "A phenomenon in which a gene has no phenotypic effect whatsoever",
+      "A term synonymous with codominance"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Pleiotropy refers to a single gene influencing multiple, sometimes seemingly unrelated phenotypic traits, since the gene's product may play roles in several different physiological pathways or developmental processes.",
+      "why_others_wrong": "Multiple different genes influencing a single trait describes polygenic inheritance, a different concept from pleiotropy (which specifically involves a SINGLE gene affecting MULTIPLE traits); a gene with no phenotypic effect at all would not be described by the concept of pleiotropy (which specifically concerns MULTIPLE effects, not an absence of effect); pleiotropy and codominance describe distinctly different genetic phenomena (one gene/multiple traits vs. allele expression pattern), not being synonymous.",
+      "concept_recap": "Sickle cell anaemia is a classic example of pleiotropy, since the single gene mutation affecting haemoglobin structure produces multiple, wide-ranging physiological effects throughout the body."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-017",
+    "question": "Which of the following best describes 'polygenic inheritance,' as seen in traits like human skin colour or height?",
+    "options": [
+      "A single gene alone determines the entire trait, with no other genes involved",
+      "Multiple different genes, each contributing a small additive effect, together determine a single phenotypic trait, often resulting in a continuous range of phenotypic variation",
+      "A phenomenon that has never been documented in any real trait",
+      "A term synonymous with pleiotropy"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Polygenic inheritance describes traits controlled by multiple different genes, each contributing a small additive effect; together, these genes produce a phenotypic trait that often shows a continuous range of variation (rather than sharply defined discrete categories), as seen in traits like human skin colour or height.",
+      "why_others_wrong": "Polygenic inheritance specifically involves MULTIPLE genes contributing to a single trait, not just a single gene acting alone; polygenic inheritance has been well-documented in various real traits (like human height and skin colour), contrary to never being documented; polygenic inheritance (multiple genes, one trait) and pleiotropy (one gene, multiple traits) describe essentially opposite relationships, not being synonymous.",
+      "concept_recap": "The continuous, bell-curve-like distribution typically seen in polygenic traits (like height within a population) contrasts with the discrete categories typically seen in traits following simple Mendelian single-gene inheritance."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-018",
+    "question": "Which of the following scientists are primarily credited with developing the 'chromosomal theory of inheritance,' proposing that genes are located on chromosomes?",
+    "options": [
+      "Gregor Mendel, working alone",
+      "Sutton and Boveri",
+      "Charles Darwin",
+      "James Watson and Francis Crick"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Walter Sutton and Theodor Boveri are primarily credited with independently developing the chromosomal theory of inheritance, proposing that genes are physically located on chromosomes, based on parallels they observed between chromosome behaviour during meiosis and Mendel's inheritance patterns.",
+      "why_others_wrong": "Mendel's original work established the foundational rules of inheritance but did not itself identify chromosomes as the physical carriers of genes; Darwin's work focused on evolution by natural selection, a different area of biology from this specific chromosomal theory; Watson and Crick are credited with determining DNA's double helix structure, a later, more specific molecular discovery distinct from the broader chromosomal theory itself.",
+      "concept_recap": "The chromosomal theory of inheritance provided the crucial physical/cytological basis connecting Mendel's abstract genetic 'factors' (genes) to actual, observable chromosome behaviour during cell division."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-019",
+    "question": "Which of the following best describes 'linked genes,' as studied in genetics?",
+    "options": [
+      "Genes located on completely different chromosomes, always assorting independently",
+      "Genes located close together on the same chromosome, tending to be inherited together rather than assorting independently",
+      "A term synonymous with alleles of the same single gene",
+      "A phenomenon that has never been documented in any real organism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Linked genes are genes located close together on the same chromosome; because of their physical proximity, they tend to be inherited together (as a linked unit) rather than assorting independently, an exception to Mendel's Law of Independent Assortment (which specifically applies to genes on different chromosomes).",
+      "why_others_wrong": "Genes on completely different chromosomes assorting independently describes the standard situation covered by independent assortment, not linkage (which specifically concerns genes on the SAME chromosome); linked genes are distinct genes located near each other, not alleles of a single same gene; gene linkage has been extensively documented in numerous real organisms (originally studied in detail using fruit flies by Thomas Hunt Morgan), contrary to never being documented.",
+      "concept_recap": "Thomas Hunt Morgan's work with fruit flies (Drosophila) provided crucial early experimental evidence for gene linkage and its relationship to chromosome behaviour."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-020",
+    "question": "Which of the following best describes 'crossing over,' as a process that can occur between linked genes during meiosis?",
+    "options": [
+      "A process that always keeps linked genes permanently, completely linked with no exceptions",
+      "The exchange of genetic material between homologous chromosomes during meiosis, which can separate previously linked alleles, creating new allele combinations (recombinants)",
+      "A process that only occurs in asexually reproducing organisms",
+      "A phenomenon entirely unrelated to genetic recombination"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Crossing over is the exchange of genetic material between homologous chromosomes during meiosis (specifically during prophase I); this process can separate previously linked alleles (that were located on the same chromosome), creating new allele combinations in the resulting gametes, known as recombinants.",
+      "why_others_wrong": "Crossing over specifically can DISRUPT the complete linkage of certain genes (by separating them onto different recombinant chromosomes), contrary to genes always remaining permanently, completely linked with no exceptions; crossing over is a process specifically associated with meiosis in SEXUALLY reproducing organisms, not something occurring in asexual reproduction (which typically lacks this specific meiotic process); crossing over is, in fact, the direct physical basis FOR genetic recombination, having a very direct relationship to it.",
+      "concept_recap": "The frequency of crossing over between two linked genes is related to the physical distance between them on the chromosome, a principle used to construct genetic linkage maps."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-021",
+    "question": "Which of the following best explains why genes located very close together on the same chromosome show a lower frequency of recombination (crossing over) compared to genes located farther apart on the same chromosome?",
+    "options": [
+      "Physical distance between genes has no relationship to recombination frequency",
+      "Genes located closer together have a lower statistical probability of a crossover event occurring specifically between them, whereas genes farther apart have more physical chromosome length between them, increasing the chance a crossover point falls between them",
+      "Genes located closer together always show a higher, not lower, recombination frequency",
+      "Recombination frequency is completely random and unrelated to physical gene distance on a chromosome"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Genes located closer together on a chromosome have a lower statistical probability of a crossover event occurring specifically between them (since there is less physical chromosome length between them where a crossover could occur), whereas genes located farther apart have more intervening chromosome length, increasing the likelihood that a crossover point will fall somewhere between them, resulting in a higher recombination frequency.",
+      "why_others_wrong": "Physical distance between genes has a very direct, well-established relationship to recombination frequency, contrary to having none; it is genes located CLOSER together (not farther apart) that show LOWER (not higher) recombination frequency, given the smaller intervening physical distance; recombination frequency is specifically related to (not unrelated to, nor completely random with respect to) physical gene distance, a principle central to genetic mapping.",
+      "concept_recap": "This relationship between physical distance and recombination frequency is the fundamental principle underlying the construction of genetic linkage maps, used to determine the relative positions of genes on a chromosome."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-022",
+    "question": "In humans, sex determination is primarily governed by which pair of chromosomes?",
+    "options": [
+      "Chromosome pair 1",
+      "The X and Y sex chromosomes",
+      "Chromosome pair 21",
+      "All 22 pairs of autosomes equally"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Human sex determination is primarily governed by the X and Y sex chromosomes; individuals with XX chromosomes typically develop as female, while those with XY chromosomes typically develop as male.",
+      "why_others_wrong": "Chromosome pair 1 is a large autosome, not the specific sex-determining chromosome pair; chromosome pair 21 is another specific autosome (notably associated with Down syndrome when present in triplicate), not the sex-determining pair; the 22 pairs of autosomes carry many genes but are not specifically responsible for primary sex determination in the way the X/Y pair is.",
+      "concept_recap": "This XY sex determination system is characteristic of humans and many other mammals, though other organisms (like birds) use different sex-determination systems (such as ZW)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-023",
+    "question": "In the human XY sex determination system, which parent's gamete determines the biological sex of the offspring?",
+    "options": [
+      "The mother's egg always determines sex, since it always contributes an X chromosome",
+      "The father's sperm determines sex, since it may contribute either an X or a Y chromosome, while the mother's egg always contributes an X chromosome",
+      "Sex is determined equally and jointly by both parents' contributions in an identical way",
+      "Sex determination in humans has no relationship to sex chromosomes at all"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since the mother's egg always contributes an X chromosome (as females are XX), it is specifically the father's sperm -- which may carry either an X or a Y chromosome -- that determines the biological sex of the offspring (XX resulting in female, XY resulting in male).",
+      "why_others_wrong": "While the mother's egg does always contribute an X chromosome, this fact alone means the FATHER'S sperm (not the mother's egg) is the variable, sex-determining contribution; sex determination is not equally/identically determined by both parents in this system -- specifically, it is the variable paternal contribution (X or Y sperm) that determines offspring sex; human sex determination has a very direct, well-established relationship to sex chromosomes (X and Y), contrary to having none.",
+      "concept_recap": "This principle clarifies a common misconception, since historically (and in some cultural contexts even today) women have been incorrectly blamed for a child's sex, when it is actually the father's sperm contribution (X or Y) that determines this outcome."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-024",
+    "question": "Which of the following best describes 'X-linked recessive' inheritance, as seen in conditions like haemophilia and red-green colour blindness in humans?",
+    "options": [
+      "The responsible gene is located on the Y chromosome only",
+      "The responsible gene is located on the X chromosome, and since males have only one X chromosome, a single copy of the recessive allele is sufficient to cause the condition in males, whereas females typically need two copies (homozygous recessive) to be affected",
+      "The condition affects males and females with exactly equal frequency, due to autosomal (not X-linked) inheritance",
+      "X-linked recessive conditions cannot be passed from an affected father to his sons"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "X-linked recessive conditions are caused by a recessive allele located on the X chromosome; since males (XY) have only one X chromosome, a single copy of the recessive allele is sufficient to cause the condition (as there is no second X chromosome carrying a potentially masking dominant allele), whereas females (XX) typically need two copies of the recessive allele (homozygous recessive) to display the condition, since a single dominant allele on their other X chromosome would otherwise mask it.",
+      "why_others_wrong": "The gene responsible for these conditions is located on the X chromosome, not the Y chromosome; X-linked recessive conditions characteristically show a HIGHER frequency in males compared to females (not equal frequency), precisely due to this X-linked inheritance pattern, distinguishing it from typical autosomal inheritance; since fathers pass their Y chromosome (not their X chromosome) to sons, an affected father's X-linked recessive allele is NOT passed to his sons (though it IS passed to his daughters, who become carriers or, if their mother also contributes a recessive allele, affected).",
+      "concept_recap": "This characteristic pattern -- higher prevalence in males, and specific father-to-daughter (not father-to-son) transmission of the responsible X-linked allele -- is a hallmark feature used to identify X-linked recessive inheritance in pedigree analysis."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-025",
+    "question": "Which of the following best describes a 'point mutation,' as a type of genetic mutation?",
+    "options": [
+      "A change involving an entire chromosome's structure",
+      "A change involving a single nucleotide base pair within the DNA sequence, such as a substitution, insertion, or deletion of one base",
+      "A change that always involves the duplication of an entire genome",
+      "A phenomenon with no relationship to genetic variation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A point mutation involves a change at a single, specific point in the DNA sequence -- typically the substitution, insertion, or deletion of a single nucleotide base pair -- which can potentially alter the resulting protein product or gene function.",
+      "why_others_wrong": "Changes involving an entire chromosome's structure describe chromosomal mutations/aberrations, a much larger-scale category of mutation than a point mutation; whole genome duplication describes a distinct, much larger-scale genetic event (polyploidy), not a point mutation; point mutations have a very direct, significant relationship to generating genetic variation, contrary to having none.",
+      "concept_recap": "Sickle cell anaemia is a classic example resulting from a single point mutation (substitution) in the gene encoding the beta-globin chain of haemoglobin."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-026",
+    "question": "Which of the following best describes 'aneuploidy,' as a type of chromosomal abnormality?",
+    "options": [
+      "The presence of one or more extra or missing individual chromosomes, resulting in a chromosome number that is not an exact multiple of the normal haploid set",
+      "The presence of exactly three complete sets of every chromosome (a specific form of polyploidy)",
+      "A normal, healthy chromosome number with no abnormality at all",
+      "A term synonymous with a simple point mutation"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Aneuploidy refers to the presence of one or more extra or missing individual chromosomes (rather than complete extra sets), resulting in a chromosome number that is not an exact multiple of the normal haploid chromosome set for that species.",
+      "why_others_wrong": "Exactly three complete sets of every chromosome describes triploidy, a specific type of polyploidy, which is a distinct concept from aneuploidy (which involves an abnormality in the number of individual chromosomes, not necessarily complete sets); aneuploidy specifically represents an ABNORMAL chromosome number, not a normal, healthy one; aneuploidy (a chromosome-number abnormality) and a point mutation (a single-nucleotide-level change) are distinct types of genetic change, occurring at very different structural scales, so they are not synonymous.",
+      "concept_recap": "Down syndrome (trisomy 21), resulting from an extra copy of chromosome 21, is a well-known example of aneuploidy in humans."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-027",
+    "question": "Down syndrome, a human genetic disorder, is most commonly caused by which specific chromosomal abnormality?",
+    "options": [
+      "Monosomy of the X chromosome",
+      "Trisomy of chromosome 21 (an extra copy of chromosome 21)",
+      "A simple point mutation in a single gene",
+      "Trisomy of chromosome 13"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Down syndrome is most commonly caused by trisomy 21 -- the presence of an extra (third) copy of chromosome 21 -- resulting in a total of 47 chromosomes instead of the usual 46.",
+      "why_others_wrong": "Monosomy of the X chromosome describes Turner syndrome, a different genetic condition; Down syndrome results from a chromosomal-level abnormality (an extra whole chromosome), not simply a point mutation within a single gene; trisomy of chromosome 13 describes a different, distinct condition (Patau syndrome), not Down syndrome.",
+      "concept_recap": "The risk of trisomy 21 (and Down syndrome) is known to increase with advanced maternal age, related to increased likelihood of chromosomal non-disjunction errors during egg cell formation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-028",
+    "question": "Turner syndrome, a human genetic disorder affecting females, is caused by which specific chromosomal abnormality?",
+    "options": [
+      "An extra copy of chromosome 21 (trisomy 21)",
+      "Monosomy of the X chromosome (a single X chromosome, with a missing second sex chromosome, genotype XO)",
+      "An extra Y chromosome in a male (XYY)",
+      "A simple point mutation with no chromosomal-level change"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Turner syndrome results from monosomy of the X chromosome (genotype XO), meaning affected individuals have only a single X chromosome instead of the usual two sex chromosomes, resulting in various developmental characteristics associated with the condition.",
+      "why_others_wrong": "An extra copy of chromosome 21 describes Down syndrome (trisomy 21), a different, unrelated condition; an extra Y chromosome in a male (XYY) describes a different chromosomal condition (sometimes called XYY syndrome), not Turner syndrome; Turner syndrome results from a chromosomal-level abnormality (monosomy), not simply a smaller-scale point mutation without any chromosomal change.",
+      "concept_recap": "Turner syndrome (XO) illustrates that a viable human can develop with just a single X chromosome and no second sex chromosome, in contrast to most other chromosomal monosomies, which are typically not viable."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-029",
+    "question": "Klinefelter syndrome, a human genetic disorder affecting males, is caused by which specific chromosomal abnormality?",
+    "options": [
+      "An extra X chromosome in a male (genotype XXY)",
+      "Monosomy of the X chromosome (genotype XO)",
+      "An extra copy of chromosome 21 (trisomy 21)",
+      "A missing Y chromosome entirely"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Klinefelter syndrome results from an extra X chromosome in a male (genotype XXY), resulting in various developmental characteristics associated with the condition, including typically reduced fertility.",
+      "why_others_wrong": "Monosomy of the X chromosome (XO) describes Turner syndrome, a different condition affecting females, not Klinefelter syndrome; an extra copy of chromosome 21 describes Down syndrome, an unrelated condition; Klinefelter syndrome specifically involves an EXTRA X chromosome alongside a normal Y (XXY), not a missing Y chromosome.",
+      "concept_recap": "Klinefelter syndrome (XXY) is one of the more common sex chromosome aneuploidies, illustrating how an extra sex chromosome can occur through errors (non-disjunction) during meiosis."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-030",
+    "question": "Which of the following best describes the purpose of 'pedigree analysis,' as used in human genetics?",
+    "options": [
+      "To directly manipulate a person's DNA sequence in a laboratory",
+      "To trace the inheritance pattern of a particular genetic trait or disorder through multiple generations of a family, helping determine whether it follows a dominant, recessive, autosomal, or X-linked pattern",
+      "To determine an individual's exact age",
+      "A technique used exclusively in agricultural plant breeding, never applied to human genetics"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Pedigree analysis involves tracing the inheritance pattern of a particular genetic trait or disorder through multiple generations of a family (represented in a pedigree chart), helping geneticists determine whether the trait follows a dominant or recessive pattern, and whether it is autosomal or X-linked.",
+      "why_others_wrong": "Pedigree analysis is an OBSERVATIONAL/analytical technique studying existing inheritance patterns, not a technique for directly manipulating DNA in a laboratory; pedigree analysis does not determine an individual's age -- it studies trait inheritance patterns across generations; pedigree analysis is, in fact, a standard and important technique specifically used in human genetics (where controlled breeding experiments are not ethically possible), not being exclusive to plant breeding.",
+      "concept_recap": "Pedigree analysis remains a valuable practical tool for genetic counselling, helping families understand the likelihood of a genetic condition being passed on to future generations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-031",
+    "question": "In a pedigree chart, which of the following conventions is typically used to represent an affected (showing the trait/disorder) male individual?",
+    "options": [
+      "An unfilled (empty) circle",
+      "A filled (shaded) square",
+      "An unfilled (empty) square",
+      "A filled (shaded) circle"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In standard pedigree chart conventions, a filled (shaded) square typically represents an affected male individual (displaying the trait or disorder being studied).",
+      "why_others_wrong": "An unfilled circle typically represents an unaffected female, not an affected male; an unfilled square typically represents an unaffected male, not an affected one; a filled circle typically represents an affected FEMALE, not a male (squares, not circles, conventionally represent males).",
+      "concept_recap": "Consistent pedigree symbol conventions (squares for males, circles for females, filled for affected, unfilled for unaffected) allow geneticists to clearly communicate and interpret complex family inheritance patterns."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-032",
+    "question": "Which scientists are credited with proposing the double helix model of DNA structure in 1953?",
+    "options": [
+      "Gregor Mendel and Charles Darwin",
+      "James Watson and Francis Crick",
+      "Thomas Hunt Morgan and Walter Sutton",
+      "Louis Pasteur and Robert Koch"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "James Watson and Francis Crick are credited with proposing the double helix model of DNA structure in 1953, building on X-ray crystallography data (notably from Rosalind Franklin) and established base-pairing chemistry.",
+      "why_others_wrong": "Mendel and Darwin made foundational contributions to genetics/evolution but are unrelated to the specific 1953 DNA double helix discovery; Morgan and Sutton made important earlier contributions to chromosomal theory and gene mapping, distinct from this later, more specific molecular structure discovery; Pasteur and Koch are associated with germ theory and microbiology, unrelated to DNA structure determination.",
+      "concept_recap": "The Watson-Crick DNA double helix model remains one of the most significant discoveries in the history of molecular biology, providing a structural basis for understanding genetic replication and information storage."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-033",
+    "question": "According to Chargaff's rules, in double-stranded DNA, the amount of adenine is generally equal to the amount of:",
+    "options": [
+      "Guanine",
+      "Cytosine",
+      "Thymine",
+      "Uracil"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Chargaff's rules state that in double-stranded DNA, the amount of adenine (A) is generally equal to the amount of thymine (T), reflecting their specific complementary base pairing (A pairs with T).",
+      "why_others_wrong": "Guanine specifically pairs with cytosine (not adenine), so their quantities are equal to each other, not to adenine's quantity; cytosine pairs with guanine, not adenine, so equating cytosine to adenine's quantity would be incorrect; uracil is found in RNA (replacing thymine), not typically in DNA, making it an inappropriate comparison for this specific DNA-based rule.",
+      "concept_recap": "This A=T (and G=C) relationship, discovered by Erwin Chargaff, provided crucial biochemical evidence supporting the specific complementary base-pairing scheme later incorporated into the Watson-Crick DNA double helix model."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-034",
+    "question": "Which of the following best describes 'semiconservative' DNA replication, as experimentally demonstrated by Meselson and Stahl?",
+    "options": [
+      "Each new DNA molecule consists entirely of newly synthesised strands, with no original parental strands retained",
+      "Each new DNA molecule consists of one original (parental) strand and one newly synthesised strand",
+      "DNA replication does not actually occur in living cells",
+      "Each new DNA molecule consists entirely of original parental strands, with no new synthesis occurring"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Semiconservative replication means that each newly formed DNA molecule consists of one original (parental) strand, retained from the original DNA molecule, paired with one newly synthesised strand, a model experimentally confirmed by the classic Meselson-Stahl experiment.",
+      "why_others_wrong": "Each new DNA molecule consisting entirely of new strands (with no parental strands retained) describes a different model (conservative replication), which was experimentally disproven, not the semiconservative model that was actually confirmed; DNA replication is a well-documented, essential process occurring in all known living cells, contrary to not actually occurring; consisting entirely of original parental strands with no new synthesis would not represent 'replication' at all in the meaningful sense, and doesn't match the experimentally confirmed semiconservative model.",
+      "concept_recap": "The Meselson-Stahl experiment, using isotopically labelled nitrogen to distinguish old and new DNA strands, provided elegant, definitive experimental confirmation of this semiconservative replication model."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-035",
+    "question": "Which enzyme is primarily responsible for synthesising the new DNA strand during replication, by adding nucleotides complementary to a template strand?",
+    "options": [
+      "RNA polymerase",
+      "DNA polymerase",
+      "Ligase",
+      "Helicase"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "DNA polymerase is the primary enzyme responsible for synthesising a new DNA strand during replication, adding nucleotides complementary to an existing template strand in the 5' to 3' direction.",
+      "why_others_wrong": "RNA polymerase is responsible for RNA synthesis during transcription, a related but distinct process from DNA replication; ligase joins together DNA fragments (such as Okazaki fragments on the lagging strand) but is not the primary enzyme responsible for the main strand-synthesis/nucleotide-addition process itself; helicase unwinds the DNA double helix ahead of the replication fork but does not itself synthesise the new DNA strand.",
+      "concept_recap": "DNA polymerase's high fidelity, including its proofreading ability in many organisms, is essential for maintaining the accuracy of genetic information across successive rounds of replication."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-036",
+    "question": "Which enzyme is responsible for unwinding the DNA double helix ahead of the replication fork during DNA replication?",
+    "options": [
+      "DNA polymerase",
+      "Helicase",
+      "Ligase",
+      "Primase"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Helicase is the enzyme responsible for unwinding the DNA double helix by breaking the hydrogen bonds between complementary base pairs, creating the single-stranded template needed ahead of the replication fork for DNA polymerase to act upon.",
+      "why_others_wrong": "DNA polymerase synthesises the new DNA strand but does not itself perform the initial unwinding of the double helix; ligase joins DNA fragments together (such as sealing gaps between Okazaki fragments), a different function from unwinding; primase synthesises short RNA primers needed to initiate DNA synthesis, a different function from unwinding the helix itself.",
+      "concept_recap": "Helicase's unwinding action creates the characteristic Y-shaped 'replication fork' structure where active DNA synthesis occurs during replication."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-037",
+    "question": "Which of the following best describes why DNA replication produces one continuously synthesised strand (the 'leading strand') and one strand synthesised in short fragments (the 'lagging strand,' composed of Okazaki fragments)?",
+    "options": [
+      "DNA polymerase can only synthesise new DNA in the 5' to 3' direction, and since the two template strands run in opposite (antiparallel) directions, one new strand can be synthesised continuously while the other must be synthesised discontinuously in fragments",
+      "This discontinuous synthesis pattern occurs entirely randomly, with no underlying structural/enzymatic explanation",
+      "Both new strands are actually synthesised in exactly the same continuous manner, with no meaningful difference between them",
+      "DNA polymerase can synthesise new DNA equally well in both the 5' to 3' and 3' to 5' directions"
+    ],
+    "answer": "A",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since DNA polymerase can only add new nucleotides in the 5' to 3' direction, and the two antiparallel template strands run in opposite directions relative to each other, one new strand (the leading strand) can be synthesised continuously in the same overall direction as replication fork movement, while the other new strand (the lagging strand) must be synthesised discontinuously, in short fragments (Okazaki fragments), each still individually synthesised in the 5' to 3' direction but overall moving away from the replication fork, requiring subsequent joining by ligase.",
+      "why_others_wrong": "This discontinuous synthesis pattern has a very clear, well-understood structural/enzymatic explanation (DNA polymerase's strict directionality combined with antiparallel template strands), not being a random phenomenon without explanation; there IS a very meaningful, well-documented difference between leading strand (continuous) and lagging strand (discontinuous, fragmented) synthesis, contrary to no meaningful difference existing; DNA polymerase can synthesise new DNA ONLY in the 5' to 3' direction, not equally well in both directions -- this strict directional limitation is precisely why the leading/lagging strand distinction exists.",
+      "concept_recap": "This leading strand/lagging strand distinction, arising directly from DNA polymerase's fixed 5' to 3' synthesis direction, is a fundamental and frequently tested concept in understanding the molecular mechanics of DNA replication."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-038",
+    "question": "Which of the following best describes 'transcription,' as a key process in gene expression?",
+    "options": [
+      "The process of copying DNA to form an identical DNA molecule",
+      "The process of synthesising an RNA molecule (such as mRNA) using a DNA template strand as a guide",
+      "The process of assembling amino acids into a protein",
+      "The process of DNA repair following damage"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Transcription is the process by which an RNA molecule (such as messenger RNA, mRNA) is synthesised using a DNA template strand as a guide, essentially copying the genetic information from DNA into an RNA format.",
+      "why_others_wrong": "Copying DNA to form an identical DNA molecule describes DNA replication, a distinct process from transcription; assembling amino acids into a protein describes translation, a later, distinct step in gene expression; DNA repair following damage is a separate maintenance process, unrelated to the specific RNA-synthesis process of transcription.",
+      "concept_recap": "Transcription is the crucial first step in the overall process of gene expression, converting the genetic information encoded in DNA into a mobile RNA intermediate that can subsequently be used for protein synthesis."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-039",
+    "question": "Which enzyme is primarily responsible for synthesising RNA during transcription, using a DNA template?",
+    "options": [
+      "DNA polymerase",
+      "RNA polymerase",
+      "Helicase",
+      "Ligase"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "RNA polymerase is the enzyme responsible for synthesising RNA during transcription, adding ribonucleotides complementary to the DNA template strand being transcribed.",
+      "why_others_wrong": "DNA polymerase synthesises DNA during replication, a distinct process and enzyme from RNA polymerase's role in transcription; helicase unwinds DNA (relevant to both replication and, to some extent, transcription) but does not itself synthesise RNA; ligase joins DNA fragments together, unrelated to RNA synthesis during transcription.",
+      "concept_recap": "Different types of RNA polymerase in eukaryotic cells are responsible for synthesising different classes of RNA (such as mRNA, rRNA, and tRNA), reflecting a division of labour in the transcription machinery."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-040",
+    "question": "Which of the following best describes 'translation,' as a key process in gene expression?",
+    "options": [
+      "The synthesis of RNA using a DNA template",
+      "The process by which the genetic code carried by mRNA is used to direct the synthesis of a specific polypeptide (protein) at the ribosome",
+      "The process of DNA replication prior to cell division",
+      "The process of RNA splicing to remove introns"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Translation is the process by which the genetic code carried by messenger RNA (mRNA) is read at the ribosome, directing the sequential addition of specific amino acids (brought by tRNA) to synthesise a corresponding polypeptide (protein) chain.",
+      "why_others_wrong": "RNA synthesis using a DNA template describes transcription, an earlier, distinct step from translation; DNA replication is a separate process (copying DNA prior to cell division), unrelated to protein synthesis via translation; RNA splicing (removing introns) is a separate RNA-processing step that typically occurs before translation, not translation itself.",
+      "concept_recap": "Translation represents the final step in the classic 'central dogma' of molecular biology (DNA to RNA to protein), converting genetic information into a functional protein product."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-041",
+    "question": "Which of the following best describes the 'genetic code,' as it relates to the relationship between mRNA codons and amino acids?",
+    "options": [
+      "A code in which each amino acid is specified by a single, unique nucleotide",
+      "A triplet code in which each group of three consecutive mRNA nucleotides (a codon) specifies a particular amino acid (or a stop signal)",
+      "A code with no relationship to protein synthesis whatsoever",
+      "A code that varies completely and unpredictably between every different species, with no shared patterns"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The genetic code is a triplet code, meaning each group of three consecutive nucleotides in mRNA (called a codon) specifies either a particular amino acid to be added to the growing polypeptide chain, or serves as a stop signal marking the end of translation.",
+      "why_others_wrong": "Each amino acid is specified by a GROUP OF THREE nucleotides (a codon), not by a single individual nucleotide; the genetic code has an extremely direct, fundamental relationship to protein synthesis, since it is precisely the code used to specify amino acid sequences during translation; the genetic code is, in fact, remarkably similar (nearly universal) across the vast majority of known species, contrary to varying completely and unpredictably between every species.",
+      "concept_recap": "This near-universality of the genetic code across diverse species is considered strong evidence for the common evolutionary ancestry of all life on Earth."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-042",
+    "question": "Which of the following mRNA codons functions as a 'start codon,' typically signalling the beginning of translation and coding for the amino acid methionine?",
+    "options": [
+      "UAA",
+      "UAG",
+      "AUG",
+      "UGA"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "AUG is the standard start codon, signalling the beginning of translation and coding for the amino acid methionine, which is typically the first amino acid incorporated into a new polypeptide chain.",
+      "why_others_wrong": "UAA, UAG, and UGA are all standard 'stop' codons, signalling the termination (end) of translation, rather than functioning as the start codon.",
+      "concept_recap": "The presence of this specific start codon (AUG) helps establish the correct reading frame for the ribosome to accurately translate the subsequent codons in the mRNA sequence."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-043",
+    "question": "Which of the following best describes a 'stop codon,' in the context of the genetic code and translation?",
+    "options": [
+      "A codon that specifies the amino acid methionine, marking the start of translation",
+      "A codon (such as UAA, UAG, or UGA) that does not code for any amino acid, instead signalling the termination of translation",
+      "A codon found only at the very beginning of every gene, never at the end",
+      "A term synonymous with the start codon AUG"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A stop codon (one of UAA, UAG, or UGA) does not code for any amino acid; instead, its presence in the mRNA sequence signals the ribosome to terminate translation, releasing the completed polypeptide chain.",
+      "why_others_wrong": "Specifying methionine and marking the start of translation describes the START codon (AUG), not a stop codon; stop codons are specifically located at the END of the coding sequence (marking termination), not at the beginning of a gene; start and stop codons perform essentially opposite functions (initiating versus terminating translation), so they are not synonymous.",
+      "concept_recap": "The presence of a premature stop codon, resulting from certain mutations, can lead to a truncated (shortened), often non-functional protein product."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-044",
+    "question": "Which of the following best describes the role of transfer RNA (tRNA) during translation?",
+    "options": [
+      "tRNA serves as the template read by the ribosome to determine amino acid sequence",
+      "tRNA molecules each carry a specific amino acid and have an anticodon that base-pairs with the corresponding mRNA codon, delivering the correct amino acid to the ribosome during translation",
+      "tRNA is the primary structural component of the ribosome itself",
+      "tRNA has no functional role in protein synthesis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Each tRNA molecule carries a specific amino acid and has a distinct three-nucleotide anticodon sequence that base-pairs with the complementary codon on the mRNA being translated, ensuring that the correct amino acid is delivered to the ribosome and added to the growing polypeptide chain in the proper sequence.",
+      "why_others_wrong": "Serving as the primary template read by the ribosome describes mRNA's role, not tRNA's; ribosomal RNA (rRNA), not tRNA, is the primary structural/catalytic RNA component of the ribosome itself; tRNA plays a very significant, essential functional role specifically in protein synthesis (translation), contrary to having no functional role.",
+      "concept_recap": "The precise, complementary codon-anticodon pairing between mRNA and tRNA is central to ensuring the accuracy of the genetic code's translation into the correct amino acid sequence."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-045",
+    "question": "Which of the following best describes the 'lac operon,' as studied in the bacterium E. coli?",
+    "options": [
+      "A single gene responsible for glucose metabolism only",
+      "A cluster of genes (including structural genes for lactose metabolism) under the control of a single regulatory system, allowing coordinated expression in response to lactose availability",
+      "A gene found only in eukaryotic organisms, never in bacteria",
+      "A term with no relationship to gene regulation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The lac operon is a cluster of genes in E. coli (including structural genes encoding enzymes needed for lactose metabolism) that are controlled together under a single regulatory system, allowing their coordinated expression specifically in response to the presence or absence of lactose in the bacterial environment.",
+      "why_others_wrong": "The lac operon specifically concerns LACTOSE metabolism genes, not glucose metabolism specifically; the lac operon is a classic, foundational example specifically studied in a PROKARYOTIC organism (E. coli, a bacterium), not being restricted to (or found only in) eukaryotic organisms; the lac operon is one of the most classic, foundational examples specifically illustrating gene regulation, having a very direct, central relationship to this concept.",
+      "concept_recap": "The lac operon model, first proposed by Jacob and Monod, remains a foundational example used to teach the general principles of gene regulation in molecular biology."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-046",
+    "question": "In the lac operon, in the absence of lactose, which of the following occurs?",
+    "options": [
+      "The repressor protein binds to the operator, blocking RNA polymerase and preventing transcription of the structural genes",
+      "The repressor protein is completely inactive, allowing continuous, unregulated transcription of the structural genes",
+      "Lactose-metabolising enzymes are produced continuously and abundantly, regardless of lactose availability",
+      "The lac operon has no regulatory mechanism at all in the absence of lactose"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In the absence of lactose, the lac repressor protein remains active and binds to the operator region of the lac operon, physically blocking RNA polymerase from transcribing the structural genes, thereby preventing the wasteful production of lactose-metabolising enzymes when lactose is not available to be metabolised.",
+      "why_others_wrong": "It is specifically in the PRESENCE of lactose (not its absence) that the repressor becomes inactive, allowing transcription; in the absence of lactose, transcription is specifically PREVENTED (not continuously, unregulated) by the bound, active repressor; the lac operon has a very significant, well-documented regulatory mechanism specifically active in the absence of lactose (the repressor binding), contrary to having no regulatory mechanism at all in this condition.",
+      "concept_recap": "This repressor-mediated blocking mechanism exemplifies negative regulation, ensuring the bacterium conserves energy by not producing unnecessary enzymes when their substrate (lactose) is unavailable."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-047",
+    "question": "In the lac operon, in the presence of lactose, which of the following occurs, allowing transcription of the structural genes?",
+    "options": [
+      "Lactose (or its derivative, allolactose) binds to the repressor protein, causing a conformational change that prevents the repressor from binding the operator, allowing RNA polymerase to proceed with transcription",
+      "The repressor protein binds even more tightly to the operator, further blocking transcription",
+      "Lactose has no interaction with the repressor protein at all",
+      "Transcription of the structural genes remains completely blocked regardless of lactose presence"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In the presence of lactose, lactose (or more precisely, its isomer allolactose) binds to the repressor protein, causing a conformational change in the repressor that prevents it from binding to the operator region; with the operator now unblocked, RNA polymerase can proceed with transcribing the structural genes needed for lactose metabolism.",
+      "why_others_wrong": "It is specifically in the ABSENCE of lactose that the repressor binds tightly to the operator, blocking transcription -- the opposite of what happens in lactose's presence; lactose (via allolactose) does have a very direct, specific interaction with the repressor protein, contrary to having no interaction at all; transcription is specifically ALLOWED (unblocked) in the presence of lactose, contrary to remaining completely blocked regardless of lactose presence.",
+      "concept_recap": "This mechanism -- lactose acting as an inducer that inactivates the repressor -- is a classic example of inducible gene regulation, allowing the bacterium to efficiently respond to changing nutrient availability in its environment."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-048",
+    "question": "In a dihybrid cross (RrYy x RrYy) with independent assortment and complete dominance, what fraction of the offspring is expected to be homozygous recessive for BOTH genes (rryy)?",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "9/16"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "For each gene independently, the probability of homozygous recessive offspring (rr or yy) from a heterozygous x heterozygous cross is 1/4; since the two genes assort independently, the combined probability of being homozygous recessive for BOTH genes is 1/4 x 1/4 = 1/16.",
+      "why_others_wrong": "1/4 represents the probability for just a single gene alone, not both combined; 1/8 does not correctly apply the multiplication rule for two independent 1/4 probabilities; 9/16 represents the probability of showing BOTH dominant phenotypes (not double homozygous recessive) in a standard dihybrid cross.",
+      "concept_recap": "This calculation illustrates the product rule of probability, applicable when combining outcomes from independently assorting genes in genetic crosses."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-049",
+    "question": "A man with blood type AB (genotype IAIB) and a woman with blood type O (genotype ii) have children together. What blood types are possible among their offspring?",
+    "options": [
+      "Only type O",
+      "Only type AB",
+      "Type A or type B (but not AB or O)",
+      "Type A, B, AB, and O all possible"
+    ],
+    "answer": "C",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The father (IAIB) can contribute either an IA or IB allele; the mother (ii) can only contribute an i allele; possible offspring genotypes are therefore IAi (type A) or IBi (type B), meaning their children will show either type A or type B blood, but not AB or O.",
+      "why_others_wrong": "Type O would require the child to inherit an i allele from BOTH parents, which is impossible since the father cannot contribute an i allele (he is IAIB); type AB would require the child to inherit both an IA and IB allele, which is impossible since the mother can only contribute an i allele; while type A and type B are indeed both possible, type AB and type O are NOT possible in this specific cross, making 'all four types possible' incorrect.",
+      "concept_recap": "This type of cross calculation, applying knowledge of multiple alleles and codominance in the ABO system, is a classic genetics problem testing understanding of inheritance patterns beyond simple dominant/recessive traits."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-050",
+    "question": "A colour-blind man (X-linked recessive trait) has children with a woman who is homozygous normal (not a carrier) for colour vision. What is the expected colour vision status of their daughters?",
+    "options": [
+      "All daughters will be colour blind",
+      "All daughters will be carriers (heterozygous) but will not be colour blind themselves",
+      "Half of the daughters will be colour blind, half will have completely normal vision with no carrier status",
+      "Daughters cannot inherit this X-linked trait from their father at all"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since the father is colour blind (X^c Y) and the mother is homozygous normal (X^C X^C), all daughters will receive one X^c allele from their father and one X^C allele from their mother, making them heterozygous carriers (X^C X^c); since colour blindness is recessive, these carrier daughters will have normal colour vision themselves, but will carry the allele that could be passed to their own children.",
+      "why_others_wrong": "Daughters would need TWO copies of the recessive allele to be colour blind themselves, but they only receive one recessive allele (from their father) in this cross, so 'all daughters colour blind' is incorrect; since all daughters receive the father's X^c allele, none will have 'completely normal' genotype with 'no carrier status' -- they will all be carriers; daughters specifically DO inherit their father's X chromosome (that is precisely how they become carriers in this scenario), contrary to being unable to inherit this X-linked trait from him at all.",
+      "concept_recap": "This pattern -- carrier daughters resulting from an affected father and non-carrier mother -- is a classic, frequently tested scenario in X-linked recessive inheritance problems."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-051",
+    "question": "Which of the following best explains why a mutation in a non-coding intron region of a gene is often (though not always) less likely to have a significant phenotypic effect compared to a mutation within a coding exon region?",
+    "options": [
+      "Introns have no relationship to gene expression whatsoever, so mutations there are always completely inconsequential",
+      "Since introns are typically removed (spliced out) from the pre-mRNA before translation, mutations within introns often do not directly alter the final protein sequence, unlike mutations within exons (which directly encode the amino acid sequence)",
+      "Introns are always translated into protein, exactly like exons, so intron mutations are equally significant",
+      "Exon and intron mutations always have identical effects on the resulting protein"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since introns are typically removed (spliced out) from the pre-mRNA during RNA processing, before the remaining exons are joined together and translated, mutations occurring within intron sequences often do not directly alter the final protein's amino acid sequence, unlike mutations within exon sequences (which directly encode the protein and are retained in the mature mRNA used for translation).",
+      "why_others_wrong": "While introns are generally non-coding, this does not mean ALL intron mutations are 'always completely inconsequential' -- some intron mutations (e.g., affecting splice sites) can indeed have significant effects, so the reasoning in that option overstates the case incorrectly; introns are specifically REMOVED (not translated) during RNA processing, unlike exons, which is precisely why exon and intron mutations often differ in their typical significance; exon and intron mutations do NOT always have identical effects -- this is precisely the key distinction being explained in this question.",
+      "concept_recap": "This distinction between coding (exon) and non-coding (intron) regions is an important nuance in understanding why not all DNA mutations have equivalent phenotypic consequences, though exceptions exist (such as mutations disrupting splice sites within introns)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-052",
+    "question": "Which of the following best describes a 'gene,' in molecular genetic terms?",
+    "options": [
+      "Any random segment of a chromosome, with no specific function",
+      "A specific segment of DNA that contains the information needed to produce a functional product, typically a protein or RNA molecule",
+      "A term synonymous with an entire chromosome",
+      "A structure found only in prokaryotic organisms, never in eukaryotes"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A gene is a specific segment of DNA containing the information needed to produce a functional product, typically a specific protein (via transcription and translation) or a functional RNA molecule (such as tRNA or rRNA).",
+      "why_others_wrong": "A gene is a SPECIFIC, functional DNA segment, not simply any random segment with no defined function; a gene is a specific functional unit within a chromosome, not synonymous with the entire chromosome (which contains many genes); genes are found in both prokaryotic AND eukaryotic organisms, not being restricted to prokaryotes alone.",
+      "concept_recap": "The full collection of an organism's genes (along with non-coding DNA) makes up its complete genome."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-053",
+    "question": "Which of the following best describes the 'genome,' as a broader genetic concept?",
+    "options": [
+      "A single specific gene within an organism",
+      "The complete set of genetic material (DNA) present within an organism, including all its genes and non-coding sequences",
+      "A term synonymous with 'phenotype'",
+      "A structure found only within mitochondria"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The genome refers to the complete set of genetic material (DNA) present within an organism, encompassing all of its genes as well as non-coding DNA sequences.",
+      "why_others_wrong": "A single specific gene is just one small part of the much larger genome, not the genome itself; genome (genetic material) and phenotype (observable traits) are distinct concepts, not being synonymous; while mitochondria do have their own small genome, the broader term 'genome' typically refers to an organism's complete genetic material, including its main nuclear genome, not being restricted only to mitochondrial DNA.",
+      "concept_recap": "The Human Genome Project, completed in the early 2000s, was a landmark international effort to sequence and map the entire human genome."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-054",
+    "question": "Which of the following best describes a 'frameshift mutation,' as a specific type of point mutation?",
+    "options": [
+      "A mutation involving the substitution of one base for another, with no change in the total number of bases",
+      "An insertion or deletion of one or more nucleotides (not in multiples of three) that shifts the reading frame of the genetic code downstream of the mutation, often drastically altering the resulting amino acid sequence",
+      "A mutation that has no effect on the reading frame or resulting protein whatsoever",
+      "A mutation that only occurs in RNA, never in DNA"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A frameshift mutation involves the insertion or deletion of one or more nucleotides (in a number not evenly divisible by three) within a gene's coding sequence; since the genetic code is read in sequential groups of three (codons), this shifts the reading frame for all subsequent codons downstream of the mutation, often drastically and disruptively altering the resulting amino acid sequence.",
+      "why_others_wrong": "A simple base substitution with no change in total base number describes a different type of point mutation (a substitution mutation), not a frameshift mutation specifically; a frameshift mutation, by its very nature, DOES typically have a very significant effect on the reading frame and resulting protein, contrary to having no effect; frameshift mutations specifically occur within DNA (affecting the gene sequence itself, which is then transcribed/translated), not being restricted only to RNA.",
+      "concept_recap": "Frameshift mutations often have more severe consequences than simple substitution mutations, since they disrupt the reading of the entire downstream sequence, not just a single codon."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-055",
+    "question": "Which of the following best describes a 'silent mutation,' as a specific outcome of certain point mutations?",
+    "options": [
+      "A mutation that always results in a completely non-functional protein",
+      "A base substitution that, due to the redundancy (degeneracy) of the genetic code, results in a codon specifying the same amino acid as before, so the resulting protein sequence remains unchanged",
+      "A mutation that always shifts the entire reading frame",
+      "A mutation that can only occur within non-coding intron regions"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A silent mutation is a base substitution that, due to the redundancy (degeneracy) of the genetic code (where multiple different codons can specify the same amino acid), results in a new codon that still specifies the exact same amino acid as the original codon, meaning the resulting protein's amino acid sequence remains unchanged despite the underlying DNA sequence change.",
+      "why_others_wrong": "A silent mutation specifically results in NO CHANGE to the protein sequence (since the same amino acid is still specified), contrary to resulting in a completely non-functional protein; a silent mutation is specifically a SINGLE base substitution within a codon (not an insertion/deletion), so it does not shift the reading frame in the way a frameshift mutation does; silent mutations specifically occur within CODING (exon) sequences (since they concern codon-to-amino-acid translation), not being restricted to non-coding intron regions.",
+      "concept_recap": "Silent mutations illustrate an important protective feature of the genetic code's redundancy, since certain DNA sequence changes can occur without necessarily altering the resulting protein's function."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-056",
+    "question": "Which of the following best describes a 'missense mutation,' as a specific outcome of certain point mutations?",
+    "options": [
+      "A base substitution that results in a codon specifying a completely different amino acid than originally intended, potentially altering protein structure/function",
+      "A mutation that always results in a premature stop codon",
+      "A mutation that has absolutely no effect on the resulting protein whatsoever",
+      "A mutation that only occurs in RNA viruses, never in cellular organisms"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A missense mutation is a base substitution that results in a codon specifying a different amino acid than originally intended in the protein sequence; depending on the specific amino acid change and its position, this can potentially alter the protein's structure and/or function to varying degrees.",
+      "why_others_wrong": "Always resulting in a premature stop codon describes a specific type of nonsense mutation, not a missense mutation (which specifically results in a different AMINO ACID being specified, not a stop signal); a missense mutation, by definition, DOES typically change the amino-acid sequence (contrary to having absolutely no effect), though the functional significance of this change can vary; missense mutations can occur in the DNA/genes of cellular organisms generally (like the classic sickle cell anaemia example in humans), not being restricted only to RNA viruses.",
+      "concept_recap": "The sickle cell anaemia mutation, where a single missense mutation changes one amino acid in the beta-globin protein, is a classic, well-studied example illustrating the potentially significant functional consequences of a missense mutation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-057",
+    "question": "Which of the following best describes a 'nonsense mutation,' as a specific, often severely disruptive outcome of certain point mutations?",
+    "options": [
+      "A base substitution that changes a codon specifying an amino acid into a premature stop codon, resulting in a truncated (shortened), often non-functional protein",
+      "A mutation that has no effect on protein length or function",
+      "A mutation that only ever occurs at the very end of a gene's coding sequence",
+      "A mutation that always increases a protein's total length beyond normal"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A nonsense mutation is a base substitution that converts a codon originally specifying an amino acid into a premature stop codon; this causes translation to terminate early, resulting in a shortened (truncated) protein that is often non-functional, especially if the mutation occurs early in the coding sequence.",
+      "why_others_wrong": "A nonsense mutation, by definition, typically has a very significant effect on protein length/function (via premature truncation), contrary to having no effect; a nonsense mutation can occur at various positions within a gene's coding sequence (not being restricted only to occurring at the very end), with its severity often depending on how early the premature stop codon occurs; a nonsense mutation specifically results in a SHORTENED (truncated), not lengthened, protein, since translation terminates prematurely.",
+      "concept_recap": "Nonsense mutations occurring early within a gene's coding sequence tend to be particularly disruptive, since a large portion of the intended protein is missing from the truncated product."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  },
+  {
+    "id": "gen-058",
+    "question": "Which of the following best describes 'multiple alleles,' as illustrated by the ABO blood group system?",
+    "options": [
+      "A situation in which more than two allelic forms of a gene exist within a population, though any individual diploid organism can carry at most two of these alleles",
+      "A situation in which a single individual can carry more than two alleles for a gene simultaneously",
+      "A term synonymous with polygenic inheritance",
+      "A phenomenon that has never been documented in any real gene"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Multiple alleles describes a situation in which more than two allelic forms of a particular gene exist within a population as a whole (such as the three ABO alleles: IA, IB, and i); however, any single diploid individual can still carry at most two of these alleles at any given time (one on each homologous chromosome).",
+      "why_others_wrong": "A single individual carrying MORE than two alleles simultaneously would not be possible for a standard diploid organism at a single gene locus -- the key point of multiple alleles is population-level diversity, not individual-level excess; multiple alleles (many forms of ONE gene) and polygenic inheritance (multiple DIFFERENT genes affecting one trait) are distinct concepts, not being synonymous; multiple alleles have been well-documented in numerous real genes (the ABO system being a classic example), contrary to never being documented.",
+      "concept_recap": "The distinction between population-level allelic diversity (multiple alleles) and individual-level allele pairing (still only two per individual) is an important nuance in understanding this genetic concept."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-059",
+    "question": "Which of the following best describes why sex-linked traits (such as X-linked recessive conditions) often show different frequencies of occurrence between males and females in a population?",
+    "options": [
+      "Sex-linked genes are located on the Y chromosome, which only males possess, so only males can be affected in any way",
+      "Males (XY) have only a single copy of most X-linked genes, so a single recessive allele is sufficient to cause the condition, whereas females (XX) generally require two copies (homozygous recessive) for the same condition to be expressed",
+      "Sex-linked traits show absolutely no difference in frequency between males and females",
+      "Sex-linked inheritance patterns have no relationship to the specific sex chromosomes involved"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since males (XY) possess only a single X chromosome, they have only one copy of most X-linked genes; a single recessive allele on this one X chromosome is therefore sufficient to cause an X-linked recessive condition, whereas females (XX), having two X chromosomes, generally require two copies of the recessive allele (homozygous recessive) for the same condition to be phenotypically expressed, since a single dominant allele on their other X chromosome would otherwise mask it.",
+      "why_others_wrong": "Most X-linked recessive conditions (like haemophilia, colour blindness) are located on the X chromosome (not the Y), and importantly, FEMALES CAN be affected too (though less commonly, requiring two recessive alleles), so it is not accurate that 'only males can be affected in any way'; X-linked traits characteristically DO show different frequencies between males and females (typically higher in males for X-linked recessive conditions), contrary to showing 'absolutely no difference'; sex-linked inheritance patterns have a very direct, defining relationship to the specific sex chromosomes involved (X or Y), contrary to having no such relationship.",
+      "concept_recap": "This differential frequency pattern (more males affected by X-linked recessive conditions) is a key diagnostic clue used in pedigree analysis to help identify X-linked recessive inheritance."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 5 (Principles of Inheritance and Variation)"
+  },
+  {
+    "id": "gen-060",
+    "question": "Which of the following best describes the overall flow of genetic information described by the 'central dogma' of molecular biology?",
+    "options": [
+      "Protein to RNA to DNA",
+      "DNA to RNA to Protein",
+      "RNA to Protein to DNA, with no role for RNA in between",
+      "DNA directly to Protein, with no RNA intermediate involved at all"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The central dogma of molecular biology describes the general flow of genetic information as DNA to RNA (via transcription) to Protein (via translation), representing the fundamental pathway by which genetic information stored in DNA is ultimately expressed as functional proteins.",
+      "why_others_wrong": "Protein to RNA to DNA reverses the correct, standard direction of information flow described by the central dogma; RNA to Protein to DNA also misrepresents the standard flow, incorrectly placing DNA at the end rather than the beginning; DNA generally does NOT go directly to protein without an RNA intermediate -- the RNA intermediate (via transcription) is a crucial, defining step in the standard central dogma pathway.",
+      "concept_recap": "While some exceptions exist (such as reverse transcription in certain retroviruses, going from RNA back to DNA), the standard DNA-to-RNA-to-protein flow remains the fundamental, general principle described by the central dogma."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 6 (Molecular Basis of Inheritance)"
+  }
+]
