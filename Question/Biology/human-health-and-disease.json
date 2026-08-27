@@ -1,78 +1,794 @@
 [
   {
-    "id": "bio-health-001",
-    "type": "custom",
-    "difficulty": "easy",
-    "question": "Which of the following is a vector-borne disease transmitted by the female Anopheles mosquito?",
+    "id": "health-001",
+    "question": "Typhoid fever, a common bacterial disease, is caused by which of the following pathogens?",
     "options": [
-      "Dengue",
-      "Malaria",
-      "Typhoid",
-      "Chikungunya"
-    ],
-    "answer": "B",
-    "ncertRef": "Class 12, Ch 8, Pg 152",
-    "solution": {
-      "why_correct": "Malaria is caused by Plasmodium species and transmitted specifically through the bite of the female Anopheles mosquito.",
-      "why_others_wrong": "Dengue and Chikungunya are transmitted by the Aedes mosquito, not Anopheles. Typhoid is a bacterial disease (Salmonella typhi) spread through contaminated food/water, not by mosquitoes at all.",
-      "concept_recap": "Anopheles -> Malaria. Aedes -> Dengue, Chikungunya, Zika. Culex -> Filariasis. Know the mosquito-disease pairings precisely for NEET."
-    }
-  },
-  {
-    "id": "bio-health-002",
-    "type": "AR",
-    "difficulty": "hard",
-    "question": "Assertion (A): Antibiotics are ineffective against viral infections. Reason (R): Antibiotics target bacterial cell wall or protein synthesis machinery, which viruses lack.",
-    "options": [
-      "Both A and R are true and R is the correct explanation of A",
-      "Both A and R are true but R is NOT the correct explanation of A",
-      "A is true but R is false",
-      "A is false but R is true"
+      "Salmonella typhi",
+      "Plasmodium vivax",
+      "Mycobacterium tuberculosis",
+      "Entamoeba histolytica"
     ],
     "answer": "A",
-    "ncertRef": "Class 12, Ch 8, Pg 158",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Antibiotics work by disrupting bacterial-specific structures like cell walls or ribosomal machinery. Since viruses have no cell wall and hijack host cell machinery for replication, antibiotics have no target to act on -- directly explaining their ineffectiveness against viruses.",
-      "why_others_wrong": "B, C, D are wrong because both statements are true and the mechanism described in R is exactly why antibiotics fail against viral infections.",
-      "concept_recap": "Antibiotics act on bacteria-specific structures (cell wall, ribosomes, enzymes) absent or different in viruses. This is why viral infections need antivirals, not antibiotics."
-    }
+      "why_correct": "Typhoid fever is caused by the bacterium Salmonella typhi, typically transmitted through contaminated food or water.",
+      "why_others_wrong": "Plasmodium vivax causes malaria, not typhoid; Mycobacterium tuberculosis causes tuberculosis, not typhoid; Entamoeba histolytica causes amoebiasis, not typhoid.",
+      "concept_recap": "The Widal test is a commonly used diagnostic test to help confirm typhoid fever infection."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
   },
   {
-    "id": "bio-health-003",
-    "type": "custom",
-    "difficulty": "medium",
-    "question": "Which type of immunity is provided to a newborn through breast milk (colostrum)?",
+    "id": "health-002",
+    "question": "Tuberculosis (TB), a serious bacterial disease primarily affecting the lungs, is caused by which pathogen?",
     "options": [
-      "Active natural immunity",
-      "Passive natural immunity",
-      "Active artificial immunity",
-      "Passive artificial immunity"
+      "Salmonella typhi",
+      "Mycobacterium tuberculosis",
+      "Plasmodium falciparum",
+      "Wuchereria bancrofti"
     ],
     "answer": "B",
-    "ncertRef": "Class 12, Ch 8, Pg 162",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Colostrum contains pre-formed antibodies (especially IgA) transferred from mother to infant without the infant's own immune system producing them -- this is passive immunity, and since it occurs naturally (not via injection), it's passive NATURAL immunity.",
-      "why_others_wrong": "A is wrong since the infant doesn't produce these antibodies itself (active = self-produced). C and D involve artificial/medical intervention (like vaccines or antibody injections), not a natural biological process like breastfeeding.",
-      "concept_recap": "Immunity types: Active natural (infection, body makes antibodies), active artificial (vaccination), passive natural (mother to child via placenta/breast milk), passive artificial (antibody injection, e.g., anti-venom)."
-    }
+      "why_correct": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis, which primarily affects the lungs but can also affect other organs.",
+      "why_others_wrong": "Salmonella typhi causes typhoid fever, not tuberculosis; Plasmodium falciparum causes malaria, not tuberculosis; Wuchereria bancrofti causes filariasis, not tuberculosis.",
+      "concept_recap": "TB remains a significant global public health concern, requiring prolonged antibiotic treatment regimens for effective cure."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
   },
   {
-    "id": "bio-health-004",
-    "type": "custom",
-    "difficulty": "hard",
-    "question": "Which of the following best describes the mechanism of action of a vaccine?",
+    "id": "health-003",
+    "question": "Pneumonia, an infection causing inflammation of the alveoli, can be caused by which of the following bacteria?",
     "options": [
-      "It directly kills the disease-causing pathogen in the body",
-      "It introduces antigenic material to stimulate the immune system to produce memory cells without causing the disease",
-      "It replaces the need for the body's own immune response entirely",
-      "It provides pre-formed antibodies directly from another organism"
+      "Streptococcus pneumoniae",
+      "Plasmodium vivax",
+      "Entamoeba histolytica",
+      "Wuchereria bancrofti"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Streptococcus pneumoniae is a common bacterial cause of pneumonia, an infection causing inflammation and fluid accumulation in the alveoli, impairing gas exchange.",
+      "why_others_wrong": "Plasmodium vivax causes malaria, a protozoan disease, not bacterial pneumonia; Entamoeba histolytica causes amoebiasis, not pneumonia; Wuchereria bancrofti causes filariasis, not pneumonia.",
+      "concept_recap": "Pneumonia can also be caused by various viruses and fungi, though Streptococcus pneumoniae remains a classic, frequently tested bacterial cause."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-004",
+    "question": "Malaria, a serious disease characterised by recurring fever, is caused by protozoan parasites of which genus?",
+    "options": [
+      "Plasmodium",
+      "Entamoeba",
+      "Trypanosoma",
+      "Leishmania"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Malaria is caused by protozoan parasites of the genus Plasmodium, transmitted to humans through the bite of an infected female Anopheles mosquito.",
+      "why_others_wrong": "Entamoeba causes amoebiasis, not malaria; Trypanosoma causes diseases like sleeping sickness, not malaria; Leishmania causes leishmaniasis, not malaria.",
+      "concept_recap": "Different Plasmodium species (such as P. vivax and P. falciparum) cause malaria of varying severity, with P. falciparum generally associated with the most severe disease."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-005",
+    "question": "Which of the following mosquito genera is the vector responsible for transmitting the Plasmodium parasite causing malaria?",
+    "options": [
+      "Aedes",
+      "Anopheles",
+      "Culex",
+      "None of these; malaria is not mosquito-borne"
     ],
     "answer": "B",
-    "ncertRef": "Class 12, Ch 8, Pg 160",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "A vaccine introduces a weakened, inactivated, or partial form of a pathogen (antigenic material) that stimulates the immune system to produce antibodies and memory cells, providing long-term active immunity without causing the actual disease.",
-      "why_others_wrong": "A is incorrect since vaccines don't directly kill pathogens already in the body -- they prepare the immune system in advance. C is wrong since the immune system is actively engaged, not bypassed. D describes passive immunity (like antivenom), a different mechanism from vaccination.",
-      "concept_recap": "Vaccination: active immunity, immune system produces its own antibodies and memory cells in response to antigenic exposure, providing lasting protection. Different from passive immunity (direct antibody transfer, temporary protection)."
-    }
+      "why_correct": "The female Anopheles mosquito is the specific vector responsible for transmitting Plasmodium parasites, causing malaria, through its bite.",
+      "why_others_wrong": "Aedes mosquitoes are vectors for diseases like dengue and chikungunya, not malaria; Culex mosquitoes are vectors for diseases like filariasis, not malaria; malaria is, in fact, a well-established mosquito-borne disease, contrary to not being transmitted by mosquitoes.",
+      "concept_recap": "Malaria control strategies often specifically target Anopheles mosquito breeding sites and populations to reduce disease transmission."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-006",
+    "question": "Amoebiasis, a disease affecting the large intestine causing symptoms like abdominal pain and dysentery, is caused by which protozoan parasite?",
+    "options": [
+      "Plasmodium vivax",
+      "Entamoeba histolytica",
+      "Trypanosoma cruzi",
+      "Giardia lamblia"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Amoebiasis is caused by the protozoan parasite Entamoeba histolytica, typically transmitted through contaminated food or water, causing intestinal symptoms including dysentery.",
+      "why_others_wrong": "Plasmodium vivax causes malaria, not amoebiasis; Trypanosoma cruzi causes Chagas disease, not amoebiasis; Giardia lamblia causes giardiasis, a different intestinal parasitic infection, not amoebiasis specifically.",
+      "concept_recap": "Entamoeba histolytica can exist in both an active (trophozoite) form and a dormant, resistant cyst form, the latter being important for disease transmission via contaminated water/food."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-007",
+    "question": "Ascariasis, a disease caused by a parasitic roundworm affecting the small intestine, is caused by which organism?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Wuchereria bancrofti",
+      "Entamoeba histolytica",
+      "Plasmodium falciparum"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ascariasis is caused by the parasitic roundworm Ascaris lumbricoides, which infects the small intestine, often transmitted through contaminated food or water containing the parasite's eggs.",
+      "why_others_wrong": "Wuchereria bancrofti causes filariasis, a different helminthic disease, not ascariasis; Entamoeba histolytica causes amoebiasis, a protozoan disease, not ascariasis; Plasmodium falciparum causes malaria, unrelated to ascariasis.",
+      "concept_recap": "Ascariasis is one of the most common helminthic (worm) infections worldwide, particularly prevalent in areas with poor sanitation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-008",
+    "question": "Filariasis (elephantiasis), a disease characterised by chronic inflammation and swelling of limbs, is caused by which parasitic worm?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Wuchereria bancrofti",
+      "Entamoeba histolytica",
+      "Plasmodium vivax"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Filariasis (elephantiasis) is caused by the parasitic filarial worm Wuchereria bancrofti, which is transmitted through the bite of an infected mosquito and causes chronic inflammation of the lymphatic system.",
+      "why_others_wrong": "Ascaris lumbricoides causes ascariasis, a different helminthic disease affecting the small intestine, not filariasis; Entamoeba histolytica causes amoebiasis, a protozoan disease, not filariasis; Plasmodium vivax causes malaria, unrelated to filariasis.",
+      "concept_recap": "The chronic lymphatic blockage caused by these filarial worms can lead to the characteristic dramatic swelling of limbs seen in advanced elephantiasis cases."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-009",
+    "question": "The common cold, one of the most frequent human viral infections, primarily affects which part of the respiratory tract?",
+    "options": [
+      "Only the lower respiratory tract (lungs)",
+      "The upper respiratory tract (nose and respiratory passage), causing symptoms like nasal congestion and sneezing",
+      "Only the digestive tract, with no respiratory involvement",
+      "Only the skin, with no respiratory involvement"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The common cold is a viral infection that primarily affects the upper respiratory tract (nose and associated respiratory passages), causing characteristic symptoms like nasal congestion, sneezing, and a runny nose.",
+      "why_others_wrong": "The common cold primarily affects the UPPER (not exclusively lower) respiratory tract; the common cold is specifically a respiratory infection, not primarily a digestive tract condition; the common cold is a respiratory infection, not a skin condition with no respiratory involvement.",
+      "concept_recap": "The common cold can be caused by numerous different virus types (most commonly rhinoviruses), explaining why individuals can catch colds repeatedly throughout their lives."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-010",
+    "question": "Which of the following best describes 'innate immunity,' as one of the two broad categories of immunity?",
+    "options": [
+      "Immunity acquired only after exposure to a specific pathogen",
+      "Non-specific defence mechanisms present in the body from birth, providing immediate, generalised protection against a wide range of pathogens",
+      "A type of immunity that takes weeks to develop after infection",
+      "A term synonymous with acquired immunity"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Innate immunity refers to non-specific defence mechanisms present in the body from birth (physical barriers, certain white blood cells, inflammatory responses, etc.), providing immediate, generalised protection against a wide range of pathogens without requiring prior exposure.",
+      "why_others_wrong": "Immunity requiring prior exposure to a specific pathogen describes acquired (adaptive) immunity, not innate immunity; innate immunity provides IMMEDIATE (not delayed, weeks-long) protection; innate and acquired immunity are distinct categories of immune defence, not being synonymous.",
+      "concept_recap": "Innate immunity serves as the body's first line of defence, acting quickly while the more specific, but slower-developing, acquired immune response is mobilised if needed."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-011",
+    "question": "Which of the following best describes 'acquired (adaptive) immunity,' as distinct from innate immunity?",
+    "options": [
+      "Non-specific defence mechanisms present from birth",
+      "Specific immunity that develops after exposure to a particular pathogen or antigen, characterised by specificity and immunological memory",
+      "A term synonymous with innate immunity",
+      "Immunity that provides only immediate, non-specific protection with no memory component"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Acquired (adaptive) immunity is specific immunity that develops after exposure to a particular pathogen or antigen, characterised by both specificity (targeting particular pathogens) and immunological memory (allowing faster, stronger responses upon re-exposure).",
+      "why_others_wrong": "Non-specific defence present from birth describes innate immunity, a distinct category from acquired immunity; innate and acquired immunity are distinct immune system categories, not being synonymous; acquired immunity is specifically characterised BY its memory component (allowing faster future responses), contrary to lacking any memory component.",
+      "concept_recap": "This immunological memory feature of acquired immunity is the fundamental principle underlying how vaccination provides long-term protection against specific diseases."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-012",
+    "question": "Which of the following is an example of a physical barrier contributing to innate immunity?",
+    "options": [
+      "Antibodies produced by B cells",
+      "The skin, providing a physical barrier against pathogen entry",
+      "Memory T cells",
+      "Vaccination-induced immunity"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The skin serves as a physical barrier, a key component of innate immunity, preventing many pathogens from entering the body in the first place.",
+      "why_others_wrong": "Antibodies produced by B cells are part of the specific, acquired immune response, not innate physical barriers; memory T cells are part of acquired immunity's memory component, not innate physical barriers; vaccination-induced immunity is a form of acquired immunity, not an innate physical barrier.",
+      "concept_recap": "Other innate physical/chemical barriers include mucus membranes, stomach acid, and various antimicrobial secretions, all providing immediate, non-specific protection."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-013",
+    "question": "Which of the following white blood cells are primarily responsible for engulfing and destroying pathogens through a process called phagocytosis, as part of innate immunity?",
+    "options": [
+      "B lymphocytes",
+      "T lymphocytes",
+      "Macrophages/neutrophils (phagocytic cells)",
+      "Memory cells"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Macrophages and neutrophils are phagocytic cells that engulf and destroy pathogens through phagocytosis, forming an important cellular component of innate immunity.",
+      "why_others_wrong": "B lymphocytes are primarily involved in acquired immunity, producing antibodies, not primarily performing phagocytosis; T lymphocytes are primarily involved in acquired, cell-mediated immunity, not the primary phagocytic cells of innate immunity; memory cells are a feature of acquired immunity's memory component, not primary phagocytic innate immune cells.",
+      "concept_recap": "This phagocytic activity represents a rapid, non-specific innate immune response that occurs before the slower, more specific acquired immune response develops."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-014",
+    "question": "Which of the following lymphocytes are primarily responsible for producing antibodies, as part of humoral (antibody-mediated) immunity?",
+    "options": [
+      "T lymphocytes (cytotoxic T cells)",
+      "B lymphocytes",
+      "Macrophages",
+      "Neutrophils"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "B lymphocytes (B cells) are primarily responsible for producing antibodies, key molecules of humoral (antibody-mediated) immunity, particularly after differentiating into plasma cells upon activation.",
+      "why_others_wrong": "Cytotoxic T lymphocytes are primarily involved in cell-mediated immunity (directly killing infected cells), not primarily antibody production; macrophages are primarily phagocytic cells of innate immunity, not antibody producers; neutrophils are also primarily phagocytic innate immune cells, not antibody producers.",
+      "concept_recap": "Antibody-mediated (humoral) immunity, driven by B cells, is particularly effective against pathogens circulating in blood and bodily fluids."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-015",
+    "question": "Which of the following lymphocytes are primarily responsible for cell-mediated immunity, directly attacking and destroying infected or abnormal cells?",
+    "options": [
+      "B lymphocytes",
+      "T lymphocytes (particularly cytotoxic T cells)",
+      "Neutrophils",
+      "Basophils"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "T lymphocytes, particularly cytotoxic T cells, are primarily responsible for cell-mediated immunity, directly recognising and destroying cells infected with pathogens (like viruses) or other abnormal cells.",
+      "why_others_wrong": "B lymphocytes are primarily responsible for humoral (antibody-mediated) immunity, not cell-mediated immunity; neutrophils are primarily phagocytic cells of innate immunity, not the primary cells of cell-mediated adaptive immunity; basophils are involved in inflammatory/allergic responses, not primarily cell-mediated immunity.",
+      "concept_recap": "Cell-mediated immunity, driven by T cells, is particularly important for combating intracellular pathogens (like viruses) that hide within host cells, where antibodies cannot directly reach them."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-016",
+    "question": "Which of the following best describes 'antigens,' in the context of the immune system?",
+    "options": [
+      "Antibodies produced by the immune system",
+      "Foreign molecules (often on the surface of pathogens) that are recognised by the immune system and can trigger an immune response",
+      "A type of white blood cell",
+      "Molecules produced exclusively by the human body, never found on foreign pathogens"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Antigens are foreign molecules -- often found on the surface of pathogens like bacteria or viruses -- that are recognised by the immune system as non-self, potentially triggering a specific immune response, including antibody production.",
+      "why_others_wrong": "Antibodies are proteins produced BY the immune system in response to antigens, not the antigens themselves; antigens are molecules, not white blood cells; antigens are specifically characterised as foreign molecules recognised as non-self, most commonly associated with pathogens (though 'self-antigens' are also a distinct concept in some contexts), contrary to being exclusively human-body-produced molecules unrelated to foreign pathogens.",
+      "concept_recap": "The specific recognition of particular antigens by immune cells (like B and T lymphocytes) underlies the remarkable specificity characteristic of the acquired immune response."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-017",
+    "question": "Which of the following best describes 'antibodies,' as key molecules of humoral immunity?",
+    "options": [
+      "Foreign molecules that trigger an immune response",
+      "Proteins produced by B lymphocytes (plasma cells) that specifically recognise and bind to particular antigens, helping neutralise or mark pathogens for destruction",
+      "A type of phagocytic white blood cell",
+      "Molecules that have no specific target, binding randomly to any molecule"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Antibodies are proteins produced by B lymphocytes (specifically activated plasma cells) that specifically recognise and bind to particular antigens, helping neutralise pathogens directly or marking them for destruction by other immune components.",
+      "why_others_wrong": "Antigens (not antibodies) are the foreign molecules that trigger an immune response; antibodies are proteins produced by B cells, not themselves a type of phagocytic white blood cell; antibodies are characterised by their remarkable SPECIFICITY for particular antigens, contrary to binding randomly to any molecule.",
+      "concept_recap": "This antigen-antibody specificity (often compared to a 'lock and key' mechanism) is fundamental to the precision of the acquired immune response."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-018",
+    "question": "Which of the following best describes 'active immunity,' as one type of acquired immunity?",
+    "options": [
+      "Immunity resulting from the direct transfer of pre-formed antibodies from another individual",
+      "Immunity that develops when an individual's own immune system is stimulated (by natural infection or vaccination) to produce antibodies and memory cells",
+      "A type of innate immunity present from birth",
+      "A form of immunity that provides no long-term memory or protection"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Active immunity develops when an individual's own immune system is stimulated -- either through natural infection or vaccination -- to produce its own antibodies and memory cells, generally providing longer-lasting protection.",
+      "why_others_wrong": "Direct transfer of pre-formed antibodies from another individual describes passive immunity, a different type of acquired immunity from active immunity; active immunity is a category of acquired (not innate) immunity; active immunity is specifically characterised by providing LONG-TERM memory and protection (due to memory cell formation), contrary to providing no such memory.",
+      "concept_recap": "Vaccination is a classic, deliberately induced example of active immunity, stimulating the body's own immune response for future protection."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-019",
+    "question": "Which of the following best describes 'passive immunity,' as distinct from active immunity?",
+    "options": [
+      "Immunity resulting from an individual's own immune system producing antibodies after infection/vaccination",
+      "Immunity resulting from the direct transfer of pre-formed antibodies from another source (e.g., from mother to infant via placenta/breast milk, or via antibody injections) rather than the individual's own immune system producing them",
+      "A term synonymous with active immunity",
+      "A type of immunity that always provides lifelong protection"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Passive immunity results from the direct transfer of pre-formed antibodies from another source -- such as from mother to infant via the placenta or breast milk, or through medical antibody injections -- rather than the individual's own immune system actively producing these antibodies itself.",
+      "why_others_wrong": "An individual's own immune system producing antibodies after infection/vaccination describes active immunity, a different type from passive immunity; active and passive immunity are distinct types of acquired immunity, not being synonymous; passive immunity, since it does not involve the individual's own immune memory cell formation, generally provides only TEMPORARY (not lifelong) protection, as the transferred antibodies eventually degrade.",
+      "concept_recap": "The transfer of maternal antibodies to a newborn infant is a crucial, naturally occurring example of passive immunity, providing important early protection before the infant's own immune system fully matures."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-020",
+    "question": "Which of the following best describes how vaccination works to provide active immunity against a specific disease?",
+    "options": [
+      "Vaccines directly provide pre-formed antibodies, without stimulating the individual's own immune system",
+      "Vaccines introduce a weakened, inactivated, or partial form of a pathogen (or its antigens), stimulating the individual's own immune system to produce specific antibodies and memory cells without causing full-blown disease",
+      "Vaccination has no relationship to the immune system's memory function",
+      "Vaccines work identically to antibiotic treatment, directly killing pathogens"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Vaccines introduce a weakened, inactivated, or partial form of a pathogen (or specific antigens from it), stimulating the individual's own immune system to mount a response -- producing specific antibodies and, importantly, memory cells -- without causing the full-blown disease itself, thereby providing future protection through active immunity.",
+      "why_others_wrong": "Vaccines specifically work by stimulating the individual's OWN immune system (active immunity), rather than directly providing pre-formed antibodies (which would describe passive immunity instead); vaccination has a very direct, essential relationship to generating immune memory (memory cells), which is precisely the mechanism providing lasting future protection; vaccines are fundamentally different from antibiotics -- vaccines stimulate immune response/memory, while antibiotics directly kill/inhibit bacteria.",
+      "concept_recap": "This memory-cell-based mechanism is why vaccinated individuals can mount a much faster, stronger immune response upon actual future exposure to the real pathogen, often preventing disease entirely."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-021",
+    "question": "Which of the following best describes 'allergy,' as an immune-related condition?",
+    "options": [
+      "A complete absence of any immune response to foreign substances",
+      "An exaggerated or hypersensitive immune response to certain otherwise harmless environmental substances (allergens), such as pollen or dust",
+      "A condition entirely unrelated to the immune system",
+      "A form of immunity that always provides beneficial protection with no adverse symptoms"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "An allergy is an exaggerated or hypersensitive immune response to certain otherwise harmless environmental substances (allergens) -- such as pollen, dust mites, or certain foods -- resulting in symptoms ranging from mild irritation to more severe reactions.",
+      "why_others_wrong": "An allergy specifically involves an EXAGGERATED (not absent) immune response to allergens; allergies have a very direct, central relationship to immune system function (specifically, its dysregulation), contrary to being unrelated; allergic immune responses typically cause bothersome or even harmful symptoms, contrary to being uniformly beneficial with no adverse effects.",
+      "concept_recap": "Common allergy symptoms like sneezing, itching, and inflammation result from the release of substances like histamine during this exaggerated immune response."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-022",
+    "question": "Which of the following best describes an 'autoimmune disease,' as a category of immune-related disorder?",
+    "options": [
+      "A disease in which the immune system fails to respond to any foreign pathogens at all",
+      "A condition in which the immune system mistakenly attacks and damages the body's own healthy cells/tissues, treating them as foreign",
+      "A disease caused exclusively by external pathogens, with no involvement of the immune system's own dysfunction",
+      "A term synonymous with a simple allergic reaction"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "An autoimmune disease occurs when the immune system malfunctions and mistakenly attacks and damages the body's own healthy cells or tissues, treating them as if they were foreign invaders.",
+      "why_others_wrong": "Autoimmune disease does not describe an immune system that fails to respond to pathogens -- rather, it describes an immune system that inappropriately attacks the body's OWN tissues; autoimmune disease specifically arises FROM immune system dysfunction, not from being caused exclusively by external pathogens without immune involvement; autoimmune disease (self-directed immune attack) and allergy (exaggerated response to external allergens) are distinct concepts, not being synonymous.",
+      "concept_recap": "Examples of autoimmune diseases include certain forms of arthritis and other conditions where the immune system targets specific self-tissues, requiring different management approaches than typical infections."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-023",
+    "question": "AIDS (Acquired Immunodeficiency Syndrome) is caused by which virus?",
+    "options": [
+      "Influenza virus",
+      "Human Immunodeficiency Virus (HIV)",
+      "Hepatitis B virus",
+      "Rhinovirus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "AIDS is caused by the Human Immunodeficiency Virus (HIV), which progressively damages the immune system, particularly by infecting and destroying certain helper T lymphocytes.",
+      "why_others_wrong": "Influenza virus causes the flu, not AIDS; Hepatitis B virus causes hepatitis B, a liver disease, not AIDS; rhinovirus commonly causes the common cold, not AIDS.",
+      "concept_recap": "HIV infection, if untreated, can progressively weaken the immune system over time, eventually leading to the advanced stage of infection known as AIDS."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-024",
+    "question": "Which specific type of immune cell is primarily targeted and progressively destroyed by HIV, leading to immune system dysfunction?",
+    "options": [
+      "B lymphocytes exclusively",
+      "Helper T lymphocytes (specifically those bearing the CD4 receptor)",
+      "Red blood cells",
+      "Platelets"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "HIV specifically targets and progressively destroys helper T lymphocytes (particularly those bearing the CD4 receptor, which HIV uses to enter these cells), critically important cells that help coordinate much of the overall immune response.",
+      "why_others_wrong": "While B cell function is ultimately impaired due to the broader immune disruption, HIV does not exclusively or primarily target B lymphocytes directly in this defining way; HIV does not target red blood cells, which are unrelated to its specific immune cell targeting mechanism; HIV does not target platelets, which are also unrelated to its specific immune cell targeting mechanism.",
+      "concept_recap": "Since helper T cells play a central coordinating role in both humoral and cell-mediated immunity, their progressive destruction by HIV severely compromises the body's overall ability to fight infections."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-025",
+    "question": "Which of the following is a recognised mode of HIV transmission?",
+    "options": [
+      "Casual contact, such as sharing utensils or hugging",
+      "Sexual contact with an infected individual, sharing contaminated needles, and transmission from an infected mother to her child",
+      "Airborne transmission through coughing or sneezing, similar to the common cold",
+      "Contact with an infected person's intact, healthy skin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "HIV is transmitted through specific routes including sexual contact with an infected individual, sharing contaminated needles (e.g., in intravenous drug use), and transmission from an infected mother to her child (during pregnancy, childbirth, or breastfeeding).",
+      "why_others_wrong": "Casual contact (like sharing utensils or hugging) is NOT a recognised transmission route for HIV, a common but important misconception; HIV is not transmitted through airborne routes like coughing/sneezing, unlike some respiratory viruses; HIV is not transmitted through contact with intact, healthy skin -- it requires specific bodily fluid exchange routes.",
+      "concept_recap": "Public health education about these specific, limited transmission routes has been important both for effective HIV prevention and for reducing unwarranted social stigma associated with casual contact misconceptions."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-026",
+    "question": "Which of the following diagnostic tests is commonly used to detect HIV infection?",
+    "options": [
+      "Widal test",
+      "ELISA (enzyme-linked immunosorbent assay) test",
+      "Blood glucose test",
+      "Urine culture test"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The ELISA test is a commonly used diagnostic test to detect antibodies against HIV (or HIV antigens directly), helping confirm HIV infection.",
+      "why_others_wrong": "The Widal test is used to help diagnose typhoid fever, not HIV; a blood glucose test is used to assess blood sugar levels (relevant to diabetes), not HIV infection; a urine culture test is used to detect urinary tract infections, not HIV.",
+      "concept_recap": "Early and accurate HIV diagnosis through tests like ELISA is important for enabling timely treatment (antiretroviral therapy) to help manage the infection and reduce further transmission."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-027",
+    "question": "Which of the following best describes 'cancer,' as a disease process?",
+    "options": [
+      "A condition in which cells stop dividing entirely",
+      "A condition characterised by uncontrolled, abnormal cell division and growth, potentially invading surrounding tissues and spreading to other parts of the body (metastasis)",
+      "A condition exclusively affecting blood cells, never other tissue types",
+      "A disease that has no relationship to genetic mutations"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Cancer is characterised by uncontrolled, abnormal cell division and growth, often forming a mass (tumour) that can invade surrounding tissues and, in malignant cases, spread to other parts of the body through a process called metastasis.",
+      "why_others_wrong": "Cancer cells characteristically show uncontrolled, EXCESSIVE division, not a complete cessation of cell division; cancer can affect many different tissue types throughout the body (not being exclusive to blood cells, though blood cancers like leukaemia do exist as one specific category); cancer has a very direct, well-established relationship to genetic mutations (in genes controlling cell division/growth), contrary to having no such relationship.",
+      "concept_recap": "Understanding the genetic and cellular basis of cancer has been central to developing modern diagnostic and treatment approaches targeting the specific mechanisms driving abnormal cell growth."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-028",
+    "question": "Which of the following best describes the difference between a 'benign' tumour and a 'malignant' tumour?",
+    "options": [
+      "Benign tumours spread aggressively to distant body parts, while malignant tumours remain localised",
+      "Benign tumours generally remain localised and do not spread to other body parts, while malignant tumours can invade surrounding tissue and metastasise (spread) to distant sites",
+      "There is no meaningful difference between benign and malignant tumours",
+      "Malignant tumours are always completely harmless"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Benign tumours generally remain localised, growing in place without invading surrounding tissue or spreading to distant body parts, whereas malignant tumours can invade nearby tissues and spread (metastasise) to distant sites via blood or lymphatic vessels, characteristic of cancer.",
+      "why_others_wrong": "The behaviours described are reversed -- it is malignant (not benign) tumours that spread aggressively to distant sites, while benign tumours remain localised; there is a very significant, clinically important difference between benign and malignant tumours in terms of their behaviour and prognosis; malignant tumours are, in fact, the specifically dangerous, cancerous type of tumour, not something 'completely harmless'.",
+      "concept_recap": "This distinction between benign and malignant tumours is fundamental to cancer diagnosis, prognosis, and treatment planning."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-029",
+    "question": "Which of the following best describes 'metastasis,' as it relates to cancer progression?",
+    "options": [
+      "The initial formation of a tumour at its original site only",
+      "The process by which cancer cells spread from their original site to other, often distant, parts of the body, forming secondary tumours",
+      "A term describing tumour cells that never leave their original location",
+      "A process exclusive to benign tumours"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Metastasis is the process by which cancer cells break away from their original (primary) tumour site and spread -- typically via blood or lymphatic vessels -- to other, often distant, parts of the body, where they can establish secondary tumours.",
+      "why_others_wrong": "The initial formation of a tumour at its original site describes the primary tumour formation, a stage preceding metastasis, not metastasis itself; metastasis specifically involves cells LEAVING their original location and spreading elsewhere, contrary to describing cells that never leave; metastasis is characteristic of malignant (cancerous) tumours specifically, not benign tumours, which by definition do not spread in this way.",
+      "concept_recap": "The occurrence of metastasis significantly complicates cancer treatment, since it means the disease is no longer confined to a single, potentially surgically removable location."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-030",
+    "question": "Which of the following is a recognised risk factor increasing the likelihood of developing certain types of cancer?",
+    "options": [
+      "Regular moderate physical exercise",
+      "Exposure to certain carcinogens, such as tobacco smoke or excessive ultraviolet radiation",
+      "Adequate, balanced nutrition",
+      "Sufficient, regular sleep"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Exposure to certain carcinogens -- cancer-causing agents such as chemicals in tobacco smoke or excessive ultraviolet radiation from sun exposure -- is a well-recognised risk factor that increases the likelihood of developing certain types of cancer.",
+      "why_others_wrong": "Regular moderate physical exercise is generally associated with various health benefits and is not itself considered a cancer risk factor; adequate, balanced nutrition is generally protective/beneficial for health, not a recognised cancer risk factor; sufficient, regular sleep is generally beneficial for health, not a recognised cancer risk factor.",
+      "concept_recap": "Public health efforts to reduce cancer risk often focus specifically on minimising exposure to known carcinogens like tobacco smoke, a major preventable risk factor."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-031",
+    "question": "Which of the following best describes 'drug addiction/dependence,' as it relates to substance abuse?",
+    "options": [
+      "A condition with no relationship to the body's physiological or psychological state",
+      "A psychological and often physiological state in which an individual has an overwhelming, compulsive desire to continue taking a particular substance, often despite awareness of harmful consequences",
+      "A term describing occasional, controlled use of a substance with no compulsive component",
+      "A condition that only affects a person's physical health, with no psychological component"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Drug addiction/dependence refers to a psychological and often physiological state characterised by an overwhelming, compulsive desire to continue taking a particular substance, often persisting despite the individual's awareness of significant harmful consequences.",
+      "why_others_wrong": "Drug addiction has a very direct, significant relationship to both physiological and psychological states, contrary to having no such relationship; addiction is specifically characterised by a COMPULSIVE (not merely occasional, controlled) pattern of use; addiction typically has both physical AND significant psychological components, not being limited to physical health alone.",
+      "concept_recap": "Understanding addiction as a complex condition involving both physiological and psychological factors is important for developing effective treatment and support approaches."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-032",
+    "question": "Which of the following best describes why the combined use of certain drugs (e.g., combining alcohol with certain sedatives) can be particularly dangerous, sometimes leading to fatal outcomes?",
+    "options": [
+      "Combining substances always cancels out any negative effects of each individual substance",
+      "Certain drug combinations can produce dangerously amplified (synergistic) depressant effects on the central nervous system, particularly affecting breathing and heart function, increasing the risk of severe, potentially fatal complications",
+      "Drug combinations have no relationship to overall physiological risk",
+      "Combining substances always makes each individual substance completely harmless"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Certain drug combinations -- particularly combining alcohol with other central nervous system depressants like certain sedatives -- can produce dangerously amplified (synergistic) depressant effects, particularly affecting breathing and heart function, significantly increasing the risk of severe complications, including potentially fatal respiratory depression.",
+      "why_others_wrong": "Combining substances does NOT simply cancel out negative effects -- in many cases (like this depressant combination), the effects are dangerously amplified rather than neutralised; drug combinations have a very significant, well-documented relationship to overall physiological risk, contrary to having none; combining substances does not make them 'completely harmless' -- quite the opposite in many dangerous combinations, as described here.",
+      "concept_recap": "This risk of dangerous synergistic effects is an important reason why combining certain substances, even those that might seem individually manageable, can be particularly hazardous."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-033",
+    "question": "Which of the following best describes the health risks associated with tobacco smoking, beyond its well-known association with lung cancer?",
+    "options": [
+      "Tobacco smoking has no health risks beyond lung cancer",
+      "Tobacco smoking is associated with a wide range of additional health risks, including cardiovascular disease, chronic respiratory conditions like emphysema, and increased risk of several other cancers",
+      "Tobacco smoking only affects the respiratory system, with no cardiovascular risk",
+      "Tobacco smoking has been proven to have no relationship to any cancer type"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Beyond its well-known association with lung cancer, tobacco smoking is linked to a wide range of additional health risks, including cardiovascular disease (heart attacks, stroke), chronic respiratory conditions like emphysema, and increased risk of several other cancer types beyond just lung cancer.",
+      "why_others_wrong": "Tobacco smoking has very significant, well-documented health risks extending far beyond just lung cancer, contrary to having no additional risks; tobacco smoking has very significant, well-established cardiovascular risks, not being limited only to respiratory effects; tobacco smoking has an extremely well-established relationship to multiple cancer types (not just lung cancer), contrary to having no relationship to cancer.",
+      "concept_recap": "This broad range of serious health consequences underlies major public health efforts worldwide aimed at reducing tobacco use and smoking initiation, particularly among young people."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-034",
+    "question": "Which of the following best describes why adolescence is often considered a particularly vulnerable period for the initiation of drug/alcohol/tobacco use?",
+    "options": [
+      "Adolescents have no susceptibility to peer influence or experimentation",
+      "A combination of factors -- including increased peer influence, curiosity/experimentation, emotional or psychological stress, and ongoing brain development -- can make adolescence a particularly vulnerable period for substance use initiation",
+      "Adolescence has no relationship to substance use patterns",
+      "Only adults, never adolescents, are at risk of beginning substance use"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A combination of factors -- including heightened susceptibility to peer influence, natural curiosity and experimentation, emotional or psychological stress, and the fact that the brain is still undergoing significant development during this period -- can make adolescence a particularly vulnerable period for the initiation of drug, alcohol, or tobacco use.",
+      "why_others_wrong": "Adolescents are, in fact, often particularly susceptible to peer influence, contrary to having no such susceptibility; adolescence has a very well-documented relationship to substance use initiation patterns, contrary to having no relationship; while adults can certainly also begin substance use, adolescence is specifically recognised as a period of heightened, not exclusive-to-adults, vulnerability.",
+      "concept_recap": "This recognised vulnerability underlies why many prevention and education programs specifically target adolescents, aiming to address these particular risk factors before problematic substance use patterns can develop."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-035",
+    "question": "Which of the following best describes the significance of the female Anopheles mosquito's role in the malaria parasite's (Plasmodium) life cycle?",
+    "options": [
+      "The mosquito is simply a passive carrier, with no actual biological development of the parasite occurring within it",
+      "The mosquito serves as the definitive host in which the parasite undergoes a portion of its sexual life cycle (sporogony), in addition to acting as the vector transmitting the parasite to humans",
+      "The mosquito has no relationship to the Plasmodium life cycle at all",
+      "Only male Anopheles mosquitoes are capable of transmitting malaria"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The female Anopheles mosquito serves not merely as a passive carrier but as the definitive host in which the Plasmodium parasite undergoes a portion of its sexual life cycle (sporogony), in addition to its well-known role as the vector that transmits the parasite to human hosts through its bite.",
+      "why_others_wrong": "The mosquito is NOT simply a passive carrier -- significant biological development (sporogony) of the parasite actually occurs within the mosquito; the mosquito has a very direct, essential, well-documented relationship to the Plasmodium life cycle, contrary to having none; it is specifically the FEMALE Anopheles mosquito (not males) that transmits malaria, since only females take blood meals required for their egg development, during which parasite transmission occurs.",
+      "concept_recap": "This dual role of the mosquito -- both as a biological host for part of the parasite's life cycle and as the transmission vector -- is an important detail distinguishing malaria's biology from diseases where the vector plays a purely passive transmission role."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-036",
+    "question": "Which of the following measures is commonly recommended as an effective public health strategy for controlling the spread of mosquito-borne diseases like malaria and filariasis?",
+    "options": [
+      "Increasing the number of stagnant water sources, which mosquitoes prefer for breeding",
+      "Eliminating mosquito breeding sites (such as stagnant water), using insecticide-treated bed nets, and other vector control measures",
+      "Public health measures have no effect on mosquito-borne disease transmission",
+      "Only treating infected individuals, with no attention to mosquito vector control"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Eliminating mosquito breeding sites (such as stagnant water where mosquitoes lay eggs), using insecticide-treated bed nets, and other vector control measures are commonly recommended, effective public health strategies for reducing the transmission of mosquito-borne diseases like malaria and filariasis.",
+      "why_others_wrong": "Increasing stagnant water sources would actually promote (not reduce) mosquito breeding, the opposite of an effective control strategy; public health vector control measures have a very significant, well-documented effect on reducing mosquito-borne disease transmission, contrary to having no effect; effective disease control typically requires ADDRESSING the vector (mosquito) itself, not focusing exclusively on treating already-infected individuals while ignoring vector control.",
+      "concept_recap": "This vector-control-focused approach, targeting the mosquito population itself (in addition to treating infected patients), has been central to many successful public health campaigns against these mosquito-borne diseases."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-037",
+    "question": "Which of the following best explains why maintaining good personal hygiene and sanitation (e.g., handwashing, safe drinking water) is particularly important in preventing diseases like typhoid and amoebiasis?",
+    "options": [
+      "These diseases have no relationship to hygiene or sanitation practices",
+      "Both typhoid and amoebiasis are typically transmitted through contaminated food or water (the faecal-oral route), so good hygiene and sanitation practices directly reduce the risk of ingesting the causative pathogens",
+      "These diseases are exclusively transmitted through airborne routes, unrelated to hygiene/sanitation",
+      "Good hygiene practices only prevent viral diseases, never bacterial or protozoan diseases"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Both typhoid (bacterial) and amoebiasis (protozoan) are typically transmitted through contaminated food or water via the faecal-oral route; maintaining good personal hygiene (like handwashing) and sanitation (like safe drinking water access) directly reduces the risk of ingesting the causative pathogens, helping prevent these diseases.",
+      "why_others_wrong": "These diseases have a very direct, well-established relationship to hygiene and sanitation practices (via the faecal-oral transmission route), contrary to having no relationship; these diseases are specifically transmitted through contaminated food/water (faecal-oral route), not primarily through airborne transmission; good hygiene practices are effective against various pathogen types including bacteria (like Salmonella typhi) and protozoa (like Entamoeba histolytica), not being limited only to viral diseases.",
+      "concept_recap": "This shared faecal-oral transmission route explains why public health interventions focused on sanitation and safe water access can simultaneously help reduce the burden of multiple different diseases."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-038",
+    "question": "Which of the following best describes why individuals with HIV/AIDS often become susceptible to numerous 'opportunistic infections' that would not typically cause serious illness in a person with a healthy immune system?",
+    "options": [
+      "HIV/AIDS has no effect on susceptibility to other infections",
+      "By progressively destroying helper T cells and thereby severely weakening the overall immune system, HIV/AIDS leaves the body unable to adequately fight off many pathogens that a healthy immune system would normally control effectively",
+      "Opportunistic infections are entirely unrelated to immune system status",
+      "HIV/AIDS actually strengthens the immune system's ability to fight off other infections"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "By progressively destroying helper T cells (critical immune coordinating cells) and thereby severely weakening the overall immune system, HIV/AIDS leaves the body unable to adequately fight off many pathogens -- termed 'opportunistic infections' -- that a healthy immune system would normally control effectively without causing serious illness.",
+      "why_others_wrong": "HIV/AIDS has a very significant, well-documented effect on increasing susceptibility to other infections, contrary to having no effect; opportunistic infections are, by definition, DIRECTLY related to compromised immune system status, contrary to being unrelated; HIV/AIDS severely WEAKENS (not strengthens) the immune system's ability to fight off infections, which is precisely why opportunistic infections become such a significant clinical concern.",
+      "concept_recap": "This vulnerability to opportunistic infections is often a major cause of serious illness and mortality in advanced, untreated HIV/AIDS, highlighting the importance of early diagnosis and antiretroviral treatment."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-039",
+    "question": "Which of the following best explains why early detection of cancer generally improves treatment outcomes and prognosis?",
+    "options": [
+      "Early detection has no relationship to treatment outcomes",
+      "Cancers detected at an early stage are often smaller, more localised, and have not yet metastasised to distant body parts, generally making them more amenable to effective treatment (e.g., surgical removal) before the disease progresses further",
+      "Early-detected cancers are always completely untreatable, regardless of stage",
+      "Cancer treatment outcomes are identical regardless of the stage at which the cancer is detected"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cancers detected at an early stage are often smaller, more localised, and have not yet metastasised to distant parts of the body, generally making them more amenable to effective treatment (such as surgical removal or localised therapy) before the disease has had the opportunity to spread and become more difficult to treat.",
+      "why_others_wrong": "Early detection has a very significant, well-established positive relationship to treatment outcomes, contrary to having none; early-detected cancers are often MORE (not less) treatable, given their typically smaller, more localised nature at this stage; cancer treatment outcomes are, in fact, very significantly influenced by the stage at diagnosis, contrary to being identical regardless of stage.",
+      "concept_recap": "This relationship between early detection and improved outcomes underlies the importance of cancer screening programs and public awareness about recognising potential early warning signs."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-040",
+    "question": "Which of the following diagnostic/therapeutic approaches is commonly used in the detection or treatment of cancer, beyond simple physical examination?",
+    "options": [
+      "Blood glucose monitoring exclusively",
+      "Techniques such as biopsy (tissue sampling for microscopic examination), imaging studies (like CT or MRI scans), and treatments like radiotherapy or chemotherapy",
+      "Cancer has no established diagnostic or treatment approaches",
+      "Only surgical removal, with no other diagnostic or treatment methods available"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Various diagnostic and therapeutic approaches are used in cancer detection and treatment, including biopsy (removing a tissue sample for microscopic examination to confirm cancer presence/type), imaging studies (like CT or MRI scans to assess tumour size/spread), and treatments such as radiotherapy (using radiation) or chemotherapy (using drugs) to target cancer cells.",
+      "why_others_wrong": "Blood glucose monitoring is relevant to diabetes management, not the primary diagnostic/treatment approach for cancer specifically; cancer does have well-established, extensively researched diagnostic and treatment approaches, contrary to having none; while surgery is one important treatment option, several other diagnostic (biopsy, imaging) and treatment (radiotherapy, chemotherapy) approaches are also used, not being limited only to surgical removal.",
+      "concept_recap": "The specific combination of diagnostic and treatment approaches used for a particular cancer case depends on factors like cancer type, stage, and location, reflecting a highly individualised approach to cancer care."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-041",
+    "question": "Which of the following best describes 'immunisation programs' (vaccination schedules) as a public health strategy?",
+    "options": [
+      "Programs that provide passive immunity exclusively, with no active immune response generated",
+      "Structured schedules of vaccinations, typically administered during childhood, designed to provide active immunity against several serious infectious diseases before natural exposure occurs",
+      "Programs that have no measurable impact on disease incidence at a population level",
+      "A strategy applicable only to adult populations, never to children"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Immunisation programs consist of structured vaccination schedules, typically administered during childhood, designed to provide active immunity against several serious infectious diseases before an individual might naturally encounter and potentially suffer complications from these pathogens.",
+      "why_others_wrong": "Vaccination specifically works by stimulating ACTIVE immunity (the individual's own immune response), not merely providing passive, pre-formed antibodies with no active response; immunisation programs have had a very significant, well-documented positive impact on reducing disease incidence at the population level (e.g., significant reductions in various childhood diseases); immunisation programs are, in fact, particularly emphasised for CHILDREN (given their vulnerability and the goal of establishing early protection), not being limited only to adult populations.",
+      "concept_recap": "Widespread immunisation programs have historically been credited with dramatically reducing the incidence of several serious childhood infectious diseases at a global population level."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-042",
+    "question": "Which of the following is a classic symptom associated with malaria, resulting from the periodic rupture of infected red blood cells releasing the Plasmodium parasite?",
+    "options": [
+      "Persistent skin rash with no fever",
+      "Recurring/cyclical high fever with chills, often coinciding with the periodic rupture of infected red blood cells",
+      "Chronic joint pain with no fever component",
+      "Immediate, permanent loss of vision"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Malaria is classically characterised by recurring, cyclical high fever with chills, which often coincides with the periodic rupture of red blood cells infected with the Plasmodium parasite, releasing more parasites and triggering this febrile response.",
+      "why_others_wrong": "A persistent skin rash with no fever is not the classic malaria presentation, which specifically centres on cyclical fever; chronic joint pain without fever does not describe the classic malaria symptom pattern, which is fever-centred; malaria's classic symptom is recurring fever, not immediate, permanent vision loss, which is not a typical primary malaria symptom.",
+      "concept_recap": "This cyclical fever pattern, tied to the parasite's reproductive cycle within red blood cells, is a hallmark clinical feature historically used to help recognise and diagnose malaria."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-043",
+    "question": "Which of the following best describes why proper cooking of food and boiling/purifying drinking water are important preventive measures against several parasitic and bacterial diseases (e.g., ascariasis, typhoid)?",
+    "options": [
+      "Cooking and water purification have no effect on pathogens present in food/water",
+      "Adequate heat (from cooking/boiling) can kill or inactivate many bacterial and parasitic pathogens (and their eggs/cysts) present in contaminated food or water, preventing their ingestion and subsequent infection",
+      "These measures are only effective against viral pathogens, not bacterial or parasitic ones",
+      "Cooking and water purification actually increase the risk of these diseases"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Adequate heat from proper cooking and boiling water can kill or inactivate many bacterial pathogens (like Salmonella typhi) and parasitic organisms (including helminth eggs and protozoan cysts) present in contaminated food or water, preventing their ingestion and subsequent infection.",
+      "why_others_wrong": "Cooking and water purification have a very significant, well-established effect on eliminating pathogens from food/water, contrary to having no effect; these measures are effective against BACTERIAL and PARASITIC pathogens specifically (as in this example), not being limited only to viral pathogens; proper cooking/purification significantly REDUCES (not increases) the risk of these diseases by eliminating the causative pathogens.",
+      "concept_recap": "These basic food safety and water purification practices remain among the most effective and widely recommended preventive measures against numerous foodborne and waterborne diseases globally."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
+  },
+  {
+    "id": "health-044",
+    "question": "Which of the following best summarises the overall public health importance of understanding disease transmission modes (e.g., airborne, waterborne, vector-borne, contact-based)?",
+    "options": [
+      "Understanding transmission modes has no practical relevance to disease prevention",
+      "Knowing how a specific disease is transmitted allows public health efforts and individuals to target the most effective, relevant preventive measures (e.g., vector control for malaria, sanitation for typhoid, vaccination for many viral diseases)",
+      "All diseases are transmitted through the exact same single mode, making this distinction unnecessary",
+      "Disease transmission mode has no relationship to the disease's underlying causative pathogen"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Knowing the specific mode by which a disease is transmitted -- whether airborne, waterborne, vector-borne (like mosquitoes), or through direct contact -- allows public health efforts and individuals to target the most effective, relevant preventive measures for that particular disease, such as vector control for malaria, sanitation improvements for typhoid, or vaccination programs for many viral diseases.",
+      "why_others_wrong": "Understanding transmission modes has very significant, direct practical relevance for effectively targeting disease prevention efforts, contrary to having no relevance; diseases are transmitted through several DIFFERENT modes (not a single universal mode), which is precisely why this distinction matters for tailoring prevention strategies; transmission mode is closely tied to the specific biology of the causative pathogen (e.g., mosquito-borne Plasmodium vs. waterborne Salmonella), not being unrelated to it.",
+      "concept_recap": "This principle -- tailoring prevention strategies to specific transmission modes -- is a foundational concept underlying effective public health disease control programs worldwide."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 8 (Human Health and Disease)"
   }
 ]
