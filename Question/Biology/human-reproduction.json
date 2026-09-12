@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "repro-001",
+    "question": "The primary male reproductive organs, responsible for producing sperm and testosterone, are the:",
+    "options": [
+      "Vas deferens",
+      "Testes",
+      "Seminal vesicles",
+      "Prostate gland"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The testes are the primary male reproductive organs (gonads), responsible for producing sperm (spermatogenesis) and the hormone testosterone.",
+      "why_others_wrong": "The vas deferens is a duct transporting sperm, not the primary sperm/hormone-producing organ; seminal vesicles contribute fluid to semen but do not produce sperm; the prostate gland also contributes fluid to semen but does not produce sperm.",
+      "concept_recap": "The testes are located within the scrotum, outside the main body cavity, where the slightly lower temperature is important for normal sperm production."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-002",
+    "question": "Which of the following best explains why the testes are located within the scrotum, outside the main abdominal cavity?",
+    "options": [
+      "The scrotum has no relationship to temperature regulation",
+      "The scrotum provides a slightly cooler environment (compared to core body temperature) that is optimal for normal sperm production (spermatogenesis)",
+      "The scrotum is located there purely by evolutionary accident, with no functional significance",
+      "The scrotum's location prevents any testosterone production"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The scrotum provides a slightly cooler environment (a few degrees below core body temperature) that is optimal for normal spermatogenesis; sperm production is impaired at the higher core body temperature.",
+      "why_others_wrong": "The scrotum has a very direct, well-established relationship to temperature regulation relevant to sperm production, contrary to having none; this scrotal positioning has clear functional significance for temperature-sensitive sperm production, not being a mere accident without function; testosterone production, unlike sperm production, is not as strongly temperature-dependent, so this location does not prevent it.",
+      "concept_recap": "This temperature sensitivity of sperm production is why conditions raising testicular temperature (e.g., cryptorchidism, certain lifestyle factors) can impair male fertility."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-003",
+    "question": "Within the testis, sperm production (spermatogenesis) occurs within highly coiled structures called:",
+    "options": [
+      "Vas deferens",
+      "Seminiferous tubules",
+      "Epididymis",
+      "Ejaculatory duct"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Spermatogenesis occurs within the highly coiled seminiferous tubules, which make up the bulk of testicular tissue.",
+      "why_others_wrong": "The vas deferens transports mature sperm from the epididymis, not the site of sperm production itself; the epididymis is where sperm mature and are stored after being produced, not the initial production site; the ejaculatory duct is a later transport structure, not the site of sperm production.",
+      "concept_recap": "The seminiferous tubules are lined with germinal epithelium containing the various stages of developing sperm cells, along with supporting Sertoli cells."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-004",
+    "question": "Which of the following cells, located within the seminiferous tubules, provide nourishment and support to developing sperm cells?",
+    "options": [
+      "Leydig cells",
+      "Sertoli cells",
+      "Spermatogonia",
+      "Red blood cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Sertoli cells (also called nurse cells) are located within the seminiferous tubules and provide nourishment, support, and various regulatory functions for developing sperm cells throughout spermatogenesis.",
+      "why_others_wrong": "Leydig cells are located in the interstitial tissue between seminiferous tubules and primarily produce testosterone, not nourish developing sperm directly; spermatogonia are the germ cells that will develop into sperm, not the supporting nourishing cells; red blood cells transport oxygen throughout the body and have no specific supportive role for developing sperm.",
+      "concept_recap": "Sertoli cells also secrete various substances important for spermatogenesis, including a fluid that helps facilitate the transport of developing sperm within the tubule."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-005",
+    "question": "Which of the following cells, located in the interstitial tissue between seminiferous tubules, are primarily responsible for producing testosterone?",
+    "options": [
+      "Sertoli cells",
+      "Leydig cells (interstitial cells)",
+      "Spermatogonia",
+      "Spermatids"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Leydig cells (interstitial cells), located in the connective tissue between seminiferous tubules, are primarily responsible for synthesising and secreting testosterone in response to luteinizing hormone (LH) stimulation.",
+      "why_others_wrong": "Sertoli cells support and nourish developing sperm within the seminiferous tubules, but are not the primary testosterone-producing cells; spermatogonia are the initial germ cells undergoing spermatogenesis, not hormone-producing cells; spermatids are an intermediate stage in sperm development, not hormone-producing cells.",
+      "concept_recap": "Testosterone produced by Leydig cells is essential for both spermatogenesis and the development of male secondary sexual characteristics."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-006",
+    "question": "After being produced in the seminiferous tubules, sperm mature and are stored within which structure before ejaculation?",
+    "options": [
+      "Vas deferens",
+      "Epididymis",
+      "Seminal vesicle",
+      "Prostate gland"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The epididymis is a highly coiled duct where sperm, after being produced in the seminiferous tubules, undergo further maturation and are stored until ejaculation.",
+      "why_others_wrong": "The vas deferens transports mature sperm from the epididymis onward, a later step than storage/maturation itself; the seminal vesicle contributes fluid to semen but is not the primary site of sperm maturation/storage; the prostate gland also contributes fluid to semen but is not the sperm maturation/storage site.",
+      "concept_recap": "Sperm gain increased motility and fertilising capability during their passage through and storage within the epididymis."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-007",
+    "question": "Which of the following ducts transports mature sperm from the epididymis toward the ejaculatory duct?",
+    "options": [
+      "Ureter",
+      "Vas deferens (ductus deferens)",
+      "Urethra only, with no vas deferens involved",
+      "Fallopian tube"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The vas deferens (ductus deferens) is the duct that transports mature sperm from the epididymis toward the ejaculatory duct, ultimately leading to the urethra for ejaculation.",
+      "why_others_wrong": "The ureter carries urine from the kidney to the bladder, unrelated to sperm transport; while the urethra is indeed part of the male reproductive/urinary pathway, sperm reach it only after passing through the vas deferens and ejaculatory duct first; the fallopian tube is part of the female reproductive system, not the male sperm transport pathway.",
+      "concept_recap": "The vasectomy procedure, a form of male sterilisation, involves cutting or blocking the vas deferens to prevent sperm from being included in ejaculated semen."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-008",
+    "question": "Which of the following accessory glands contributes a fluid rich in fructose, providing an energy source for sperm motility?",
+    "options": [
+      "Prostate gland",
+      "Seminal vesicles",
+      "Bulbourethral glands",
+      "Bartholin's glands"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The seminal vesicles contribute a fructose-rich fluid to semen, providing an important energy source that supports sperm motility.",
+      "why_others_wrong": "The prostate gland contributes a milky, slightly alkaline fluid important for sperm activation/motility, but is not primarily known for fructose contribution; bulbourethral glands secrete a small amount of mucus-like fluid mainly for lubrication, not primarily fructose; Bartholin's glands are found in the female reproductive system, not the male.",
+      "concept_recap": "This fructose-rich seminal vesicle secretion constitutes a significant portion of the overall semen volume, supporting sperm viability and motility after ejaculation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-009",
+    "question": "Which of the following accessory glands secretes a milky, slightly alkaline fluid that helps neutralise the acidic environment of the vagina, supporting sperm survival?",
+    "options": [
+      "Seminal vesicles",
+      "Prostate gland",
+      "Bulbourethral glands",
+      "Sertoli cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The prostate gland secretes a milky, slightly alkaline fluid that helps neutralise the naturally acidic vaginal environment, supporting sperm survival and motility after ejaculation.",
+      "why_others_wrong": "Seminal vesicles primarily contribute fructose-rich fluid, a different specific contribution from the prostate's alkaline secretion; bulbourethral glands secrete a small amount of clear, mucus-like fluid mainly for lubrication, not primarily the described alkaline neutralising fluid; Sertoli cells are supportive cells within the testis itself, not an accessory gland secreting fluid into semen.",
+      "concept_recap": "Prostate enlargement (a common condition in older men) can affect urinary function, given the prostate's anatomical location surrounding the urethra."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-010",
+    "question": "Which of the following small paired glands secretes a small amount of clear, mucus-like fluid that helps lubricate the urethra prior to ejaculation?",
+    "options": [
+      "Seminal vesicles",
+      "Prostate gland",
+      "Bulbourethral glands (Cowper's glands)",
+      "Testes"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The bulbourethral glands (also called Cowper's glands) secrete a small amount of clear, mucus-like fluid that helps lubricate the urethra and neutralise any residual acidity from urine, prior to ejaculation.",
+      "why_others_wrong": "Seminal vesicles contribute a larger volume of fructose-rich fluid, a different specific contribution; the prostate gland contributes a milky, alkaline fluid, a different specific contribution from the bulbourethral glands; the testes produce sperm and testosterone, not this specific urethral lubricating fluid.",
+      "concept_recap": "This pre-ejaculatory fluid from the bulbourethral glands can sometimes contain small numbers of sperm, a consideration relevant to certain contraceptive discussions (withdrawal method limitations)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-011",
+    "question": "Which of the following best describes the composition of semen, the fluid ejaculated during male orgasm?",
+    "options": [
+      "Sperm cells alone, with no other fluid components",
+      "A mixture of sperm cells and secretions from accessory glands (seminal vesicles, prostate, bulbourethral glands)",
+      "Only fluid from the bulbourethral glands, with no sperm cells",
+      "Blood plasma exclusively, with no sperm or gland secretions"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Semen consists of a mixture of sperm cells (from the testes) and secretions from various accessory glands, including the seminal vesicles, prostate gland, and bulbourethral glands, which together support sperm viability, motility, and transport.",
+      "why_others_wrong": "Semen is not sperm alone -- it is a mixture including significant accessory gland secretions as well; semen includes sperm cells in addition to bulbourethral gland fluid, not being limited to just the latter; semen is not composed of blood plasma -- it is composed of sperm and specific accessory gland secretions.",
+      "concept_recap": "The accessory gland secretions make up the majority of semen's volume, with sperm cells themselves constituting a relatively small fraction of the total ejaculate volume."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-012",
+    "question": "Which of the following best describes 'spermatogenesis,' the process of sperm formation?",
+    "options": [
+      "The process by which egg cells are formed in the ovary",
+      "The process by which diploid spermatogonia undergo mitotic and meiotic divisions to ultimately produce haploid sperm cells",
+      "A process that occurs exclusively within the epididymis",
+      "A process that produces diploid sperm cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Spermatogenesis is the process by which diploid spermatogonia (germ cells) undergo a series of mitotic divisions (for proliferation) followed by meiotic divisions, ultimately producing haploid sperm cells (spermatozoa).",
+      "why_others_wrong": "Egg cell formation in the ovary describes oogenesis, a different process from spermatogenesis; spermatogenesis occurs within the seminiferous tubules of the testis, not the epididymis (which is involved in later sperm maturation/storage); spermatogenesis specifically produces HAPLOID (not diploid) sperm cells, essential for maintaining the correct chromosome number after fertilisation.",
+      "concept_recap": "This reduction from diploid to haploid chromosome number via meiosis is essential, since fertilisation (combining sperm and egg) must restore the normal diploid chromosome number in the resulting zygote."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-013",
+    "question": "During spermatogenesis, a primary spermatocyte undergoes the first meiotic division to produce which of the following?",
+    "options": [
+      "Two secondary spermatocytes",
+      "Four spermatids directly",
+      "Two spermatogonia",
+      "One mature sperm cell directly"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A primary spermatocyte undergoes the first meiotic division (meiosis I) to produce two secondary spermatocytes, each with half the original chromosome number (haploid), though at this stage each chromosome still consists of two sister chromatids.",
+      "why_others_wrong": "Four spermatids are produced only after BOTH meiotic divisions are complete (starting from one primary spermatocyte), not directly from meiosis I alone; spermatogonia are the earlier, diploid germ cells that give rise to primary spermatocytes via mitosis, not a product of meiosis I; mature sperm cells require further development (spermiogenesis) after both meiotic divisions, not being produced directly by meiosis I alone.",
+      "concept_recap": "This first meiotic division is where homologous chromosome pairs separate, reducing the chromosome number from diploid to haploid."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-014",
+    "question": "Which of the following best describes 'spermiogenesis,' as a specific stage within the overall process of sperm development?",
+    "options": [
+      "The initial mitotic proliferation of spermatogonia",
+      "The transformation of round, relatively unspecialised spermatids into elongated, motile, mature sperm cells (spermatozoa)",
+      "The first meiotic division of primary spermatocytes",
+      "A process occurring within the ovary, not the testis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Spermiogenesis specifically refers to the transformation of round, relatively unspecialised spermatids (the products of meiosis) into elongated, motile, structurally specialised mature sperm cells (spermatozoa), involving significant morphological changes.",
+      "why_others_wrong": "Initial mitotic proliferation of spermatogonia is an earlier stage of spermatogenesis, distinct from the later spermiogenesis stage; the first meiotic division of primary spermatocytes is also an earlier stage, distinct from spermiogenesis; spermiogenesis is specifically a testicular process (part of spermatogenesis in males), not an ovarian process.",
+      "concept_recap": "This dramatic transformation during spermiogenesis includes the formation of the sperm's characteristic head, midpiece (containing mitochondria for energy), and flagellum (tail) for motility."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-015",
+    "question": "Which of the following structures, located at the anterior (front) portion of a mature sperm cell's head, contains enzymes important for penetrating the egg during fertilisation?",
+    "options": [
+      "Mitochondria",
+      "Acrosome",
+      "Flagellum",
+      "Nucleus"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The acrosome is a cap-like structure at the front of the sperm head, containing enzymes that help the sperm penetrate the protective layers surrounding the egg during fertilisation.",
+      "why_others_wrong": "Mitochondria are located in the sperm's midpiece, providing energy for movement, not enzymes for egg penetration; the flagellum is the sperm's tail, providing motility, not the enzyme-containing structure for penetration; the nucleus contains the sperm's genetic material, not the specific enzymes used for egg penetration.",
+      "concept_recap": "The acrosome reaction, involving the release of these enzymes, is a critical early step in the process of fertilisation, allowing sperm to penetrate the egg's outer protective layers."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-016",
+    "question": "Which of the following structures in a mature sperm cell contains numerous mitochondria, providing the energy (ATP) needed for sperm motility?",
+    "options": [
+      "Head",
+      "Midpiece",
+      "Acrosome",
+      "Nucleus"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The midpiece of a mature sperm cell contains numerous tightly packed mitochondria, generating the ATP energy required to power the whip-like movement of the flagellum (tail) for sperm motility.",
+      "why_others_wrong": "The head contains the nucleus and acrosome, not the primary concentration of mitochondria; the acrosome contains enzymes for egg penetration, not mitochondria; the nucleus contains genetic material, not the mitochondria providing motility energy.",
+      "concept_recap": "This high concentration of mitochondria in the midpiece reflects the substantial energy demands of sustained flagellar movement as sperm travel through the female reproductive tract."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-017",
+    "question": "Which pituitary hormone stimulates Sertoli cells to support spermatogenesis?",
+    "options": [
+      "Luteinizing hormone (LH)",
+      "Follicle stimulating hormone (FSH)",
+      "Prolactin",
+      "Oxytocin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Follicle stimulating hormone (FSH), secreted by the anterior pituitary, acts on Sertoli cells within the seminiferous tubules to support and stimulate spermatogenesis.",
+      "why_others_wrong": "LH primarily stimulates Leydig cells to produce testosterone, a related but distinct hormonal action from FSH's Sertoli cell stimulation; prolactin's primary role concerns lactation regulation, not spermatogenesis stimulation; oxytocin is primarily involved in uterine contractions and milk ejection, unrelated to spermatogenesis regulation.",
+      "concept_recap": "FSH and LH work together, along with locally produced testosterone, to support the overall process of normal, ongoing spermatogenesis within the testis."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-018",
+    "question": "Which pituitary hormone stimulates Leydig cells to secrete testosterone?",
+    "options": [
+      "Follicle stimulating hormone (FSH)",
+      "Luteinizing hormone (LH)",
+      "Thyroid stimulating hormone (TSH)",
+      "Growth hormone"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Luteinizing hormone (LH), secreted by the anterior pituitary, stimulates Leydig cells within the testis to synthesise and secrete testosterone.",
+      "why_others_wrong": "FSH primarily stimulates Sertoli cells to support spermatogenesis, a related but distinct hormonal action from LH's stimulation of Leydig cells; TSH stimulates the thyroid gland, unrelated to testosterone production; growth hormone primarily regulates overall body growth, unrelated to this specific testosterone-stimulating action.",
+      "concept_recap": "In males, LH is sometimes specifically referred to as 'interstitial cell stimulating hormone (ICSH),' reflecting its action on the interstitial (Leydig) cells."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-019",
+    "question": "The primary female reproductive organs, responsible for producing eggs (ova) and secreting estrogen/progesterone, are the:",
+    "options": [
+      "Fallopian tubes",
+      "Ovaries",
+      "Uterus",
+      "Vagina"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The ovaries are the primary female reproductive organs (gonads), responsible for producing eggs (ova) through oogenesis and secreting the hormones estrogen and progesterone.",
+      "why_others_wrong": "The fallopian tubes transport the egg from the ovary toward the uterus, not the primary egg/hormone-producing organs; the uterus is where a fertilised egg implants and develops, not the primary egg-producing organ; the vagina is the birth canal and site of sperm deposition, not the primary egg/hormone-producing organ.",
+      "concept_recap": "Unlike continuous sperm production in males, females are generally born with a finite, pre-existing supply of immature egg cells within their ovaries."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-020",
+    "question": "Which of the following structures transport the egg (ovum) released from the ovary toward the uterus, and are also typically the site of fertilisation?",
+    "options": [
+      "Vas deferens",
+      "Fallopian tubes (oviducts)",
+      "Cervix",
+      "Vagina"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The fallopian tubes (oviducts) transport the ovulated egg from the ovary toward the uterus, and are also typically the site where fertilisation by sperm occurs.",
+      "why_others_wrong": "The vas deferens is a male reproductive structure, transporting sperm, not relevant to egg transport in females; the cervix is the lower, narrow portion of the uterus, not the tube-like structure transporting the egg from the ovary; the vagina is the birth canal and site of sperm deposition, not the site of egg transport/fertilisation.",
+      "concept_recap": "The finger-like fimbriae at the end of each fallopian tube near the ovary help sweep the released egg into the tube after ovulation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-021",
+    "question": "Which of the following describes the primary function of the uterus in the female reproductive system?",
+    "options": [
+      "Producing eggs",
+      "Providing the site for implantation of a fertilised egg and subsequent development of the foetus during pregnancy",
+      "Producing sperm",
+      "Transporting eggs from the ovary"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The uterus provides the site for implantation of a fertilised egg (blastocyst) and subsequent development and nourishment of the growing foetus throughout pregnancy.",
+      "why_others_wrong": "Egg production occurs in the ovaries, not the uterus; sperm production occurs in the testes (a male structure), entirely unrelated to the uterus; egg transport from the ovary is primarily the role of the fallopian tubes, not the uterus itself (though the egg does eventually reach the uterus via this transport).",
+      "concept_recap": "The uterine wall's inner lining (endometrium) undergoes cyclical changes throughout the menstrual cycle, preparing for potential implantation each cycle."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-022",
+    "question": "Which of the following is the innermost, glandular lining of the uterus, which thickens each cycle in preparation for potential embryo implantation?",
+    "options": [
+      "Myometrium",
+      "Endometrium",
+      "Perimetrium",
+      "Cervix"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The endometrium is the innermost, glandular lining of the uterus, which undergoes cyclical thickening (under hormonal influence) each menstrual cycle in preparation for potential embryo implantation.",
+      "why_others_wrong": "The myometrium is the thick, muscular middle layer of the uterine wall, not the innermost glandular lining; the perimetrium is the outer covering of the uterus, not the innermost lining; the cervix is the lower, narrow neck of the uterus, a distinct structure from the endometrial lining itself.",
+      "concept_recap": "If implantation does not occur in a given cycle, most of the endometrium is shed during menstruation, followed by regrowth in the subsequent cycle."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-023",
+    "question": "Which of the following is the narrow, lower portion of the uterus that connects to the vagina?",
+    "options": [
+      "Fundus",
+      "Cervix",
+      "Fallopian tube",
+      "Fimbriae"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The cervix is the narrow, lower portion of the uterus that connects to the vagina, playing important roles in both normal reproductive function and during childbirth.",
+      "why_others_wrong": "The fundus is the upper, rounded portion of the uterus, not the lower connecting structure; the fallopian tube connects the ovary to the upper uterus, not the lower uterus-to-vagina connection; fimbriae are finger-like projections at the end of the fallopian tube near the ovary, unrelated to the uterus-vagina connection.",
+      "concept_recap": "The cervix undergoes significant dilation during childbirth to allow passage of the baby from the uterus through the birth canal."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-024",
+    "question": "Which of the following describes the vagina's primary functions within the female reproductive system?",
+    "options": [
+      "Producing eggs and secreting estrogen",
+      "Serving as the site of sperm deposition during intercourse and as the birth canal during childbirth",
+      "Providing the site of fertilisation",
+      "Providing the site of embryo implantation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The vagina serves as the site of sperm deposition during sexual intercourse and also functions as the birth canal, through which the baby passes during childbirth.",
+      "why_others_wrong": "Egg production and estrogen secretion are functions of the ovaries, not the vagina; fertilisation typically occurs in the fallopian tubes, not the vagina; embryo implantation occurs within the uterus, not the vagina.",
+      "concept_recap": "The vagina's muscular, elastic walls allow it to accommodate both sperm deposition and, later, the passage of a baby during childbirth."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-025",
+    "question": "Which of the following best describes 'oogenesis,' the process of egg cell formation?",
+    "options": [
+      "The process by which sperm cells are formed in the testis",
+      "The process by which diploid oogonia develop into haploid mature egg cells (ova), largely beginning before birth and completing at ovulation/fertilisation",
+      "A process that occurs exclusively within the fallopian tube",
+      "A process that produces four functional egg cells from each primary oocyte, similar to spermatogenesis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Oogenesis is the process by which diploid oogonia develop into haploid mature egg cells (ova); notably, this process largely begins before birth (with oocytes arrested at an early meiotic stage) and only completes around ovulation or following fertilisation.",
+      "why_others_wrong": "Sperm formation in the testis describes spermatogenesis, a different process from oogenesis; oogenesis occurs within the ovary (not the fallopian tube), which is the site of oocyte development and maturation; unlike spermatogenesis, oogenesis produces typically only ONE functional mature egg (along with non-functional polar bodies) from each primary oocyte, not four equal functional cells.",
+      "concept_recap": "This unequal division during oogenesis (one large egg cell plus small polar bodies) ensures the egg retains sufficient cytoplasm and nutrients to support early embryonic development if fertilised."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-026",
+    "question": "Which of the following best describes 'polar bodies,' produced during oogenesis?",
+    "options": [
+      "Additional functional egg cells identical to the main egg cell",
+      "Small, non-functional cells produced alongside the main egg cell during the unequal meiotic divisions of oogenesis, which eventually degenerate",
+      "A structure found only in sperm cells, never in the female reproductive system",
+      "Cells that always develop into a second, fully functional embryo"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Polar bodies are small, non-functional cells produced alongside the main developing egg cell during the unequal meiotic divisions of oogenesis; they receive minimal cytoplasm and eventually degenerate, having no further reproductive function.",
+      "why_others_wrong": "Polar bodies are specifically non-functional (not additional functional egg cells identical to the main egg), given their minimal cytoplasm and typical degeneration; polar bodies are specifically a female reproductive structure related to oogenesis, not found in the male sperm-production process; polar bodies do NOT develop into functional embryos -- they degenerate rather than developing further.",
+      "concept_recap": "The unequal cytoplasm distribution producing polar bodies (versus the main, larger egg cell) reflects an evolutionary strategy to concentrate maternal resources into a single viable egg cell."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-027",
+    "question": "The average human menstrual cycle length is approximately how many days?",
+    "options": [
+      "7 days",
+      "14 days",
+      "28 days",
+      "60 days"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The average human menstrual cycle length is approximately 28 days, though there is considerable normal variation among individuals.",
+      "why_others_wrong": "7 days significantly underestimates the typical average menstrual cycle length; 14 days approximates the time to ovulation within a typical cycle, but not the full average cycle length itself; 60 days significantly overestimates the typical average menstrual cycle length.",
+      "concept_recap": "This approximately 28-day cycle encompasses coordinated hormonal changes affecting both the ovaries (ovarian cycle) and the uterine lining (uterine/menstrual cycle)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-028",
+    "question": "Which of the following best describes 'menstruation,' as it relates to the menstrual cycle?",
+    "options": [
+      "The release of a mature egg from the ovary",
+      "The periodic shedding of the uterine lining (endometrium), along with some blood, occurring when fertilisation/implantation does not take place in a given cycle",
+      "The process of sperm production",
+      "The process of fertilisation occurring within the fallopian tube"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Menstruation is the periodic shedding of the uterine lining (endometrium), accompanied by some blood loss, which occurs when fertilisation and subsequent implantation do not take place during a given menstrual cycle.",
+      "why_others_wrong": "The release of a mature egg from the ovary describes ovulation, a distinct event from menstruation itself; sperm production describes spermatogenesis, an entirely separate male reproductive process, unrelated to menstruation; fertilisation occurring in the fallopian tube is a distinct process, and its ABSENCE (along with absent implantation) is actually what leads to menstruation occurring.",
+      "concept_recap": "The onset of menstrual bleeding is conventionally used to mark 'day 1' of a new menstrual cycle for tracking and hormonal reference purposes."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-029",
+    "question": "Which of the following best describes 'ovulation,' as a key event within the ovarian cycle?",
+    "options": [
+      "The shedding of the uterine lining",
+      "The release of a mature egg (secondary oocyte) from the ovary, typically occurring around the midpoint of a typical 28-day menstrual cycle",
+      "The process of implantation within the uterus",
+      "The production of testosterone"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ovulation is the release of a mature egg (secondary oocyte) from the ovary, typically occurring around day 14 in a typical 28-day menstrual cycle, triggered by a surge in luteinizing hormone (LH).",
+      "why_others_wrong": "Shedding of the uterine lining describes menstruation, a distinct event occurring at a different point in the cycle; implantation is a distinct, later process (if fertilisation occurs), not ovulation itself; testosterone production is characteristic of male reproductive physiology (Leydig cells), unrelated to the female ovulation event.",
+      "concept_recap": "This mid-cycle LH surge triggering ovulation is a key hormonal event that various fertility tracking and awareness methods aim to identify."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-030",
+    "question": "Which of the following best describes the 'corpus luteum,' formed after ovulation?",
+    "options": [
+      "A structure that immediately degenerates with no hormonal function",
+      "A temporary endocrine structure formed from the ruptured ovarian follicle after ovulation, which secretes progesterone (and some estrogen) to help maintain the uterine lining",
+      "The structure that releases the egg during ovulation itself, rather than a post-ovulation structure",
+      "A structure found only in males, related to testosterone production"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The corpus luteum is a temporary endocrine structure that forms from the ruptured ovarian follicle after ovulation; it secretes progesterone (along with some estrogen), which helps maintain the thickened uterine lining in preparation for potential pregnancy.",
+      "why_others_wrong": "The corpus luteum has a very significant, well-established hormonal function (progesterone/estrogen secretion), contrary to immediately degenerating with no function; the corpus luteum forms AFTER ovulation, from the remnant follicle, rather than being the structure that itself releases the egg during ovulation; the corpus luteum is specifically a female ovarian structure, unrelated to male testosterone-producing structures.",
+      "concept_recap": "If pregnancy occurs, the corpus luteum is maintained (initially supported by hCG from the developing embryo) to continue providing progesterone support until the placenta takes over this hormonal role."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-031",
+    "question": "If fertilisation and implantation do NOT occur in a given cycle, what happens to the corpus luteum?",
+    "options": [
+      "It persists indefinitely, continuing progesterone secretion at a constant level forever",
+      "It degenerates (regresses) after a certain period, leading to a drop in progesterone levels, which triggers the onset of menstruation",
+      "It immediately transforms into a new egg cell",
+      "It has no relationship to the onset of menstruation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "If fertilisation and implantation do not occur, the corpus luteum degenerates (regresses) after a certain period; this leads to a significant drop in progesterone (and estrogen) levels, which removes hormonal support for the uterine lining, triggering the onset of menstruation.",
+      "why_others_wrong": "The corpus luteum does NOT persist indefinitely in the absence of pregnancy -- it specifically regresses under these conditions; the corpus luteum does not transform into a new egg cell -- it is an endocrine structure formed from the ruptured follicle, not an egg-producing structure itself; the corpus luteum's regression (and resulting hormone drop) has a very direct, causal relationship to triggering menstruation, contrary to having no relationship.",
+      "concept_recap": "This hormonal drop following corpus luteum regression is the key trigger initiating the shedding of the uterine lining that characterises menstruation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-032",
+    "question": "Which of the following hormones shows a characteristic sharp surge at approximately the midpoint of the menstrual cycle, directly triggering ovulation?",
+    "options": [
+      "Follicle stimulating hormone (FSH), showing the most dramatic surge of any hormone",
+      "Luteinizing hormone (LH)",
+      "Progesterone, surging before ovulation",
+      "Prolactin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Luteinizing hormone (LH) shows a characteristic sharp surge at approximately the midpoint of the menstrual cycle, directly triggering the rupture of the mature follicle and release of the egg (ovulation).",
+      "why_others_wrong": "While FSH does show some fluctuation, it is specifically the LH surge that is most directly and dramatically associated with triggering ovulation itself; progesterone levels rise significantly AFTER ovulation (from the corpus luteum), not as the pre-ovulatory triggering surge; prolactin's primary role concerns lactation regulation, not the mid-cycle ovulation-triggering surge.",
+      "concept_recap": "This LH surge is the hormonal basis for many ovulation predictor kits, which detect this specific hormone level increase to help identify the fertile window."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-033",
+    "question": "Which of the following best describes the role of estrogen during the follicular (proliferative) phase of the menstrual cycle?",
+    "options": [
+      "Estrogen has no role during this phase",
+      "Rising estrogen levels, secreted by the developing ovarian follicle, stimulate the proliferation (thickening) of the uterine endometrial lining",
+      "Estrogen levels are at their lowest point specifically during this phase, with no significant secretion",
+      "Estrogen's primary role during this phase is to trigger menstruation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "During the follicular (proliferative) phase, rising estrogen levels -- secreted by the developing ovarian follicle -- stimulate the proliferation and thickening of the uterine endometrial lining, preparing it for potential embryo implantation later in the cycle.",
+      "why_others_wrong": "Estrogen has a very significant, well-established role during this phase (stimulating endometrial proliferation), contrary to having no role; estrogen levels are actually RISING (not at their lowest) during the follicular phase, as the developing follicle actively secretes increasing amounts; estrogen's role during this phase is to build up (not trigger the shedding of) the endometrial lining -- menstruation is triggered by hormone WITHDRAWAL, not by estrogen action during this proliferative phase.",
+      "concept_recap": "This estrogen-driven endometrial proliferation represents the first major phase of uterine lining development within each menstrual cycle, followed later by progesterone-driven secretory changes."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-034",
+    "question": "Which of the following best describes the 'luteal (secretory) phase' of the menstrual cycle, occurring after ovulation?",
+    "options": [
+      "A phase characterised primarily by menstrual bleeding",
+      "A phase in which the corpus luteum secretes progesterone, promoting further development of the endometrium (making it more secretory/receptive) in preparation for potential implantation",
+      "A phase in which the ovarian follicle is actively developing prior to ovulation",
+      "A phase with no hormonal activity of any kind"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "During the luteal (secretory) phase, following ovulation, the corpus luteum secretes progesterone, which promotes further development of the endometrium -- making it more glandular and secretory, optimising it for potential embryo implantation if fertilisation has occurred.",
+      "why_others_wrong": "Menstrual bleeding characterises a different phase (the menstrual phase, occurring if implantation does not happen, typically at the cycle's start/end), not this luteal/secretory phase itself; active follicle development leading up to ovulation describes the earlier follicular phase, not the luteal phase which occurs after ovulation; the luteal phase has very significant hormonal activity (particularly progesterone secretion from the corpus luteum), contrary to having none.",
+      "concept_recap": "This progesterone-driven secretory transformation of the endometrium during the luteal phase creates the optimal uterine environment needed to support a potential pregnancy."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-035",
+    "question": "Fertilisation, the fusion of sperm and egg, typically occurs within which part of the female reproductive tract?",
+    "options": [
+      "Vagina",
+      "Fallopian tube (usually the ampulla region)",
+      "Cervix",
+      "Uterus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Fertilisation typically occurs within the fallopian tube, usually in its wider ampulla region, where the sperm (having travelled from the vagina) meets and fuses with the released egg.",
+      "why_others_wrong": "The vagina is the site of sperm deposition, not typically the site of fertilisation itself; the cervix is a passage structure the sperm travel through, not the typical fertilisation site; the uterus is where the resulting embryo will later implant, but fertilisation itself typically occurs earlier, in the fallopian tube.",
+      "concept_recap": "This fertilisation location, followed by the embryo's subsequent journey toward the uterus for implantation, is an important sequence for understanding normal early pregnancy establishment (and potential complications like ectopic pregnancy if this sequence is disrupted)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-036",
+    "question": "Which of the following best describes the 'acrosome reaction,' occurring during fertilisation?",
+    "options": [
+      "The release of enzymes from the sperm's acrosome that help it penetrate the protective layers surrounding the egg",
+      "A process occurring within the egg cell only, with no sperm involvement",
+      "The final fusion of the resulting zygote's nucleus",
+      "A process that prevents any sperm from ever reaching the egg"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The acrosome reaction involves the release of enzymes from the sperm's acrosome (a cap-like structure on the sperm head), which help the sperm digest through and penetrate the protective layers surrounding the egg, an essential step for successful fertilisation.",
+      "why_others_wrong": "The acrosome reaction is specifically a SPERM-based process (release of sperm enzymes), not an egg-only process without sperm involvement; the acrosome reaction is an early step enabling sperm-egg contact/penetration, distinct from the later zygote nucleus fusion step; the acrosome reaction specifically FACILITATES (rather than prevents) sperm reaching and penetrating the egg.",
+      "concept_recap": "This enzymatic penetration process is a critical early step in the overall sequence of events leading to successful fertilisation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-037",
+    "question": "After fertilisation, the resulting diploid cell is called a:",
+    "options": [
+      "Blastocyst",
+      "Zygote",
+      "Morula",
+      "Gastrula"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The zygote is the diploid cell resulting immediately from the fusion of sperm and egg during fertilisation, representing the earliest stage of the new individual's development.",
+      "why_others_wrong": "A blastocyst is a later developmental stage, formed after several rounds of cell division, not the immediate product of fertilisation; a morula is also a later developmental stage (a solid ball of cells), occurring after the zygote undergoes initial cleavage divisions; a gastrula is an even later developmental stage involving tissue layer formation, well beyond the immediate zygote stage.",
+      "concept_recap": "The zygote begins undergoing rapid mitotic cell divisions (cleavage) as it travels from the fallopian tube toward the uterus for eventual implantation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-038",
+    "question": "Which of the following best describes the 'blastocyst,' a key early embryonic stage?",
+    "options": [
+      "The single-celled stage immediately following fertilisation",
+      "A hollow, fluid-filled ball of cells, differentiated into an outer layer (trophoblast) and an inner cell mass, which is the stage that typically implants into the uterine lining",
+      "A stage occurring only after birth",
+      "A stage identical in every respect to the earlier morula stage"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The blastocyst is a hollow, fluid-filled ball of cells that has differentiated into an outer layer (the trophoblast, which will contribute to the placenta) and an inner cell mass (which will develop into the embryo proper); this is the developmental stage that typically implants into the uterine lining.",
+      "why_others_wrong": "The single-celled stage immediately following fertilisation describes the zygote, an earlier stage than the blastocyst; the blastocyst is specifically a PRENATAL developmental stage, occurring well before birth, not after it; the blastocyst represents a further-differentiated stage COMPARED TO the earlier, solid morula stage, so the two are not identical.",
+      "concept_recap": "Successful blastocyst implantation into the uterine endometrium marks the true beginning of pregnancy, following the earlier stages of fertilisation and initial cell division."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-039",
+    "question": "Which of the following best describes 'implantation,' as a key early pregnancy event?",
+    "options": [
+      "The release of the egg from the ovary",
+      "The attachment and embedding of the blastocyst into the uterine endometrial lining, marking the true beginning of pregnancy",
+      "The process of sperm production",
+      "The process of menstruation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Implantation is the attachment and embedding of the blastocyst into the uterine endometrial lining, an essential early event that marks the true establishment of pregnancy.",
+      "why_others_wrong": "Release of the egg from the ovary describes ovulation, an earlier, distinct event from implantation; sperm production describes spermatogenesis, an entirely separate male reproductive process; menstruation is the shedding of the uterine lining when implantation does NOT occur, essentially the opposite outcome from successful implantation.",
+      "concept_recap": "Successful implantation typically occurs approximately 6-10 days after fertilisation, following the blastocyst's journey from the fallopian tube into the uterine cavity."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-040",
+    "question": "Which of the following hormones, produced by the developing embryo/trophoblast shortly after implantation, helps maintain the corpus luteum during early pregnancy?",
+    "options": [
+      "Follicle stimulating hormone (FSH)",
+      "Human chorionic gonadotropin (hCG)",
+      "Luteinizing hormone (LH)",
+      "Oxytocin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Human chorionic gonadotropin (hCG), produced by the developing embryo/trophoblast shortly after implantation, helps maintain the corpus luteum, ensuring continued progesterone secretion essential for supporting early pregnancy.",
+      "why_others_wrong": "FSH is a pituitary hormone regulating follicle development, not the embryo-derived hormone maintaining the corpus luteum during early pregnancy; LH is also a pituitary hormone, and while it initially supports the corpus luteum, it is specifically hCG (not LH) that takes over this maintenance role during early pregnancy after implantation; oxytocin's primary roles concern uterine contractions and milk ejection, not maintaining the early-pregnancy corpus luteum.",
+      "concept_recap": "hCG is the hormone specifically detected by most home pregnancy tests, since its presence in urine/blood is a reliable, specific marker of early pregnancy following implantation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-041",
+    "question": "Which of the following best describes the 'placenta,' a key structure developing during pregnancy?",
+    "options": [
+      "A structure with no role in nutrient or gas exchange between mother and foetus",
+      "A specialised structure that develops from both foetal (trophoblast-derived) and maternal tissue, facilitating the exchange of nutrients, gases, and waste products between mother and developing foetus, and also secreting important pregnancy hormones",
+      "A structure that forms only after childbirth",
+      "A structure identical in composition and function to the umbilical cord"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The placenta is a specialised structure, developing from both foetal (trophoblast-derived) and maternal tissue, that facilitates the exchange of nutrients, oxygen/carbon dioxide, and waste products between the mother's blood and the developing foetus's blood, while also secreting important pregnancy-supporting hormones like progesterone and estrogen.",
+      "why_others_wrong": "The placenta has a very significant, essential role in nutrient/gas exchange between mother and foetus, contrary to having no such role; the placenta develops and functions DURING pregnancy (not only forming after childbirth) -- it is actually delivered after the baby, at the end of labour, but functions throughout the pregnancy itself; the placenta and umbilical cord are related but distinct structures, with the umbilical cord specifically connecting the foetus to the placenta, not being identical to it.",
+      "concept_recap": "The placenta's dual role -- as both an exchange organ and an endocrine gland -- makes it a uniquely important structure supporting successful pregnancy."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-042",
+    "question": "Which of the following best describes the 'umbilical cord,' connecting the foetus to the placenta?",
+    "options": [
+      "A solid structure with no blood vessels",
+      "A flexible cord containing blood vessels that carry nutrients/oxygen from the placenta to the foetus and waste products/carbon dioxide from the foetus back to the placenta",
+      "A structure that directly connects the foetus's digestive tract to the mother's digestive tract",
+      "A structure that forms only after birth"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The umbilical cord is a flexible cord containing blood vessels (umbilical arteries and vein) that carry nutrients and oxygen from the placenta to the developing foetus, and carry waste products and carbon dioxide from the foetus back to the placenta for elimination via the mother's circulation.",
+      "why_others_wrong": "The umbilical cord specifically DOES contain blood vessels, essential for its nutrient/gas transport function, contrary to being a solid structure without them; the umbilical cord facilitates blood-based exchange via the placenta, not a direct digestive tract connection between mother and foetus; the umbilical cord develops and functions DURING pregnancy (connecting foetus to placenta throughout gestation), not only forming after birth.",
+      "concept_recap": "The umbilical cord is typically clamped and cut shortly after birth, since the newborn no longer requires this placental connection once independent breathing and circulation are established."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-043",
+    "question": "Which of the following best describes 'parturition,' as it relates to the end of pregnancy?",
+    "options": [
+      "The process of fertilisation",
+      "The process of childbirth, involving a series of coordinated uterine contractions that result in the delivery of the baby",
+      "The process of implantation",
+      "The process of egg release from the ovary"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Parturition refers to the process of childbirth, involving a series of coordinated, increasingly strong uterine contractions that ultimately result in the delivery of the baby, followed by delivery of the placenta.",
+      "why_others_wrong": "Fertilisation is an early pregnancy event (sperm-egg fusion), a distinct, much earlier process from parturition; implantation is also an early pregnancy event, distinct from the childbirth process of parturition; egg release from the ovary describes ovulation, an event preceding pregnancy altogether, distinct from parturition at pregnancy's end.",
+      "concept_recap": "Parturition is triggered by a complex combination of hormonal changes (including rising oxytocin and prostaglandins) and mechanical factors (like uterine stretching) as pregnancy reaches full term."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-044",
+    "question": "Which hormone plays a key role in triggering and strengthening uterine contractions during parturition (childbirth)?",
+    "options": [
+      "Estrogen exclusively, with no role for other hormones",
+      "Oxytocin",
+      "Follicle stimulating hormone (FSH)",
+      "Testosterone"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Oxytocin, released from the posterior pituitary, plays a key role in triggering and progressively strengthening uterine contractions during parturition, working through a positive feedback mechanism as labour progresses.",
+      "why_others_wrong": "While estrogen levels do change during late pregnancy and contribute to preparing the uterus, it is specifically oxytocin that plays the more direct, well-known contraction-triggering/strengthening role during labour itself; FSH's primary role concerns follicle development/spermatogenesis regulation, unrelated to labour contractions; testosterone is primarily a male sex hormone, unrelated to triggering labour contractions in this context.",
+      "concept_recap": "This oxytocin-driven positive feedback loop (contractions stimulating more oxytocin release, further intensifying contractions) is a classic physiological example of positive feedback regulation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-045",
+    "question": "Which of the following best describes 'lactation,' as it relates to the postpartum (after childbirth) period?",
+    "options": [
+      "The process of childbirth itself",
+      "The production and secretion of milk by the mammary glands, to nourish the newborn infant",
+      "The process of fertilisation",
+      "The process of implantation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Lactation refers to the production and secretion of milk by the mammary glands following childbirth, providing essential nourishment (and passive immunity via antibodies) to the newborn infant.",
+      "why_others_wrong": "Childbirth itself describes parturition, a distinct process preceding lactation; fertilisation is an early pregnancy event, entirely distinct from postpartum lactation; implantation is also an early pregnancy event, distinct from the postpartum lactation process.",
+      "concept_recap": "The hormone prolactin, along with oxytocin (triggering milk ejection), plays key roles in establishing and maintaining lactation after childbirth."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-046",
+    "question": "Which hormone primarily stimulates milk production by the mammary glands during lactation?",
+    "options": [
+      "Oxytocin",
+      "Prolactin",
+      "Follicle stimulating hormone (FSH)",
+      "Luteinizing hormone (LH)"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Prolactin, secreted by the anterior pituitary, is the primary hormone stimulating milk production (synthesis) by the mammary glands during lactation.",
+      "why_others_wrong": "Oxytocin primarily triggers milk EJECTION (the 'let-down' reflex, releasing already-produced milk), a related but distinct action from prolactin's role in stimulating milk PRODUCTION itself; FSH's primary role concerns follicle development/spermatogenesis regulation, unrelated to milk production; LH's primary role concerns ovulation triggering/testosterone stimulation, unrelated to milk production.",
+      "concept_recap": "Prolactin (production) and oxytocin (ejection) work together as a coordinated hormonal pair supporting the overall process of successful breastfeeding."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-047",
+    "question": "Which of the following best describes 'colostrum,' the first milk produced after childbirth?",
+    "options": [
+      "A form of milk identical in composition to later, mature breast milk",
+      "An early, antibody-rich form of milk that provides important passive immunity to the newborn infant",
+      "A substance with no nutritional or immunological value",
+      "A substance produced only in animals, never in humans"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Colostrum is the early, antibody-rich form of milk produced in the first few days after childbirth, providing important passive immunity (via transferred maternal antibodies) to help protect the newborn infant during this vulnerable early period.",
+      "why_others_wrong": "Colostrum has a distinctly different composition (notably higher antibody content) compared to later, more mature breast milk, so the two are not identical; colostrum has very significant nutritional AND immunological value (particularly its antibody content), contrary to having no value; colostrum production is a normal part of human lactation as well as in other mammals, not being exclusive to non-human animals.",
+      "concept_recap": "This early passive immunity transfer via colostrum is an important reason breastfeeding (particularly in the initial days after birth) is often specifically encouraged for newborn health."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-048",
+    "question": "Which of the following best explains why menstruation ceases during pregnancy?",
+    "options": [
+      "Menstruation has no relationship to hormonal signals from the ovary/corpus luteum",
+      "The corpus luteum is maintained (initially via hCG from the embryo) throughout early pregnancy, continuing to secrete progesterone that maintains the endometrium, preventing the hormone withdrawal that would otherwise trigger menstrual shedding",
+      "The uterus is physically removed during pregnancy, preventing any shedding",
+      "Menstruation always continues normally throughout pregnancy, unaffected by any hormonal changes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "During pregnancy, hCG from the developing embryo maintains the corpus luteum (later the placenta takes over hormone production), ensuring continued progesterone secretion that maintains the endometrium and prevents the hormonal withdrawal that would otherwise trigger menstrual shedding.",
+      "why_others_wrong": "Menstruation has a very direct, well-established relationship to hormonal signals (particularly progesterone withdrawal), contrary to having none; the uterus is not removed during pregnancy -- it remains in place and expands to accommodate the growing foetus; menstruation specifically CEASES during pregnancy due to sustained progesterone support, contrary to continuing normally unaffected.",
+      "concept_recap": "This hormonal continuity, preventing endometrial shedding, is essential for maintaining the pregnancy and the embryo's continued attachment to the uterine wall."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-049",
+    "question": "Which of the following best explains the biological basis for home pregnancy tests, which detect a hormone in urine to confirm pregnancy?",
+    "options": [
+      "Home pregnancy tests detect estrogen exclusively, with no role for any other hormone",
+      "Home pregnancy tests detect human chorionic gonadotropin (hCG), a hormone produced by the developing embryo/trophoblast shortly after implantation, which is excreted in the mother's urine at detectable levels",
+      "Home pregnancy tests detect testosterone levels in urine",
+      "Home pregnancy tests have no actual scientific/hormonal basis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Home pregnancy tests detect human chorionic gonadotropin (hCG) in urine, a hormone specifically produced by the developing embryo/trophoblast shortly after implantation; since hCG is excreted in maternal urine at detectable levels relatively early in pregnancy, its presence provides a reliable, convenient basis for confirming pregnancy.",
+      "why_others_wrong": "It is specifically hCG (not estrogen) that is the hormone detected by standard home pregnancy tests; testosterone is a male-associated hormone not relevant to female pregnancy testing; home pregnancy tests have a very well-established, scientifically validated hormonal basis (hCG detection), contrary to having none.",
+      "concept_recap": "This hCG-detection principle underlies the reliability of most modern home pregnancy tests, which can often detect pregnancy even before a missed menstrual period."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-050",
+    "question": "Which of the following best describes why a woman's fertility naturally declines with advancing age, particularly after a certain point?",
+    "options": [
+      "Female fertility has no relationship to age",
+      "Since females are born with a finite, non-renewable supply of oocytes (unlike the continuously produced sperm in males), the quantity and quality of remaining oocytes decline with age, reducing fertility and eventually leading to menopause",
+      "Sperm production in males also completely ceases at the same age as female fertility decline, with identical patterns",
+      "Female fertility actually increases indefinitely with advancing age"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since females are born with a finite, non-renewable supply of oocytes (unlike males, who continuously produce new sperm throughout much of their lives), the quantity and quality of remaining oocytes naturally decline with advancing age, progressively reducing fertility and eventually culminating in menopause.",
+      "why_others_wrong": "Female fertility has a very well-established, direct relationship to age, given this fixed oocyte supply, contrary to having no relationship; male sperm production, while it can decline somewhat with age, generally continues at a much more gradual rate and does not follow the same finite, non-renewable pattern as female oocyte supply; female fertility characteristically DECLINES (not increases) with advancing age, particularly after a certain point, due to this fixed oocyte supply consideration.",
+      "concept_recap": "This fundamental difference between the finite female oocyte supply and continuous male sperm production is a key biological distinction between male and female reproductive ageing patterns."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-051",
+    "question": "Which of the following best explains why identical (monozygotic) twins are genetically identical, while fraternal (dizygotic) twins are not?",
+    "options": [
+      "Identical twins result from a single fertilised zygote splitting into two separate embryos, while fraternal twins result from two separate eggs being fertilised by two separate sperm",
+      "Both identical and fraternal twins result from the exact same biological process, with no meaningful difference",
+      "Fraternal twins always share completely identical genetic material, just like identical twins",
+      "Identical twins result from two separate sperm fertilising two separate eggs"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Identical (monozygotic) twins result from a single fertilised zygote splitting into two separate embryos early in development, meaning they share identical genetic material; fraternal (dizygotic) twins result from two separate eggs being independently fertilised by two separate sperm, meaning they share genetic similarity comparable to typical siblings, not identical genetic material.",
+      "why_others_wrong": "Identical and fraternal twins result from meaningfully DIFFERENT biological processes (single zygote splitting vs. two separate fertilisation events), not the same process; fraternal twins, arising from two separate fertilisation events, do NOT share completely identical genetic material -- only identical twins do; it is specifically FRATERNAL (not identical) twins that result from two separate sperm fertilising two separate eggs.",
+      "concept_recap": "This distinction in origin explains why identical twins are always the same sex and highly similar in appearance, while fraternal twins can be of different sexes and show typical sibling-level genetic similarity."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-052",
+    "question": "Which of the following best describes the significance of the fact that oocytes remain arrested in an early stage of meiosis (prophase I) from before birth until much later, resuming meiosis only around ovulation?",
+    "options": [
+      "This arrest has no biological significance whatsoever",
+      "This prolonged arrest means that oocytes ovulated later in a woman's reproductive life have been 'held' in this state for many years, which some researchers propose may contribute to the increased risk of certain chromosomal abnormalities (like nondisjunction) associated with advanced maternal age",
+      "This arrest means oocytes are never actually completed, remaining permanently immature",
+      "This arrest pattern is identical to what occurs during spermatogenesis in males"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "This prolonged meiotic arrest (from before birth until ovulation, sometimes decades later) means that oocytes ovulated later in a woman's reproductive life have been 'held' in this suspended state for many years; some research suggests this extended arrest may contribute to the increased risk of certain chromosomal abnormalities (such as nondisjunction events) that are statistically associated with advanced maternal age.",
+      "why_others_wrong": "This prolonged arrest pattern has significant proposed biological/clinical significance (related to maternal age and chromosomal abnormality risk), contrary to having no significance; oocytes DO eventually resume and complete meiosis (around ovulation and fertilisation), rather than remaining permanently, entirely immature; spermatogenesis in males follows a different pattern, generally without this same extended, decades-long meiotic arrest characteristic of oogenesis, so the two are not identical in this respect.",
+      "concept_recap": "This unique aspect of oogenesis -- extremely prolonged meiotic arrest -- is a distinctive feature of female gametogenesis with proposed clinical relevance to reproductive ageing and chromosomal abnormality risk."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-053",
+    "question": "Which of the following describes the total number of chromosomes present in a normal human zygote immediately after fertilisation?",
+    "options": [
+      "23 chromosomes (haploid)",
+      "46 chromosomes (diploid), combining 23 from the sperm and 23 from the egg",
+      "92 chromosomes",
+      "Zero chromosomes, since the zygote has not yet developed any"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A normal human zygote contains 46 chromosomes (the diploid number), formed by combining the 23 chromosomes contributed by the haploid sperm with the 23 chromosomes contributed by the haploid egg.",
+      "why_others_wrong": "23 chromosomes describes the haploid number found in gametes (sperm or egg) individually, not the combined zygote; 92 chromosomes would represent an abnormal, doubled diploid number, not the normal zygote chromosome count; the zygote does have chromosomes immediately upon formation (46, combined from both gametes), not zero.",
+      "concept_recap": "This restoration of the diploid chromosome number at fertilisation (from the haploid gametes) is essential for maintaining the species-typical chromosome number across generations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-054",
+    "question": "The typical duration of human pregnancy (gestation period), from fertilisation to birth, is approximately:",
+    "options": [
+      "1 month",
+      "3 months",
+      "9 months (about 38-40 weeks)",
+      "18 months"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The typical human gestation period is approximately 9 months, or about 38-40 weeks, measured from fertilisation (or conventionally from the last menstrual period) to birth.",
+      "why_others_wrong": "1 month and 3 months significantly underestimate the typical duration of human pregnancy; 18 months significantly overestimates the typical duration of human pregnancy.",
+      "concept_recap": "This approximately 9-month gestation period allows sufficient time for the complex processes of organogenesis and foetal growth/maturation required before a baby can survive outside the womb."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-055",
+    "question": "Which of the following best describes the 'first trimester' of human pregnancy?",
+    "options": [
+      "The final three months of pregnancy, just before birth",
+      "The first three months of pregnancy, during which most major organ systems begin to form (organogenesis)",
+      "A period occurring only after birth",
+      "A term with no standard medical definition"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The first trimester encompasses the first three months of pregnancy, a critical period during which most major organ systems begin to form (organogenesis), making the embryo particularly vulnerable to disruptions from teratogens during this time.",
+      "why_others_wrong": "The final three months before birth describes the third trimester, not the first; the first trimester is specifically a PRENATAL period, not something occurring after birth; the trimester system is a standard, widely used medical framework for dividing pregnancy into three roughly equal periods.",
+      "concept_recap": "This organogenesis-heavy first trimester is why healthcare providers often emphasise particular caution regarding certain medications, substances, and exposures during this specific early period of pregnancy."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-056",
+    "question": "Which of the following best distinguishes the terms 'embryo' and 'foetus,' as used to describe different stages of prenatal human development?",
+    "options": [
+      "The terms are completely interchangeable, with no distinction in meaning",
+      "'Embryo' generally refers to the developing human from fertilisation through about the end of the 8th week, while 'foetus' refers to the stage from approximately the 9th week until birth",
+      "'Foetus' refers only to the stage immediately after fertilisation, while 'embryo' refers to the later stage before birth",
+      "Neither term has any standard, accepted medical definition"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "'Embryo' generally refers to the developing human organism from fertilisation through approximately the end of the 8th week of development (a period of major organ formation), while 'foetus' refers to the subsequent stage, from approximately the 9th week of development until birth (a period more focused on growth and maturation of already-formed structures).",
+      "why_others_wrong": "While sometimes used loosely in casual conversation, these terms do have specific, standard technical distinctions in developmental/medical contexts, so they are not fully interchangeable; the terms are used in the REVERSE order from what's stated here -- 'embryo' describes the earlier stage, 'foetus' the later stage, not vice versa; both terms do have standard, widely accepted medical/developmental definitions.",
+      "concept_recap": "This embryo-to-foetus terminology shift around 8-9 weeks reflects the transition from the period of major organ formation to the subsequent period of growth and refinement of those already-established structures."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-057",
+    "question": "Which of the following best describes 'amniotic fluid,' surrounding the developing foetus within the amniotic sac?",
+    "options": [
+      "A solid structure with no fluid component",
+      "A fluid that cushions and protects the developing foetus, allows for foetal movement, and helps maintain a stable temperature",
+      "A substance with no protective function for the foetus",
+      "A fluid found only outside the amniotic sac, not within it"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Amniotic fluid is the fluid contained within the amniotic sac, surrounding the developing foetus; it cushions and protects the foetus from external pressure/impact, allows room for foetal movement (important for musculoskeletal development), and helps maintain a stable temperature.",
+      "why_others_wrong": "Amniotic fluid is specifically a FLUID (not a solid structure), consistent with its name; amniotic fluid has very significant protective functions for the foetus (cushioning, temperature regulation), contrary to having none; amniotic fluid is specifically found WITHIN the amniotic sac, surrounding the foetus, not outside of it.",
+      "concept_recap": "Amniotic fluid volume and composition can sometimes be assessed clinically (e.g., via amniocentesis) to gather important information about foetal health and development."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-058",
+    "question": "Which of the following best describes the process of 'organogenesis' during prenatal development?",
+    "options": [
+      "The process of egg cell formation",
+      "The process during early development (mainly the embryonic period) in which the basic structures of major organs and organ systems begin to form",
+      "The process of milk production during lactation",
+      "A process that occurs only after birth"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Organogenesis refers to the process, occurring mainly during the embryonic period (first trimester) of prenatal development, in which the basic structures of major organs and organ systems begin to form from the initially undifferentiated cells of the early embryo.",
+      "why_others_wrong": "Egg cell formation describes oogenesis, an entirely different, earlier process (occurring before fertilisation), not organogenesis; milk production during lactation is a distinct postpartum process, unrelated to prenatal organogenesis; organogenesis is specifically a PRENATAL process (occurring during embryonic development), not something occurring only after birth.",
+      "concept_recap": "This critical organogenesis period is why the first trimester is considered particularly sensitive to potential disruptions that could affect proper organ formation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-059",
+    "question": "Which of the following best describes why the placenta is sometimes referred to as a 'temporary endocrine gland' during pregnancy?",
+    "options": [
+      "The placenta has no hormone-secreting function whatsoever",
+      "In addition to its nutrient/gas exchange function, the placenta secretes important hormones (such as hCG, estrogen, and progesterone) that support and maintain pregnancy",
+      "The placenta is a permanent structure that remains in the body indefinitely after pregnancy",
+      "The placenta's only function is hormone secretion, with no role in nutrient/gas exchange"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "In addition to its well-known role in nutrient and gas exchange between mother and foetus, the placenta also secretes important hormones -- including hCG (especially early in pregnancy), estrogen, and progesterone -- that help support and maintain the pregnancy, functioning much like a temporary endocrine gland.",
+      "why_others_wrong": "The placenta has a very significant, well-established hormone-secreting function, contrary to having none; the placenta is specifically a TEMPORARY structure, delivered after childbirth rather than remaining in the body indefinitely; the placenta serves BOTH the exchange function AND the hormone-secreting function together, not being limited to only one of these roles.",
+      "concept_recap": "This dual role -- exchange organ and endocrine gland -- makes the placenta a remarkably multifunctional structure unique to the process of pregnancy."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-060",
+    "question": "Which of the following best describes why exposure to certain substances (teratogens), such as alcohol or specific medications, during pregnancy can cause serious developmental abnormalities in the foetus?",
+    "options": [
+      "Teratogens have no ability to cross from maternal to foetal circulation",
+      "Certain substances (teratogens) can cross the placental barrier from maternal to foetal circulation and interfere with normal developmental processes, particularly during sensitive periods like organogenesis in the first trimester",
+      "The placenta provides complete, absolute protection against all substances, with nothing ever able to cross to the foetus",
+      "Teratogen exposure only matters after birth, with no prenatal relevance"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Certain substances, known as teratogens, can cross the placental barrier from maternal to foetal circulation and interfere with normal developmental processes; this is particularly concerning during sensitive periods like organogenesis in the first trimester, when disruption can cause serious, sometimes permanent developmental abnormalities.",
+      "why_others_wrong": "Teratogens specifically CAN cross from maternal to foetal circulation (this crossing ability is precisely why they pose a risk), contrary to having no such ability; the placenta, despite providing some selective filtering, does NOT provide complete, absolute protection against all substances -- certain harmful substances can cross it; teratogen exposure has very significant PRENATAL relevance (affecting foetal development directly), not being limited to only postnatal relevance.",
+      "concept_recap": "This principle underlies medical guidance around avoiding known teratogens (such as certain medications, alcohol, and specific chemical exposures) during pregnancy, particularly during the especially sensitive first trimester."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-061",
+    "question": "Which of the following best describes 'puberty,' as a developmental stage relevant to human reproduction?",
+    "options": [
+      "A stage occurring immediately after birth, with no relationship to reproductive maturity",
+      "The developmental period during which an individual's reproductive organs mature and secondary sexual characteristics develop, marking the attainment of reproductive capability",
+      "A stage that only occurs in females, never in males",
+      "A term with no established biological definition"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Puberty is the developmental period during which an individual's reproductive organs mature and secondary sexual characteristics develop (such as breast development in females or facial hair growth in males), marking the attainment of reproductive capability.",
+      "why_others_wrong": "Puberty occurs later in childhood/adolescence, not immediately after birth, and has a very direct relationship to reproductive maturity; puberty occurs in BOTH males and females (though with somewhat different specific changes), not being limited to females alone; puberty has a well-established, standard biological/medical definition relating to reproductive maturation.",
+      "concept_recap": "The onset and progression of puberty is regulated by a cascade of hormonal changes, ultimately involving the hypothalamus, pituitary, and gonads (the HPG axis)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-062",
+    "question": "Which of the following is an example of a 'secondary sexual characteristic' that typically develops in males during puberty?",
+    "options": [
+      "Presence of testes",
+      "Deepening of the voice and growth of facial hair",
+      "Presence of the vas deferens",
+      "Presence of the prostate gland"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Deepening of the voice and growth of facial hair are classic secondary sexual characteristics that typically develop in males during puberty, driven by increased testosterone secretion.",
+      "why_others_wrong": "The testes are primary reproductive organs (present from before birth, though they mature further at puberty), not themselves classified as a 'secondary' sexual characteristic in this specific sense; the vas deferens is also a primary reproductive structure, present before puberty, not a secondary characteristic itself; the prostate gland is likewise a primary reproductive structure, not classified as a secondary sexual characteristic.",
+      "concept_recap": "These secondary sexual characteristics develop under the influence of testosterone and other hormones during puberty, distinct from the primary reproductive organs that are already present (though immature) from earlier development."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-063",
+    "question": "Which of the following is an example of a 'secondary sexual characteristic' that typically develops in females during puberty?",
+    "options": [
+      "Presence of ovaries",
+      "Development of breasts and widening of the hips",
+      "Presence of the uterus",
+      "Presence of the fallopian tubes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Development of breasts and widening of the hips are classic secondary sexual characteristics that typically develop in females during puberty, driven by increased estrogen secretion.",
+      "why_others_wrong": "The ovaries are primary reproductive organs (present from before birth, maturing further at puberty), not themselves a 'secondary' sexual characteristic; the uterus is also a primary reproductive structure, present before puberty; the fallopian tubes are likewise primary reproductive structures, not secondary sexual characteristics.",
+      "concept_recap": "These secondary sexual characteristics develop under estrogen's influence during puberty, distinct from the primary reproductive organs already present (though immature) from earlier development."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-064",
+    "question": "Which of the following best describes 'menarche,' as a specific milestone in female reproductive development?",
+    "options": [
+      "The permanent cessation of menstrual cycles, marking the end of reproductive capability",
+      "The first occurrence of menstruation, typically marking the onset of a female's reproductive capability during puberty",
+      "The process of ovulation occurring for the first time, entirely separate from menstruation",
+      "A term describing male puberty onset"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Menarche refers to the first occurrence of menstruation in a female, typically marking the onset of reproductive capability during puberty, as the hypothalamus-pituitary-ovarian axis becomes sufficiently mature to support cyclical menstrual function.",
+      "why_others_wrong": "Permanent cessation of menstrual cycles describes menopause, a much later, essentially opposite milestone from menarche; while ovulation and menstruation are related, menarche specifically refers to the first MENSTRUATION event, not simply an isolated first ovulation entirely separate from this; menarche is specifically a FEMALE reproductive milestone term, not describing male puberty onset.",
+      "concept_recap": "The timing of menarche can vary somewhat between individuals, influenced by factors including genetics, nutrition, and overall health."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-065",
+    "question": "Which of the following best describes 'menopause,' as a later milestone in female reproductive life?",
+    "options": [
+      "The first occurrence of menstruation",
+      "The permanent cessation of menstrual cycles, typically occurring around a woman's late 40s to early 50s, marking the natural end of reproductive capability",
+      "A term describing a specific point during pregnancy",
+      "A milestone that occurs in males, not females"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Menopause refers to the permanent cessation of menstrual cycles, typically occurring around a woman's late 40s to early 50s, marking the natural end of her reproductive capability as ovarian function (and the associated hormone production) significantly declines.",
+      "why_others_wrong": "The first occurrence of menstruation describes menarche, an earlier, essentially opposite milestone from menopause; menopause is unrelated to a specific point during pregnancy -- it is specifically about the cessation of the broader cyclical reproductive pattern, not a pregnancy-specific event; menopause is specifically a FEMALE reproductive milestone, not something occurring in males (though males do experience some age-related reproductive hormone changes, this specific term/pattern is female-specific).",
+      "concept_recap": "The hormonal changes associated with menopause (particularly declining estrogen) can be associated with various physiological changes and symptoms, an active area of both clinical and biological research."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-066",
+    "question": "Which of the following best explains why sperm, despite being produced continuously in large numbers throughout a male's reproductive life, must undergo a maturation process in the epididymis before becoming capable of fertilising an egg?",
+    "options": [
+      "Sperm are immediately, fully capable of fertilisation the moment they are produced in the seminiferous tubules, with no further maturation needed",
+      "Newly formed sperm from the seminiferous tubules generally lack full motility and fertilising capability; the maturation process during their passage through and storage in the epididymis is necessary to acquire these essential functional capabilities",
+      "The epididymis has no relationship to sperm functional maturation",
+      "Sperm maturation in the epididymis has no bearing on male fertility"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Newly formed sperm, as they leave the seminiferous tubules, generally lack full motility and the complete fertilising capability needed to successfully fertilise an egg; the maturation process occurring during their passage through and storage within the epididymis is necessary for sperm to acquire these essential functional capabilities before ejaculation.",
+      "why_others_wrong": "Sperm are NOT immediately, fully capable of fertilisation right upon production -- this crucial maturation step in the epididymis is specifically required first; the epididymis has a very significant, well-established relationship to sperm functional maturation, contrary to having none; sperm maturation in the epididymis has very direct bearing on male fertility, since improperly matured sperm would have reduced fertilising capability.",
+      "concept_recap": "This epididymal maturation requirement illustrates that sperm production (spermatogenesis) alone is insufficient for fertility -- functional maturation is an equally essential subsequent step."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-067",
+    "question": "Which of the following best describes the significance of the 'blood-testis barrier,' formed by tight junctions between Sertoli cells?",
+    "options": [
+      "This barrier has no functional significance for spermatogenesis",
+      "This barrier helps create a specialised, protected microenvironment within the seminiferous tubules, isolating developing sperm cells (which display unique surface antigens as they mature) from the immune system, helping prevent an autoimmune response against these cells",
+      "This barrier completely prevents any nutrient exchange to developing sperm cells",
+      "This barrier is found in the female reproductive system, related to the placenta"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "The blood-testis barrier, formed by tight junctions between adjacent Sertoli cells, creates a specialised, protected microenvironment within the seminiferous tubules; this isolates developing sperm cells -- which display unique surface antigens as they mature that the immune system might otherwise recognise as foreign -- helping to prevent a potentially damaging autoimmune response against the body's own developing sperm cells.",
+      "why_others_wrong": "This barrier has very significant functional significance (immune protection for developing sperm), contrary to having none; the barrier is selectively permeable, allowing necessary nutrient/signal exchange to support developing sperm cells, rather than completely blocking all exchange; the blood-testis barrier is specifically a MALE reproductive structure (within the testis), not related to the female placenta.",
+      "concept_recap": "This immune-protective function of the blood-testis barrier is an important, sometimes overlooked aspect of normal testicular physiology, related to why the immune system does not normally attack developing sperm cells despite their appearance relatively late in an individual's own development (after immune self-tolerance has already been established)."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-068",
+    "question": "Which of the following best explains why an intrauterine device (IUD), a form of contraception, is generally effective at preventing pregnancy?",
+    "options": [
+      "IUDs work by completely blocking ovulation in all cases, with no other mechanism involved",
+      "IUDs generally work through mechanisms that may include altering the uterine environment to prevent successful implantation and/or affecting sperm motility/function, thereby reducing the likelihood of pregnancy",
+      "IUDs have no established mechanism of action and are not scientifically validated",
+      "IUDs work by directly destroying all sperm and eggs before they can even be produced"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "IUDs generally work through mechanisms that may include creating an altered uterine environment unfavourable for successful implantation and/or affecting sperm motility or function (particularly relevant for copper IUDs), thereby reducing the overall likelihood of pregnancy, though the exact balance of mechanisms can vary by IUD type.",
+      "why_others_wrong": "While some hormonal IUDs can have effects related to ovulation, this is not the universal or sole mechanism for all IUD types -- other mechanisms (implantation prevention, sperm effects) are also significant; IUDs are a well-established, scientifically validated contraceptive method with documented mechanisms of action, contrary to lacking any validated basis; IUDs do not work by destroying sperm/egg PRODUCTION itself -- their mechanisms operate at the level of the uterine environment and/or sperm function, not preventing gamete production.",
+      "concept_recap": "Different types of IUDs (copper-based versus hormone-releasing) may have somewhat different specific mechanisms and relative emphases, though both aim to prevent pregnancy through this general category of uterine/sperm-related effects."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-069",
+    "question": "Which of the following is an example of a 'barrier method' of contraception?",
+    "options": [
+      "Oral contraceptive pills",
+      "Condoms",
+      "Intrauterine devices (IUDs)",
+      "Surgical sterilisation (tubectomy/vasectomy)"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Condoms are a classic example of a barrier method of contraception, physically preventing sperm from reaching the egg by creating a physical barrier during intercourse.",
+      "why_others_wrong": "Oral contraceptive pills work through hormonal mechanisms (typically preventing ovulation), not as a physical barrier; IUDs work through uterine/sperm-function mechanisms, not primarily as an external physical barrier during intercourse; surgical sterilisation works by permanently blocking/severing reproductive ducts, a different mechanism from a barrier method.",
+      "concept_recap": "Barrier methods like condoms also provide the additional benefit of helping reduce transmission of sexually transmitted infections, unlike most hormonal contraceptive methods."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-070",
+    "question": "Which of the following best describes how combined oral contraceptive pills typically prevent pregnancy?",
+    "options": [
+      "By physically blocking sperm from entering the uterus",
+      "By providing synthetic hormones (estrogen and progesterone) that suppress the normal FSH/LH surge, thereby preventing ovulation",
+      "By permanently damaging the ovaries",
+      "By killing sperm cells directly upon contact"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Combined oral contraceptive pills typically work by providing synthetic hormones (estrogen and progesterone) that suppress the body's natural FSH and LH signalling, particularly preventing the LH surge required to trigger ovulation, thereby preventing pregnancy.",
+      "why_others_wrong": "Physically blocking sperm describes a barrier method (like condoms), not the hormonal mechanism of oral contraceptive pills; oral contraceptives do not permanently damage the ovaries -- their hormonal effects are generally reversible upon discontinuation; oral contraceptives work through hormonal suppression of ovulation, not by directly killing sperm cells (that would describe a spermicide, a different contraceptive method).",
+      "concept_recap": "This ovulation-suppressing mechanism is why consistent, correct use of oral contraceptives is generally highly effective at preventing pregnancy."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-071",
+    "question": "Which of the following best describes 'tubectomy,' as a surgical method of female sterilisation?",
+    "options": [
+      "A procedure that removes the uterus entirely",
+      "A surgical procedure that cuts, ties, or blocks the fallopian tubes, preventing the egg from meeting sperm and preventing sperm from reaching the egg",
+      "A procedure performed exclusively on males",
+      "A temporary, easily reversible contraceptive method"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Tubectomy is a surgical procedure that cuts, ties, or blocks the fallopian tubes, preventing the egg from travelling to meet sperm (and preventing sperm from travelling up to reach the egg), thereby providing a generally permanent form of female contraception.",
+      "why_others_wrong": "Removing the uterus entirely describes a hysterectomy, a different, more extensive procedure, not tubectomy specifically; tubectomy is specifically a FEMALE sterilisation procedure (involving the fallopian tubes), not performed on males; tubectomy is generally intended as a PERMANENT contraceptive method, not an easily reversible one.",
+      "concept_recap": "The male equivalent procedure, vasectomy, similarly blocks the vas deferens to achieve permanent male sterilisation through an analogous but anatomically distinct approach."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-072",
+    "question": "Which of the following best describes 'vasectomy,' as a surgical method of male sterilisation?",
+    "options": [
+      "A surgical procedure that removes the testes entirely",
+      "A surgical procedure that cuts or blocks the vas deferens, preventing sperm from being included in ejaculated semen",
+      "A procedure performed exclusively on females",
+      "A procedure that immediately stops all testosterone production"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Vasectomy is a surgical procedure that cuts or blocks the vas deferens, preventing sperm (still produced by the testes) from being included in the ejaculated semen, thereby providing a generally permanent form of male contraception.",
+      "why_others_wrong": "Removing the testes entirely describes orchiectomy/castration, a different, more extensive procedure, not vasectomy specifically; vasectomy is specifically a MALE sterilisation procedure (involving the vas deferens), not performed on females; vasectomy does not stop testosterone production -- testosterone continues to be produced by the testes (via Leydig cells) and enters the bloodstream normally; only sperm transport via the vas deferens is blocked.",
+      "concept_recap": "Since testosterone production and secretion into the bloodstream continue normally after vasectomy, male secondary sexual characteristics and general hormonal function are typically unaffected by this procedure."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-073",
+    "question": "Which of the following best describes why sexually transmitted infections (STIs) are of particular public health concern, beyond their immediate individual health effects?",
+    "options": [
+      "STIs have no relationship to reproductive health or fertility",
+      "Beyond their immediate symptoms, several STIs (if untreated) can lead to longer-term reproductive health complications, including infertility, and some can also be transmitted from mother to child during pregnancy/childbirth",
+      "STIs are exclusively a concern for male reproductive health, with no relevance to females",
+      "STIs cannot be prevented through any known method"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Beyond their immediate symptoms, several sexually transmitted infections (STIs), if left untreated, can lead to significant longer-term reproductive health complications, including infertility (e.g., due to scarring of reproductive structures), and some STIs can also be transmitted from an infected mother to her child during pregnancy or childbirth, adding further public health significance.",
+      "why_others_wrong": "STIs have a very significant, well-documented relationship to reproductive health and fertility (among other health effects), contrary to having none; STIs are a significant concern for BOTH male AND female reproductive health, not being exclusive to males; several effective prevention methods for STIs are well established, including barrier methods (like condoms) and, for some STIs, vaccination, contrary to there being no known prevention methods.",
+      "concept_recap": "This combination of long-term reproductive health risks and potential for mother-to-child transmission underlies why STI prevention, screening, and treatment remain significant public health priorities."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-074",
+    "question": "Which of the following best describes 'amniocentesis,' as a prenatal diagnostic procedure?",
+    "options": [
+      "A procedure performed exclusively after childbirth",
+      "A procedure involving the sampling of amniotic fluid during pregnancy, which can be analysed for certain foetal chromosomal or genetic conditions",
+      "A procedure with no diagnostic value whatsoever",
+      "A routine procedure required for every single pregnancy, regardless of risk factors"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Amniocentesis is a prenatal diagnostic procedure involving the sampling of amniotic fluid during pregnancy, which contains foetal cells that can be analysed to help detect certain foetal chromosomal abnormalities or genetic conditions.",
+      "why_others_wrong": "Amniocentesis is specifically performed DURING pregnancy (prenatally), not exclusively after childbirth; amniocentesis has significant, well-established diagnostic value for detecting certain prenatal conditions, contrary to having none; amniocentesis is typically offered based on specific risk factors or indications (such as advanced maternal age or family history), not required as a routine procedure for every single pregnancy regardless of such factors.",
+      "concept_recap": "This prenatal diagnostic information from amniocentesis can help inform parents and healthcare providers about certain foetal conditions, supporting informed decision-making during pregnancy."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-075",
+    "question": "Which of the following best describes the general principle behind assisted reproductive technologies (ART), such as in vitro fertilisation (IVF)?",
+    "options": [
+      "ART techniques have no relationship to addressing infertility",
+      "ART techniques, such as IVF, involve various medical/laboratory interventions (e.g., fertilising an egg with sperm outside the body, then transferring the resulting embryo into the uterus) to help individuals or couples facing infertility achieve pregnancy",
+      "ART techniques are purely theoretical and have never been successfully used in practice",
+      "ART techniques work by completely replacing all natural reproductive organs with artificial ones"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Assisted reproductive technologies (ART), such as in vitro fertilisation (IVF), involve various medical and laboratory interventions -- for example, fertilising an egg with sperm outside the body in a laboratory setting, then transferring the resulting embryo into the uterus -- to help individuals or couples facing infertility challenges achieve a successful pregnancy.",
+      "why_others_wrong": "ART techniques have a very direct, significant relationship to addressing infertility (indeed, that is their primary purpose), contrary to having none; ART techniques like IVF are well-established, extensively used, and successfully practised medical procedures, not merely theoretical and never used in practice; ART techniques generally work WITH a person's own (or donor) natural reproductive cells/organs through specific interventions, not by completely replacing all reproductive organs with artificial ones.",
+      "concept_recap": "IVF and related ART techniques have helped many individuals and couples facing various forms of infertility achieve successful pregnancies since their development."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-076",
+    "question": "Which of the following is the correct term for the male gamete (sex cell)?",
+    "options": [
+      "Ovum",
+      "Spermatozoon (sperm)",
+      "Zygote",
+      "Oogonium"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Spermatozoon (commonly called sperm) is the correct term for the male gamete, produced through spermatogenesis in the testis.",
+      "why_others_wrong": "Ovum is the term for the female gamete, not the male one; a zygote is the cell resulting from the fusion of male and female gametes, not a gamete itself; oogonium is an early female germ cell, not the male gamete term.",
+      "concept_recap": "Sperm are highly specialised, motile cells adapted specifically for the task of reaching and fertilising the much larger, non-motile egg."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-077",
+    "question": "Which of the following is the correct term for the female gamete (sex cell)?",
+    "options": [
+      "Spermatozoon",
+      "Ovum (egg)",
+      "Zygote",
+      "Spermatid"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Ovum (commonly called an egg) is the correct term for the female gamete, produced through oogenesis in the ovary.",
+      "why_others_wrong": "Spermatozoon is the term for the male gamete, not the female one; a zygote is the cell resulting from the fusion of male and female gametes, not a gamete itself; a spermatid is an intermediate stage in male sperm development, not the female gamete.",
+      "concept_recap": "The egg is considerably larger than the sperm, containing substantial cytoplasm and nutrient reserves to support the earliest stages of embryonic development if fertilisation occurs."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-078",
+    "question": "Which of the following best describes 'gametogenesis,' as a general term encompassing both spermatogenesis and oogenesis?",
+    "options": [
+      "A term applicable only to male gamete formation",
+      "The general process of gamete (sperm or egg) formation, occurring in the gonads (testes or ovaries)",
+      "A term applicable only to female gamete formation",
+      "A process unrelated to meiosis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Gametogenesis is the general term encompassing the process of gamete formation -- including both spermatogenesis (sperm formation in the testes) and oogenesis (egg formation in the ovaries) -- both occurring within the respective gonads.",
+      "why_others_wrong": "Gametogenesis is a general term covering BOTH male and female gamete formation, not being limited only to males; similarly, it is not limited only to females -- it encompasses both spermatogenesis and oogenesis; gametogenesis has a very direct, essential relationship to meiosis, since meiotic division is central to producing haploid gametes from diploid precursor cells.",
+      "concept_recap": "Understanding gametogenesis as this unifying umbrella term helps organise the specific, somewhat different details of spermatogenesis and oogenesis within a broader conceptual framework."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-079",
+    "question": "Which of the following correctly describes the ploidy (chromosome number status) of a spermatogonium, before it begins spermatogenesis?",
+    "options": [
+      "Haploid",
+      "Diploid",
+      "Triploid",
+      "Tetraploid"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A spermatogonium is diploid, containing the full, paired set of chromosomes characteristic of normal body (somatic) cells, before undergoing the meiotic divisions of spermatogenesis that will ultimately produce haploid sperm.",
+      "why_others_wrong": "Haploid describes the chromosome status of the final sperm cells (after meiosis), not the initial spermatogonium; triploid and tetraploid describe abnormal chromosome multiples not characteristic of normal spermatogonia.",
+      "concept_recap": "This diploid-to-haploid transition, achieved through meiosis during spermatogenesis, is essential for maintaining the correct chromosome number across generations following fertilisation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-080",
+    "question": "Which of the following correctly describes the ploidy (chromosome number status) of a mature, fertilisation-ready human egg cell (ovum)?",
+    "options": [
+      "Diploid",
+      "Haploid",
+      "Triploid",
+      "Tetraploid"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A mature human egg cell (ovum), ready for fertilisation, is haploid, containing half the normal chromosome number, having undergone the meiotic divisions of oogenesis.",
+      "why_others_wrong": "Diploid describes the chromosome status of the zygote (after fertilisation) or earlier oogonia/primary oocytes (before completing meiosis), not the final mature egg itself; triploid and tetraploid describe abnormal chromosome multiples not characteristic of a normal mature egg cell.",
+      "concept_recap": "This haploid egg, combined with the haploid sperm during fertilisation, restores the normal diploid chromosome number in the resulting zygote."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-081",
+    "question": "Which of the following best describes why the process of meiosis, occurring during both spermatogenesis and oogenesis, is essential for sexual reproduction?",
+    "options": [
+      "Meiosis has no relationship to maintaining a stable chromosome number across generations",
+      "Meiosis reduces the chromosome number by half (from diploid to haploid) in the gametes, so that when two gametes fuse during fertilisation, the resulting zygote has the normal, restored diploid chromosome number rather than having it double every generation",
+      "Meiosis is only relevant to asexual reproduction, not sexual reproduction",
+      "Meiosis increases the chromosome number in gametes compared to the original diploid cell"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Meiosis reduces the chromosome number by half (from diploid to haploid) during gamete formation; this is essential so that when two haploid gametes (sperm and egg) fuse during fertilisation, the resulting zygote has the normal, restored diploid chromosome number, rather than the chromosome number doubling uncontrollably with each successive generation.",
+      "why_others_wrong": "Meiosis has a very direct, essential relationship to maintaining a stable chromosome number across generations, contrary to having none; meiosis is specifically central to SEXUAL reproduction (gamete formation for fertilisation), not asexual reproduction, which typically does not involve this same meiotic gamete-forming process; meiosis specifically DECREASES (not increases) the chromosome number in gametes compared to the original diploid precursor cell.",
+      "concept_recap": "This chromosome-number-halving function of meiosis is one of the most fundamental principles connecting cell division mechanisms to the broader biology of sexual reproduction and genetic inheritance."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-082",
+    "question": "Which of the following best describes a 'Graafian follicle,' as it relates to the ovarian cycle?",
+    "options": [
+      "An immature, very early-stage follicle",
+      "A large, mature ovarian follicle, ready to release its egg during ovulation",
+      "A structure found only after menopause",
+      "A structure unrelated to egg development"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A Graafian follicle is a large, fully mature ovarian follicle, having developed through several earlier stages, that is ready to rupture and release its contained egg during ovulation.",
+      "why_others_wrong": "An immature, very early-stage follicle describes a primordial or primary follicle, an earlier developmental stage, not the mature Graafian follicle; Graafian follicles are specifically relevant during a woman's reproductive years (before menopause), not a post-menopausal structure; the Graafian follicle has a very direct, central relationship to egg development and release, contrary to being unrelated.",
+      "concept_recap": "The transition from smaller, earlier follicle stages to the mature Graafian follicle occurs under the influence of FSH and other hormonal signals during the follicular phase of the menstrual cycle."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-083",
+    "question": "Which of the following best describes 'infertility,' as it relates to human reproduction?",
+    "options": [
+      "The inability of a couple to conceive after a defined period (commonly one year) of regular, unprotected intercourse",
+      "A condition that always affects only the female partner, never the male partner",
+      "A condition with no established medical definition or diagnostic criteria",
+      "A permanent condition that can never be addressed through any medical intervention"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Infertility is generally defined as the inability of a couple to conceive after a defined period (commonly one year) of regular, unprotected intercourse, prompting further medical evaluation to identify potential underlying causes in either or both partners.",
+      "why_others_wrong": "Infertility can result from factors affecting the male partner, the female partner, or both, not being limited exclusively to the female partner; infertility has well-established medical definitions and diagnostic criteria, contrary to lacking any; various medical interventions and treatments (including ART techniques like IVF) are available to help address many causes of infertility, contrary to it never being addressable.",
+      "concept_recap": "Infertility evaluation typically involves assessing both partners, since contributing factors can arise from either the male or female reproductive system, or a combination of both."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-084",
+    "question": "Which of the following best describes a common cause of male infertility related to sperm quality?",
+    "options": [
+      "Overproduction of sperm, with no other associated abnormality",
+      "Low sperm count (oligospermia) or reduced sperm motility, both of which can impair the ability to successfully fertilise an egg",
+      "Male infertility is never related to any aspect of sperm quality",
+      "Excessive testosterone production, unrelated to sperm parameters"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Low sperm count (oligospermia) or reduced sperm motility are common sperm-quality-related factors contributing to male infertility, since both can significantly impair the sperm's ability to successfully reach and fertilise an egg.",
+      "why_others_wrong": "Simple sperm overproduction alone is not a recognised primary cause of male infertility in this context; male infertility is, in fact, very often related to specific aspects of sperm quality (count, motility, morphology), contrary to never being related to such factors; while hormonal factors can play a role in some infertility cases, this option's framing (excessive testosterone, unrelated to sperm parameters) does not describe the primary sperm-quality-related infertility factors being asked about.",
+      "concept_recap": "Semen analysis, assessing parameters like sperm count, motility, and morphology, is a standard diagnostic test used to evaluate potential male-factor infertility."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-085",
+    "question": "Which of the following best describes a common cause of female infertility related to the fallopian tubes?",
+    "options": [
+      "Fallopian tube blockage (e.g., due to infection or scarring), which can prevent the egg and sperm from meeting",
+      "Fallopian tubes have no relationship to fertility",
+      "Fallopian tube blockage always improves fertility outcomes",
+      "Fallopian tubes are only relevant to sperm transport, not egg transport"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Fallopian tube blockage -- which can result from factors such as prior infection or scarring (sometimes related to untreated STIs) -- is a recognised cause of female infertility, since blocked tubes can prevent the egg and sperm from meeting for successful fertilisation.",
+      "why_others_wrong": "Fallopian tubes have a very direct, essential relationship to fertility, given their central role in egg transport and typical fertilisation site, contrary to having none; fallopian tube blockage would be expected to IMPAIR (not improve) fertility outcomes, by preventing normal egg/sperm transport and meeting; fallopian tubes are specifically important for EGG transport (from ovary toward uterus) and serve as the typical fertilisation site, not being relevant only to sperm transport.",
+      "concept_recap": "This connection between tubal blockage (sometimes linked to untreated STIs) and infertility is another reason STI prevention and treatment carry significant implications for long-term reproductive health."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-086",
+    "question": "Which of the following best describes 'polycystic ovary syndrome (PCOS),' as a condition affecting female reproductive health?",
+    "options": [
+      "A condition with no relationship to hormonal balance or fertility",
+      "A hormonal disorder that can cause irregular menstrual cycles, multiple small cysts on the ovaries, and can be associated with reduced fertility",
+      "A condition found only in males",
+      "A condition that always guarantees complete infertility with no possibility of pregnancy"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Polycystic ovary syndrome (PCOS) is a hormonal disorder that can cause irregular menstrual cycles, the development of multiple small cysts on the ovaries, and is often associated with reduced fertility, among other potential health effects.",
+      "why_others_wrong": "PCOS has a very direct, significant relationship to hormonal balance and fertility, contrary to having none; PCOS is specifically a condition affecting FEMALE reproductive health (relating to the ovaries), not found in males; while PCOS can significantly affect fertility, it does not universally guarantee complete infertility with absolutely no possibility of pregnancy -- many affected individuals can still conceive, sometimes with appropriate management.",
+      "concept_recap": "PCOS remains an active area of medical research and management, given its relatively common occurrence and its varied hormonal, metabolic, and reproductive health implications."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-087",
+    "question": "Which of the following best summarises the overall significance of studying human reproduction within the broader context of biology and public health?",
+    "options": [
+      "Human reproduction has no practical relevance to broader health or societal considerations",
+      "Understanding human reproductive biology has significant practical applications, including informing contraceptive development, addressing infertility, managing pregnancy-related health, and shaping public health/education policies",
+      "Human reproduction is studied purely as an abstract, theoretical topic with no real-world applications",
+      "Only specialists in obstetrics need any understanding of human reproductive biology"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Understanding human reproductive biology has significant, wide-ranging practical applications -- including informing contraceptive development, addressing various causes of infertility, effectively managing pregnancy-related health, and shaping broader public health and reproductive education policies and programs.",
+      "why_others_wrong": "Human reproduction has very significant practical relevance to broader health and societal considerations, contrary to having none; the study of human reproduction has extensive real-world applications (as described), not being purely abstract/theoretical; a basic understanding of human reproductive biology is broadly relevant and valuable across many fields and for the general public, not being useful only to specialists in obstetrics.",
+      "concept_recap": "This broad relevance -- spanning individual health, family planning, and public health policy -- underlies why human reproduction remains a core, extensively studied topic within biology education."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-088",
+    "question": "Which of the following best describes 'menarche,' as it relates to female reproductive development?",
+    "options": [
+      "The final menstrual period a woman experiences, marking the end of reproductive capability",
+      "The first menstrual period a girl experiences, marking the onset of reproductive capability at puberty",
+      "A term synonymous with menopause",
+      "A process occurring only in males"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Menarche refers to the first menstrual period a girl experiences, marking the onset of reproductive capability (the beginning of regular menstrual cycles) at puberty.",
+      "why_others_wrong": "The final menstrual period, marking the end of reproductive capability, describes menopause, not menarche; menarche (onset) and menopause (cessation) are essentially opposite events in the reproductive lifespan, not being synonymous; menarche is specifically a female reproductive milestone, unrelated to male reproductive development.",
+      "concept_recap": "The timing of menarche can vary among individuals but is generally used as a marker of the onset of female reproductive maturity."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-089",
+    "question": "Which of the following best describes 'menopause,' as it relates to female reproductive ageing?",
+    "options": [
+      "The first menstrual period experienced during puberty",
+      "The permanent cessation of menstrual cycles, typically occurring around midlife, marking the end of a woman's natural reproductive capability",
+      "A term synonymous with menarche",
+      "A process occurring only in males, related to declining testosterone"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Menopause refers to the permanent cessation of menstrual cycles, typically occurring around midlife, marking the natural end of a woman's reproductive capability as ovarian function and hormone production decline.",
+      "why_others_wrong": "The first menstrual period during puberty describes menarche, essentially the opposite milestone from menopause; menarche and menopause represent opposite ends of the female reproductive lifespan, not being synonymous; menopause is specifically a female reproductive milestone, unrelated to male reproductive physiology.",
+      "concept_recap": "Menopause is associated with significant hormonal changes (declining estrogen and progesterone) that can produce various physical and physiological effects beyond just the cessation of menstruation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-090",
+    "question": "Which of the following best describes 'puberty,' as a developmental stage in both males and females?",
+    "options": [
+      "A stage occurring immediately after birth",
+      "A developmental period during which an individual's reproductive organs mature and secondary sexual characteristics develop, marking the transition toward reproductive capability",
+      "A stage that occurs identically in timing and features between males and females, with no sex-specific differences",
+      "A stage with no relationship to hormonal changes"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Puberty is a developmental period during which an individual's reproductive organs mature and secondary sexual characteristics develop (such as breast development in females or facial hair in males), marking the transition toward full reproductive capability, driven by significant hormonal changes.",
+      "why_others_wrong": "Puberty occurs later in childhood/adolescence, not immediately after birth; puberty does show some differences in typical timing and specific features between males and females, so it is not identical in every respect between the sexes; puberty has a very direct, essential relationship to hormonal changes (rising sex hormones), contrary to having no such relationship.",
+      "concept_recap": "The hypothalamus-pituitary-gonadal axis becomes increasingly active at the onset of puberty, driving the hormonal changes responsible for these developmental transformations."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-091",
+    "question": "Which of the following secondary sexual characteristics typically develops in males during puberty, under the influence of testosterone?",
+    "options": [
+      "Breast development",
+      "Deepening of the voice and growth of facial hair",
+      "Widening of the hips",
+      "Onset of menstruation"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Deepening of the voice and growth of facial hair are classic secondary sexual characteristics that develop in males during puberty, driven by rising testosterone levels.",
+      "why_others_wrong": "Breast development is a classic female secondary sexual characteristic, not a typical male one; widening of the hips is also a classic female secondary sexual characteristic, not typical in males; onset of menstruation is specifically a female reproductive milestone, not applicable to male development.",
+      "concept_recap": "These male secondary sexual characteristics develop alongside the maturation of the primary reproductive organs (testes) during puberty."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-092",
+    "question": "Which of the following secondary sexual characteristics typically develops in females during puberty, under the influence of estrogen?",
+    "options": [
+      "Deepening of the voice",
+      "Development of breasts and widening of the hips",
+      "Growth of a full beard",
+      "Enlargement of the larynx (Adam's apple)"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Development of breasts and widening of the hips are classic secondary sexual characteristics that develop in females during puberty, driven by rising estrogen levels.",
+      "why_others_wrong": "Deepening of the voice is a classic male secondary sexual characteristic, not typical in females; growth of a full beard is also a classic male secondary sexual characteristic, not typical in females; enlargement of the larynx (Adam's apple) is also a typically male pubertal change, not a classic female characteristic.",
+      "concept_recap": "These female secondary sexual characteristics develop alongside the maturation of the primary reproductive organs (ovaries) and the onset of menstrual cycling during puberty."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-093",
+    "question": "Which of the following best describes why the placenta, despite forming largely from foetal (trophoblast) tissue, does not typically trigger a harmful maternal immune rejection response, despite the foetus being genetically distinct from the mother?",
+    "options": [
+      "The foetus and placenta are genetically completely identical to the mother, so no immune distinction exists",
+      "Specialised immunological tolerance mechanisms at the maternal-foetal interface generally prevent the mother's immune system from mounting a harmful rejection response against the genetically distinct foetal/placental tissue",
+      "The maternal immune system is completely suppressed and non-functional throughout the entirety of pregnancy",
+      "This lack of rejection has no relationship to any specific immunological mechanisms"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Specialised immunological tolerance mechanisms operating at the maternal-foetal interface (involving various signalling molecules and immune cell modulation) generally allow the mother's immune system to avoid mounting a harmful rejection response against the genetically distinct foetal/placental tissue, despite the foetus carrying paternal genetic material foreign to the mother.",
+      "why_others_wrong": "The foetus is genetically DISTINCT from the mother (carrying paternal genetic contributions), not completely identical, which is precisely why this immunological tolerance question is significant; the maternal immune system remains largely functional throughout pregnancy (still protecting against infections), rather than being completely suppressed and non-functional; this remarkable lack of rejection is explained by specific, actively studied immunological tolerance mechanisms, not being unrelated to immunology.",
+      "concept_recap": "Understanding this maternal-foetal immune tolerance has broader implications for immunology research, including insights potentially relevant to organ transplantation and autoimmune disease management."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-094",
+    "question": "Which of the following best explains why the timing of sexual intercourse relative to ovulation is particularly important for couples trying to conceive?",
+    "options": [
+      "Timing relative to ovulation has no relationship to the likelihood of conception",
+      "Since the egg remains viable for fertilisation for only a limited time after ovulation (and sperm also have a limited functional lifespan within the female tract), intercourse timed close to ovulation significantly increases the likelihood of sperm and egg meeting for successful fertilisation",
+      "Conception is equally likely on every single day of the menstrual cycle, with ovulation timing being irrelevant",
+      "Sperm can survive indefinitely within the female reproductive tract, making timing completely unimportant"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Since the released egg remains viable for fertilisation for only a limited time window after ovulation (generally under 24 hours), and sperm also have a limited (though somewhat longer) functional lifespan within the female reproductive tract, timing intercourse close to ovulation significantly increases the likelihood of sperm and egg successfully meeting for fertilisation.",
+      "why_others_wrong": "Timing relative to ovulation has a very significant, well-established relationship to conception likelihood, contrary to having none; conception likelihood varies considerably across the menstrual cycle, being much higher near ovulation, not being equally likely on every single day; sperm survival within the female reproductive tract is limited (typically up to a few days under favourable conditions), not indefinite, which is precisely why timing still matters even accounting for some sperm survival.",
+      "concept_recap": "This time-sensitive fertility window is the biological basis for various fertility awareness and family planning methods that track the menstrual cycle to identify likely fertile days."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-095",
+    "question": "Which of the following best describes why identical (monozygotic) twins arise, in contrast to fraternal (dizygotic) twins?",
+    "options": [
+      "Identical twins arise from two separate eggs fertilised by two separate sperm, exactly like fraternal twins",
+      "Identical twins arise from a single fertilised egg (zygote) that splits into two separate embryos early in development, resulting in genetically identical individuals",
+      "Fraternal twins are always genetically identical to each other, just like identical twins",
+      "Twinning has no relationship to the number of eggs released or zygotes formed"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Identical (monozygotic) twins arise from a single fertilised egg (zygote) that splits into two separate embryos early in development, resulting in two genetically identical individuals, in contrast to fraternal twins, which arise from two separate eggs each fertilised by a different sperm.",
+      "why_others_wrong": "Two separate eggs fertilised by two separate sperm describes the mechanism for FRATERNAL (not identical) twins; fraternal twins, unlike identical twins, are genetically no more similar than typical siblings (each from a separate egg/sperm combination), so they are not genetically identical to each other; twinning mechanisms have a very direct relationship to the number of eggs released/fertilised (single zygote splitting vs. two separate zygotes), contrary to having no such relationship.",
+      "concept_recap": "This distinction between one zygote splitting (identical twins) versus two separate fertilisation events (fraternal twins) explains the fundamental genetic difference between these two twin types."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-096",
+    "question": "Which of the following best describes the general trend in female fertility as a woman approaches and progresses through her later reproductive years (e.g., late 30s and beyond), prior to menopause?",
+    "options": [
+      "Female fertility remains completely constant throughout the entire reproductive lifespan, with no age-related decline",
+      "Female fertility generally shows a gradual decline as a woman ages through her later reproductive years, related to factors including declining egg quantity/quality, prior to the eventual complete cessation of fertility at menopause",
+      "Female fertility actually increases progressively with age throughout the entire reproductive lifespan",
+      "Age has no relationship to female fertility or reproductive outcomes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Female fertility generally shows a gradual decline as a woman ages through her later reproductive years, related to factors including a declining quantity and quality of remaining eggs, prior to the eventual complete cessation of fertility at menopause.",
+      "why_others_wrong": "Female fertility does NOT remain completely constant -- there is a well-documented age-related decline, particularly in later reproductive years; female fertility generally DECLINES (not increases) with advancing age through the reproductive years; age has a very significant, well-established relationship to female fertility and reproductive outcomes, contrary to having no such relationship.",
+      "concept_recap": "This age-related fertility decline is an important consideration in reproductive health counselling and family planning discussions, particularly regarding the timing of pregnancy attempts."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-097",
+    "question": "Which of the following best describes the 'hypothalamus-pituitary-gonadal (HPG) axis,' as it relates to reproductive hormone regulation?",
+    "options": [
+      "A regulatory pathway with no relationship to reproductive hormone control",
+      "A hierarchical hormonal control system in which the hypothalamus releases GnRH (gonadotropin-releasing hormone), stimulating the pituitary to release FSH/LH, which in turn regulate the gonads (testes/ovaries) and their hormone production",
+      "A pathway found only in males, with no equivalent in females",
+      "A pathway that has no connection to puberty or ongoing reproductive cycling"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The HPG axis is a hierarchical hormonal control system: the hypothalamus releases gonadotropin-releasing hormone (GnRH), which stimulates the anterior pituitary to release FSH and LH; these gonadotropins in turn regulate the gonads (testes in males, ovaries in females) and their hormone production and gamete development.",
+      "why_others_wrong": "The HPG axis has a very direct, central, well-established relationship to reproductive hormone control, contrary to having none; the HPG axis operates in BOTH males and females (regulating testes and ovaries respectively), not being exclusive to males; the HPG axis has very significant, direct relevance to both puberty onset and ongoing reproductive cycling, contrary to having no connection to either.",
+      "concept_recap": "This same hierarchical HPG axis pattern (hypothalamus to pituitary to gonad) parallels the organisation seen in other hormonal axes, such as the HPA (adrenal) and HPT (thyroid) axes."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-098",
+    "question": "Which of the following best describes gonadotropin-releasing hormone (GnRH), secreted by the hypothalamus?",
+    "options": [
+      "A hormone that directly acts on the gonads, with no involvement of the pituitary",
+      "A hormone that stimulates the anterior pituitary to release FSH and LH, which then act on the gonads",
+      "A hormone produced exclusively by the ovaries",
+      "A hormone with no relationship to puberty onset"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "GnRH, secreted by the hypothalamus, stimulates the anterior pituitary to release the gonadotropins FSH and LH, which then act directly on the gonads (testes or ovaries) to regulate gamete production and sex hormone secretion.",
+      "why_others_wrong": "GnRH acts specifically ON the pituitary (stimulating FSH/LH release), rather than acting directly on the gonads itself, bypassing the pituitary; GnRH is produced by the hypothalamus (a brain structure), not by the ovaries; GnRH has a very significant, well-established relationship to puberty onset, since increasing GnRH pulses are a key trigger for pubertal hormonal changes.",
+      "concept_recap": "Disruptions to normal GnRH secretion (whether too little or too much) can significantly affect downstream reproductive hormone levels and overall fertility."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-099",
+    "question": "Which of the following best describes 'amniotic fluid,' surrounding the developing foetus within the amniotic sac?",
+    "options": [
+      "A solid structure with no fluid component",
+      "A fluid that cushions and protects the developing foetus, allows for foetal movement, and helps maintain a stable temperature environment",
+      "A fluid found only outside the uterus",
+      "A substance with no physiological function during pregnancy"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Amniotic fluid is the fluid that surrounds and cushions the developing foetus within the amniotic sac, providing protection against physical shock, allowing space for foetal movement (important for musculoskeletal development), and helping maintain a stable temperature environment.",
+      "why_others_wrong": "Amniotic fluid is, by definition, a FLUID (not a solid structure), central to its protective and cushioning functions; amniotic fluid is specifically located WITHIN the amniotic sac inside the uterus, not outside it; amniotic fluid has very significant, well-established physiological functions during pregnancy, contrary to having none.",
+      "concept_recap": "Amniotic fluid volume and composition are sometimes assessed clinically during pregnancy, since abnormalities can potentially indicate certain foetal or maternal health concerns."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  },
+  {
+    "id": "repro-100",
+    "question": "Which of the following best describes the general timeline distinction between an 'embryo' and a 'foetus' during human prenatal development?",
+    "options": [
+      "The terms are completely interchangeable, with no distinction in usage based on developmental timing",
+      "The term 'embryo' is generally used for the earlier stages of prenatal development (roughly the first 8 weeks, when major organ systems are forming), while 'foetus' is used from around week 9 onward, once basic organ structures are established and further growth/maturation occurs",
+      "The term 'foetus' is used only for the earliest developmental stages, before 'embryo'",
+      "These terms have no relationship to developmental timing at all"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The term 'embryo' is generally used for the earlier stages of prenatal development (roughly the first 8 weeks, during which major organ systems are initially forming), while 'foetus' is the term used from approximately week 9 onward, once basic organ structures are established and the remaining prenatal period involves further growth and maturation of these structures.",
+      "why_others_wrong": "While sometimes used loosely in everyday language, these terms do have a specific, meaningful developmental-timing distinction in embryology/medicine, not being completely interchangeable without distinction; the terms are used in the OPPOSITE order from what this option suggests -- 'embryo' refers to the earlier stage, followed by 'foetus' for the later stage, not the reverse; these terms have a very direct, specific relationship to developmental timing, contrary to having none.",
+      "concept_recap": "This embryo-to-foetus terminology shift reflects the transition from the initial period of major organ system formation (organogenesis) to the subsequent period focused more on growth and functional maturation."
+    },
+    "ncertRef": "NCERT Class 12, Ch. 3 (Human Reproduction)"
+  }
+]
