@@ -1,97 +1,938 @@
 [
   {
-    "id": "bio-plant-001",
-    "type": "custom",
-    "difficulty": "easy",
-    "question": "Which pigment is primarily responsible for absorbing light in the light reaction of photosynthesis?",
+    "id": "plant-001",
+    "question": "Which of the following best describes 'imbibition,' as a mechanism of water movement in plants?",
     "options": [
-      "Xanthophyll",
-      "Chlorophyll a",
-      "Carotene",
-      "Anthocyanin"
+      "The bulk flow of water through xylem vessels",
+      "The absorption of water by solid substances (like seeds or dry wood) causing them to swell, driven by the adhesion of water molecules to the substance's surface",
+      "The active transport of water using ATP energy",
+      "The movement of water vapour out of stomata"
     ],
     "answer": "B",
-    "ncertRef": "Class 11, Ch 13, Pg 232",
+    "difficulty": "Medium",
     "solution": {
-      "why_correct": "Chlorophyll a is the primary pigment directly involved in the light reaction, acting as the reaction center pigment that converts light energy into chemical energy.",
-      "why_others_wrong": "Xanthophyll and carotene are accessory pigments that absorb light and pass energy to chlorophyll a but cannot themselves drive the reaction center. Anthocyanin is a non-photosynthetic pigment found in flowers/fruits.",
-      "concept_recap": "Chlorophyll a = primary/reaction center pigment. Chlorophyll b, carotenoids, xanthophylls = accessory pigments that broaden the light-absorption spectrum."
-    }
+      "why_correct": "Imbibition is the absorption of water by solid, colloidal substances (such as dry seeds or wood) causing them to swell; this process is driven by the adhesion of water molecules to the hydrophilic surfaces within the absorbing material, generating considerable 'imbibitional pressure'.",
+      "why_others_wrong": "Bulk flow through xylem describes a different water transport mechanism, not imbibition specifically; water movement, including imbibition, is generally a passive process following water potential gradients, not requiring direct ATP-driven active transport; water vapour loss through stomata describes transpiration, a distinct process from imbibition.",
+      "concept_recap": "Imbibition is particularly important during seed germination, as the swelling seed absorbs water, which can generate enough pressure to rupture the seed coat."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
   },
   {
-    "id": "bio-plant-002",
-    "type": "statement",
-    "difficulty": "medium",
-    "question": "Statement I: Stomata open due to an increase in turgor pressure of guard cells. Statement II: Potassium ion influx into guard cells causes water to enter by osmosis, increasing turgor pressure.",
+    "id": "plant-002",
+    "question": "Which of the following best describes 'water potential,' a key concept in understanding water movement in plants?",
     "options": [
-      "Both statements are true",
-      "Statement I is true; Statement II is false",
-      "Statement I is false; Statement II is true",
-      "Both statements are false"
+      "The total amount of water present in a plant cell",
+      "A measure of the free energy of water, determining the direction of water movement from a region of higher water potential to a region of lower water potential",
+      "A measure exclusively of solute concentration, with no relationship to water movement",
+      "A concept that only applies to animal cells, not plant cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Water potential is a measure of the free energy of water in a given system; water moves spontaneously from a region of higher water potential to a region of lower water potential, a principle fundamental to understanding water movement within plants.",
+      "why_others_wrong": "Water potential is a measure of water's free energy/movement tendency, not simply the total quantity of water present; while solute concentration (via osmotic potential) is one major contributing factor, water potential also depends on other factors like pressure potential, so it is not exclusively about solute concentration alone; water potential is a general physical/biological concept applicable to plant cells (and other systems), not being restricted to animal cells alone.",
+      "concept_recap": "This water potential gradient concept underlies the movement of water throughout the plant, from soil through roots, stems, leaves, and ultimately into the atmosphere via transpiration."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-003",
+    "question": "Which of the following best describes 'osmosis,' as it relates to water movement across plant cell membranes?",
+    "options": [
+      "The movement of solute particles across a membrane, unrelated to water movement",
+      "The net movement of water molecules across a selectively permeable membrane, from a region of higher water potential (typically lower solute concentration) to lower water potential (typically higher solute concentration)",
+      "A process that requires direct ATP expenditure by the cell",
+      "A process that only occurs in animal cells, never in plant cells"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Osmosis is the net movement of water molecules across a selectively permeable membrane, from a region of higher water potential (often associated with lower solute concentration) to a region of lower water potential (often associated with higher solute concentration).",
+      "why_others_wrong": "Osmosis specifically describes water movement (driven partly by solute concentration differences), not the direct movement of solute particles themselves; osmosis is a passive process driven by water potential differences, not requiring direct ATP expenditure; osmosis is a general phenomenon occurring in both plant and animal cells (indeed, in any system with a selectively permeable membrane), not being restricted to animal cells.",
+      "concept_recap": "Osmosis plays a fundamental role in water uptake by plant root cells and in maintaining cell turgor pressure, essential for structural support in non-woody plant tissues."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-004",
+    "question": "Which of the following best describes 'plasmolysis,' as it relates to plant cells placed in a hypertonic solution?",
+    "options": [
+      "The swelling and eventual bursting of a plant cell due to excessive water uptake",
+      "The shrinkage of the plant cell's protoplast away from the cell wall, due to water loss via osmosis when the cell is placed in a hypertonic (higher solute concentration) external solution",
+      "A process that only occurs in animal cells, never in plant cells",
+      "A process entirely unrelated to osmosis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Plasmolysis is the shrinkage of a plant cell's protoplast (cell membrane and its contents) away from the surrounding rigid cell wall, occurring when the cell loses water via osmosis after being placed in a hypertonic external solution (one with a higher solute concentration than the cell's interior).",
+      "why_others_wrong": "Swelling and bursting describes a different scenario (more relevant to animal cells lacking a rigid wall, or plant cells in a very hypotonic solution without bursting due to wall support), not plasmolysis specifically; plasmolysis is specifically a PLANT cell phenomenon (relying on the presence of a rigid cell wall separate from the shrinking protoplast), not occurring in animal cells (which lack a cell wall in the same way); plasmolysis is directly and fundamentally caused by osmotic water movement, not being unrelated to osmosis.",
+      "concept_recap": "Plasmolysis is often used experimentally as a way to estimate a plant cell's osmotic potential, since the point at which plasmolysis just begins can be correlated with specific external solute concentrations."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-005",
+    "question": "Which of the following best describes the 'apoplast pathway' of water movement through plant roots?",
+    "options": [
+      "Water movement exclusively through the living cytoplasm of connected cells",
+      "Water movement through the non-living cell walls and intercellular spaces, without crossing any cell membranes, until reaching the endodermis",
+      "A pathway that requires water to cross the plasma membrane at every single cell along the way",
+      "A pathway found only in animal tissues, never in plants"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The apoplast pathway describes water movement through the non-living cell walls and intercellular spaces of the root, without needing to cross any cell membranes, until this pathway is interrupted at the endodermis by the waterproof Casparian strip.",
+      "why_others_wrong": "Exclusive movement through living cytoplasm describes the symplast pathway, a different route from the apoplast pathway; the defining feature of the apoplast pathway is precisely that water does NOT need to cross the plasma membrane at each cell (unlike the symplast or transmembrane pathways); the apoplast pathway is a specific plant root water-transport concept, not found in animal tissues, which lack this type of cell wall-based water pathway.",
+      "concept_recap": "This apoplast route allows for relatively rapid water movement through the root cortex, until the Casparian strip forces water to cross a cell membrane at the endodermis, allowing the plant to selectively regulate mineral/water uptake."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-006",
+    "question": "Which of the following best describes the 'symplast pathway' of water movement through plant roots, as distinct from the apoplast pathway?",
+    "options": [
+      "Water movement exclusively through non-living cell walls, without crossing any membranes",
+      "Water movement through the interconnected living cytoplasm of cells, via plasmodesmata, without needing to cross the plasma membrane repeatedly at each individual cell boundary",
+      "A pathway that has no relationship to root water uptake",
+      "A term synonymous with the apoplast pathway"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The symplast pathway describes water movement through the interconnected living cytoplasm of adjacent root cells, connected via plasmodesmata (cytoplasmic channels through cell walls), allowing water to move between cells without needing to repeatedly cross the plasma membrane at each individual cell boundary along the way.",
+      "why_others_wrong": "Movement exclusively through non-living cell walls without crossing membranes describes the apoplast pathway, a different route from the symplast pathway; the symplast pathway has a very direct, significant relationship to root water uptake, being one of the main pathways involved; the symplast and apoplast pathways are distinct water transport routes within the root, not being synonymous.",
+      "concept_recap": "The symplast pathway, along with the apoplast pathway, represents one of the parallel routes water can take as it moves from the root's outer surface toward the central xylem for long-distance transport."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-007",
+    "question": "Which of the following structures, found within the endodermis of plant roots, forces water in the apoplast pathway to cross a cell membrane, allowing selective regulation of water/mineral uptake?",
+    "options": [
+      "Cuticle",
+      "Casparian strip",
+      "Stomata",
+      "Guard cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Casparian strip is a waterproof, suberin-containing band found within the endodermal cell walls of plant roots; this structure blocks the apoplast pathway at the endodermis, forcing water (and dissolved minerals) to cross the plasma membrane, allowing the plant to selectively regulate what enters the vascular tissue.",
+      "why_others_wrong": "The cuticle is a waxy layer covering the outer surface of leaves/stems, reducing water loss, not the specific endodermal structure blocking the apoplast pathway; stomata are pores primarily on leaf surfaces regulating gas exchange/transpiration, not the endodermal Casparian strip; guard cells regulate stomatal opening/closing, also unrelated to the endodermal Casparian strip.",
+      "concept_recap": "This forced crossing of the plasma membrane at the endodermis is a critical checkpoint, allowing the plant to exert selective control over which substances ultimately reach the xylem for transport throughout the plant."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-008",
+    "question": "Which of the following best describes 'root pressure,' as a mechanism contributing to water movement in plants?",
+    "options": [
+      "A negative pressure generated at the leaves, pulling water upward",
+      "A positive pressure generated within the root xylem, due to active mineral ion accumulation lowering the water potential inside the xylem, causing water to move in from surrounding root cells",
+      "A pressure with no relationship to water movement in plants",
+      "A mechanism that operates only in the absence of any root cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Root pressure is a positive pressure generated within the root xylem, resulting from the active accumulation of mineral ions into the xylem (lowering the water potential there), which causes water to move osmotically from surrounding root cells into the xylem, pushing water upward to some extent (particularly noticeable at night/early morning).",
+      "why_others_wrong": "A negative pressure generated at the leaves, pulling water upward, describes a different mechanism (related to transpiration pull), not root pressure, which is a positive pressure generated at the root; root pressure has a very direct, defining relationship to water movement (pushing water into and up the xylem to some degree), contrary to having no relationship; root pressure specifically results from active processes within living root cells, not operating in their absence.",
+      "concept_recap": "Root pressure is thought to be a relatively minor contributor to overall water transport in tall plants compared to the much more significant transpiration pull mechanism, though it can be observed through phenomena like guttation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-009",
+    "question": "Which of the following best describes 'guttation,' as observed in some plants, particularly under conditions of high root pressure and low transpiration?",
+    "options": [
+      "The loss of water vapour through stomata during the day",
+      "The exudation of liquid water droplets from specialised structures (hydathodes) at leaf margins/tips, typically observed under conditions of high humidity/low transpiration combined with active root pressure",
+      "A process entirely unrelated to root pressure",
+      "A process that only occurs in animals, never in plants"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Guttation is the exudation of liquid water droplets from specialised structures called hydathodes, typically located at leaf margins or tips; this phenomenon is often observed under conditions of high humidity and low transpiration (such as early morning), when active root pressure pushes water up and out through these structures since transpirational water loss through stomata is minimal under these conditions.",
+      "why_others_wrong": "Water vapour loss through stomata during the day describes transpiration, a different process from the liquid water droplet exudation seen in guttation; guttation has a very direct relationship to root pressure (which drives this water exudation, particularly when transpiration is low), contrary to being unrelated; guttation is specifically a PLANT phenomenon (involving specialised leaf structures called hydathodes), not occurring in animals.",
+      "concept_recap": "The characteristic 'dew-like' droplets sometimes seen on grass tips in the early morning are often actually guttation fluid, distinct from true atmospheric dew."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-010",
+    "question": "Which of the following best describes the 'cohesion-tension theory,' explaining the ascent of water (and dissolved minerals) through the xylem of tall plants?",
+    "options": [
+      "Water movement is driven entirely by root pressure alone, with no contribution from transpiration",
+      "Transpiration from leaves creates a negative pressure (tension) that pulls water upward through the xylem, aided by the cohesive properties of water molecules (hydrogen bonding) that allow the water column to be pulled as a continuous, unbroken thread",
+      "Water movement through the xylem requires direct ATP expenditure by xylem cells at every point along the pathway",
+      "A theory that has been entirely disproven by modern plant physiology research"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The cohesion-tension theory explains that transpiration (water evaporation from leaf surfaces) creates a negative pressure (tension) that pulls water upward through the xylem; this pulling is made possible by the strong cohesive properties of water molecules (due to hydrogen bonding), allowing the water column within the xylem to be pulled upward as a continuous, unbroken thread, even to great heights in tall trees.",
+      "why_others_wrong": "While root pressure contributes somewhat, it is specifically transpiration-generated tension that is considered the primary driving force for water ascent in most plants, especially tall ones -- not root pressure alone; xylem is composed of non-living conducting cells (tracheids and vessel elements) once mature, and water movement through this system is largely a passive process driven by pressure/tension gradients, not requiring direct ATP expenditure by living cells at every point; the cohesion-tension theory remains the widely accepted, well-supported explanation for xylem water transport in current plant physiology, not something that has been disproven.",
+      "concept_recap": "This theory elegantly explains how water can be transported to the top of even very tall trees (over 100 metres in some cases) without requiring a biological pump, relying instead on physical principles of tension and molecular cohesion."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-011",
+    "question": "Which of the following best describes 'transpiration,' as it relates to water loss in plants?",
+    "options": [
+      "The active transport of water into root cells",
+      "The loss of water vapour from aerial plant parts (primarily leaves), mostly occurring through stomata",
+      "The process of water absorption by seeds",
+      "A process that only occurs at night, never during the day"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Transpiration is the loss of water vapour from aerial plant parts, occurring primarily through stomata on leaf surfaces, though some water loss also occurs through the cuticle and, to a lesser extent, through lenticels.",
+      "why_others_wrong": "Active transport of water into root cells describes a different process related to water/mineral uptake, not transpiration (which is water LOSS from aerial parts); water absorption by seeds describes imbibition, a distinct process from transpiration; transpiration rates are generally HIGHER during the day (when stomata are typically more open for gas exchange related to photosynthesis) rather than occurring only at night.",
+      "concept_recap": "Transpiration serves several important functions beyond simply representing water loss, including generating the pulling force for water/mineral transport (cohesion-tension) and helping cool leaf surfaces through evaporative cooling."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-012",
+    "question": "Which of the following structures on the leaf surface primarily regulate the rate of transpiration by opening and closing?",
+    "options": [
+      "Trichomes",
+      "Stomata (via guard cells)",
+      "Cuticle",
+      "Xylem vessels"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Stomata, small pores on the leaf surface flanked by guard cells, primarily regulate the rate of transpiration by opening (allowing greater water vapour loss, along with CO2 uptake for photosynthesis) or closing (reducing water loss) in response to various environmental and internal signals.",
+      "why_others_wrong": "Trichomes are hair-like structures on plant surfaces that can have various functions (like reducing water loss to some extent or deterring herbivores), but they are not the primary structures actively regulating transpiration through opening/closing; the cuticle is a waxy layer that reduces water loss but does not itself actively open/close to regulate transpiration rate in the dynamic way stomata do; xylem vessels are involved in water transport within the plant, not in regulating water loss at the leaf surface.",
+      "concept_recap": "The dynamic opening/closing of stomata, achieved through changes in guard cell turgor pressure, allows plants to balance the competing needs of gas exchange (for photosynthesis) and water conservation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-013",
+    "question": "Which of the following best explains how changes in guard cell turgor pressure cause stomata to open or close?",
+    "options": [
+      "Guard cells have no relationship to stomatal opening/closing",
+      "Increased turgor pressure within guard cells causes them to bow outward (due to their uneven cell wall thickening), opening the stomatal pore; decreased turgor pressure causes them to become less curved, closing the pore",
+      "Guard cells always remain in a fixed, unchanging shape regardless of turgor pressure",
+      "Stomatal opening/closing has no relationship to water potential or osmotic changes within guard cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Guard cells have uneven cell wall thickening (thicker on the inner side facing the pore); when guard cells take up water and become more turgid, this uneven thickening causes them to bow outward, opening the stomatal pore between them; when guard cells lose water and turgor decreases, they become less curved, closing the pore.",
+      "why_others_wrong": "Guard cells have a very direct, defining relationship to stomatal opening/closing (indeed, being the specific cells responsible for this regulation), contrary to having no such relationship; guard cell SHAPE actually DOES change significantly with varying turgor pressure (this shape change is precisely the mechanism of stomatal regulation), not remaining fixed; stomatal opening/closing has a very direct relationship to water potential/osmotic changes within guard cells (since these drive the turgor pressure changes), contrary to having no relationship.",
+      "concept_recap": "This turgor-driven mechanism allows guard cells to rapidly respond to various signals (light, CO2 levels, water status, hormones like abscisic acid) by adjusting stomatal aperture accordingly."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-014",
+    "question": "Which of the following environmental factors would generally be expected to INCREASE the rate of transpiration, all else being equal?",
+    "options": [
+      "Decreased temperature",
+      "Increased humidity of the surrounding air",
+      "Increased wind speed (moving air), which helps remove humid air near the leaf surface",
+      "Complete darkness, causing stomata to remain fully open"
+    ],
+    "answer": "C",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Increased wind speed helps remove the layer of humid air that tends to accumulate near the leaf surface, maintaining a steeper water vapour concentration gradient between the leaf interior and the surrounding atmosphere, thereby generally increasing the rate of transpiration.",
+      "why_others_wrong": "Decreased temperature generally DECREASES (not increases) transpiration rate, since lower temperatures typically reduce the rate of water evaporation; increased humidity of the surrounding air DECREASES (not increases) the water vapour concentration gradient driving transpiration, thus generally reducing transpiration rate; stomata typically CLOSE (not remain open) in darkness in many plants, since the need for CO2 uptake (linked to light-dependent photosynthesis) decreases, which would generally decrease, not increase, transpiration in the dark.",
+      "concept_recap": "Understanding these environmental influences on transpiration rate (temperature, humidity, wind, light) is important for predicting plant water loss under different conditions, relevant to both plant physiology and agricultural water management."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-015",
+    "question": "Which of the following best describes the primary function of transpiration, beyond simply representing a loss of water from the plant?",
+    "options": [
+      "Transpiration serves no useful function, being purely a detrimental water loss with no benefit",
+      "Transpiration helps generate the pulling force (tension) that drives water and mineral transport up the xylem, and also contributes to cooling leaf surfaces through evaporative heat loss",
+      "Transpiration's only function is to produce food (glucose) directly",
+      "Transpiration has no relationship to mineral nutrient transport within the plant"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Beyond representing water loss, transpiration serves important functional roles: it helps generate the negative pressure (tension) that, according to the cohesion-tension theory, drives the ascent of water and dissolved minerals through the xylem, and it also contributes to cooling leaf surfaces through the evaporative heat loss associated with water vapour release.",
+      "why_others_wrong": "Transpiration does have significant, recognised beneficial functions (as described), contrary to serving no useful function at all; transpiration is a water-vapour-loss and transport-related process, not itself directly producing glucose (that is the role of photosynthesis, a related but distinct process); transpiration has a very direct relationship to mineral nutrient transport, since the transpiration-driven water flow through xylem also carries along dissolved mineral ions.",
+      "concept_recap": "This dual role of transpiration -- powering long-distance transport and providing evaporative cooling -- illustrates how what might initially seem like a simple 'cost' (water loss) actually provides significant functional benefits to the plant."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-016",
+    "question": "Which of the following best describes 'translocation,' as it relates to transport within the phloem?",
+    "options": [
+      "The movement of water and minerals from roots to leaves via xylem",
+      "The transport of organic food materials (primarily sugars, like sucrose) from sites of production (source, e.g., leaves) to sites of storage/use (sink, e.g., roots, developing fruits) via the phloem",
+      "A process that occurs exclusively at night, never during the day",
+      "A process entirely unrelated to sugar/food transport"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Translocation refers to the transport of organic food materials -- primarily sugars like sucrose -- from sites of production or storage ('source' tissues, such as photosynthesising leaves) to sites of storage or utilisation ('sink' tissues, such as roots, developing fruits, or growing regions) via the phloem.",
+      "why_others_wrong": "Water/mineral movement from roots to leaves via xylem describes a different transport process, not phloem-based translocation; translocation can occur during both day and night, depending on the specific source-sink relationships and photosynthate production/demand at a given time, not being restricted only to night; translocation is, by definition, directly and centrally related to sugar/food transport, contrary to being unrelated to it.",
+      "concept_recap": "This source-to-sink transport via phloem is essential for distributing the products of photosynthesis to non-photosynthetic parts of the plant that rely on this imported food supply."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-017",
+    "question": "Which of the following best describes the 'pressure flow (mass flow) hypothesis,' explaining sugar transport within the phloem?",
+    "options": [
+      "Sugar transport occurs via simple diffusion alone, with no bulk flow involved",
+      "Active loading of sugars into phloem at the source creates a high pressure (low water potential) there, while unloading at the sink creates lower pressure, establishing a pressure gradient that drives the bulk (mass) flow of phloem sap from source to sink",
+      "Sugar transport in phloem requires no energy input anywhere in the process",
+      "A hypothesis that has been completely disproven by modern research"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "According to the pressure flow hypothesis, active loading of sugars into phloem sieve tubes at the source (lowering water potential there, drawing in water and increasing pressure) creates a high-pressure region, while unloading of sugars at the sink (raising water potential there) creates a comparatively lower-pressure region; this pressure gradient drives the bulk (mass) flow of phloem sap from the high-pressure source toward the lower-pressure sink.",
+      "why_others_wrong": "Phloem transport is best explained by BULK (mass) FLOW driven by a pressure gradient, not simple diffusion of individual sugar molecules alone; the process does require significant ENERGY INPUT, particularly for the active loading of sugars into the phloem at the source (and sometimes at unloading), so it is not an energy-free process; the pressure flow hypothesis remains the widely accepted, well-supported explanation for phloem transport in current plant physiology, not something disproven.",
+      "concept_recap": "This pressure-driven bulk flow mechanism allows for the efficient, relatively rapid transport of large quantities of sugars from source tissues to various sink tissues throughout the plant."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
+  },
+  {
+    "id": "plant-018",
+    "question": "Which of the following best describes the key structural difference between xylem and phloem, relevant to their differing conduction directions?",
+    "options": [
+      "Xylem conducts materials only in one fixed direction (root to leaf), while phloem can conduct materials in variable directions (source to sink, which can change depending on plant conditions)",
+      "Xylem and phloem always conduct materials in the exact same direction under all circumstances",
+      "Phloem is composed entirely of dead cells, similar to mature xylem vessels",
+      "Xylem is responsible for sugar transport, while phloem is responsible for water transport"
     ],
     "answer": "A",
-    "ncertRef": "Class 11, Ch 11, Pg 205",
+    "difficulty": "Hard",
     "solution": {
-      "why_correct": "Both statements are correct and connected: K+ ions actively move into guard cells, lowering water potential inside them, causing water to enter by osmosis, which increases turgor pressure and opens the stomatal pore.",
-      "why_others_wrong": "The other options are wrong because both statements independently hold true and describe the well-established K+ ion mechanism of stomatal opening.",
-      "concept_recap": "Stomatal opening: light triggers K+ influx into guard cells -> lowers water potential -> water enters by osmosis -> turgor increases -> guard cells bow outward -> pore opens."
-    }
+      "why_correct": "Xylem typically conducts water and minerals in one predominant direction (from roots upward toward leaves, following the transpiration-driven water potential gradient), while phloem conducts organic materials (sugars) from source tissues to sink tissues, and since source/sink relationships can change (e.g., leaves acting as source when mature but tubers as source when leaves aren't photosynthesising actively while stored food is mobilised), the direction of phloem transport can vary depending on the plant's specific physiological conditions at a given time.",
+      "why_others_wrong": "Xylem and phloem do NOT always conduct materials in the exact same direction -- their typical directionality differs significantly (largely one-way in xylem vs. variable in phloem based on source-sink relationships); phloem is composed of LIVING cells (sieve tube elements, though lacking a nucleus at maturity, remain metabolically active with companion cell support), unlike the dead, non-living mature xylem vessel elements/tracheids; the transport roles are REVERSED in this option -- phloem transports sugars, while xylem transports water/minerals, not the other way around.",
+      "concept_recap": "This distinction between the largely fixed-direction xylem transport and the more flexible, source-sink-dependent phloem transport reflects their different underlying transport mechanisms and physiological purposes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 11 (Transport in Plants)"
   },
   {
-    "id": "bio-plant-003",
-    "type": "AR",
-    "difficulty": "hard",
-    "question": "Assertion (A): C4 plants are more efficient at photosynthesis in hot, dry climates than C3 plants. Reason (R): C4 plants minimize photorespiration by concentrating CO2 around RuBisCO in bundle sheath cells.",
+    "id": "plant-019",
+    "question": "Which of the following best describes 'essential elements,' in the context of plant mineral nutrition?",
     "options": [
-      "Both A and R are true and R is the correct explanation of A",
-      "Both A and R are true but R is NOT the correct explanation of A",
-      "A is true but R is false",
-      "A is false but R is true"
+      "Elements that are toxic to plants at any concentration",
+      "Elements required for normal plant growth and completion of the life cycle, whose deficiency causes abnormal growth or development that can be corrected by supplying that specific element",
+      "Elements found only in animal tissues, never required by plants",
+      "A term synonymous with 'micronutrients' exclusively, excluding macronutrients"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Essential elements are those required for normal plant growth and completion of the life cycle; their deficiency causes specific abnormal growth or developmental symptoms that can be corrected specifically by supplying that particular element, distinguishing true essential elements from merely beneficial ones.",
+      "why_others_wrong": "Essential elements are, almost by definition, generally beneficial/necessary at appropriate concentrations (though excess of even essential elements can sometimes become toxic) -- they are not simply defined as universally toxic; essential elements are specifically required BY PLANTS for their normal growth/life cycle, not being restricted to elements found only in animal tissues; the essential elements category includes BOTH macronutrients (needed in larger amounts) and micronutrients (needed in trace amounts), not being synonymous with micronutrients alone.",
+      "concept_recap": "Criteria for essentiality (developed by researchers like Arnon and Stout) require that an element's absence prevents completion of the life cycle, its deficiency is specifically correctable by that element, and it plays a direct role in plant metabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
+  },
+  {
+    "id": "plant-020",
+    "question": "Which of the following is classified as a 'macronutrient,' required by plants in relatively larger quantities?",
+    "options": [
+      "Iron",
+      "Nitrogen",
+      "Zinc",
+      "Manganese"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Nitrogen is classified as a macronutrient, required by plants in relatively larger quantities, being an essential component of amino acids, proteins, nucleic acids, and chlorophyll.",
+      "why_others_wrong": "Iron, zinc, and manganese are all classified as micronutrients, required by plants only in relatively small (trace) quantities, distinct from macronutrients like nitrogen.",
+      "concept_recap": "Other macronutrients include phosphorus, potassium, calcium, magnesium, and sulfur, all required in comparatively larger amounts than the micronutrients."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
+  },
+  {
+    "id": "plant-021",
+    "question": "Which of the following is classified as a 'micronutrient,' required by plants only in relatively small (trace) quantities?",
+    "options": [
+      "Nitrogen",
+      "Iron",
+      "Potassium",
+      "Calcium"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Iron is classified as a micronutrient, required by plants only in relatively small (trace) quantities, though it remains essential for processes like chlorophyll synthesis and electron transport.",
+      "why_others_wrong": "Nitrogen, potassium, and calcium are all classified as macronutrients, required by plants in relatively larger quantities, distinct from micronutrients like iron.",
+      "concept_recap": "Other micronutrients include manganese, zinc, copper, boron, molybdenum, and chlorine, all required only in trace amounts despite their essential roles."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
+  },
+  {
+    "id": "plant-022",
+    "question": "Which of the following essential elements is a key structural component of chlorophyll, and its deficiency commonly causes yellowing of leaves (chlorosis)?",
+    "options": [
+      "Nitrogen (as well as magnesium)",
+      "Calcium exclusively, with no role for other elements",
+      "Sulfur exclusively",
+      "Potassium exclusively"
     ],
     "answer": "A",
-    "ncertRef": "Class 11, Ch 13, Pg 240",
+    "difficulty": "Medium",
     "solution": {
-      "why_correct": "C4 plants use a CO2-concentrating mechanism via PEP carboxylase in mesophyll cells, shuttling CO2 to bundle sheath cells where RuBisCO operates with minimal oxygen competition, reducing photorespiration -- this directly explains their efficiency advantage in hot, dry conditions.",
-      "why_others_wrong": "B, C, D are wrong since both statements are true and the CO2-concentration mechanism is precisely why C4 plants outperform C3 plants under heat/water stress.",
-      "concept_recap": "C4 pathway: PEP carboxylase (no photorespiration) fixes CO2 in mesophyll, shuttled to bundle sheath for Calvin cycle -- advantageous in hot/dry climates where stomata close often, limiting CO2 availability."
-    }
+      "why_correct": "Both nitrogen and magnesium are essential structural components of the chlorophyll molecule; deficiency in either can impair chlorophyll synthesis, commonly resulting in yellowing of leaves (chlorosis) due to insufficient chlorophyll production.",
+      "why_others_wrong": "While calcium plays other important roles in plants (like cell wall structure), it is not a core structural component of the chlorophyll molecule itself in the primary way nitrogen/magnesium are; sulfur is an essential element with other important roles (like in certain amino acids) but is not the primary chlorophyll structural component being highlighted here; potassium plays important roles in various plant processes (like stomatal function) but, similarly, is not a core structural component of chlorophyll itself.",
+      "concept_recap": "This chlorosis symptom (yellowing due to chlorophyll deficiency) is a classic, visually identifiable sign used to help diagnose nitrogen or magnesium deficiency in plants."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
   },
   {
-    "id": "bio-plant-004",
-    "type": "custom",
-    "difficulty": "medium",
-    "question": "The process by which plants lose excess water in the form of water droplets (not vapor) through hydathodes is called:",
+    "id": "plant-023",
+    "question": "Which of the following best describes 'nitrogen fixation,' as it relates to plant mineral nutrition?",
     "options": [
-      "Transpiration",
-      "Guttation",
-      "Translocation",
-      "Imbibition"
+      "The process by which plants directly absorb atmospheric nitrogen gas (N2) through their leaves",
+      "The process by which atmospheric nitrogen gas (N2), largely inaccessible to plants directly, is converted into usable forms (like ammonia) by certain bacteria, making it available for plant uptake",
+      "A process entirely unrelated to plant nitrogen nutrition",
+      "A process that occurs exclusively within plant leaves, with no bacterial involvement"
     ],
     "answer": "B",
-    "ncertRef": "Class 11, Ch 11, Pg 210",
+    "difficulty": "Easy",
     "solution": {
-      "why_correct": "Guttation is the process where excess water is exuded as liquid droplets from special pores called hydathodes, typically at leaf tips/margins, especially under high humidity when transpiration is suppressed.",
-      "why_others_wrong": "Transpiration is water loss as vapor through stomata, a different mechanism. Translocation refers to movement of organic solutes (sugars) via phloem. Imbibition is water absorption by dry seeds/colloids, unrelated to water loss.",
-      "concept_recap": "Guttation vs transpiration: guttation = liquid water droplets via hydathodes (occurs when transpiration is low, e.g., humid mornings); transpiration = water vapor loss via stomata (main water loss pathway)."
-    }
+      "why_correct": "Nitrogen fixation is the process by which atmospheric nitrogen gas (N2) -- largely inaccessible for direct use by plants -- is converted into usable forms, such as ammonia, primarily by certain specialised bacteria (either free-living or in symbiotic relationships with plants), making this nitrogen available for plant uptake and use.",
+      "why_others_wrong": "Plants generally CANNOT directly absorb/utilise atmospheric N2 gas through their leaves in a significant way -- this is precisely why the bacterial fixation process is necessary to convert it into usable forms; nitrogen fixation has a very direct, essential relationship to plant nitrogen nutrition, contrary to being unrelated; nitrogen fixation is primarily carried out by BACTERIA (either free-living in soil or in symbiotic root nodule relationships with certain plants), not occurring within plant leaves without bacterial involvement.",
+      "concept_recap": "The symbiotic relationship between leguminous plants and nitrogen-fixing Rhizobium bacteria in root nodules is a particularly well-known and agriculturally significant example of this process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
   },
   {
-    "id": "bio-plant-005",
-    "type": "custom",
-    "difficulty": "hard",
-    "question": "Which of the following best explains why water moves up a tall tree against gravity, according to the cohesion-tension theory?",
+    "id": "plant-024",
+    "question": "Which of the following best describes the symbiotic relationship between leguminous plants and Rhizobium bacteria, relevant to nitrogen fixation?",
     "options": [
-      "Root pressure alone pushes water to the top",
-      "Transpiration creates a pulling force, and water column cohesion (via hydrogen bonding) prevents the column from breaking",
-      "Capillary action alone is sufficient to explain water rise in tall trees",
-      "Osmotic pressure in xylem vessels actively pumps water upward"
+      "Rhizobium bacteria harm the leguminous plant, providing no benefit",
+      "Rhizobium bacteria, housed within specialised root nodules, fix atmospheric nitrogen into usable forms for the plant, while the plant provides the bacteria with carbohydrates and a protected environment, a mutually beneficial relationship",
+      "This relationship has no connection to nitrogen availability in soil",
+      "Rhizobium bacteria are found within leaf tissue, not root tissue"
     ],
     "answer": "B",
-    "ncertRef": "Class 11, Ch 11, Pg 208",
+    "difficulty": "Medium",
     "solution": {
-      "why_correct": "The cohesion-tension theory explains that transpiration from leaves creates a negative pressure (tension) pulling water upward, while hydrogen bonding between water molecules (cohesion) keeps the continuous water column from breaking under this tension, allowing water to rise even in very tall trees.",
-      "why_others_wrong": "A (root pressure alone) is insufficient to explain water rise in very tall trees (over a few meters). C (capillary action alone) can only raise water a few centimeters, far short of what's needed. D is incorrect since xylem transport is passive, not an active pumping process.",
-      "concept_recap": "Cohesion-tension theory: transpiration pull (tension) + water cohesion (hydrogen bonding) + adhesion to xylem walls = continuous water column rising against gravity, the primary mechanism for water transport in tall plants."
-    }
+      "why_correct": "In this mutualistic symbiotic relationship, Rhizobium bacteria housed within specialised root nodules of leguminous plants fix atmospheric nitrogen into usable forms (like ammonia) for the plant's use, while the plant, in turn, provides the bacteria with carbohydrates (energy source) and a protected niche within the root nodule environment.",
+      "why_others_wrong": "This relationship is specifically MUTUALISTIC (both partners benefit), not one in which the bacteria harm the plant with no benefit provided; this symbiotic nitrogen fixation has a very significant, direct connection to soil nitrogen availability, since it actively adds usable nitrogen to the plant-soil system; Rhizobium bacteria are specifically found within ROOT nodules (not leaf tissue), reflecting the underground nature of this particular symbiotic relationship.",
+      "concept_recap": "This legume-Rhizobium symbiosis is agriculturally significant, often utilised in crop rotation practices to help naturally replenish soil nitrogen levels without requiring as much synthetic fertiliser input."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
+  },
+  {
+    "id": "plant-025",
+    "question": "Which of the following best describes the overall process of photosynthesis?",
+    "options": [
+      "The breakdown of glucose to release energy, using oxygen",
+      "The process by which plants (and other photosynthetic organisms) convert light energy into chemical energy, synthesising glucose from carbon dioxide and water, releasing oxygen as a byproduct",
+      "A process that occurs exclusively in plant roots, never in leaves",
+      "A process that requires no light energy input whatsoever"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Photosynthesis is the process by which plants (and other photosynthetic organisms, like algae and cyanobacteria) convert light energy into chemical energy, using this energy to synthesise glucose from carbon dioxide and water, releasing oxygen as a byproduct in the process.",
+      "why_others_wrong": "The breakdown of glucose to release energy using oxygen describes cellular respiration, essentially the reverse process from photosynthesis; photosynthesis primarily occurs within chloroplast-containing cells, predominantly in LEAVES (which are specialised for capturing light), not primarily in roots (which generally lack significant photosynthetic tissue); photosynthesis, by definition, fundamentally REQUIRES light energy input (it is a light-dependent process, as its name indicates), contrary to requiring none.",
+      "concept_recap": "This conversion of light energy into stored chemical energy (as glucose) forms the foundation of most food chains, since photosynthetic organisms serve as primary producers supporting virtually all other life."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-026",
+    "question": "Which of the following pigments is the primary light-absorbing pigment involved in photosynthesis, giving most plants their green colour?",
+    "options": [
+      "Carotenoids exclusively",
+      "Chlorophyll (particularly chlorophyll a)",
+      "Anthocyanin",
+      "Melanin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Chlorophyll, particularly chlorophyll a, is the primary light-absorbing pigment involved in photosynthesis, giving most photosynthetic plant tissues their characteristic green colour by absorbing red and blue light while reflecting green light.",
+      "why_others_wrong": "Carotenoids are accessory pigments that also absorb light and pass energy to chlorophyll, but they are not the PRIMARY pigment (chlorophyll a plays this central role); anthocyanin is a pigment responsible for red/purple/blue colours in various plant structures (like some fruits and autumn leaves), not the primary photosynthetic pigment; melanin is a pigment found in animals (like in skin/hair), unrelated to plant photosynthesis.",
+      "concept_recap": "Chlorophyll a plays the central, direct role in the light reactions of photosynthesis, while accessory pigments like chlorophyll b and carotenoids broaden the range of light wavelengths that can be captured and passed on to chlorophyll a."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-027",
+    "question": "Which of the following best describes the 'light reactions' (light-dependent reactions) of photosynthesis?",
+    "options": [
+      "Reactions that occur in the stroma of the chloroplast, independent of light",
+      "Reactions occurring in the thylakoid membranes of the chloroplast, in which light energy is captured and used to generate ATP and NADPH, while also splitting water and releasing oxygen",
+      "Reactions that produce glucose directly, with no involvement of the Calvin cycle",
+      "Reactions that occur exclusively in the dark, with no light requirement"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The light reactions occur in the thylakoid membranes of the chloroplast, where light energy is captured by chlorophyll and other pigments and used to generate ATP and NADPH (energy carriers), while also splitting water molecules (photolysis), releasing oxygen as a byproduct.",
+      "why_others_wrong": "The light reactions occur in the THYLAKOID membranes, not the stroma (that is where the light-INDEPENDENT reactions, the Calvin cycle, occur), and they specifically DEPEND on light, not being independent of it; the light reactions produce ATP/NADPH, which are then used in the SEPARATE Calvin cycle to ultimately produce glucose -- the light reactions themselves do not directly produce glucose; the light reactions, by definition, require LIGHT (as their name indicates), contrary to occurring exclusively in the dark.",
+      "concept_recap": "The ATP and NADPH generated during these light reactions provide the essential energy and reducing power needed to drive the subsequent carbon fixation reactions of the Calvin cycle."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-028",
+    "question": "Which of the following best describes 'photolysis of water,' occurring during the light reactions of photosynthesis?",
+    "options": [
+      "The splitting of water molecules using light energy, releasing oxygen, electrons, and protons (hydrogen ions)",
+      "A process that produces glucose directly from water",
+      "A process that occurs in the stroma, not the thylakoid membrane",
+      "A process entirely unrelated to oxygen release during photosynthesis"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Photolysis of water is the light-driven splitting of water molecules occurring during the light reactions, releasing oxygen (as a byproduct, eventually released from the plant), electrons (which help replenish those lost from chlorophyll), and protons (hydrogen ions, contributing to the proton gradient used for ATP synthesis).",
+      "why_others_wrong": "Photolysis specifically splits water into oxygen, electrons, and protons -- it does not directly produce glucose (glucose synthesis occurs later, in the separate Calvin cycle); photolysis occurs within the THYLAKOID membrane system (associated with photosystem II), not in the stroma; photolysis has a very direct, defining relationship to oxygen release during photosynthesis, being precisely the source of the oxygen released as a photosynthetic byproduct.",
+      "concept_recap": "This photolysis-derived oxygen is the source of virtually all atmospheric oxygen produced by photosynthetic organisms, historically transforming Earth's atmosphere over geological time."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-029",
+    "question": "Which of the following best describes the 'Calvin cycle' (light-independent reactions, or 'dark reactions'), occurring in the stroma of the chloroplast?",
+    "options": [
+      "Reactions that directly require light photons to proceed at every step",
+      "A series of reactions in which carbon dioxide is fixed and, using the ATP and NADPH generated by the light reactions, ultimately converted into glucose",
+      "Reactions that occur in the thylakoid membrane, not the stroma",
+      "Reactions that release oxygen as their primary product"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Calvin cycle is a series of reactions occurring in the chloroplast stroma in which carbon dioxide is fixed (incorporated into an organic molecule) and, utilising the ATP and NADPH generated during the earlier light reactions, ultimately converted into glucose and other organic molecules.",
+      "why_others_wrong": "The Calvin cycle's reactions do not directly require light photons at each step (hence sometimes being called 'light-independent' or 'dark' reactions), though they do depend on the ATP/NADPH products generated by the preceding light reactions; the Calvin cycle occurs in the STROMA (the fluid-filled space surrounding the thylakoids), not within the thylakoid membrane itself; oxygen release is characteristic of the light reactions (via photolysis), not the Calvin cycle, whose primary product is glucose/organic carbon compounds, not oxygen.",
+      "concept_recap": "This division of labour -- light reactions capturing energy in the thylakoids, Calvin cycle using that energy to fix carbon in the stroma -- represents an elegant compartmentalisation of the overall photosynthetic process."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-030",
+    "question": "Which enzyme, often cited as the most abundant protein on Earth, catalyses the initial carbon fixation step of the Calvin cycle?",
+    "options": [
+      "ATP synthase",
+      "RuBisCO (ribulose bisphosphate carboxylase-oxygenase)",
+      "DNA polymerase",
+      "Amylase"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "RuBisCO (ribulose bisphosphate carboxylase-oxygenase) catalyses the initial carbon fixation step of the Calvin cycle, attaching atmospheric CO2 to the five-carbon molecule RuBP; due to its essential role and widespread presence in photosynthetic organisms, it is often cited as the most abundant protein on Earth.",
+      "why_others_wrong": "ATP synthase is involved in generating ATP during the light reactions (and in cellular respiration), not the specific carbon-fixing enzyme of the Calvin cycle; DNA polymerase is involved in DNA replication, entirely unrelated to carbon fixation in photosynthesis; amylase is an enzyme involved in starch digestion, unrelated to the Calvin cycle's carbon fixation step.",
+      "concept_recap": "RuBisCO's dual carboxylase/oxygenase activity (it can also react with oxygen, leading to photorespiration) is an important consideration in understanding overall photosynthetic efficiency, particularly in hot, dry conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-031",
+    "question": "Which of the following best distinguishes C4 plants from C3 plants, in terms of their initial carbon fixation product?",
+    "options": [
+      "C3 plants initially fix CO2 into a four-carbon compound, while C4 plants fix it into a three-carbon compound",
+      "C4 plants initially fix CO2 into a four-carbon compound (like oxaloacetate), while C3 plants directly fix CO2 into the three-carbon compound (3-phosphoglycerate) via the standard Calvin cycle mechanism",
+      "There is no meaningful difference between C3 and C4 plants in terms of their carbon fixation biochemistry",
+      "Both C3 and C4 plants are entirely incapable of surviving in hot, dry conditions"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "C4 plants have an additional biochemical pathway that initially fixes CO2 into a four-carbon compound (such as oxaloacetate) before this is later processed further, ultimately feeding into the standard Calvin cycle; in contrast, C3 plants directly fix CO2 into the three-carbon compound 3-phosphoglycerate via the standard Calvin cycle mechanism, without this additional four-carbon intermediate step.",
+      "why_others_wrong": "The distinction is REVERSED in this option -- it is C4 (not C3) plants that use the four-carbon initial fixation pathway, while C3 (not C4) plants use the direct three-carbon pathway; there IS a very significant, well-documented biochemical difference between C3 and C4 photosynthetic pathways, contrary to there being no meaningful difference; C4 plants, in particular, often show notable adaptations that make them relatively MORE (not entirely incapable of) tolerant of hot, dry conditions compared to many C3 plants, given their more efficient CO2-concentrating mechanism under such conditions.",
+      "concept_recap": "This C4 pathway adaptation, seen in plants like maize and sugarcane, helps minimise photorespiration and improve photosynthetic efficiency, particularly advantageous in hot, high-light environments."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-032",
+    "question": "Which of the following best describes 'photorespiration,' a process that can reduce photosynthetic efficiency, particularly in C3 plants under hot, dry conditions?",
+    "options": [
+      "A beneficial process that always increases glucose production",
+      "A process in which RuBisCO reacts with oxygen instead of carbon dioxide, leading to the loss of previously fixed carbon and reduced net photosynthetic efficiency, particularly significant in C3 plants under conditions favouring high RuBisCO oxygenase activity",
+      "A process entirely unrelated to the enzyme RuBisCO",
+      "A process that only occurs in C4 plants, never in C3 plants"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Photorespiration occurs when RuBisCO's oxygenase activity causes it to react with oxygen instead of carbon dioxide (more likely under hot, dry conditions when stomata partially close, reducing internal CO2 while O2 remains relatively higher); this leads to the loss of previously fixed carbon and reduces net photosynthetic efficiency, being a particularly significant issue in C3 plants lacking the CO2-concentrating mechanisms found in C4 plants.",
+      "why_others_wrong": "Photorespiration is generally considered a somewhat WASTEFUL process (reducing, not increasing, net glucose production/photosynthetic efficiency), not a straightforwardly beneficial one; photorespiration has a very direct, defining relationship to RuBisCO (specifically its oxygenase activity), contrary to being unrelated to this enzyme; photorespiration is a MORE significant issue specifically in C3 plants (lacking C4 plants' CO2-concentrating mechanism that helps minimise this problem), not being exclusive to C4 plants -- if anything, the relationship described is essentially reversed.",
+      "concept_recap": "This photorespiration-related efficiency loss is one reason C4 plants often show superior productivity compared to C3 plants under hot, high-light, water-limited conditions where photorespiration would otherwise be more problematic."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-033",
+    "question": "Which of the following environmental factors is generally considered a limiting factor for the rate of photosynthesis, according to the concept of limiting factors in plant physiology?",
+    "options": [
+      "Light intensity, CO2 concentration, and temperature can each act as limiting factors, depending on which is in shortest supply relative to the plant's needs at a given time",
+      "Only light intensity can ever act as a limiting factor, with no role for CO2 or temperature",
+      "Photosynthesis rate is completely independent of all environmental factors",
+      "Limiting factors have no practical relevance to agricultural practices like greenhouse management"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "According to the concept of limiting factors (articulated by Blackman), the rate of photosynthesis at any given time is limited by whichever factor -- such as light intensity, CO2 concentration, or temperature -- is in shortest supply relative to the plant's needs; increasing that specific limiting factor can increase the photosynthetic rate, until another factor becomes newly limiting.",
+      "why_others_wrong": "Light intensity, CO2 concentration, and temperature can EACH act as a limiting factor depending on circumstances -- it is not the case that ONLY light intensity can ever play this limiting role; photosynthesis rate is very significantly, demonstrably DEPENDENT on various environmental factors (not being independent of them), which is precisely the basis of the limiting factors concept; the limiting factors concept has very significant, direct practical relevance to agricultural practices (like greenhouse management, where CO2 enrichment or supplemental lighting might be used to overcome a limiting factor), contrary to having no such relevance.",
+      "concept_recap": "This limiting factors principle is practically applied in controlled agricultural environments (like greenhouses), where growers might supplement CO2, light, or manage temperature to optimise photosynthetic rate and crop yield."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 13 (Photosynthesis)"
+  },
+  {
+    "id": "plant-034",
+    "question": "Which of the following best describes 'cellular respiration' in plants, as a metabolic process?",
+    "options": [
+      "The process of converting light energy into chemical energy",
+      "The process of breaking down organic molecules (like glucose) to release energy (as ATP), typically using oxygen, producing carbon dioxide and water as byproducts",
+      "A process that occurs only in animal cells, never in plant cells",
+      "A process identical in every respect to photosynthesis"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Cellular respiration in plants (as in other organisms) is the process of breaking down organic molecules, such as glucose, to release energy in the form of ATP, typically using oxygen (aerobic respiration) and producing carbon dioxide and water as byproducts.",
+      "why_others_wrong": "Converting light energy into chemical energy describes photosynthesis, essentially the reverse process from cellular respiration; cellular respiration occurs in BOTH plant and animal cells (indeed, in virtually all living cells requiring energy), not being restricted to animal cells alone; cellular respiration and photosynthesis are essentially opposite processes (breakdown vs. synthesis, energy release vs. energy capture), not being identical.",
+      "concept_recap": "Unlike photosynthesis, which only occurs in specific photosynthetic tissues/organisms, cellular respiration occurs continuously in virtually all living plant cells, providing the energy needed for ongoing cellular activities."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 14 (Respiration in Plants)"
+  },
+  {
+    "id": "plant-035",
+    "question": "Which of the following best describes 'glycolysis,' the initial stage of cellular respiration?",
+    "options": [
+      "A process that occurs within the mitochondria",
+      "The breakdown of glucose (a six-carbon molecule) into two molecules of pyruvate (a three-carbon molecule), occurring in the cytoplasm, with a net small yield of ATP",
+      "A process that requires oxygen to proceed at all",
+      "A process that produces carbon dioxide as its primary direct product"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Glycolysis is the initial stage of cellular respiration, occurring in the cytoplasm (not requiring oxygen for this specific stage), in which glucose (a six-carbon molecule) is broken down into two molecules of pyruvate (a three-carbon molecule), with a net small yield of ATP (and NADH) generated in the process.",
+      "why_others_wrong": "Glycolysis specifically occurs in the CYTOPLASM (not within the mitochondria, where later stages of aerobic respiration occur); glycolysis itself does NOT require oxygen to proceed (it is considered an anaerobic process at this specific stage, though its pyruvate products can be further processed aerobically or anaerobically depending on conditions); glycolysis's direct products are pyruvate, ATP, and NADH, not carbon dioxide as its primary direct product (CO2 is released at later stages of aerobic respiration).",
+      "concept_recap": "Since glycolysis itself doesn't require oxygen, it represents a common initial pathway shared by both aerobic respiration (if oxygen is subsequently available) and anaerobic fermentation pathways."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 14 (Respiration in Plants)"
+  },
+  {
+    "id": "plant-036",
+    "question": "Which of the following best describes 'fermentation,' as an anaerobic alternative to aerobic cellular respiration?",
+    "options": [
+      "A process that always produces more ATP than aerobic respiration",
+      "An anaerobic process in which pyruvate (from glycolysis) is converted into products like ethanol or lactic acid, regenerating NAD+ needed to sustain glycolysis, but without further significant ATP production beyond glycolysis itself",
+      "A process that requires abundant oxygen to occur",
+      "A process entirely unrelated to glycolysis"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Fermentation is an anaerobic process in which pyruvate (generated by glycolysis) is converted into products such as ethanol (alcoholic fermentation, common in yeast and some plant tissues under low oxygen) or lactic acid (lactic acid fermentation); this process regenerates the NAD+ needed to keep glycolysis running, but does not produce significant additional ATP beyond what glycolysis itself generates.",
+      "why_others_wrong": "Fermentation actually produces considerably LESS total ATP compared to complete aerobic respiration (since it lacks the additional ATP-generating stages of aerobic respiration like the Krebs cycle and oxidative phosphorylation), not more; fermentation is specifically an ANAEROBIC process, occurring in the ABSENCE (or severe limitation) of oxygen, not requiring abundant oxygen; fermentation has a very direct relationship to glycolysis, using its pyruvate product and helping sustain its continued operation by regenerating NAD+, contrary to being unrelated.",
+      "concept_recap": "This fermentation pathway allows some cells (like certain plant root cells under waterlogged, low-oxygen conditions) to continue generating at least some ATP via glycolysis, even when oxygen is severely limited."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 14 (Respiration in Plants)"
+  },
+  {
+    "id": "plant-037",
+    "question": "Which of the following best describes the 'Krebs cycle' (citric acid cycle), a key stage of aerobic cellular respiration?",
+    "options": [
+      "A cycle that occurs in the cytoplasm, not the mitochondria",
+      "A cycle occurring within the mitochondrial matrix, in which the breakdown products of pyruvate are further oxidised, releasing carbon dioxide and generating significant amounts of NADH and FADH2 (which will later be used to generate substantial ATP)",
+      "A cycle that produces glucose as its primary product",
+      "A cycle that has no relationship to oxygen or aerobic respiration"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The Krebs cycle occurs within the mitochondrial matrix, where the breakdown products of pyruvate (following its conversion to acetyl-CoA) are further oxidised through a cyclic series of reactions, releasing carbon dioxide as a byproduct and generating significant amounts of NADH and FADH2, which are subsequently used in the electron transport chain to generate substantial amounts of ATP.",
+      "why_others_wrong": "The Krebs cycle specifically occurs within the MITOCHONDRIA (specifically the mitochondrial matrix), not in the cytoplasm (where glycolysis, the earlier stage, occurs); the Krebs cycle breaks DOWN organic molecules (releasing CO2, generating NADH/FADH2), rather than producing glucose (which is synthesised during photosynthesis, an entirely different, essentially opposite process); the Krebs cycle is specifically part of AEROBIC respiration, with the NADH/FADH2 it generates ultimately requiring oxygen (as the final electron acceptor) in the subsequent electron transport chain, so it has a very direct relationship to aerobic metabolism.",
+      "concept_recap": "The Krebs cycle represents a central hub of cellular metabolism, since intermediates from this cycle can also feed into and draw from various other metabolic pathways, including amino acid and fatty acid metabolism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 14 (Respiration in Plants)"
+  },
+  {
+    "id": "plant-038",
+    "question": "Which of the following best describes the 'electron transport chain (ETC),' the final major stage of aerobic cellular respiration?",
+    "options": [
+      "A process occurring in the cytoplasm, unrelated to mitochondrial function",
+      "A series of protein complexes within the inner mitochondrial membrane that transfer electrons (from NADH/FADH2) through a series of redox reactions, ultimately using oxygen as the final electron acceptor, generating a proton gradient used to produce the majority of the cell's ATP via oxidative phosphorylation",
+      "A process that produces glucose directly",
+      "A process that generates no ATP whatsoever"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The electron transport chain consists of a series of protein complexes embedded within the inner mitochondrial membrane; these complexes transfer electrons (originally derived from NADH and FADH2) through a series of redox reactions, ultimately passing them to oxygen (the final electron acceptor, forming water); this electron transfer process generates a proton gradient across the inner mitochondrial membrane, which is then used by ATP synthase to produce the majority of the cell's ATP through oxidative phosphorylation.",
+      "why_others_wrong": "The electron transport chain specifically occurs within the INNER MITOCHONDRIAL MEMBRANE (a mitochondrial structure), not in the cytoplasm independent of mitochondrial function; the electron transport chain generates ATP (via oxidative phosphorylation) as part of cellular respiration, not glucose (glucose synthesis is a photosynthesis-related process, essentially the reverse of respiration); the electron transport chain is actually responsible for generating the LARGEST PROPORTION of the cell's total ATP yield from glucose breakdown, contrary to generating no ATP at all.",
+      "concept_recap": "This ETC-driven oxidative phosphorylation is responsible for the vast majority of ATP produced during aerobic cellular respiration, far exceeding the smaller ATP yields from glycolysis and the Krebs cycle alone."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 14 (Respiration in Plants)"
+  },
+  {
+    "id": "plant-039",
+    "question": "Which of the following best describes the overall difference in ATP yield between aerobic respiration and anaerobic fermentation, starting from the same amount of glucose?",
+    "options": [
+      "Anaerobic fermentation produces significantly more total ATP than complete aerobic respiration",
+      "Aerobic respiration produces significantly more total ATP than anaerobic fermentation, since it includes the additional Krebs cycle and electron transport chain stages beyond glycolysis alone",
+      "Aerobic respiration and anaerobic fermentation always produce exactly the same amount of ATP",
+      "ATP yield has no relationship to whether the pathway involves oxygen or not"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Aerobic respiration produces significantly more total ATP compared to anaerobic fermentation from the same starting amount of glucose, since aerobic respiration includes the additional Krebs cycle and electron transport chain stages (generating substantial additional ATP), beyond the more limited ATP yield of glycolysis alone that fermentation relies on.",
+      "why_others_wrong": "It is actually AEROBIC respiration (not anaerobic fermentation) that produces significantly MORE total ATP, given its additional ATP-generating stages beyond glycolysis; aerobic respiration and fermentation do NOT produce the same amount of ATP -- there is a very significant, well-documented difference favouring aerobic respiration's much higher yield; ATP yield has a very direct, significant relationship to whether oxygen is involved (aerobic pathways yielding substantially more ATP), contrary to having no such relationship.",
+      "concept_recap": "This substantial difference in ATP yield explains why aerobic respiration is generally the preferred metabolic pathway when oxygen is available, with anaerobic fermentation serving mainly as a less efficient backup option under low-oxygen conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 14 (Respiration in Plants)"
+  },
+  {
+    "id": "plant-040",
+    "question": "Which of the following best describes 'plant growth hormones' (phytohormones), as a category of plant signalling molecules?",
+    "options": [
+      "Hormones found only in animals, never in plants",
+      "Naturally occurring organic substances that, at low concentrations, regulate various aspects of plant growth, development, and responses to environmental stimuli",
+      "Substances that have no relationship to plant growth or development",
+      "A term synonymous with plant nutrients like nitrogen or potassium"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Plant growth hormones (phytohormones) are naturally occurring organic substances that, even at low concentrations, regulate various aspects of plant growth, development, and responses to environmental stimuli, coordinating processes throughout the plant.",
+      "why_others_wrong": "Plant hormones are specifically found IN PLANTS (as their name/category indicates), not being restricted to animals alone (animals have their own distinct hormone systems); plant hormones have a very direct, central, defining relationship to plant growth/development, contrary to having no relationship; plant hormones (phytohormones) and plant nutrients (like nitrogen/potassium, essential elements needed in bulk) are distinct categories -- hormones act as signalling molecules at low concentration, while nutrients are needed in larger quantities for structural/metabolic purposes, so the terms are not synonymous.",
+      "concept_recap": "The five classically recognised major groups of plant hormones are auxins, gibberellins, cytokinins, ethylene, and abscisic acid, each with characteristic roles in plant physiology."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-041",
+    "question": "Which of the following plant hormones is primarily associated with promoting cell elongation, particularly in stems, and is often associated with phototropism (bending toward light)?",
+    "options": [
+      "Abscisic acid",
+      "Auxin",
+      "Ethylene",
+      "Cytokinin"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Auxin is primarily associated with promoting cell elongation, particularly in stems, and plays a key role in phototropism, the directional bending of plant shoots toward a light source, due to its uneven distribution under light-influenced conditions.",
+      "why_others_wrong": "Abscisic acid is primarily associated with stress responses and promoting dormancy/stomatal closure, a different primary role from auxin's cell elongation/phototropism function; ethylene is primarily associated with fruit ripening and other specific developmental processes, a different primary role from auxin; cytokinin is primarily associated with promoting cell division, a different primary role from auxin's cell elongation emphasis.",
+      "concept_recap": "The classic experiments involving coleoptile bending toward light (by researchers like Darwin and later Went) were instrumental in the discovery and characterisation of auxin's role in phototropism."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-042",
+    "question": "Which of the following plant hormones is primarily associated with promoting cell division, and is often used in tissue culture to stimulate shoot formation?",
+    "options": [
+      "Auxin exclusively, with no role for other hormones",
+      "Cytokinin",
+      "Abscisic acid",
+      "Ethylene"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cytokinin is primarily associated with promoting cell division (cytokinesis), and is often used in plant tissue culture, particularly to stimulate shoot formation, frequently in combination with auxin to control the balance between root and shoot development.",
+      "why_others_wrong": "While auxin also plays important roles in plant development, it is specifically cytokinin that is most classically associated with promoting cell division itself; abscisic acid is primarily associated with stress responses/dormancy, not primarily cell division promotion; ethylene is primarily associated with fruit ripening/senescence, not primarily cell division promotion.",
+      "concept_recap": "The relative ratio of auxin to cytokinin in tissue culture media is a classic experimental variable used to control whether cultured plant tissue develops predominantly roots or shoots."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-043",
+    "question": "Which of the following plant hormones is primarily associated with promoting stem elongation (particularly in dwarf plant varieties) and breaking seed dormancy?",
+    "options": [
+      "Gibberellin",
+      "Abscisic acid",
+      "Ethylene exclusively",
+      "Cytokinin exclusively"
+    ],
+    "answer": "A",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Gibberellin is primarily associated with promoting stem elongation (notably able to restore normal height in genetically dwarf plant varieties when applied) and also plays a role in breaking seed dormancy, promoting germination.",
+      "why_others_wrong": "Abscisic acid generally has roles OPPOSING these effects (promoting dormancy rather than breaking it, and generally not promoting stem elongation in the same characteristic way), a different primary role from gibberellin; while ethylene has various roles, it is not the hormone most classically associated with these specific stem-elongation/dormancy-breaking effects in the way gibberellin is; cytokinin's primary association is with cell division, not these specific gibberellin-associated effects.",
+      "concept_recap": "The classic gibberellin-treated dwarf pea plant experiments (building on earlier genetic dwarfism studies) were instrumental in characterising this hormone's role in stem elongation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-044",
+    "question": "Which of the following plant hormones is primarily associated with promoting fruit ripening and is also involved in processes like leaf/flower senescence and abscission?",
+    "options": [
+      "Auxin exclusively",
+      "Ethylene",
+      "Gibberellin exclusively",
+      "Cytokinin exclusively"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Ethylene, notably a gaseous hormone (unlike the other major plant hormones), is primarily associated with promoting fruit ripening, and is also involved in processes such as leaf and flower senescence (aging) and abscission (the shedding of leaves, flowers, or fruits).",
+      "why_others_wrong": "While auxin has various other important roles, it is not the hormone most classically and directly associated with fruit ripening in the specific way ethylene is; gibberellin's primary associations are with stem elongation/seed germination, not primarily fruit ripening; cytokinin's primary association is with cell division, not primarily fruit ripening.",
+      "concept_recap": "This is why ripening fruits are sometimes stored separately from unripe produce, since ethylene released by ripening fruit can accelerate the ripening (and potential over-ripening/spoilage) of nearby produce."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-045",
+    "question": "Which of the following plant hormones is primarily associated with promoting stress responses, seed/bud dormancy, and stomatal closure during water-deficit conditions?",
+    "options": [
+      "Auxin",
+      "Abscisic acid (ABA)",
+      "Cytokinin",
+      "Gibberellin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Abscisic acid (ABA) is primarily associated with promoting plant stress responses, including seed and bud dormancy, and notably stomatal closure during water-deficit (drought) conditions, helping the plant conserve water.",
+      "why_others_wrong": "Auxin's primary associations are with cell elongation/phototropism, a different primary role from ABA's stress-response emphasis; cytokinin's primary association is with cell division, a different primary role from ABA; gibberellin's primary associations are with stem elongation/breaking dormancy, functions often opposing (rather than aligning with) ABA's dormancy-promoting, stress-response role.",
+      "concept_recap": "This stomatal closure response to ABA during water stress is a good example of hormonal signalling helping a plant rapidly adapt its physiology to challenging environmental conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-046",
+    "question": "Which of the following best describes 'phototropism,' as a plant growth response?",
+    "options": [
+      "The growth response of a plant part toward or away from gravity",
+      "The directional growth response of a plant part toward (or, in some cases, away from) a light source",
+      "A response entirely unrelated to any plant hormone",
+      "A response that only occurs in root tissue, never in shoots"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Phototropism is the directional growth response of a plant part -- typically stems growing toward a light source (positive phototropism) -- mediated significantly by the uneven distribution of auxin in response to directional light exposure.",
+      "why_others_wrong": "Growth response toward/away from gravity describes gravitropism (geotropism), a distinct tropic response from phototropism; phototropism has a very direct, well-established relationship to plant hormones (particularly auxin), contrary to being unrelated to any hormone; phototropism is classically and most prominently observed in SHOOT tissue (growing toward light), though some root responses to light also exist -- it is not restricted only to roots with no shoot involvement.",
+      "concept_recap": "This light-directed growth response helps plants optimise their positioning for capturing sunlight, essential for photosynthesis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-047",
+    "question": "Which of the following best describes 'gravitropism' (geotropism), as a plant growth response?",
+    "options": [
+      "The directional growth response of a plant part toward or away from light",
+      "The directional growth response of a plant part in relation to gravity, with roots typically showing positive gravitropism (growing toward gravity/downward) and shoots typically showing negative gravitropism (growing away from gravity/upward)",
+      "A response entirely unrelated to any plant hormone",
+      "A response identical in every respect to phototropism"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Gravitropism (geotropism) is the directional growth response of a plant part in relation to gravity; roots typically show positive gravitropism (growing downward, toward the direction of gravity), while shoots typically show negative gravitropism (growing upward, away from the direction of gravity).",
+      "why_others_wrong": "Directional growth response toward/away from light describes phototropism, a distinct tropic response from gravitropism; gravitropism has a very direct relationship to plant hormones (again, notably involving auxin redistribution), contrary to being unrelated to any hormone; gravitropism (responding to gravity) and phototropism (responding to light) are distinct tropic responses triggered by different stimuli, so they are not identical.",
+      "concept_recap": "This opposite gravitropic response pattern (roots down, shoots up) ensures that roots properly anchor and absorb water/nutrients from soil, while shoots grow upward to access light for photosynthesis."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-048",
+    "question": "Which of the following best describes 'seed dormancy,' as it relates to plant growth and development?",
+    "options": [
+      "A state in which a viable seed germinates immediately upon formation, with no dormancy period",
+      "A state in which a viable seed temporarily fails to germinate, even under otherwise favourable conditions, until certain internal or external requirements are met",
+      "A state that only occurs in dead, non-viable seeds",
+      "A concept unrelated to any plant hormones"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Seed dormancy is a state in which a viable seed temporarily fails to germinate, even under otherwise seemingly favourable environmental conditions, until certain specific internal (e.g., hormonal changes) or external (e.g., particular temperature/light exposure) requirements are met, helping ensure germination occurs at a biologically advantageous time.",
+      "why_others_wrong": "Many seeds specifically DO exhibit a dormancy period (rather than germinating immediately upon formation), which is precisely the phenomenon being described; seed dormancy specifically applies to VIABLE seeds (capable of germinating once dormancy requirements are met), not to dead, non-viable seeds which cannot germinate under any conditions; seed dormancy has a very direct relationship to plant hormones (notably involving the balance between dormancy-promoting abscisic acid and germination-promoting gibberellin), contrary to being unrelated to hormones.",
+      "concept_recap": "This dormancy mechanism can help ensure that seeds germinate under conditions more likely to support successful seedling establishment, such as after winter cold exposure or sufficient moisture availability."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-049",
+    "question": "Which of the following best describes 'active absorption' of mineral ions by plant roots, as distinct from passive uptake?",
+    "options": [
+      "The uptake of minerals requiring no energy expenditure whatsoever",
+      "The uptake of mineral ions against their concentration gradient, requiring metabolic energy (ATP), often via specific membrane transport proteins",
+      "A process that only occurs in leaves, never in roots",
+      "A process identical to simple diffusion"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Active absorption of mineral ions involves the uptake of ions against their concentration gradient (from lower to higher concentration), requiring metabolic energy (ATP) expenditure, typically mediated by specific membrane transport proteins embedded in root cell membranes.",
+      "why_others_wrong": "Active absorption specifically DOES require energy expenditure (ATP), which is precisely what distinguishes it from passive processes; active mineral absorption is a process primarily associated with ROOT cells (the main site of mineral uptake from soil), not occurring primarily in leaves; active absorption, by moving ions against their gradient using energy, is fundamentally different from simple diffusion (which is passive, moving down a gradient with no energy required).",
+      "concept_recap": "This active transport capability allows plant roots to accumulate essential mineral ions to concentrations higher than those present in the surrounding soil solution, which would be impossible through passive diffusion alone."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
+  },
+  {
+    "id": "plant-050",
+    "question": "Which of the following best describes 'mycorrhizae,' as a type of symbiotic association relevant to plant mineral nutrition?",
+    "options": [
+      "A harmful parasitic relationship between fungi and plant roots, with no benefit to the plant",
+      "A mutualistic symbiotic association between certain fungi and plant roots, in which the fungus helps enhance the plant's absorption of water and minerals (particularly phosphorus), while receiving carbohydrates from the plant in return",
+      "A term unrelated to any fungal association",
+      "A relationship found only in animals, never in plants"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Mycorrhizae represent a mutualistic symbiotic association between certain fungi and plant roots; the fungal component significantly enhances the plant's absorption of water and minerals (particularly phosphorus, often poorly available in soil), while the fungus receives carbohydrates produced by the plant in return.",
+      "why_others_wrong": "This is specifically a MUTUALISTIC (beneficial to both partners) relationship, not a harmful, one-sided parasitic one; the term 'mycorrhizae' specifically refers to this FUNGUS-root association (the name itself deriving from Greek roots for fungus and root), not being unrelated to fungi; mycorrhizal associations are specifically a PLANT-fungus phenomenon, not found in animals.",
+      "concept_recap": "This widespread mycorrhizal association is agriculturally and ecologically significant, since it can substantially improve plant nutrient uptake efficiency, particularly in nutrient-poor soils."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 12 (Mineral Nutrition)"
+  },
+  {
+    "id": "plant-051",
+    "question": "Which of the following best describes 'photoperiodism,' as it relates to plant flowering responses?",
+    "options": [
+      "A response of plants to gravity, unrelated to day length",
+      "The response of plants to the relative length of day and night, which can regulate the timing of flowering in many species (e.g., short-day plants, long-day plants)",
+      "A concept entirely unrelated to flowering",
+      "A response identical to phototropism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Photoperiodism refers to the response of plants to the relative length of day and night (photoperiod), which regulates the timing of flowering in many species; some plants (short-day plants) flower when day length is below a critical threshold, while others (long-day plants) flower when day length exceeds a critical threshold.",
+      "why_others_wrong": "Photoperiodism specifically concerns responses to DAY LENGTH/light-dark timing, not gravity (that would be gravitropism, a distinct concept); photoperiodism has a very direct, defining relationship to flowering timing in many plant species, contrary to being unrelated to flowering; photoperiodism (a flowering-timing response to day length) and phototropism (a directional growth response toward light) are distinct phenomena, not being identical.",
+      "concept_recap": "This photoperiodic flowering response allows many plant species to synchronise their flowering with appropriate seasonal conditions, often mediated by specific photoreceptor pigments sensitive to day length changes."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
+  },
+  {
+    "id": "plant-052",
+    "question": "Which of the following best describes 'vernalisation,' as it relates to certain plants' flowering requirements?",
+    "options": [
+      "A requirement for high temperature exposure to trigger flowering",
+      "A requirement for a period of exposure to low temperature (cold) to subsequently enable or promote flowering in certain plant species",
+      "A process entirely unrelated to flowering timing",
+      "A response identical to photoperiodism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Vernalisation refers to the requirement, in certain plant species, for a period of exposure to low temperature (cold) before the plant can subsequently flower normally; this ensures flowering is appropriately timed relative to a preceding cold season (like winter) in these species.",
+      "why_others_wrong": "Vernalisation specifically involves a requirement for LOW (cold) temperature exposure, not high temperature; vernalisation has a very direct, defining relationship to flowering timing in the plant species that require it, contrary to being unrelated; vernalisation (a cold-temperature-based flowering requirement) and photoperiodism (a day-length-based flowering response) are distinct phenomena, though both relate to flowering timing, so they are not identical concepts.",
+      "concept_recap": "This vernalisation requirement is agriculturally significant for certain crops (like some winter wheat varieties), which require a cold period to flower and produce grain properly the following season."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 15 (Plant Growth and Development)"
   }
 ]

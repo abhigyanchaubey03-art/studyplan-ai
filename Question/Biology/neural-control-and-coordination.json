@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "neuro-001",
+    "question": "Which of the following is the basic structural and functional unit of the nervous system?",
+    "options": [
+      "Nephron",
+      "Neuron",
+      "Sarcomere",
+      "Alveolus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The neuron is the basic structural and functional unit of the nervous system, specialised for receiving, processing, and transmitting electrical/chemical signals.",
+      "why_others_wrong": "A nephron is the functional unit of the kidney, unrelated to the nervous system; a sarcomere is the functional unit of muscle contraction, unrelated to the nervous system; an alveolus is the functional unit of gas exchange in the lungs, unrelated to the nervous system.",
+      "concept_recap": "Neurons are highly specialised cells, often possessing a unique, elongated structure well-suited to their signal transmission function over sometimes considerable distances."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-002",
+    "question": "Which part of a neuron contains the nucleus and most of the cell's organelles, serving as the metabolic centre of the cell?",
+    "options": [
+      "Axon",
+      "Cell body (soma)",
+      "Dendrite",
+      "Synaptic knob"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The cell body (soma) contains the nucleus and most of the neuron's organelles, serving as the metabolic centre responsible for maintaining the cell and synthesising necessary proteins.",
+      "why_others_wrong": "The axon is a long, slender projection specialised for conducting electrical signals away from the cell body, not the main site of the nucleus/organelles; dendrites are branching projections that receive incoming signals, not the primary site of the nucleus; the synaptic knob is a specialised terminal structure at the end of the axon, not the main metabolic centre.",
+      "concept_recap": "From this cell body, characteristic branching dendrites extend to receive signals, while typically a single axon extends to transmit signals onward."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-003",
+    "question": "Which part of a neuron typically receives incoming signals from other neurons?",
+    "options": [
+      "Axon",
+      "Dendrites",
+      "Myelin sheath",
+      "Node of Ranvier"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Dendrites are the branching, tree-like projections of a neuron that typically receive incoming signals from other neurons, conducting these signals toward the cell body.",
+      "why_others_wrong": "The axon typically conducts signals AWAY from the cell body toward other neurons/target cells, not primarily receiving incoming signals; the myelin sheath is an insulating covering around some axons, not the receiving structure; the node of Ranvier is a gap in the myelin sheath along an axon, not the receiving structure.",
+      "concept_recap": "The extensive branching of dendrites allows a single neuron to receive numerous inputs from many other neurons, integrating this information before generating its own response."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-004",
+    "question": "Which part of a neuron typically conducts electrical signals (nerve impulses) away from the cell body toward other neurons or target cells?",
+    "options": [
+      "Dendrites",
+      "Axon",
+      "Nucleus",
+      "Golgi apparatus"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The axon is the typically long, slender projection of a neuron that conducts electrical signals (nerve impulses) away from the cell body toward other neurons, muscles, or glands.",
+      "why_others_wrong": "Dendrites typically receive incoming signals TOWARD the cell body, the opposite direction from the axon's outgoing conduction; the nucleus contains genetic material and is part of the cell body, not the signal-conducting structure; the Golgi apparatus is an organelle involved in protein processing/packaging, not the signal-conducting structure.",
+      "concept_recap": "A single axon can vary enormously in length, from very short (within the brain) to over a metre long (e.g., neurons running from the spinal cord to the foot)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-005",
+    "question": "Which of the following best describes the 'myelin sheath,' surrounding many axons?",
+    "options": [
+      "A structure that slows down nerve impulse conduction",
+      "An insulating, fatty covering around many axons, formed by specialised glial cells, which significantly speeds up nerve impulse conduction",
+      "A structure found only in dendrites, never on axons",
+      "A structure with no relationship to nerve impulse conduction speed"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The myelin sheath is an insulating, fatty covering formed by specialised glial cells (Schwann cells in the peripheral nervous system, oligodendrocytes in the central nervous system) around many axons; this insulation significantly speeds up nerve impulse conduction through a mechanism called saltatory conduction.",
+      "why_others_wrong": "The myelin sheath specifically SPEEDS UP (not slows down) nerve impulse conduction; the myelin sheath specifically covers AXONS (not dendrites); the myelin sheath has a very direct, significant relationship to conduction speed, contrary to having none.",
+      "concept_recap": "Loss of myelin (demyelination), as seen in conditions like multiple sclerosis, can significantly impair normal nerve impulse conduction and neurological function."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-006",
+    "question": "Which of the following best describes 'saltatory conduction,' occurring along myelinated axons?",
+    "options": [
+      "The continuous, uninterrupted propagation of a nerve impulse along the entire length of an unmyelinated axon",
+      "The rapid 'jumping' of a nerve impulse from one node of Ranvier to the next along a myelinated axon, significantly speeding up conduction",
+      "A process that only occurs in unmyelinated neurons",
+      "A process that has no relationship to myelin"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Saltatory conduction refers to the rapid 'jumping' of a nerve impulse from one node of Ranvier (gap in the myelin sheath) to the next along a myelinated axon, since the impulse effectively skips over the insulated, myelinated segments, significantly speeding up overall conduction compared to continuous propagation.",
+      "why_others_wrong": "Continuous, uninterrupted propagation along the entire axon length describes the conduction pattern in UNMYELINATED axons, not the 'jumping' saltatory pattern specific to myelinated axons; saltatory conduction specifically occurs in MYELINATED (not unmyelinated) axons, given its dependence on nodes of Ranvier; saltatory conduction has a very direct, defining relationship to myelin (and its gaps, the nodes of Ranvier), contrary to having no relationship.",
+      "concept_recap": "This saltatory conduction mechanism explains why myelinated axons can conduct nerve impulses considerably faster than unmyelinated axons of similar diameter."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-007",
+    "question": "Which of the following are the small gaps in the myelin sheath along a myelinated axon, important for saltatory conduction?",
+    "options": [
+      "Synapses",
+      "Nodes of Ranvier",
+      "Dendritic spines",
+      "Axon hillocks"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Nodes of Ranvier are the small, periodic gaps in the myelin sheath along a myelinated axon, where the axon membrane is exposed; these nodes are essential for the rapid saltatory conduction of nerve impulses.",
+      "why_others_wrong": "Synapses are the junctions between neurons (or between a neuron and target cell), a distinct concept from these myelin sheath gaps; dendritic spines are small protrusions on dendrites, unrelated to the axon's myelin sheath gaps; the axon hillock is the region where the axon originates from the cell body, a distinct, single structure, not the repeated periodic gaps along the myelin sheath.",
+      "concept_recap": "The concentration of voltage-gated ion channels specifically at these nodes is what allows the nerve impulse to effectively 'regenerate' and jump rapidly from node to node."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-008",
+    "question": "Which of the following best describes the 'resting membrane potential' of a neuron, prior to any stimulation?",
+    "options": [
+      "A state in which the inside of the neuron is more positively charged than the outside",
+      "A stable, negative electrical potential difference across the neuron's membrane (typically around -70 mV), with the inside relatively negative compared to the outside",
+      "A state in which there is no electrical charge difference across the membrane at all",
+      "A potential that is identical to the electrical potential during an action potential"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The resting membrane potential is a stable, negative electrical potential difference across the neuron's membrane (typically around -70 millivolts), with the inside of the neuron relatively negative compared to the outside, maintained by ion concentration gradients and selective membrane permeability.",
+      "why_others_wrong": "At resting potential, the inside is relatively NEGATIVE (not more positive) compared to the outside; there is indeed a significant, measurable charge difference (potential difference) across the membrane at rest, contrary to there being no difference at all; the resting potential is quite different from (and much more stable/negative than) the rapidly changing potential seen during an action potential.",
+      "concept_recap": "This resting potential represents the neuron's baseline, 'ready to fire' state, established primarily through the action of the sodium-potassium pump and selective ion channel permeability."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-009",
+    "question": "Which ion pump is primarily responsible for maintaining the resting membrane potential by actively transporting sodium out of and potassium into the neuron?",
+    "options": [
+      "Calcium pump",
+      "Sodium-potassium pump (Na+/K+-ATPase)",
+      "Proton pump",
+      "Chloride pump"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The sodium-potassium pump (Na+/K+-ATPase) actively transports sodium ions out of the neuron and potassium ions into the neuron (against their concentration gradients, using ATP energy), playing a central role in establishing and maintaining the resting membrane potential.",
+      "why_others_wrong": "While calcium plays important roles in certain neuronal processes (like neurotransmitter release), it is not the primary pump maintaining the basic resting potential in this specific sodium/potassium context; a proton pump is not the primary ion transport mechanism responsible for the neuronal resting potential; a chloride pump is not the primary, defining ion transport mechanism for establishing the classic resting membrane potential.",
+      "concept_recap": "This pump's activity, requiring continuous ATP expenditure, exemplifies the significant metabolic energy cost of maintaining the neuron's excitable resting state."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-010",
+    "question": "Which of the following best describes an 'action potential,' as it relates to nerve impulse transmission?",
+    "options": [
+      "A permanent, unchanging electrical state of the neuron",
+      "A rapid, temporary reversal of the membrane potential (from negative to positive and back) that propagates along the axon, constituting the nerve impulse",
+      "A potential that only occurs at the synapse, never along the axon itself",
+      "A gradual, slow change in membrane potential occurring over several minutes"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "An action potential is a rapid, temporary reversal of the neuron's membrane potential -- from the negative resting state to a brief positive state and back to negative -- that propagates along the axon, constituting the electrical nerve impulse.",
+      "why_others_wrong": "An action potential is specifically a rapid, TEMPORARY change (not a permanent, unchanging state); the action potential specifically propagates ALONG the axon (not being confined only to the synapse); an action potential is a very RAPID event (occurring within milliseconds), not a gradual change occurring over several minutes.",
+      "concept_recap": "This rapid all-or-none electrical event is the fundamental unit of information transmission within the nervous system, encoding information largely through its frequency of occurrence."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-011",
+    "question": "Which of the following best describes the 'all-or-none' principle, as it applies to action potentials?",
+    "options": [
+      "An action potential can vary continuously in amplitude, depending on stimulus strength",
+      "Once a stimulus reaches the threshold required to trigger an action potential, the resulting action potential has a fixed, maximal amplitude, regardless of any further increase in stimulus strength beyond threshold",
+      "Action potentials never actually occur in real neurons",
+      "Stronger stimuli always produce action potentials with correspondingly larger amplitude"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "According to the all-or-none principle, once a stimulus reaches the threshold required to trigger an action potential, the resulting action potential has a fixed, maximal amplitude; further increasing the stimulus strength beyond this threshold does not produce a larger action potential -- the neuron either fires a full action potential or does not fire at all.",
+      "why_others_wrong": "Action potential AMPLITUDE does not vary continuously with stimulus strength -- once triggered, it is fixed/maximal (though stimulus strength CAN affect the FREQUENCY of action potentials); action potentials are a well-documented, extensively studied real neuronal phenomenon, contrary to never actually occurring; stronger stimuli do not produce larger-amplitude action potentials -- amplitude remains fixed once threshold is reached, though stronger stimuli can increase the FREQUENCY of firing.",
+      "concept_recap": "This all-or-none principle means that information about stimulus intensity is encoded by the FREQUENCY of action potentials, rather than by variations in their individual amplitude."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-012",
+    "question": "Which of the following best describes a 'synapse,' as it relates to communication between neurons?",
+    "options": [
+      "A junction between two neurons (or between a neuron and a target cell) where signal transmission occurs, either electrically or chemically",
+      "A structure found only within the cell body of a single neuron",
+      "A term synonymous with 'axon'",
+      "A structure with no role in nerve signal transmission"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "A synapse is the specialised junction between two neurons (or between a neuron and a target cell like a muscle or gland) where signal transmission occurs, either through direct electrical coupling or, more commonly, through chemical neurotransmitter release.",
+      "why_others_wrong": "A synapse is specifically a junction BETWEEN cells/structures, not something found within the cell body of a single neuron; a synapse (a junction between cells) and an axon (a signal-conducting projection of a single neuron) are distinct structures, not being synonymous; the synapse has a very significant, essential role in nerve signal transmission between cells, contrary to having no role.",
+      "concept_recap": "The vast majority of synapses in the nervous system are chemical synapses, relying on neurotransmitter release and reception, rather than direct electrical connections."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-013",
+    "question": "Which of the following best describes a 'chemical synapse,' the most common type of synapse in the nervous system?",
+    "options": [
+      "A synapse in which electrical current flows directly between two neurons through gap junctions",
+      "A synapse in which a presynaptic neuron releases neurotransmitter molecules that diffuse across a small gap (synaptic cleft) to bind receptors on a postsynaptic cell, triggering a response",
+      "A synapse found only in muscle tissue, never between neurons",
+      "A synapse that transmits signals in both directions equally"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "At a chemical synapse, the presynaptic neuron releases neurotransmitter molecules (stored in synaptic vesicles) that diffuse across a small gap (the synaptic cleft) to bind specific receptors on the postsynaptic cell membrane, triggering a response in that target cell.",
+      "why_others_wrong": "Direct electrical current flow through gap junctions describes an ELECTRICAL synapse, a different (much less common) type from the chemical synapse being described; chemical synapses occur extensively between neurons throughout the nervous system, not being limited to muscle tissue; chemical synapses are characteristically UNIDIRECTIONAL (signal flows from presynaptic to postsynaptic side), not transmitting equally in both directions.",
+      "concept_recap": "This chemical signalling mechanism, while slightly slower than direct electrical transmission, allows for considerable signal modulation, amplification, and integration at the synapse."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-014",
+    "question": "Which of the following best describes 'neurotransmitters,' as key molecules involved in synaptic transmission?",
+    "options": [
+      "Structural proteins that form the physical framework of a neuron",
+      "Chemical messenger molecules released by a presynaptic neuron that diffuse across the synaptic cleft to bind receptors on a postsynaptic cell, triggering a response",
+      "Molecules found only within the nucleus of a neuron",
+      "A term synonymous with 'hormones,' with no meaningful distinction"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Neurotransmitters are chemical messenger molecules released by a presynaptic neuron (upon arrival of an action potential) that diffuse across the synaptic cleft to bind specific receptors on a postsynaptic cell, triggering a response (either excitatory or inhibitory) in that target cell.",
+      "why_others_wrong": "Structural, cytoskeletal proteins provide the physical framework of a neuron, a distinct concept from the chemical signalling molecules called neurotransmitters; neurotransmitters are released at synapses (not confined within the nucleus); while neurotransmitters and hormones are both chemical messengers, they generally differ in their specific mode of action (localised synaptic release versus broader bloodstream distribution) and are conventionally treated as distinct categories, not being simply synonymous.",
+      "concept_recap": "Common neurotransmitters include acetylcholine, dopamine, serotonin, and GABA, each with characteristic effects and roles within different parts of the nervous system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-015",
+    "question": "Which of the following is a well-known neurotransmitter, notably used at neuromuscular junctions to trigger skeletal muscle contraction?",
+    "options": [
+      "Acetylcholine",
+      "Haemoglobin",
+      "Insulin",
+      "Collagen"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Acetylcholine is a well-known neurotransmitter released at neuromuscular junctions, where it binds receptors on skeletal muscle fibres, triggering muscle contraction.",
+      "why_others_wrong": "Haemoglobin is an oxygen-carrying protein in red blood cells, unrelated to synaptic neurotransmission; insulin is a hormone regulating blood glucose, not a synaptic neurotransmitter at neuromuscular junctions; collagen is a structural protein found in connective tissue, unrelated to neurotransmission.",
+      "concept_recap": "Acetylcholine also functions as an important neurotransmitter at various synapses within the central and autonomic nervous systems, beyond just the neuromuscular junction."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-016",
+    "question": "Which of the following best describes the role of calcium ions (Ca2+) in triggering neurotransmitter release at a chemical synapse?",
+    "options": [
+      "Calcium ions have no relationship to neurotransmitter release",
+      "The arrival of an action potential at the presynaptic terminal opens voltage-gated calcium channels, allowing calcium influx, which triggers synaptic vesicles to fuse with the presynaptic membrane and release neurotransmitter into the synaptic cleft",
+      "Calcium ions directly bind to postsynaptic receptors, without any role at the presynaptic terminal",
+      "Calcium ions prevent neurotransmitter release, acting as an inhibitory signal"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "When an action potential arrives at the presynaptic terminal, it opens voltage-gated calcium channels, allowing calcium ions to flow into the presynaptic neuron; this calcium influx triggers synaptic vesicles (containing neurotransmitter) to fuse with the presynaptic membrane and release their neurotransmitter contents into the synaptic cleft.",
+      "why_others_wrong": "Calcium ions have a very direct, essential, well-established role in triggering neurotransmitter release, contrary to having none; calcium's key role occurs specifically at the PRESYNAPTIC terminal (triggering vesicle fusion/release), not through direct binding to postsynaptic receptors; calcium influx specifically TRIGGERS (promotes), rather than prevents/inhibits, neurotransmitter release.",
+      "concept_recap": "This calcium-triggered vesicle fusion and neurotransmitter release mechanism is a fundamental, well-studied process underlying chemical synaptic transmission throughout the nervous system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-017",
+    "question": "Which of the following best describes what happens to neurotransmitter molecules after they have bound to postsynaptic receptors and triggered a response?",
+    "options": [
+      "They remain permanently bound to the receptor indefinitely, with no removal mechanism",
+      "They are typically removed from the synaptic cleft through mechanisms such as enzymatic breakdown, reuptake by the presynaptic neuron, or diffusion away, allowing the synapse to reset for future signalling",
+      "They are immediately converted into new neurons",
+      "They have no further fate after receptor binding, simply disappearing instantaneously with no mechanism"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "After triggering a postsynaptic response, neurotransmitter molecules are typically removed from the synaptic cleft through mechanisms such as enzymatic breakdown (e.g., acetylcholinesterase breaking down acetylcholine), reuptake back into the presynaptic neuron, or simple diffusion away from the synapse, allowing the synapse to reset and be ready for subsequent signalling events.",
+      "why_others_wrong": "Neurotransmitters do NOT remain permanently bound -- they are actively removed through specific mechanisms, allowing the synapse to reset; neurotransmitter molecules are chemical messengers, not converted into new neurons after their signalling role; neurotransmitter removal occurs through specific, well-characterised mechanisms (enzymatic breakdown, reuptake, diffusion), not through some undefined 'instantaneous disappearance' without mechanism.",
+      "concept_recap": "Many psychoactive drugs work by specifically interfering with these neurotransmitter removal mechanisms (e.g., blocking reuptake), thereby prolonging neurotransmitter action at the synapse."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-018",
+    "question": "Which of the following best describes the two main divisions of the human nervous system?",
+    "options": [
+      "Central nervous system and peripheral nervous system",
+      "Only the brain, with no other divisions",
+      "Sympathetic and parasympathetic nervous system only, with no other divisions",
+      "Only the spinal cord, with no other divisions"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The human nervous system is broadly divided into the central nervous system (brain and spinal cord) and the peripheral nervous system (nerves extending throughout the rest of the body).",
+      "why_others_wrong": "The brain alone represents only part of the central nervous system, not the complete overall division of the nervous system; sympathetic and parasympathetic divisions are subdivisions specifically of the autonomic nervous system (itself part of the peripheral nervous system), not the primary overall CNS/PNS division; the spinal cord alone represents only part of the central nervous system, not the complete overall division.",
+      "concept_recap": "This CNS/PNS framework provides the foundational organisational structure for understanding the overall architecture of the nervous system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-019",
+    "question": "Which of the following structures make up the central nervous system (CNS)?",
+    "options": [
+      "Brain and spinal cord",
+      "Only peripheral nerves",
+      "Only the autonomic nervous system",
+      "Only sensory receptors"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The central nervous system (CNS) consists of the brain and spinal cord, serving as the primary integration and control centre for processing information and coordinating responses.",
+      "why_others_wrong": "Peripheral nerves are part of the PERIPHERAL (not central) nervous system; the autonomic nervous system is a subdivision of the peripheral nervous system, not the CNS itself; sensory receptors are peripheral structures detecting stimuli, not part of the central brain/spinal cord structures.",
+      "concept_recap": "The brain and spinal cord are both protected by bone (skull and vertebral column respectively) and surrounding membranes (meninges), reflecting their critical importance."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-020",
+    "question": "Which of the following is the largest part of the human brain, responsible for higher cognitive functions such as reasoning, memory, and voluntary movement control?",
+    "options": [
+      "Cerebellum",
+      "Cerebrum",
+      "Medulla oblongata",
+      "Pons"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The cerebrum is the largest part of the human brain, responsible for higher cognitive functions including reasoning, memory, language, sensory perception, and voluntary movement control.",
+      "why_others_wrong": "The cerebellum primarily coordinates movement and balance, a more specific function than the cerebrum's broad higher cognitive role; the medulla oblongata controls basic vital functions (like breathing/heart rate), a more specific, lower-level function than the cerebrum's broad cognitive role; the pons is involved in relaying signals and some basic functions, again more specific/limited compared to the cerebrum's broad role.",
+      "concept_recap": "The cerebrum's outer layer, the cerebral cortex, is particularly associated with the most complex, distinctly human cognitive functions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-021",
+    "question": "Which part of the brain primarily coordinates voluntary muscle movement, balance, and posture?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Hypothalamus",
+      "Medulla oblongata"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The cerebellum primarily coordinates voluntary muscle movement, balance, and posture, fine-tuning motor commands to ensure smooth, coordinated movement.",
+      "why_others_wrong": "The cerebrum has broader, more general roles including higher cognition, though it does initiate voluntary movement -- but the specific fine coordination/balance role described is characteristic of the cerebellum; the hypothalamus primarily regulates homeostatic functions (like temperature, hunger) and links to the endocrine system, not primarily movement coordination; the medulla oblongata primarily controls basic vital functions (breathing, heart rate), not primarily voluntary movement coordination.",
+      "concept_recap": "Damage to the cerebellum can result in characteristic movement problems, including poor coordination (ataxia) and difficulty maintaining balance."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-022",
+    "question": "Which part of the brain contains the respiratory rhythm centre and cardiovascular centre, controlling basic vital involuntary functions like breathing and heart rate?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Corpus callosum"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The medulla oblongata, located in the brainstem, contains the respiratory rhythm centre and cardiovascular centre, controlling basic vital involuntary functions including breathing and heart rate regulation.",
+      "why_others_wrong": "The cerebrum is primarily associated with higher cognitive functions, not these basic vital involuntary regulatory centres; the cerebellum primarily coordinates movement/balance, not these vital involuntary functions; the corpus callosum is a bundle of fibres connecting the two cerebral hemispheres, not the site of these vital regulatory centres.",
+      "concept_recap": "Given its role controlling such fundamental vital functions, significant damage to the medulla oblongata can be immediately life-threatening."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-023",
+    "question": "Which part of the brain functions as a key link between the nervous and endocrine systems, regulating functions like body temperature, hunger, thirst, and secreting releasing hormones controlling the pituitary?",
+    "options": [
+      "Cerebellum",
+      "Hypothalamus",
+      "Medulla oblongata",
+      "Corpus callosum"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The hypothalamus serves as a crucial link between the nervous and endocrine systems, regulating homeostatic functions such as body temperature, hunger, and thirst, while also secreting releasing/inhibiting hormones that control the anterior pituitary gland.",
+      "why_others_wrong": "The cerebellum primarily coordinates movement/balance, not these homeostatic/endocrine-linking functions; the medulla oblongata controls basic vital functions like breathing/heart rate, a different, more specific set of functions from the hypothalamus's broader homeostatic/endocrine role; the corpus callosum is a fibre bundle connecting cerebral hemispheres, unrelated to these hypothalamic functions.",
+      "concept_recap": "This hypothalamus-pituitary connection exemplifies the important integration between the nervous system's rapid neural signalling and the endocrine system's broader hormonal regulation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-024",
+    "question": "Which of the following best describes the 'cerebral cortex,' the outer layer of the cerebrum?",
+    "options": [
+      "A smooth structure with no folding, found deep within the brain",
+      "The outer, highly folded layer of grey matter covering the cerebrum, associated with higher cognitive functions and containing a vast number of neuron cell bodies",
+      "A structure found only in the spinal cord",
+      "A structure with no relationship to sensory processing"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The cerebral cortex is the outer, highly folded layer of grey matter covering the cerebrum; this extensive folding increases surface area, and the cortex contains a vast number of neuron cell bodies, being particularly associated with higher cognitive functions including sensory processing, reasoning, and voluntary motor control.",
+      "why_others_wrong": "The cerebral cortex is characteristically HIGHLY FOLDED (not smooth), which is precisely a feature that increases its surface area; the cerebral cortex is located at the OUTER surface of the cerebrum (not deep within), which is part of its defining anatomical description; the cerebral cortex has a very significant, well-established relationship to sensory processing (among other functions), contrary to having no such relationship.",
+      "concept_recap": "This folding pattern (gyri, the ridges, and sulci, the grooves) allows for a much greater cortical surface area, and thus greater neuronal capacity, to fit within the confined space of the skull."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-025",
+    "question": "Which of the following best describes the primary function of the spinal cord, beyond simply transmitting signals between the brain and the rest of the body?",
+    "options": [
+      "The spinal cord has no independent function, serving only as a passive signal-transmission cable",
+      "The spinal cord also serves as the centre for many reflex actions, allowing rapid responses to certain stimuli without requiring direct, immediate brain involvement",
+      "The spinal cord is responsible for all higher cognitive functions, more so than the brain",
+      "The spinal cord has no relationship to reflexes"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Beyond transmitting signals between the brain and the rest of the body, the spinal cord also serves as an important centre for many reflex actions, allowing for rapid, protective responses to certain stimuli (like touching something painfully hot) without requiring the signal to first travel all the way to the brain and back.",
+      "why_others_wrong": "The spinal cord does have this additional, independent reflex-centre function, contrary to serving only as a passive transmission cable with no independent function; higher cognitive functions are primarily associated with the BRAIN (particularly the cerebral cortex), not the spinal cord; the spinal cord has a very direct, well-established relationship to reflex actions, contrary to having no such relationship.",
+      "concept_recap": "This spinal reflex mechanism allows for notably faster protective responses compared to reactions that would require full brain processing and response initiation."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-026",
+    "question": "Which of the following best describes a 'reflex arc,' as it relates to spinal cord-mediated reflex actions?",
+    "options": [
+      "A pathway involving only the brain, with no spinal cord involvement",
+      "The neural pathway involved in a reflex action, typically including a sensory receptor, sensory neuron, integration centre (often in the spinal cord), motor neuron, and effector (muscle/gland)",
+      "A pathway that requires conscious thought and decision-making at every step",
+      "A pathway found only in plants, never in animals"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "A reflex arc is the specific neural pathway involved in a reflex action, typically consisting of a sensory receptor (detecting the stimulus), a sensory neuron (carrying the signal to the CNS), an integration centre (often within the spinal cord, processing the signal), a motor neuron (carrying the response signal), and an effector (a muscle or gland that carries out the response).",
+      "why_others_wrong": "A reflex arc often specifically involves the SPINAL CORD (not exclusively the brain) as its key integration centre, allowing for rapid, more localised processing; a reflex arc is specifically characterised by its RAPID, largely automatic/involuntary nature, NOT requiring conscious thought/decision-making at each step (that is precisely what makes it fast); reflex arcs are a characteristic feature of animal nervous systems, not found in plants (which lack a comparable nervous system).",
+      "concept_recap": "The knee-jerk reflex is a classic, frequently cited example illustrating this reflex arc pathway, demonstrating a rapid, spinal-cord-mediated response without requiring conscious brain processing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-027",
+    "question": "Which of the following makes up the peripheral nervous system (PNS)?",
+    "options": [
+      "Only the brain",
+      "Only the spinal cord",
+      "Nerves extending outside the brain and spinal cord, connecting the CNS to the rest of the body",
+      "Only the cerebral cortex"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The peripheral nervous system (PNS) consists of nerves extending outside the brain and spinal cord (the CNS), connecting the central nervous system to sensory receptors, muscles, and glands throughout the rest of the body.",
+      "why_others_wrong": "The brain alone is part of the CENTRAL (not peripheral) nervous system; the spinal cord alone is also part of the CENTRAL nervous system, not the peripheral system; the cerebral cortex is a structure within the brain (central nervous system), not part of the peripheral nervous system.",
+      "concept_recap": "The PNS is further subdivided into the somatic nervous system (voluntary control) and the autonomic nervous system (involuntary control), each serving distinct functional roles."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-028",
+    "question": "Which of the following best describes the 'somatic nervous system,' as a division of the peripheral nervous system?",
+    "options": [
+      "A division controlling involuntary functions like heart rate and digestion",
+      "A division primarily controlling voluntary movements of skeletal muscles",
+      "A division found only in the central nervous system, not the peripheral nervous system",
+      "A division with no relationship to skeletal muscle control"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The somatic nervous system is a division of the peripheral nervous system primarily responsible for controlling voluntary movements of skeletal muscles, allowing conscious control over actions like walking or reaching.",
+      "why_others_wrong": "Involuntary functions like heart rate and digestion are primarily controlled by the AUTONOMIC (not somatic) nervous system, a different PNS division; the somatic nervous system is specifically part of the PERIPHERAL (not central) nervous system; the somatic nervous system has a very direct, defining relationship to skeletal muscle control, contrary to having no such relationship.",
+      "concept_recap": "This voluntary control characteristic distinguishes the somatic nervous system from the involuntary control exercised by the autonomic nervous system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-029",
+    "question": "Which of the following best describes the 'autonomic nervous system,' as a division of the peripheral nervous system?",
+    "options": [
+      "A division controlling only voluntary skeletal muscle movements",
+      "A division primarily controlling involuntary functions of internal organs, such as heart rate, digestion, and glandular secretion",
+      "A division found only within the brain, not extending to the peripheral nervous system",
+      "A division with no further subdivisions"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The autonomic nervous system is a division of the peripheral nervous system primarily responsible for controlling involuntary functions of internal organs, including heart rate, digestive processes, and glandular secretions, generally operating without conscious control.",
+      "why_others_wrong": "Voluntary skeletal muscle movement control is primarily the role of the SOMATIC (not autonomic) nervous system, a different PNS division; the autonomic nervous system is specifically part of the PERIPHERAL nervous system (extending throughout the body via peripheral nerves), not confined only to the brain; the autonomic nervous system does have important further subdivisions (sympathetic and parasympathetic), contrary to having none.",
+      "concept_recap": "This involuntary control characteristic allows the autonomic nervous system to continuously regulate essential internal bodily functions without requiring conscious attention or effort."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-030",
+    "question": "Which of the following best describes the 'sympathetic nervous system,' as a subdivision of the autonomic nervous system?",
+    "options": [
+      "A division that generally promotes 'rest and digest' functions",
+      "A division generally associated with the 'fight or flight' response, preparing the body for action during stress by increasing heart rate and redirecting blood flow to muscles",
+      "A division found only in the central nervous system",
+      "A division with no relationship to stress responses"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The sympathetic nervous system is generally associated with the 'fight or flight' response, preparing the body for action during stress or perceived danger by increasing heart rate, dilating airways, and redirecting blood flow toward skeletal muscles.",
+      "why_others_wrong": "'Rest and digest' functions are generally associated with the PARASYMPATHETIC (not sympathetic) division, the opposing autonomic subdivision; the sympathetic nervous system is specifically part of the peripheral (autonomic) nervous system, not confined to the central nervous system; the sympathetic nervous system has a very direct, defining relationship to stress/emergency responses, contrary to having no such relationship.",
+      "concept_recap": "This sympathetic activation, mobilising the body's resources for rapid action, exemplifies how the autonomic nervous system can dramatically and rapidly alter internal organ function in response to perceived threats."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-031",
+    "question": "Which of the following best describes the 'parasympathetic nervous system,' as the counterpart subdivision to the sympathetic nervous system?",
+    "options": [
+      "A division generally associated with 'fight or flight' responses",
+      "A division generally promoting 'rest and digest' functions, such as slowing heart rate and promoting digestive activity during calm, non-stressful conditions",
+      "A division that always works in perfect synchrony with the sympathetic system, never opposing it",
+      "A division found only in the somatic nervous system"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The parasympathetic nervous system generally promotes 'rest and digest' functions, such as slowing heart rate and promoting digestive activity, predominating during calm, non-stressful conditions, functioning largely in opposition to the sympathetic system's 'fight or flight' activation.",
+      "why_others_wrong": "'Fight or flight' responses are generally associated with the SYMPATHETIC (not parasympathetic) division, the opposing autonomic subdivision; the parasympathetic and sympathetic systems generally have OPPOSING (antagonistic) effects on many organs, rather than always working in perfect synchrony without opposition; the parasympathetic nervous system is specifically part of the AUTONOMIC (not somatic) nervous system.",
+      "concept_recap": "This antagonistic sympathetic-parasympathetic relationship allows for finely balanced, dynamic regulation of internal organ function according to the body's current physiological needs (stress versus calm/rest states)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-032",
+    "question": "Which of the following would be an expected effect of sympathetic nervous system activation on heart rate and digestive activity?",
+    "options": [
+      "Decreased heart rate and increased digestive activity",
+      "Increased heart rate and decreased digestive activity",
+      "No change in either heart rate or digestive activity",
+      "Decreased heart rate and decreased digestive activity, with no change in either direction being significant"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Sympathetic nervous system activation typically increases heart rate (preparing for action) while decreasing digestive activity (redirecting resources away from non-urgent processes like digestion during a perceived emergency).",
+      "why_others_wrong": "Decreased heart rate and increased digestive activity describes the opposite pattern, more characteristic of PARASYMPATHETIC (not sympathetic) activation; sympathetic activation produces very significant, well-documented changes in both heart rate and digestive activity, contrary to no change occurring; the described pattern (increased heart rate, decreased digestion) represents genuinely significant changes in both parameters, not an absence of significant change in either direction.",
+      "concept_recap": "This combination of effects -- boosting cardiovascular readiness while suppressing digestion -- reflects the sympathetic nervous system's overall function of preparing the body for immediate physical action during perceived threats."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-033",
+    "question": "Which of the following is the transparent, dome-shaped outer layer at the front of the eye, responsible for most of the eye's light refraction?",
+    "options": [
+      "Retina",
+      "Cornea",
+      "Iris",
+      "Sclera"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The cornea is the transparent, dome-shaped outer layer at the front of the eye, responsible for the majority of the eye's light refraction (bending) as light enters.",
+      "why_others_wrong": "The retina is the light-sensitive layer at the back of the eye, not the front refractive structure; the iris is the coloured, muscular ring controlling pupil size, not the primary refractive structure; the sclera is the tough, white outer covering of the eye, not the transparent front refractive layer.",
+      "concept_recap": "Unlike the lens (which can change shape for fine focus adjustment), the cornea's refractive power is essentially fixed, providing the majority of the eye's overall focusing power."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-034",
+    "question": "Which of the following is the coloured, muscular ring structure that controls the size of the pupil, regulating how much light enters the eye?",
+    "options": [
+      "Cornea",
+      "Iris",
+      "Retina",
+      "Optic nerve"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The iris is the coloured, muscular ring structure surrounding the pupil that controls pupil size, regulating the amount of light entering the eye by contracting or relaxing.",
+      "why_others_wrong": "The cornea is the transparent front refractive layer, not the pupil-size-controlling structure; the retina is the light-sensitive layer at the back of the eye, not the iris; the optic nerve transmits visual signals to the brain, not controlling pupil size.",
+      "concept_recap": "The iris's ability to adjust pupil size (constricting in bright light, dilating in dim light) helps optimise the amount of light reaching the retina under varying conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-035",
+    "question": "Which of the following is the light-sensitive layer at the back of the eye, containing photoreceptor cells (rods and cones)?",
+    "options": [
+      "Cornea",
+      "Iris",
+      "Retina",
+      "Sclera"
+    ],
+    "answer": "C",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The retina is the light-sensitive layer lining the back of the eye, containing the photoreceptor cells (rods and cones) that detect light and initiate the visual signalling process.",
+      "why_others_wrong": "The cornea is the transparent front refractive layer, not the light-sensitive photoreceptor-containing layer; the iris controls pupil size, not light detection itself; the sclera is the tough outer white covering of the eye, not the light-sensitive inner layer.",
+      "concept_recap": "The retina's photoreceptors convert light energy into electrical/chemical signals, which are then transmitted via the optic nerve toward the brain for visual processing."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-036",
+    "question": "Which of the following photoreceptor cells in the retina are primarily responsible for vision in dim light (night vision) and are not involved in colour perception?",
+    "options": [
+      "Cones",
+      "Rods",
+      "Bipolar cells",
+      "Ganglion cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Rods are photoreceptor cells in the retina that are highly sensitive to low light levels, primarily responsible for vision in dim light (night vision), but are not involved in distinguishing colour.",
+      "why_others_wrong": "Cones are responsible for colour vision and function best in bright light, a different role from the dim-light-specialised rods; bipolar cells are intermediate retinal neurons relaying signals from photoreceptors, not themselves the primary light-detecting photoreceptors; ganglion cells are retinal neurons whose axons form the optic nerve, not the primary photoreceptors themselves.",
+      "concept_recap": "The much greater sensitivity of rods compared to cones explains why human vision in very dim light is essentially colourless (rod-dominated), while colour vision requires brighter light conditions favouring cone activity."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-037",
+    "question": "Which of the following photoreceptor cells in the retina are responsible for colour vision and function best in bright light conditions?",
+    "options": [
+      "Rods",
+      "Cones",
+      "Horizontal cells",
+      "Amacrine cells"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Cones are photoreceptor cells in the retina responsible for colour vision, functioning best under bright light conditions; humans typically have three types of cones, each maximally sensitive to different wavelengths of light, together enabling colour perception.",
+      "why_others_wrong": "Rods are responsible for dim-light (night) vision and do not contribute to colour perception, a different role from cones; horizontal cells are intermediate retinal neurons involved in lateral signal processing, not the primary colour-detecting photoreceptors; amacrine cells are also intermediate retinal neurons, not the primary photoreceptors themselves.",
+      "concept_recap": "The three cone types (often referred to as sensitive to 'red,' 'green,' and 'blue' wavelengths) work together, with their relative activation patterns, to enable the rich colour perception characteristic of human vision."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-038",
+    "question": "Which of the following describes the 'blind spot' of the eye?",
+    "options": [
+      "The point of sharpest, most detailed vision",
+      "The point where the optic nerve exits the eye, lacking photoreceptor cells and therefore insensitive to light",
+      "A structure found only in individuals with visual impairment, never in normal healthy eyes",
+      "A term with no relationship to retinal anatomy"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The blind spot is the specific point on the retina where the optic nerve exits the eye; since this region lacks photoreceptor cells, it is insensitive to light, creating a small 'gap' in the visual field that is normally not consciously noticed due to various compensatory mechanisms.",
+      "why_others_wrong": "The point of sharpest vision is the fovea (a region densely packed with cones), the opposite of the photoreceptor-lacking blind spot; the blind spot is a NORMAL anatomical feature present in all healthy human eyes (due to the necessary optic nerve exit point), not something found only in visually impaired individuals; the blind spot has a very direct, defining relationship to retinal anatomy (specifically the optic nerve exit point), contrary to having no such relationship.",
+      "concept_recap": "The brain's remarkable ability to 'fill in' this blind spot region (using information from the other eye and surrounding visual context) explains why we don't normally perceive this gap in our everyday visual experience."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-039",
+    "question": "Which of the following describes the 'fovea,' a specific region of the retina?",
+    "options": [
+      "The region where the optic nerve exits the eye, lacking photoreceptors",
+      "A small central region of the retina densely packed with cone cells, providing the sharpest, most detailed central vision",
+      "A structure found only in the cornea, not the retina",
+      "A region with no particular significance for visual acuity"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The fovea is a small central region of the retina densely packed with cone cells (and notably lacking overlying blood vessels/other retinal layers that could obstruct light), providing the sharpest, most detailed central vision.",
+      "why_others_wrong": "The optic-nerve exit point lacking photoreceptors describes the blind spot, essentially the OPPOSITE region from the photoreceptor-dense fovea; the fovea is specifically a region of the RETINA (not the cornea, a different eye structure); the fovea has very significant, defining significance for visual acuity (providing the sharpest vision), contrary to having no particular significance.",
+      "concept_recap": "This is why we naturally move our eyes to direct the fovea toward objects we want to see in the greatest detail, such as when reading text."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-040",
+    "question": "Which of the following best describes the role of the lens in the eye, working alongside the cornea?",
+    "options": [
+      "The lens has no role in focusing light",
+      "The lens can change shape (via ciliary muscle action) to fine-tune focus for objects at different distances, complementing the cornea's fixed refractive contribution",
+      "The lens is responsible for detecting colour, not focusing",
+      "The lens is located at the very back of the eye, behind the retina"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The lens, through the action of surrounding ciliary muscles that adjust its shape (a process called accommodation), fine-tunes the eye's focus for objects at different distances, complementing the cornea's larger but fixed refractive contribution.",
+      "why_others_wrong": "The lens has a very significant, well-established role in fine-tuning focus, contrary to having none; colour detection is the role of retinal cone cells, not the lens itself, which is a refractive (focusing) structure; the lens is located toward the FRONT of the eye (behind the iris/pupil, in front of the vitreous humor and retina), not at the very back behind the retina.",
+      "concept_recap": "This lens-based accommodation mechanism allows the eye to maintain clear focus on objects across a range of distances, a capability that typically diminishes with age (presbyopia)."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-041",
+    "question": "Which of the following is the visible, outer part of the ear that helps collect and direct sound waves into the ear canal?",
+    "options": [
+      "Cochlea",
+      "Pinna (auricle)",
+      "Ossicles",
+      "Semicircular canals"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The pinna (auricle) is the visible, outer part of the ear that helps collect sound waves from the environment and direct them into the ear canal toward the eardrum.",
+      "why_others_wrong": "The cochlea is a spiral structure within the inner ear responsible for converting sound vibrations into neural signals, not the outer sound-collecting structure; the ossicles are tiny middle ear bones that transmit vibrations, not the outer sound-collecting structure; the semicircular canals are inner ear structures involved in balance, not sound collection.",
+      "concept_recap": "The specific shape of the pinna also helps with sound localisation, assisting in determining the direction from which sounds originate."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-042",
+    "question": "Which of the following describes the three tiny bones (ossicles) found in the middle ear, which transmit and amplify vibrations from the eardrum to the inner ear?",
+    "options": [
+      "Cochlea, vestibule, semicircular canals",
+      "Malleus, incus, and stapes",
+      "Pinna, tragus, and lobule",
+      "Utricle, saccule, and ampulla"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The malleus, incus, and stapes are the three tiny bones (ossicles) of the middle ear that mechanically transmit and amplify vibrations from the eardrum (tympanic membrane) to the inner ear (oval window).",
+      "why_others_wrong": "The cochlea, vestibule, and semicircular canals are inner ear structures, not the middle ear ossicles; the pinna, tragus, and lobule are parts of the outer ear, not the middle ear ossicles; the utricle, saccule, and ampulla are inner ear structures related to balance, not the middle ear ossicles.",
+      "concept_recap": "This chain of three small bones provides significant mechanical amplification of sound vibrations as they pass from the relatively large eardrum to the much smaller oval window of the inner ear."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-043",
+    "question": "Which of the following is the spiral-shaped structure in the inner ear responsible for converting sound vibrations into neural signals for hearing?",
+    "options": [
+      "Semicircular canals",
+      "Cochlea",
+      "Pinna",
+      "Eustachian tube"
+    ],
+    "answer": "B",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "The cochlea is the spiral-shaped, fluid-filled structure in the inner ear responsible for converting mechanical sound vibrations into electrical/neural signals that can be transmitted to the brain for auditory processing.",
+      "why_others_wrong": "The semicircular canals are inner ear structures involved in detecting rotational movement/balance, not sound-to-neural signal conversion; the pinna is the outer ear structure collecting sound, not the inner ear structure converting it to neural signals; the Eustachian tube connects the middle ear to the throat (equalising pressure), not converting sound to neural signals.",
+      "concept_recap": "Hair cells within the cochlea, when bent by fluid movement generated by sound vibrations, generate the neural signals that travel via the auditory nerve to the brain."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-044",
+    "question": "Which of the following inner ear structures are primarily responsible for detecting rotational movement of the head, contributing to the sense of balance?",
+    "options": [
+      "Cochlea",
+      "Semicircular canals",
+      "Malleus",
+      "Pinna"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The semicircular canals, three fluid-filled loops oriented in different planes within the inner ear, are primarily responsible for detecting rotational movement of the head, contributing significantly to the overall sense of balance and spatial orientation.",
+      "why_others_wrong": "The cochlea is primarily responsible for hearing (converting sound to neural signals), not detecting rotational movement; the malleus is a middle ear bone involved in sound transmission, not balance/rotational detection; the pinna is the outer ear structure collecting sound, unrelated to detecting rotational movement.",
+      "concept_recap": "Disruption to normal semicircular canal function can result in symptoms like dizziness or vertigo, reflecting their important role in maintaining normal balance perception."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-045",
+    "question": "Which of the following best explains why local anaesthetics (such as those used at the dentist) are effective at blocking pain sensation in a specific area?",
+    "options": [
+      "Local anaesthetics have no relationship to nerve impulse transmission",
+      "Local anaesthetics typically block voltage-gated sodium channels in neurons, preventing the generation and propagation of action potentials along nerve fibres in the treated area, thereby blocking pain signal transmission to the brain",
+      "Local anaesthetics work by permanently destroying all nerve cells in the treated area",
+      "Local anaesthetics have no relationship to sodium channel function"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Local anaesthetics typically work by blocking voltage-gated sodium channels in neuron membranes, preventing the influx of sodium ions needed to generate and propagate action potentials along nerve fibres in the treated area; this blocks the transmission of pain signals to the brain, producing localised numbness.",
+      "why_others_wrong": "Local anaesthetics have a very direct, well-established relationship to nerve impulse transmission (specifically blocking it), contrary to having none; local anaesthetics produce a TEMPORARY, reversible blockade of nerve signalling, not permanent destruction of nerve cells; local anaesthetics have a very direct, defining relationship to sodium channel function (blocking these specific channels), contrary to having no such relationship.",
+      "concept_recap": "This sodium-channel-blocking mechanism explains why local anaesthetic effects are temporary and reversible, wearing off as the drug gradually diffuses away and channel function returns to normal."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-046",
+    "question": "Which of the following would be the most likely immediate consequence of a toxin that specifically and completely blocks voltage-gated sodium channels throughout the nervous system?",
+    "options": [
+      "Enhanced, faster nerve impulse transmission throughout the body",
+      "Severe impairment or complete failure of nerve impulse (action potential) generation and transmission, potentially life-threatening if affecting vital functions like breathing",
+      "No significant effect on nervous system function",
+      "Only sensory neurons would be affected, with motor neurons remaining completely unaffected"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since voltage-gated sodium channels are essential for generating and propagating action potentials, a toxin that completely blocks these channels throughout the nervous system would severely impair or completely prevent normal nerve impulse transmission, potentially causing life-threatening paralysis, including of muscles required for breathing.",
+      "why_others_wrong": "Complete sodium channel blockade would severely IMPAIR (not enhance) nerve impulse transmission, since these channels are essential for action potential generation; a toxin completely blocking these essential channels would have a very significant, potentially life-threatening effect on nervous system function, contrary to having no significant effect; sodium channels are essential for action potentials in BOTH sensory and motor neurons (and others), so both types would be significantly affected, not just sensory neurons alone.",
+      "concept_recap": "This scenario reflects the real, serious danger posed by certain naturally occurring toxins (like tetrodotoxin from certain pufferfish) that specifically target and block these critical sodium channels."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-047",
+    "question": "Which of the following best explains why damage to the myelin sheath (demyelination), as occurs in conditions like multiple sclerosis, can cause significant neurological symptoms?",
+    "options": [
+      "Myelin has no relationship to nerve impulse conduction speed or efficiency",
+      "Demyelination disrupts the normal saltatory conduction mechanism, significantly slowing (or potentially blocking) nerve impulse transmission along affected axons, impairing normal neural communication and function",
+      "Demyelination always speeds up nerve impulse conduction beyond normal levels",
+      "Myelin damage has no relationship to any neurological symptoms"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Since myelin is essential for the normal saltatory conduction mechanism that enables fast, efficient nerve impulse transmission, demyelination disrupts this mechanism, significantly slowing (or in severe cases, potentially blocking) nerve impulse transmission along affected axons; this impaired neural communication underlies many of the significant neurological symptoms seen in demyelinating conditions like multiple sclerosis.",
+      "why_others_wrong": "Myelin has a very direct, essential relationship to nerve impulse conduction speed/efficiency, contrary to having none; demyelination specifically SLOWS (or can block), rather than speeds up, nerve impulse conduction, given the loss of the normal saltatory conduction advantage; myelin damage has a very direct, well-documented relationship to significant neurological symptoms, contrary to having no such relationship.",
+      "concept_recap": "Understanding this myelin-conduction relationship is fundamental to understanding the pathophysiology and resulting symptoms of various demyelinating neurological conditions."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-048",
+    "question": "Which of the following best describes 'polarisation' of a resting neuron's membrane?",
+    "options": [
+      "A state in which there is no charge difference across the membrane",
+      "The state in which the inside of the neuron is negatively charged relative to the outside, characteristic of the resting membrane potential",
+      "A state that only occurs during an action potential, never at rest",
+      "A term unrelated to membrane potential"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Polarisation refers to the state in which the inside of a resting neuron is negatively charged relative to the outside, reflecting the normal resting membrane potential maintained by ion gradients and selective permeability.",
+      "why_others_wrong": "A polarised membrane specifically HAS a significant charge difference, contrary to having none; polarisation specifically describes the RESTING state, distinct from the changes (depolarisation, repolarisation) occurring during an action potential; polarisation is directly defined in terms of membrane potential, not being unrelated to it.",
+      "concept_recap": "This resting polarised state is the baseline from which depolarisation (during an action potential) and subsequent repolarisation occur."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-049",
+    "question": "Which of the following best describes 'depolarisation' of a neuron's membrane during an action potential?",
+    "options": [
+      "A further increase in the resting negative charge inside the neuron",
+      "A rapid change in membrane potential in which the inside of the neuron becomes less negative (and then positive), typically due to an influx of sodium ions",
+      "A permanent state with no subsequent return to resting potential",
+      "A process unrelated to ion movement across the membrane"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Depolarisation refers to the rapid change in membrane potential during an action potential in which the inside of the neuron becomes less negative and then positive, typically driven by a rapid influx of sodium ions through voltage-gated sodium channels.",
+      "why_others_wrong": "Depolarisation specifically involves the inside becoming LESS negative (moving toward positive), not a further increase in negative charge; depolarisation is a TEMPORARY phase of the action potential, followed by repolarisation back toward resting potential, not a permanent state; depolarisation is directly caused by ion movement (sodium influx) across the membrane, not being unrelated to it.",
+      "concept_recap": "This rapid depolarisation phase is what gives the action potential its characteristic sharp, spike-like appearance when membrane potential is plotted over time."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-050",
+    "question": "Which of the following best describes 'repolarisation' of a neuron's membrane following the depolarisation phase of an action potential?",
+    "options": [
+      "A continued increase in positive charge inside the neuron, with no return toward resting potential",
+      "The process by which the membrane potential returns from its positive, depolarised state back toward the negative resting potential, typically driven by potassium ion efflux",
+      "A process that occurs before depolarisation, not after it",
+      "A process entirely unrelated to potassium ion movement"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Repolarisation is the process by which the membrane potential returns from its positive, depolarised state back toward the negative resting potential, typically driven by the efflux (outward movement) of potassium ions through voltage-gated potassium channels.",
+      "why_others_wrong": "Repolarisation specifically involves a RETURN toward negative resting potential, not a continued increase in positive charge; repolarisation occurs AFTER depolarisation in the sequence of an action potential, not before it; repolarisation is directly and significantly related to potassium ion movement (efflux), not being unrelated to it.",
+      "concept_recap": "This sequential depolarisation-then-repolarisation pattern gives the action potential its characteristic shape and ensures the neuron can return to a ready state for firing subsequent action potentials."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-051",
+    "question": "Which of the following best describes the 'refractory period,' following an action potential?",
+    "options": [
+      "A period during which the neuron can immediately generate another full action potential with no restriction",
+      "A brief period following an action potential during which the neuron is temporarily unable (or less able) to generate another action potential, helping ensure unidirectional signal propagation",
+      "A period that lasts indefinitely, with the neuron never able to fire again",
+      "A concept unrelated to action potential generation"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The refractory period is a brief period following an action potential during which the neuron is temporarily unable (absolute refractory period) or less able (relative refractory period) to generate another action potential, a mechanism that helps ensure signals propagate in one direction along the axon and limits maximum firing frequency.",
+      "why_others_wrong": "The refractory period specifically describes a period of temporarily REDUCED (not unrestricted/immediate) ability to fire again; the refractory period is a BRIEF, temporary phenomenon, not an indefinite state preventing all future firing; the refractory period has a very direct relationship to action potential generation/timing, not being unrelated to it.",
+      "concept_recap": "This refractory period mechanism is important for maintaining the orderly, one-way propagation of nerve impulses along an axon, preventing signals from inappropriately travelling backward."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-052",
+    "question": "Which of the following is a well-known neurotransmitter associated with mood regulation, and is a common target of certain antidepressant medications?",
+    "options": [
+      "Serotonin",
+      "Haemoglobin",
+      "Insulin",
+      "Collagen"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Serotonin is a well-known neurotransmitter associated with mood regulation, among other functions, and is a common target of certain antidepressant medications (such as selective serotonin reuptake inhibitors, SSRIs).",
+      "why_others_wrong": "Haemoglobin is an oxygen-carrying blood protein, unrelated to neurotransmission or mood regulation; insulin is a hormone regulating blood glucose, not a mood-related neurotransmitter; collagen is a structural protein, unrelated to neurotransmission.",
+      "concept_recap": "Medications targeting serotonin signalling (like SSRIs) work by affecting how long serotonin remains active at the synapse, illustrating a practical application of understanding synaptic neurotransmitter mechanisms."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-053",
+    "question": "Which of the following is a well-known neurotransmitter associated with reward and motivation pathways in the brain?",
+    "options": [
+      "Dopamine",
+      "Haemoglobin",
+      "Aldosterone",
+      "Collagen"
+    ],
+    "answer": "A",
+    "difficulty": "Easy",
+    "solution": {
+      "why_correct": "Dopamine is a well-known neurotransmitter closely associated with reward and motivation pathways in the brain, playing an important role in reinforcing certain behaviours.",
+      "why_others_wrong": "Haemoglobin is an oxygen-carrying blood protein, unrelated to reward/motivation neurotransmission; aldosterone is a hormone regulating sodium/water balance, not a reward-pathway neurotransmitter; collagen is a structural protein, unrelated to neurotransmission.",
+      "concept_recap": "Dysregulation of dopamine signalling pathways is implicated in various conditions, including aspects of addiction, reflecting the significant role of this neurotransmitter in reward-related behaviour."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-054",
+    "question": "Which of the following best describes the difference between grey matter and white matter within the central nervous system?",
+    "options": [
+      "Grey matter and white matter are identical, with no meaningful structural or functional distinction",
+      "Grey matter primarily consists of neuron cell bodies and unmyelinated fibres (involved in processing), while white matter primarily consists of myelinated axon fibres (involved in signal transmission between regions)",
+      "White matter is found only in the peripheral nervous system, never in the CNS",
+      "Grey matter is found only in the spinal cord, never in the brain"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "Grey matter primarily consists of neuron cell bodies, dendrites, and unmyelinated fibres, being particularly involved in processing and integrating information; white matter primarily consists of myelinated axon fibres (whose myelin gives the characteristic white appearance), being particularly involved in transmitting signals between different brain/spinal cord regions.",
+      "why_others_wrong": "There is a very clear, well-established structural and functional distinction between grey and white matter, not being identical; white matter is specifically found within the CENTRAL nervous system (brain and spinal cord), not being restricted to the peripheral nervous system; grey matter is found in BOTH the brain (e.g., cerebral cortex) and spinal cord, not being restricted only to the spinal cord.",
+      "concept_recap": "This grey matter/white matter distinction is visible on brain imaging and reflects the underlying organisation of processing centres versus connecting pathways within the central nervous system."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-055",
+    "question": "Which of the following best describes the 'corpus callosum,' a structure within the brain?",
+    "options": [
+      "A structure found in the peripheral nervous system, not the brain",
+      "A thick band of nerve fibres connecting and allowing communication between the left and right cerebral hemispheres",
+      "A structure with no relationship to communication between brain regions",
+      "The primary site of hearing processing"
+    ],
+    "answer": "B",
+    "difficulty": "Medium",
+    "solution": {
+      "why_correct": "The corpus callosum is a thick band of nerve fibres that connects the left and right cerebral hemispheres, allowing for communication and coordination of information processing between the two sides of the brain.",
+      "why_others_wrong": "The corpus callosum is specifically located within the BRAIN (a central nervous system structure), not the peripheral nervous system; the corpus callosum has a very direct, defining relationship to communication between brain regions (specifically the two hemispheres), contrary to having no such relationship; the corpus callosum is not the primary site of hearing processing (that would involve auditory cortex regions), but rather a connecting fibre bundle between hemispheres.",
+      "concept_recap": "Studies of individuals with a severed or absent corpus callosum have provided valuable insights into the specialised functions of the two cerebral hemispheres and how they normally integrate information."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  },
+  {
+    "id": "neuro-056",
+    "question": "Which of the following best describes why sensory information from one side of the body is typically processed primarily by the opposite (contralateral) side of the brain?",
+    "options": [
+      "Sensory pathways always remain entirely on the same (ipsilateral) side, with no crossing over",
+      "Many sensory (and motor) neural pathways cross over from one side of the body to the opposite side of the brain, typically at some point within the spinal cord or brainstem, resulting in this contralateral processing pattern",
+      "This contralateral pattern applies only to vision, never to touch or other sensory modalities",
+      "This pattern has no relationship to how neural pathways are organised anatomically"
+    ],
+    "answer": "B",
+    "difficulty": "Hard",
+    "solution": {
+      "why_correct": "Many sensory (and motor) neural pathways cross over from one side of the body to the opposite side of the brain, typically at specific crossing points within the spinal cord or brainstem, resulting in the characteristic contralateral processing pattern seen for many sensory modalities and motor control.",
+      "why_others_wrong": "Many pathways specifically DO cross over (contralateral organisation), contrary to always remaining entirely on the same (ipsilateral) side; this contralateral crossing pattern applies to multiple sensory modalities (including touch and others), not being limited only to vision; this pattern is very directly related to the specific anatomical organisation of neural pathway crossings, not being unrelated to it.",
+      "concept_recap": "This contralateral organisation is why damage to one side of the brain (such as from a stroke) often produces sensory or motor symptoms primarily affecting the opposite side of the body."
+    },
+    "ncertRef": "NCERT Class 11, Ch. 21"
+  }
+]
